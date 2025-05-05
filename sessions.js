@@ -407,5 +407,5 @@ const sessions = [
     }
 ];
 
-// セッション名前順でソート
+// セッション名前順でソートs
 sessions.sort((a, b) => a.title.localeCompare(b.title)); 
