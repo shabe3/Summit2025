@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S106 AI-Vision for Customer Journey Analytics</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.4rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .summary {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        .important {
+            font-size: 1.1rem;
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-left: 4px solid #0f3c78;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .faq-container {
+            margin-top: 15px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .faq-question {
+            padding: 10px 15px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            transition: transform 0.3s ease;
+        }
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        .faq-answer {
+            padding: 0 15px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .faq-item.active .faq-answer {
+            padding: 15px;
+            max-height: 500px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>S106 AI-Vision for Customer Journey Analytics</h1>
+        </header>
+
+        <div class="section">
+            <div class="summary">
+                Adobe Customer Journey Analytics（CJA）は、AIとMLを活用したデータ分析ツールを提供しています。このプレゼンテーションでは、「人間レベル」から「サイボーグレベル」まで進化するAI機能について紹介しています。
+            </div>
+            <p>
+                このセッションでは、データアナリストがより効率的にインサイトを発見し、より幅広いユーザーがデータアナリティクスを活用できるようにするための様々なAI機能が紹介されています。これらの機能は、単純な分析から高度な自律型AIエージェントまで段階的に進化しています。
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>AIレベルの段階的進化</h2>
+            <p class="summary">
+                CJAでは、AIの能力を3つのレベルに分類しています：「人間レベル」、「サイバネティックレベル」、「サイボーグレベル」。
+            </p>
+            
+            <h3>各レベルの特徴と機能</h3>
+            <ul>
+                <li><span class="highlight">人間レベル（基本レベル）</span>：アナリストがインサイトを発見し、仮説をテストするための基本的な機能。多くの操作と解釈が必要。</li>
+                <li><span class="highlight">サイバネティックレベル（中間レベル）</span>：より知的な機能で自動化と予測能力を提供。ユーザーの拡張として機能し、データ理解を加速。</li>
+                <li><span class="highlight">サイボーグレベル（上級レベル）</span>：より自律的なAI機能を提供。ユーザーと協力してインサイト生成と意思決定をサポート。</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜAIを段階的に分類しているのですか？</div>
+                    <div class="faq-answer">様々なレベルのデータ分析ニーズと意思決定をサポートするためです。基本的な分析から高度な自動化まで、ユーザーのスキルレベルや業務要件に合わせて適切なツールを提供することが目的です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. サイボーグレベルとは具体的にどのような機能ですか？</div>
+                    <div class="faq-answer">サイボーグレベルは、ユーザーとAIの「真の心の融合」を実現する機能です。より自律的なAI機能を持ち、目標主導のアクションと自動化を行います。インサイト生成と意思決定支援に特化しています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. これらの機能は既に利用可能ですか？</div>
+                    <div class="faq-answer">人間レベルとサイバネティックレベルの機能は既にCustomer Journey Analyticsで利用可能です。サイボーグレベルの機能（Data Insightsエージェントなど）は開発中で、サミット後に限定ベータ版で提供される予定です。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>人間レベルの機能</h2>
+            <p class="summary">
+                基本レベルの分析機能として、異常検出、アルゴリズム帰属分析、実験パネルがあります。
+            </p>
+            
+            <h3>主要機能の詳細</h3>
+            <ul>
+                <li><span class="underline">異常検出</span>：統計的変動を自動的に検出し、真のシグナルをノイズから分離。過去のデータウィンドウを分析し、異常値を特定します。</li>
+                <li><span class="underline">アルゴリズム帰属分析</span>：コンバージョンにおける各タッチポイントの影響を統計的に分析。ルールベースの帰属（ファーストタッチやラストタッチ）と異なり、歴史的パターンに基づいてクレジットを最適に配分します。</li>
+                <li><span class="underline">実験パネル</span>：異なる体験や活動の効果を測定し、真に効果があるものを特定します。統計的手法を用いて、バリアントが望ましい結果をもたらしているかを判断できます。</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 異常検出はどのように表示されますか？</div>
+                    <div class="faq-answer">異常値は線グラフ上に小さな点として表示され、表の中にも表示されます。設定でこれらの表示/非表示を切り替えることができます。各異常の詳細（期待値からの乖離率など）も確認できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. アルゴリズム帰属分析の利点は何ですか？</div>
+                    <div class="faq-answer">従来のラストタッチやファーストタッチ帰属では、単一のタッチポイントに100%のクレジットが割り当てられますが、アルゴリズム帰属では歴史的データに基づいて複数のタッチポイントにクレジットを分散させます。これにより、マーケティングチャネルの真の貢献度をより正確に把握できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 実験パネルの使用例を教えてください</div>
+                    <div class="faq-answer">例えば、ホテルブランドが2つの異なるチェックアウトフロー（ゲストチェックアウトオプションとアカウント作成必須）をテストする場合、実験パネルを使用して、どちらのエクスペリエンスがより高いコンバージョンを促進するかを測定できます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>サイバネティックレベルの機能</h2>
+            <p class="summary">
+                中間レベルの分析機能として、インテリジェントキャプションと予測があります。
+            </p>
+            
+            <h3>主要機能の詳細</h3>
+            <ul>
+                <li><span class="underline">インテリジェントキャプション</span>：様々な視覚化タイプに対して、生成AIを使用して自然言語でインサイトやトレンドを提供します。以前は線グラフのみの対応でしたが、現在はフロー、フォールアウト、ドーナツ、棒グラフなど多くの視覚化タイプをサポートしています。</li>
+                <li><span class="underline">時系列予測</span>：過去のトレンドに基づいてデータの今後の動向を予測します。計画、リスク管理、ベンチマーキングなどに活用できます。線グラフとフリーフォームテーブルの両方で予測を確認できます。</li>
+            </ul>
+
+            <div class="important">
+                インテリジェントキャプションは2023年に最初のバージョンがリリースされ、2024年に大幅に機能強化されました
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. インテリジェントキャプションはどのように使用しますか？</div>
+                    <div class="faq-answer">視覚化の下部にある「キャプション」ボタンをクリックするだけで、自動的にインサイトが生成されます。これらのインサイトは動的で、日付範囲を変更したりプロジェクトを更新したりすると自動的に更新されます。また、表示したいインサイトのみを選択することも可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 複数の指標の相関関係を確認できますか？</div>
+                    <div class="faq-answer">はい、線グラフに複数の指標を追加し、キャプションを生成することで、異なる指標間の関係を確認できます。例えば、イベントとセッションの相関関係などを分析できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 予測機能を使用する際の注意点はありますか？</div>
+                    <div class="faq-answer">予測には十分な履歴データが必要です。日単位などの細かい粒度を使用すると、より多くのデータポイントが得られるため、より良い予測が可能です。週単位や月単位で短期間のデータしかない場合、予測が表示されない場合があります。また、ROASなどの計算指標にも予測を適用できます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>サイボーグレベルの機能（開発中）</h2>
+            <p class="summary">
+                最上位レベルの分析機能として、Data Insightsエージェント、Data Summarizerエージェント、Brand Brainエージェント、Schema Designエージェント、Incrementalityエージェントが開発中です。
+            </p>
+            
+            <h3>主要エージェントの詳細</h3>
+            <ul>
+                <li><span class="underline">Data Insightsエージェント</span>：自然言語で質問を入力するだけで、適切なデータ視覚化を構築し、質問に回答します。データビューをスキャンし、フリーフォームテーブルにデータを表示します。</li>
+                <li><span class="underline">Data Summarizerエージェント</span>：複数の視覚化にわたるインサイトを要約し、パネル上部のテキストボックスに表示します。ユーザーはこれらのインサイトを編集し、ビジネスコンテキストを追加できます。</li>
+                <li><span class="underline">Brand Brainエージェント</span>：データがなぜ特定の方向に動いているかを理解するための外部コンテキストデータ（CPIなどの公開データや社内の信頼できるデータ）を提供します。</li>
+                <li><span class="underline">Schema Designエージェント</span>：データスキーマの設計を自動化し、最適化されたバージョンを生成します。自然言語入力やCSV、JSONファイルをアップロードして使用できます。</li>
+                <li><span class="underline">Incrementalityエージェント</span>：マーケティングイベントや行動の真の影響を特定するのに役立ちます。コンバージョンにつながるジャーニーパスを分析し、改善点を提案します。</li>
+            </ul>
+
+            <div class="important">
+                Data Insightsエージェントはサミット後に限定ベータ版でリリース予定です
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Data Insightsエージェントはどのように使用しますか？</div>
+                    <div class="faq-answer">ワークスペースでチャットアイコンをクリックし、「先月の購入を表示して」などの自然言語プロンプトを入力するだけです。エージェントは適切な指標とディメンションを選択し、最適な視覚化を構築します。既存の視覚化を更新することも可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Brand Brainエージェントのメリットは何ですか？</div>
+                    <div class="faq-answer">データの「なぜ」を理解するための外部コンテキストを提供します。消費者物価指数などの公開データや、サイトの更新、目標、競合他社の動きなどの内部データを取り込み、ビジネスの意思決定に役立つインサイトを提供します。ユーザーは異なるカテゴリのウェイトを調整でき、パーソナライズが可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. これらのエージェントはどのような技術で動作していますか？</div>
+                    <div class="faq-answer">大規模言語モデルやAdobeの独自モデルを活用しています。エンタープライズガードレールを備え、セキュリティルール、ユーザー権限、データポリシーに準拠しています。また、顧客間でのクロストレーニングは行われず、データはセキュアに保護されています。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>主要用語と解説</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>解説</th>
+                </tr>
+                <tr>
+                    <td>CJA</td>
+                    <td>Customer Journey Analytics。顧客ジャーニーを分析するためのAdobeのツール。</td>
+                </tr>
+                <tr>
+                    <td>異常検出</td>
+                    <td>統計的手法を用いて、データの中で予期しない変動を自動的に検出する機能。</td>
+                </tr>
+                <tr>
+                    <td>アルゴリズム帰属分析</td>
+                    <td>統計的手法を使用して、コンバージョンに対する各タッチポイントの貢献度を最適に配分する分析方法。</td>
+                </tr>
+                <tr>
+                    <td>実験パネル</td>
+                    <td>異なるバリアントの効果を測定し、統計的に有意な差を検出するためのツール。</td>
+                </tr>
+                <tr>
+                    <td>インテリジェントキャプション</td>
+                    <td>生成AIを使用して、データの視覚化から自然言語のインサイトを自動的に生成する機能。</td>
+                </tr>
+                <tr>
+                    <td>Data Insightsエージェント</td>
+                    <td>自然言語のプロンプトからデータ視覚化を自動的に構築するAIエージェント。</td>
+                </tr>
+                <tr>
+                    <td>Brand Brain</td>
+                    <td>外部コンテキストデータを取り込み、データトレンドの「なぜ」を理解するのに役立つツール。</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <p>S106 AI-Vision for Customer Journey Analytics</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                question.addEventListener('click', function() {
+                    item.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

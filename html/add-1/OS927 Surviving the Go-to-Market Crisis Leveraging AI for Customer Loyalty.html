@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS927 Surviving the Go-to-Market Crisis Leveraging AI for Customer Loyalty</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 25px 0;
+            color: #0f3c78;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .summary {
+            font-style: italic;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #0f3c78;
+            margin-bottom: 20px;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-question:after {
+            content: '+';
+            font-size: 20px;
+            color: #0f3c78;
+        }
+        
+        .faq-question.active:after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            padding: 0 10px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .faq-question.active + .faq-answer {
+            max-height: 500px;
+            padding: 10px;
+            padding-top: 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>マーケティング危機を乗り切る：AIを活用した顧客ロイヤルティ戦略</h1>
+        </header>
+        
+        <div class="section">
+            <div class="summary">
+                現代のマーケティング組織は「ゴートゥーマーケット危機」に直面しています。顧客獲得コスト上昇、市場の不安定性、注目獲得の困難さという課題に対し、AIを活用した顧客維持・ロイヤルティ構築が解決策になります。ゼロパーティデータと一次パーティデータを活用し、パーソナライズされたコンテンツを作成することで、マーケティング効果を最大化する方法を解説します。
+            </div>
+            
+            <p>このプレゼンテーションはKaltura社のGonzalo Winterによる、マーケティング危機を生き抜くためのAI活用術についての講演です。Kalturaはビデオテクノロジー企業として、世界中の大企業のビデオ体験をサポートしています。</p>
+        </div>
+        
+        <div class="section">
+            <h2>現代のマーケティング危機</h2>
+            
+            <div class="summary">
+                マーケターは顧客獲得コスト上昇と市場の不安定性という二重の課題に直面しています。この状況では新規顧客獲得よりも既存顧客の維持と育成がより重要かつ費用対効果の高い戦略となります。
+            </div>
+            
+            <h3>現在の課題</h3>
+            <ul>
+                <li><span class="highlight">顧客獲得コストの上昇</span> - コンテンツ過多により顧客の注目を獲得するのが困難になっています</li>
+                <li><span class="highlight">市場の不安定性</span> - 世界的な課題に直面し、マーケティング戦略の実行が複雑化しています</li>
+                <li><span class="highlight">コンバージョンファネルの障害</span> - 注目度の低下が変換率に悪影響を与えています</li>
+            </ul>
+            
+            <div class="important">
+                顧客を維持する方が新規獲得するよりも<span class="underline">コスト効率が高い</span>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ顧客獲得コストが上昇しているのですか？</div>
+                    <div class="faq-answer">デジタル空間のコンテンツ量が増加し、消費者の注意力が分散しているためです。これにより、マーケティングメッセージが届きにくくなり、コンバージョンに至るまでのプロセスが複雑化しています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 顧客維持がなぜ新規獲得より重要なのですか？</div>
+                    <div class="faq-answer">既存顧客の維持・育成は新規顧客獲得よりもコスト効率が良く、安定した収益をもたらします。また、既存顧客は企業の製品やサービスに既に価値を見出しているため、アップセルやクロスセルの機会が多いのです。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 市場の不安定性にどう対応すべきですか？</div>
+                    <div class="faq-answer">データに基づいた意思決定、顧客との強い関係構築、柔軟なマーケティング戦略の採用が重要です。AIツールを活用することで、変化する市場に迅速に対応することができます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>意図の識別とデータ活用</h2>
+            
+            <div class="summary">
+                顧客の購買意図を正確に識別することがマーケティング成功の鍵です。ゼロパーティデータと一次パーティデータを効果的に収集・分析することで、顧客に最適なタイミングで最適なメッセージを届けることができます。
+            </div>
+            
+            <h3>二種類の重要データ</h3>
+            <ul>
+                <li><span class="highlight">ゼロパーティデータ</span> - 顧客が自発的に提供する情報（アンケート、クイズ、登録フォームなど）</li>
+                <li><span class="highlight">一次パーティデータ</span> - 顧客の行動から直接収集するデータ（ウェブサイト閲覧履歴、ウェビナー視聴時間など）</li>
+            </ul>
+            
+            <h3>効果的なメッセージング</h3>
+            <p>データの収集だけでは不十分です。重要なのは、「なぜ顧客がこのメッセージに関心を持つのか」という視点です。データ部分（いつ顧客にリーチするか）とコンテンツ部分（どのようなメッセージを届けるか）のバランスが成功への鍵となります。</p>
+            
+            <div class="important">
+                適切なタイミングで<span class="underline">パーソナライズされた体験</span>を提供する
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. ゼロパーティデータをどうやって収集すればよいですか？</div>
+                    <div class="faq-answer">アンケート、クイズ、登録フォーム、プリファレンスセンターなどを通じて、顧客が自発的に情報を提供できる機会を作ることが重要です。魅力的なインセンティブを提供することで、顧客の参加意欲を高めることができます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 一次パーティデータと三次パーティデータの違いは何ですか？</div>
+                    <div class="faq-answer">一次パーティデータは、自社が直接収集する顧客データ（サイト訪問、購入履歴など）です。三次パーティデータは、別の企業が収集し提供するデータで、プライバシー規制により使用が制限されつつあります。一次パーティデータはより信頼性が高く、規制リスクが低いという利点があります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 顧客の意図をどのように測定しますか？</div>
+                    <div class="faq-answer">ウェブサイトでの行動（ページ閲覧、滞在時間、ダウンロードなど）、エンゲージメント指標（メール開封率、クリック率）、コンテンツ消費パターン、購入履歴などを通じて測定できます。これらのデータポイントを組み合わせることで、顧客の購買意図をより正確に把握できます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>AIを活用したコンテンツ再利用と拡張</h2>
+            
+            <div class="summary">
+                既存コンテンツの価値を最大化するには、AIを活用した効率的なコンテンツ再利用戦略が不可欠です。ウェビナーやイベントを複数のフォーマットに変換し、マーケティングチャネル全体で活用することで、顧客とのタッチポイントを増やし、より多くのデータを収集できます。
+            </div>
+            
+            <h3>コンテンツ再利用の重要性</h3>
+            <ul>
+                <li>ウェビナーやイベントを<span class="highlight">ソーシャルメディア用ショートクリップ</span>に変換</li>
+                <li>AIを活用して<span class="highlight">ハイライト、要約、クイズ</span>を自動生成</li>
+                <li>複数のタッチポイントを作成し、顧客の<span class="highlight">エンゲージメントデータ</span>を継続的に収集</li>
+            </ul>
+            
+            <h3>成功事例</h3>
+            <ul>
+                <li><span class="highlight">NetSuite</span> - 年間300回のウェビナーをAIでパーソナライズし、顧客獲得と製品採用を促進</li>
+                <li><span class="highlight">Salesforce</span> - Kalturaと連携してイベントストリーミングのエンゲージメントを536%向上</li>
+                <li><span class="highlight">Nike</span> - デジタルハブを通じてインタラクティブなコミュニティを構築し、顧客ロイヤルティを強化</li>
+            </ul>
+            
+            <div class="important">
+                AIで<span class="underline">パーソナライズと拡張性</span>を両立
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのようにウェビナーコンテンツを効果的に再利用できますか？</div>
+                    <div class="faq-answer">ウェビナーを短いクリップに分割する、ブログ記事に変換する、インフォグラフィックスを作成する、ポッドキャストとして提供する、eBookやホワイトペーパーに発展させるなどの方法があります。AIツールを使用すれば、これらのプロセスを自動化できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. コミュニティ構築がB2Bマーケティングにどう役立ちますか？</div>
+                    <div class="faq-answer">B2Bコミュニティは顧客同士の交流を促進し、製品の使用方法や成功事例の共有を可能にします。これにより顧客満足度とロイヤルティが向上し、チャーンレートが低下します。また、コミュニティからの直接フィードバックは製品開発にも役立ちます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIをコンテンツ戦略にどう組み込むべきですか？</div>
+                    <div class="faq-answer">AIを活用してコンテンツの作成（ドラフト生成、編集）、最適化（A/Bテスト、パーソナライゼーション）、配信（最適なタイミング選定）、分析（パフォーマンス測定、インサイト抽出）を強化できます。ただし、AIは魔法の杖ではなく、人間の創造性と戦略的思考を補完するツールとして位置づけるべきです。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>マーケティング戦略の3つの重要ステップ</h2>
+            
+            <div class="summary">
+                マーケティング危機を乗り越え、顧客ロイヤルティを構築するためには、データ活用、AI活用、体験の一元化という3つの重要なステップを実行する必要があります。
+            </div>
+            
+            <ol>
+                <li><span class="highlight">データ活用の最大化</span>
+                    <ul>
+                        <li>ゼロパーティデータと一次パーティデータの両方を収集・活用</li>
+                        <li>顧客が自発的に情報を提供する機会を積極的に創出</li>
+                        <li>エンゲージメントツールを活用して顧客行動を追跡</li>
+                    </ul>
+                </li>
+                <li><span class="highlight">AIのパーソナライゼーションとスケール</span>
+                    <ul>
+                        <li>AIを活用してコンテンツをパーソナライズ</li>
+                        <li>リアルタイムのエンゲージメント追跡</li>
+                        <li>既存コンテンツの再利用と価値最大化</li>
+                    </ul>
+                </li>
+                <li><span class="highlight">デジタル体験の一元化</span>
+                    <ul>
+                        <li>すべてのデジタル体験を一つのハブに集約</li>
+                        <li>コミュニティ体験を促進し顧客同士の交流を活性化</li>
+                        <li>長期的なロイヤルティを育成</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <div class="important">
+                AIは魔法の杖ではないが<span class="underline">重要なツール</span>である
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. デジタル体験を一元化する具体的な方法は？</div>
+                    <div class="faq-answer">顧客ポータルやコミュニティプラットフォームの構築、統合されたコンテンツハブの開発、シングルサインオン機能の実装、一貫したブランドエクスペリエンスの提供などが有効です。技術的には、APIを活用した異なるシステム間の統合やカスタマージャーニーマッピングに基づいた設計が重要です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 小規模企業でもこれらの戦略を実行できますか？</div>
+                    <div class="faq-answer">はい、可能です。小規模企業は初めから全てを実装する必要はなく、優先順位を付けて段階的に取り組むことができます。例えば、まずはシンプルなフォームでゼロパーティデータの収集から始め、無料や低コストのAIツールを活用し、既存のプラットフォーム（SNSグループなど）を活用してコミュニティを構築するなどの方法があります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIを活用する際の注意点は？</div>
+                    <div class="faq-answer">AIは優れたツールですが、完全に自動化するのではなく、人間の監督と創造性を組み合わせることが重要です。また、データプライバシーと倫理的配慮を常に念頭に置き、顧客データの収集と使用に関する透明性を確保する必要があります。AIモデルのバイアスにも注意し、定期的に結果を評価・調整することをお勧めします。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要用語・事実リスト</h2>
+            
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>Kaltura</td>
+                    <td>ビデオテクノロジー企業。Salesforce、Adobe、Bloomberg、AWS等の大企業にビデオ体験を提供</td>
+                </tr>
+                <tr>
+                    <td>ゴートゥーマーケット危機</td>
+                    <td>顧客獲得コスト上昇、市場の不安定性、注目獲得の困難さによる現代のマーケティング課題</td>
+                </tr>
+                <tr>
+                    <td>ゼロパーティデータ</td>
+                    <td>顧客が自発的に提供する情報（アンケート、登録フォーム、プリファレンス設定など）</td>
+                </tr>
+                <tr>
+                    <td>一次パーティデータ</td>
+                    <td>企業が直接収集する顧客行動データ（ウェブサイト訪問履歴、コンテンツ視聴時間など）</td>
+                </tr>
+                <tr>
+                    <td>コンテンツ再利用</td>
+                    <td>既存コンテンツを複数のフォーマットに変換し、多様なチャネルで活用する戦略</td>
+                </tr>
+                <tr>
+                    <td>顧客ロイヤルティ</td>
+                    <td>顧客の長期的な支持と継続的な関係を構築すること</td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            <p>出典: Adobe Summit プレゼンテーション - Gonzalo Winter (Kaltura)</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.faq-question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

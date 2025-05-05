@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S109 Identity Twisters Become an Identity Wrangler Across Devices and Channels</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #0f3c78;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 24px;
+        }
+        section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .summary {
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        .important {
+            font-size: 1.1rem;
+            text-align: center;
+            margin: 24px 0;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0f3c78;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .faq-container {
+            margin: 20px 0;
+        }
+        .faq-item {
+            margin-bottom: 12px;
+        }
+        .faq-question {
+            background-color: #eef2f8;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+        .faq-question::after {
+            content: '+';
+            font-size: 18px;
+            color: #0f3c78;
+        }
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        .faq-answer {
+            display: none;
+            padding: 12px;
+            background-color: #f9f9f9;
+            border-radius: 0 0 6px 6px;
+            margin-top: -6px;
+        }
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>アイデンティティ・トゥイスター：デバイスとチャネルを横断するアイデンティティ管理</h1>
+
+        <section>
+            <div class="summary">
+                本セッションでは、デバイスやチャネルを横断するユーザー識別（アイデンティティ）の管理方法について解説します。効果的なアイデンティティ戦略の構築と、Customer Journey Analytics（CJA）を活用した横断的な顧客体験の分析方法を紹介します。
+            </div>
+            
+            <p>現代のデジタルマーケティングでは、顧客が様々なチャネル（ウェブ、モバイル、実店舗、コールセンターなど）を通じて企業とやり取りする中で、一貫した顧客体験を提供することが重要です。そのためには、異なるチャネルやデバイスを横断して顧客を正確に識別する「アイデンティティ管理」が不可欠となります。</p>
+        </section>
+
+        <section>
+            <h2>アイデンティティとは</h2>
+            <div class="summary">
+                アイデンティティとは、個人とその人が関わるチャネルとの間のリンクを表すものです。顧客中心のパーソナライズされた体験を提供するために必須の要素です。
+            </div>
+            
+            <h3>アイデンティティの種類と特性</h3>
+            <ul>
+                <li><span class="underline">耐久性のあるID</span>：長期間変化しない安定した識別子（顧客ID、CRM ID、アカウント番号など）</li>
+                <li><span class="underline">耐久性のないID</span>：時間の経過とともに変化する可能性がある識別子（Cookie ID、デバイスIDなど）</li>
+                <li>バンクの支店では顧客IDや取引ID、ウェブサイトでは匿名ユーザーにはECIDなどが使われる</li>
+                <li>コールセンターでは顧客IDや電話番号などの情報が利用される</li>
+            </ul>
+            
+            <p class="important">目標は、できるだけ多くのチャネルで<span class="highlight">耐久性のあるID</span>を使用して、顧客の完全な像を把握すること</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ耐久性のあるIDが重要なのですか？</div>
+                    <div class="faq-answer">
+                        耐久性のあるIDは時間経過や環境変化に関わらず安定しているため、顧客の長期的な行動パターンを正確に追跡できます。これにより、デバイスやセッションが変わっても同一顧客として認識し、一貫した体験を提供できます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 匿名ユーザーから既知ユーザーへの移行をどう促進すべきですか？</div>
+                    <div class="faq-answer">
+                        割引や特典の提供、金利情報の提示などのインセンティブを通じて、ユーザーにメールアドレスなどの情報を提供してもらうことが効果的です。小さなステップから始めて、徐々に顧客との関係を構築していくことが重要です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. アイデンティティ管理の目的は何ですか？</div>
+                    <div class="faq-answer">
+                        アイデンティティ管理の目的は、複数のチャネルやデバイスを通じて顧客と関わる際に、一貫した個人化された体験を提供することです。これにより、顧客理解の向上、マーケティング効率の改善、顧客満足度の向上が実現します。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>アイデンティティ戦略</h2>
+            <div class="summary">
+                効果的なアイデンティティ戦略は、顧客識別子を適切に管理し、データセット、システム、チャネル間の関係を確立します。これにより、あらゆる接点を捉え、つなげることが可能になります。
+            </div>
+            
+            <h3>アイデンティティ戦略の利点</h3>
+            <ul>
+                <li><span class="underline">運用効率</span>：冗長なデータ処理と保存を削減</li>
+                <li><span class="underline">規制遵守</span>：プライバシー法や管理基準への準拠</li>
+                <li><span class="underline">将来への備え</span>：あらゆる接点で顧客とともに進化する能力</li>
+                <li><span class="underline">体験の強化</span>：Customer Journey Analyticsでの行動理解によるパーソナライゼーションの向上</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 良いアイデンティティ戦略の特徴は何ですか？</div>
+                    <div class="faq-answer">
+                        良いアイデンティティ戦略は、プライマリIDの明確な定義、複数のチャネルにわたる一貫した識別方法、プライバシー規制への遵守、そして柔軟性と拡張性を持ち、将来のチャネルやタッチポイントにも対応できるものです。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ウェルズ・ファーゴではどのような課題があったのですか？</div>
+                    <div class="faq-answer">
+                        ウェルズ・ファーゴでは、顧客が口座開設プロセスの中で複数のオファーコード、マーケティングコード、アプリケーションIDなど様々な識別子を持つことがあり、これらを統合して顧客の全体像を把握することが難しいという課題がありました。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 共有デバイスの問題とは何ですか？</div>
+                    <div class="faq-answer">
+                        共有デバイスとは、複数の人が同じデバイスを使用してログインする状況（家族のコンピュータ、キオスク、コールセンターなど）のことです。この場合、デバイスIDだけでは誰がそのデバイスを使用しているかを特定できず、マーケティング効果の測定や適切なリマーケティングが困難になります。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Customer Journey Analytics（CJA）におけるアイデンティティ</h2>
+            <div class="summary">
+                CJAでは、アイデンティティに基づいてデータセットを接続し、チャネル横断的な分析を実現します。効果的なデータ接続のためには、適切なアイデンティティ選択とスティッチング（識別子の統合）が重要です。
+            </div>
+            
+            <h3>スティッチング（Stitching）の種類</h3>
+            <ul>
+                <li><span class="underline">フィールドベースのスティッチング</span>：単一のデータセット内の識別子を使用して、未認証イベントを認証済みユーザーに関連付ける</li>
+                <li><span class="underline">グラフベースのスティッチング</span>：Adobe Experience Platformのアイデンティティグラフを活用し、複数のデータソースから関係を見つけて識別子を統合する</li>
+                <li>どちらの方法も、データを複数回通過させることで、過去のイベントも再生（リプレイ）して正しいユーザーに関連付ける</li>
+            </ul>
+            
+            <p class="important">グラフベースのスティッチングを使用すると、異なるデータセットを同じIDに揃えることができ、チャネル横断的な顧客ジャーニーの追跡が可能になります</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJAでのアイデンティティ設定はどこから始めるべきですか？</div>
+                    <div class="faq-answer">
+                        CJAでのアイデンティティ設定は、Adobe Experience Platform（AEP）でのスキーマ設定から始まります。ここでプライマリIDとネームスペースを設定し、それがCJAのデータ接続にも反映されます。まずは現在のデータセットにどのようなIDが存在し、どれくらい普及しているかを評価することが重要です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. スティッチングの「リプレイ」とは何ですか？</div>
+                    <div class="faq-answer">
+                        リプレイとは、新しく学習したIDマッピング情報を使って過去のデータを再処理することです。例えば、最初は匿名だったユーザーが後でログインした場合、そのログイン前の行動も同じユーザーIDに関連付けることができます。これは日次または7日、14日、30日のルックバック期間で実行されます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ウェルズ・ファーゴがグラフベースのスティッチングを選んだ理由は？</div>
+                    <div class="faq-answer">
+                        ウェルズ・ファーゴでは、イベントデータに異なる識別子が含まれており、単一のIDを宣言するだけではデータ行が失われてしまう問題がありました。グラフベースのスティッチングを使用することで、データ行を保持しながら異なるデータセットを結合することが可能になりました。また、共有デバイスの問題も解決する必要がありました。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>実装の課題と解決策</h2>
+            <div class="summary">
+                アイデンティティ管理の実装には様々な課題がありますが、適切な評価とツールを使用することで解決できます。
+            </div>
+            
+            <h3>ウェルズ・ファーゴの事例</h3>
+            <ul>
+                <li>共有デバイスの問題：予想以上に多くの顧客が同じデバイスを共有していた</li>
+                <li>電子メールや電話番号の共有：同じ顧客が複数のアカウントで異なる連絡先情報を使用</li>
+                <li>認証のタイミング：97%のトラフィックが7日以内に認証されていることが判明</li>
+                <li>ID「ペナルティボックス」の導入：不適切なID統合を解消するツール</li>
+                <li>IDシミュレータの活用：さまざまなシナリオをシミュレートし、IDの階層を設定</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 共有デバイスをどのように評価できますか？</div>
+                    <div class="faq-answer">
+                        共有デバイスの評価は、(1)共有されているデバイスの数を特定し、(2)それらのデバイスから来るイベントの割合を計算し、(3)その中の匿名イベントの割合を分析し、(4)誤分類される可能性のあるイベントの総割合を算出するという4段階のプロセスで行います。セッションでは、この分析を行うためのクエリが提供されています。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. IDシミュレータとは何ですか？</div>
+                    <div class="faq-answer">
+                        IDシミュレータは、Adobe Experience Platformで提供されるツールで、異なるシナリオ（デバイス間での顧客の行動、メールアドレスの共有など）をシミュレートし、IDがどのように統合または分離されるかを確認できます。また、IDが統合されないようにするルールや、IDの階層を設定することも可能です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. グラフベースのスティッチングを実装する際のポイントは？</div>
+                    <div class="faq-answer">
+                        グラフベースのスティッチングを実装する際のポイントは、(1)異なるIDを持つイベントデータがある場合はグラフベースのスティッチングを選択すること、(2)IDシミュレータを活用してシナリオをテストすること、(3)統合してはいけないIDを明確にすること、(4)IDの階層を設定することなどが挙げられます。初期ロード時に過去データをバックフィルできることも重要です。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>重要な用語と概念</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>アイデンティティ</td>
+                    <td>個人とそのチャネルとの間のリンクを表す識別子</td>
+                </tr>
+                <tr>
+                    <td>耐久性のあるID</td>
+                    <td>長期間変化しない安定した識別子（顧客ID、CRM ID、アカウント番号など）</td>
+                </tr>
+                <tr>
+                    <td>耐久性のないID</td>
+                    <td>時間の経過とともに変化する可能性がある識別子（Cookie ID、デバイスIDなど）</td>
+                </tr>
+                <tr>
+                    <td>Customer Journey Analytics (CJA)</td>
+                    <td>Adobe Experience Platformのデータを使用して、チャネル横断的な顧客ジャーニーを分析するツール</td>
+                </tr>
+                <tr>
+                    <td>スティッチング</td>
+                    <td>異なるデータソースやチャネルから得られる識別子を統合するプロセス</td>
+                </tr>
+                <tr>
+                    <td>フィールドベースのスティッチング</td>
+                    <td>単一のデータセット内の識別子を使用して、未認証イベントを認証済みユーザーに関連付ける方法</td>
+                </tr>
+                <tr>
+                    <td>グラフベースのスティッチング</td>
+                    <td>Adobe Experience Platformのアイデンティティグラフを活用し、複数のデータソースから関係を見つけて識別子を統合する方法</td>
+                </tr>
+                <tr>
+                    <td>リプレイ</td>
+                    <td>新しく学習したIDマッピング情報を使って過去のデータを再処理すること</td>
+                </tr>
+                <tr>
+                    <td>共有デバイス</td>
+                    <td>複数の人が同じデバイスを使用してログインする状況（家族のコンピュータ、キオスク、コールセンターなど）</td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <p>出典: Adobe Summit セッション - S109 Identity Twisters: Become an Identity Wrangler Across Devices and Channels</p>
+        </footer>
+    </div>
+
+    <script>
+        const faqItems = document.querySelectorAll('.faq-item');
+        
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            
+            question.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

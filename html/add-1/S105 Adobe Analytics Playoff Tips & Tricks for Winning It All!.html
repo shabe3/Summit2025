@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S105 Adobe Analytics Playoff Tips & Tricks for Winning It All!</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 15px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        
+        .summary {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-top: 20px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        
+        .important {
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+        
+        .faq-container {
+            margin-top: 15px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            cursor: pointer;
+            position: relative;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background-color: #f2f8fd;
+            border-radius: 0 0 4px 4px;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Analytics プレイオフ：勝利のためのヒントとテクニック</h1>
+        </header>
+        
+        <div class="summary">
+            <h2>セッション概要</h2>
+            <p>この「Adobe Analytics プレイオフ」セッションでは、Adobe AnalyticsとCustomer Journey Analytics（CJA）のスイートツール内での最新の機能と活用方法が紹介されています。プレゼンテーションは「ボウルゲーム」のフォーマットで構成され、ナビゲーション、民主化、異なるデータ、および分析の拡張に関する主要機能をカバーしています。最終的に、これらの機能の中から参加者投票によってチャンピオン機能が選出されました。</p>
+        </div>
+        
+        <section>
+            <h2>フラワーボウル：ナビゲーション機能</h2>
+            <p>Analysisワークスペースでのナビゲーションを容易にする新機能が紹介されました。</p>
+            
+            <h3>主な機能</h3>
+            <ul>
+                <li><span class="highlight">目次機能</span> - 左側のレールにビジュアライゼーションを自動的に整理し、クリック可能な目次として表示。</li>
+                <li><span class="highlight">フリーフォームハイパーリンク</span> - テーブル内のURLをクリック可能なハイパーリンクに変換する機能。</li>
+                <li><span class="highlight">プロジェクトコメント</span> - 右側のレールにコメント機能を追加し、プロジェクト内の特定のビジュアライゼーションに対してコメントを付けることが可能。5月リリース予定。</li>
+            </ul>
+            
+            <p class="important">投票の結果、<span class="underline">目次機能</span>がフラワーボウルの勝者に選ばれました。</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 目次機能はどのように動作しますか？</div>
+                    <div class="faq-answer">目次機能は左側のレールに自動的に表示され、プロジェクト内のすべてのビジュアライゼーション名を反映します。ビジュアライゼーション名を変更すると、目次も動的に更新されます。また、セクションヘッダーを使用してビジュアライゼーションをカテゴリごとに整理することも可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. フリーフォームハイパーリンクはどのように作成しますか？</div>
+                    <div class="faq-answer">ディメンション項目を右クリックして「ハイパーリンクを作成」を選択します。ディメンション値を使用する、カスタムURLを指定する、または動的リンクを使用するという3つのオプションがあります。テーブル全体にハイパーリンクを適用することも可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. プロジェクトコメント機能はどんな利点がありますか？</div>
+                    <div class="faq-answer">プロジェクトコメント機能を使用すると、プロジェクト全体またはプロジェクト内の特定のビジュアライゼーションに対してコメントを付けることができます。これにより、分析について文脈に沿った議論ができ、他のユーザーを特定の分析やビジュアライゼーションに誘導できます。</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>グレープフルーツボウル：民主化機能</h2>
+            <p>ユーザーをより迅速にオンボードし、データへのアクセスを容易にする機能が紹介されました。</p>
+            
+            <h3>主な機能</h3>
+            <ul>
+                <li><span class="highlight">ワークスペーステンプレート</span> - テンプレート表示が改善され、カードビューやプレビュー機能が追加されました。特にCJAでは非Web系データ用の新テンプレートも用意。</li>
+                <li><span class="highlight">アセット転送</span> - Adobe AnalyticsからCJAに移行したユーザー向けに、プロジェクトや計算指標などのアセットを組織内の他のユーザーに配布できる機能。</li>
+                <li><span class="highlight">AIアシスタント</span> - CJAでの分析質問に対して、実際のビジュアライゼーションとフリーフォームテーブルを生成するAI機能。</li>
+            </ul>
+            
+            <p class="important">投票の結果、<span class="underline">AIアシスタント</span>がグレープフルーツボウルの勝者に選ばれました。</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. ワークスペーステンプレートはどのような改善がありましたか？</div>
+                    <div class="faq-answer">新しいテンプレート表示には、視覚的に魅力的なカードビューが追加されました。各テンプレートには、説明、使用理由、含まれるコンポーネント、関連テンプレート、およびスクリーンショットのプレビュー機能があります。CJAでは、コールセンターやPOSなど非Web系データ用の新テンプレートも追加されています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. アセット転送ツールはどのように使用しますか？</div>
+                    <div class="faq-answer">CJA内のツールドロップダウンからアセット転送にアクセスし、転送したいプロジェクト、フィルター、計算指標などを選択します。次に、組織内の転送先のユーザーを選択して転送を実行します。これにより、アセットの所有権が移転します。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIアシスタントでどのような分析が可能ですか？</div>
+                    <div class="faq-answer">AIアシスタントに「10月の購入を表示」や「9月と10月の製品カテゴリ別購入を比較」などの質問をするだけで、適切なビジュアライゼーションとフリーフォームテーブルが自動生成されます。既存の質問に「利益を追加」などの要求をして分析を拡張することも可能です。</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>シエスタボウル：異なるデータ機能</h2>
+            <p>様々なデータソースを分析できる新しい方法が紹介されました。</p>
+            
+            <h3>主な機能</h3>
+            <ul>
+                <li><span class="highlight">AJO（Adobe Journey Optimizer）とCJAのレポート統合</span> - AJOとCJA間でワークスペースレポートを相互に活用できる機能。</li>
+                <li><span class="highlight">サマリーデータソース</span> - イベントレベルデータとサマリーデータを組み合わせた分析が可能に。広告費用や印象データなどを既存のイベントデータと統合できます。</li>
+                <li><span class="highlight">製品使用状況レポート</span> - 組織内のAdobe Analyticsユーザー活動、使用中のプロジェクト、コンポーネントなどを分析できる機能。</li>
+            </ul>
+            
+            <p class="important">投票の結果、<span class="underline">AJOとCJAのレポート統合</span>がシエスタボウルの勝者に選ばれました。</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. AJOとCJAのレポート統合はどのようなメリットがありますか？</div>
+                    <div class="faq-answer">AJO内のジャーニー、キャンペーン、概要レポートなどにCJAの分析エンジンが組み込まれているため、数値の一貫性が保たれます。AJOのレポートをCJAで開いて修正し、テンプレートとして保存すると、AJO側でもカスタマイズしたレポートを利用できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. サマリーデータソースはどのようにセットアップしますか？</div>
+                    <div class="faq-answer">AEP（Adobe Experience Platform）でサマリーデータスキーマを設定し、CJAの接続に追加します。その後、派生フィールドでサマリーデータグループを設定し、イベントデータとサマリーデータを組み合わせた計算指標を作成できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 製品使用状況レポートで何がわかりますか？</div>
+                    <div class="faq-answer">組織内のトップユーザー、セッション数、イベント数、使用されているプロジェクトタイプ、使用されている（または使用されていない）コンポーネントなどを確認できます。これにより、不要なプロジェクトやコンポーネントの整理や、特定のユーザーへのトレーニングなどを効率的に行えます。</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>シルクボウル：拡張分析機能</h2>
+            <p>新しい方法でデータを分析する機能が紹介されました。</p>
+            
+            <h3>主な機能</h3>
+            <ul>
+                <li><span class="highlight">ジャーニーキャンバス</span> - ユーザージャーニーを視覚的に作成・分析できる新しいビジュアライゼーション。分岐するファネルやマルチパスジャーニーの分析が可能。</li>
+                <li><span class="highlight">BIエクステンション</span> - Power BI、Tableau、Lookerなどの外部BIツールでCJAデータを活用できる機能。</li>
+                <li><span class="highlight">ガイド付き分析の埋め込み</span> - ガイド付き分析をAnalysisワークスペースプロジェクト内に埋め込む機能。</li>
+            </ul>
+            
+            <p class="important">投票の結果、<span class="underline">ジャーニーキャンバス</span>がシルクボウルの勝者に選ばれました。</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. ジャーニーキャンバスの主な特徴は何ですか？</div>
+                    <div class="faq-answer">ジャーニーキャンバスでは、ディメンション項目やメトリックをドラッグして「ノード」を作成し、それらを線で接続してユーザージャーニーを表現できます。複数の経路（分岐ファネル）を作成したり、特定のノードでのブレイクダウン分析を行ったりすることも可能です。これにより、定型的な直線的ファネルでは捉えられない複雑なユーザー行動を分析できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. BIエクステンションはどのツールをサポートしていますか？</div>
+                    <div class="faq-answer">Power BI、Tableau、Looker、MicroStrategy、Jupiter notebooks、RStudioがサポートされています。AEPから認証情報を取得し、それをBIツールに入力することで、CJAのデータビュー、計算指標、日付範囲などをBIツール内で利用できるようになります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ガイド付き分析の埋め込みはどのように機能しますか？</div>
+                    <div class="faq-answer">Analysisワークスペースの左側のレールにあるガイド付き分析アイコンをクリックし、リリースの影響トラッキングなどの分析タイプを選択してドラッグします。既存のガイド付き分析を再利用したり、ワークスペースプロジェクト内の他のビジュアライゼーションと組み合わせて表示したりすることができます。</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>開発中の新機能</h2>
+            <p>現在開発中で将来リリースされる可能性のある機能が紹介されました。</p>
+            
+            <h3>主な開発中機能</h3>
+            <ul>
+                <li><span class="highlight">セカンダリソート</span> - フリーフォームテーブルで複数の列による複合的なソートが可能に。</li>
+                <li><span class="highlight">相関マトリックス</span> - ディメンション項目間の相関関係やオーバーラップを視覚化する新しいビジュアライゼーション。</li>
+                <li><span class="highlight">インタラクティブトレーニングチュートリアル</span> - 新規ユーザー向けにAnalysisワークスペースの使い方をガイドするインタラクティブチュートリアル。</li>
+            </ul>
+            
+            <p class="important">投票の結果、<span class="underline">相関マトリックス</span>が最も期待される開発中機能に選ばれました。</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. セカンダリソートはどのように機能しますか？</div>
+                    <div class="faq-answer">高度なソートオプションを使用して、複数のソートルールを設定できます。例えば、アカウント番号を小さい順から大きい順に並べ、その中でIMSユーザーメールをA-Z順にソートするなどの複合的なソートが可能になります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 相関マトリックスはどのような分析に役立ちますか？</div>
+                    <div class="faq-answer">相関マトリックスには相関分析とオーバーラップ（共起）分析の2つのモードがあります。相関分析ではディメンション項目間の相関度を確認でき、オーバーラップ分析ではどの製品や機能が一緒に使用されているかなどのバスケット分析が可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. インタラクティブトレーニングチュートリアルの特徴は何ですか？</div>
+                    <div class="faq-answer">ユーザーがAnalysisワークスペースの使い方を学ぶためのガイド付き体験を提供します。何をクリックすべきかを示し、正しい操作をしたかどうかリアルタイムでフィードバックが表示されます。これにより、新規ユーザーは管理者の手を借りずに自分でAnalysisワークスペースの使い方を学ぶことができます。</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>チャンピオン機能</h2>
+            <p>すべてのセッションを通じて、参加者の投票によって最終的なチャンピオン機能が選出されました。</p>
+            
+            <div class="important">
+                大会の総合優勝者は<span class="highlight underline">AIアシスタント</span>でした！
+            </div>
+            
+            <p>AIアシスタントはCJAユーザーが自然言語で分析質問を行い、適切なビジュアライゼーションとデータテーブルを自動生成できる強力な機能です。初心者ユーザーから上級者まで、データ分析を劇的に簡素化します。</p>
+        </section>
+        
+        <section>
+            <h2>主要用語と機能の一覧</h2>
+            <table>
+                <tr>
+                    <th>用語/機能</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>目次機能</td>
+                    <td>Analysisワークスペースの左側レールに自動生成される、プロジェクト内のビジュアライゼーション一覧。</td>
+                </tr>
+                <tr>
+                    <td>フリーフォームハイパーリンク</td>
+                    <td>テーブル内のURL文字列をクリック可能なリンクに変換する機能。</td>
+                </tr>
+                <tr>
+                    <td>プロジェクトコメント</td>
+                    <td>プロジェクト全体または特定のビジュアライゼーションにコメントを追加できる機能。</td>
+                </tr>
+                <tr>
+                    <td>AIアシスタント</td>
+                    <td>自然言語での質問に対してビジュアライゼーションとデータテーブルを自動生成するCJA機能。</td>
+                </tr>
+                <tr>
+                    <td>ジャーニーキャンバス</td>
+                    <td>複雑なユーザージャーニーを視覚化して分析できるCJAの新しいビジュアライゼーション。</td>
+                </tr>
+                <tr>
+                    <td>サマリーデータソース</td>
+                    <td>イベントレベルデータと集計データを組み合わせた分析を可能にするCJA機能。</td>
+                </tr>
+                <tr>
+                    <td>CJA</td>
+                    <td>Customer Journey Analytics - クロスチャネルデータを分析するためのAdobe Experience Platformベースの分析ツール。</td>
+                </tr>
+                <tr>
+                    <td>AJO</td>
+                    <td>Adobe Journey Optimizer - カスタマージャーニーを管理するためのAdobe製品。</td>
+                </tr>
+            </table>
+        </section>
+        
+        <footer>
+            出典：S105 Adobe Analytics Playoff Tips & Tricks for Winning It All!.mov.txt
+        </footer>
+    </div>
+    
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentNode;
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

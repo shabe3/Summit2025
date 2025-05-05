@@ -278,6 +278,132 @@ const sessions = [
         titleJa: "S939 グローバルB2B企業が生成AIで顧客エンゲージメントを拡大した方法",
         htmlFile: "html/S939 How a Global B2B Company Expanded Customer Engagement with Gen AI.html",
         audioFile: "voice_mp3/S939.mp3"
+    },
+    {
+        id: "S101",
+        title: "S101 2025 Adobe Analytics Rockstars Top Tips and Tricks",
+        titleJa: "S101 2025 Adobe Analyticsロックスター：トップのヒントとコツ",
+        htmlFile: "html/add-1/S101 2025 Adobe Analytics Rockstars Top Tips and Tricks.html",
+        audioFile: "voice_mp3/add-1/S101.mp3"
+    },
+    {
+        id: "S103",
+        title: "S103 8-Bit Insights The Customer Journey Analytics Tips and Tricks Arcade",
+        titleJa: "S103 8ビットインサイト：Customer Journey Analyticsのヒントとコツアーケード",
+        htmlFile: "html/add-1/S103 8-Bit Insights The Customer Journey Analytics Tips and Tricks Arcade.html",
+        audioFile: "voice_mp3/add-1/S103.mp3"
+    },
+    {
+        id: "S104",
+        title: "S104 Distilling the Content Cocktail Discover Ingredients That Convert",
+        titleJa: "S104 コンテンツカクテルの蒸留：コンバージョンを生み出す要素の発見",
+        htmlFile: "html/add-1/S104 Distilling the Content Cocktail Discover Ingredients That Convert.html",
+        audioFile: "voice_mp3/add-1/S104.mp3"
+    },
+    {
+        id: "S105",
+        title: "S105 Adobe Analytics Playoff Tips & Tricks for Winning It All!",
+        titleJa: "S105 Adobe Analyticsプレーオフ：勝利するためのヒントとコツ！",
+        htmlFile: "html/add-1/S105 Adobe Analytics Playoff Tips & Tricks for Winning It All!.html",
+        audioFile: "voice_mp3/add-1/S105.mp3"
+    },
+    {
+        id: "S106",
+        title: "S106 AI-Vision for Customer Journey Analytics",
+        titleJa: "S106 Customer Journey AnalyticsのためのAIビジョン",
+        htmlFile: "html/add-1/S106 AI-Vision for Customer Journey Analytics.html",
+        audioFile: "voice_mp3/add-1/S106.mp3"
+    },
+    {
+        id: "S107",
+        title: "S107 Practical Magic How AI Modeling Transforms Marketing Planning and Measurement",
+        titleJa: "S107 実用的な魔法：AIモデリングがマーケティング計画と測定を変革する方法",
+        htmlFile: "html/add-1/S107 Practical Magic How AI Modeling Transforms Marketing Planning and Measurement.html",
+        audioFile: "voice_mp3/add-1/S107.mp3"
+    },
+    {
+        id: "S108",
+        title: "S108 Accelerate Your Revenue Marketing and Sales Cycle with Customer Journey Analytics B2B Edition",
+        titleJa: "S108 Customer Journey Analytics B2B Editionで収益マーケティングと販売サイクルを加速",
+        htmlFile: "html/add-1/S108 Accelerate Your Revenue Marketing and Sales Cycle with Customer Journey Analytics B2B Edition.html",
+        audioFile: "voice_mp3/add-1/S108.mp3"
+    },
+    {
+        id: "S109",
+        title: "S109 Identity Twisters Become an Identity Wrangler Across Devices and Channels",
+        titleJa: "S109 アイデンティティツイスター：デバイスとチャネル間のアイデンティティ管理者になる",
+        htmlFile: "html/add-1/S109 Identity Twisters Become an Identity Wrangler Across Devices and Channels.html",
+        audioFile: "voice_mp3/add-1/S109.mp3"
+    },
+    {
+        id: "S111",
+        title: "S111 Ctrl Alt Shift Evolving to Customer Journey Analytics",
+        titleJa: "S111 Ctrl Alt Shift：Customer Journey Analyticsへの進化",
+        htmlFile: "html/add-1/S111 Ctrl Alt Shift Evolving to Customer Journey Analytics.html",
+        audioFile: "voice_mp3/add-1/S111.mp3"
+    },
+    {
+        id: "S112",
+        title: "S112 Amplify Your Customer Analytics From Chess with Pawns to Power Plays",
+        titleJa: "S112 顧客分析を増幅：ポーンでチェスからパワープレイへ",
+        htmlFile: "html/add-1/S112 Amplify Your Customer Analytics From Chess with Pawns to Power Plays.html",
+        audioFile: "voice_mp3/add-1/S112.mp3"
+    },
+    {
+        id: "S113",
+        title: "S113 Move-in Ready Adobe Customer Journey Analytics Your Dream Implementation",
+        titleJa: "S113 すぐに使える Adobe Customer Journey Analytics：理想的な実装",
+        htmlFile: "html/add-1/S113 Move-in Ready Adobe Customer Journey Analytics Your Dream Implementation.html",
+        audioFile: "voice_mp3/add-1/S113.mp3"
+    },
+    {
+        id: "S201",
+        title: "S201 Marketo Engage and Journey Optimizer B2B Edition Roadmap and Innovations",
+        titleJa: "S201 Marketo EngageとJourney Optimizer B2B Editionのロードマップとイノベーション",
+        htmlFile: "html/add-1/S201 Marketo Engage and Journey Optimizer B2B Edition Roadmap and Innovations.html",
+        audioFile: "voice_mp3/add-1/S201.mp3"
+    },
+    {
+        id: "S202",
+        title: "S202 Journey Optimizer B2B Edition Roadmap The AI Future of Account Orchestration",
+        titleJa: "S202 Journey Optimizer B2B Editionロードマップ：アカウントオーケストレーションのAIの未来",
+        htmlFile: "html/add-1/S202 Journey Optimizer B2B Edition Roadmap The AI Future of Account Orchestration.html",
+        audioFile: "voice_mp3/add-1/S202.mp3"
+    },
+    {
+        id: "S203",
+        title: "S203 Boost Webinar ROI with GenAI Innovations for Interactive Webinars",
+        titleJa: "S203 インタラクティブウェビナーのための生成AIイノベーションでウェビナーのROIを向上",
+        htmlFile: "html/add-1/S203 Boost Webinar ROI with GenAI Innovations for Interactive Webinars.html",
+        audioFile: "voice_mp3/add-1/S203.mp3"
+    },
+    {
+        id: "OS925",
+        title: "OS925 Adobe Webflow How Marketers use AI to Build, Manage & Optimize Websites",
+        titleJa: "OS925 Adobe Webflow：マーケターがAIを使用してウェブサイトを構築、管理、最適化する方法",
+        htmlFile: "html/add-1/OS925 Adobe Webflow How Marketers use AI to Build, Manage & Optimize Websites.html",
+        audioFile: "voice_mp3/add-1/OS925.mp3"
+    },
+    {
+        id: "OS926",
+        title: "OS926 Super charge Your Social Commerce with Adobe Meta",
+        titleJa: "OS926 Adobe Metaでソーシャルコマースを強化",
+        htmlFile: "html/add-1/OS926 Super charge Your Social Commerce with Adobe Meta.html",
+        audioFile: "voice_mp3/add-1/OS926.mp3"
+    },
+    {
+        id: "OS927",
+        title: "OS927 Surviving the Go-to-Market Crisis Leveraging AI for Customer Loyalty",
+        titleJa: "OS927 市場投入の危機を乗り切る：顧客ロイヤルティのためのAI活用",
+        htmlFile: "html/add-1/OS927 Surviving the Go-to-Market Crisis Leveraging AI for Customer Loyalty.html",
+        audioFile: "voice_mp3/add-1/OS927.mp3"
+    },
+    {
+        id: "OS928",
+        title: "OS928 A Proven Framework to Boost Campaign Creation Speed",
+        titleJa: "OS928 キャンペーン作成速度を向上させるための実証済みフレームワーク",
+        htmlFile: "html/add-1/OS928 A Proven Framework to Boost Campaign Creation Speed.html",
+        audioFile: "voice_mp3/add-1/OS928.mp3"
     }
 ];
 

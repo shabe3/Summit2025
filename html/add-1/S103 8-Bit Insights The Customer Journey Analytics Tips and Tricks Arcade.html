@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Journey Analytics Tips and Tricks 2025</title>
+<style>
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    color: #0f3c78;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .summary {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #0f3c78;
+    border-bottom: 2px solid #0f3c78;
+    padding-bottom: 5px;
+    margin-top: 0;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .highlight {
+    background-color: #fff3cd;
+    padding: 2px 4px;
+  }
+  
+  .underline {
+    border-bottom: 2px solid #0f3c78;
+  }
+  
+  .important {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .faq-container {
+    margin-top: 15px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .faq-question {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  .faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-question.active::after {
+    content: "-";
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Customer Journey Analytics (CJA)<br>最新ヒントとテクニック 2025</h1>
+    
+    <div class="summary">
+      <h2>セッションサマリー</h2>
+      <p>Adobe Summit 2025のこのセッションでは、Customer Journey Analytics (CJA)の最新機能と効果的な活用法が紹介されました。データ制限の克服、派生フィールドの活用、CJA設定の最適化、そしてデータの視覚化について、実用的なヒントとロードマップ情報が共有されました。参加者はインタラクティブなゲームを通じて学びながら、賞品も獲得できる楽しい構成となっています。</p>
+    </div>
+    
+    <div class="section">
+      <h2>セクション1: データ制限の克服</h2>
+      <p>CJAの機能を最大限に活用し、データの制限を超えるための重要なヒントです。</p>
+      
+      <h3>1. サマリーデータソース</h3>
+      <ul>
+        <li>マーケティングキャンペーンコスト、広告費用対効果(ROAS)の計算が可能</li>
+        <li>企業目標の進捗状況やソーシャルメディアのパフォーマンス指標を取り込める</li>
+        <li>特別なスキーマを使用し、イベントデータと要約データを関連付けられる</li>
+      </ul>
+      
+      <h3>2. 製品使用データ</h3>
+      <ul>
+        <li>組織内でのCJAの利用状況を分析する機能</li>
+        <li>最も人気のあるプロジェクト、よく使われる指標・ディメンション、最もアクティブなユーザーを確認可能</li>
+        <li>設定は簡単で、プラットフォームに取り込まれるデータに関連するコストのみ</li>
+      </ul>
+      
+      <h3>3. 共有メトリクスとディメンション（近日リリース予定）</h3>
+      <ul>
+        <li>複数のデータビュー間でメトリクスとディメンションを共有できる機能</li>
+        <li>一度設定すれば、変更が全てのデータビューに自動的に反映される</li>
+        <li>多数のデータビューを持つ大規模な組織の管理負担を大幅に軽減</li>
+      </ul>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">Q. サマリーデータソースはどのような問題を解決しますか？</div>
+          <div class="faq-answer">マーケティングキャンペーンコストの報告、広告費用対効果(ROAS)の計算、企業目標の進捗状況の測定、ソーシャルメディアのパフォーマンス指標の取り込みなど、外部データをCJAに統合する際の課題を解決します。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. 製品使用データの主な利点は何ですか？</div>
+          <div class="faq-answer">組織内でのCJAの使用状況を詳細に把握でき、最も人気のあるプロジェクト、よく使われるコンポーネント、最もアクティブなユーザーなどを特定できます。これにより、CJAの採用率向上や効果的な使用を促進できます。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. 共有メトリクスとディメンションはいつ利用できるようになりますか？</div>
+          <div class="faq-answer">セッション時点から数週間以内にリリース予定です。この機能により、複数のデータビュー間でコンポーネントを共有し、一箇所で変更を行えば全てのデータビューに反映されるようになります。</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>セクション2: 派生フィールドの活用</h2>
+      <p>派生フィールド（Derived Fields）を使って、遡及的かつ非破壊的なデータ操作を行うための高度なテクニックです。</p>
+      
+      <h3>1. ユーザー状態変化メトリクス</h3>
+      <ul>
+        <li>ユーザーが一つの状態から別の状態に移行した際のメトリクスを作成（例：シルバー会員からゴールド会員へのアップグレード）</li>
+        <li>next/previous関数と連結（concatenate）機能を使用して実装</li>
+        <li>状態変化を引き起こしたマーケティングチャネルの特定が可能</li>
+      </ul>
+      
+      <h3>2. 派生メトリクス</h3>
+      <ul>
+        <li>計算メトリクスの制限を克服し、どこでも使用可能（セグメント内、実験内など）</li>
+        <li>標準メトリクスと同様に扱われるため、様々な場所で活用できる</li>
+        <li>例：価格合計から返金額を差し引いた「総収益」の作成</li>
+      </ul>
+      
+      <h3>3. パディングディメンション</h3>
+      <ul>
+        <li>ユーザーが辿った最も一般的なパスをフリーフォームテーブルで表示</li>
+        <li>next/previous関数を複数回使用して実装</li>
+        <li>絵文字を含めることも可能で、視覚的にパスを表現できる</li>
+      </ul>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">Q. ユーザー状態変化メトリクスはどのように役立ちますか？</div>
+          <div class="faq-answer">ユーザーが一つの状態から別の状態（例：無料会員から有料会員、シルバーからゴールドへのアップグレードなど）に移行した際のイベントを計測できます。また、どのマーケティングチャネルがこうした状態変化に貢献しているかを特定でき、効果的なマーケティング戦略の立案に役立ちます。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. 派生メトリクスと計算メトリクスの違いは何ですか？</div>
+          <div class="faq-answer">計算メトリクスは使用場所に制限があり、セグメントや実験内では使用できません。一方、派生メトリクスは標準メトリクスと同様に扱われるため、どこでも使用できます。これにより、より柔軟で強力な分析が可能になります。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. パディングディメンションでできることを具体的に教えてください。</div>
+          <div class="faq-answer">ユーザーが辿った詳細なパスを視覚化し、特定のパスがどのような重要指標に結びついているかを分析できます。また、複雑な順次セグメントを作成することなく、特定のパスを辿ったユーザーのセグメントを簡単に作成することも可能です。</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>セクション3: CJA設定の最適化</h2>
+      <p>CJAの設定を効率的に行い、一般的な課題を克服するためのヒントです。</p>
+      
+      <h3>1. CJAアップグレードガイド</h3>
+      <ul>
+        <li>組織に合わせたCJAへのアップグレードパスを提供するツール</li>
+        <li>既存のAnalytics実装からの移行を支援</li>
+        <li>ステップごとの詳細な説明と推定所要時間を提供</li>
+      </ul>
+      
+      <h3>2. スマートなボットフィルタリング</h3>
+      <ul>
+        <li>Advanced Query Service（データディスティラー）を活用した高度なボット検出</li>
+        <li>統計的手法を用いて、イベントの頻度やタイミングからボットを識別</li>
+        <li>プロファイルデータセットとして追加することで、レポート速度への影響を最小限に抑える</li>
+      </ul>
+      
+      <h3>3. AIアシスタント</h3>
+      <ul>
+        <li>CJAに関する質問に答え、関連ドキュメントを提供</li>
+        <li>Adobe Experience Platformの全体で利用可能</li>
+        <li>回答だけでなく、情報源となるExperience Leagueページへのリンクも提供</li>
+      </ul>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">Q. CJAアップグレードガイドはどこで見つけられますか？</div>
+          <div class="faq-answer">CJA内の左側メニューから「Upgrade to Customer Journey Analytics」をクリックすることでアクセスできます。組織の状況に合わせた質問に答えることで、カスタマイズされたアップグレードパスが提供されます。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. スマートなボットフィルタリングはどのようにレポート速度を改善しますか？</div>
+          <div class="faq-answer">従来の複雑なボットセグメントは処理に時間がかかりましたが、この方法ではQuery Serviceで事前に処理したボット識別結果をプロファイルデータセットとして追加するため、シンプルなセグメントで高速に処理できます。また、統計的手法を用いることで、より効果的にボットを検出できます。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. AIアシスタントはどのような質問に答えられますか？</div>
+          <div class="faq-answer">派生フィールドとは何か、接続の設定方法など、CJAに関する幅広い質問に答えることができます。また、Adobe Experience Platform全体に関する質問にも対応します。回答と共に、詳細情報が掲載されているExperience Leagueページへのリンクも提供されます。</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>セクション4: データの視覚化</h2>
+      <p>CJAのデータを効果的に視覚化し、インサイトを引き出すための最新テクニックです。</p>
+      
+      <h3>1. ジャーニーキャンバス</h3>
+      <ul>
+        <li>複雑な多段階ファネルを視覚化できる新しいビジュアライゼーション</li>
+        <li>任意のディメンション項目をキャンバスにドラッグ＆ドロップして接続</li>
+        <li>多段階の分岐ファネルを作成でき、後からステップを追加・変更可能</li>
+      </ul>
+      
+      <h3>2. ガイド付き分析</h3>
+      <ul>
+        <li>全ユーザーが利用可能になった11種類の分析テンプレート</li>
+        <li>新しいユーザーに親しみやすいレイアウトとガイド付きアプローチを提供</li>
+        <li>リリースインパクト分析、アクティブ成長分析、タイムライン分析など</li>
+      </ul>
+      
+      <h3>3. コンテンツ分析（近日リリース）</h3>
+      <ul>
+        <li>サイト上のクリエイティブアセットのパフォーマンスを分析</li>
+        <li>AIを活用して画像の属性を自動分析</li>
+        <li>アセットの変換率やクリック数など、さまざまな指標で効果を測定</li>
+      </ul>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">Q. ジャーニーキャンバスとフロー/フォールアウトレポートの違いは何ですか？</div>
+          <div class="faq-answer">ジャーニーキャンバスは、フローレポートとフォールアウトレポートの良い点を組み合わせたものです。無限のキャンバススペースにディメンション項目を自由に配置し、接続することで、複雑な多段階・分岐ファネルを視覚化できます。また、後からステップを追加・変更しても自動的に再計算されるなど、より柔軟で強力な機能を備えています。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. ガイド付き分析のメリットは何ですか？</div>
+          <div class="faq-answer">ガイド付き分析は、Analysis Workspaceでは再現が難しい特殊なレポートを簡単に作成できます。新しいユーザーにも親しみやすいレイアウトで、アクティブ成長分析やリリースインパクト分析など、特定のユースケースに特化した11種類のテンプレートを提供します。これらは通常のワークスペースプロジェクト内のビジュアライゼーションやパネルとしても使用できます。</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Q. コンテンツ分析はいつ利用できるようになりますか？</div>
+          <div class="faq-answer">セッション時点から数週間以内にリリース予定です。この機能では、サイト上のクリエイティブアセット（画像など）のパフォーマンスを分析でき、AIが自動的に画像の属性（色など）を分析します。これにより、クリエイティブチームは自分たちが作成した画像の効果を詳細に把握できるようになります。</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>今後のロードマップ</h2>
+      <p>CJAの今後の開発予定機能についての情報です。</p>
+      
+      <ul>
+        <li><span class="highlight">並列ディメンション</span>：ブレークダウンを使用する代わりに、複数のディメンションを並べて表示（数か月以内にリリース予定）</li>
+        <li><span class="highlight">リアルタイムパネル</span>：Adobe Analyticsと同様のリアルタイム機能（2025年8月リリース予定）</li>
+        <li><span class="highlight">B2B</span>：B2Bマーケティングチーム向けの新しい分析オプション（2025年リリース予定）</li>
+        <li><span class="highlight">CJAウェアハウスミラー</span>：ウェアハウス（Snowflake、Databricks、BigQuery）と同期する機能（2025年9月リリース予定）</li>
+        <li><span class="highlight">データ分析エージェント</span>：AIを活用してレポート作成やビジュアライゼーション構築を支援</li>
+        <li><span class="highlight">次世代データフィード</span>：現代的なウェアハウスデータ共有技術を使用したデータフィード</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>重要用語解説</h2>
+      <table>
+        <tr>
+          <th>用語</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>CJA (Customer Journey Analytics)</td>
+          <td>Adobe Experience Platformの上に構築された次世代アプリケーション。複数のソースからデータを取り込み、ユーザー識別を統合して分析できる</td>
+        </tr>
+        <tr>
+          <td>サマリーデータソース</td>
+          <td>マーケティングキャンペーンコストやソーシャルメディアのパフォーマンス指標などの外部データをCJAに取り込む機能</td>
+        </tr>
+        <tr>
+          <td>派生フィールド (Derived Fields)</td>
+          <td>遡及的かつ非破壊的なデータ操作を可能にする機能。クエリ時にデータを定義・変更できる</td>
+        </tr>
+        <tr>
+          <td>ジャーニーキャンバス</td>
+          <td>複雑な多段階ファネルを視覚化できる新しいビジュアライゼーション。フローレポートとフォールアウトレポートの良い点を組み合わせたもの</td>
+        </tr>
+        <tr>
+          <td>ガイド付き分析</td>
+          <td>特定のユースケースに特化した11種類の分析テンプレート。新しいユーザーにも使いやすいレイアウトを提供</td>
+        </tr>
+        <tr>
+          <td>コンテンツ分析</td>
+          <td>クリエイティブアセットのパフォーマンスを分析する近日リリース予定の機能。AIを活用して画像の属性を自動分析</td>
+        </tr>
+      </table>
+    </div>
+    
+    <footer>
+      © Adobe Summit 2025 - Customer Journey Analytics Tips and Tricks Arcade
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const questions = document.querySelectorAll('.faq-question');
+      
+      questions.forEach(question => {
+        question.addEventListener('click', function() {
+          this.classList.toggle('active');
+          const answer = this.nextElementSibling;
+          
+          if (answer.style.display === 'block') {
+            answer.style.display = 'none';
+          } else {
+            answer.style.display = 'block';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

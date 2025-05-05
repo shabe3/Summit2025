@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S101 2025 Adobe Analytics Rockstars Top Tips and Tricks</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 24px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .summary {
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 2px;
+        }
+        .important {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 24px 0;
+            font-weight: bold;
+        }
+        .faq-container {
+            margin-top: 16px;
+        }
+        .faq-item {
+            margin-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        .faq-question {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 8px;
+            position: relative;
+        }
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 8px;
+            transition: transform 0.3s ease;
+        }
+        .faq-question.active::after {
+            content: '-';
+        }
+        .faq-answer {
+            display: none;
+            padding: 8px 8px 16px 8px;
+        }
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #0f3c78;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Analytics Rockstars - トップティップスと裏技</h1>
+        </header>
+
+        <div class="section">
+            <div class="summary">
+                2025年のAdobe Analyticsロックスターセッションでは、4人のエキスパートが8つの革新的なティップスを紹介しました。各コンテスタントは2つのティップスを共有し、最後にはホールオブフェーム入りのアナウンスもありました。
+            </div>
+            
+            <p>Adobe Analytics Rockstarsは、アナリティクスのエキスパートが革新的なティップスとテクニックを競い合うセッションです。今年は4人のコンテスタントが参加し、それぞれが10分間で2つのティップスを紹介しました。</p>
+            <ul>
+                <li>Jeff Bloomberg（Blue Meringue Analytics）</li>
+                <li>Jen Duncan（Torstar、トロント）</li>
+                <li>Mandy George（前回のロックスター優勝者）</li>
+                <li>Trent Thanh（West Ex Consulting）</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>ティップ1: 内部キャンペーンIDの高度な追跡とレポート（Jeff Bloomberg）</h2>
+            <div class="summary">
+                内部キャンペーンIDを使用して、高精度な追跡とレポート作成を実現する方法を紹介。マーケティングチャネルを乱すことなく、内部プロモーションのインパクトを測定できます。
+            </div>
+            
+            <h3>内部キャンペーンID（ICI ID）の構造</h3>
+            <ul>
+                <li><span class="highlight">1つのコンバージョン変数（eVar）</span>を使用し、有効期限を最低6日間に設定</li>
+                <li>ICI IDの構文は5つの主要フィールドで構成：
+                    <ul>
+                        <li>組織/サイト名（AWK）</li>
+                        <li>プラットフォーム（ウェブサイト、モバイルアプリなど）</li>
+                        <li>タクティック（ヒーロー画像、リンク、ナビゲーションなど）</li>
+                        <li>配置場所（コンテンツの物理的な位置）</li>
+                        <li>コンテンツ（リンクしているアイテムのタイトル、20文字以内）</li>
+                    </ul>
+                </li>
+                <li>例：<span class="underline">AWK-WEB-SPOT-HOMEPAGE-GEN STUDIO</span></li>
+            </ul>
+
+            <h3>実装方法</h3>
+            <ul>
+                <li>プロセッシングルールを設定してクエリストリングパラメータ「ICI」を検出</li>
+                <li>CJAの場合は派生フィールドを使用してURLを解析</li>
+                <li>正規表現（regex）を使用して情報を分類し、レポートを簡素化</li>
+                <li>Adobe Analyticsの「タグ」機能を使ってコンポーネントをグループ化（「#ICIIDs」などのタグを使用）</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ内部キャンペーンIDが重要なのですか？</div>
+                    <div class="faq-answer">
+                        内部キャンペーンIDは、内部プロモーションやサードパーティとの関係が収益にどのように貢献しているかを示すために重要です。これにより、マーケティングチャネルレポートを乱すことなく、内部ナビゲーションやプロモーションの効果を明確に把握できます。通常のナビゲーション追跡と分離することで、より正確な分析が可能になります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのように正規表現（regex）を使って分類するのですか？</div>
+                    <div class="faq-answer">
+                        正規表現を使用すると、ICI IDの各部分（組織、プラットフォーム、タクティック、配置場所、コンテンツ）を別々の分類やCJAの派生フィールドに分解できます。これにより、分析者はより簡単に各要素ごとのパフォーマンスを分析できるようになります。分類ルールを一度設定すれば、以降はシステムが自動的に新しいICI IDを分類します。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. この方法と通常のキャンペーントラッキングの違いは何ですか？</div>
+                    <div class="faq-answer">
+                        この方法の最大の違いは、内部キャンペーンと外部キャンペーンを明確に分離できることです。通常の外部キャンペーントラッキングはマーケティングチャネルに影響しますが、この内部キャンペーンID方式では、内部プロモーションを別のeVarで追跡するため、マーケティング分析を混乱させることなく内部コンテンツの効果を測定できます。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ティップ2: コンテンツ日付によるレポート作成（Jen Duncan）</h2>
+            <div class="summary">
+                トラッキングが発生する日付と、コンテンツが実際に関連する日付は異なります。この問題を解決するために、分類とダイナミックドロップダウンを活用する方法を紹介します。
+            </div>
+            
+            <h3>課題とソリューション</h3>
+            <ul>
+                <li>課題：コンテンツ日付（記事の公開日など）はAdobe Analyticsではテキストとして保存され、日付範囲の比較ができない</li>
+                <li><span class="highlight">ソリューション</span>：
+                    <ul>
+                        <li>ISO 8601などの標準日付形式で日付を追跡</li>
+                        <li>分類を作成して個別の値（年、月、日）と組み合わせ値を抽出</li>
+                        <li>正規表現ルールを使って分類を自動化</li>
+                    </ul>
+                </li>
+                <li><span class="underline">ダイナミックドロップダウン</span>：Shiftキーを押しながらディメンションをドラッグして簡単に作成可能</li>
+                <li>CJAでは日付がDateTime型として保存されるため、より柔軟なレポート作成が可能</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのような場合にコンテンツ日付の追跡が重要になりますか？</div>
+                    <div class="faq-answer">
+                        パブリッシング業界では記事の公開日に関係なく長期間アクセスされるコンテンツや、予約システムで実際の配送日より前にトラッキングが発生する場合などに重要です。このような状況では、実際のコンテンツの日付（公開日や配送日など）に基づいてレポートを作成したいケースが多くあります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ個々の値（年、月、日）だけでなく組み合わせ値も重要なのですか？</div>
+                    <div class="faq-answer">
+                        例えば「30日」だけを選択すると、11月30日と12月30日の両方が表示されてしまいます。組み合わせ値（年-月-日など）を使用することで、特定の日付や日付範囲だけを正確に絞り込むことができます。これにより、月をまたいだり年をまたいだりする分析が容易になります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJAと通常のAdobe Analyticsでの実装の違いは何ですか？</div>
+                    <div class="faq-answer">
+                        CJAでは日付がDateTime型として保存されるため、より自然に日付操作ができます。大小比較や日付範囲の指定が容易で、日付のフォーマットも自由に変更できます。一方、Adobe Analyticsではテキストとして保存されるため、分類とセグメントを駆使して同様の機能を実現する必要があります。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ティップ3: 加重比較の計算（Mandy George）</h2>
+            <div class="summary">
+                前年比などの変化を分析する際に、どの項目が変化に最も大きく寄与しているかを正確に把握するための加重比較指標の作成方法を紹介します。
+            </div>
+            
+            <h3>加重比較の計算方法</h3>
+            <ul>
+                <li>加重比較 = (行の生変化 ÷ カテゴリ全体の生変化) × カテゴリ全体の変化率</li>
+                <li>ステップ1: <span class="highlight">各行の生変化を計算</span>（現在期間 − 前期間）</li>
+                <li>ステップ2: <span class="highlight">カテゴリ全体の生変化を計算</span>（グランドトータルとして設定）</li>
+                <li>ステップ3: <span class="highlight">カテゴリ全体の変化率を計算</span>（グランドトータルとして設定）</li>
+                <li>ステップ4: <span class="underline">これらを組み合わせて加重比較を計算</span></li>
+                <li>拡張: ベーシスポイント（10,000倍）に変換して理解しやすく</li>
+                <li>拡張: 絶対値を使用して改善/低下に関わらず変化の大きさを比較</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 通常の変化率と加重比較の違いは何ですか？</div>
+                    <div class="faq-answer">
+                        通常の変化率では、トラフィックの少ない項目でも変化率が大きければ上位に表示されます。一方、加重比較では変化の大きさと項目のサイズの両方を考慮するため、全体の変化に実質的に寄与している重要な項目を特定できます。これにより、「どの項目が全体の8.45%の成長のうち3.36%を占めているか」などの分析が可能になります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜベーシスポイントに変換するのですか？</div>
+                    <div class="faq-answer">
+                        パーセントのパーセントという表現は理解しにくいため、ベーシスポイント（1%の100分の1）に変換することで、より直感的に理解できるようになります。具体的には、計算結果に10,000を掛け、小数点をなくします。例えば3.36%は336ベーシスポイントとなり、より明確に変化の大きさを表現できます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 絶対値を使う目的は何ですか？</div>
+                    <div class="faq-answer">
+                        絶対値を使用すると、プラスの変化（改善）とマイナスの変化（低下）の大きさを同じスケールで比較できます。これにより、「この項目は全体にどれだけ影響を与えているか」という視点で分析でき、改善している項目と低下している項目の両方を重要性に基づいて適切に評価できます。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ティップ4: Journey Canvasを使ったサイトリデザインの分析（Trent Thanh）</h2>
+            <div class="summary">
+                CJAのJourney Canvasを使用して、サイトのリデザイン前後のユーザージャーニーを比較・分析する方法を紹介します。
+            </div>
+            
+            <h3>分析手順</h3>
+            <ul>
+                <li>各ジャーニーのステップと期間ごとに<span class="highlight">セグメントを作成</span>（日付範囲フィルターを活用）</li>
+                <li>Journey Canvasにセグメントをドラッグ＆ドロップしてノードとして配置</li>
+                <li>リデザイン版と旧版を並べて比較し、<span class="underline">各ステップの変換率の違い</span>を分析</li>
+                <li>ノードを右クリックして「ノードからフィルターを作成」を選択し、<span class="highlight">シーケンシャルセグメント</span>を簡単に作成</li>
+                <li>データをトレンド表示して時間経過に伴う変化を確認</li>
+            </ul>
+
+            <div class="important">
+                Journey Canvasの大きな利点は、他のグラフと異なり、主要指標を変更できることです
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Journey Canvasとフォールアウトチャートやフローチャートの違いは何ですか？</div>
+                    <div class="faq-answer">
+                        Journey Canvasの最大の違いは、主要指標を変更できることです。フォールアウトチャートやフローチャートでは通常、訪問回数やユーザー数などの固定指標しか使用できませんが、Journey Canvasでは任意の指標（計算指標を含む）を使用できるため、より柔軟な分析が可能です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. セグメント内で日付範囲フィルターを使用する利点は何ですか？</div>
+                    <div class="faq-answer">
+                        セグメント内で日付範囲フィルターを使用すると、同じJourney Canvas内で異なる期間のデータを並べて比較できます。例えば、リデザイン前後の期間を別々のセグメントとして定義し、同じキャンバス上で並べて表示することで、視覚的に明確な比較が可能になります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. シーケンシャルセグメントを簡単に作成する方法はありますか？</div>
+                    <div class="faq-answer">
+                        はい、Journey Canvas内でノードを右クリックして「ノードからフィルターを作成」を選択すると、そこまでのパスを含むシーケンシャルセグメントが自動的に作成されます。これにより、従来は手動で一つずつ構築していた複雑なシーケンシャルセグメントを簡単に作成できます。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ティップ5: 回帰分析で欠損データを推定（Mandy George）</h2>
+            <div class="summary">
+                解析バグや障害によってデータが欠損した場合に、回帰分析を使用して影響を推定する方法を紹介します。
+            </div>
+            
+            <h3>回帰分析の手順</h3>
+            <ul>
+                <li>ステップ1: <span class="highlight">比較期間を決定</span>（障害が発生する前の、できるだけ最近で長い期間）</li>
+                <li>ステップ2: 日付範囲をヒットレベルのセグメントに落とし込む</li>
+                <li>ステップ3: <span class="underline">相関係数関数</span>を使って変数間の関係を把握し、最適な予測変数を選択</li>
+                <li>ステップ4: <span class="highlight">傾き（slope）を計算</span></li>
+                <li>ステップ5: <span class="highlight">切片（intercept）を計算</span></li>
+                <li>ステップ6: y = ax + b の式に基づいて回帰を計算</li>
+                <li>拡張: 平均注文額を掛けて収益への影響を推定</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 適切な予測変数はどのように選べばよいですか？</div>
+                    <div class="faq-answer">
+                        相関係数（correlation coefficient）を使用して複数の変数をテストし、もっとも相関の高い（1に近い値を持つ）変数を選びます。例えば、注文数を予測したい場合、訪問数やカート追加数などの変数で相関係数を計算し、もっとも高い値を示す変数（例：カート追加数）を予測変数として使用します。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 回帰の種類はどのように選べばよいですか？</div>
+                    <div class="faq-answer">
+                        Adobe Analyticsでは6種類の回帰モデル（線形、対数など）が提供されています。それぞれのモデルで相関係数を計算し、最も相関の高いモデルを選びます。一般的には、変数の関係が直線的であれば線形回帰、直線的でなければ対数回帰などが適しています。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. この方法はどの程度正確ですか？</div>
+                    <div class="faq-answer">
+                        この方法は完全に正確ではありませんが、予測変数との相関が高ければかなり近い推定値が得られます。比較期間が長いほど、また選んだ予測変数との相関が高いほど、推定の精度が上がります。ビジネスへの影響を概算するには十分な精度があり、特に障害の影響を金銭的に評価する必要がある場合に役立ちます。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ティップ6: Journey Canvasを使ったマーケティングチャネルの分析（Trent Thanh）</h2>
+            <div class="summary">
+                CJAのJourney Canvasを活用して、マーケティングチャネルごとの強みと弱みを分析し、最適な組み合わせを見つける方法を紹介します。
+            </div>
+            
+            <h3>分析ポイント</h3>
+            <ul>
+                <li>バスケットボールチームのように、各マーケティングチャネルには<span class="highlight">異なる役割と強み</span>がある</li>
+                <li>Journey Canvasで<span class="underline">複数のマーケティングチャネルのパス</span>を並べて表示</li>
+                <li>最終ノードを右クリックして任意のディメンション（製品SKUなど）で分解</li>
+                <li>チャットボットとの対話など、<span class="highlight">追加のセグメント</span>を接続して影響を分析</li>
+                <li>パーセント値の表示を切り替えて、各ステップの変換率を比較</li>
+                <li>右クリックメニューからさまざまな分析オプションを活用</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. マーケティングチャネルの「役割」とは具体的に何を指しますか？</div>
+                    <div class="faq-answer">
+                        マーケティングチャネルには主に3つの役割があります：1）迅速な変換を促進するチャネル、2）認知度を高めるチャネル、3）エンゲージメントに特化したチャネル。バスケットボールチームと同様に、状況によって最適なチャネルの組み合わせは異なります。Journey Canvasを使うと、各チャネルの強みと弱みを分析し、各場面に最適なチャネルを特定できます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. パーセント値の表示を切り替えるとどのような分析ができますか？</div>
+                    <div class="faq-answer">
+                        Journey Canvasの上部にあるパーセント値表示を切り替えることで、異なる視点からデータを分析できます。例えば、マーケティングチャネル間の全体的な変換率の違いや、ジャーニーの各ステップでの変換率の差異を確認できます。見た目は同じように見えても、この切り替えにより実際には変換率に違いがあることが明らかになることがあります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 製品SKUでの分解は何を教えてくれますか？</div>
+                    <div class="faq-answer">
+                        最終ノードを製品SKUで分解すると、各マーケティングチャネルがどの製品の販売に貢献しているかを理解できます。これにより、特定の製品に対してどのチャネルが最も効果的かを分析し、製品ごとにマーケティング戦略を最適化することができます。例えば、あるチャネルが特定のカテゴリーの製品に特に効果的であることがわかれば、そのチャネルへの投資を増やすなどの判断ができます。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ティップ7: モバイルアプリのキャンペーンとマーケティングチャネル（Jen Duncan）</h2>
+            <div class="summary">
+                モバイルアプリにはウェブサイトのようなリファラーがないため、キャンペーンやマーケティングチャネルの属性付けが難しい問題を解決する方法を紹介します。
+            </div>
+            
+            <h3>実装アプローチ</h3>
+            <ul>
+                <li>アプリ内の各ページに対応する<span class="highlight">URL構造を作成</span>（アプリ専用のページには架空のURL形式を使用）</li>
+                <li>ユニバーサルリンクやプッシュ通知から取得した<span class="underline">パラメータ情報を追跡</span></li>
+                <li>開発者と連携して、キッド（CID）やUTMパラメータを正しく取得</li>
+                <li>キッドを使用する場合は、<span class="highlight">トラッキングコードディメンション</span>にCIDを入力し、クエリ文字列をURLに含める</li>
+                <li>UTMを使用する場合は、ウェブサイトと同じロジックを再現するようコードを設定</li>
+                <li>既存のマーケティングチャネルルールが自動的に機能</li>
+            </ul>
+
+            <h3>iOS/Androidの最新機能</h3>
+            <ul>
+                <li>iOSの<span class="underline">ユーザーアクティビティ</span>機能（React Nativeラッパー経由）</li>
+                <li>Androidの<span class="highlight">新しいIntent</span>機能</li>
+                <li>これらの機能を使ってリファラー情報を取得（可能な場合）</li>
+                <li>ユニバーサルリンクやプッシュ通知と組み合わせて使用</li>
+                <li>ネイティブXDMフォーマットを使用してAAやCJAにデータを渡す</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. モバイルアプリのURLはどのように作成すればよいですか？</div>
+                    <div class="faq-answer">
+                        モバイルアプリ内の各ページに対応するURL構造を作成します。ユニバーサルリンクですでに対応しているページについては、そのURLをそのまま使用できます。アプリ専用のページには標準的なURL形式に従った架空のURLを割り当てます（例：app://sectionname/pagename）。重要なのは、URLの構造がウェブサイトと同様にクエリパラメータを含められることです。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 「キッド（CID）」とは何ですか？</div>
+                    <div class="faq-answer">
+                        キッド（CID）とはキャンペーンIDの略で、マーケティングキャンペーンを追跡するためのクエリパラメータです。例えば、URLの末尾に「?cid=email-summer-promo」のように付加され、どのキャンペーンからトラフィックが来たかを特定します。モバイルアプリでこれを実装するには、ウェブサイトと同様にこのパラメータを取得し、トラッキングコードディメンションに渡す必要があります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. キャンペーン以外のトラフィック（オーガニック検索など）はどう扱いますか？</div>
+                    <div class="faq-answer">
+                        ユニバーサルリンクやプッシュ通知を通じて来訪したトラフィックを特定するカスタムeVarを設定します（例：「Direct Entry for mobile apps」）。さらに、iOSの「ユーザーアクティビティ」やAndroidの「Intent」機能を使用して、可能な場合はリファラー情報を取得します。ただし、他のアプリやリファラーを抑制しているウェブサイトからのトラフィックは特定できない場合があるため、複数の手法を組み合わせることが重要です。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ティップ8: Adobe Analytics Rockstar Hall of Fame</h2>
+            <div class="summary">
+                Adobe Analytics Rockstarセッションの最後に、初のHall of Fame入りが発表されました。データの伝説を永遠に残すための新しい取り組みです。
+            </div>
+            
+            <h3>Hall of Famerの条件</h3>
+            <ul>
+                <li>革新的なアイデアを常に提供していること</li>
+                <li>革新やティップスを説明する際の<span class="highlight">明確さと説得力</span></li>
+                <li>データ分析に対する<span class="underline">情熱</span></li>
+            </ul>
+
+            <h3>初代殿堂入り</h3>
+            <ul>
+                <li>Mandy George氏がAdobe Analytics Rockstar Hall of Fameの初代入りを果たしました</li>
+                <li>2024年のRockstar優勝者</li>
+                <li>「Calculated Metrics Playbook」の作者</li>
+                <li>3回のAdobe Analytics Champion</li>
+            </ul>
+
+            <div class="important">
+                AdobeAnalyticsRockstar.comサイトで殿堂入りの情報やティップスを確認できます
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Hall of Fameとは何ですか？</div>
+                    <div class="faq-answer">
+                        Adobe Analytics Rockstar Hall of Fameは、データ分析の分野で優れた功績を残した人物を称えるために2025年に新設された栄誉です。革新的なアイデア、明確な説明能力、そしてデータ分析への情熱が評価され、毎年1名が新たに殿堂入りします。殿堂入りした人物のティップスや貢献は専用ウェブサイトで共有され、コミュニティの知識として保存されます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Mandy Georgeの主な功績は何ですか？</div>
+                    <div class="faq-answer">
+                        Mandy Georgeは2024年のAdobe Analytics Rockstarの優勝者で、「Calculated Metrics Playbook」を執筆しました。また、3回のAdobe Analytics Championに選ばれた経験を持ちます。特に計算指標の分野で革新的なアプローチを提案し、今回のセッションでも「加重比較の計算」と「回帰分析による欠損データの推定」という2つの高度なティップスを紹介しました。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe Analytics Rockstarとは何ですか？</div>
+                    <div class="faq-answer">
+                        Adobe Analytics Rockstarは、Adobe Summitで開催されるセッションで、アナリティクスのエキスパートが革新的なティップスとテクニックを競い合います。参加者は10分間で自分のティップスを紹介し、オーディエンスの投票で優勝者が決まります。このセッションは2018年から続いており、2025年のホストは8回目の司会を務めています。以前は5-6名の参加者でしたが、2025年は4名に絞り、より詳細なティップスを共有する形式になりました。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>まとめ</h2>
+            <div class="summary">
+                2025年のAdobe Analytics Rockstarsセッションでは、4人のエキスパートから8つの革新的なティップスが紹介されました。これらのティップスは実務で役立つ高度なテクニックを多く含んでいます。
+            </div>
+            
+            <h3>主要なティップス</h3>
+            <ul>
+                <li><span class="highlight">内部キャンペーンID</span>：内部プロモーションの効果を測定（Jeff Bloomberg）</li>
+                <li><span class="underline">コンテンツ日付によるレポート</span>：コンテンツの実際の日付に基づく分析（Jen Duncan）</li>
+                <li><span class="highlight">加重比較の計算</span>：変化に対する寄与度を正確に把握（Mandy George）</li>
+                <li><span class="underline">Journey Canvas</span>によるサイトリデザインの分析（Trent Thanh）</li>
+                <li><span class="highlight">回帰分析</span>による欠損データの推定（Mandy George）</li>
+                <li><span class="underline">Journey Canvas</span>によるマーケティングチャネルの分析（Trent Thanh）</li>
+                <li><span class="highlight">モバイルアプリのキャンペーン</span>追跡（Jen Duncan）</li>
+                <li><span class="underline">Adobe Analytics Rockstar Hall of Fame</span>の設立と初代殿堂入り</li>
+            </ul>
+
+            <div class="important">
+                これらのティップスは、Adobe AnalyticsとCustomer Journey Analyticsを最大限に活用するための高度なテクニックです
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>重要用語と解説</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>解説</th>
+                </tr>
+                <tr>
+                    <td>内部キャンペーンID（ICI ID）</td>
+                    <td>内部プロモーションの効果を測定するための構造化された識別子</td>
+                </tr>
+                <tr>
+                    <td>コンバージョン変数（eVar）</td>
+                    <td>ユーザーの行動を追跡し、コンバージョンに対する寄与度を測定するためのAdobe Analytics変数</td>
+                </tr>
+                <tr>
+                    <td>分類</td>
+                    <td>Adobe Analyticsでディメンション値を分解するためのメタデータを追加する機能</td>
+                </tr>
+                <tr>
+                    <td>ダイナミックドロップダウン</td>
+                    <td>Shiftキーを押しながらディメンションをドラッグして作成する選択メニュー</td>
+                </tr>
+                <tr>
+                    <td>加重比較</td>
+                    <td>各項目の変化の大きさを考慮した比較値で、変化への貢献度を示す</td>
+                </tr>
+                <tr>
+                    <td>ベーシスポイント</td>
+                    <td>1%の100分の1を表す単位（1%は100ベーシスポイント）</td>
+                </tr>
+                <tr>
+                    <td>Journey Canvas</td>
+                    <td>CJAの新機能で、ユーザージャーニーを視覚化し、多様な指標で分析できるツール</td>
+                </tr>
+                <tr>
+                    <td>回帰分析</td>
+                    <td>変数間の関係性を利用して値を予測する統計手法（y = ax + b）</td>
+                </tr>
+                <tr>
+                    <td>相関係数</td>
+                    <td>変数間の関係の強さを-1から1の範囲で示す値（1に近いほど強い相関）</td>
+                </tr>
+                <tr>
+                    <td>ユニバーサルリンク</td>
+                    <td>ウェブURLをアプリ内の特定のページに直接リンクさせる技術</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            出典: Adobe Summit 2025のAdobe Analytics Rockstarセッション
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.closest('.faq-item');
+                    faqItem.classList.toggle('active');
+                    this.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

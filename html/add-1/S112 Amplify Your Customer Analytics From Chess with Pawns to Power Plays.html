@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S112 Amplify Your Customer Analytics From Chess with Pawns to Power Plays</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 15px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .summary {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #333;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            display: inline-block;
+        }
+        .important {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 15px 0;
+            color: #0f3c78;
+        }
+        .faq-container {
+            margin-top: 15px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 12px 15px;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+        }
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        .faq-answer {
+            padding: 0 15px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .faq-item.active .faq-answer {
+            padding: 15px;
+            max-height: 500px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>顧客分析を強化する：チェスの戦略から学ぶデータ活用法</h1>
+        </header>
+
+        <div class="summary">
+            <h2>概要</h2>
+            <p>本セッションでは、チェスの戦略をアナロジーとして用いながら、顧客分析を次のレベルに引き上げるための方法を紹介しています。デバイスベースの分析からオムニチャネルの顧客中心分析への移行、データ提供者からデータ所有者への変換、そして企業データ戦略との連携を通じて、マーケティングの効果を最大化する方法を解説しています。特に、顧客IDの重要性と、生成AI、ゼロコピーオプション、迅速な反復などのツールを活用して、データドリブンな意思決定を行うための戦略を提示しています。</p>
+        </div>
+
+        <section>
+            <h2>「クイーン」の価値：顧客中心分析の重要性</h2>
+            <p>チェスにおけるクイーン（女王）のように、顧客分析はビジネス戦略の中で最も強力な駒です。デバイスベースの分析から顧客中心の分析へと移行することは、競争力を維持するために不可欠です。</p>
+            
+            <h3>顧客中心分析の利点</h3>
+            <ul>
+                <li>デバイスではなく<span class="highlight">人</span>を中心に据えたデータ分析が可能</li>
+                <li>完全に相関したデータセットにより、顧客の行動を包括的に把握</li>
+                <li>リアルタイムを含む<span class="underline">高速な分析処理</span>が可能</li>
+                <li>コードや複雑なSQLを必要としない民主化されたデータ活用</li>
+            </ul>
+
+            <div class="important">顧客旅行コンテキストの統一的な分析が競争力の鍵</div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 顧客ID戦略が重要な理由は何ですか？</div>
+                    <div class="faq-answer">
+                        顧客ID戦略は、複数のデータセットを効果的に統合するための基盤となります。CJA（Customer Journey Analytics）を採用する際、ID戦略について徹底的に検討することが成功の鍵です。各データセットのプライマリキーや外部キーを理解し、IDの関連性を把握することで、包括的な顧客分析が可能になります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. グラフベースのステッチングとは何ですか？</div>
+                    <div class="faq-answer">
+                        グラフベースのステッチングは、複数のデータセットや識別子（ID）を統合するためのAdobeの技術です。これにより、顧客が匿名状態だった時の行動も含めて「リプレイ」することができます。複数のデータセットを使用する場合、この方法から始めることが推奨されています。93%もの高いマッチ率を達成した事例もあります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. フィールドベースのステッチングはどんな場合に適していますか？</div>
+                    <div class="faq-answer">
+                        フィールドベースのステッチングは、クリックストリームデータなど単一のデータセットから顧客分析に移行する場合や、既に「ゴールデンID」（マスターデータ管理を経た確実なID）を持っている場合に最適です。シンプルなID統合シナリオに適しています。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>すべての駒を知る：データ所有権への移行</h2>
+            <p>チェスのすべての駒の特性を理解するように、企業内のデータ資産とその価値を把握することが重要です。データの提供者から所有者へと役割を変えることで、戦略的な価値を生み出すことができます。</p>
+            
+            <h3>データ所有権の確立方法</h3>
+            <ul>
+                <li>顧客IDに焦点を当て、エンタープライズスキーマとデータレイヤーを<span class="highlight">連携</span></li>
+                <li>KPIと報告コンテキストを明確化し、方向性のあるデータと真実の源泉を区別</li>
+                <li>レポートからダイレクトに<span class="underline">アクションを実行できる</span>ツールを構築</li>
+                <li>AIエージェントとアシスタントを活用したデータの民主化</li>
+                <li>ゼロコピーオプションでデータハブからの読み取りを効率化</li>
+            </ul>
+
+            <div class="important">「データプロバイダーから企業データ戦略の重要な関係者へと変わった」</div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIアシスタントはどのようにアナリストをサポートしますか？</div>
+                    <div class="faq-answer">
+                        AIアシスタントは、Customer Journey Analyticsなどのツール内で利用可能で、レポート作成や分析のサポートを提供します。例えば、質問を入力するだけで、レポートの作成方法を詳細に説明してくれます。生産性の向上と迅速な反復を可能にし、分析プロセスを効率化します。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 「ターンスタイルではなくドア」とはどういう意味ですか？</div>
+                    <div class="faq-answer">
+                        これは顧客データ収集の新しいアプローチを表しています。従来の「ドア」のように、アカウント作成やログインを強制するのではなく、「ターンスタイル」のように、価値交換を通じてスムーズにファーストパーティデータを収集する方法を指します。例えば、エキスパートとのチャットの後にトランスクリプトをメールで送る際に、メールアドレスを収集するなどの方法です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJA実装ガイドとは何ですか？</div>
+                    <div class="faq-answer">
+                        CJA（Customer Journey Analytics）実装ガイドは、CJAの導入を迅速かつ効果的に行うためのツールです。エンドツーエンドの課題に対応し、可能な限り早く価値を引き出すための方法が提供されています。実装プロトタイプもあり、スキーマ構築のサポートを受けることができます。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>ボードの中央を制御する：企業データ戦略との連携</h2>
+            <p>チェスでボードの中央を制御することが重要なように、企業のデータ戦略との効果的な連携が分析の成功を左右します。顧客データセットと企業データハブを相補的に活用することで、最大の価値を引き出すことができます。</p>
+            
+            <h3>企業データ戦略との連携のポイント</h3>
+            <ul>
+                <li>目的を持って顧客データ戦略を構築し、企業データ戦略と<span class="highlight">補完し合う</span>関係を築く</li>
+                <li>「すべてのデータを与えてください」という姿勢ではなく、<span class="underline">目的に応じたデータ収集</span>を行う</li>
+                <li>マーケティングの独自の価値提案を明確にし、経験オフィス、データオフィス、情報オフィスを補完</li>
+                <li>分析から活性化、迅速な反復までの一貫したフローを確立</li>
+                <li>企業全体の共通言語（リンガフランカ）として機能する行動分析を構築</li>
+            </ul>
+
+            <div class="important">顧客データセットは企業データハブと相補的であるべき</div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. ゼロコピーオプション（データミラー）とは何ですか？</div>
+                    <div class="faq-answer">
+                        ゼロコピーオプション（データミラー）は、データハブからデータを効率的にコピーせずに読み取る機能です。これにより、データの二重管理が不要になり、企業データハブとマーケティングデータセットの連携がスムーズになります。このツールについての詳細は、Adobeのブースで確認することができます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. コンテンツ分析はどのように役立ちますか？</div>
+                    <div class="faq-answer">
+                        コンテンツ分析は、マーケティングコンテンツのパフォーマンスを詳細に分析する機能です。例えば、特定の画像（ケーキの写真など）がクリック数を増やしている場合、それがどの製品へのクリックを促進しているか、どの季節に効果的かなど、より深い洞察を得ることができます。これにより、クリエイティブとマーケティング分析の世界を融合させることができます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ジャーニーキャンバスとは何ですか？</div>
+                    <div class="faq-answer">
+                        ジャーニーキャンバスは、Customer Journey Analyticsの機能で、顧客の旅路を視覚化するツールです。例えば、チケット販売のプロセスなど、複数チャネルにわたる顧客の行動を追跡し、最適化するために使用できます。これにより、顧客体験の各ステップを分析し、改善点を特定することができます。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>ポーンを活用する：オムニチャネル顧客分析の実践例</h2>
+            <p>チェスでは一見弱いポーン（歩）も戦略的に使えば強力な武器になります。同様に、様々なデータポイントを戦略的に活用することで、顧客体験を大幅に向上させることができます。</p>
+            
+            <h3>業界別オムニチャネル分析の事例</h3>
+            <ul>
+                <li><span class="highlight">半導体企業</span>：グラフベースステッチングにより、複数IDを活用し、3ヶ月から7日間のリプレイに短縮、93%のマッチ率を達成</li>
+                <li><span class="highlight">多国籍小売業</span>：クロスデバイス分析でウェブデータセットのマッチ率を0.3%から40%に、モバイルデータセットを60%から90%に向上</li>
+                <li><span class="highlight">米国小売業</span>：ウェブ、モバイル、店舗データを統合し、3ヶ月でデータハブと同等のパフォーマンスを達成</li>
+                <li><span class="highlight">QSR</span>（クイックサービスレストラン）：モバイル注文、サービス問い合わせ、ロイヤルティポイント付与などの顧客体験全体を測定</li>
+                <li><span class="highlight">病院システム</span>：検索ツール、プロバイダー検索、予約システムなどを通じた患者体験の最適化</li>
+            </ul>
+
+            <div class="important">デジタル分析は顧客とのインタラクションの80%を表しています</div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. B2Bマーケティングでのオムニチャネル分析はどのように適用できますか？</div>
+                    <div class="faq-answer">
+                        B2Bマーケティングでは、ウェルスマネジメントやSaaS企業の例にあるように、LinkedInでのターゲット広告、エキスパートとのチャット、パーソナライズされたセルフサービスコンテンツなどを通じて長い販売サイクルを追跡できます。MQL（マーケティング適格リード）からSAL（セールス受け入れリード）、さらには「マーケティング適格バイインググループ」などの指標を測定し、B2B版の機能を活用することで、アカウントベース、機会ベース、ステージベースの分析が可能になります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. リアルタイムステッチングとリプレイの違いは何ですか？</div>
+                    <div class="faq-answer">
+                        リアルタイムステッチング（ライブステッチ）は、IDを即時にクッキーなどにステッチする処理で、リアルタイムのユースケースに適しています。一方、リプレイは過去のデータに遡ってステッチングを適用し、顧客が匿名だった時点から行動を可視化する処理です。例えば、7日間のフルリプレイや1日のリプレイなど、ビジネスサイクルに応じた設定が可能です。両者を組み合わせることで、迅速な対応と包括的な顧客理解を実現できます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 顧客体験の最適化にどのように分析を活用できますか？</div>
+                    <div class="faq-answer">
+                        顧客体験の最適化には、まず「顧客が体験をどう感じているか」（CSatスコアなど）を把握し、次に「ジャーニーが実際に機能しているか」をクロスチャネルのフォールアウトレポートで評価します。さらに最適化ポイントを特定し、高価値のオーディエンスをターゲットにします。例えば、プラチナステータスからダイヤモンドステータスに移行した顧客が364万ドルの価値を生み出したというデータを活用できます。これにより、顧客体験の各段階を効果的に改善することができます。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>データドリブンな大胆な一手：次のステップ</h2>
+            <p>チェスでは大胆な一手が勝利をもたらすように、データドリブンな意思決定が組織の競争力を高めます。顧客中心のアプローチと先進的なツールを活用し、次のレベルのマーケティング分析を実現しましょう。</p>
+            
+            <h3>今後取るべきアクション</h3>
+            <ul>
+                <li>企業の顧客IDに<span class="highlight">焦点を当て</span>、データセットのサンプルを検証</li>
+                <li>データ提供者からデータ所有者への<span class="underline">変革</span>を推進</li>
+                <li>AIプロトタイプやAIアシスタントを活用した機能の加速</li>
+                <li>迅速な反復を可能にするノーコード環境の構築</li>
+                <li>ゼロコピー（データミラー）ソリューションの検討</li>
+                <li>CJA実装ガイドを活用したロードマップの作成</li>
+            </ul>
+
+            <div class="important">「コンテンツは王様、データは女王」：顧客を中心に据えてゲームに勝利する</div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 現代のオーケストレーションはどのようなものですか？</div>
+                    <div class="faq-answer">
+                        現代のオーケストレーションは、データサプライチェーンと優れた分析から始まり、最終的には活性化とアクションにつながるプロセスです。顧客獲得から維持・成長までの全体的なジャーニーにわたり、オーディエンスセグメンテーション、チャネル応答データ、差別化コンテンツ、高速オーサリング、アクティブプロファイル、関連性のあるコピーの再利用などの要素が含まれます。これらの要素が一体となって、効果的な顧客体験を実現します。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJA（Customer Journey Analytics）とAdobe Analyticsの違いは何ですか？</div>
+                    <div class="faq-answer">
+                        CJAはAdobe Analyticsの進化形で、単なるツールではなく分析プラットフォームとして機能します。主な違いは、AIエージェントとアシスタントの統合、データハブからのミラーリング、完全に相関した顧客データ、顧客ジャーニーの測定、企業データ戦略に合わせたデータコンテキスト、コンテンツ分析、実験分析、製品使用状況の分析などが含まれます。B2B企業向けには、リード・アカウント・機会・販売ステージの分析も提供します。CJAはAdobe Analyticsの良い点を維持しながら、より強力な顧客中心の分析能力を提供します。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. マーケティングモダナイゼーションの主な要素は何ですか？</div>
+                    <div class="faq-answer">
+                        マーケティングモダナイゼーションの主な要素には、ファーストパーティデータ戦略、リアルタイムのイベント処理、目的に応じたツールと企業データ戦略の連携、適応性のあるIDとステッチング機能、リアルタイムのプロファイル・特性・行動、統一的な顧客ジャーニーコンテキスト、ゼロコピーオプション、レガシーソリューションからの技術的負債の排除、プライバシーとガバナンスの重視、アクション可能性の追求、目的に応じたAIと資源のアップスキリングが含まれます。これらの要素を組み合わせることで、現代のマーケティングの課題に効果的に対応できます。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>重要な用語と概念</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>Customer Journey Analytics (CJA)</td>
+                    <td>複数のデータソースから顧客データを統合し、オムニチャネルの顧客体験を分析するためのAdobeのツール</td>
+                </tr>
+                <tr>
+                    <td>グラフベースステッチング</td>
+                    <td>複数のデータセットにわたるIDを統合するためのAdobeの技術。高いマッチ率を実現</td>
+                </tr>
+                <tr>
+                    <td>フィールドベースステッチング</td>
+                    <td>単一のデータセットや既にゴールデンIDが存在する場合に適したIDステッチング方法</td>
+                </tr>
+                <tr>
+                    <td>ゴールデンID</td>
+                    <td>マスターデータ管理を経た、信頼性の高い顧客識別子</td>
+                </tr>
+                <tr>
+                    <td>リプレイ</td>
+                    <td>顧客がIDを作成する前の匿名状態での行動を遡って可視化するプロセス</td>
+                </tr>
+                <tr>
+                    <td>ライブステッチ</td>
+                    <td>リアルタイムでIDをステッチング処理する方法</td>
+                </tr>
+                <tr>
+                    <td>オムニチャネル分析</td>
+                    <td>Web、モバイル、店舗など複数チャネルにわたる顧客行動を統合的に分析すること</td>
+                </tr>
+                <tr>
+                    <td>ゼロコピーオプション（データミラー）</td>
+                    <td>データハブからデータを効率的に読み取るための技術</td>
+                </tr>
+                <tr>
+                    <td>ジャーニーキャンバス</td>
+                    <td>顧客の旅路を視覚化するCJAのツール</td>
+                </tr>
+                <tr>
+                    <td>コンテンツ分析</td>
+                    <td>マーケティングコンテンツのパフォーマンスを分析する機能</td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <p>© 2025 Adobe Summit - Session S112</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

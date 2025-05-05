@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS925 Adobe + Webflow How Marketers use AI to Build, Manage & Optimize Websites</title>
+    <style>
+        /* 基本スタイル */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        /* セクションスタイル */
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* 強調表示 */
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        
+        /* リスト */
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        /* FAQ部分 */
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            padding: 10px;
+            font-weight: bold;
+            position: relative;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            padding: 0 10px 10px;
+            display: none;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        /* テーブル */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f0f4f8;
+        }
+        
+        /* フッター */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>マーケターがAIを活用してウェブサイトを構築・管理・最適化する方法</h1>
+        
+        <div class="section">
+            <p class="important">成功しているマーケティングリーダーは、AIを活用してウェブサイトの構築・管理・最適化方法を変革し、よりダイナミックで、パーソナライズされた、魅力的なものにしています。</p>
+            
+            <p>この記事では、マーケティング、デザイン、プロダクトのリーダーから得た実例、専門的な洞察、実用的な戦略を共有します。Webflowが発表した2025年に向けたウェブサイトの現状レポートによると：</p>
+            
+            <ul>
+                <li>500人のマーケティングリーダーへの調査結果</li>
+                <li>テクノロジースタックは拡大し続け、ウェブサイトのパーソナライズ能力が向上</li>
+                <li><span class="highlight">91%がウェブサイトは他のどのチャネルよりも多くの収益を生み出すと回答</span></li>
+                <li>約70%がAIツールへの投資を増加または維持する予定</li>
+                <li>生成AIにより、マーケティングチームはブランドに合った高度にパーソナライズされたコンテンツをより迅速に作成・改良可能に</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>IMB銀行の事例：AIによるコンテンツ作成の効率化</h2>
+            
+            <p>オーストラリアの大手金融機関であるIMB銀行は、ウェブサイトのコンテンツ作成を効率化するためにWebflow内でAdobe Expressを活用しています。</p>
+            
+            <h3>プロジェクトの背景と目標</h3>
+            <ul>
+                <li>1888年から続くオーストラリアの金融機関</li>
+                <li>ビジネスバンキングのウェブページを刷新</li>
+                <li>個人向けセクションと区別されたビジネス向けの美的感覚を創出</li>
+                <li>よりプロフェッショナルでモダンなデザインを目指す</li>
+                <li>ページへのエンゲージメントを高め、問い合わせを増加させることが目標</li>
+            </ul>
+            
+            <h3>Adobe Expressの活用方法</h3>
+            <ul>
+                <li>小規模かつ機敏なチームがデザインと開発プロセスを加速</li>
+                <li><span class="underline">一般的なストック画像ではなく、独自の画像を作成</span></li>
+                <li>参照画像やスタイルガイド、ブランドガイドラインを活用</li>
+                <li>背景画像の削除やウェブサイトへの直接エクスポートが可能</li>
+                <li>デザインシステムにエクスポートし、ローディングアニメーションに変換</li>
+            </ul>
+            
+            <h3>結果と今後の展望</h3>
+            <ul>
+                <li>ビジネスバンキングチームから非常に肯定的なフィードバック</li>
+                <li>コンバージョン率とエンゲージメントが大幅に向上</li>
+                <li>AIをチャットボット、画像生成、A/Bテスト、広告クリエイティブ、コピーライティングなど多方面で活用</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe Expressはどのようにワークフローを変えましたか？</div>
+                    <div class="faq-answer">以前は複雑な画像処理には専門的な知識やグラフィックデザインの経験が必要でしたが、Adobe Expressを使用することで、技術的な専門知識がなくても画像生成、背景削除、ウェブサイトへの直接インポートが可能になりました。結果として、少ないリソースでより強力な成果を出せるようになりました。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. IMB銀行のビジネスバンキングページとパーソナルバンキングページの違いは何ですか？</div>
+                    <div class="faq-answer">ビジネスセクションとパーソナルセクションには異なるスタイルガイドがあり、それぞれのペルソナとユーザーニーズによって設計されています。ビジネスユーザーは個人バンキングユーザーとは異なるニーズや課題を持っているため、それに合わせたデザインアプローチを採用しています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe Expressの主な利点は何ですか？</div>
+                    <div class="faq-answer">主な利点は：1）独自の画像を作成できること（一般的なストック画像を使わない）、2）一貫性を確保しながら正確に目標を達成できること、3）短期間で効率的に作業できることです。特に時間的制約がある場合に非常に役立ちます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>BBDO（オムニコム）の事例：AIを活用した創造的なマーケティングソリューション</h2>
+            
+            <p>オムニコムのEVP兼クリエイティブイノベーションヘッドであるジェームス・ヤングが、AIを活用したクリエイティブなマーケティングソリューションについて解説します。</p>
+            
+            <h3>AIツールの導入と教育アプローチ</h3>
+            <ul>
+                <li>2.5年前にStable Diffusionサーバーを設置して画像生成へのアクセスを提供</li>
+                <li>プロンプトライティングに焦点を当てた教育を実施</li>
+                <li>小規模なワークショップから全社規模のセッションまで多様な取り組み</li>
+                <li>パートナー企業との協力によるパイロットプログラムやベータプログラムの実施</li>
+                <li>社内コンテストなど、クライアントとは無関係の実験的な取り組みも奨励</li>
+            </ul>
+            
+            <h3>Bacardiとの「Music Liberates Music」プロジェクト</h3>
+            <ul>
+                <li>プロデューサー「Boy Wonder」の未発表音楽を使ったAIモデルをトレーニング</li>
+                <li>アーティストがフロントエンドウェブサイトで歌詞やボーカルトラックをアップロード</li>
+                <li>テンポやスタイルなどを調整可能</li>
+                <li>Boy Wonderのスタイルに合った音楽を生成</li>
+                <li>プロフェッショナルにミックスされた楽曲をSpotifyにアップロード</li>
+            </ul>
+            
+            <h3>Pedigreeのハイパーローカライズ広告</h3>
+            <ul>
+                <li>オーストラリアのColenso BBDOによる制作</li>
+                <li>地域に基づいて里親募集中の犬の情報をAPI経由で取得</li>
+                <li>AIを使用して、里親募集サイトからの画像を広告用に最適化</li>
+                <li><span class="highlight">閲覧者の現在地に基づいて、その地域で里親を募集している実際の犬を広告に表示</span></li>
+                <li>これにより、前例のないレベルのパーソナライゼーションとターゲティングを実現</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. オムニコムはAIの法的側面をどのように管理していますか？</div>
+                    <div class="faq-answer">オムニコムレベルでの専門家チームが、企業レベルでAIツールとの関係を深く開発し、適切なライセンス契約を確立しています。彼らはモデルとそのトレーニングデータに関する情報を精査し、安全に世界に公開できる作品を作成できるようにしています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. パーソナライゼーションにおけるAIの役割とは？</div>
+                    <div class="faq-answer">AIにより、以前は不可能だったレベルでのスケーリングとターゲティングが可能になります。Pedigreeの事例では、現在地に基づいて地域の里親募集中の犬を広告に表示するというハイパーターゲティングを実現しています。この種のパーソナライゼーションの可能性はまだ表面的な部分しか探求されていません。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIツールの導入に関する推奨事項は？</div>
+                    <div class="faq-answer">チームが楽しくAIに触れる機会を提供し、広告に使用するなどのプレッシャーを与えないことが重要です。時間、スペース、リソースを与えて遊び心を持って探求させ、そこから自然に仕事に活かしていくことを推奨しています。2025年には、画像生成などのAI活用が広告業界のスタンダードになると予想されています。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Adobe：すべての人にクリエイティブな力を与える</h2>
+            
+            <p>Adobeのエクステンシビリティチームのプロダクトマネージャーであるマーシェ・コールマンが、Webflowと連携して30万以上のブランドにAdobeの機能をもたらす取り組みについて語ります。</p>
+            
+            <h3>Adobe Expressの主な機能と強み</h3>
+            <ul>
+                <li>Photoshopなどのフラッグシップ製品の機能を活用した、背景削除や画像リサイズなどの簡単な画像編集ツール</li>
+                <li>専門的なスキルがなくても使いこなせるデザインツール</li>
+                <li>コンテンツとテンプレートへのアクセスで、マーケターにインスピレーションを提供</li>
+                <li>テンプレートロックと管理機能により、ブランドに合ったコンテンツを維持</li>
+                <li>参照画像とプロンプト精度によるブランドに忠実な画像生成</li>
+            </ul>
+            
+            <h3>Adobe Expressの開発と導入における洞察</h3>
+            <ul>
+                <li>オールインワンのアプローチではなく、モジュール型のフォーカスした環境を構築</li>
+                <li>ワークフローの特定のポイントで意図的にAIを活用するアプローチ</li>
+                <li>ユーザーの協業ニーズへの対応（チーム間の効率的な共同作業）</li>
+                <li>Adobe Fireflyの商業的に安全なコレクションを活用</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIツールを使用する初心者に対するアドバイスは？</div>
+                    <div class="faq-answer">プロダクトマネージャー自身もAIに対して不安を感じていたとのこと。自信がある部分、特にアイデア出しの段階から始めることを推奨しています。小さなプロジェクトでAIを導入してみることで、最悪でも5分程度の時間を失うだけですが、ベストケースではビジョンに合ったより多くのコンテンツを得られる可能性があります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe Fireflyの商業的安全性とは？</div>
+                    <div class="faq-answer">Adobe Fireflyは商業利用に安全なコレクションを持っており、ユーザーが安心して使用できるように設計されています。これにより、企業が法的懸念なくAIを活用したコンテンツ作成ができるようになっています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe ExpressとWebflowの連携の特徴は？</div>
+                    <div class="faq-answer">パートナーシップにより、Adobe Expressの機能をWebflowのワークフロー内に統合しています。これは開発者体験とマーケティングユーザー両方を重視し、チームが勝利するためのカスタマイズ可能なモジュラーなフレームワークを提供しています。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要な用語・概念一覧</h2>
+            
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>Adobe Express</td>
+                    <td>Webflow内で使用できる、プロフェッショナルなデザインスキルがなくても画像編集や生成ができるAI搭載ツール</td>
+                </tr>
+                <tr>
+                    <td>Webflow</td>
+                    <td>コーディングなしでプロフェッショナルなウェブサイトを構築・管理できるプラットフォーム。30万以上のブランドが利用</td>
+                </tr>
+                <tr>
+                    <td>Adobe Firefly</td>
+                    <td>商業利用に安全な素材を使ってトレーニングされたAI生成モデル</td>
+                </tr>
+                <tr>
+                    <td>ハイパーローカライゼーション</td>
+                    <td>ユーザーの現在地など、極めて詳細な条件に基づいてコンテンツをパーソナライズする手法</td>
+                </tr>
+                <tr>
+                    <td>プロンプトライティング</td>
+                    <td>AIに対して効果的な指示を出すためのテキスト作成スキル</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>まとめ：AIによるウェブサイト革新の未来</h2>
+            
+            <p class="important">AIはマーケティングチームに創造的な力をもたらし、パーソナライズされたダイナミックなウェブサイト体験を効率的に構築することを可能にしています。</p>
+            
+            <ul>
+                <li>マーケティングリーダーの91%がウェブサイトは最も重要な収益チャネルと認識</li>
+                <li>IMB銀行の事例では、Adobe Expressを活用してブランドに合ったオリジナル画像を効率的に作成し、コンバージョン率を向上</li>
+                <li>BBDOの事例では、AIを活用した音楽生成やハイパーローカライズ広告で、前例のないパーソナライゼーションを実現</li>
+                <li>2025年に向けて、AIによる画像生成などの技術が広告業界のスタンダードになる見込み</li>
+                <li>チームがプレッシャーなくAIを探求できる環境づくりが重要</li>
+            </ul>
+            
+            <p>AIツールは専門的なスキルを持たないチームメンバーにもクリエイティブな力を与え、専門家がより戦略的な業務に集中できるようにします。このようなデモクラタイゼーション（民主化）がこれからのウェブサイト構築・管理・最適化の鍵となります。</p>
+        </div>
+        
+        <footer>
+            <p>OS925 Adobe + Webflow How Marketers use AI to Build, Manage & Optimize Websites</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

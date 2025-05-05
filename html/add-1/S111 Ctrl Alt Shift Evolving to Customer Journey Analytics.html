@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Analyticsから Customer Journey Analyticsへの移行ガイド</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .summary {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        .important {
+            text-align: center;
+            font-weight: bold;
+            margin: 15px 0;
+            font-size: 1.1rem;
+        }
+        .faq-container {
+            margin-top: 15px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            position: relative;
+            font-weight: bold;
+        }
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .faq-question.active::after {
+            content: '-';
+        }
+        .faq-answer {
+            padding: 10px 15px;
+            display: none;
+            background-color: #f5f5f5;
+            border-radius: 0 0 4px 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0f3c78;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Analyticsから<br>Customer Journey Analyticsへの移行ガイド</h1>
+        </header>
+
+        <div class="summary">
+            <h2>概要</h2>
+            <p>Adobe AnalyticsからCustomer Journey Analytics（CJA）への移行は、ビジネスの変革と成長をもたらす重要なステップです。この文書では、成功するための5つの重要なポイントを紹介し、実際に移行を成功させた企業の体験から学びます。</p>
+            <p class="important">「変化はイノベーションの原動力です」<br>- Hannah Crew（Intuit社）</p>
+        </div>
+
+        <div class="section">
+            <h2>CJAに移行する理由</h2>
+            <p>Adobe AnalyticsからCJAへの移行には、コスト以外にも多くのメリットがあります：</p>
+            <ul>
+                <li>最新機能（Journey canvas、AI機能）の活用</li>
+                <li>ビジネスの拡大に合わせた<span class="highlight">スケーラビリティ</span>の向上</li>
+                <li>すべてのレポートスイートを統合できる柔軟性</li>
+                <li>最新のアーキテクチャと設計による<span class="underline">効率性</span>の向上</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJAへの移行により実際にどのようなメリットを得た企業がありますか？</div>
+                    <div class="faq-answer">
+                        <p>Best Buy社ではCJAに完全移行したことで、新しいオーディエンス構築やM1 MLモデルの開発、パーソナライゼーションの実装などに投資することができました。またある大手ハイテク多国籍企業では、2つのクリックストリームやデータセットを維持する必要がなくなり、効率性が向上しました。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJAの導入前に何を準備すべきですか？</div>
+                    <div class="faq-answer">
+                        <p>CJAの実装と初期設定が必要です。ユースケースを特定し、データビューを作成することが重要です。また、組織内での理解と協力を得るため、事前にコミュニケーション計画を立てることをお勧めします。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>成功への5つのキー</h2>
+            <p>CJAへの移行を成功させるための5つの重要なステップを以下に紹介します：</p>
+            <ol>
+                <li><span class="underline">コンポーネント移行</span>（Component Migration）</li>
+                <li><span class="underline">コミュニケーション</span>（Communication）</li>
+                <li><span class="underline">ユーザーオンボーディング</span>（User Onboarding）</li>
+                <li><span class="underline">ユーザートレーニング</span>（User Training）</li>
+                <li><span class="underline">Adobe Analyticsの停止</span>（Decommissioning Adobe Analytics）</li>
+            </ol>
+            <p class="important">注意：Adobe Analyticsの停止は必ず最後のステップとして行ってください！</p>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. これらのステップは必ずこの順番で行う必要がありますか？</div>
+                    <div class="faq-answer">
+                        <p>基本的に組織に合わせてカスタマイズすることができます。ただし、Adobe Analyticsの停止は必ず最後に行う必要があります。それ以外のステップは組織の状況に応じて順序を変更できます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>1. コンポーネント移行</h2>
+            <p>Adobe AnalyticsからCJAへのコンポーネント（プロジェクト、ディメンション、指標など）の移行プロセスです。</p>
+            
+            <h3>主なポイント</h3>
+            <ul>
+                <li>コンポーネント移行は、IDを使ってAnalyticsのコンポーネントをCJAにマッピングするツール</li>
+                <li>移行すべきものと不要なものを<span class="highlight">選別</span>することが重要</li>
+                <li>過去1年間使用されていないプロジェクトや重複プロジェクトは移行不要</li>
+                <li>一定数以上のユーザーが使用しているコンポーネントのみを移行する基準の設定</li>
+            </ul>
+
+            <h3>実用的なヒント</h3>
+            <ul>
+                <li>API経由での一括マッピングの活用</li>
+                <li>プロジェクトの複製を作成してテスト環境で試行</li>
+                <li>CJAに同等の値がない場合はダミーコンポーネントを作成</li>
+                <li>すべての指標やセグメントを一度に移行するためのプロジェクト作成</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. データの一致性はどのように確認すべきですか？</div>
+                    <div class="faq-answer">
+                        <p>Expediaの事例では、範囲と粒度を限定し、主要な指標を選定した上で、過去の特定期間のデータについてAdobe AnalyticsとCJA間の差異を±5%以内に抑えることを目標としました。重要な指標について定期的に両ツール間での一致度を確認するダッシュボードを作成することが効果的です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. コンポーネント移行ツールを使わない場合はどうすればよいですか？</div>
+                    <div class="faq-answer">
+                        <p>Expediaのように手動で行う場合は、データビューレベルでのディメンションと指標の設定、Adobe Analyticsの既存フィルターと指標のCJAでの再作成、エンドユーザー自身による指標の再作成を段階的に進めることが効果的です。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. コミュニケーション</h2>
+            <p>移行プロセスにおいて、組織内でのコミュニケーションは極めて重要です。効果的な情報共有が移行の成功を左右します。</p>
+            
+            <h3>コミュニケーション戦略</h3>
+            <ul>
+                <li>SlackやTeamsなどで<span class="highlight">目的別の専用チャンネル</span>を作成
+                    <ul>
+                        <li>「CJAユーザーチャンネル」：ユーザーからの質問対応</li>
+                        <li>「CJA認知度チャンネル」：エグゼクティブ向け、価値の共有</li>
+                    </ul>
+                </li>
+                <li>定期的なオフィスアワーの開催</li>
+                <li>組織内Wikiスペースの構築（トレーニングイベントカレンダー、リソースリンクなど）</li>
+                <li>短い非公式ビデオによる一般的なタスクの紹介（「TikTokスタイル」）</li>
+                <li>データディクショナリの整備</li>
+                <li>分析パワーユーザーを最初に取り込み、社内への浸透を促進</li>
+            </ul>
+
+            <h3>アノテーションの活用</h3>
+            <ul>
+                <li>CJAでのデータにラベルを付ける機能</li>
+                <li>新しいデータセットの追加日やデータ問題の発生日を記録</li>
+                <li>トレーニング用の期間を明示して学習効率を向上</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Wikiスペースには何を含めるべきですか？</div>
+                    <div class="faq-answer">
+                        <p>Expediaの事例では、トレーニングイベントのカレンダー、オフィスアワーの情報、リソースへのリンク、よくある質問と回答などが含まれています。また、Adobe AnalyticsとCJA間のディメンションや指標の対応表も非常に役立ちます。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. エグゼクティブの支援を得るにはどうすればよいですか？</div>
+                    <div class="faq-answer">
+                        <p>Expediaでは「CJA運営委員会」を設立し、四半期ごとに進捗状況を共有しました。また、CJAの価値を示す「クイックウィン」を専用チャンネルで共有することで、移行の勢いを構築することができます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. ユーザーオンボーディング</h2>
+            <p>ユーザーをAdobe AnalyticsからCJAに移行させる方法についての戦略です。</p>
+            
+            <h3>3つのアプローチ</h3>
+            <ul>
+                <li><span class="underline">一斉移行</span>：特定の日付を設定し、その日からすべてのユーザーがCJAを使用</li>
+                <li><span class="underline">ビジネスユニット別移行</span>：部門やグループごとに段階的に移行</li>
+                <li><span class="underline">ユースケース別移行</span>：特定のプロジェクトや分析ケースごとに移行</li>
+            </ul>
+
+            <p class="important">どのアプローチを選択するにしても、計画を立て、期限を設定し、それに向けて取り組むことが重要です。</p>
+
+            <h3>便利なツール</h3>
+            <ul>
+                <li>「Asset Transfer」（アセット転送）ツール：所有者のいないプロジェクトやコンポーネントの所有権を再割り当て</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのアプローチが最も効果的ですか？</div>
+                    <div class="faq-answer">
+                        <p>組織の構造と文化によって異なります。Expediaではデータプロダクト（Mixpanel、Adobe Analytics、Google Analytics）ごとに段階的なアプローチを採用し、移行フェーズを分けて実施しました。組織の特性に合わせてカスタマイズすることが重要です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 抵抗を示すユーザーへの対応はどうすればよいですか？</div>
+                    <div class="faq-answer">
+                        <p>移行の利点を明確に伝え、十分なトレーニングと支援を提供することが重要です。Expediaでは、ユーザーが移行していない場合、個別にフォローアップして障壁を特定し、サポートを提供しました。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>4. ユーザートレーニング</h2>
+            <p>Adobe AnalyticsとCJAは似ていますが、新機能や違いについてユーザーを教育することが重要です。</p>
+            
+            <h3>利用可能なトレーニングリソース</h3>
+            <ul>
+                <li><span class="highlight">Learning Paths</span>（学習パス）：CJAランディングページの「学習」セクションに用意されたチュートリアル</li>
+                <li>Adobe Analytics to CJA移行ガイド：初心者から上級者まで対応</li>
+                <li>AIアシスタント：製品知識に関する質問に回答する機能</li>
+                <li>データディクショナリ：ディメンション、指標、セグメントの定義と説明</li>
+                <li>製品使用分析：組織のCJA使用状況を分析し、トレーニングニーズを特定</li>
+            </ul>
+
+            <h3>Expediaのトレーニングアプローチ</h3>
+            <ul>
+                <li>必須トレーニングの実施：CJAへのアクセス権を得るための条件</li>
+                <li>内部CJAビデオライブラリの作成</li>
+                <li>タイムゾーンをまたぐ週次オフィスアワーの開催</li>
+                <li>新しいデータセット追加時の補足トレーニング</li>
+                <li>対面トレーニングセッションと実践問題</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 様々なスキルレベルのユーザーに対応するにはどうすればよいですか？</div>
+                    <div class="faq-answer">
+                        <p>Expediaでは、データサイエンティストから市場管理者まで、様々な役割に合わせたトレーニングアプローチを採用しました。CJAを大きなデータ環境の中でどう位置づけるかを説明し、各役割にとっての具体的なメリットを強調することが効果的です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 製品使用分析はどのように活用できますか？</div>
+                    <div class="faq-answer">
+                        <p>製品使用分析を通じて、どのユーザーがどの機能を使用しているか、組織内でどの領域が理解されていないかを特定できます。これにより、トレーニングの焦点を絞り、効果的な支援を提供することができます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>5. Adobe Analyticsの停止</h2>
+            <p>最終ステップとして、Adobe Analyticsの使用を停止する際の重要な考慮事項です。</p>
+            
+            <h3>停止前の確認事項</h3>
+            <ul>
+                <li>スケジュールされたプロジェクトとワークブックをCJA相当物に置き換え</li>
+                <li>下流システムへのデータ提供（データフィード、データウェアハウスレポート、API呼び出し）の移行</li>
+                <li>組織通知（アラートなど）のCJAへの移行</li>
+            </ul>
+
+            <p class="important">注：一部の機能（年間比較レポートやデータフィードなど）のために、一時的にAdobe Analyticsを維持する選択肢もあります。</p>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJAにはデータフィード機能がありますか？</div>
+                    <div class="faq-answer">
+                        <p>CJAにはまだデータフィード機能はありませんが、開発中です。現在は「フルテーブルエクスポート」機能が提供されており、データウェアハウスに似た機能を持っています。ただし、一部の機能については現在も改善中です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 停止のタイミングはどのように判断すればよいですか？</div>
+                    <div class="faq-answer">
+                        <p>Expediaの事例では、ユーザーの移行状況を測定するKPIを設定し、Adobe Analyticsのユーザー数の減少とCJAユーザー数の増加を追跡しました。また、移行していないユーザーに対して個別にフォローアップを行い、課題を解決しました。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Expediaの移行体験から学ぶ3つの教訓</h2>
+            <ol>
+                <li><span class="underline">データプロダクトとして扱う</span>：プロダクトマネージャーの視点でロードマップを構築（データ検証プロセス、コンポーネント移行、履歴データの遡及、追加データセットの導入など）</li>
+                <li><span class="underline">トレーニングの実施</span>：新ツールへの関心を高め、積極的な採用を促進</li>
+                <li><span class="underline">測定可能なKPIの設定</span>：ユーザー移行の進捗状況を追跡し、対応が必要なユーザーを特定</li>
+            </ol>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Expediaはどのようなスケジュールで移行を完了しましたか？</div>
+                    <div class="faq-answer">
+                        <p>Expediaは4年前にCJAへの移行を開始し、2年前に完全移行を完了しました。移行はデータプロダクト別に段階的に行われ、最初にMixpanel、次にAdobe Analytics、最後にGoogle Analyticsを移行しました。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>関連セッションと追加リソース</h2>
+            <ul>
+                <li>「CJAの実装と初期設定」：Dave McNamee（翌日午前8時）</li>
+                <li>「CJA進化ラボ」：Shay O'ReillyとCarson Jones（木曜午前8:30と11時）</li>
+                <li>「B2B用CJA」：Marika EngelとAkshay Patil（翌日午後）</li>
+                <li>YouTubeチャンネル：新機能とウェビナー</li>
+                <li>Experience League：ドキュメントとリソース</li>
+                <li>リリースページ：最新機能の更新情報</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>主要用語解説</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>Customer Journey Analytics (CJA)</td>
+                    <td>Adobeの次世代分析ツール。複数のデータソースを統合し、顧客ジャーニー全体を分析可能</td>
+                </tr>
+                <tr>
+                    <td>コンポーネント移行</td>
+                    <td>Adobe AnalyticsからCJAへプロジェクト、ディメンション、指標などを移行するプロセス</td>
+                </tr>
+                <tr>
+                    <td>データビュー</td>
+                    <td>CJAでデータを表示・分析するための設定。ディメンションや指標の定義を含む</td>
+                </tr>
+                <tr>
+                    <td>アノテーション</td>
+                    <td>CJAでデータに注釈やラベルを付ける機能。データの変更点や重要な日付を記録</td>
+                </tr>
+                <tr>
+                    <td>Asset Transfer</td>
+                    <td>プロジェクトやコンポーネントの所有権を再割り当てするツール</td>
+                </tr>
+                <tr>
+                    <td>フルテーブルエクスポート</td>
+                    <td>CJAからデータを抽出する機能。データウェアハウスに類似</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <p>Adobe Summit セッション: S111 Ctrl + Alt + Shift Evolving to Customer Journey Analytics</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.faq-question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const answer = this.nextElementSibling;
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

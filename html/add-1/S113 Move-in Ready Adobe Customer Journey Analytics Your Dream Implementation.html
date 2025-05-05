@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S113 Move-in Ready Adobe Customer Journey Analytics Your Dream Implementation</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 24px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .summary {
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            display: inline-block;
+        }
+        .important {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 24px 0;
+        }
+        .faq-container {
+            margin-top: 16px;
+        }
+        .faq-item {
+            margin-bottom: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .faq-question {
+            padding: 12px;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+        .faq-question:after {
+            content: "+";
+            font-size: 1.2rem;
+        }
+        .faq-question.active:after {
+            content: "-";
+        }
+        .faq-answer {
+            padding: 0 12px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        .faq-answer.active {
+            padding: 12px;
+            max-height: 500px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            margin-top: 32px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe カスタマージャーニーアナリティクス 移行実装ガイド</h1>
+        </header>
+
+        <div class="section">
+            <div class="summary">
+                Adobeカスタマージャーニーアナリティクス（CJA）への移行は、単なるツールの入れ替えではなく、理想の家への引っ越しに例えられる大きな変化です。既存のAdobe Analyticsからより柔軟で強力なCJAへの移行には、計画的なアプローチと明確なロードマップが必要です。
+            </div>
+
+            <p>このガイドでは、CJAへの理想的な実装方法を紹介し、成功への道筋を示します。適切な準備と段階的なアプローチにより、ビジネスの分析能力を次のレベルに引き上げることができます。</p>
+        </div>
+
+        <div class="section">
+            <h2>実装プロジェクトの種類</h2>
+            
+            <p class="summary">CJA実装プロジェクトは主に3つのタイプに分けられます。それぞれのアプローチは目的や範囲によって選択すべきです。</p>
+            
+            <h3>プロジェクトタイプの特徴</h3>
+            <ul>
+                <li><span class="underline">概念実証（POC）</span>：機能性を示すための限定的な実装。Analytics Source Connectorを活用して迅速に立ち上げることができますが、一時的な解決策です。</li>
+                <li><span class="underline">マルチチャネル中間ユースケース</span>：特定のマルチチャネルユースケース（例：コンタクトセンターとデジタルデータの結合）を素早く示すための実装。POCと同様に一時的な解決策です。</li>
+                <li><span class="highlight">完全実装</span>：すべてのユーザーとユースケースをCJAに移行するための包括的な実装。WebSDKまたは直接イベントデータセット取り込みが必要です。これが最終的な目標となります。</li>
+            </ul>
+            
+            <div class="important">完全実装には直接データ収集（WebSDK）またはExperience Platformへの直接取り込みが必要です！</div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Analytics Source Connectorだけで長期的な実装は可能ですか？</div>
+                    <div class="faq-answer">いいえ、Analytics Source Connectorは一時的な解決策であり、CJAの全機能を活用するためには直接データ収集または取り込みが必要です。Analytics Source Connectorでは、Adobe Analyticsのデータ収集・処理経路を使用しているため、CJAの真の力を発揮できません。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 概念実証（POC）から完全実装までどのくらいの期間がかかりますか？</div>
+                    <div class="faq-answer">期間はビジネスの規模や複雑さによって異なりますが、POCを行いながら並行して完全実装の計画を立てることが重要です。POCは数週間で完了できることもありますが、完全実装には数ヶ月かかることもあります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 既存のAdobe Analyticsと並行して運用する必要がありますか？</div>
+                    <div class="faq-answer">はい、段階的に移行する場合は、一定期間Adobe Analyticsを並行運用することが推奨されます。チームやユースケースごとに移行し、すべてのユーザーが移行した後にAdobe Analyticsをデコミッションします。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>データ戦略の重要性</h2>
+            
+            <p class="summary">CJA実装ではデータを「製品」として考える必要があります。データの収集方法、構造、活用方法を戦略的に計画することが成功への鍵です。</p>
+            
+            <h3>データ戦略の主要ポイント</h3>
+            <ul>
+                <li><span class="underline">データを製品として扱う</span>：Adobe Analyticsから出力されるデータはビジネスの重要な製品です。CJAでも同様に、データがインサイト生成や体験活性化のクローズドループを支える製品として考えることが重要です。</li>
+                <li><span class="underline">データカバレッジの確保</span>：Experience Data Model（XDM）とイベントデータセットがマルチチャネルレポートの基盤です。Adobe Analyticsの変数制限を引き継がないよう、新しい視点でデータ設計を行いましょう。</li>
+                <li><span class="highlight">IDステッチング</span>：CJAの重要な差別化機能であるIDステッチングには、フィールドベースとグラフベースの2種類があります。これにより、複数チャネルにまたがるユーザー行動を統合して分析できます。</li>
+            </ul>
+            
+            <div class="important">IDステッチングは早期に実装し、オムニチャネル分析の価値を証明しましょう！</div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. フィールドベースステッチングとグラフベースステッチングの違いは何ですか？</div>
+                    <div class="faq-answer">フィールドベースステッチングは単一の認証IDがあるデータに使用され、Select、Prime、Ultimate CJAで利用可能です。グラフベースステッチングは複数のIDを持つ異なるデータセット間で使用され、CDPと一貫性があり、PrimeとUltimateでのみ利用可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 歴史的なデータは移行できますか？</div>
+                    <div class="faq-answer">はい、Analytics Source Connectorを使用して13ヶ月間（設定可能）の歴史的データを取り込むことができます。ただし、この歴史的データと新しく収集するデータを統合することは推奨されません。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJAにプロファイルデータを取り込むにはReal-time Customer Data Platformライセンスが必要ですか？</div>
+                    <div class="faq-answer">いいえ、CJAは他のライセンスに関係なくプロファイルデータをサポートしています。Customer Attributesと同様の機能を提供します。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>ロードマップの作成と実行</h2>
+            
+            <p class="summary">CJA実装のロードマップは外部委託せず、自社で所有することが重要です。明確なビジョンを持ち、サービスを活用しながらも、最終的な方向性は自社で決定する必要があります。</p>
+            
+            <h3>ロードマップ作成のツール</h3>
+            <ul>
+                <li><span class="underline">Analytics Inventory</span>：2025年4月リリース予定のツールで、レポートスイートやワークスペースプロジェクトなど、Adobe Analytics実装の全体像を把握できます。</li>
+                <li><span class="highlight">CJA Upgrade Guide</span>：既にリリースされているツールで、ビジネス要件に基づいてCJA実装のステップを生成します。実装計画を立てる際の思考ツールとして有効です。</li>
+                <li><span class="underline">サービスの活用</span>：実装パートナーを選ぶ際は、Experience Platform、オムニチャネルジャーニー分析、Adobe Analyticsなどの経験を持つパートナーを選びましょう。</li>
+            </ul>
+            
+            <div class="important">ビジョンは自社から！サービスは実行の加速に活用しましょう</div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Analytics Inventoryはどこにありますか？</div>
+                    <div class="faq-answer">Analytics Inventoryは2025年4月リリース予定で、Analytics管理者向けに管理メニューの下に表示されます。プロジェクト、セグメント、計算指標などの数を確認でき、レポートスイートの詳細も表示できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJA Upgrade Guideはどこで利用できますか？</div>
+                    <div class="faq-answer">CJA Upgrade GuideはCJA内の「学習」セクションにあり、CJAログインを持つ誰でもアクセスできます。ビジネス要件に関する質問に回答すると、実装ステップを生成し、ドキュメントへのリンクも提供します。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 実装パートナーはどこで見つけられますか？</div>
+                    <div class="faq-answer">Adobe Solution Partner Directoryで、CJAに特化したパートナーを検索できます。パートナー選定の際は、Experience Platform、オムニチャネル分析、Adobe Analyticsの経験を持つパートナーを探しましょう。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>反復的なアプローチによる実装</h2>
+            
+            <p class="summary">CJA実装は一度に行うのではなく、反復的なアジャイルアプローチで行うことが推奨されます。ユースケースごとに小さく始め、成功を重ねていくことが重要です。</p>
+            
+            <h3>実装の進め方</h3>
+            <ul>
+                <li><span class="underline">ユースケースベースの反復</span>：ユースケース → 要件 → データ構造 → スキーマ作成 → データ取り込み → 設定 → 受け入れテスト → 成功の展示、という流れで進めます。</li>
+                <li><span class="underline">データ検証</span>：Experience Platform Query Serviceを使用してデータを検証します。CJAとAdobe Analyticsは異なるアーキテクチャのため、レポートに若干の違いが生じる可能性があります。</li>
+                <li><span class="highlight">並行運用と段階的移行</span>：チームやユースケースごとにCJAに移行し、最終的にAdobe Analyticsを廃止します。スケジュールレポート、Data Warehouse、トリガー、オーディエンスなどの統合も移行計画に含めましょう。</li>
+            </ul>
+            
+            <div class="important">小さく始め、成功を共有し、モメンタムを生み出しましょう！</div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 実装は何から始めるべきですか？</div>
+                    <div class="faq-answer">特定のユースケースや「ライトハウス顧客」から始め、そのユースケースに必要なデータ構造とスキーマを設計します。一度に全てを実装しようとせず、小さく始めて成功を積み重ねていくアプローチが効果的です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CJAとAdobe Analyticsのレポートの違いはどう説明すべきですか？</div>
+                    <div class="faq-answer">CJAとAdobe Analyticsは異なるアーキテクチャと処理エンジンを使用しているため、レポートに若干の違いが生じる可能性があります。特にIDステッチングを使用すると、コンバージョン数などの指標に違いが出ることがあります。ユースケースごとに違いを説明し、ユーザーに新しいアプローチに慣れてもらうことが重要です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe Analyticsからの移行はどのように進めるべきですか？</div>
+                    <div class="faq-answer">完全にAdobe Analyticsから移行するまで一定期間は並行運用することを推奨します。チームやユースケースごとに段階的にCJAに移行し、すべてのユーザーが移行した後にAdobe Analyticsを廃止します。スケジュールレポート、Data Warehouse、トリガー、オーディエンスなどの統合も移行計画に含める必要があります。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>重要な用語と概念</h2>
+            
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>カスタマージャーニーアナリティクス（CJA）</td>
+                    <td>Adobe Experience Platformのデータを活用して、複数チャネルにまたがる顧客体験を分析するためのツール</td>
+                </tr>
+                <tr>
+                    <td>Analytics Source Connector</td>
+                    <td>Adobe AnalyticsからExperience Platformにデータを取り込むためのコネクタ。一時的な解決策として有効</td>
+                </tr>
+                <tr>
+                    <td>WebSDK</td>
+                    <td>Webサイトからデータを直接Experience Platformに送信するためのJavaScriptライブラリ。CJA完全実装に推奨される方法</td>
+                </tr>
+                <tr>
+                    <td>Experience Data Model（XDM）</td>
+                    <td>Experience Platformで使用される標準化されたデータスキーマ</td>
+                </tr>
+                <tr>
+                    <td>IDステッチング</td>
+                    <td>異なるデバイスやチャネルのユーザーIDを結合する機能。フィールドベースとグラフベースの2種類がある</td>
+                </tr>
+                <tr>
+                    <td>Analytics Inventory</td>
+                    <td>Adobe Analytics実装の全体像を把握するためのツール（2025年4月リリース予定）</td>
+                </tr>
+                <tr>
+                    <td>CJA Upgrade Guide</td>
+                    <td>ビジネス要件に基づいてCJA実装のステップを生成するツール</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            このガイドはS113セッション「Move-in Ready Adobe Customer Journey Analytics Your Dream Implementation」を基に作成されています
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.faq-question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const answer = this.nextElementSibling;
+                    answer.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
