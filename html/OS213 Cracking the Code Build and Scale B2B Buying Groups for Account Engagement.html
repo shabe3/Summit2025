@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2B購買グループ戦略ガイド</title>
+    <style>
+        :root {
+            --accent-color: #0f3c78;
+            --bg-color: #f5f5f5;
+            --section-bg: #ffffff;
+            --text-color: #333;
+            --highlight-color: #fff3cd;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 16px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: var(--accent-color);
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+        }
+        
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 24px;
+            color: var(--accent-color);
+        }
+        
+        .section {
+            background-color: var(--section-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .highlight {
+            background-color: var(--highlight-color);
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        th {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        .summary {
+            font-weight: bold;
+            margin-bottom: 16px;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 12px;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-question::after {
+            content: "+";
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: "-";
+        }
+        
+        .faq-answer {
+            padding: 0 12px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 12px;
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>B2B購買グループ戦略ガイド</h1>
+        
+        <div class="section">
+            <div class="summary">
+                B2Bマーケティングは進化し続けています。リードベースからアカウントベース（ABM）、そして現在は<span class="underline">購買グループ</span>へと重点が移行しています。この資料は、B2B購買グループの構築とスケーリングについての重要な戦略と実践的なステップを提供します。
+            </div>
+            
+            <p class="important">「B2B購入者は<span class="highlight">購買グループ</span>である」- Forrester社</p>
+        </div>
+        
+        <div class="section">
+            <h2>B2Bマーケティングの進化</h2>
+            <div class="summary">
+                B2Bマーケティングは、個別リードから組織アカウント、そして現在は購買グループへと進化しています。この変化は、より効果的な顧客エンゲージメントのために不可欠です。
+            </div>
+            
+            <h3>B2Bマーケティングの歴史的発展</h3>
+            <ul>
+                <li><strong>リードベースマーケティング（従来型）</strong>: 個々の見込み客に焦点 - <span class="highlight">「このリードは興味があるが、アカウント全体は？」</span></li>
+                <li><strong>アカウントベースマーケティング（ABM）</strong>: 2015-2016年頃から普及 - <span class="highlight">「このアカウントの担当者は興味があるが、どの製品に？誰が意思決定者？」</span></li>
+                <li><strong>購買グループマーケティング（現在）</strong>: 意思決定に関わる実際の人々のグループに焦点 - <span class="highlight">「正しい購買グループとメンバーをターゲットにしているか？」</span></li>
+            </ul>
+            
+            <p>重要なのは、これらのアプローチは排他的ではなく、<span class="underline">補完的</span>であるということです。最新の効果的なB2Bマーケティングでは、リード、アカウント、購買グループ、さらには機会データを統合的に活用します。</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ個人の意思決定者からグループの意思決定者へのシフトが重要なのですか？</div>
+                    <div class="faq-answer">
+                        IBMの例では、製品購入の意思決定に4〜14人が関わることがデータで示されています。企業が大規模な投資をする際は、開発者からCスイートまで、様々な立場の人々の意見が重要です。以前は分断されていたこれらのグループを、統合されたジャーニーとして捉えることが重要になっています。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 購買グループへの移行は根本的な変化ですか？</div>
+                    <div class="faq-answer">
+                        これは革命的な変化というよりも、進化的なプロセスです。顧客の行動パターンとして新しいものではなく、企業がデータを基にこのパターンを理解し、戦略に取り入れるようになったものです。従来のリードベースやABMのアプローチを否定するのではなく、それらを補完し強化するものと考えるべきです。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>購買グループの重要性</h2>
+            <div class="summary">
+                購買グループは、B2B取引の実態をより正確に反映し、マーケティングと営業の連携を強化します。複雑な意思決定プロセスを理解することで、より効果的なエンゲージメントが可能になります。
+            </div>
+            
+            <h3>購買グループ戦略のメリット</h3>
+            <ul>
+                <li><strong>真の需要ユニットの特定</strong>: 営業が実際に注目している顧客グループを明確に把握</li>
+                <li><strong>マーケティングソースの機会に対する営業の信頼向上</strong>: より的確な見込み客提供</li>
+                <li><strong>販売サイクル中のマーケティングコスト最適化</strong>: 効率的なリソース配分</li>
+                <li><strong>売上部門との連携強化</strong>: 共通の目標と理解による協力関係の構築</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. IBMではどのように購買グループへの移行を実現していますか？</div>
+                    <div class="faq-answer">
+                        IBMでは、マーケティングと営業が独立して機能する従来のモデルから、両部門が同じ特定グループを共同でターゲットにするモデルへの移行を進めています。これにより、個人とアカウントの様々な接点を包括的に把握し、真にオムニチャネルなエンゲージメントを実現しています。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 購買グループアプローチはどのようにカスタマージャーニーを変えますか？</div>
+                    <div class="faq-answer">
+                        より標的を絞ったメッセージングが可能になります。「散弾銃」的なアプローチから、購買グループと彼らが注目すべきアクティビティに焦点を当てた、より狭く深いアプローチへと進化します。これにより、少ないメッセージでより大きな効果を生み出すことができます。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>購買グループ戦略導入の5つのベストプラクティス</h2>
+            <div class="summary">
+                購買グループへの移行は段階的に進めるべきです。既存のリソースを活用しながら、チーム、プロセス、データの連携を強化していくアプローチが効果的です。
+            </div>
+            
+            <h3>1. 既存の委員会を活用する</h3>
+            <ul>
+                <li><strong>センター・オブ・エクセレンス（COE）の活用</strong>: 既存のABM運営委員会を購買グループ戦略に再活用</li>
+                <li><strong>内部購買グループの構築</strong>: 社内のCOEを自社の購買グループモデルとして捉える</li>
+                <li><strong>営業部門との連携強化</strong>: 正しいアカウントと購買グループメンバーの特定について議論</li>
+            </ul>
+            
+            <h3>2. アカウント優先順位付けと区分を見直す</h3>
+            <ul>
+                <li><strong>小規模から始める</strong>: 6,000や10,000ではなく、200-1,000アカウントに絞る</li>
+                <li><strong>過去のエンゲージメントデータを分析</strong>: マーケティングオートメーションツールから情報を引き出す</li>
+                <li><strong>ターゲットアカウントの見直し</strong>: 本当に適切なアカウントをターゲットにしているか再評価</li>
+            </ul>
+            
+            <h3>3. 購買グループの基盤を構築</h3>
+            <ul>
+                <li><strong>データの統合</strong>: リードとアカウントデータを購買グループに再構成</li>
+                <li><strong>システム間でのアカウントIDの統一</strong>: 部門間で一貫した顧客ビューを確立</li>
+                <li><strong>エンゲージメントモデリング</strong>: 機会と可能性を特定するためのデータ活用</li>
+                <li><strong>購買グループの役割設定</strong>: ターゲットアカウント内での役割定義</li>
+            </ul>
+            
+            <h3>4. 購買グループジャーニーを開始</h3>
+            <ul>
+                <li><strong>マイクロジャーニーの作成</strong>: 購買グループコミュニティに焦点を当てたコンテンツキャンペーン</li>
+                <li><strong>不足している連絡先の特定と獲得</strong>: 購買グループの完全性確保</li>
+                <li><strong>クロスセルジャーニーの作成</strong>: アカウントデータを活用した追加販売機会の特定</li>
+                <li><strong>フィードバックループの確立</strong>: デジタル分析と顧客の声（VOC）の両方を活用</li>
+            </ul>
+            
+            <h3>5. 影響力と連携を拡大</h3>
+            <ul>
+                <li><strong>セールスアラートの設定</strong>: 適格な購買グループの通知システム</li>
+                <li><strong>ジャーニーのROI最適化</strong>: 効果測定と継続的な改善</li>
+                <li><strong>追加ユースケースへの拡大</strong>: 営業とマーケティングチーム全体への普及</li>
+                <li><strong>組織文化としての定着</strong>: 購買グループアプローチを自然な状態として組織に浸透</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. IBMではどのようなチーム構造で購買グループ戦略を実行していますか？</div>
+                    <div class="faq-answer">
+                        IBMではオムニチャネルCOEを設置し、自動化専門家、需要戦略家、各分野の代表者、技術者、分類専門家を組み合わせたチームを構成しています。このCOEがガバナンスモデルを設定し、各キャンペーンごとに「タイガーチーム」が形成され、特定の購買グループ目標に集中します。高レベルのガバナンスと特定の製品販売に焦点を当てたチームの組み合わせが効果的です。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 購買グループ戦略の導入はどのように段階的に進めるべきですか？</div>
+                    <div class="faq-answer">
+                        「這う・歩く・走る」アプローチが推奨されます。最初は内部対話と手動での合意形成から始め（這う）、次に購買グループジャーニーの立ち上げとフィードバックループの確立（歩く）、最終的には影響力の拡大と組織全体への浸透（走る）へと段階的に発展させます。小規模から始め、データと経験に基づいて拡大していくことが重要です。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 購買グループ「コミュニティ」とは何を意味しますか？</div>
+                    <div class="faq-answer">
+                        購買グループをただの標的リストではなく、特定の関心や役割を共有する「コミュニティ」として捉える考え方です。例えば、開発者コミュニティ、エンジニアコミュニティ、Cスイートコミュニティなどがあります。各コミュニティには異なるコミュニケーション方法、関心事、意思決定プロセスがあり、ブランドがそのコミュニティの一部となるよう関係構築することが重要です。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要用語と概念</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>購買グループ</td>
+                    <td>B2B購買決定に関わる個人の集団。通常4〜14人で構成され、様々な役割や視点を持つ。</td>
+                </tr>
+                <tr>
+                    <td>リードベースマーケティング</td>
+                    <td>個別の見込み客に焦点を当てた従来の手法。範囲が狭すぎる傾向がある。</td>
+                </tr>
+                <tr>
+                    <td>アカウントベースマーケティング（ABM）</td>
+                    <td>企業単位でのマーケティング戦略。範囲が広すぎる傾向がある。</td>
+                </tr>
+                <tr>
+                    <td>マイクロジャーニー</td>
+                    <td>購買グループ内の特定の役割やペルソナに合わせた細分化された顧客体験設計。</td>
+                </tr>
+                <tr>
+                    <td>センター・オブ・エクセレンス（COE）</td>
+                    <td>特定分野の専門知識を集約した部門横断的な組織構造。</td>
+                </tr>
+                <tr>
+                    <td>タイガーチーム</td>
+                    <td>特定の目標達成のために編成された機動的な小規模チーム。</td>
+                </tr>
+                <tr>
+                    <td>購買グループコミュニティ</td>
+                    <td>単なるターゲットリストではなく、共通の関心や役割を持つグループとしての購買グループの捉え方。</td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            © 2025 B2B購買グループ戦略ガイド
+        </footer>
+    </div>
+    
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentNode;
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

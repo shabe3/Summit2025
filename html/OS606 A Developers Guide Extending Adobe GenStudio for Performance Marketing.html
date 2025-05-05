@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe GenStudio 拡張ガイド</title>
+    <style>
+        :root {
+            --accent-color: #0f3c78;
+            --bg-color: #f5f5f5;
+            --section-bg: #ffffff;
+            --text-color: #333;
+            --highlight-bg: #fff3cd;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 0;
+            margin: 0;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        
+        .summary {
+            background-color: var(--section-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        section {
+            background-color: var(--section-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        
+        h3 {
+            color: var(--text-color);
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: var(--highlight-bg);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            margin-bottom: 10px;
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            padding: 15px 10px;
+            position: relative;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding: 0 10px;
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            padding: 10px;
+            padding-top: 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe GenStudio for Performance Marketing 拡張ガイド</h1>
+            <p>パートナー、ISV、顧客向けの開発者ガイド</p>
+        </header>
+
+        <div class="summary">
+            <h2>概要</h2>
+            <p>Adobe GenStudio for Performance Marketing は、<span class="underline">拡張性を重視して設計</span>されたプラットフォームです。この文書では、特定の業界ニーズに合わせてGenStudioを拡張するための方法を解説します。Adobe App Builderを使用することで、規制チェックなどのドメイン固有の機能を統合し、マーケターのワークフローを妨げることなくコンプライアンスを確保できます。</p>
+        </div>
+
+        <section>
+            <h2>拡張性の重要性</h2>
+            <p>拡張性がなぜ重要なのかを製薬会社の事例を通じて説明します。</p>
+            
+            <h3>ユースケース例</h3>
+            <ul>
+                <li>製薬会社は医療専門家や病院に製品中心のマーケティングメールを送信</li>
+                <li>メール内には<span class="highlight">副作用、投与方法、効能などの重要な医薬品情報</span>が含まれる</li>
+                <li>これらの情報（「クレーム」と呼ばれる）は正確である必要があり、FDA承認が必要</li>
+                <li>GenStudioは迅速なメール作成を可能にするが、コンプライアンスチェックの責任はドメイン専門家に</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 拡張性がなければどのような問題が生じますか？</div>
+                    <div class="faq-answer">
+                        <p>拡張性がない場合、マーケターは規制コンプライアンスのためにGenStudioの外部でチェックを行う必要があり、ワークフローが分断され非効率になります。また、ドメイン固有の要件に合わせたカスタマイズが難しくなります。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe App Builderとは何ですか？</div>
+                    <div class="faq-answer">
+                        <p>Adobe App Builderは、Adobeのエクスペリエンスクラウド製品の拡張機能を構築するための開発フレームワークです。これにより、開発者はカスタムインターフェースや機能を構築して、Adobe製品に統合することができます。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのような業界がこの拡張性の恩恵を受けますか？</div>
+                    <div class="faq-answer">
+                        <p>特に規制の厳しい業界（製薬、金融サービス、医療など）が大きな恩恵を受けます。また、特殊なコンテンツ要件やブランドガイドラインを持つ企業も、独自の拡張機能を開発することでGenStudioをより効果的に活用できます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>拡張ポイント</h2>
+            <p>GenStudio for Performance Marketingが提供する拡張ポイントについて説明します。</p>
+            
+            <h3>追加コンテキスト拡張ポイント（キャンバスモデル）</h3>
+            <ul>
+                <li>マーケターがプロンプト作成時に生成コンテキストを拡張可能</li>
+                <li>例：医薬品のクレームをフィルタリングして選択するための拡張機能</li>
+                <li>外部システムからクレームをロード</li>
+                <li>選択したクレームをメール生成時のコンテキストに追加</li>
+            </ul>
+            
+            <h3>コンプライアンスチェック拡張ポイント（右パネル）</h3>
+            <ul>
+                <li>生成されたメールの規制コンプライアンスチェック</li>
+                <li>App Builder拡張機能を使って顧客のデータストアと照合</li>
+                <li>リアルタイムでフィードバックを提供</li>
+                <li>マーケターが迅速に問題を特定・修正できる</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 拡張機能はどのように共有されますか？</div>
+                    <div class="faq-answer">
+                        <p>パートナーはExchange.adobe.comに拡張機能を公開して複数の顧客に提供できます。また、顧客は特定のニーズに合わせた拡張機能を作成してプライベートに公開することも可能です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 1つのアプリケーションで複数の拡張ポイントを実装できますか？</div>
+                    <div class="faq-answer">
+                        <p>はい、1つのアプリケーションで複数の拡張ポイントを実装できます。典型的には、包括的なユースケース（例：医療-法律-規制シナリオ）に対応するようアプリケーションを設計します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>拡張機能の開発と公開プロセス</h2>
+            <p>拡張機能の開発から公開までの一連のプロセスを説明します。</p>
+            
+            <h3>開発プロセス</h3>
+            <ol>
+                <li>パートナーまたは顧客がリファレンスアプリケーションをフォーク</li>
+                <li>ドメイン固有の拡張機能を実装</li>
+                <li>Adobe Developer Consoleを使用してビルドとテスト</li>
+                <li>完成したアプリケーションをExchange.adobe.comにプライベートまたは公開で公開</li>
+            </ol>
+            
+            <h3>インストールと使用プロセス</h3>
+            <ul>
+                <li>IMS組織のシステム管理者がExchange.adobe.comからApp Builderアプリをインストール</li>
+                <li>マーケターがGenStudioにログインすると、利用可能な拡張アプリが表示される</li>
+                <li>マーケターがアプリを操作すると、シングルページアプリケーションのロジックに基づいて詳細が表示される</li>
+                <li>サーバーサイドのランタイムアクションが顧客のデータストアと通信</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 開発に必要な前提条件は何ですか？</div>
+                    <div class="faq-answer">
+                        <p>開発には以下が必要です：npm（依存関係のインストール用）、IO CLI（グローバルにインストール）、IO CLIへのログイン、Developer Consoleで作成したプロジェクトへの切り替え。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 公開は公開とプライベートのどちらがよいですか？</div>
+                    <div class="faq-answer">
+                        <p>用途によります。複数の顧客に提供したい場合は公開、特定の組織内でのみ使用する場合はプライベート公開が適しています。ただし、一度プライベート公開したプロジェクトは同じプロジェクトで公開公開できないため、新しいプロジェクトを作成する必要があります。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. App Builderのライセンスはどのように取得できますか？</div>
+                    <div class="faq-answer">
+                        <p>GenStudio for Performance Marketingを購入する顧客には、ライセンスに含まれて1パックのApp Builderが提供されます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>デモ概要</h2>
+            <p>セレステXバイオサイエンス社のケーススタディを元にした拡張機能のデモ内容です。</p>
+            
+            <h3>追加コンテキスト拡張機能（MLR for Celeste X）</h3>
+            <ul>
+                <li>新薬「ファタリス」の広告用に拡張機能を作成</li>
+                <li>GenStudioでブランド、ペルソナ、製品を追加</li>
+                <li>拡張機能でクレームライブラリから「有効性クレーム」を選択</li>
+                <li>選択したクレームがプロンプトに追加される</li>
+            </ul>
+            
+            <h3>クレーム検証拡張機能（右パネル）</h3>
+            <ul>
+                <li>生成されたエクスペリエンス内のクレームを検証</li>
+                <li>クレーム違反を検出（例：「関節炎症を70%減少」は正しくは「50%減少」）</li>
+                <li>GenStudio UI拡張機能APIを使用してエクスペリエンスにアクセス</li>
+                <li>違反を報告し、マーケターが修正できるようにする</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. このデモで使われている技術スタックは何ですか？</div>
+                    <div class="faq-answer">
+                        <p>デモではTypeScriptベースのApp Builderアプリケーションが使用されています。フロントエンドコードはweb-sourceフォルダに配置され、拡張機能登録コンポーネント、追加コンテキストタイプ、右パネルなどのコンポーネントが含まれています。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. デプロイ前にアプリをテストする方法は？</div>
+                    <div class="faq-answer">
+                        <p>「io app run」コマンドを実行してコンパイルエラーをチェックし、ブラウザで開いて表示を確認できます。その後「io app build」と「io app deploy」を実行してデプロイします。URLパラメータを使ってGenStudioでプレビューすることも可能です。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>開発リソース</h2>
+            <p>GenStudio UI拡張機能の開発に役立つリソースを紹介します。</p>
+            
+            <h3>オープンソースリポジトリ</h3>
+            <ul>
+                <li><span class="highlight">Gen Studio UI Examples</span> - サンプルプロジェクトを含むリポジトリ</li>
+                <li><span class="highlight">Gen Studio UI SDK</span> - GenStudioとUIの間のAPI契約をカプセル化</li>
+                <li>必要なツールと配線がすべて含まれており、開発者は2つのコンポーネント（追加コンテキスト拡張とバリデーション用右パネル）の定義に集中できる</li>
+            </ul>
+            
+            <h3>アプリの構成</h3>
+            <ul>
+                <li>TypeScriptの典型的な構成ファイル（package.json、Jestテスト設定、TypeScript設定、ESLintなど）</li>
+                <li>App Builder固有のファイル（app.config.yamlなど）</li>
+                <li>フロントエンドコード（web-sourceフォルダ内）</li>
+                <li>拡張機能登録コンポーネント（GenStudio表示用のメソッド）</li>
+            </ul>
+            
+            <div class="important">
+                <p>GenStudio for Performance Marketingを購入する顧客には、ライセンスにApp Builderが1パック含まれています</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. すでに多くのパートナーが拡張機能を開発していますか？</div>
+                    <div class="faq-answer">
+                        <p>はい、多くのテクノロジーパートナーやソリューションパートナーが、製薬・金融サービス業界向けのコンプライアンスユースケースをサポートする拡張機能を積極的に開発しています。また、DAM統合や承認済みエクスペリエンスのエクスポートなどの分野でもGenStudioを拡張するパートナーが多数存在します。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. App Builderの詳細はどこで確認できますか？</div>
+                    <div class="faq-answer">
+                        <p>App Builderの詳細については、App Builder開発ガイドを参照してください。また、Gen Studio UI SDK、リファレンスアプリ、およびドキュメントへのリンクもセッション内で共有されています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>用語集</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>GenStudio for Performance Marketing</td>
+                    <td>Adobeのパフォーマンスマーケティング向けのコンテンツ生成・管理プラットフォーム</td>
+                </tr>
+                <tr>
+                    <td>Adobe App Builder</td>
+                    <td>Adobe製品の拡張機能を構築するための開発フレームワーク</td>
+                </tr>
+                <tr>
+                    <td>クレーム（Claims）</td>
+                    <td>製品の効能や特性に関する説明文。特に規制産業では正確性が求められる</td>
+                </tr>
+                <tr>
+                    <td>拡張ポイント</td>
+                    <td>製品が提供する拡張可能な機能領域（追加コンテキスト、右パネルなど）</td>
+                </tr>
+                <tr>
+                    <td>IMS組織</td>
+                    <td>Adobe Identity Management Systemにおける組織単位</td>
+                </tr>
+                <tr>
+                    <td>Exchange.adobe.com</td>
+                    <td>Adobe製品の拡張機能を公開・配布するためのマーケットプレイス</td>
+                </tr>
+                <tr>
+                    <td>IO CLI</td>
+                    <td>Adobeのコマンドラインインターフェース。App Builder開発に使用</td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <p>© Adobe Inc. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentNode;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

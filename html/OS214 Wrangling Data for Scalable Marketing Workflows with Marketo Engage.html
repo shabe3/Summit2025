@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マーケティング自動化：Marketo Engageによるデータ活用と統合</title>
+    <style>
+        /* 基本スタイル */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        /* ヘッダー */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        
+        /* セクション */
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #0f3c78;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        h3 {
+            color: #444;
+            margin: 15px 0 10px;
+            font-size: 1.2rem;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* 強調要素 */
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+        
+        /* FAQ */
+        .faq-container {
+            margin-top: 15px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 12px 15px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            position: relative;
+            font-weight: 500;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            color: #0f3c78;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '−';
+        }
+        
+        .faq-answer {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 15px;
+            max-height: 500px;
+        }
+        
+        /* テーブル */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        /* フッター */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>マーケティング自動化：Marketo Engageによるデータ活用と統合</h1>
+        <p>スケーラブルなマーケティングワークフローを実現するデータ管理手法</p>
+    </div>
+    
+    <div class="section">
+        <h2>概要</h2>
+        <p>本資料は、Prudential Financialでの12のMarketo Engageインスタンス管理の経験に基づき、大規模マーケティング自動化を実現するためのデータ活用法を解説します。「<span class="highlight">すべてを自動化し、手作業を排除する</span>」をモットーに、複数のチャネルからのデータ統合と活用方法を紹介します。</p>
+        
+        <h3>主要な内容</h3>
+        <ul>
+            <li><span class="underline">データのカプセル化</span>：単一のデータポイントで複数のターゲティングを実現</li>
+            <li><span class="underline">マーケティング自動化サイクル</span>：全チャネルのデータ取り込みと処理の自動化</li>
+            <li><span class="underline">オムニチャネル統合</span>：Webフォーム、リストインポート、API、Salesforceの連携</li>
+            <li><span class="underline">Adobe エコシステム連携</span>：ネイティブ統合機能の活用方法</li>
+        </ul>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. 規模での成功とは何を意味しますか？</div>
+                <div class="faq-answer">
+                    データのカプセル化を念頭に置いた解決策を構築することです。単一のデータポイントで顧客データベース全体をカプセル化し、シームレスなターゲティングとワークフロー管理を実現します。「より少ないリソースでより多くのことを行う」という考え方で、フレームワークを統合し、トラブルシューティングを簡素化し、プログラムの肥大化を減らします。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. プレゼンターはどのような経歴を持っていますか？</div>
+                <div class="faq-answer">
+                    プレゼンターのコリー・ベイレスは、Prudential Financialの12のMarketoインスタンスのディレクターおよびプロダクトオーナーを務めています。Microsoft、Expedia、AWSなど世界最大級のMarketoインスタンスでの11年以上の経験を持ち、5年間のMarketoチャンピオン、Adobe Experience Cloud専門家、AWS認定クラウドプラクティショナー、Pythonデベロッパーです。
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>データのカプセル化 - 単一データポイントの威力</h2>
+        <p>データのカプセル化とは、1つのデータポイントで複数の顧客セグメントを効率的に管理する手法です。例えば、単一の文字列値で40,000件の記録をターゲットにできるため、複雑な条件設定を簡素化できます。</p>
+        
+        <h3>データカプセル化の利点</h3>
+        <ul>
+            <li>複数の条件を単一のフィールド値でまとめることができる</li>
+            <li>10K〜100万件の記録を効率的に処理可能</li>
+            <li>複数のメールアドレスリストを個別に管理する必要がなくなる</li>
+            <li>調整された配信と分岐が可能になる</li>
+        </ul>
+        
+        <h3>フォームのコンプライアンス管理</h3>
+        <p>「シンギュラリティデータストリーム」と呼ばれる統合されたデータフローを作成することで、コンプライアンス管理を簡素化します。</p>
+        <ul>
+            <li>メール通信設定、オプトイン日時、システム日時などのデータを一元管理</li>
+            <li>登録解除処理も同様のフローで管理し、データ整合性を確保</li>
+            <li>重要なデータのボトルネックを作り、管理を簡素化</li>
+        </ul>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. なぜデータのカプセル化が重要なのですか？</div>
+                <div class="faq-answer">
+                    データのカプセル化により、単一の値で複数の条件を表現できるため、Marketoのスマートリスト機能でのターゲティングが大幅に効率化されます。例えば40,000件の個別レコードを個別に指定する代わりに、1つのフィールド値でそれらすべてをターゲットにできます。これにより、複雑なセグメンテーションやパーソナライゼーションが簡素化され、システムの処理効率も向上します。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. シンギュラリティデータストリームとは具体的に何ですか？</div>
+                <div class="faq-answer">
+                    シンギュラリティデータストリームとは、複数のチャネル（フォーム入力、リストインポート、API、Salesforce）からのデータを1つの統合されたデータフローに集約する方法です。これにより、コンプライアンス管理や顧客ジャーニーの設計が簡素化され、1つのデータポイントで複数のターゲティングが可能になります。プレゼンターはこれを「オムニチャネルMarketo コンプライアンスデータストリーム」とも呼んでいます。
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>オムニチャネルデータ統合方法</h2>
+        <p>Marketo Engageでは複数のチャネルからのデータを統合し、一貫したワークフロー管理を実現します。各チャネルごとの統合方法とその利点を解説します。</p>
+        
+        <h3>1. Webフォームからのデータ取り込み</h3>
+        <ul>
+            <li>「グローバルオプスフォームキャンペーンロジック」を使用</li>
+            <li>新規作成されたユーザーと既存ユーザーの両方に対応</li>
+            <li>命名規則による条件分岐（例：email*）</li>
+            <li>リクエストキャンペーンを活用した設定の一元管理</li>
+            <li>コンプライアンスフレームワークを管理ワークスペースで保護</li>
+        </ul>
+        
+        <h3>2. グローバルリストインポート</h3>
+        <ul>
+            <li>新規/既存ユーザーに対する条件付きロジック</li>
+            <li>Excelマッピングに基づく一貫したコンプライアンス管理</li>
+            <li>マーケターが独自にデータをアップロードできるよう設計</li>
+        </ul>
+        
+        <h3>3. Web Service API統合</h3>
+        <ul>
+            <li><span class="highlight">API統合は自動化が必須</span>（手動リスト処理に依存しない）</li>
+            <li>「Marketo API データ処理ハブ」を構築</li>
+            <li>APIデータをコンプライアンスプロセスを通じてプログラムに送信</li>
+            <li>Marketo Lead IDを活用した重複排除</li>
+        </ul>
+        
+        <h3>4. Salesforceデータフロー</h3>
+        <ul>
+            <li>カスタムカラムを活用した「ピープルパフォーマンスレポート」</li>
+            <li>「パーソンリソースマッパー」によるソース種別の整理</li>
+            <li>Salesforceからのデータを元にチャネル別に分類・管理</li>
+        </ul>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. リクエストキャンペーンとは何ですか？その重要性は？</div>
+                <div class="faq-answer">
+                    リクエストキャンペーンは、Marketo内で繰り返し実行される処理を一元管理するための方法です。特に重要なのは、設定（preferences）の管理を一箇所で行うことができる点です。これにより、システム全体の一貫性が保たれ、管理が容易になります。プレゼンターは「rule of five」として、設定は管理ワークスペースの1箇所でのみ行うべきと強調しています。これにより、コンプライアンスフレームワークが保護され、複数のユーザーがいる環境でも一貫した処理が可能になります。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. Web Service APIの統合がなぜ重要なのですか？</div>
+                <div class="faq-answer">
+                    Web Service API統合は、マーケティング運用チームが「反応型」から「先行型」に移行するための鍵となります。手動でのリストインポート処理に依存すると、毎日同じ作業を繰り返す必要があり、戦略的な作業に時間を割けなくなります。API統合を自動化することで、定型業務から解放され、ロードマップに沿った先行的な取り組みに集中できるようになります。また、データの品質と一貫性も向上し、顧客ジャーニーのカスタマイズが容易になります。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. Marketo APIデータ処理ハブとは何ですか？</div>
+                <div class="faq-answer">
+                    Marketo APIデータ処理ハブは、APIを通じて取り込まれるデータを管理・処理するための中央ハブです。これにより、「APIの暴走」シナリオを防ぎ、データフローを制御できます。ハブはデータを取り込み、コンプライアンス要件に沿って処理し、適切なプログラムに送信します。また、ユーザーの属性情報を正確に記録し、適切なターゲティングを可能にします。このハブを使用することで、APIから取り込まれたデータも他のチャネルと同様に管理でき、一貫したカスタマージャーニーを提供できます。
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Adobe エコシステムとの連携</h2>
+        <p>Adobe Experience Platform (AEP) をMarketoと連携させることで、さらに強力なデータ活用が可能になります。AEPはMarketoのデータを読み取り、他のシステムとの連携を容易にします。</p>
+        
+        <h3>AEPの主な利点</h3>
+        <ul>
+            <li>「データブレイン」として機能し、複数システム間の可視性を提供</li>
+            <li>Marketoが直接接続できないデータベースとも連携可能</li>
+            <li>静的リストメンバーシップとプログラムメンバーシップの読み取り</li>
+            <li>Marketo Lead IDを利用したプロファイル作成</li>
+        </ul>
+        
+        <div class="important">「すべてを正しく実装すれば、夜もぐっすり眠れる」 - コリー・ベイレス</div>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. Prudentialでは複数のMarketoインスタンス間でどのようにデータを連携していますか？</div>
+                <div class="faq-answer">
+                    Prudentialでは、複数のMarketoインスタンス間のデータ連携にAEP（Adobe Experience Platform）とOneTrustを活用しています。Marketoは直接他のMarketoインスタンスと通信できないため、AEPやOneTrustを「単一の信頼源」として使用し、複数のシステム間でデータを同期させています。これにより、Prudentialのコンプライアンス要件を満たしながら、複雑なエコシステムを効率的に運用しています。
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>主要な教訓と実践ポイント</h2>
+        <p>大規模なマーケティング自動化を成功させるための重要なポイントをまとめました。</p>
+        
+        <ul>
+            <li><span class="underline">Original Source Type（元のソースタイプ）</span>はMarketoへのエントリーの最上位レベル。すべての人に適切なリードソースが必要</li>
+            <li><span class="underline">データカプセル化</span>はターゲティングとワークフロー管理を容易にする鍵</li>
+            <li><span class="underline">グローバルな視点</span>でソリューションを構築し、プログラムレベルではなく運用レベルで考える</li>
+            <li><span class="underline">リクエストキャンペーン</span>を活用して共通の繰り返し実行を管理</li>
+            <li><span class="underline">データフローとアクティビティログ</span>を視覚化する能力を高める</li>
+            <li><span class="underline">コンプライアンスデータストリーム</span>を作成してデータを自動的にカプセル化</li>
+            <li><span class="underline">リソース数を制限</span>し、テンプレート化を徹底する</li>
+        </ul>
+        
+        <div class="important">「テンプレート化、テンプレート化、テンプレート化！」</div>
+    </div>
+    
+    <div class="section">
+        <h2>重要な用語と概念</h2>
+        <table>
+            <tr>
+                <th>用語</th>
+                <th>説明</th>
+            </tr>
+            <tr>
+                <td>データのカプセル化</td>
+                <td>単一のデータポイントで複数の顧客セグメントを効率的に管理する手法</td>
+            </tr>
+            <tr>
+                <td>シンギュラリティデータストリーム</td>
+                <td>複数のチャネルからのデータを統合した一元管理フロー</td>
+            </tr>
+            <tr>
+                <td>リクエストキャンペーン</td>
+                <td>繰り返し実行される処理を一元管理するためのMarketoの機能</td>
+            </tr>
+            <tr>
+                <td>Marketo APIデータ処理ハブ</td>
+                <td>APIを通じて取り込まれるデータを管理・処理するための中央ハブ</td>
+            </tr>
+            <tr>
+                <td>パーソンリソースマッパー</td>
+                <td>Salesforceからのデータソースを整理・マッピングするツール</td>
+            </tr>
+            <tr>
+                <td>Original Source Type</td>
+                <td>Marketoへのデータ入力の最上位レベルの分類</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="footer">
+        <p>プレゼンター：コリー・ベイレス（Prudential Financial、12のMarketoインスタンスのディレクター兼プロダクトオーナー）</p>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentNode;
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

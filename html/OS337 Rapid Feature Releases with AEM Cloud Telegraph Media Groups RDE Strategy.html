@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS337 Rapid Feature Releases with AEM Cloud Telegraph Media Group's RDE Strategy</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 3px 5px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            cursor: pointer;
+            position: relative;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            display: none;
+            padding: 10px 15px;
+            border-left: 2px solid #0f3c78;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AEM Cloudを使用した迅速な機能リリース：テレグラフメディアグループのRDE戦略</h1>
+        
+        <div class="section">
+            <p class="important">開発サイクルが<span class="highlight">90分から10分</span>に短縮され、開発者の生産性が<span class="highlight">81%向上</span>した実例</p>
+            
+            <p>この資料では、Telegraph Media Group（TMG）がAdobe Experience Manager（AEM）Cloudの新しい「RDE（Rapid Development Environment）」を活用してリリースプロセスを加速させた方法を紹介します。開発からテスト、本番環境へのデプロイまでの時間を大幅に短縮し、ビジネス価値の創出を加速させた事例を解説します。</p>
+        </div>
+        
+        <div class="section">
+            <h2>AEM開発の課題と従来のアプローチ</h2>
+            <p>Telegraph Media Groupは165年以上の歴史を持つ受賞歴のあるマルチメディアニュースブランドで、サブスクリプションファーストのビジネスモデルを採用しています。Adobe Experience Manager as a Cloud Serviceを使用してウェブサイトやアプリを運営していますが、開発プロセスに課題がありました。</p>
+            
+            <h3>従来の開発サイクルの問題点</h3>
+            <ul>
+                <li><span class="underline">ローカル開発の限界</span>：ローカルSDKでの開発は速いものの、「自分のPCでは動くが、クラウドでは動かない」という問題が頻発</li>
+                <li><span class="underline">クラウド機能のテスト困難</span>：クラウド専用の機能やマイクロサービスはローカル環境で再現できない</li>
+                <li><span class="underline">SDKの維持が困難</span>：ローカルSDKの維持・更新に時間がかかる</li>
+                <li><span class="underline">長いデプロイ時間</span>：クラウドへのデプロイに最低30分、平均90分かかっていた</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ開発サイクルが最大のボトルネックだったのですか？</div>
+                    <div class="faq-answer">アイデアを考えるのは簡単で、本番環境にデプロイしてからの評価も迅速にできますが、開発からテスト、品質保証までのサイクルに最も時間がかかっていました。特にクラウド環境へのデプロイに90分程度かかることが大きな障壁でした。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ローカル環境での開発のメリットは何ですか？</div>
+                    <div class="faq-answer">ローカル環境では変更をすぐに確認できるため、迅速なフィードバックが得られます。しかし、クラウド環境との違いにより、ローカルでは問題なく動作してもクラウドではエラーが発生するという問題がありました。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 従来のパイプラインはどのように機能していましたか？</div>
+                    <div class="faq-answer">開発者がローカルで変更を行った後、クラウド環境へのパイプラインを実行し、ビルド、検証、デプロイのプロセスを経ていました。このプロセスには最低でも30分、平均で90分かかっていました。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>RDE（Rapid Development Environment）の導入</h2>
+            <p>Adobeは新しい環境タイプであるRDE（Rapid Development Environment）を開発し、開発プロセスを革新しました。RDEはローカル開発とクラウド環境のギャップを埋める重要な役割を果たしています。</p>
+            
+            <h3>RDEの主な特徴</h3>
+            <ul>
+                <li><span class="underline">パイプラインなしのデプロイ</span>：ローカルからクラウド環境に直接デプロイ可能</li>
+                <li><span class="underline">実行時の変更サポート</span>：設定やバンドルをリアルタイムで適用できる</li>
+                <li><span class="underline">迅速な機能検証</span>：変更から数秒〜数分でフィードバックを得られる</li>
+                <li><span class="underline">簡単なセットアップ</span>：専用プラグインで簡単に環境を構築</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. RDEとは正確に何ですか？</div>
+                    <div class="faq-answer">RDE（Rapid Development Environment）は、AEM Cloudの新しい環境タイプで、パイプラインなしで直接ローカルからクラウド環境にコードをデプロイできる機能を提供します。開発者はローカルの変更をすぐにクラウド環境で検証できるため、開発サイクルが大幅に短縮されます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. デプロイ時間はどれくらい短縮されるのですか？</div>
+                    <div class="faq-answer">設定や小さなバンドルであれば数秒、大きなコンテンツの場合でも数分程度でデプロイが完了します。従来の90分と比較すると、劇的な改善です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. RDEはどのようにCIパイプラインと統合できますか？</div>
+                    <div class="faq-answer">顧客は独自のCI（継続的インテグレーション）パイプラインをRDEと連携させることができます。プルリクエストが作成されると、自動的にMavenビルドが実行され、パッケージ化されたコードがRDE環境にデプロイされ、自動テストが実行されます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Telegraph Media Groupの成功事例</h2>
+            <p>Telegraph Media Groupは2023年前半にAEMをオンプレミスからクラウドに移行しました。RDEを導入した結果、劇的な改善が見られました。</p>
+            
+            <h3>主な成果</h3>
+            <ul>
+                <li><span class="underline">環境の変革</span>：現在、環境の80%がRDEに移行</li>
+                <li><span class="underline">デプロイ時間の短縮</span>：90分から10分へと約89%削減</li>
+                <li><span class="underline">開発サイクルの改善</span>：テストサイクルが1日から半日に短縮</li>
+                <li><span class="underline">CI/CDの効率化</span>：継続的インテグレーションの実行時間が4時間から2時間に半減</li>
+                <li><span class="underline">デプロイ頻度の向上</span>：1日6回から12回へと倍増</li>
+            </ul>
+            
+            <p class="important">RDEの導入により、実験的なアプローチが可能になり、より多くの機能をリリースできるようになりました</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. RDEの導入によってどのようなビジネス効果がありましたか？</div>
+                    <div class="faq-answer">変更のサイクルタイムが時間単位から分単位に短縮され、より多くの変更を試すことができるようになりました。品質向上のための自動化も強化され、より多くの機能を顧客に届けられるようになりました。結果として年間を通じてより多くの価値を顧客に提供できています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CI/CDパイプラインのパフォーマンス向上はどのように測定されていますか？</div>
+                    <div class="faq-answer">自動化システムからのデータによると、従来の完全な開発環境を使用した場合（赤線）と比較して、RDE環境を使用した場合（青線）では実行時間が半分になりました。これにより、1日あたりのマージ試行回数が6回から12回に増加しました。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ジェボンスのパラドックスとは何ですか？</div>
+                    <div class="faq-answer">ジェボンスのパラドックスとは、プロセスの効率が高まるほど、そのプロセスの使用頻度が増加する現象を指します。TMGの場合、RDEによりデプロイ時間が短縮されたことで、より多くのテストや品質チェックを実施するようになり、結果として全体的な価値が向上しました。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>RDEの今後の展開</h2>
+            <p>Adobeは継続的にRDE環境の機能を拡張しており、顧客からのフィードバックを元に新機能を開発しています。</p>
+            
+            <h3>近日公開予定の機能と最新の追加機能</h3>
+            <ul>
+                <li><span class="underline">RDEスナップショット機能</span>：環境の現在の状態を保存し、必要に応じて復元できる機能</li>
+                <li><span class="underline">ロギング・デバッグ機能</span>：RDE環境でのログレベル設定や、リアルタイムログストリームの確認が可能</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. RDEスナップショット機能はどのように使用できますか？</div>
+                    <div class="faq-answer">RDEスナップショット機能を使用すると、環境の現在の状態を保存し、後で必要に応じてその状態に戻すことができます。開発中に問題が発生した場合や、異なるアプローチを試したい場合に特に有用です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ロギング機能はどのように開発者を支援しますか？</div>
+                    <div class="faq-answer">開発者はRDE環境でログレベルを設定し、デバッグレベルのログを有効にすることができます。これにより、クラウドベースの環境で何が起きているかをリアルタイムで確認でき、問題の特定と解決が容易になります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. RDEに関する詳細情報はどこで入手できますか？</div>
+                    <div class="faq-answer">RDEに関する詳細情報はAdobeの公式ドキュメントで入手できます。また、AdobeのDiscordチャンネルでエンジニアに直接質問することもできます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要な用語と事実</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>RDE</td>
+                    <td>Rapid Development Environment（迅速開発環境）。パイプラインなしでローカルからクラウドに直接デプロイできるAEMの新しい環境タイプ</td>
+                </tr>
+                <tr>
+                    <td>AEM Cloud</td>
+                    <td>Adobe Experience Manager as a Cloud Service。Webサイトやデジタル体験を管理するためのクラウドベースのプラットフォーム</td>
+                </tr>
+                <tr>
+                    <td>Telegraph Media Group (TMG)</td>
+                    <td>165年以上の歴史を持つ英国のメディア企業。サブスクリプションモデルでデジタルコンテンツを提供</td>
+                </tr>
+                <tr>
+                    <td>CI/CD</td>
+                    <td>Continuous Integration/Continuous Deployment（継続的インテグレーション/継続的デプロイメント）。自動化されたビルド、テスト、デプロイのプロセス</td>
+                </tr>
+                <tr>
+                    <td>ジェボンスのパラドックス</td>
+                    <td>プロセスの効率が高まるほど、そのプロセスの使用頻度が増加する経済現象</td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            <p>OS337 Rapid Feature Releases with AEM Cloud Telegraph Media Group's RDE Strategy</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

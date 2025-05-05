@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Summit 2025 AIストラテジーセッション</title>
+    <style>
+        :root {
+            --accent-color: #051c2c;
+            --bg-color: #f5f5f5;
+            --text-color: #333;
+            --section-bg: #ffffff;
+            --highlight: #0047AB;
+            --spacing: 1.5rem;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--bg-color);
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        header {
+            background: var(--accent-color);
+            color: white;
+            padding: var(--spacing);
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        h2 {
+            font-size: 1.75rem;
+            margin: 2rem 0 1rem 0;
+            color: var(--accent-color);
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.75rem 0;
+            color: var(--accent-color);
+        }
+        
+        .summary {
+            background: var(--section-bg);
+            padding: var(--spacing);
+            margin: var(--spacing) 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            background: var(--section-bg);
+            padding: var(--spacing);
+            margin: var(--spacing) 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section-summary {
+            font-weight: 500;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .details ul {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .details li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .qa-item {
+            margin-bottom: 1rem;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .question {
+            font-weight: 600;
+            color: var(--accent-color);
+            cursor: pointer;
+            padding: 0.75rem;
+            background: rgba(0,71,171,0.05);
+            border-radius: 4px;
+            display: block;
+            position: relative;
+            user-select: none;
+        }
+        
+        .question::after {
+            content: '+';
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+        }
+        
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            background: white;
+        }
+        
+        .answer p {
+            margin: 0;
+            padding: 1rem;
+        }
+        
+        .qa-item input[type="checkbox"] {
+            display: none;
+        }
+        
+        .qa-item input[type="checkbox"]:checked + .question::after {
+            content: '−';
+        }
+        
+        .qa-item input[type="checkbox"]:checked ~ .answer {
+            max-height: 2000px;
+        }
+        
+        .key-terms {
+            margin-top: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        .highlight {
+            background: linear-gradient(transparent 60%, rgba(0,71,171,0.2) 40%);
+            font-weight: 600;
+        }
+        
+        .big-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            line-height: 1.3;
+            margin: 1.5rem 0;
+        }
+        
+        footer {
+            background: var(--accent-color);
+            color: white;
+            text-align: center;
+            padding: var(--spacing);
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 90%;
+                padding: var(--spacing);
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Summit 2025 AIストラテジーセッション</h1>
+        </header>
+        
+        <div class="summary">
+            <h2>サマリー</h2>
+            <p>このセッションではAdobe Summit 2025のキーノートで紹介されたAIエージェント技術についてより詳細に掘り下げています。AIの実装状況と価値創出の実例、コカ・コーラとのパートナーシップによるProject Visionの詳細、そしてAdobe Experience Platform Agent Orchestratorの技術的側面について解説しています。AIが単なるハイプを超え、実際のビジネス価値を生み出すフェーズに入っていることが強調されました。</p>
+        </div>
+
+        <div class="section">
+            <h2>AIの現状と実装フェーズへの移行</h2>
+            <div class="section-summary">
+                セッションの冒頭では、AIが実験段階から実装段階へと移行しつつある状況が解説されました。39%の消費者がAIを利用しており、55%の企業がエージェント体験の導入を検討しています。多くの企業がAdobe AIソリューションを活用し、実際のビジネス価値を生み出しています。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「今年は過去2年間と比べて、実験的AIから<span class="highlight">実装AIへの移行</span>が進んでいます。私たちはそれをますます多くの顧客で目の当たりにしています」</p>
+                
+                <h3>Adobeの長年のAI開発の歴史</h3>
+                <ul>
+                    <li>10-12年前から予測AIの開発をスタート</li>
+                    <li>機械学習機能を継続的に構築</li>
+                    <li>過去数年のSummitでは生成AIについて紹介</li>
+                    <li>ユーザーが使用するアプリケーションに直接AIを組み込む戦略
+                        <ul>
+                            <li>PhotoshopのFirefly生成フィル</li>
+                            <li>Gen Studioの機能</li>
+                            <li>新しいアプリケーションへの継続的な統合</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>AIの実装と価値創出の実例</h3>
+                <ul>
+                    <li><span class="highlight">PGAツアー</span>：Fireflyサービスを活用し、コンテンツ制作時間を「月単位から時間単位」に短縮</li>
+                    <li><span class="highlight">AAA Northeast</span>：AI生成オーディエンスインサイトを活用し、トランザクションが165%増加</li>
+                    <li><span class="highlight">Wegmans</span>：AIを活用したオーディエンスでモバイルキャンペーンのエンゲージメント率が3倍に</li>
+                    <li>多くの企業が実際にAIを実装し、ビジネス価値を実現</li>
+                </ul>
+                
+                <h3>AIエージェントの定義</h3>
+                <ul>
+                    <li><span class="highlight">インタラクティブ</span>：意図を解釈し、インテリジェントに応答</li>
+                    <li>テキスト、自然言語、音声などのマルチモーダルコミュニケーションをサポート</li>
+                    <li><span class="highlight">推論能力</span>：問題を考え抜き、コンテキストを理解し、決定を下す</li>
+                    <li>単なる事前定義されたルールビルダーではない</li>
+                    <li><span class="highlight">自律的</span>：行動を起こす能力を持つ</li>
+                    <li>高レベルのガイダンスや明示的な指示を通じて行動</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q1">
+                    <label class="question" for="q1">Q. AIの消費者利用率39%とは具体的に何を意味しますか？</label>
+                    <div class="answer">
+                        <p>消費者側での39%のAI利用率とは、ChatGPTやPerplexityなどの生成AIツールの利用、AmazonのRufusのような商業プラットフォームに組み込まれたAIアシスタントの利用など、一般消費者が日常生活の中でAIツールを使用している割合を指します。これは一般消費者の間でAIの採用が進んでいることを示す指標です。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q2">
+                    <label class="question" for="q2">Q. 企業におけるAIエージェント導入の課題は何ですか？</label>
+                    <div class="answer">
+                        <p>企業がAIエージェントを導入する際の主な課題は、明確な問題設定と人間主導のアプローチを確立することです。コカ・コーラの事例からわかるように、AIを使うこと自体が目的化するのではなく、解決すべきビジネス上の明確な課題から始めることが重要です。また、AIが創造性に取って代わるのではなく、それを強化する役割を担うよう、人間主導のアプローチを確立することも重要です。AIがクリエイティブな決断を代行している場合は、おそらく行き過ぎているとの指摘がありました。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q3">
+                    <label class="question" for="q3">Q. Adobe Experience Platform Agent Orchestratorとは何ですか？</label>
+                    <div class="answer">
+                        <p>Adobe Experience Platform Agent Orchestratorは、Adobeが開発した複数の目的特化型エージェントを管理・調整するためのシステムです。このオーケストレーターは顧客データ、スキーマ理解、メタデータを基盤としており、より複雑なユースケースをライフサイクル全体で実現することを目的としています。これはAdobeが長年構築してきたプラットフォームの上に新しい機能を追加したもので、ユーザーインターフェース、オーケストレーション層、モデルとデータ層の3つの柱で構成されています。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>コカ・コーラのケーススタディ：Project Vision</h2>
+            <div class="section-summary">
+                コカ・コーラのグローバルデザイン担当副社長のRafa Abriとグローバルマーケティングテクノロジー担当副社長のShakerが、Project Visionについて紹介しました。FireflyサービスとカスタムモデルによるAI活用で、ブランドの一貫性を維持しながら創造性を強化し、コンテンツ制作を大幅に効率化しています。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「AIは創造性に取って代わるものではなく、<span class="highlight">それを強化するもの</span>です。Project Visionはその完璧な例です」</p>
+                
+                <h3>コカ・コーラのグローバルブランド管理の課題</h3>
+                <ul>
+                    <li>220以上の市場で操業</li>
+                    <li>200のブランド（以前は400から削減）</li>
+                    <li>毎日22億サービングの提供</li>
+                    <li>膨大な量のコンテンツ供給が必要</li>
+                    <li>主な課題：
+                        <ul>
+                            <li>ブランドの一貫性の維持</li>
+                            <li>ローカルでの関連性を持つグローバルプレゼンス</li>
+                            <li>拡大するほどブランドガイドラインの誤解釈リスクが増大</li>
+                            <li>静的なブランドガイドラインから動的なものへの移行</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>Project Visionの機能と価値</h3>
+                <ul>
+                    <li>FireflyサービスとカスタムモデルによるAI活用</li>
+                    <li>オリジナルデザインからインテリジェントな動的デザインシステムを作成</li>
+                    <li>デザイナーがAdobe Creative Cloudで作成したレイアウトから視覚的アイデンティティを確立</li>
+                    <li>ロゴ、レイアウト、タイポグラフィ、画像などすべての要素を学習</li>
+                    <li>ワンクリックで公開できる新しいスタイルIDに体系化</li>
+                    <li>デザインワークフローにシームレスに統合</li>
+                    <li>デザイナーが制御を維持しながら、視覚的アイデンティティを精密に調整</li>
+                    <li>創造性を制限することなく、ブランドの一貫性を確保</li>
+                </ul>
+                
+                <h3>実現された価値と成果</h3>
+                <ul>
+                    <li>視覚的コンテンツ制作を<span class="highlight">10倍以上高速化</span></li>
+                    <li>デザイナーや創造者がブランドストーリーテリングや新しいアイデアに集中できる</li>
+                    <li>100ページのPDFガイドラインを読む代わりに、デザイン要素に知能を直接組み込み</li>
+                    <li>ロゴ、タイポグラフィ、色、写真、イラストなどがインテリジェントに自己管理</li>
+                    <li>デザイナーが毎日使用するツール内でこれらが機能</li>
+                    <li>バリアを取り除き、ブランドの学習曲線を平坦化</li>
+                    <li>俊敏性を向上させ、創造性を制限することなく強化</li>
+                </ul>
+                
+                <h3>次のフロンティア：データと顧客体験</h3>
+                <ul>
+                    <li>リアルタイムパーソナライゼーションへの展開</li>
+                    <li>Adobe Experience Platformからの<span class="highlight">AI駆動型インサイト</span>を活用</li>
+                    <li>月間約10億の消費者とのインタラクション</li>
+                    <li>顧客データの「金鉱」を活用</li>
+                    <li>その場でハイパーパーソナライズされたコンテンツを提供</li>
+                    <li>異なる市場向けに動的に適応するクリエイティブ</li>
+                    <li>大規模なメッセージのパーソナライゼーション</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q4">
+                    <label class="question" for="q4">Q. コカ・コーラにとってProject Visionの最大の価値は何ですか？</label>
+                    <div class="answer">
+                        <p>Rafa Abriによれば、Project Visionの最大の価値は、デザイナーやクリエイティブが本来の強みであるブランドストーリーテリング、新しいアイデア、イノベーションに集中できるようになったことです。実行上の非効率性や視覚的なコンプライアンスの欠如を心配する必要がなくなりました。100ページのPDFガイドラインを読む代わりに、Project Visionはその知能をロゴ、タイポグラフィ、色、写真、イラストなど、あらゆるデザイン要素に直接組み込みます。これらの要素は自己管理能力を持ち、適切な振る舞い方を「知っている」ため、ゲームチェンジャーとなっています。さらに、これらはクリエイティブやデザイナーが日常的に使用するツール内で機能するため、バリアを取り除き、ブランドの学習曲線を平坦化し、俊敏性を向上させ、創造性を制限することなく強化しています。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q5">
+                    <label class="question" for="q5">Q. コカ・コーラのAI導入に関するアドバイスは何ですか？</label>
+                    <div class="answer">
+                        <p>コカ・コーラの経験から得られた主要なアドバイスは2つあります。まず、Rafa Abriは「AIは創造性に取って代わるものではなく、強化するもの」と強調しています。Project Visionはその完璧な例で、戦略を定義する際は、デザイナー、クリエイティブ、人間が主導し、AIがそれに従うという「人間主導のアプローチ」を確立することが重要です。AIがクリエイティブな決断をあなたの代わりに行っている場合は、おそらく行き過ぎています。次に、Shakerは「AIのために AI を使用しないこと」を強調し、明確な問題から始めることを勧めています。AIは万能薬ではなく、ツールです。そのツールの活用方法は人間の要素に依存します。AIで成功する企業は、自動化すべき場所、強化すべき場所、人間の判断が不可欠な場所を慎重に定義しています。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q6">
+                    <label class="question" for="q6">Q. Project Visionはデザイナーの役割をどのように変えますか？</label>
+                    <div class="answer">
+                        <p>Project Visionはデザイナーの役割を置き換えるのではなく、強化するように設計されています。Rafa Abriが強調したように、このシステムは「デザイナーをAIで置き換えるのではなく、彼らのビジョンが何千もの用途にわたって完璧に実行されることを保証する」ものです。デザイナーは引き続きクリエイティブな決定を下し、ブランドの方向性を設定しますが、Project Visionはそのビジョンを大規模に実行する能力を提供します。デザイナーはブランドガイドラインへの適合性を常に心配することなく、より創造的な作業に集中できるようになります。また、1つのレイアウトで変更を行い、その変更をすべての作業に即座に適用できるため、効率も向上します。このように、Project Visionはデザイナーの役割を高め、より戦略的で創造的な側面に集中できるようにします。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Adobe Experience Platform Agent Orchestratorとは</h2>
+            <div class="section-summary">
+                Adobe Experience Platform Agent Orchestratorは、エージェント技術を管理し調整するために設計されたシステムです。このセクションでは、オーケストレーターの機能と、それがどのように複数のエージェントを連携させてより複雑なユースケースを実現するかについて解説しています。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「エージェントとは何か？それは<span class="highlight">インタラクティブで、推論し、自律的に行動する</span>インテリジェントなソフトウェアです」</p>
+                
+                <h3>プラットフォームの構成要素</h3>
+                <ul>
+                    <li>3つの主要なレイヤー：
+                        <ul>
+                            <li><span class="highlight">アプリとインターフェース</span>：ユーザーが直接操作するツールやアプリケーション</li>
+                            <li><span class="highlight">オーケストレーション</span>：複数のエージェントを管理・調整する新機能</li>
+                            <li><span class="highlight">モデルとデータ</span>：基盤となるAIモデルと顧客データ</li>
+                        </ul>
+                    </li>
+                    <li>すべての要素が統合されたエンドツーエンドシステムを提供</li>
+                    <li>顧客データ、スキーマ理解、メタデータに基づいて構築</li>
+                    <li>Adobe Experience Platformの上に新しい機能として構築</li>
+                </ul>
+                
+                <h3>エージェント技術の定義と特徴</h3>
+                <ul>
+                    <li><span class="highlight">インタラクティブ</span>：
+                        <ul>
+                            <li>意図を解釈</li>
+                            <li>インテリジェントに応答</li>
+                            <li>マルチモーダルコミュニケーションをサポート（自然言語、テキスト入力、音声など）</li>
+                        </ul>
+                    </li>
+                    <li><span class="highlight">推論能力</span>：
+                        <ul>
+                            <li>問題を考え抜く</li>
+                            <li>コンテキストを理解</li>
+                            <li>決定を下す</li>
+                            <li>単なる事前定義されたルールビルダーではない</li>
+                        </ul>
+                    </li>
+                    <li><span class="highlight">自律性</span>：
+                        <ul>
+                            <li>行動を起こす</li>
+                            <li>高レベルのガイダンスを通じて行動可能</li>
+                            <li>明示的な指示を通じて行動可能</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>目的特化型エージェントの統合</h3>
+                <ul>
+                    <li>Adobe Experience Platform内で複数の目的特化型エージェントが連携</li>
+                    <li>ユーザーの目標達成をサポートするために協力</li>
+                    <li>エージェント間でのコンテキスト共有</li>
+                    <li>共通のデータ基盤に基づいて動作</li>
+                    <li>より複雑なユースケースをライフサイクル全体で実現</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q7">
+                    <label class="question" for="q7">Q. エージェントオーケストレーターはどのようにして複数のエージェントを管理するのですか？</label>
+                    <div class="answer">
+                        <p>Adobe Experience Platform Agent Orchestratorは、共通のデータ基盤と統一されたシステム上で複数の特化型エージェントを連携させるために設計されています。オーケストレーターはユーザーの意図を解釈し、その意図を達成するために複数のエージェントを調整します。各エージェントはそれぞれの専門領域（オーディエンス作成、ジャーニー設計、実験など）で機能しながらも、共通のコンテキストとデータを共有します。オーケストレーターは各エージェントのタスクを監視し、必要に応じてエージェント間で情報を転送し、統一されたエクスペリエンスを提供します。これにより、単一のエージェントでは実現困難な複雑なユースケースを実行できるようになります。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q8">
+                    <label class="question" for="q8">Q. AIエージェントと従来のAIアシスタントの違いは何ですか？</label>
+                    <div class="answer">
+                        <p>AIエージェントと従来のAIアシスタントの主な違いは、自律性と行動能力にあります。従来のAIアシスタントは主に情報提供や質問への回答に特化していますが、エージェントはそれに加えて実際にタスクを実行する能力を持っています。セッションで説明されたように、エージェントは「質問に答えるだけでなく、実際に行動を起こすことができる」ソフトウェアです。エージェントは問題を考え抜き（推論）、コンテキストを理解し、決定を下す能力を持ち、単なる事前定義されたルールビルダーではありません。また、高レベルのガイダンスや明示的な指示を通じて自律的に行動することができます。これにより、ユーザーはエージェントに目標や制約を伝えるだけで、エージェントがその実現に向けて積極的に作業を進めることができます。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q9">
+                    <label class="question" for="q9">Q. Adobe Experience Platformとエージェント技術はどのように連携していますか？</label>
+                    <div class="answer">
+                        <p>Adobe Experience Platformとエージェント技術は密接に統合されており、プラットフォームが提供する顧客データ、スキーマ理解、メタデータを基盤としています。セッションでは、「これらのエージェント機能を適切に実行するためには、顧客データに根ざし、スキーマを理解し、メタデータを理解する必要がある」と強調されました。つまり、エージェント技術はAdobe Experience Platformが長年にわたって構築してきた基盤の上に新しい機能として追加されたものです。これにより、エージェントは単なる一般的な応答ではなく、特定の顧客コンテキストに基づいた関連性の高い行動を取ることができます。例えば、オーディエンスエージェントはリアルタイムCDPと統合され、顧客プロファイルデータに基づいてオーディエンスを作成します。同様に、ジャーニーエージェントはJourney Optimizerと統合され、顧客データに基づいてパーソナライズされたジャーニーを設計します。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-terms">
+            <h2>重要な用語と事実</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>用語/事実</th>
+                        <th>説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AIエージェント</td>
+                        <td>インタラクティブで推論し、自律的に行動するインテリジェントなソフトウェア。質問に答えるだけでなく、実際にタスクを実行する能力を持つ。</td>
+                    </tr>
+                    <tr>
+                        <td>Agent Orchestrator</td>
+                        <td>Adobe Experience Platform上で複数の目的特化型エージェントを管理・調整するシステム。より複雑なユースケースをライフサイクル全体で実現することを目的とする。</td>
+                    </tr>
+                    <tr>
+                        <td>Project Vision</td>
+                        <td>コカ・コーラとAdobeが共同開発したFireflyサービスとカスタムモデルを活用したデザインシステム。ブランドの一貫性を維持しながら創造性を強化し、コンテンツ制作を10倍以上高速化。</td>
+                    </tr>
+                    <tr>
+                        <td>AIの実装フェーズ</td>
+                        <td>AIが実験段階から実際のビジネス価値を生み出す実装段階へと移行している現状。39%の消費者がAIを利用し、55%の企業がエージェント体験の導入を検討。</td>
+                    </tr>
+                    <tr>
+                        <td>コカ・コーラの規模</td>
+                        <td>220以上の市場で操業、200のブランド、毎日22億サービングの提供、月間約10億の消費者とのインタラクション。</td>
+                    </tr>
+                    <tr>
+                        <td>人間主導のAIアプローチ</td>
+                        <td>コカ・コーラが推奨するAI導入の方法。デザイナー、クリエイティブ、人間が主導し、AIがそれに従うアプローチ。AIがクリエイティブな決断を代行するのではなく、人間の創造性を強化することを重視。</td>
+                    </tr>
+                    <tr>
+                        <td>スタイルID</td>
+                        <td>Project Visionでデザイナーが作成したレイアウトから視覚的アイデンティティを確立し、ロゴ、レイアウト、タイポグラフィ、画像などすべての要素を学習して体系化したもの。ワンクリックで公開可能。</td>
+                    </tr>
+                    <tr>
+                        <td>リアルタイムパーソナライゼーション</td>
+                        <td>コカ・コーラが次のフロンティアとして取り組んでいる領域。Adobe Experience Platformからのインサイトを活用し、個々のオーディエンスに対してコンテンツを動的に調整。</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe Experience Platform</td>
+                        <td>顧客データ、スキーマ理解、メタデータを基盤とするプラットフォーム。エージェント技術はこの基盤の上に新しい機能として構築されている。</td>
+                    </tr>
+                    <tr>
+                        <td>AAA Northeastの成果</td>
+                        <td>AI生成オーディエンスインサイトを活用し、トランザクションが165%増加した事例。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <p>Adobe Summit 2025 AIストラテジーセッション</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Q&Aの展開・縮小機能
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.qa-item').forEach(item => {
+                const question = item.querySelector('.question');
+                const checkbox = item.querySelector('input[type="checkbox"]');
+                const answer = item.querySelector('.answer');
+                
+                question.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    checkbox.checked = !checkbox.checked;
+                    
+                    if (checkbox.checked) {
+                        answer.style.maxHeight = answer.scrollHeight + "px";
+                    } else {
+                        answer.style.maxHeight = "0";
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

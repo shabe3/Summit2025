@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アドビリアルタイムCDPコラボレーション</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 15px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        .summary {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin: 20px 0 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        .important {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 25px 0;
+        }
+        .faq-container {
+            margin-top: 20px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            cursor: pointer;
+            position: relative;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .faq-question::after {
+            content: "+";
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .faq-question.active::after {
+            content: "-";
+        }
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background-color: #f0f4f8;
+            border-radius: 0 0 4px 4px;
+        }
+        .faq-question.active + .faq-answer {
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f4f8;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .workflow-steps {
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        .step-number {
+            background-color: #0f3c78;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .step-content {
+            flex-grow: 1;
+        }
+        .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 10px;
+            background-color: #0f3c78;
+            mask-repeat: no-repeat;
+            mask-position: center;
+            mask-size: contain;
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-position: center;
+            -webkit-mask-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>アドビリアルタイムCDPコラボレーション</h1>
+    </header>
+
+    <div class="summary">
+        <h2>概要</h2>
+        <p>アドビのリアルタイムCDPコラボレーションは、ブランドとパブリッシャーが簡単に高価値オーディエンスを発見、活性化、測定できるように設計されたデータクリーンルームソリューションです。このソリューションは、従来のデータクリーンルームの複雑さを解消し、マーケティングチームがITサポートなしで迅速にデータコラボレーションを実施できるよう開発されました。</p>
+    </div>
+
+    <div class="section">
+        <h2>現在の顧客データ環境の課題</h2>
+        <p>現代のブランドは、複数のチャネルを通じて効果的にオーディエンスにリーチする難しい課題に直面しています。</p>
+        
+        <h3>業界の統計</h3>
+        <ul>
+            <li><span class="highlight">70%</span>のインターネットは、サードパーティCookieの利用可能性にもかかわらず、それを通じてアクセスできない</li>
+            <li><span class="highlight">86%</span>の米国成人がデータプライバシーを懸念事項として挙げ、<span class="highlight">49%</span>が個人データ収集を制限する積極的な措置を講じている</li>
+            <li><span class="highlight">63%</span>の意思決定者がIoT戦略の一環としてテクノロジースタックの統合を計画している</li>
+        </ul>
+
+        <h3>市場傾向</h3>
+        <ul>
+            <li><span class="underline">ファーストパーティデータ</span>: <span class="highlight">78%</span>の企業が顧客データプラットフォームを採用し、半数がファーストパーティデータの活性化に注力</li>
+            <li><span class="underline">アドレサビリティ</span>: <span class="highlight">80%</span>のマーケターが接続型テレビや小売メディアネットワークなどのプラットフォームに予算をシフト</li>
+            <li><span class="underline">新興テクノロジー</span>: <span class="highlight">66%</span>のデータ・広告専門家が規制やシグナル損失に対応するためにデータクリーンルームを使用</li>
+        </ul>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. なぜデータクリーンルームが注目されているのですか？</div>
+                <div class="faq-answer">プライバシー規制の強化とブラウザポリシーの変更により、ブランドはオーディエンスにリーチする新しい方法を模索しています。データクリーンルームは、プライバシーを保護しながらブランドとパブリッシャーが安全にデータを共有・分析できる環境を提供するため、現代のデータ駆動型マーケティングに不可欠なツールとなっています。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 従来のデータクリーンルームの課題は何ですか？</div>
+                <div class="faq-answer">従来のデータクリーンルームは、実装と運用が複雑で大量の技術リソースと専門知識を必要とします。また、クラウド間、地域間、他のデータ・ID・テクノロジーベンダー間でシームレスに連携することが困難で、効果が制限されます。さらに、遅く高コストで重複するテクノロジーであり、データプライバシーの懸念や面倒なデータ共有契約も課題となっています。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. ファーストパーティデータが重要な理由は何ですか？</div>
+                <div class="faq-answer">Cookieの廃止とプライバシー規制の強化により、ブランドは独自のデータ資産への依存度を高めています。ファーストパーティデータは顧客との直接的な関係から収集されるため、より正確で価値の高いインサイトを提供し、効果的なオーディエンスエンゲージメントの基盤となります。</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>アドビのリアルタイムCDPコラボレーションの特徴</h2>
+        <p>アドビは、使いやすさ、相互運用性、コラボレーションに焦点を当てたデータクリーンルームソリューションを開発しました。</p>
+
+        <h3>主要な差別化要素</h3>
+        <ul>
+            <li><span class="underline">マーケター向けの画期的にシンプルなUI</span>: データエンジニアやデータサイエンティストを待つことなく、マーケティングおよび広告担当者が使用できるアプリケーション</li>
+            <li><span class="underline">汎用的で相互運用可能なアーキテクチャ</span>: 顧客が選択したクラウドやベンダーとの作業を柔軟にスケーリングできるよう設計</li>
+            <li><span class="underline">ホバー速度のオーディエンスインサイト</span>: 基盤となる顧客やIDデータを移動させることなく、瞬時にオーディエンス分析を実行</li>
+            <li><span class="underline">マーテックとアドテックの統合</span>: アドビ投資の価値を拡大し、ソリューション内で既に整理されているデータを最大活用</li>
+        </ul>
+
+        <p class="important">プライバシー中心の技術基盤で設計されたソリューション</p>
+
+        <h3>動作の仕組み</h3>
+        <div class="workflow-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">ブランドとパブリッシャーが各自のオーディエンスをコラボレーションアプリケーションにオンボード</div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">コラボレーションプロジェクトを開始し、ホバー速度で複数のマッチキーにわたるオーディエンスの重複を確認</div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">目的のオーディエンスをパブリッシャーのアドテックエコシステムに活性化</div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">パブリッシャーが広告ログを取り込み、キャンペーンパフォーマンスを測定してインサイトを生成</div>
+            </div>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. 既存のアドビCDPが必要ですか？</div>
+                <div class="faq-answer">いいえ、このソリューションは既存のアドビCDPと互換性がありますが、スタンドアロンツールとしても機能します。データウェアハウス、クラウドストレージ、CSVアップロードなど、さまざまなソースからオーディエンスをオンボードできます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. どのようなIDマッチングがサポートされていますか？</div>
+                <div class="faq-answer">ハッシュ化されたメール、ハッシュ化された電話番号、ハッシュ化されたIPなどのマッチキーがサポートされており、2025年にはパートナーIDとのマッチングも可能になる予定です。この柔軟なフレームワークにより、オーディエンスリーチを拡大できます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. プライバシーはどのように保護されますか？</div>
+                <div class="faq-answer">このソリューションには多数のプライバシー強化技術が組み込まれています。オーディエンスがアクティベートされる際は、両当事者間で同意によりフィルタリングされた相互共有識別子のみが使用されます。これにより、コラボレーション時の安心感が高まります。</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3つの主要機能</h2>
+        <p>アドビのリアルタイムCDPコラボレーションは、発見（Discover）、活性化（Activate）、測定（Measure）の3つの中核領域を提供します。</p>
+
+        <h3>1. 発見（Discover）</h3>
+        <ul>
+            <li>コラボレーションパートナー間でエンゲージメントとキャンペーン計画のための高価値オーディエンスを特定・理解</li>
+            <li>インタラクティブなパブリッシャーギャラリーで利用可能なパブリッシャーやパートナーの詳細を表示</li>
+            <li>特許出願中のAdobe Clean Sketch技術により、リアルタイムでオーディエンスの重複を即座に分析</li>
+            <li>両者にメリット：広告主はより効果的にキャンペーンを計画し、パブリッシャーはインサイトを提供してマネタイズを強化</li>
+        </ul>
+
+        <h3>2. 活性化（Activate）</h3>
+        <ul>
+            <li>特定されたオーディエンスをコラボレーションUIからシームレスに活性化</li>
+            <li>接続型テレビ、コマースメディア、ウォールドガーデン、デジタルオーディオ、DSPなどの主要チャネルでキャンペーンを実施</li>
+            <li>基盤となる顧客データを移動させることなく、安全にターゲットオーディエンスを活性化</li>
+            <li>ファーストパーティデータの拡張性：リアルタイムCDPのオーディエンスを活用または他のクラウドストレージソリューションと統合</li>
+        </ul>
+
+        <h3>3. 測定（Measure）</h3>
+        <ul>
+            <li>パブリッシャーやパートナーが広告ログデータをコラボレーションUIに取り込み、分析</li>
+            <li>アドビアプリケーションやその他のシステムからの広告主のコンバージョンイベントとマッチング</li>
+            <li>インプレッション、リーチ、コンバージョン、頻度管理などの主要な集計指標を提供</li>
+            <li>投資効果を評価し、将来のキャンペーンを最適化するためのループを閉じる</li>
+        </ul>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. 「ホバー速度」のオーディエンス分析とは何ですか？</div>
+                <div class="faq-answer">従来のデータクリーンルームでは、オーディエンスの重複分析に何週間もかかり、ITチームの支援が必要でした。アドビのソリューションでは、特許出願中のClean Sketch技術により、マウスをホバーするだけで瞬時にオーディエンスの重複を分析できます。これにより、マーケターは迅速にインサイトを得て意思決定を行うことができます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. どのようなチャネルでオーディエンスを活性化できますか？</div>
+                <div class="faq-answer">接続型テレビ、コマースメディア、ウォールドガーデン（例：Facebook、Google）、デジタルオーディオ、DSP（Demand-Side Platform）など、さまざまな主要チャネルでオーディエンスを活性化できます。UIからこれらのエコシステムへのパイプラインを構築中です。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 測定機能はどのように進化する予定ですか？</div>
+                <div class="faq-answer">現在のダッシュボードは、インプレッション、ユニークリーチ、平均頻度などのサマリーレベルのインサイトを提供していますが、より多くのコンバージョンベースの測定機能がツールに追加される予定です。これにより、キャンペーンのパフォーマンス評価がさらに詳細化されます。</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>デモと実際の使用例</h2>
+        <p>アドビのリアルタイムCDPコラボレーションUIでは、ブランドとパブリッシャーが簡単にコラボレーションを設定し、オーディエンスを分析、共有、測定できます。</p>
+
+        <h3>実際のワークフローサンプル</h3>
+        <ul>
+            <li>ブランド（例：Fresh Pet）が組織を設定し、広告主としての役割、業界（小売）、地域（米国）を定義</li>
+            <li>使用ケース（キャンペーン測定、オーディエンス共有、オーディエンス発見）とIDマッチキー（ハッシュ化されたメール、電話、IP）を設定</li>
+            <li>パブリッシャーギャラリーで協力したいパブリッシャーを見つけて接続</li>
+            <li>プロジェクト内で、例えば「2025年の新しい犬の飼い主」オーディエンスとTV Tubeの「ペット愛好家」オーディエンスの重複（22%）を即座に分析</li>
+            <li>ターゲットにするオーディエンスを特定し、パブリッシャーと共有、アドテックエコシステムにエクスポート</li>
+            <li>キャンペーンの実行後、パフォーマンス指標を確認して効果を測定</li>
+        </ul>
+
+        <h3>顧客フィードバック</h3>
+        <ul>
+            <li>NBCUなどのパートナーや、アドビ自身のアカウントマーケティングチームを含む様々なブランドが1年以上製品を使用</li>
+            <li>適格で関連性の高いオーディエンスにリーチするためのブランドメディア戦略の改善</li>
+            <li>コンバージョンでのリフト（効果）の向上とコラボレーターとのマッチ率の改善</li>
+            <li>比類のない使いやすさと迅速な実行が特に高評価</li>
+        </ul>
+
+        <p class="important">ブランドからは、このツールを通じてより多くのメディアプランニングを行いたいという声が寄せられています</p>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Q. 導入にはどれくらいの時間がかかりますか？</div>
+                <div class="faq-answer">アドビのリアルタイムCDPコラボレーションは、マーケターフレンドリーな設計により、ITサポートなしで素早く導入できます。従来のデータクリーンルームと比較して、導入プロセスが大幅に簡素化され、迅速に稼働させることができます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. どのような企業がこのソリューションを使用していますか？</div>
+                <div class="faq-answer">NBCUなどのパブリッシャー、アドビ自身のアカウントマーケティングチームとそのエージェンシーグループAB、およびその他様々なブランドが現在このソリューションを使用しています。データコラボレーションを必要とするあらゆる規模や業界の企業に適しています。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. プロジェクトとキャンペーンの関係は？</div>
+                <div class="faq-answer">コラボレーションUIにおいて、プロジェクトはしばしばキャンペーンと同義です。例えば、デモで示された「Q1 25 Adopt-a-thon」プロジェクトは、特定のマーケティングキャンペーンを表しています。各プロジェクト内で発見、測定、共有の3つの主要ワークフローを実行できます。</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>重要な用語と解説</h2>
+        <table>
+            <tr>
+                <th>用語</th>
+                <th>解説</th>
+            </tr>
+            <tr>
+                <td>リアルタイムCDPコラボレーション</td>
+                <td>ブランドとパブリッシャーが高価値なオーディエンスを発見、活性化、測定するためのクリーンルームアプリケーション</td>
+            </tr>
+            <tr>
+                <td>データクリーンルーム</td>
+                <td>複数の組織がプライバシーを保護しながらデータを共有し、分析できる安全な環境</td>
+            </tr>
+            <tr>
+                <td>CDP</td>
+                <td>Customer Data Platform（顧客データプラットフォーム）の略。顧客データを統合・管理するシステム</td>
+            </tr>
+            <tr>
+                <td>オーディエンス重複</td>
+                <td>2つ以上のオーディエンスグループ間で共通する識別子（ID）の割合</td>
+            </tr>
+            <tr>
+                <td>マッチキー</td>
+                <td>異なるデータセット間でレコードをマッチングするために使用される識別子（ハッシュ化されたメール、電話番号など）</td>
+            </tr>
+            <tr>
+                <td>Adobe Clean Sketch</td>
+                <td>リアルタイムでオーディエンスインサイトを生成するアドビの特許出願中の技術</td>
+            </tr>
+            <tr>
+                <td>アドレサビリティ</td>
+                <td>マーケターがターゲットオーディエンスに到達し、メッセージを配信する能力</td>
+            </tr>
+            <tr>
+                <td>CTV</td>
+                <td>Connected TV（接続型テレビ）の略。インターネットに接続され、ストリーミングサービスなどのコンテンツを提供するテレビ</td>
+            </tr>
+            <tr>
+                <td>DSP</td>
+                <td>Demand-Side Platform（需要側プラットフォーム）の略。広告バイヤーが複数の広告取引所から広告枠を購入するためのシステム</td>
+            </tr>
+            <tr>
+                <td>ウォールドガーデン</td>
+                <td>Facebook、Googleなどの、独自のプラットフォーム内でのみデータと広告配信を管理する閉鎖的なオンラインエコシステム</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>Adobe Summit 2025 - OS511 Data Collaboration in Today's Customer Experience Landscape</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.faq-question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

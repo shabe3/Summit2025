@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelのエンタープライズ向けデジタルアセット管理（DAM）戦略</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .title {
+            color: #0f3c78;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+        }
+        .summary {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0f3c78;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 2px;
+        }
+        .faq-container {
+            margin-top: 20px;
+        }
+        .faq-item {
+            margin-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        .faq-question {
+            cursor: pointer;
+            font-weight: bold;
+            padding: 8px 0;
+            position: relative;
+        }
+        .faq-question::after {
+            content: "+";
+            position: absolute;
+            right: 8px;
+            transition: transform 0.3s ease;
+        }
+        .faq-item.active .faq-question::after {
+            content: "-";
+        }
+        .faq-answer {
+            display: none;
+            padding: 0 0 12px 16px;
+        }
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .important {
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Intelのエンタープライズ向けデジタルアセット管理（DAM）戦略</h1>
+        
+        <div class="summary">
+            <h2>概要</h2>
+            <p>Intelのグローバルマーケティンググループがどのようにして大規模な企業向けデジタルアセット管理（DAM）システムを構築・運用しているかを解説します。Intelのデジタルライブラリでは約42,000点のアセットを管理し、年間約11,000点の新規アセットを制作しています。成功するDAMプラットフォームを支える4つの重要な要素と、効果的なプロセス、革新的な実践方法について紹介します。</p>
+        </div>
+        
+        <div class="section">
+            <h2>IntelのDAMの基本情報</h2>
+            <p>Intel Digital Library（IDL）は、すべての従業員と承認済みのエージェンシーパートナーが利用できる企業全体のデジタルアセット管理プラットフォームです。</p>
+            
+            <h3>主要な特徴</h3>
+            <ul>
+                <li>コンテンツクリエイターが中央ライブラリでアセットを<span class="underline">共同作業</span>可能</li>
+                <li>マーケターやデジタル実務者が<span class="highlight">ブランド要素、ロゴ、バッジ、テンプレート、写真</span>などのIntelマーケティングアセットを検索・ダウンロード可能</li>
+                <li>ライセンス情報と使用条件の管理による<span class="underline">法的コンプライアンスの確保</span></li>
+                <li>IntercomコンテンツマネジメントプラットフォームとWebオーサリングの連携</li>
+            </ul>
+            
+            <h3>規模と制作比率</h3>
+            <ul>
+                <li>現在約<span class="highlight">42,000点</span>のアセットを管理</li>
+                <li>年間約<span class="highlight">11,000点</span>の新規アセット制作</li>
+                <li>制作比率：社内制作50%、エージェンシー制作50%</li>
+                <li>所有権比率：所有アセット70%、ライセンスアセット30%</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. DAMと他のシステムはどのように連携していますか？</div>
+                    <div class="faq-answer">Intelでは「一度公開」アプローチを採用し、アセットとそのメタデータがDAMからCMS、検索エンジン、パーソナライゼーションシステムなど、すべての連携システムで同期されるようにしています。これにより、内部および外部のオーディエンス向けのすべてのチャネルにコンテンツを効率的に配信できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ中央集権型のアセット管理が重要なのですか？</div>
+                    <div class="faq-answer">中央集権型のアセット管理は、バージョン管理とライフサイクル管理を容易にし、顧客に一貫した体験を提供し、最終的なアセットやコンテンツのパフォーマンスを正確に把握するために不可欠です。また、重複を防ぎ、ライセンス管理を統一することでコスト削減にも貢献します。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>成功するDAMの4つの重要要素</h2>
+            <p>Intelが成功するデジタルアセット管理を実現するために重視している4つの要素について説明します。</p>
+            
+            <h3>1. 適切な文書化とリソース</h3>
+            <ul>
+                <li><span class="underline">Digital Resource Center</span>：デジタル実践、ツール、プロセスに関するワンストップショップ</li>
+                <li><span class="underline">Intel Brand Hub</span>：ブランド標準とガイドラインの中央リソース</li>
+                <li><span class="underline">intel.com Pattern Library</span>：Webコンテンツ作成に必要なすべてのリソースを提供</li>
+                <li>ユーザートレーニング、標準・ポリシーの確保、プロセスの伝達を支援</li>
+            </ul>
+            
+            <h3>2. 強力なタクソノミーとメタデータ</h3>
+            <ul>
+                <li>ビジネスニーズと成果に合わせた<span class="highlight">一貫したタクソノミー</span>の定義と実装</li>
+                <li>中央管理されたタクソノミー実践と<span class="underline">ガバナンスプロセス</span></li>
+                <li>Synapticツールでのタクソノミーのモデル化と管理</li>
+                <li>サービスレイヤーを使用した技術スタック全体での自動配信</li>
+                <li>必須vs任意のメタデータの定義（タイトル、説明、言語、地域、所有者情報、使用条件など）</li>
+            </ul>
+            
+            <h3>3. ライフサイクル全体のプロセス開発</h3>
+            <ul>
+                <li><span class="underline">作成段階</span>：アクセス権管理、大容量ファイル処理（Frame.io）、品質基準設定</li>
+                <li><span class="underline">公開段階</span>：適切なライセンス情報の取得、コンテンツエンバーゴプロセス</li>
+                <li><span class="underline">管理段階</span>：メタデータの一貫性維持、アセット所有者情報の管理</li>
+                <li><span class="underline">アーカイブ段階</span>：パフォーマンス基準の設定、自動通知、EOL（End of Life）プロセス</li>
+            </ul>
+            
+            <h3>4. 革新的な実践と技術の導入</h3>
+            <ul>
+                <li><span class="highlight">Adobe Dynamic Media</span>の実装：オンデマンドでのレンディション作成（100万以上のレンディションを削減）</li>
+                <li><span class="highlight">Adobe Work Front</span>による接続されたコンテンツサプライチェーンの構築</li>
+                <li><span class="highlight">AIアシスタント</span>：タイトル、説明、ファイル名の生成とコンテンツタグの推奨</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. タクソノミーはどのようにビジネス価値につながりますか？</div>
+                    <div class="faq-answer">一貫したタクソノミーとメタデータは、アセットの検索性を高めるだけでなく、システム間でのデータ連携を可能にし、自動化、アクティベーション、インサイト生成の基盤となります。例えば、適切にタグ付けされたアセットは、パーソナライゼーションエンジンで効果的に活用できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Dynamic Mediaの導入によってどのようなメリットがありましたか？</div>
+                    <div class="faq-answer">導入前は、エージェンシーに最大17種類の異なるレンディションを制作してもらう必要がありました。Dynamic Media導入後は、必要なときに動的にレンディションが作成され、元のアセットに接続されるようになりました。これにより、制作コストと管理オーバーヘッドが大幅に削減され、CMS内の100万以上のレンディションを排除することができました。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIアシスタントはどのように活用されていますか？</div>
+                    <div class="faq-answer">AIアシスタントは公開時点でタイトル、説明、ファイル名を生成し、アセットに適したコンテンツタグを推奨します。著者はニーズに合わせて編集できますが、モデルの知能化に伴いプロセスはより迅速で高品質になっています。パイロット開始から約6か月で利用者が増加し、フィードバックも非常に好評です。将来的には、マーケターが重複アセットの制作リスクを減らせるよう支援したり、Webコピーの下書きを作成してコンテンツ制作プロセスを加速させたりする計画もあります。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>効果的なDAM運用のための重要ポイント</h2>
+            <p class="important">「プロセス、タクソノミー、イネーブリングリソースが優れたDAMの秘訣となる」</p>
+            
+            <h3>1. 中央集権型アプローチ</h3>
+            <ul>
+                <li>アセットの<span class="highlight">単一の真実のソース</span>を確立</li>
+                <li>システムとワークフローを統合してチャネルとオーディエンス全体にコンテンツをアクティベート</li>
+                <li>バージョンとライフサイクル管理を容易にし、顧客により一貫した体験を提供</li>
+            </ul>
+            
+            <h3>2. 包括的なサポート体制</h3>
+            <ul>
+                <li>明確に定義された効果的な<span class="underline">プロセス</span></li>
+                <li>強力な<span class="underline">タクソノミー</span></li>
+                <li>優れた<span class="underline">イネーブリングリソース</span></li>
+                <li>組織内の人々が効果的に作業できるよう支援</li>
+            </ul>
+            
+            <h3>3. 継続的な革新</h3>
+            <ul>
+                <li>プロセスの<span class="highlight">単純化と自動化</span>の方法を常に模索</li>
+                <li>インテリジェンスを活用</li>
+                <li>ユーザーコミュニティへの支援を向上</li>
+                <li>より良いビジネス成果と価値を創出</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. DAMを企業全体に展開する際の課題は何ですか？</div>
+                    <div class="faq-answer">数百人の多様な著者がアセットを作成・公開し、数千人がアセットを消費する大規模な環境では、明確なプロセスとガバナンスが不可欠です。特に、適切なメタデータの割り当ては、特に何千ものアセットを管理する場合、DAM管理の最も困難な部分の1つです。これらの課題に対応するためには、明確に定義され文書化されたプロセス、継続的なトレーニング、効果的なコミュニケーション戦略が必要です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Work Frontの実装はどのようなメリットをもたらしますか？</div>
+                    <div class="faq-answer">Work Frontの実装により、コンテンツの冗長性を減らし、クリエイティブ開発プロセスの効率化が期待できます。また、アセットとコンテンツ周りのメタデータを段階的に構築し、精度と一貫性を向上させます。戦略から制作、配布、アクティベーションまでを接続することで、制作するアセットの有効性とROIをより良く理解できるようになります。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要な用語と概念</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>DAM (Digital Asset Management)</td>
+                    <td>デジタルアセット（画像、動画、文書など）を効率的に保存、管理、検索、配布するためのシステム</td>
+                </tr>
+                <tr>
+                    <td>Intel Digital Library (IDL)</td>
+                    <td>Intelの企業向けデジタルアセット管理プラットフォーム</td>
+                </tr>
+                <tr>
+                    <td>タクソノミー</td>
+                    <td>アセットを分類・整理するための構造化された用語や階層システム</td>
+                </tr>
+                <tr>
+                    <td>メタデータ</td>
+                    <td>アセットに関する説明的な情報（タイトル、説明、言語、地域、所有者情報など）</td>
+                </tr>
+                <tr>
+                    <td>Dynamic Media</td>
+                    <td>Adobeのソリューションで、オンデマンドで異なるサイズ・形式のアセットレンディションを生成</td>
+                </tr>
+                <tr>
+                    <td>コンテンツサプライチェーン</td>
+                    <td>コンテンツ戦略・計画から制作、公開、分析までの一連のプロセス</td>
+                </tr>
+                <tr>
+                    <td>EOL (End of Life) プロセス</td>
+                    <td>アセットがその有用性を終えた時点で適切に処理するための手順</td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            <p>情報源: Intel社 Jeff Ivey氏（デジタルケイパビリティおよびオペレーション担当ディレクター）のプレゼンテーション</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

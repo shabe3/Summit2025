@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Summit 2025 Guide</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .controls-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .search-box {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px 15px;
+            border: 2px solid #0f3c78;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+        .search-box:focus {
+            box-shadow: 0 0 5px rgba(15, 60, 120, 0.5);
+        }
+        .playback-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .speed-button {
+            padding: 8px 12px;
+            background-color: #0f3c78;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.3s;
+        }
+        .speed-button:hover {
+            background-color: #0a2a58;
+        }
+        .speed-button.active {
+            background-color: #ff5500;
+        }
+        .volume-control {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .volume-icon {
+            color: #0f3c78;
+            font-size: 1.2rem;
+        }
+        .volume-slider {
+            width: 100px;
+            cursor: pointer;
+        }
+        .session-list {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+        .session-item {
+            padding: 15px 10px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .session-item:last-child {
+            border-bottom: none;
+        }
+        .play-button {
+            background-color: #0f3c78;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 5px;
+            transition: background-color 0.3s;
+        }
+        .play-button:hover {
+            background-color: #0a2a58;
+        }
+        .play-button.playing {
+            background-color: #ff5500;
+        }
+        .audio-timer {
+            font-size: 0.8rem;
+            margin-top: 5px;
+            color: #666;
+            width: 100px;
+            text-align: center;
+        }
+        .session-content {
+            flex-grow: 1;
+        }
+        .session-title {
+            color: #0f3c78;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        .session-title:hover {
+            text-decoration: underline;
+        }
+        .session-title-ja {
+            color: #555;
+            font-size: 0.9rem;
+            margin-top: 3px;
+        }
+        .hidden {
+            display: none;
+        }
+        .section-divider {
+            height: 15px;
+            border-bottom: 2px solid #0f3c78;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #0f3c78;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Summit 2025 Guide</h1>
+        </header>
+        
+        <div class="controls-container">
+            <input type="text" id="searchInput" class="search-box" placeholder="セッション番号やキーワードで検索...">
+            
+            <div class="playback-controls">
+                <button class="speed-button active" data-speed="1.0">1.0x</button>
+                <button class="speed-button" data-speed="1.2">1.2x</button>
+                <button class="speed-button" data-speed="1.5">1.5x</button>
+                <button class="speed-button" data-speed="1.8">1.8x</button>
+            </div>
+            
+            <div class="volume-control">
+                <span class="volume-icon">🔊</span>
+                <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="1">
+            </div>
+        </div>
+        
+        <audio id="audioPlayer"></audio>
+        
+        <div class="session-list" id="sessionList">
+            <!-- セッションアイテムはJavaScriptで動的に追加されます -->
+        </div>
+        
+        <footer>
+            <p>© 2025 Adobe Summit Guide</p>
+        </footer>
+    </div>
+
+    <script src="sessions.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const sessionList = document.getElementById('sessionList');
+            const audioPlayer = document.getElementById('audioPlayer');
+            const speedButtons = document.querySelectorAll('.speed-button');
+            const volumeSlider = document.querySelector('.volume-slider');
+            
+            let currentPlayingButton = null;
+            let currentSessionId = null;
+            let currentTimerElement = null;
+            let currentPlaybackRate = 1.0; // 現在の再生速度を保存する変数
+            
+            // 音声プレーヤーの初期設定
+            audioPlayer.volume = volumeSlider.value;
+            
+            // セッションリストの表示
+            function renderSessionList(filteredSessions = sessions) {
+                sessionList.innerHTML = '';
+                
+                filteredSessions.forEach(session => {
+                    const sessionItem = document.createElement('div');
+                    sessionItem.className = 'session-item';
+                    
+                    const audioControls = document.createElement('div');
+                    audioControls.className = 'audio-controls';
+                    
+                    const playButton = document.createElement('button');
+                    playButton.className = 'play-button';
+                    playButton.innerHTML = '▶';
+                    playButton.setAttribute('data-session-id', session.id);
+                    playButton.setAttribute('title', '再生/停止');
+                    
+                    const audioTimer = document.createElement('div');
+                    audioTimer.className = 'audio-timer';
+                    audioTimer.textContent = '0:00 / 0:00';
+                    
+                    audioControls.appendChild(playButton);
+                    audioControls.appendChild(audioTimer);
+                    
+                    const sessionContent = document.createElement('div');
+                    sessionContent.className = 'session-content';
+                    
+                    const titleLink = document.createElement('a');
+                    titleLink.className = 'session-title';
+                    titleLink.href = session.htmlFile;
+                    titleLink.textContent = session.title;
+                    titleLink.setAttribute('target', '_blank');
+                    
+                    const titleJa = document.createElement('div');
+                    titleJa.className = 'session-title-ja';
+                    titleJa.textContent = session.titleJa;
+                    
+                    sessionContent.appendChild(titleLink);
+                    sessionContent.appendChild(titleJa);
+                    
+                    sessionItem.appendChild(audioControls);
+                    sessionItem.appendChild(sessionContent);
+                    
+                    sessionList.appendChild(sessionItem);
+                    
+                    // 再生ボタンのイベント処理
+                    playButton.addEventListener('click', function() {
+                        const sessionId = this.getAttribute('data-session-id');
+                        toggleAudio(this, sessionId, audioTimer);
+                    });
+                });
+            }
+            
+            // タイムアップデート用イベントリスナー参照
+            let timeUpdateListener = null;
+            let endedListener = null;
+            
+            // 音声再生の切り替え
+            function toggleAudio(button, sessionId, timerElement) {
+                // 現在再生中のボタンがある場合
+                if (currentPlayingButton && currentPlayingButton !== button) {
+                    currentPlayingButton.innerHTML = '▶';
+                    currentPlayingButton.classList.remove('playing');
+                    
+                    // 以前のイベントリスナーを削除
+                    if (timeUpdateListener) {
+                        audioPlayer.removeEventListener('timeupdate', timeUpdateListener);
+                    }
+                    if (endedListener) {
+                        audioPlayer.removeEventListener('ended', endedListener);
+                    }
+                }
+                
+                // 同じボタンをクリックした場合は再生/停止を切り替え
+                if (currentSessionId === sessionId && !audioPlayer.paused) {
+                    audioPlayer.pause();
+                    button.innerHTML = '▶';
+                    button.classList.remove('playing');
+                    currentPlayingButton = null;
+                    currentSessionId = null;
+                    currentTimerElement = null;
+                } else {
+                    // 新しいセッションを再生
+                    const session = sessions.find(s => s.id === sessionId);
+                    audioPlayer.src = session.audioFile;
+                    
+                    // 現在設定されている再生速度を適用
+                    audioPlayer.playbackRate = currentPlaybackRate;
+                    
+                    audioPlayer.play();
+                    button.innerHTML = '⏸';
+                    button.classList.add('playing');
+                    currentPlayingButton = button;
+                    currentSessionId = sessionId;
+                    currentTimerElement = timerElement;
+                    
+                    // 以前のリスナーがあれば削除
+                    if (timeUpdateListener) {
+                        audioPlayer.removeEventListener('timeupdate', timeUpdateListener);
+                    }
+                    if (endedListener) {
+                        audioPlayer.removeEventListener('ended', endedListener);
+                    }
+                    
+                    // 再生時間の更新用関数
+                    timeUpdateListener = function() {
+                        updateTimer(timerElement);
+                    };
+                    
+                    // オーディオの再生終了時の処理用関数
+                    endedListener = function() {
+                        button.innerHTML = '▶';
+                        button.classList.remove('playing');
+                        currentPlayingButton = null;
+                        currentSessionId = null;
+                        currentTimerElement = null;
+                    };
+                    
+                    // 新しいイベントリスナーを追加
+                    audioPlayer.addEventListener('timeupdate', timeUpdateListener);
+                    audioPlayer.addEventListener('ended', endedListener);
+                }
+            }
+            
+            // 再生時間の表示を更新
+            function updateTimer(timerElement) {
+                if (timerElement) {
+                    const currentTime = formatTime(audioPlayer.currentTime);
+                    const duration = formatTime(audioPlayer.duration || 0);
+                    timerElement.textContent = `${currentTime} / ${duration}`;
+                }
+            }
+            
+            // 時間のフォーマット（秒を分:秒の形式に変換）
+            function formatTime(seconds) {
+                const minutes = Math.floor(seconds / 60);
+                seconds = Math.floor(seconds % 60);
+                return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            }
+            
+            // 再生速度ボタンのイベント処理
+            speedButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const speed = parseFloat(this.getAttribute('data-speed'));
+                    audioPlayer.playbackRate = speed;
+                    currentPlaybackRate = speed; // 再生速度を変数に保存
+                    
+                    // アクティブクラスを切り替え
+                    speedButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+            
+            // 音量スライダーのイベント処理
+            volumeSlider.addEventListener('input', function() {
+                audioPlayer.volume = this.value;
+            });
+            
+            // 検索イベント
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase().trim();
+                
+                if (searchTerm === '') {
+                    renderSessionList();
+                    return;
+                }
+                
+                // 検索条件に一致するセッションをフィルタリング
+                const filteredSessions = sessions.filter(session => {
+                    return session.title.toLowerCase().includes(searchTerm) || 
+                           session.titleJa.toLowerCase().includes(searchTerm) ||
+                           session.id.toLowerCase().includes(searchTerm);
+                });
+                
+                renderSessionList(filteredSessions);
+            });
+            
+            // 初期表示
+            renderSessionList();
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Workfrontの未来</title>
+    <style>
+        :root {
+            --accent-color: #0f3c78;
+            --bg-color: #f5f5f5;
+            --section-bg: #ffffff;
+            --text-color: #333;
+            --highlight-color: #fff3cd;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 16px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: var(--accent-color);
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+        }
+        
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 24px;
+        }
+        
+        .section {
+            background: var(--section-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .highlight {
+            background-color: var(--highlight-color);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-weight: bold;
+            text-align: center;
+            margin: 24px 0;
+            font-size: 1.1rem;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .faq-container {
+            margin-top: 16px;
+        }
+        
+        .faq-item {
+            margin-bottom: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .faq-question:after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .faq-question.active:after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            display: none;
+            padding: 12px;
+            border-top: 1px solid #ddd;
+            background-color: white;
+        }
+        
+        .faq-question.active + .faq-answer {
+            display: block;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 32px;
+            padding: 16px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Adobe Workfrontの未来</h1>
+        
+        <div class="section">
+            <h2>サマリー</h2>
+            <p>Adobe Workfrontは、増加する一方のマーケティングコンテンツの複雑性と需要に対応するため、「マーケティングシステム・オブ・レコード」として進化しています。Gen Studio Foundationを基盤に、ワークフローと計画、オートメーション、AIを活用して、コンテンツサプライチェーン全体を効率化する新機能が2025年に向けて続々と登場します。</p>
+            
+            <div class="important">
+                コンテンツ危機に対処するための<span class="underline">統合されたワークフロー管理システム</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>現代のマーケティング課題</h2>
+            <p>現代のマーケティング環境では、コンテンツの爆発的増加により、従来の管理方法では対応しきれなくなっています。</p>
+            
+            <h3>コンテンツ危機の実態</h3>
+            <ul>
+                <li>8つのアセットが<span class="highlight">15チャネル × 複数言語 × バリエーション</span>で、すぐに<span class="underline">数千のアセット</span>に膨れ上がる</li>
+                <li>2021年に47エクサバイトだったコンテンツ量が、2026年には<span class="highlight">155エクサバイト</span>に増加予定</li>
+                <li>制作されたアセットの<span class="underline">約50%が使用されていない</span>という現状</li>
+            </ul>
+            
+            <h3>現在の課題</h3>
+            <ul>
+                <li>断片化された内外チームの連携不足</li>
+                <li>手動による非効率なワークフロー</li>
+                <li>計画・データ・実行の不一致</li>
+                <li>テクノロジーの活用不足</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜコンテンツ量が爆発的に増えているのですか？</div>
+                    <div class="faq-answer">パーソナライゼーションの需要増加、マーケティングチャネルの多様化、グローバル展開に伴う言語バリエーション、継続的なコンテンツ更新の必要性などが要因です。これにより単一のコンテンツから数千のバリエーションが生まれています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. コンテンツ管理の失敗によって具体的にどのような問題が発生しますか？</div>
+                    <div class="faq-answer">ブランドガイドラインの不遵守、時間を浪費するレビュー・承認プロセス、アセットの再利用ができない、コンテンツのROI把握が困難、などの問題が発生します。結果として市場投入の遅延やコスト増加につながります。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Gen Studio Foundation</h2>
+            <p>Adobeは「Gen Studio Foundation」という新しいフレームワークを基盤に、コンテンツサプライチェーン全体を管理するための5つの柱を確立しています。</p>
+            
+            <h3>5つの柱</h3>
+            <ul>
+                <li><span class="underline">ワークフローと計画</span>：Work Frontによる効率的な計画と実行</li>
+                <li><span class="highlight">制作と生産</span>：Creative Cloudアプリケーションとの連携</li>
+                <li><span class="highlight">アセット管理</span>：デジタルアセット管理システム</li>
+                <li><span class="highlight">配信とアクティベーション</span>：マーケティングチャネルへの展開</li>
+                <li><span class="highlight">レポートとインサイト</span>：効果測定と分析</li>
+            </ul>
+            
+            <p>これらすべてにAIモデルを適用し、マーケティングシステム・オブ・レコードを構築します。</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. マーケティングシステム・オブ・レコードとは何ですか？</div>
+                    <div class="faq-answer">すべてのマーケティング活動を一元管理し、可視化できるシステムのことです。これにより、計画から実行、測定までの全プロセスが統合され、すべての関係者がリアルタイムで情報にアクセスできるようになります。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Work Frontの主要機能強化</h2>
+            
+            <h3>1. 中央集権型計画管理</h3>
+            <ul>
+                <li>戦略、プロセス、データを<span class="highlight">単一の信頼できる情報源</span>に統合</li>
+                <li>カスタムレコードを使ったマーケティングカレンダー、テーブル、タイムライン表示</li>
+                <li>2025年：Work Front計画とワークフローの<span class="underline">ネイティブ接続強化</span></li>
+                <li>Gen Studioのコンテンツサプライチェーン全体の<span class="highlight">統一メタデータレイヤー</span>への拡張</li>
+            </ul>
+            
+            <h3>2. ワークフロー最適化</h3>
+            <ul>
+                <li>2024年実装済み：環境プロモーション、ビジネスルール追加、AIアシスタント、Work Front優先度</li>
+                <li>キャンペーンコンポーネントの包括的ビュー提供</li>
+                <li>リスクのあるプロジェクトの迅速な特定とリソース割り当て</li>
+                <li>2025年：AIパワード機能、キャンバスダッシュボード、レビュー・承認統合、リソース・財務管理強化</li>
+            </ul>
+            
+            <h3>3. Work Front優先度の機能強化</h3>
+            <ul>
+                <li>個人貢献者向けのシンプルなインターフェース</li>
+                <li>プロジェクトレベルでの情報表示機能追加</li>
+                <li>カレンダービューでの作業確認とカスタマイズ</li>
+                <li>AI「Catch」機能による不在時の重要アップデート要約</li>
+                <li>優先順位バケットによる柔軟なタスク整理</li>
+                <li>リアルタイム文書・校正更新（リフレッシュ不要）</li>
+                <li>AIを活用した自然言語スマートフィルター</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Work Front優先度とは何ですか？</div>
+                    <div class="faq-answer">個人貢献者向けに設計されたシンプルなインターフェースで、複雑なプロジェクト管理機能を必要としないユーザーが日々のタスクを効率的に管理できるツールです。自分の業務に関連する情報だけを見やすく整理して表示します。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIの「Catch」機能はどのように役立ちますか？</div>
+                    <div class="faq-answer">休暇や不在時に発生したプロジェクトの更新情報をAIが分析し、重要な変更や進捗だけを要約して提供します。これにより、職場復帰時に素早く状況を把握し、スムーズに業務に戻ることができます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>オートメーションと統合</h2>
+            <p>マーケティングシステム・オブ・レコードの最後の柱として、エンドツーエンドプロセスを実現するためのオートメーションと統合機能が強化されます。</p>
+            
+            <h3>主要な統合機能</h3>
+            <ul>
+                <li>キャンペーンブリーフからの<span class="highlight">自動情報抽出</span>とフィールド入力</li>
+                <li>履歴データを活用した<span class="underline">タスクと担当者の自動割り当て</span></li>
+                <li>AMアセットとの<span class="highlight">ネイティブ統合</span>によるメタデータ自動タグ付け</li>
+                <li>Gen Studio for Performance Marketingとの統合</li>
+                <li>Frame.ioとの統合による<span class="underline">統一レビュー・承認</span>エクスペリエンス</li>
+            </ul>
+            
+            <h3>2025年の展望</h3>
+            <ul>
+                <li>オートメーションサービスの拡張</li>
+                <li>Fusionによるシナリオデザイン改善</li>
+                <li>AIによるコンテキスト情報活用</li>
+                <li>Microsoft Dynamicsとの統合による勤怠管理効率化</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Work FrontとAMアセットの統合によって何が変わりますか？</div>
+                    <div class="faq-answer">プロジェクト情報が自動的にアセットのメタデータとして付与されるため、手動でのメタデータ入力が不要になります。また、最終アセットが自動的にAMに公開されるため、「これが最終版か」という混乱が解消されます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>AI機能の強化</h2>
+            <p>2025年に向けてAI機能が大幅に強化され、業務効率の飛躍的向上が期待されています。</p>
+            
+            <h3>主要なAI機能（2025年前半以降）</h3>
+            <ul>
+                <li><span class="highlight">プロジェクトヘルスアドバイザー</span>：タスク状況だけでなく、プロジェクトの健全性を総合的に評価</li>
+                <li><span class="underline">AIレビュアー</span>：ブランドガイドラインに基づく自動アセットチェック</li>
+                <li><span class="highlight">AIリクエスト</span>：ドキュメントから自動的にリクエストフォームを作成</li>
+                <li>AEP統合とM365 Copilotへの接続</li>
+                <li>アプリケーション間の要約機能</li>
+                <li>カスタムエージェント</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. プロジェクトヘルスアドバイザーはどのように機能しますか？</div>
+                    <div class="faq-answer">従来のプロジェクト状況（赤・黄・緑）だけでなく、タスク作成数、プロジェクト内の変更、メンバーの感情分析など多角的な要素を分析し、スコア化します。さらに問題点を特定するだけでなく、具体的な改善方法も提案します。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIレビュアーはどのような課題を解決しますか？</div>
+                    <div class="faq-answer">ブランドガイドラインをアップロードすることで、色使い、イメージタイプ、トーンなどの基準に基づいて、アセットを自動的にチェックします。何千ものアセットを一度に評価でき、人間によるレビュー前に問題を発見・修正できるため、レビュープロセスが大幅に効率化されます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>財務・リソース管理の強化</h2>
+            <p>企業とエージェンシー両方のニーズに応える、高度な財務管理とリソース計画機能が追加されます。</p>
+            
+            <h3>主要な強化機能</h3>
+            <ul>
+                <li><span class="highlight">財務管理</span>：詳細な請求レート、権限管理</li>
+                <li><span class="underline">リソース管理</span>：スタッフィング計画と財務・時間のレポート</li>
+                <li><span class="highlight">非労働リソース</span>：カメラ、スタジオ、会議室などの管理</li>
+                <li>マクロビューによるリソース計画（トップダウンスタッフィング）</li>
+                <li>クライアント契約に対する内部チームのキャパシティ調整</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 非労働リソース管理とは具体的に何ですか？</div>
+                    <div class="faq-answer">プロジェクトやキャンペーンで使用するカメラ機材、スタジオ、会議室などの物理的リソースを、人的リソースと同様に管理・追跡できる機能です。これにより、コスト管理や機材の予約状況なども一元管理できるようになります。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要な用語・概念</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>解説</th>
+                </tr>
+                <tr>
+                    <td>Gen Studio Foundation</td>
+                    <td>コンテンツサプライチェーン全体を管理する5つの柱（ワークフローと計画、制作と生産、アセット管理、配信とアクティベーション、レポートとインサイト）からなるAdobe独自のフレームワーク</td>
+                </tr>
+                <tr>
+                    <td>マーケティングシステム・オブ・レコード</td>
+                    <td>マーケティング活動を一元管理し、可視化できるシステム。計画から実行、測定までの全プロセスを統合</td>
+                </tr>
+                <tr>
+                    <td>Work Front優先度</td>
+                    <td>個人貢献者向けのシンプルなインターフェースで、複雑なプロジェクト管理機能を必要としないユーザー向けの機能</td>
+                </tr>
+                <tr>
+                    <td>プロジェクトヘルスアドバイザー</td>
+                    <td>AIを活用してプロジェクトの健全性を総合的に評価し、改善策を提案する機能</td>
+                </tr>
+                <tr>
+                    <td>AIレビュアー</td>
+                    <td>ブランドガイドラインに基づいてアセットを自動的にチェックする機能</td>
+                </tr>
+                <tr>
+                    <td>非労働リソース管理</td>
+                    <td>カメラ、スタジオ、会議室などの物理的リソースを管理・追跡できる機能</td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            このページは「OS807 The Future of Adobe Workfront」のセッション内容をまとめたものです
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.faq-question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

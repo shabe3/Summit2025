@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Experience Platform データディスティラーの価値を最大化するトップヒント</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 15px;
+            max-width: 100%;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+        
+        .summary {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #0f3c78;
+        }
+        
+        h3 {
+            color: #0f3c78;
+            font-size: 1.2rem;
+            margin: 20px 0 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            display: inline-block;
+        }
+        
+        .important {
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+        
+        .faq-container {
+            margin: 20px 0;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 12px 15px;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: "+";
+            position: absolute;
+            right: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .faq-question.active::after {
+            content: "-";
+        }
+        
+        .faq-answer {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        
+        .faq-answer.active {
+            padding: 15px;
+            max-height: 500px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Experience Platform データディスティラーの価値を最大化するトップヒント</h1>
+        </header>
+
+        <div class="summary">
+            <p><span class="highlight">データディスティラー</span>は、Adobe Experience Platformのアドオンで、生データを加工して実用的なインサイトに変換するツールです。本資料では、その概要、主要機能、そして利用者が最大限の価値を引き出すためのベストプラクティスについて解説します。</p>
+        </div>
+
+        <section>
+            <h2>データディスティラーの概要</h2>
+            <p>データディスティラーは、データの選別と変換を可能にするAdobe Experience Cloudエコシステムの重要な構成要素です。データの下流アプリケーションへの最適化を確保します。</p>
+            
+            <h3>主な役割と価値</h3>
+            <ul>
+                <li>データの<span class="underline">探索・準備・選別</span>を可能にし、下流アプリケーション（リアルタイムCDP、Customer Journey Analytics、Adobe Journey Optimizer）で直接活用できるデータセットを作成</li>
+                <li>データセット作成の<span class="underline">自動化</span>によって時間を節約し、分析準備が整ったデータを確保</li>
+                <li>インサイト生成やAI/MLワークフローの構築をサポートし、ビジネス全体の意思決定を改善</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. データディスティラーはデータ取り込みのどの段階で使用されますか？</div>
+                    <div class="faq-answer">データディスティラーはデータ取り込み段階の後に位置し、生データがプラットフォームに入った後、そのデータを変換、クリーニング、選別して実用的にします。高品質で豊かなデータセットの作成を自動化します。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. データディスティラーはどのようにして生データを実用的なインサイトに変換しますか？</div>
+                    <div class="faq-answer">未処理の材料のような生データに対し、データディスティラーはデータ変換（構造化形式への変換）、データ処理・強化（フィルター適用、変換、ビジネスルールの適用）、下流ツールとの統合、そしてAI/ML最適化を行い、最大限の価値を引き出します。</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>データディスティラーの主要機能</h2>
+            <p>データディスティラーには3つの中核的な機能があります：</p>
+            
+            <h3>1. 派生データセット</h3>
+            <ul>
+                <li>ターゲットを絞った分析（オーディエンスセグメンテーションやチャーン分析など）のためのカスタムサイズのデータセットを作成可能</li>
+            </ul>
+            
+            <h3>2. SQLインサイト</h3>
+            <ul>
+                <li>クエリProモードを使用してSQLクエリを記述し、データを視覚化</li>
+                <li>Power BIやTableauなどのBIツールとデータを統合</li>
+            </ul>
+            
+            <h3>3. AI/MLフィーチャーパイプライン</h3>
+            <ul>
+                <li>選別されたデータを使用してMLワークフローを強化</li>
+                <li>データサイエンティストがフィーチャーを計算し、モデルをトレーニングし、予測をシームレスに展開することをサポート</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 派生データセットは具体的にどのような分析に使用できますか？</div>
+                    <div class="faq-answer">派生データセットはオーディエンスセグメンテーション、チャーン分析など、特定のターゲットを絞った分析に使用できます。ビジネスニーズに合わせてカスタマイズされたデータセットを作成することができます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. SQLインサイトでは何ができますか？</div>
+                    <div class="faq-answer">SQLインサイトではQueryプロモードを使ってSQLクエリを書き、データを視覚化したり、PowerBIやTableauなどのBIツールとデータを統合したりすることができます。複雑なデータ分析に役立ちます。</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>RFMベースのSQLオーディエンス活用事例</h2>
+            <p>Lumaストアの事例を通じて、データディスティラーの機能を実際に見ていきましょう。</p>
+            
+            <h3>ビジネス背景</h3>
+            <ul>
+                <li>Lumaストアはスポーツ・フィットネスアパレルブランドで、健康志向の個人やアスリートをターゲットにしている</li>
+                <li>目標：顧客をサブセグメント化し、エンゲージメントをパーソナライズしてマーケティングの効果を高める</li>
+                <li>現状のアプローチ：広範で一般的、パーソナライゼーションが不足</li>
+                <li>必要な改善：顧客維持とライフタイム価値を向上させるための洗練された戦略</li>
+            </ul>
+            
+            <h3>RFMセグメンテーションとは</h3>
+            <p>RFMは<span class="highlight">Recency（最新性）、Frequency（頻度）、Monetary（金銭的価値）</span>の略で、データ駆動型の顧客セグメンテーションと分析アプローチです。</p>
+            <ul>
+                <li><strong>Recency</strong>：顧客の最後の購入からの経過時間（エンゲージメントレベルと将来の取引可能性についての洞察を提供）</li>
+                <li><strong>Frequency</strong>：顧客の相互作用の頻度（ロイヤルティと持続的なエンゲージメントの指標）</li>
+                <li><strong>Monetary</strong>：顧客の総支出（ビジネスに対する価値を強調）</li>
+            </ul>
+            <p class="important">RFMは顧客に1〜4のスコアを割り当て、数値が低いほど好ましい結果を示します。すべてのカテゴリで1のスコアを持つ顧客は「チャンピオン」と見なされ、最近の活動、高いエンゲージメント、多額の支出を示しています。</p>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. RFMセグメンテーションはマーケティングにどう役立ちますか？</div>
+                    <div class="faq-answer">RFMセグメンテーションを活用することで、パーソナライズされたメッセージの送信、カスタマイズされた特典の提供、統一されたオムニチャネルエクスペリエンスの実現など、より精密なターゲティングが可能になります。顧客の過去の行動に基づいたマーケティング戦略を構築できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. RFMスコアはどのように解釈すべきですか？</div>
+                    <div class="faq-answer">RFMスコアは通常1〜4のスケールで、数値が低いほど好ましい結果を示します。例えば、すべてのカテゴリで1のスコアを持つ顧客は「チャンピオン」と見なされ、最近の活動、高いエンゲージメント、多額の支出を示しています。逆に、スコアが4の顧客は「リスク」にあり、近い将来の離脱の可能性を示しています。</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>データディスティラーでRFMオーディエンスを構築する手順</h2>
+            <p>料理の準備に例えると、RFMオーディエンスの構築は以下の手順で行われます：</p>
+            
+            <h3>1. データの選択と検証</h3>
+            <ul>
+                <li>データレイクに接続して関連データセットを特定（材料の選択のように）</li>
+                <li>単純なSELECTクエリを実行してデータを検査、検証、分析（料理の前に材料を味見するように）</li>
+            </ul>
+            
+            <h3>2. データの強化と変換</h3>
+            <ul>
+                <li>生データを強化し、より良いセグメンテーションのための変換を適用（風味のバランスをとるように）</li>
+                <li>RFMメトリクスを使用して顧客セグメンテーションを微調整</li>
+                <li>NTILE関数を使用してRFMスコアを四分位に分割し、マーケティング目標に基づいてオーディエンスを分類</li>
+            </ul>
+            
+            <h3>3. 顧客プロファイルの強化とセグメンテーション</h3>
+            <ul>
+                <li>SQLクエリを実行してプロファイル対応データセットを作成し、RFMセグメンテーションデータを挿入</li>
+                <li>ユーザーIDを主要なIDとしてマークすることで、プロファイルとIDストアとのシームレスな統合を確保</li>
+            </ul>
+            
+            <h3>4. クエリのスケジューリングと自動化</h3>
+            <ul>
+                <li>プロファイルの自動更新を確保するためにクエリをスケジュール（キッチンでタイマーをセットするように）</li>
+                <li>クエリテンプレートを選択し、実行頻度を設定し、スケジュールを保存するだけで自動化が可能</li>
+            </ul>
+            
+            <h3>5. オーディエンスの活性化</h3>
+            <ul>
+                <li>オーディエンススキーマを作成し、主要な属性（ユーザーID、注文、総収益など）を定義</li>
+                <li>RFMでセグメント化された顧客データをオーディエンススキーマに挿入</li>
+                <li>SQLで作成されたオーディエンスは自動的にデータディスティラー起源に登録され、Amazon S3やSFTP、Azureですぐに活性化できる</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. プロファイル対応データセットを作成する際の注意点は？</div>
+                    <div class="faq-answer">プロファイル対応データセットを作成する際は、ユーザーIDを主要なIDとしてマークすることが重要です。これにより、プロファイルとIDストアとのシームレスな統合が確保され、将来的な活性化がスムーズに行えるようになります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. SQLで作成したオーディエンスはどのように活性化できますか？</div>
+                    <div class="faq-answer">SQLで作成されたオーディエンスは自動的にデータディスティラー起源に登録され、Amazon S3やSFTP、Azureなどですぐに活性化できます。追加のセットアップは不要で、パーソナライゼーションとターゲティングのためにすぐに使用できる状態になっています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 不要になったオーディエンスはどのように削除できますか？</div>
+                    <div class="faq-answer">不要になったオーディエンスは、「DROP AUDIENCE」構文を使用して古くなったセグメントを削除することができます。これにより、不要なデータを整理し、システムを効率的に保つことができます。</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>データディスティラー活用のベストプラクティス</h2>
+            
+            <h3>1. 適切なツールの選択</h3>
+            <ul>
+                <li><strong>クエリサービスAd Hoc</strong>：迅速なデータ探索と検証に最適</li>
+                <li><strong>データディスティラー</strong>：より複雑で大規模なデータ処理とスケジュールされた変換に適している</li>
+                <li>複雑な変換をアドホッククエリで実行することは避け、代わりにデータディスティラーでスケジュールする</li>
+            </ul>
+            
+            <h3>2. コンピュート時間の最適化</h3>
+            <ul>
+                <li><span class="highlight">コンピュート時間</span>はクエリ処理時間を測定し、クエリが大きいほど消費量が増加</li>
+                <li>スケジュールされたクエリを最適化するために、SNAPSHOT句を使用して新たに取り込まれたデータのみを処理</li>
+                <li>不必要なデータの再処理を避け、すべてのコンピュートパワーを効果的に使用</li>
+            </ul>
+            
+            <h3>3. その他の重要なベストプラクティス</h3>
+            <ul>
+                <li>失敗するクエリを隔離するためにクエリ検疫を使用し、他のトラブルシューティング手法と組み合わせる</li>
+                <li>データディスティラーは現在PostgreSQLをサポート（Pythonの実行は利用不可）</li>
+                <li>ライセンス権限に基づいたデータエクスポート制限を意識する</li>
+                <li>データディスティラーはSQLコマンドを通じた高度なMLをサポート（モデルの作成、評価、予測をSQLで直接実行可能）</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. コンピュート時間とは何ですか？</div>
+                    <div class="faq-answer">コンピュート時間はクエリ処理時間を測定する単位です。クエリが大きいほど消費量が増加します。キッチンで、より効率的な準備が労力を節約し、非効率さが無駄につながるのと同様に、コンピュート時間の最適化が重要です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. SNAPSHOT句はどのように役立ちますか？</div>
+                    <div class="faq-answer">SNAPSHOT句を使用すると、新たに取り込まれたデータのみを処理することができ、不必要なデータの再処理を避けることができます。これにより、すべてのコンピュートパワーを効果的に使用し、パフォーマンスを最適化することができます。</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>主要用語と概念</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>データディスティラー</td>
+                    <td>Adobe Experience Platformのアドオンで、データの選別と変換を可能にするツール</td>
+                </tr>
+                <tr>
+                    <td>RFM分析</td>
+                    <td>Recency（最新性）、Frequency（頻度）、Monetary（金銭的価値）に基づく顧客セグメンテーション手法</td>
+                </tr>
+                <tr>
+                    <td>派生データセット</td>
+                    <td>ターゲットを絞った分析のためのカスタムサイズのデータセット</td>
+                </tr>
+                <tr>
+                    <td>SQLインサイト</td>
+                    <td>クエリProモードを使用してSQLクエリを記述し、データを視覚化する機能</td>
+                </tr>
+                <tr>
+                    <td>AI/MLフィーチャーパイプライン</td>
+                    <td>選別されたデータを使用してMLワークフローを強化する機能</td>
+                </tr>
+                <tr>
+                    <td>コンピュート時間</td>
+                    <td>クエリ処理時間を測定する単位</td>
+                </tr>
+                <tr>
+                    <td>SNAPSHOT句</td>
+                    <td>新たに取り込まれたデータのみを処理するためのSQL句</td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <p>© 2025 Adobe Experience Platform</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.faq-question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const answer = this.nextElementSibling;
+                    answer.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

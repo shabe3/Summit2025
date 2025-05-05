@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Summit 2025 コンテンツサプライチェーンとAI</title>
+    <style>
+        :root {
+            --accent-color: #051c2c;
+            --bg-color: #f5f5f5;
+            --text-color: #333;
+            --section-bg: #ffffff;
+            --highlight: #0047AB;
+            --spacing: 1.5rem;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--bg-color);
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        header {
+            background: var(--accent-color);
+            color: white;
+            padding: var(--spacing);
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        h2 {
+            font-size: 1.75rem;
+            margin: 2rem 0 1rem 0;
+            color: var(--accent-color);
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.75rem 0;
+            color: var(--accent-color);
+        }
+        
+        .summary {
+            background: var(--section-bg);
+            padding: var(--spacing);
+            margin: var(--spacing) 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            background: var(--section-bg);
+            padding: var(--spacing);
+            margin: var(--spacing) 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section-summary {
+            font-weight: 500;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .details ul {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .details li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .qa-item {
+            margin-bottom: 1rem;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .question {
+            font-weight: 600;
+            color: var(--accent-color);
+            cursor: pointer;
+            padding: 0.75rem;
+            background: rgba(0,71,171,0.05);
+            border-radius: 4px;
+            display: block;
+            position: relative;
+            user-select: none;
+        }
+        
+        .question::after {
+            content: '+';
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+        }
+        
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            background: white;
+        }
+        
+        .answer p {
+            margin: 0;
+            padding: 1rem;
+        }
+        
+        .qa-item input[type="checkbox"] {
+            display: none;
+        }
+        
+        .qa-item input[type="checkbox"]:checked + .question::after {
+            content: '−';
+        }
+        
+        .qa-item input[type="checkbox"]:checked ~ .answer {
+            max-height: 2000px;
+        }
+        
+        .key-terms {
+            margin-top: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        .highlight {
+            background: linear-gradient(transparent 60%, rgba(0,71,171,0.2) 40%);
+            font-weight: 600;
+        }
+        
+        .big-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            line-height: 1.3;
+            margin: 1.5rem 0;
+        }
+        
+        footer {
+            background: var(--accent-color);
+            color: white;
+            text-align: center;
+            padding: var(--spacing);
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 90%;
+                padding: var(--spacing);
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Summit 2025 コンテンツサプライチェーンとAI</h1>
+        </header>
+        
+        <div class="summary">
+            <h2>サマリー</h2>
+            <p>本セッションでは、Adobe Gen Studioのビジョンと、組織のコンテンツサプライチェーン変革を支援する方法について詳しく解説しています。コンテンツ消費量が増加する現代のデジタル環境において、パーソナライズされた体験を提供するためには、コンテンツの作成速度向上、スケーリング、ブランド整合性の維持が重要です。AIを活用したコンテンツサプライチェーンの変革事例として、Prudential社の取り組みが紹介されました。</p>
+        </div>
+
+        <div class="section">
+            <h2>コンテンツ危機とビジネス機会</h2>
+            <div class="section-summary">
+                デジタルコンテンツの消費量は急増しており、10年前は1日5.5時間だったオンラインコンテンツ消費が、現在は1日8時間に達しています。これは企業がパーソナライズされた体験を提供する上で大きな課題となっていますが、同時に組織変革の機会でもあります。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「このコンテンツ危機は<span class="highlight">チャンス</span>です。組織を変革し、スケーラビリティを実現して、顧客が喜ぶコンテンツを提供し、ブランドとの関係を深める機会です」</p>
+                
+                <h3>コンテンツサプライチェーン変革の3つの機会</h3>
+                <ul>
+                    <li><span class="highlight">スピード</span>：より速くコンテンツを作成・配信する
+                        <ul>
+                            <li>現状：多くの組織がコンテンツ作成にかかる時間を把握していない</li>
+                            <li>課題：断片化したチーム、データ、プロセス、ツール、サプライチェーン</li>
+                            <li>解決策：基盤となるワークフローとメタデータの整備</li>
+                            <li>驚くべき事実：一般的な大企業は平均して90以上のマーテックツールを使用</li>
+                        </ul>
+                    </li>
+                    <li><span class="highlight">スケール</span>：マーケティング予算が増えない中でコンテンツを拡大
+                        <ul>
+                            <li>現状：多くの企業がコンテンツの再利用率を把握していない</li>
+                            <li>アプローチ：「最後に再利用する」ではなく「最初から再利用を設計する」</li>
+                            <li>例：一つのメールを6つの異なる体験ブロックに分割し、適切にタグ付け</li>
+                            <li>結果：同じコンテンツから複数の体験を生成し、ミックス&マッチが可能に</li>
+                        </ul>
+                    </li>
+                    <li><span class="highlight">ブランド整合性</span>：拡大する中でブランド一貫性を維持
+                        <ul>
+                            <li>課題：チームの70%が「もっとコンテンツを制作する必要がある」と回答</li>
+                            <li>驚くべき事実：85%が企業承認ツールを使わず「DIY」ツールに頼っている</li>
+                            <li>解決策：創造性の民主化 - すべての人をコンテンツクリエイターに</li>
+                            <li>アプローチ：ヒーロー画像、構成可能なコンテンツ、ブランドガードレール、テンプレート</li>
+                            <li>AIの活用：自動ブランドチェック、自動承認</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>Adobe Gen Studioによるコンテンツサプライチェーン変革</h3>
+                <ul>
+                    <li>統合ソリューションの価値：
+                        <ul>
+                            <li><span class="highlight">統一されたメタデータ</span>：コンテンツサプライチェーン全体でメタデータを統一</li>
+                            <li><span class="highlight">統一されたレビューと承認</span>：複数アプリケーション間で同じ承認フローを利用</li>
+                            <li><span class="highlight">統一されたブランドサービス</span>：一度設定したブランドを複数のアプリケーションで適用</li>
+                            <li>統一された体験がAdobe Gen Studioの秘訣</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>コンテンツサプライチェーンの5つの柱</h3>
+                <ul>
+                    <li>コンテンツサプライチェーンの基盤となる中核アプリケーション</li>
+                    <li>Gen Studio Foundationによるユーザーインターフェースの統一
+                        <ul>
+                            <li>ユーザーが複数のアプリケーションを行き来する必要がない</li>
+                            <li>初期段階だが将来性に期待</li>
+                        </ul>
+                    </li>
+                    <li>中核アプリケーション上に構築された追加モジュール</li>
+                    <li>AdobeのAIプラットフォームとAEP（Adobe Experience Platform）を基盤に構築
+                        <ul>
+                            <li>コンテンツ作成からデリバリーまでメタデータが連携</li>
+                            <li>メタデータに基づくパフォーマンス分析が可能</li>
+                        </ul>
+                    </li>
+                    <li>ワークフロー最適化エージェントとコンテンツ制作エージェントの連携</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q1">
+                    <label class="question" for="q1">Q. コンテンツ再利用とは具体的に何ですか？</label>
+                    <div class="answer">
+                        <p>コンテンツ再利用とは、一度作成したコンテンツ資産を複数のチャネル、キャンペーン、または目的のために使用することです。従来のアプローチでは、コンテンツを作成した後に「これをどこで再利用できるか」を考えていましたが、効果的な再利用は「最初から再利用を設計する」アプローチを取ります。例えば、メールを単一の固定コンテンツとして作成するのではなく、6つの異なる体験ブロックに分解し、それぞれを適切にタグ付けしてアセットリポジトリに保存します。これにより、同じコンテンツ要素を様々な場面で再利用し、異なる体験を創出できます。このアプローチにAIを組み合わせることで、パーソナライズされた体験をスケーラブルに提供することが可能になります。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q2">
+                    <label class="question" for="q2">Q. なぜ多くの組織がコンテンツサプライチェーンの変革に苦戦しているのですか？</label>
+                    <div class="answer">
+                        <p>多くの組織がコンテンツサプライチェーンの変革に苦戦している主な理由として、断片化した環境が挙げられます。具体的には、断片化したチーム、データ、プロセス、ツール、そして企業とエージェンシー間の断片化したコンテンツサプライチェーンが課題となっています。平均的な大企業は約90のマーテックツールを利用しており、このような複雑な環境にAIを単に追加しても期待通りの結果は得られません。変革の基盤となるワークフローとメタデータの整備が不可欠です。また、多くの場合、既存のレガシーツールからの移行が難しく、ポイントソリューションを購入して統合するアプローチを取りがちです。しかし、統合されたソリューションによる統一されたメタデータ、レビュー・承認プロセス、ブランドサービスの価値を理解し実装することが、効果的な変革への鍵となります。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q3">
+                    <label class="question" for="q3">Q. コンテンツサプライチェーンにおけるAIの役割は何ですか？</label>
+                    <div class="answer">
+                        <p>コンテンツサプライチェーンにおけるAIの役割は、スピード、スケール、ブランド整合性という3つの主要価値ドライバーを強化することです。スピードの面では、AIは断片化した環境を組織化し、新しい運用方法を確立します。コンテンツ制作ワークフローを効率化し、作業時間を短縮します。スケールの面では、AIはコンテンツの再利用を促進し、同じコンテンツから複数の体験を生成する機能を強化します。パーソナライゼーションの可能性を拡大し、限られたリソースでより多くのターゲットオーディエンスにリーチすることを可能にします。ブランド整合性においては、AIは自動ブランドチェックや承認プロセスを通じて、企業の基準に沿ったコンテンツ制作を支援します。特に85%の従業員がDIYツールに頼っている現状において、AIはブランドガードレールを提供し、創造性を民主化しながらも一貫性を保つ役割を果たします。Adobe Gen Studioは、これらの機能をワークフロー最適化エージェントとコンテンツ制作エージェントを通じて提供しています。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>成功事例：変革の実際の価値</h2>
+            <div class="section-summary">
+                コンテンツサプライチェーン変革によって実際に成功を収めた企業の事例が紹介されました。Pfizer、Cox Communications、Red Hatがそれぞれスピード、スケール、ブランド整合性の観点から成果を上げています。また、150周年を迎えたPrudential社の詳細な事例が共有されました。
+            </div>
+            
+            <div class="details">
+                <h3>トップ企業の成功事例</h3>
+                <ul>
+                    <li><span class="highlight">Pfizer</span>：スピードの向上
+                        <ul>
+                            <li>コンテンツ市場投入までの時間を<span class="highlight">50%削減</span></li>
+                            <li>2ヶ月間で10のブランドウェブサイトを立ち上げ</li>
+                            <li>医薬品承認後、迅速に市場展開が可能に</li>
+                        </ul>
+                    </li>
+                    <li><span class="highlight">Cox Communications</span>：スケールの実現
+                        <ul>
+                            <li>「再利用を設計する」アプローチを採用</li>
+                            <li>Adobe Experience Manager Assetsとサイトの活用</li>
+                            <li>デジタルチャネルを通じた販売を<span class="highlight">2倍に増加</span></li>
+                            <li>組織全体でスケーラビリティを実現</li>
+                        </ul>
+                    </li>
+                    <li><span class="highlight">Red Hat</span>：ブランド整合性の維持
+                        <ul>
+                            <li>Express Creative Cloud Enterpriseを活用</li>
+                            <li>ブランドテンプレートを迅速に展開</li>
+                            <li>エンドユーザーへのコンテンツ配信を<span class="highlight">10倍速く</span></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>Prudential社の事例：創業150周年企業のデジタル変革</h3>
+                <ul>
+                    <li>Prudentialの概要：
+                        <ul>
+                            <li>保険・金融サービスのリーダー</li>
+                            <li>5,000万人の顧客</li>
+                            <li>1.5兆ドルの運用資産</li>
+                            <li>365人以上のマーケティングスタッフ</li>
+                            <li>5つのCMOと複数のビジネスユニット</li>
+                        </ul>
+                    </li>
+                    <li>150年間ブランド関連性を維持する3つの鍵：
+                        <ul>
+                            <li>適切なタイミングで適切な製品を構築し、すべての顧客にサービス提供</li>
+                            <li>優れた人材に権限を与え、自律性を持たせる</li>
+                            <li>「十分に良い」で満足せず、常により良いものを追求する文化</li>
+                        </ul>
+                    </li>
+                    <li>クリエイティブチームとマーテックの連携：
+                        <ul>
+                            <li>クリエイティブチーム：クリエイティブディレクター、アートディレクター、コピーライター、プロデューサー</li>
+                            <li>ビジネスパートナーと緊密に連携し、ビジネス目標を推進</li>
+                            <li>ソーシャル体験からライブ体験、スポンサーシップまで幅広く担当</li>
+                            <li>組織変更を機会と捉え、AIで金融サービスをリードする目標</li>
+                            <li>マーテックチームとの密接なパートナーシップが成功の鍵</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>Prudentialにおけるコンテンツサプライチェーン変革のAIジャーニー</h3>
+                <ul>
+                    <li>背景：
+                        <ul>
+                            <li>コロナ禍で3-4年前から変革を開始</li>
+                            <li>少ないリソースでより多くのコンテンツを作成する必要性に直面</li>
+                            <li>マーテックスタックの合理化を決断</li>
+                            <li>Adobeを基盤プラットフォームとして採用し、AIソリューションを追加</li>
+                        </ul>
+                    </li>
+                    <li>実現した成果：
+                        <ul>
+                            <li>断片化していたマーテックスタックを標準化</li>
+                            <li>ベンダー数を<span class="highlight">25%削減</span></li>
+                            <li>クリエイティブ、コピー、コンプライアンス等の分野でAIを展開</li>
+                            <li>全365人のマーケターにAIツールへのアクセスを提供</li>
+                            <li>Fireflyにより画像編集が<span class="highlight">3〜4倍高速化</span></li>
+                            <li>マーケターの90%が作業時間を25%削減</li>
+                            <li>初稿の作成が<span class="highlight">70%高速化</span></li>
+                            <li>AIとパーソナライゼーションを組み合わせたコンテンツでエンゲージメントが<span class="highlight">135%向上</span></li>
+                        </ul>
+                    </li>
+                    <li>ブランド整合性の維持：
+                        <ul>
+                            <li>AIに関する選択を明確に定義し、ブランドガイドラインに統合</li>
+                            <li>ブランドにとって倫理的に何が適切かを決定</li>
+                            <li>クリエイティブ、マーテック、法務、戦略パートナーの横断的なグループで意思決定</li>
+                            <li>文書化し、教育・共有して、日常的なブランド意思決定プロセスの一部に</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q4">
+                    <label class="question" for="q4">Q. コンテンツサプライチェーン変革におけるクリエイティブチームとマーテックチームの理想的な連携とは？</label>
+                    <div class="answer">
+                        <p>Prudentialの例が示すように、クリエイティブチームとマーテックチームの理想的な連携は、相互理解と明確なコミュニケーションに基づいています。Prudentialのクリエイティブリーダーであるブリジェット・エスポジトが強調したように、両チームは「互いの言語で話す」必要があります。これは、目標を一致させ、互いのニーズを正直に伝え、定期的に対話することを意味します。この連携では、技術の導入だけでなく、「どのように」導入するかが重要です。クリエイティブチームの役割が「制作者」から「アイデアの考案者とキュレーター」へと進化する中で、教育と権限付与が不可欠です。マーテック専任担当者をクリエイティブチームに配置することも効果的な戦略です。両チームは互いを尊重し、時には意見が分かれることもありますが、オープンな対話を通じて最善の解決策を見つけることが重要です。このような連携があってこそ、AIや新技術を効果的に活用し、変革を成功させることができます。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q5">
+                    <label class="question" for="q5">Q. AIに対する従業員の抵抗をどのように克服しましたか？</label>
+                    <div class="answer">
+                        <p>Prudentialの例では、AIに対する従業員の抵抗を克服するために、いくつかの効果的なアプローチが取られました。グレッグ・クラインによると、当初AIに対して非常に懸念を抱いていた同じ従業員たちが、現在では最も熱心な推進者になっています。この変化は以下の要因によるものです。まず、AIは人間の創造プロセスから人間を排除するのではなく、支援するものであることを明確に伝えました。実際に、AIを使うことで初稿が70%速く作成できるようになり、マーケターの90%が作業時間を25%削減できたという具体的な効果が示されました。また、クリエイティブチームの役割の進化についてオープンに話し合い、教育を提供し、意思決定において彼らに発言権を与えました。AIに関する選択を明確に定義し、ブランドガイドラインに統合したことで、AIの使用に関する不安を軽減しました。さらに、AIとパーソナライゼーションを組み合わせたコンテンツでエンゲージメントが135%向上するなど、明確なビジネス成果が示されたことも、抵抗を克服する上で重要でした。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q6">
+                    <label class="question" for="q6">Q. 150年の歴史を持つPrudentialが最新技術を採用できる理由は何ですか？</label>
+                    <div class="answer">
+                        <p>150年の歴史を持つPrudentialが最新技術を採用し続けられる理由は、グレッグ・クラインが挙げた3つの鍵となる要素に見出せます。第一に、適切なタイミングで適切な製品を構築し、すべての顧客にサービス提供する能力です。これは市場の変化に合わせて常に進化し続ける姿勢を示しています。第二に、優れた人材に権限を与え、自律性を持たせる組織文化があります。これにより、イノベーションを促進し、従業員が新しいアイデアや技術を積極的に採用できる環境が整っています。第三に、「十分に良い」で満足せず、常により良いものを追求する文化です。この継続的改善への取り組みが、最新技術の採用を促進しています。さらに、ブリジェット・エスポジトが強調したように、組織変更を脅威ではなく、自己再発明の機会として捉える姿勢も重要です。Prudentialはこれを「金融サービスにおけるAIのリーディングブランドになる」という明確なビジョンに転換しました。このような長期的視点と変化を機会と捉える姿勢が、伝統ある企業が最新技術を効果的に採用できる理由です。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-terms">
+            <h2>重要な用語と事実</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>用語/事実</th>
+                        <th>説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>コンテンツサプライチェーン</td>
+                        <td>コンテンツの計画、作成、管理、配信、分析までの一連のプロセス。効率的なコンテンツサプライチェーンは、スピード、スケール、ブランド整合性の3つの価値ドライバーに基づいて構築される。</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe Gen Studio</td>
+                        <td>コンテンツサプライチェーンを変革するAdobeの統合ソリューション。統一されたメタデータ、レビュー・承認プロセス、ブランドサービスを提供し、コンテンツ作成からデリバリーまでを効率化。</td>
+                    </tr>
+                    <tr>
+                        <td>コンテンツ消費の増加</td>
+                        <td>10年前は1日5.5時間だったオンラインコンテンツ消費が、現在は1日8時間に増加。これにより、企業はより多くの質の高いコンテンツを提供する必要に迫られている。</td>
+                    </tr>
+                    <tr>
+                        <td>再利用を設計する</td>
+                        <td>コンテンツを作成した後に再利用を考えるのではなく、初めから再利用を前提にコンテンツを設計するアプローチ。例えば、メールを複数の体験ブロックに分解し、それぞれを適切にタグ付けする。</td>
+                    </tr>
+                    <tr>
+                        <td>断片化したマーテック環境</td>
+                        <td>平均的な大企業は約90のマーテックツールを使用しており、チーム、データ、プロセス、ツールが断片化している状態。これがコンテンツサプライチェーン変革の主な障壁となっている。</td>
+                    </tr>
+                    <tr>
+                        <td>Gen Studio Foundation</td>
+                        <td>複数のアプリケーションを統一するユーザーインターフェース。ユーザーがWorkfront、コンテンツ分析などの異なるアプリケーションを行き来する必要をなくす。</td>
+                    </tr>
+                    <tr>
+                        <td>Prudentialの成果</td>
+                        <td>マーテックベンダー数を25%削減、Fireflyによる画像編集が3〜4倍高速化、マーケターの90%が作業時間を25%削減、初稿作成が70%高速化、AIとパーソナライゼーションを組み合わせたコンテンツでエンゲージメントが135%向上。</td>
+                    </tr>
+                    <tr>
+                        <td>AIとブランド整合性</td>
+                        <td>AIの使用に関する明確な選択を定義し、日常的なブランドガイドラインに統合すること。クリエイティブ、マーテック、法務、戦略パートナーを含む横断的なグループによる意思決定が重要。</td>
+                    </tr>
+                    <tr>
+                        <td>ワークフロー最適化エージェント</td>
+                        <td>Adobe Gen Studioのコンテンツサプライチェーンに関連するAIエージェントの一つ。ワークフローを最適化し、効率を向上させる。</td>
+                    </tr>
+                    <tr>
+                        <td>コンテンツ制作エージェント</td>
+                        <td>Adobe Gen Studioのコンテンツサプライチェーンに関連するもう一つのAIエージェント。コンテンツの制作プロセスを支援し、効率化する。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <p>Adobe Summit 2025 コンテンツサプライチェーンとAI</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Q&Aの展開・縮小機能
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.qa-item').forEach(item => {
+                const question = item.querySelector('.question');
+                const checkbox = item.querySelector('input[type="checkbox"]');
+                const answer = item.querySelector('.answer');
+                
+                question.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    checkbox.checked = !checkbox.checked;
+                    
+                    if (checkbox.checked) {
+                        answer.style.maxHeight = answer.scrollHeight + "px";
+                    } else {
+                        answer.style.maxHeight = "0";
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

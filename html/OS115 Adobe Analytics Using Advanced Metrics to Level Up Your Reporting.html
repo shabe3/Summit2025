@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobeアナリティクス：高度なメトリクスでレポーティングを強化</title>
+    <style>
+        :root {
+            --accent-color: #0f3c78;
+            --bg-color: #f5f5f5;
+            --section-bg: #ffffff;
+            --text-color: #333;
+            --highlight-color: #fff3cd;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 16px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        
+        h1 {
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+        }
+        
+        .summary {
+            background-color: var(--section-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        section {
+            background-color: var(--section-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        
+        .highlight {
+            background-color: var(--highlight-color);
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 2px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .important {
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 12px 16px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: "+";
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: "-";
+        }
+        
+        .faq-answer {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 12px 16px;
+            max-height: 300px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 32px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobeアナリティクス：高度なメトリクスでレポーティングを強化</h1>
+        </header>
+        
+        <div class="summary">
+            <p><strong>計算済みメトリクス</strong>は、Adobeアナリティクスの強力な機能であり、既存のメトリクス、イベント、セグメント、関数、静的数値を組み合わせてカスタムの指標を作成できます。ビジネスニーズに直接関連するKPIを作成し、データの深い洞察を得ることができます。</p>
+        </div>
+        
+        <section>
+            <h2>計算済みメトリクスの基本</h2>
+            <p>計算済みメトリクスはウェブサイトで直接測定されていないイベントのレポート作成や、データをより深く掘り下げるのに役立ちます。</p>
+            
+            <h3>特徴</h3>
+            <ul>
+                <li>他のメトリクス、イベント、セグメント、関数、静的数値を組み合わせて作成</li>
+                <li>整数、小数点数、通貨、時間ベース、パーセンテージなど様々な形式に対応</li>
+                <li>ワークスペース、レポートビルダー、異常検出、貢献度分析などで使用可能</li>
+                <li>レポートをシンプルにし、ビジネスパートナーの理解を促進</li>
+            </ul>
+            
+            <h3>使用例</h3>
+            <ul>
+                <li>特定の顧客グループのみのデータを一つのコンポーネントとして表示</li>
+                <li>フォーム完了率など、ビジネスに関連するカスタムKPIの作成</li>
+                <li>数値の表示方法を調整（小数点以下の桁数変更、切り上げ/切り捨てなど）</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 計算済みメトリクスとは何ですか？</div>
+                    <div class="faq-answer">
+                        組織のユーザーが作成するカスタムメトリクスで、既存のメトリクス、イベント、セグメント、関数、静的数値を組み合わせて新しい指標を作成します。これによりウェブサイトで直接測定されていないイベントのレポートや、より深いデータ分析が可能になります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜ計算済みメトリクスを使用すべきですか？</div>
+                    <div class="faq-answer">
+                        計算済みメトリクスを使うことで、レポートがシンプルになり、ビジネスパートナーの理解が促進されます。また、フォーム完了率のようなビジネスに直接関連するカスタムKPIを作成できます。さらに、データの表示方法をカスタマイズして、より見やすくすることも可能です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのような種類のメトリクスが作成できますか？</div>
+                    <div class="faq-answer">
+                        整数、小数点数、通貨、時間ベース、パーセンテージなど様々な形式のメトリクスを作成できます。これらはワークスペース、レポートビルダー、異常検出、貢献度分析など様々な場所で使用可能です。
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>メトリクスビルダーの機能</h2>
+            <p>メトリクスビルダーには様々な機能があり、メトリクスをより効果的に作成できます。</p>
+            
+            <h3>主要コンポーネント</h3>
+            <ul>
+                <li><span class="underline">標準メトリクスとイベント</span>：基本的な測定値や記録されたアクション</li>
+                <li><span class="underline">セグメント</span>：既存またはアドホックのセグメントをメトリクスに追加可能</li>
+                <li><span class="underline">コンテナ</span>：計算の順序を決定する括弧のような役割</li>
+                <li><span class="underline">静的数値</span>：変更されない定数値</li>
+                <li><span class="underline">高度な関数</span>：80種類以上の関数を使った複雑な計算</li>
+            </ul>
+            
+            <div class="important">
+                これらのコンポーネントを無限の組み合わせで活用し、新しいインサイトを得ることができます
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. アドホックセグメントとは何ですか？</div>
+                    <div class="faq-answer">
+                        アドホックセグメントとは、特定のプロジェクトやメトリクス内でのみ使用可能なセグメントです。ディメンション項目をメトリクスビルダーにドラッグすると、自動的にアドホックセグメントに変換されます。必要に応じて編集や保存も可能です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. コンテナはどのように使用するのですか？</div>
+                    <div class="faq-answer">
+                        コンテナは計算の順序を決定する括弧のような役割を果たします。複数のコンテナを使用したり、コンテナをネストしたりすることで、複雑な計算式を再現できます。ただし、必要以上にコンテナを使用すると複雑になり、デバッグが難しくなるため注意が必要です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 高度な関数の例を教えてください</div>
+                    <div class="faq-answer">
+                        Adobeには80種類以上の関数があり、平均や中央値などの基本的な記述から、大なり小なりなどの論理比較、t検定や回帰などの高度な統計テストまで多岐にわたります。詳細はExperience Leagueで公開されている「高度な関数プレイブック」で確認できます。
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>その他のオプション</h2>
+            <p>メトリクスビルダーの設定アイコンをクリックすると、メトリクスタイプとアトリビューションという2つのオプションが表示されます。</p>
+            
+            <h3>メトリクスタイプ</h3>
+            <ul>
+                <li><span class="highlight">標準メトリクス</span>：各行の個別の値を表示し、合計値を列の上部に表示</li>
+                <li><span class="highlight">合計メトリクス</span>：すべての行に合計値を表示（統計テストなどで使用）</li>
+            </ul>
+            
+            <h3>アトリビューションモデル</h3>
+            <ul>
+                <li><span class="underline">モデルタイプ</span>：値の帰属方法（ファーストタッチ、ラストタッチ、線形、参加など）</li>
+                <li><span class="underline">ルックバックウィンドウ</span>：メトリクスがデータを遡る期間（デフォルトは30日）</li>
+            </ul>
+            
+            <h3>アトリビューションモデルの使用方法</h3>
+            <ul>
+                <li>メトリクスビルダーの設定で変更（常にそのアトリビューションを使用）</li>
+                <li>テーブル内のメトリクス設定で変更（特定の列にのみ適用）</li>
+                <li>「アトリビューションモデルの比較」オプションで複数モデルを比較</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 合計メトリクスはどのような場合に使用しますか？</div>
+                    <div class="faq-answer">
+                        合計メトリクスは、個々の行を合計に対する割合として計算したい場合や、個々の行を使わずに合計を計算して残りの量を求めたい場合に使用します。また、統計テストの一部として必要な場合もあります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 異なるアトリビューションモデルはデータにどのような影響を与えますか？</div>
+                    <div class="faq-answer">
+                        アトリビューションモデルによって結果は大きく異なります。例えば、「ラストタッチ」では注文が発生したページ（購入ページ）に注文のクレジットが与えられますが、「ファーストタッチ」では訪問の最初のページにクレジットが与えられます。ビジネスニーズに最適なモデルを選択することが重要です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ルックバックウィンドウとは何ですか？</div>
+                    <div class="faq-answer">
+                        ルックバックウィンドウは、メトリクスがデータを遡る期間です。デフォルトは30日ですが、訪問レベルや他のカスタム期間に変更できます。ユースケースに合わせて適切な期間を選択することが重要です。
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>高度な関数</h2>
+            <p>Adobeには80種類以上の関数があり、通常では構築が複雑すぎる処理を実行できます。</p>
+            
+            <h3>関数の種類</h3>
+            <ul>
+                <li><span class="underline">列関数</span>：列内のすべての行を見て結果を返す（すべての行で同じ値）</li>
+                <li><span class="underline">行関数</span>：行を横に見て特定の行に基づく値を返す（行ごとに異なる値）</li>
+                <li><span class="underline">ネスト関数</span>：関数を他の関数内に配置して機能を組み合わせる</li>
+            </ul>
+            
+            <h3>ユースケース</h3>
+            <ul>
+                <li><span class="highlight">統計テスト</span>：Targetを通さずに任意の2項目間のテストが可能</li>
+                <li><span class="highlight">回帰分析</span>：欠損データの推定や変数間の関係を分析</li>
+                <li><span class="highlight">キャンペーンパフォーマンスの追跡</span>：累積関数で時間経過に伴う値を追加し、目標と比較</li>
+            </ul>
+            
+            <div class="important">
+                関数は非常に多様で、様々な状況やユースケースに適用できます
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 関数はすべてのデータを見ますか？</div>
+                    <div class="faq-answer">
+                        ほとんどの関数は、特定の期間で利用可能なすべてのデータを参照し、セグメントでのみ制限できます。例えば、パネルが先月に設定されており、その月に100種類の商品が注文された場合、関数はすべての100商品を考慮します。「選択した行のみを表示」オプションを使用しても計算には影響しませんが、セグメントを使用すると計算に含まれるディメンションを制限できます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 列関数と行関数の違いは何ですか？</div>
+                    <div class="faq-answer">
+                        列関数は列内のすべての行を見て結果を返します。例えば、列の最大値を求める関数は、その列のすべての行の中から最大値を見つけ、すべての行に同じ値を返します。一方、行関数は行全体（複数の列）を見て、その特定の行に基づく値を返します。例えば、行の最大値を求める関数は、その行の複数の列から最大値を見つけ、各行で異なる値を返す可能性があります。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ネスト関数の例を教えてください</div>
+                    <div class="faq-answer">
+                        例えば、IF関数の中にAND関数を入れ、さらにその中に2つのGREATER_THAN関数を入れる3レベルのネスト関数を作成できます。この場合、両方のGREATER_THAN関数が満たされた場合に特定の値を返し、そうでない場合に別の値を返すメトリクスになります。
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>ベストプラクティス</h2>
+            <p>計算済みメトリクスを使用する際には、組織全体での一貫性が最も重要です。</p>
+            
+            <h3>推奨事項</h3>
+            <ul>
+                <li><span class="underline">小数点以下の桁数の標準化</span>：収益メトリクスなどで一貫した桁数を使用</li>
+                <li><span class="underline">命名規則の標準化</span>：メトリクスの検索を容易にし、重複を防止</li>
+                <li><span class="underline">必要最小限のコンテナ使用</span>：過度に複雑化を避け、デバッグを容易に</li>
+                <li><span class="underline">説明とタグの追加</span>：他のユーザーが適切なメトリクスを選択できるよう支援</li>
+            </ul>
+            
+            <div class="important">
+                既存のベストプラクティスがある場合は、組織の一貫性を保つために従うことが重要です
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 小数点以下の桁数の標準化はなぜ重要ですか？</div>
+                    <div class="faq-answer">
+                        収益メトリクスの一部が小数点以下0桁で、他が2桁の場合、四捨五入により全体の数値が若干異なる可能性があります。これにより、複数のレポートで収益を確認する際に一貫性が損なわれます。標準化することで、このような問題を防ぎます。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 命名規則はどのように標準化すべきですか？</div>
+                    <div class="faq-answer">
+                        組織内で全員が同じ方法でメトリクスに名前を付けることで、他のユーザーが必要なメトリクスを見つけやすくなります。また、同じメトリクスの重複が作成されることを防ぎ、コンポーネントリストの混乱を防止できます。具体的な命名規則は組織によって異なりますが、一貫性を保つことが重要です。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 説明とタグは必要ですか？</div>
+                    <div class="faq-answer">
+                        はい、時間がかかっても説明とタグを追加することは重要です。説明は他のユーザーがそのメトリクスが自分のニーズに合っているかを判断するのに役立ち、タグはコンポーネントリストから適切なメトリクスを見つけるのに役立ちます。これにより、適切なメトリクスの検索と利用がスムーズになります。
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>用語集</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>計算済みメトリクス</td>
+                    <td>既存のメトリクス、イベント、セグメント、関数、静的数値を組み合わせて作成したカスタム指標</td>
+                </tr>
+                <tr>
+                    <td>アドホックセグメント</td>
+                    <td>特定のプロジェクトやメトリクスでのみ使用可能なセグメント</td>
+                </tr>
+                <tr>
+                    <td>コンテナ</td>
+                    <td>計算の順序を決定する括弧のような役割をするコンポーネント</td>
+                </tr>
+                <tr>
+                    <td>静的数値</td>
+                    <td>変更されない定数値</td>
+                </tr>
+                <tr>
+                    <td>標準メトリクス</td>
+                    <td>各行の個別の値を表示し、合計値を列の上部に表示するメトリクスタイプ</td>
+                </tr>
+                <tr>
+                    <td>合計メトリクス</td>
+                    <td>すべての行に合計値を表示するメトリクスタイプ</td>
+                </tr>
+                <tr>
+                    <td>アトリビューションモデル</td>
+                    <td>値の帰属方法を決定するモデル（ファーストタッチ、ラストタッチなど）</td>
+                </tr>
+                <tr>
+                    <td>ルックバックウィンドウ</td>
+                    <td>メトリクスがデータを遡る期間</td>
+                </tr>
+                <tr>
+                    <td>列関数</td>
+                    <td>列内のすべての行を見て結果を返す関数</td>
+                </tr>
+                <tr>
+                    <td>行関数</td>
+                    <td>行を横に見て特定の行に基づく値を返す関数</td>
+                </tr>
+            </table>
+        </section>
+        
+        <footer>
+            <p>プレゼンター: Mandy George（シニアEコマースアナリスト、Staples Canada）</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const faqItem = question.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

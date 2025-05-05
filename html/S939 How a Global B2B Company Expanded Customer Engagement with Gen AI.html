@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S939 How a Global B2B Company Expanded Customer Engagement with Gen AI</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 15px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        
+        .summary {
+            background-color: #ffffff;
+            border-radius: A;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #0f3c78;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .important {
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        
+        .faq-question::after {
+            content: "+";
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .faq-question.active::after {
+            content: "-";
+        }
+        
+        .faq-answer {
+            padding: 0 15px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            background-color: #ffffff;
+        }
+        
+        .faq-question.active + .faq-answer {
+            max-height: 500px;
+            padding: 15px;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>生成AIで顧客エンゲージメントを拡大した<br>グローバルB2B企業の事例</h1>
+        </header>
+        
+        <div class="summary">
+            <h2>概要</h2>
+            <p>カール・ツァイス・メディテックは、B2Bマーケティングの課題に対応するため、生成AIを活用したマーケティングハブを構築しました。この取り組みにより、複雑な顧客対応を簡素化し、ローカルマーケティングチームの効率を大幅に向上させました。本資料では、AIを活用したコンテンツサプライチェーンの再構築と、わずか5分でキャンペーンを作成できるようになった事例を紹介します。</p>
+        </div>
+        
+        <div class="section">
+            <h2>ツァイスの背景と課題</h2>
+            <p>1846年に創業したカール・ツァイスは、顧客との緊密な関係から始まり、現在は複雑な顧客層を持つグローバル企業へと発展しました。</p>
+            
+            <h3>企業の歴史と現状</h3>
+            <ul>
+                <li>創業者カール・ツァイスは、顧客と直接対話しながら科学機器（特に顕微鏡）を開発</li>
+                <li>現在は100億ユーロ規模の企業に成長し、半導体、産業品質研究、医療技術など多様な事業を展開</li>
+                <li>医療技術グループだけでも7つの事業、約200種類の製品を提供</li>
+            </ul>
+            
+            <h3>マーケティングの課題</h3>
+            <ul>
+                <li><span class="underline">複雑な顧客層</span>：病院では手術医、サービス技術者、ITインフラ担当者など様々な役割を持つ顧客が存在</li>
+                <li><span class="underline">コンテンツの複雑性</span>：7つの事業領域×複数の顧客役割×30の言語×複数のチャネルという膨大な組み合わせ</li>
+                <li><span class="underline">組織的な問題</span>：本社の強力なマーケティングチームが作成したコンテンツが、スキルとリソースの限られた国別マーケティングチームに押し付けられる構造</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. ツァイスの医療技術グループとは具体的にどのような事業ですか？</div>
+                    <div class="faq-answer">ツァイスの医療技術グループは約20億ユーロ規模の事業で、主に2つの分野に焦点を当てています。1つは脳などの繊細な部位の手術に使用される顕微鏡を提供する「マイクロサージェリー」部門、もう1つは目の健康管理に関する製品を提供する「眼科」部門です。特に白内障治療用のレンズインプラントは、世界中で需要のある製品です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜツァイスのマーケティングは複雑なのですか？</div>
+                    <div class="faq-answer">ツァイスのマーケティングは、7つの事業領域それぞれに対して、多様な顧客役割（医師、技術者、IT担当者など）ごとに、30以上の言語で、かつ地域によって異なるコミュニケーションチャネルを使い分ける必要があるため、非常に複雑です。この組み合わせにより、パーソナライズされたコンテンツを大規模に作成することが従来の方法では困難でした。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 各国のマーケティングチームはどのような課題を抱えていましたか？</div>
+                    <div class="faq-answer">各国のマーケティングチームは、スキルやリソースが限られているにもかかわらず、本社の7つのマーケティングチームから多数のコンテンツや指示を受け取り、対応に追われていました。また、適切なツールの不足、複数のアセット管理システムの存在、中国などの国特有のニーズへの対応など、様々な課題を抱えていました。多くの場合、インターンがマーケティングを担当するような状況でした。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>AIを活用したソリューション</h2>
+            <p>ツァイスは、AIを活用したマーケティングハブを構築し、コンテンツ作成プロセスを再構築しました。これにより、各国のマーケティングチームが簡単にパーソナライズされたコンテンツを作成できるようになりました。</p>
+            
+            <h3>目標と戦略</h3>
+            <ul>
+                <li>アクセスの<span class="highlight">簡素化</span>：各国のマーケティング担当者が必要なリソースに簡単にアクセスできるように</li>
+                <li><span class="highlight">4倍速い制作</span>：コンテンツ制作プロセスを大幅に短縮</li>
+                <li><span class="highlight">初回から正確</span>：規制の厳しい医療分野でも正確なコンテンツを作成</li>
+                <li><span class="highlight">パーソナライズ体験の維持</span>：顧客ごとにカスタマイズされた体験を提供</li>
+            </ul>
+            
+            <h3>コンテンツサプライチェーンの再構築</h3>
+            <ul>
+                <li>AIを単に既存のシステムに追加するのではなく、まずプロセス全体を再設計</li>
+                <li>共通の用語とプロセスフローを確立：データ理解→ブリーフィング→キャンペーン計画→クリエイティブ選択→コンテンツ作成→レビュー→最適化</li>
+                <li>各ステップでAIと自動化を活用するアーキテクチャを構築</li>
+            </ul>
+            
+            <h3>技術アーキテクチャ</h3>
+            <ul>
+                <li><span class="underline">フロントエンド</span>：Adobe WorkfrontとZEISS AIマーケティングサービス（チャットインターフェース）の2つのツールに集約</li>
+                <li><span class="underline">バックエンド</span>：Workfront Fusion、AIサービス、Adobe Experience Managerなどを連携</li>
+                <li><span class="underline">コア層</span>：ペルソナ、ターゲットグループ、テンプレート、承認済み素材などを管理</li>
+                <li><span class="underline">アクティベーション層</span>：Marketo、ソーシャルメディア、パーソナライズされたウェブサイトなどに連携</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 画像生成についてはどのようなアプローチを取りましたか？</div>
+                    <div class="faq-answer">当初は各国のマーケティング担当者が直接プロンプトを入力して画像を生成する方法を試しましたが、うまくいきませんでした。そこで戦略を変更し、本社のマーケティングチームがAdobe Fireflyを使用して、基本となる画像から民族性、背景、性別などを変えたバリエーションを事前に作成するアプローチに切り替えました。各国の担当者は、自分のニーズに合った画像を簡単に検索して選ぶだけで済むようになりました。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 医療分野の規制にはどのように対応していますか？</div>
+                    <div class="faq-answer">ツァイスは高度に規制された医療市場で事業を展開しているため、特別な対応が必要でした。テキストを生成する言語モデルとは別に、生成されたコンテンツが基本資料に準拠しているか、コンプライアンスに問題がないかを検証する第二の言語モデルを訓練しました。また、ルールセットとユーザーフィードバックを活用して、この検証プロセスを継続的に改善しています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIモデルはどのように改善されていますか？</div>
+                    <div class="faq-answer">各国のマーケティング担当者がツールを使用する過程で収集された200以上のフィードバックを活用し、データサイエンティストがこれらのフィードバックに基づいて言語モデルを継続的に改善しています。これにより、テキスト生成と翻訳の品質が向上し、より適切なコンテンツが作成できるようになっています。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>5分でキャンペーンを作成するワークフロー</h2>
+            <p>再構築されたシステムにより、マーケティングの専門知識が限られた国別チームでも、わずか5分で効果的なキャンペーンを作成できるようになりました。</p>
+            
+            <h3>プロセスの流れ</h3>
+            <ul>
+                <li><span class="underline">データと対象者の選定</span>：CDP（顧客データプラットフォーム）から適切な対象者を選択（例：ブラジルの眼科医）</li>
+                <li><span class="underline">ブリーフィング</span>：WorkfrontでCDPと連携し、言語、製品、ターゲットグループなどの情報を入力</li>
+                <li><span class="underline">テンプレート選択</span>：Eメール、ソーシャルメディア投稿などのテンプレートを選択</li>
+                <li><span class="underline">AIによるコンテンツ生成</span>：チャットボットが自動的にテキストを生成し、現地言語に翻訳</li>
+                <li><span class="underline">画像選択と組み合わせ</span>：AIが推奨する画像を選択し、テキストと組み合わせ</li>
+                <li><span class="underline">レビューと承認</span>：最終的な見た目をWorkfrontで確認し、マネージャーに共有してフィードバックを取得</li>
+                <li><span class="underline">自動配信設定</span>：承認されたコンテンツが自動的にMarketoなどのツールに転送され、すぐに使用可能に</li>
+            </ul>
+            
+            <div class="important">
+                <p>従来の複雑なプロセスが、AIとワークフローの自動化により<br><span class="highlight">わずか5分以内で完了</span></p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜテンプレートの選択が重要なのですか？</div>
+                    <div class="faq-answer">テンプレートを使用することで、各国のマーケティング担当者がAIに対して詳細なプロンプトを書く必要がなくなります。例えば、「300文字以内で、件名も含めて...」といった指示を何度も繰り返す代わりに、本社が成功実績に基づいて作成したテンプレートを選ぶだけで、AIがそのテンプレートの構造に合わせてコンテンツを生成します。これにより作業が大幅に効率化されます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CDPはこのプロセスでどのような役割を果たしていますか？</div>
+                    <div class="faq-answer">CDP（Customer Data Platform）は、まず計画段階で対象となる顧客の数を把握するのに役立ちます。例えば「ブラジルの眼科医」をターゲットにしたい場合、CDPに問い合わせることで、データベース上に何人の該当者がいるかがわかり、キャンペーンの実行可能性を初期段階で評価できます。これにより、対象者が少なすぎるアイデアを早い段階で除外し、効率的なリソース配分が可能になります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. コンテンツはどのように承認されますか？</div>
+                    <div class="faq-answer">生成されたコンテンツはWorkfrontを通じて承認プロセスに入ります。従来は、テキストと画像を見せるだけでマネージャーの承認を得るのが一般的でしたが、新システムではテンプレートベースで最終的な見た目（Eメールやソーシャルメディア投稿など）を即座に確認できます。マネージャーはWorkfront上で直接フィードバックを提供し、承認することができます。承認されると、コンテンツは自動的にMarketoなどの配信ツールに転送されます。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>結果と今後の展望</h2>
+            <p>実際のキャンペーン運用を通じて、顕著な成果が確認されました。コスト削減と効率向上に加え、ローカルマーケティングの活性化によるグローバルな露出増加も実現しています。</p>
+            
+            <h3>成果</h3>
+            <ul>
+                <li>白内障ワークフローに関するキャンペーンを複数国で実施し、グローバルページのビュー数が<span class="highlight">約3倍</span>に増加</li>
+                <li>各国でこれまで実施できなかった検索広告などの新しいチャネルへの展開が可能に</li>
+                <li>コスト削減効果は当初の想定（70%）を上回る<span class="highlight">約80%</span>を達成（主に翻訳コストとエージェンシーコストの削減）</li>
+                <li>各国のマーケティングチームの作業時間が<span class="highlight">約半分</span>に</li>
+                <li>CDP活用によるパーソナライズキャンペーンでは、コンバージョン率が<span class="highlight">平均58%向上</span></li>
+            </ul>
+            
+            <h3>組織変革</h3>
+            <ul>
+                <li>マーケティングハブを中心とした新しい組織モデルを確立</li>
+                <li><span class="underline">本社マーケティング</span>：ポジショニング、マーケティング計画、コンテンツマーケティング、クリエイティブ業務に集中</li>
+                <li><span class="underline">マーケティングハブ</span>：AI活用、データ管理、ワークフロー管理に特化し、国別チームをサポート</li>
+                <li><span class="underline">国別マーケティング</span>：戦術的マーケティングの実行と販売促進に集中可能に</li>
+            </ul>
+            
+            <h3>今後の展望</h3>
+            <ul>
+                <li>CDPからの顧客エンゲージメントデータを言語モデルにフィードバックする循環システムの構築</li>
+                <li>特定の顧客層が最も反応するコンテンツを分析し、AIモデルをさらに改善</li>
+                <li>最終的には創業者カール・ツァイスの時代のように、個々の顧客に対して高度にパーソナライズされたコミュニケーションを大規模に実現</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 投資回収はどのくらいの期間で見込まれていますか？</div>
+                    <div class="faq-answer">システム構築には相当の初期投資がかかりましたが、各国のマーケティングコストの削減により、4〜5年で初期投資を回収する見込みです。ただし、ライセンス費用（Workfront、Fireflyなど）と本社チームの運営コスト（国別チームをサポートするスタッフ）は継続的にかかるため、これらを考慮した上での試算となっています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 今後のAI活用の方向性は？</div>
+                    <div class="faq-answer">今後の展望として、「利益の循環」を目指しています。CDPから得られる顧客のエンゲージメントデータ（どのコンテンツに反応したか）を分析し、AIモデルにフィードバックすることで、特定の顧客層に対してより効果的なコンテンツを自動的に生成できるようにします。これにより、各国がキャンペーンを実施するたびに、対象顧客とのエンゲージメントが向上するという好循環が生まれます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. CDP（顧客データプラットフォーム）の役割は？</div>
+                    <div class="faq-answer">CDPは、数十年にわたって蓄積された顧客データを統合し、統一されたプロファイルを作成します。これにより、異なる役割（例：外科医、サービス技術者、IT管理者）ごとに適切なオーディエンスを構築し、リアルタイムでパーソナライズされたマーケティングを実行できます。実際に15以上のユースケースで、パーソナライズされたキャンペーンを実施した結果、エンゲージメントの大幅な向上と平均58%のコンバージョン率向上が確認されています。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要用語・技術解説</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>CDP</td>
+                    <td>Customer Data Platform（顧客データプラットフォーム）の略。ツァイスではAdobe Real-time CDPを導入し、顧客データを統合して統一プロファイルを作成。</td>
+                </tr>
+                <tr>
+                    <td>ZEISS AIマーケティングサービス</td>
+                    <td>ツァイス独自の生成AIモデル。マーケティングニーズに特化して開発された。</td>
+                </tr>
+                <tr>
+                    <td>Adobe Workfront</td>
+                    <td>コンテンツサプライチェーンの異なるフェーズを接続し、ローカルマーケティング担当者の作業を容易にするためのツール。</td>
+                </tr>
+                <tr>
+                    <td>Adobe Firefly</td>
+                    <td>画像生成・変更サービス。本社チームが基本画像のバリエーションを作成するために使用。</td>
+                </tr>
+                <tr>
+                    <td>Workfront Fusion</td>
+                    <td>プロセスを自動化するツール。生成されたコンテンツをMarketo等の配信ツールに自動転送する際に活用。</td>
+                </tr>
+                <tr>
+                    <td>Viva</td>
+                    <td>メディアアセット管理と承認プロセスを行うツール。規制の厳しい医療市場で公式に承認された主張や資料を保存。</td>
+                </tr>
+                <tr>
+                    <td>コンテンツサプライチェーン</td>
+                    <td>データ理解からアクティベーションまでの一連のコンテンツ作成・配信プロセス。ツァイスではAIを活用して効率化。</td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            <p>出典：S939 How a Global B2B Company Expanded Customer Engagement with Gen AI</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const answer = this.nextElementSibling;
+                    if (this.classList.contains('active')) {
+                        answer.style.maxHeight = answer.scrollHeight + "px";
+                    } else {
+                        answer.style.maxHeight = 0;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

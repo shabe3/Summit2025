@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobeのサードパーティ開発者向け新ツール</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin: 30px 0 15px;
+        }
+        
+        h3 {
+            color: #333;
+            font-size: 1.2rem;
+            margin: 20px 0 10px;
+        }
+        
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        
+        .important {
+            font-size: 1.1rem;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        
+        .faq-container {
+            margin: 20px 0;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 10px 15px;
+            max-height: 1000px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Adobeのサードパーティ開発者向け新ツール</h1>
+        
+        <div class="section">
+            <p class="important">サーバー間（Server-to-Server）統合を中心に、Adobeが提供する第三者開発者向けの新機能とワークフローを解説します。</p>
+            
+            <p>この資料では、Adobe Exchangeマーケットプレイスでアプリケーション拡張機能を公開し、エンタープライズ顧客がそれらを簡単に発見・導入・管理できるようにするための新しいツールと機能について説明します。</p>
+            
+            <h3>主な4つのツール</h3>
+            <ul>
+                <li><span class="underline">Developer Website</span>: ドキュメントを提供</li>
+                <li><span class="underline">Developer Console</span>: アプリケーション構築用</li>
+                <li><span class="underline">Developer Distribution</span>: リスティング作成・公開用</li>
+                <li><span class="underline">Adobe Exchange</span>: 顧客がアプリケーションを取得・管理するための場所</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>サーバー間統合の重要性</h2>
+            
+            <p>現代のデジタル環境では、顧客は統一された体験を求めています。サーバー間統合は、複数のシステム間でシームレスなデータ交換を可能にする重要な技術です。</p>
+            
+            <h3>現状の課題</h3>
+            <ul>
+                <li>マーケティング技術ソリューションは14,000以上存在し、2024年には約30%増加</li>
+                <li>中〜大規模組織は平均5〜10のツールを使用</li>
+                <li>顧客はバックエンドの複雑さを気にせず、統一された体験を求めている</li>
+                <li>現在のAdobe Exchangeには275のサーバー間統合が存在するが、ほとんどがカタログリスティングのみ</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. サーバー間統合とは具体的に何ですか？</div>
+                    <div class="faq-answer">
+                        <p>サーバー間統合とは、2つ以上のサーバー間でAPI経由でデータを交換する仕組みです。OAuth認証などのセキュリティメカニズムで保護され、データ交換はサーバー間で完全に行われるため、個々のユーザーには見えません。例えば、オンラインショッピングの際、カートに商品を入れてチェックアウトする裏では、在庫管理、決済ゲートウェイ、注文管理システムなど複数のシステムが連携しています。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 現在のAdobe Exchangeの課題は何ですか？</div>
+                    <div class="faq-answer">
+                        <p>現在のシステムでは、顧客がインテグレーションに興味を持った場合、パートナーに直接連絡する必要があります。また、顧客は自分でDeveloper Consoleに行って認証情報を作成し、パートナーと共有する必要があります。これにより顧客体験が複雑になり、パートナーは全顧客の認証情報を管理する負担があります。さらに、Adobeはアプリケーションの使用状況や健全性を把握できないという課題があります。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>新しいワークフローの導入</h2>
+            
+            <p>Adobeは、パートナーと顧客の両方のためのワークフローを改善する新機能を導入します。主な改善点は、複数の企業顧客にインテグレーションを配布したいパートナー向けに特別に導入される「エンタープライズ認証情報」によって実現されます。</p>
+            
+            <h3>パートナージャーニーの改善点</h3>
+            <ul>
+                <li>新しいエンタープライズ認証情報を使用したインテグレーション構築が簡単に</li>
+                <li>プレイグラウンド体験でテストが容易に</li>
+                <li>同意URLの構築方法とAdobe Signインボタンの埋め込み方法をガイド</li>
+                <li>開発者ディストリビューションでリスティングを作成・管理</li>
+                <li>アーリーアダプターパートナーにはホワイトグローブサポートを提供</li>
+            </ul>
+            
+            <h3>カスタマージャーニーの改善点</h3>
+            <ul>
+                <li>組織内のどのユーザーもアプリケーションを取得可能</li>
+                <li>組織の管理者がデータアクセスに対する同意を提供</li>
+                <li>限定されたスコープでのみアプリがアクセス可能</li>
+                <li>認証プロセスが大幅に簡略化</li>
+                <li>Adobeが導入状況や使用状況を把握可能になりサポートが向上</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 新しいエンタープライズ認証情報の利点は何ですか？</div>
+                    <div class="faq-answer">
+                        <p>新しいエンタープライズ認証情報（Admin Authentication）により、パートナーは一度認証情報を設定するだけで、複数の顧客に同じインテグレーションを配布できます。顧客側では、管理者が同意プロセスを通じて簡単にアクセスを許可できるようになり、Developer Consoleで認証情報を作成する必要がなくなります。これにより、導入プロセスが大幅に簡略化され、パートナーの認証情報管理の負担も軽減されます。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. プレイグラウンド体験とは何ですか？</div>
+                    <div class="faq-answer">
+                        <p>プレイグラウンド体験は、パートナーが顧客の同意プロセスを視覚的に確認し理解するのに役立つ機能です。ステップバイステップのガイドと例を通じて、アプリケーションの設定方法や、顧客が同意を提供した後にアプリケーションに正しく戻るための構成方法などを学ぶことができます。これにより、パートナーは本番環境に移行する前に、顧客体験をテストして最適化することができます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>新ワークフローの具体的な流れ</h2>
+            
+            <h3>パートナー側のワークフロー</h3>
+            <ol>
+                <li><span class="highlight">Developer Console</span>でAPI選択とAdmin Authentication認証情報の設定</li>
+                <li>リダイレクトURLの設定（顧客が同意画面から戻る場所）</li>
+                <li>プレイグラウンド体験を使った統合のテスト</li>
+                <li><span class="highlight">Developer Distribution</span>でリスティング作成
+                    <ul>
+                        <li>AEP Sourcesコネクタ用か一般的なマルチテナントサーバー間統合か選択</li>
+                        <li>リスティング詳細（スクリーンショット、説明、カテゴリなど）の提供</li>
+                        <li>同意画面に表示する情報の追加</li>
+                    </ul>
+                </li>
+                <li>Adobeによるレビューと承認</li>
+                <li>Adobe Exchangeマーケットプレイスでの公開</li>
+            </ol>
+            
+            <h3>顧客側のワークフロー</h3>
+            <ol>
+                <li><span class="highlight">Adobe Exchange</span>でインテグレーションを発見</li>
+                <li>組織内の任意のユーザーがインテグレーションを取得</li>
+                <li>システム管理者に通知が送信される</li>
+                <li>管理者がExchangeにログインし「インストール開始」をクリック</li>
+                <li>ブラウザベースの同意ワークフローが起動
+                    <ul>
+                        <li>インテグレーションの詳細を確認</li>
+                        <li>アクセスを許可するデータの範囲を確認</li>
+                        <li>「アクセスを許可」をクリック</li>
+                    </ul>
+                </li>
+                <li>管理タブでアプリケーションの設定と管理
+                    <ul>
+                        <li>アクセス許可やアクセス取り消しの履歴確認</li>
+                        <li>製品プロファイルの割り当て</li>
+                        <li>必要に応じてアクセスを取り消すことも可能</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 管理者が同意画面で確認できる情報は何ですか？</div>
+                    <div class="faq-answer">
+                        <p>管理者の同意画面では、インテグレーションの名前（例：Rain Focus Sourcesコネクタ）、Adobe組織名、およびアプリケーションがアクセスを要求している具体的なデータの範囲が表示されます。例えば、イベント参加者の基本的なプロファイル情報などにアクセスする場合、その詳細が明示されます。これにより、管理者は何に対して同意しているのか明確に理解した上で、アクセスを許可するかどうかを判断できます。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. アクセスを取り消す方法とその影響は？</div>
+                    <div class="faq-answer">
+                        <p>管理者はExchangeマーケットプレイスの管理画面で「アクセスを取り消す」オプションをクリックすることで、以前に許可したアクセスを取り消すことができます。誤操作を防ぐため、確認画面でアプリケーション名の入力が求められます。取り消しが確定すると、1時間以内に統合アプリケーションは組織のAdobeアカウントへのアクセスができなくなります。管理画面には誰がいつアクセスを取り消したかも表示されます。管理者はいつでも再度同意プロセスを行うことで、アクセスを復活させることができます。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 製品プロファイルとは何ですか？</div>
+                    <div class="faq-answer">
+                        <p>製品プロファイルは、Adobe Admin Consoleで管理者が作成できるもので、ユーザーやユーザーグループを追加することができます。これにより、インテグレーションがアクセスできる正確な機能に、より詳細なレベルのアクセス権を割り当てることができます。つまり、組織内の特定のデータや機能へのアクセスを細かく制御できるため、セキュリティとデータガバナンスが向上します。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>今後の展開</h2>
+            
+            <p>紹介した機能はすべて現在利用可能ですが、Adobeは2025年以降もさらなる機能拡張を計画しています。</p>
+            
+            <h3>開発中の機能</h3>
+            <ul>
+                <li>パートナーが公開前に特定の顧客組織でテストできる機能</li>
+                <li>公開済みインテグレーションのAPIとスコープ更新機能</li>
+                <li>インテグレーションの採用と使用状況に関するより詳細な分析</li>
+                <li>パートナーと顧客のフィードバックに基づく追加機能</li>
+            </ul>
+            
+            <p class="important">興味のあるパートナーの方は、新規サーバー間統合の作成や既存インテグレーションの新認証情報への移行についてご連絡ください。</p>
+        </div>
+        
+        <div class="section">
+            <h2>重要用語解説</h2>
+            
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>サーバー間統合</td>
+                    <td>2つ以上のサーバー間でAPI経由でデータを交換する仕組み。OAuth認証などで保護され、ユーザーには見えないバックエンドでの連携を実現。</td>
+                </tr>
+                <tr>
+                    <td>エンタープライズ認証情報</td>
+                    <td>パートナーが複数の企業顧客にインテグレーションを配布するために特別に設計された新しい認証方式。</td>
+                </tr>
+                <tr>
+                    <td>Admin Authentication</td>
+                    <td>Developer Consoleで選択できる新認証タイプ。顧客管理者の同意を通じてアクセスを許可する仕組み。</td>
+                </tr>
+                <tr>
+                    <td>プレイグラウンド体験</td>
+                    <td>パートナーが顧客の同意プロセスを視覚的に確認し、アプリケーションの設定を学ぶための機能。</td>
+                </tr>
+                <tr>
+                    <td>製品プロファイル</td>
+                    <td>Admin Consoleで作成できる、細かいアクセス権限を設定するためのグループ。</td>
+                </tr>
+                <tr>
+                    <td>同意ワークフロー</td>
+                    <td>顧客管理者がインテグレーションへのアクセスを許可するためのブラウザベースのプロセス。</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentNode;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

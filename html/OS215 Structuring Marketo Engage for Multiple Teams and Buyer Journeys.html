@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS215 Structuring Marketo Engage for Multiple Teams and Buyer Journeys</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #0f3c78;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .summary {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        ul, ol {
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            text-decoration: underline;
+            text-decoration-color: #0f3c78;
+            text-decoration-thickness: 2px;
+        }
+        
+        .important {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 25px 0;
+            font-weight: bold;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            background-color: #f9f9f9;
+            padding: 12px 15px;
+            cursor: pointer;
+            position: relative;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background-color: #fff;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 15px;
+            max-height: 1000px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>OS215 Structuring Marketo Engage for Multiple Teams and Buyer Journeys</h1>
+        </header>
+        
+        <div class="section">
+            <div class="summary">
+                Marketo Engageを活用して複数チームや複数の購買行程を管理し、複雑な顧客ライフサイクルを効果的に運用する方法についての解説。実例として不動産企業Mintoでの導入事例を紹介。
+            </div>
+            
+            <p>不動産購入のような複雑な購買プロセスでは、問い合わせから購入までの期間が6ヶ月から5年と幅広く、さまざまなタッチポイントが存在します。Marketo Engageは、そのような複雑なリード管理を効率化し、マーケティングチームとセールスチームの連携を強化します。</p>
+        </div>
+        
+        <div class="section">
+            <h2>複雑な購買サイクルの課題</h2>
+            
+            <div class="summary">
+                不動産購入のような複雑で長期的な購買プロセスでは、顧客の関心度や購入タイミングの把握が難しい課題がある。
+            </div>
+            
+            <h3>不動産購入プロセスの特徴</h3>
+            <ul>
+                <li>購入検討期間が<span class="highlight">6ヶ月から5年</span>と長期間</li>
+                <li>人生で最も大きな<span class="underline">金銭的・感情的投資</span>となる重要な決断</li>
+                <li>多くの質問や比較検討が必要な複雑なプロセス</li>
+                <li>新築だけでなく中古市場とも競合する複雑な市場環境</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜリードライフサイクル管理は難しいのですか？</div>
+                    <div class="faq-answer">
+                        顧客の購買意思決定プロセスが複雑で、多くのタッチポイントが存在するためです。特に不動産では、初回接触から購入までの期間が長く、その間に顧客の状況や関心が変化するため、適切なタイミングで適切なコミュニケーションを取ることが難しいのです。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 不動産購入の特徴は何ですか？</div>
+                    <div class="faq-answer">
+                        不動産購入は人生で最も大きな金銭的投資であるだけでなく、感情的な要素も強く関わっています。衝動買いではなく、長期間かけて検討され、多くの質問や比較検討が必要です。また、他のビルダーや中古物件市場との競争もあり、差別化が重要になります。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 購入検討期間はどのくらいですか？</div>
+                    <div class="faq-answer">
+                        顧客セグメントによって異なりますが、一般的に6ヶ月から5年と幅広いです。特に退職を控えた顧客などは、5年前から住居を検討し始める場合もあります。コロナ禍のような特殊な市場状況では購入サイクルが短くなることもありますが、基本的には長期的なプロセスです。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Marketo Engageによるリード管理</h2>
+            
+            <div class="summary">
+                膨大なリードデータから真に購入意欲のある顧客を識別し、効率的なセールスアプローチを実現するためのリードスコアリングの活用。
+            </div>
+            
+            <h3>リードスコアリングの重要性</h3>
+            <ul>
+                <li>大量のリード（プロモーションで<span class="highlight">10万件以上</span>のリードが発生することも）から質の高いリードを選別</li>
+                <li>ウェブサイト訪問、メール開封、電話などの<span class="underline">行動シグナル</span>から購入意欲を測定</li>
+                <li>セールスチームがより効率的に対応できるよう優先順位付け</li>
+                <li>購入準備が整っていない顧客にも継続的なコミュニケーションを維持</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. リードスコアリングはどのように機能しますか？</div>
+                    <div class="faq-answer">
+                        顧客のウェブサイト訪問、メールの開封やクリック、電話での問い合わせなど、様々な行動シグナルに基づいてスコアを付与します。これにより購入意欲の高い顧客を識別し、セールスチームが効率的にアプローチできるようになります。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. Mintoではどのようにリード管理を行っていますか？</div>
+                    <div class="faq-answer">
+                        Mintoでは2019年からMarketo Engageを導入し、大量のリードデータを効率的に管理しています。特にプロモーションで発生する10万件を超えるリードから、本当に購入意欲のある顧客を特定するために、行動ベースのスコアリングモデルを構築しています。また、購入準備が整っていない顧客に対しても、定期的なコミュニケーションを維持し、低い配信解除率を実現しています。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. Marketo Engageの主なメリットは何ですか？</div>
+                    <div class="faq-answer">
+                        複雑なリードライフサイクルを単純化し、マーケティングとセールスを連携させる点が最大のメリットです。顧客の行動に基づいてパーソナライズされたコミュニケーションが可能になり、顧客が購入プロセスに入ると特定のマーケティングメッセージを一時停止したり、購入に関連するイベントの案内に切り替えたりすることができます。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>分散型のチーム構造での活用</h2>
+            
+            <div class="summary">
+                異なる地域や市場で活動する複数のチームが、ワークスペース機能を活用して統一された基準でマーケティング活動を展開。
+            </div>
+            
+            <h3>複数市場での活用事例</h3>
+            <ul>
+                <li>カナダと米国など<span class="highlight">異なる地域特性</span>に合わせたマーケティング手法</li>
+                <li>ワークスペース機能を活用した<span class="underline">地域別のマーケティング戦略</span>の展開</li>
+                <li>共通のベストプラクティスを維持しながら、地域ごとの特性に対応</li>
+                <li>年間<span class="highlight">1300万通以上</span>のメールを効率的に管理</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. カナダと米国での顧客アプローチの違いは何ですか？</div>
+                    <div class="faq-answer">
+                        カナダのチームはすべてのリードに対応する傾向がありますが、米国ではより的を絞ったアプローチが必要です。また、米国ではWheel of FortuneやUSピックルボールトーナメントなどの大型プロモーションを行い、それに応じた特別なマーケティングコミュニケーションを展開しています。気候条件なども地域によって大きく異なるため、イベント企画などにも影響します。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. ワークスペース機能とは何ですか？</div>
+                    <div class="faq-answer">
+                        Marketo Engageのワークスペース機能は、異なるチームや地域が同じプラットフォーム上で独自のマーケティング活動を展開できるようにする機能です。各地域のニーズに合わせたカスタマイズが可能でありながら、共通のベストプラクティスや基準を維持することができます。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 大型プロモーションの効果はどうですか？</div>
+                    <div class="faq-answer">
+                        Wheel of Fortuneのスポンサーシップなど、大型プロモーションから数百件の販売実績があります。多くのリードが生成されるため、マーケティングコミュニケーションの適切な設計が重要です。興味深いのは、プロモーションで家を獲得できなかった人々も配信解除率が低く、継続的に情報を受け取りたいと考えていることです。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>パーソナライズされた購買体験</h2>
+            
+            <div class="summary">
+                顧客行動に基づく高度なセグメンテーションにより、一人ひとりの関心や購買段階に合わせたコミュニケーションを実現。
+            </div>
+            
+            <h3>セルフサービス型のカスタマージャーニー</h3>
+            <ul>
+                <li>顧客自身が主導する<span class="highlight">「Choose Your Own Adventure」</span>型のマーケティング</li>
+                <li>ウェブサイト上の行動（住宅ローン計算機の利用など）に基づくパーソナライズドコミュニケーション</li>
+                <li>顧客が自ら提供した情報（希望する寝室数、バスルーム数など）に基づく<span class="underline">最適な住宅提案</span></li>
+                <li>認知段階から問い合わせ、資格審査、そして購入まで一貫した顧客体験</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 「Choose Your Own Adventure」型マーケティングとは何ですか？</div>
+                    <div class="faq-answer">
+                        従来のマーケティングがメッセージを「押し付ける」形だったのに対し、現代の消費者はより能動的に情報を選択します。顧客がウェブサイト上でどのようなコンテンツに興味を示すか、どのようなツールを利用するかによって、次に提供される情報が変わるという、顧客主導のマーケティングアプローチです。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのような顧客情報を収集していますか？</div>
+                    <div class="faq-answer">
+                        住宅ローン計算機の利用履歴、希望する寝室数やバスルーム数、現在の住居の状況など、顧客が自ら提供する情報を収集しています。これらはすべて自発的に提供されるもので、提供することで顧客は自分のニーズにより合った提案を受けることができます。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 顧客が購入プロセスから離脱した場合はどうなりますか？</div>
+                    <div class="faq-answer">
+                        顧客が購入プロセスから離脱しても、データは保持され、再びプロセスに戻ってきた際に以前の情報を活用できます。例えば6〜7ヶ月後に再度興味を示した場合、過去の関心コミュニティが変わっていれば、新しい関心に合わせたコミュニケーションを開始できます。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>マーケティングリーダーの視点</h2>
+            
+            <div class="summary">
+                テクノロジーで測定可能な指標と、ブランド体験のような測定困難な無形の価値の両方を理解し、バランスの取れたマーケティング戦略を構築。
+            </div>
+            
+            <h3>測定可能な指標と無形の価値</h3>
+            <ul>
+                <li>Google AnalyticsやQRコードなどによる<span class="highlight">データ測定</span>の重要性</li>
+                <li>ブランド認知度のような<span class="underline">測定が難しい無形の価値</span>の重要性を認識</li>
+                <li>伝統的メディア（テレビ、ラジオ、新聞）からデジタルメディアまで多様なチャネルの活用</li>
+                <li>技術はブランドを強化するが修正はしない - <span class="underline">良い顧客体験</span>の重要性</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. ブランド認知度の価値をどう考えますか？</div>
+                    <div class="faq-answer">
+                        コカ・コーラのような世界的に有名なブランドでさえ、認知度維持のために競合他社以上の投資を続けています。必ずしも直接的な販売につながらなくても、消費者の心の中にブランドがあることで、購買の意思決定に影響を与えます。さまざまなチャネルを通じて存在感を示し、ソースを追跡することが重要です。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 顧客体験の重要性はなぜですか？</div>
+                    <div class="faq-answer">
+                        技術はブランドを強化することはできますが、根本的な顧客体験の問題を修正することはできません。例えば、あるチケット販売会社は個人に合わせたメール配信など、マーケティング面では優れていますが、実際の購入体験が悪いため顧客満足度が低いです。一方、ある有名ファストフード店は顧客体験を重視し、週6日間の営業だけでも最も収益性の高いレストランとなっています。
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. マーケティングの成功を測る最良の方法は何ですか？</div>
+                    <div class="faq-answer">
+                        数値的な指標と無形の価値の両方を考慮することが重要です。分析とデータは何が機能しているかを教えてくれますが、何が機能していないかを常に示すわけではありません。自社のマーケティングだけでなく、他社の成功例や失敗例も研究し、消費者として自分が好むマーケティングアプローチを考えることも有効です。最終的には、顧客があなたのいない場所で何を言うかが重要です。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>主要な用語・概念一覧</h2>
+            
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>Marketo Engage</td>
+                    <td>複雑なリードライフサイクル管理を支援するマーケティングオートメーションプラットフォーム</td>
+                </tr>
+                <tr>
+                    <td>リードスコアリング</td>
+                    <td>顧客の行動や関心度に基づいて点数付けし、購入意欲を評価する仕組み</td>
+                </tr>
+                <tr>
+                    <td>ワークスペース機能</td>
+                    <td>異なるチームや地域が同じプラットフォーム上で独自のマーケティング活動を展開できる機能</td>
+                </tr>
+                <tr>
+                    <td>パーソナライズドマーケティング</td>
+                    <td>顧客の行動や提供情報に基づいて、個別化されたコミュニケーションを提供すること</td>
+                </tr>
+                <tr>
+                    <td>B2C向けB2B体験</td>
+                    <td>一般消費者向け市場でありながら、複雑な意思決定プロセスを持つビジネス的な購買体験</td>
+                </tr>
+                <tr>
+                    <td>Choose Your Own Adventure</td>
+                    <td>顧客が自ら情報を選択し、購買プロセスを主導する現代的なマーケティングアプローチ</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="important">
+            Marketo Engageは複雑な購買サイクルを持つビジネスにおいて、<br>
+            マーケティングとセールスの連携を強化し、顧客一人ひとりに合わせた<br>
+            パーソナライズされた体験を提供する強力なツールです。
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                question.addEventListener('click', () => {
+                    item.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
