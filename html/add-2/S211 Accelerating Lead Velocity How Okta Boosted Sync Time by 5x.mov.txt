@@ -1,0 +1,348 @@
+00:00:00:30 - 00:00:31:50
+不明
+Welcome. Thank you for joining me. I'm impressed that y'all are here after bash last night. So thank you for joining me. Welcome to accelerate Velocity. How Octa boosted sync time by five x. My name is Victoria Jabar. I am the senior marketing ops manager at Octa. To get our presentation started. I'm going to make you work already. Let's go ahead and take out our phones and take a quick poll so we can get a quick pulse on the room.
+
+00:00:31:55 - 00:00:58:42
+不明
+The question is, how well can you track your organization's speed to lead? And when I'm talking about speed to lead, I'm referring to the moment the record enters your database all the way until it is routed and ready for the eager sales rep to work. Now, while we do that, let's switch over. Okay, we got some live results here, ranging from.
+
+00:00:58:42 - 00:01:14:54
+不明
+Yes, we know what's going on. I don't know what you're doing here if you know what's going on. But second, we know what's going on. But we don't know has a full visibility or we're in a black hole. I think I expected most of the answers to be somewhere in the middle. And that's okay. Right? That's why we're here.
+
+00:01:14:54 - 00:01:35:51
+不明
+And we're going to talk through it as a multiple session, summit and session attendees myself, I always want to know what am I going to walk away with and how can I implement this the moment that I get home. So there are going to be three things that will go over in our presentation today. The first one being a step by step checklist to approach your operational programs.
+
+00:01:35:51 - 00:02:02:31
+不明
+And Marketo and I'll go over exactly what I did with my operational program. Second, we're going to talk about the power of executable campaigns, how that differs from request campaigns. And we'll look, take a look at the flows of Okta's operational programs. Last but not least, perhaps most importantly, how to translate your awesome operational work to business value so you can show value to your peers.
+
+00:02:02:39 - 00:02:24:41
+不明
+Leadership. My name is Victoria. I have been in the Mops game for over a decade. I am based in Seattle, Washington. If any of you are in the Pacific Northwest, let's definitely connect. I love the Mops community. I think you all are some of the smartest people with the best stories. I have a minister over six different Marketo instance.
+
+00:02:24:43 - 00:02:53:49
+不明
+My background is in b2b SAS on the in-house side, and I have seen databases anywhere as small as 50,000 to 16 million. So if there are something that's good or bad that's happened in Marketo, I've probably seen it and probably has something to do with do with it. Hopefully the good and not the bad. I'm very passionate for combining process, technology and people to reduce operational chaos, which we'll talk about here.
+
+00:02:53:54 - 00:03:12:13
+不明
+My role here at Okta is the product owner of Marketo. And when I think about what does that mean, I think two things. One is shedding that strategic vision for this valuable tool that the company has invested in. Right. Many of you will probably in the roadmap session for Marketo. So we have many goodies coming down the pike.
+
+00:03:12:18 - 00:03:42:11
+不明
+You know what makes sense for our organization to adopt? And how do we train our team members to use it? Second is really evangelizing the tool. Oftentimes, you know, we get this reputation for being the Marketo team. Yes, we send emails, but Marketo is so much more than that in any marketing automation platform. I always tell people, think about Marketo as an engine that delivers your marketing leads and engagement into the hands of sales in a efficient and accurate manner.
+
+00:03:42:16 - 00:04:06:42
+不明
+So if there's no Marketo, then by by leads and by by pipeline once people hear that, they kind of make the connection of how important it is. The company that I work for is Aacta, and We are the World's identity management company. Our company's vision is to free everyone, to safely use any technology, and we do so through seamless and secure access.
+
+00:04:06:46 - 00:04:35:46
+不明
+Authentication and authorization. We were founded in 2009, and today we have globe grown to over 5000 employees around the world and 15 global offices. We have more than 19,006 hundred customers that love us. They give us that 2.6 and growing billion revenue. Okta has two product platforms. The first one is the octa platform. The second one is the Auth0 platform.
+
+00:04:35:51 - 00:05:06:38
+不明
+The octa platform is thinking about securing access and provisioning for the entire workforce for your employees, contractors and partners. So many of you in the audience probably use Okta to access your applications at work. Then we also have the Auth0 platform that focuses on consumer and sash applications. So think going to your website and instead of creating a hardcoded username and password, being able to authenticate via Google or Facebook.
+
+00:05:06:43 - 00:05:30:01
+不明
+The reason why Okta has two product platform is because in 2021, Okta acquired Auth0 and at the time, both companies had their own Marketo instances that was merged in the following year in 2022. If any of you have instances in the audience I need to. I don't know this anymore. You know how messy it can get. You know.
+
+00:05:30:01 - 00:06:00:45
+不明
+You know what time it is. I joined the following year, and one of my first strategic project was to say, hey, Victoria, let's take a look at our instances that's been merged and see how we can organize and streamline so we can run things smoother in our operational processing programs. My project is called Project Charlotte, and this quote I actually took as an inspiration from my slide deck is because I think about Marketo and I think spiderweb is a really good analogy.
+
+00:06:00:50 - 00:06:32:53
+不明
+From far away you take a look and you're like, it's tangle, it's a hot mess. There's a lot of stuff going on, right? But if you know anything about spiders, they are brilliant architects and they are able to spin up their webs at different lengths and thickness to adapt to their environmental conditions. So Project Charlotte hope to harness the elegant building techniques of the spiders to be able to design Okta's operational instance in Marketo, to scale up or down to fit the business needs.
+
+00:06:32:58 - 00:06:38:57
+不明
+I need to know what's going on over there.
+
+00:06:39:01 - 00:07:01:10
+不明
+Now take a look at this image. This is a half exported image of an engagement map. Because if I try to export the whole thing, my computer kept crashing of what it used to look like on the trigger campaign when a record was created. As you can see, there were multiple things happening simultaneously, and surprisingly, no one. It was really hard to configure.
+
+00:07:01:15 - 00:07:36:02
+不明
+It was not built to scale. And inevitably it really bogged down the system. I think about all these things happening as a record was created in Marketo sneak peek. This is what it currently looks like. This is the flow of our trigger campaign when a lead is created. You can see in the expanded section there are still, you know, decisions and complicated logic happening, but things are happening in a linear fashion, meaning one step has to be completed before the rest can continue, which we'll get into a little bit about controlling the order of operations.
+
+00:07:36:07 - 00:08:01:48
+不明
+Let's jump in. The first section is the checklist of operational programs. I have this five step program that I think are really powerful for operational programs, or just a way to approach any project. The first one is defining a goal upfront. You might say, hey, Victoria, that's kind of obvious, right? Like, duh, I know what I need to do my program, but I know US operational folks.
+
+00:08:01:48 - 00:08:18:31
+不明
+We are excited to get into system. We want to start building, drag it and flows. We just want to see it all happen by defining the goal. This will serve as a North Star for your program, and you'll be able to say, hey, if I'm doing something that doesn't tie to this goal, I probably shouldn't be doing it.
+
+00:08:18:36 - 00:08:49:03
+不明
+So for my project, the goal was to decrease the time it takes to sync records from Marketo to Salesforce. And the benefit of that is, well, by getting the records faster into the system, we'll be able to positively impact the conversions down funnel. And we're going to do so by getting really tactical, defining the lead journey, mapping out exactly what needs to happen to a record when it is inserted into Marketo before it gets into Salesforce.
+
+00:08:49:08 - 00:09:12:29
+不明
+After defining the goal, here are a few problems going in that I knew I had to address. If you remember that big engagement map you saw just a couple seconds earlier, right? It was difficult to troubleshoot. Anytime anything went wrong, I just spent over ten minutes on one person's active activity log just to sift through it, and we just all have better things to do and then do so right.
+
+00:09:12:34 - 00:09:35:15
+不明
+It was built in a way where it was really hard to make changes. I heard an analogy that really stuck with me. It felt like we were putting Band-Aids and Band-Aids on top of a dam that was about to bust open, and we don't want to be in that situation, right? Like knowing anything could go wrong at any minute because most of the operational campaigns were requests campaign by nature.
+
+00:09:35:20 - 00:09:56:51
+不明
+We really didn't have a way to control what was happening. It didn't matter if you dragged it in a flow. Step three or 4 or 5. In reality, they were being triggered as if they were independent trigger campaigns. So we ran into a ton of race conditions, as you could imagine. A big one for us is we also didn't have a centralized campaign to sync records into Salesforce.
+
+00:09:56:56 - 00:10:20:26
+不明
+There was some ad hoc things going on, and much of our sync relied on the native Salesforce campaign connection to the Marketo program. And unfortunately, the result of that was some records were left behind and never synced. So that's not a good thing. After you've defined your goal and listed out the problems to tackle, now it's time to do some auditing.
+
+00:10:20:31 - 00:10:45:07
+不明
+I know auditing is not sexy or fun, but it is so important and you can't know where you're going if you don't know where you currently stand, right? Many of you may have inherited instances that have changed hands over time, and you're trying to figure out what the hell is going on. And by auditing, you're able to know what's going on, and I guarantee you you will identify more gaps that you didn't even know existed.
+
+00:10:45:12 - 00:10:57:13
+不明
+Plus, I'm sure there are some elements of the existing programs that are working. So let's not reinvent the wheel and keep what's working so you can reuse that in your new program.
+
+00:10:57:18 - 00:11:23:50
+不明
+As you're auditing, you're going to think about the time it's going to make sense to create your framework. As you're figuring out what's currently going on. This is a screenshot of the different order of the processing programs we have in Marketo. That will take a look closer and a little bit. The way that I think about is if I'm designing this for scale and when I leave and the next admin takes over, are they going to thank me or are they going to judge my work?
+
+00:11:23:51 - 00:11:47:06
+不明
+Right? So let's make sure this is really polished, easy for people to understand. And we can make changes dial up or down as we need. I also highly recommend creating some type of a high level visual framework that supports your framework of your program. This is also really great for you to share to folks that are not as in the weeds as you may be, to understand the flow of the data.
+
+00:11:47:11 - 00:12:06:15
+不明
+And if you can look at this yellow circle in the middle, that is a step to sync to Salesforce. I mentioned that Okta previously didn't have a centralized sync campaigns. So when I was thinking about the framework, I thought about what are the data points that needed to be on a record before it makes it into Salesforce, because maybe we're using it.
+
+00:12:06:19 - 00:12:25:37
+不明
+You know, for a third party tool to do lead routing, right? So that piece of information needed to be on the record. So the framework is around what needed to be on the record before it gets into the CRM versus what can we afterwards and just be picked up naturally by the next sync cycle.
+
+00:12:25:42 - 00:12:46:43
+不明
+We are almost there. If this clicker will play nice. You've defined your goal. You know the address, to the problems that you need to tackle. You've audit it. You have your framework. Now you want to take this maybe live, right? And there are many moving pieces of what you need to do when you're taking live an operational program.
+
+00:12:46:48 - 00:13:11:39
+不明
+My biggest advice here is in addition to making an exhaustive list of all the things you actually need to do, make sure you have time dependencies in Marketo. We don't have the luxury of doing something in a sandbox and pushing it live in production. So sometimes you just activate a campaign and pray that nothing goes wrong. If you can list out everything you need to do, can this be done before the program goes live?
+
+00:13:11:43 - 00:13:33:52
+不明
+Does this need to be done at the time you take the program live, or can this be a fast follow? So having a complete checklist of time dependencies will also help you plan out. Do I need to enlist others to help me to take this program live? And last but not least, you should be proud of yourself. This is a lot of work to overhaul and operational programs right?
+
+00:13:33:57 - 00:13:48:40
+不明
+You should share your accomplishments, which we'll get into in the last section. And last but not least, celebrate. Pat yourself on the back. Buy yourself a new pair of shoes or some outfits. I mean, that's certainly what I did.
+
+00:13:48:45 - 00:14:11:54
+不明
+Let's get into executables. If you're anything like me, when you first learn marcato, this function wasn't there. We leveraged request campaigns. We love Request Campaign to help us do things. However, they don't serve everything that we need to do. I put this quick chart comparison together of executable versus request campaigns. Not to say one is better or the other.
+
+00:14:11:54 - 00:14:36:29
+不明
+I think they just have very different use cases depending on what you're trying to do. In Marketo. First things first with executable campaigns the order. So think back to that engagement map again right. They run in series with the parent campaigns, which means if you have one executable campaigns that's calling on subsequent executable campaigns, all the operations need to be completed before you move on to the next set.
+
+00:14:36:34 - 00:14:57:03
+不明
+Whereas request campaign, they run in parallel, meaning you can have ten follow step up request campaigns. But in reality, Marketo is processing them like triggers, so you don't really have control over what's going on. The beauty of of executable campaigns is when you look at the activity log, things actually show up in the order that you mapped it out in your flow.
+
+00:14:57:03 - 00:15:26:26
+不明
+And that's beautiful activity log. You saw my note there. Just good luck to you. Just page to page for jumping back and forth. You guys know how it is. Executable campaigns does have a output you know quote unquote limitation because it can be only call down to additional levels. So if I have a parent campaigns that's calling on a child campaign, it can only call down one more level because before it, it won't let you execute any more campaigns.
+
+00:15:26:31 - 00:15:46:19
+不明
+While this may seem like a limitation upfront, this really helped me when I was thinking through how I should design my framework, and I thought to myself, if I can't do it in three levels, I'm probably overcomplicating it right? Request campaign. There's no limit. You do whatever you want. You request a campaign. Request a campaign request a campaign, request a campaign.
+
+00:15:46:24 - 00:16:15:09
+不明
+And unfortunately, we usually end up with what we known professionally in the Mops community as a daisy chain of hell. You're just chasing campaigns from one to the other. Executable campaigns. You cannot call on a webhook, though that is an actual limitation. So if you are leveraging third party services, you have to do that and request campaigns. Request campaigns are great for just ad hoc or maybe things that are only specific to one program, whereas executable campaigns are very powerful.
+
+00:16:15:19 - 00:16:40:34
+不明
+For, I think, operational processing programs or any repeated actions that need to happen over and over again. Enough talking. Let's get to see some of the good stuff. This right here is the flow of the trigger and what happens when a record is created. You can see I'm actually using request Campaign as a first step because I need to call and a webhook.
+
+00:16:40:39 - 00:17:04:05
+不明
+Then we run the records through a series of data normalization campaign. Because those pieces of information are crucial for a lead routing rules. Then we send them through our lead source management program, also our privacy and compliance program, which we'll take a look at shortly or Mach ability program. Then here's the step where we're sinking them into Salesforce.
+
+00:17:04:06 - 00:17:23:39
+不明
+If they weren't created from Salesforce in the first place. And then after they get sync to Salesforce, they'll come back. And additional sets of operational programs are equally important. But from a timing perspective, it doesn't need to be there and be done before it gets sync to Salesforce.
+
+00:17:23:43 - 00:17:43:40
+不明
+This is a screenshot of the tree of the Lead Source Management program, and I just want to talk a little deeper about this three level framework I mentioned earlier. So this is what I mean. The T1 can call down to T2 and T3. And after that you're done. So the T1 you'll see this in the next program as well is the router.
+
+00:17:43:40 - 00:18:08:04
+不明
+That's just a starting point. You funnel your records through there and use additional data points to put them into different groups, depending on what you're trying to do. Our T2 level, we're splitting people based on their original source type field in Marketo, and we'll take a look at that deeper in a little bit. Then the T3 campaigns are the campaigns that's actually updating your source and list source details.
+
+00:18:08:09 - 00:18:31:55
+不明
+Let's follow the journey through of a record that, say, was created by filling out a form. But I just want to talk a little bit more about the original source type feel for a second. I love using this field for resource management because one. The data is available at the time of creation. It is a marketo managed field that has a finite number of picklist values.
+
+00:18:32:04 - 00:18:56:20
+不明
+So you never have to worry about, you know, removing or updating this picklist values. Moving forward. So if I created my record was created as a result of Farmville. I'm now going to qualify for choice three, which is calling on the next level of T2 campaigns for web records. And let's say my rep record. I filled out the form.
+
+00:18:56:20 - 00:19:29:10
+不明
+I have some UTM information captured because my pay team is sending records to this website. You know, through pay search from Google efforts. You can see right here we have a series of waterfall decisions based on if you have UTM information. We're going to take that. If you don't, or maybe you filled out a LinkedIn login form, or if you don't have any of that information, we can rely on original search engine or original search, or excuse me, original refer values, which is also native Marketo fields.
+
+00:19:29:15 - 00:20:05:39
+不明
+Let's say for the purpose of this demonstration, this record came from web filled out a form and had UTM. Then we're going to get to the actual T three level campaigns, where it is using UTM parameters to actually stamp the lead source and the source detail value. Just one piece of advice on UTM is making sure you understand your company's naming convention, and doing some reverse engineering to make sure you actually understand how you can utilize the values captured in the UTM to populate that lead source and source detail.
+
+00:20:05:43 - 00:20:22:07
+不明
+Rtms are set as hidden fields on the form, and then it just ingest information from the parameters of the URL, but form submit. So combination could be pay search, google pay social, LinkedIn.
+
+00:20:22:12 - 00:20:41:04
+不明
+Let's move on to the next program privacy and compliance. This looks familiar right? This tree I have this t1, t2, t3 the three level framework that I talked about. So even the nature of the programs are very different. The way that you think about the framework is the same. And that's the beauty of these three level executable campaigns.
+
+00:20:41:09 - 00:21:02:57
+不明
+It gives you a structure to facilitate your records through. So T1 again very similar is a router. You're just sending people on to further groups based on a piece of information you're using for us in the Privacy and compliance program. We want to know, you know, can we contact this record? Can marketing's, email can sales email or call this record?
+
+00:21:03:01 - 00:21:26:15
+不明
+So the first set of a decision we're using for the T1 router is the records, the location, the country. Right. Depending on where you're located, we split you into different consent groups from the most strict as restricted records. We don't do business with we absolutely do not want to reach out to them or double opt in required explicit consent required or implied consent.
+
+00:21:26:20 - 00:21:48:45
+不明
+Then T3 again. T3 is a level where the campaigns are actually updating their communication fields that marketing and sales can see. So this is a flow of someone who is qualifying for the implied consent group. So let's say you're in, you know, certain parts of the United States you go through. We stamp your record to say you're implied consent.
+
+00:21:48:55 - 00:22:16:00
+不明
+And then we're just calling on on different series of T3 campaigns to say, you know, we can email you, we can call you. But if it's a durable unsubscribed, then we definitely want to honor that. Right? Then the next example is on the opposite end of someone who is in the most strict restricted area. So very similar. Updating your privacy consent group status here to restricted and then up to fast here.
+
+00:22:16:04 - 00:22:35:22
+不明
+And in addition we are also making sure we are block listing you. We're marketing suspending you. We don't want to take any chances. A piece of advice on privacy and compliance is make sure you have really good enablement documentation for the marketing and sales teams, right. The fields that these campaigns are updating will ultimately end up in your CRM.
+
+00:22:35:27 - 00:22:59:49
+不明
+So if I'm a sales rep, I'm looking at a record. How do I know what consent group they're in and what their consent status is? So make sure you have good documentation that for your sales and marketing team. So we looked at two different programs, both using the same three level executable framework. And with that I was able to get to this point.
+
+00:22:59:54 - 00:23:26:55
+不明
+Take a look at this graph. That dip right there is the week I launched my new operational programs. And the data that's being plotted here is the average time it takes for a record to be created in Marketo and create in Salesforce. And you can see that after launch, we're holding steady at a new lower baseline, reduced by 80%, able to boost our sync by 80% by five x.
+
+00:23:27:00 - 00:23:51:50
+不明
+Excuse me. Now, you might be thinking, Victoria, how did you get here? Like what? Who helped you? How did you get these data points? So you can look at this at a aggregate level, which is a good segue into our final section to be able to translate your work and show your value, because we do so much of our work in Marketo.
+
+00:23:51:59 - 00:24:16:43
+不明
+And if you ever try to explain what you do in Marketo to people who are not familiar with the tool, it just goes over their head, right? So we need to be able to translate this in a considerable fashion that people who don't understand the tool can understand. We know for follow up, timing is everything. And on average, it takes the B2B sales teams about 42 hours to respond to a new lead.
+
+00:24:16:48 - 00:24:43:12
+不明
+And of that, 38% of the records don't even reply. Then it takes another typical 4.3 days of back and forth before you secure a meeting with somebody. So that is already a week and a half to to, you know, ten business days, holidays, giving back, you know, whatnot. And you're 21 times more likely to qualify your lead if you follow up within the first 30 minutes.
+
+00:24:43:17 - 00:25:07:50
+不明
+So we really want to be able to trim and shave time wherever we can. The first step of being able to get to that graph is actually identifying the entire lifecycle of your speech lead. So for us we have three stages of the speech lead right. And what are all the systems and tools involved. And where can you save time.
+
+00:25:07:55 - 00:25:37:10
+不明
+And are there different record groups that need to be treated differently? Surely somebody fills out a contact. Sales forms should be treated with much higher urgency than someone just reading a piece of log on your website for the first time. At Opta here we have the creation, which is Marketo to Salesforce, probably a similar set up. You know, a lot of you have or to your CRM, then we use a third party tool that sits on top of Salesforce that manages our funnel.
+
+00:25:37:15 - 00:25:58:31
+不明
+It opens up the record for funnel and signals another third party tool that sits on top of Salesforce that handles our lead routing. At Octo, we don't route the lease until a record is, you know, qualified or mql as many use that term. So you can see we have three stages here and four tools involved at this point.
+
+00:25:58:40 - 00:26:23:57
+不明
+Right. And all this is supposed to happen seamlessly. You can see there's a lot of things going on. So you definitely want to be able to see can you measure the time at each of these stages. And what can you do within the tools to optimize the speed within each stage? Let's focus on creation because that's what my presentation is about on how to optimize your programs to make that time faster.
+
+00:26:24:01 - 00:26:42:36
+不明
+So I should stop here and say, at this point, you need to know who your analytics or data teams are at your company because they will be your best friend. Whether that is a dedicated analyst or you have a shared resource team, or maybe it's you because you're at a small company and you wear multiple hat, right?
+
+00:26:42:41 - 00:27:04:13
+不明
+Because you'll need to extract some data points out of your marketing automation platform and your CRM to plot these numbers. We can't really do that and do that. Have that visualization with a marketo. So some key fields that we have extracted out from Marketo is the Marketo. Create a date and time. You also want to take out the Salesforce.
+
+00:27:04:13 - 00:27:28:08
+不明
+Create a date and time. Something we also care heavily about is a marketo program. Date and time when someone becomes a member. And also the date and time when they become associated with the campaign in Salesforce. As a campaign member. After you have extracted all those data points, you're able to plot it. And I should also say you need to do this before you launch your new program.
+
+00:27:28:17 - 00:27:48:53
+不明
+So you can see what your average time was before. And for your reference in that chart prior to me making the changes to this operational programs. We were close to six minutes on average, and that was already excluding all the big outliers for records to sync from Marketo to Salesforce. So you can see that is not a good time, right?
+
+00:27:48:54 - 00:28:14:30
+不明
+So you want to be able to see what you were working with. So you can see the positive change of that sync baseline. Once you launch your program. Now once you launch a program, you can establish your new awesome baseline and monitor for any deviations. So, you know, if it's, you know, faster or slower, you can dive deeper into what's causing that sink number.
+
+00:28:14:34 - 00:28:37:51
+不明
+Let's talk about showing off your work and share your accomplishments a little bit. I feel like us mops folks, we don't do enough of of shining a light to our work. Right? And based on the nature of our global workforce, compounded by the virtual and remote nature of of how we interact, is so important to share your project and your updates with your peers.
+
+00:28:37:55 - 00:29:04:12
+不明
+Not just noise, right? Actual insights. So I just have a couple of ideas right here that really help guide me throughout my project. One is to have some project documentation. Think back on the five step checklist as you're going through those checklists. You're probably already naturally documenting, right? You're documenting your framework. You are defining your goal. And plus this is just a good link when you're having conversation with someone like, hey Victoria, what are you up to lately?
+
+00:29:04:17 - 00:29:26:42
+不明
+Well, I'm actually working on projects earlier. Here's the link to my business requirement documents. If you want to walk yourself to sleep. So good thing to keep yourself organized and share amongst your peers. Second, you want to identify and loop in your collaborators and stakeholders early on and bring them along a journey with you. Who is going to be making that decision for you?
+
+00:29:26:47 - 00:29:47:52
+不明
+Who needs to escalate for you if you need more resources and prioritizing done? Who? Who's going to do the executing? If you're not the only one with a big operational program, there's a lot of moving pieces, as we all know. So get yourself organized through a project management tool, whatever tool that you use so you can keep track and keep yourself.
+
+00:29:48:07 - 00:30:17:03
+不明
+Hold yourself accountable. Setting a timeline and circulating that so you can also hold yourself accountable. I don't know about you all, but once I have published something I actually got to make it happen, right? Because now I've told 30 people it's going to happen by the state. So just put a little light, a little fire, plus another great visual just to highlight the importance and the complexity of your work by showing this bottom left corner spans over almost an entire year.
+
+00:30:17:07 - 00:30:39:33
+不明
+And there are dependencies involved right? Marketo and Salesforce. There's so many moving pieces, and we don't want to undervalue just how simple it is to overhaul an operational program. Last but not least, sharing your updates in progress. Often you don't have to wait until the last minute to say, hey, this is launched and everything is great. You know, eight months later, make your announcement.
+
+00:30:39:37 - 00:31:15:34
+不明
+You can do a little fun, interesting information. Like as I was auditing I found X or did you know this was happening in our instance or today we uncover this. And you can also get creative with the format of how you share out your updates. It doesn't always have to be an email or a slack. Something that I have found that works really well for me are short format videos, something less than five minutes long and with a combination of the speaker accompanied by some visuals, will be really powerful to capture people's attention.
+
+00:31:15:39 - 00:31:36:06
+不明
+A project wouldn't be a project without some reflections and learnings and what I could do better. And what's coming up next for me. Some some key things that I learned as I was going through this project. Is that one doing some type of a mini test launch? I talked earlier, we don't have the luxury of doing something in sandbox and pushing a live.
+
+00:31:36:10 - 00:31:57:58
+不明
+So maybe using some temp or scratch feels that you have. Sending some test records through will really help you. Just when you think you've seen all the edge cases in Marketo, something else pops up, right? We've all been there. We're like, I didn't think it was possible, but somehow here we are. One thing I wish I did a little bit better is maybe be more exhaustive with my test cases.
+
+00:31:58:04 - 00:32:18:57
+不明
+Think about all the weird scenarios and enlisting more people to help me to test and to fail. Proof my program so you wouldn't end up with a bunch of fast follow items. So what's ahead for me personally, is one. We're going to publish our new awesome baseline to our leadership and say, great, you know, this is our new baseline.
+
+00:32:19:06 - 00:32:43:01
+不明
+This is our plan for monitoring deviations. And next, if you go back to the slide where we have three pieces of our speed to lead life cycle, as an exercise of going through this project, we actually uncovered a really big bottleneck of a particular tool that we're using that was taking up most of the time that was routing the that was taking, that was contributing to the overall speed to lead.
+
+00:32:43:06 - 00:32:55:09
+不明
+So what I'm going to be focusing on this year is actually removing that tool that's very entrenched in our system. So we can even further optimize our tool.
+
+00:32:55:13 - 00:33:20:53
+不明
+Again, today we cover three different sections. First, we went over a five step checklist on how to approach your operational programs. Then we talked about the difference between executable and request campaigns. The three level framework to adopt for operational programs. And we took a look under the hood of some of the flows and campaigns and Okta's operational program instance.
+
+00:33:20:58 - 00:33:45:29
+不明
+Last but not least, we talked about how to translate your operational work to the business bottom line. Identifying the key stages of your life cycle for speed to lead, and how to demonstrate value to peers and leadership. Thank you so much for joining me today. Your feedback is super important. If you could submit them in the summit app, you also get some chance to win some prizes.
+
+00:33:45:34 - 00:33:50:21
+不明
+Thank you all.
+
+00:33:50:25 - 00:33:50:59
+不明
+For.
+

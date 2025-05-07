@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Summit 2025 オープニングキーノート</title>
+    <style>
+        :root {
+            --accent-color: #051c2c;
+            --bg-color: #f5f5f5;
+            --text-color: #333;
+            --section-bg: #ffffff;
+            --highlight: #0047AB;
+            --spacing: 1.5rem;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--bg-color);
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        header {
+            background: var(--accent-color);
+            color: white;
+            padding: var(--spacing);
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        h2 {
+            font-size: 1.75rem;
+            margin: 2rem 0 1rem 0;
+            color: var(--accent-color);
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.75rem 0;
+            color: var(--accent-color);
+        }
+        
+        .summary {
+            background: var(--section-bg);
+            padding: var(--spacing);
+            margin: var(--spacing) 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            background: var(--section-bg);
+            padding: var(--spacing);
+            margin: var(--spacing) 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section-summary {
+            font-weight: 500;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .details ul {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .details li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .qa-item {
+            margin-bottom: 1rem;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .question {
+            font-weight: 600;
+            color: var(--accent-color);
+            cursor: pointer;
+            padding: 0.75rem;
+            background: rgba(0,71,171,0.05);
+            border-radius: 4px;
+            display: block;
+            position: relative;
+            user-select: none;
+        }
+        
+        .question::after {
+            content: '+';
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+        }
+        
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            background: white;
+        }
+        
+        .answer p {
+            margin: 0;
+            padding: 1rem;
+        }
+        
+        .qa-item input[type="checkbox"] {
+            display: none;
+        }
+        
+        .qa-item input[type="checkbox"]:checked + .question::after {
+            content: '−';
+        }
+        
+        .qa-item input[type="checkbox"]:checked ~ .answer {
+            max-height: 2000px;
+        }
+        
+        .key-terms {
+            margin-top: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--accent-color);
+            color: white;
+        }
+        
+        .highlight {
+            background: linear-gradient(transparent 60%, rgba(0,71,171,0.2) 40%);
+            font-weight: 600;
+        }
+        
+        .big-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            line-height: 1.3;
+            margin: 1.5rem 0;
+        }
+        
+        footer {
+            background: var(--accent-color);
+            color: white;
+            text-align: center;
+            padding: var(--spacing);
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 90%;
+                padding: var(--spacing);
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Summit 2025 オープニングキーノート</h1>
+        </header>
+        
+        <div class="summary">
+            <h2>サマリー</h2>
+            <p>Adobe Summit 2025のオープニングキーノートでは、AdobeのCEOであるShantanu Narayenがデジタル体験の変革とAIの可能性について語り、Adobe Experience Platform Agent Orchestratorの発表が行われました。創造性とマーケティングを統合したAdobeのビジョン、Firefly AIの進化、そしてパーソナライズされたカスタマーエクスペリエンスの未来について、Coca-ColaのCEO James Quinceyとの対談やデモを交えながら展開されました。</p>
+        </div>
+
+        <div class="section">
+            <h2>Adobeのビジョンとデジタル創造性の進化</h2>
+            <div class="section-summary">
+                Shantanu Narayenは、創造性の黄金時代におけるAdobeの役割と、AIがクリエイティブな表現をいかに拡張しているかについて語りました。Adobeは歴史を通じて、すべての人が創造性を解き放ち、自分のストーリーを世界と共有できるよう支援しています。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「私たちは創造性の黄金時代にいます。企業はコミュニケーションの見た目と感触を高めるために、人材とテクノロジーに投資しています」</p>
+                
+                <ul>
+                    <li>Adobeは創設以来、<span class="highlight">人々とエンタープライズが創造性を解放し、ストーリーとブランドを世界と共有することを支援</span>してきた</li>
+                    <li>現在、あらゆるメディアタイプ（画像、デザイン、ビデオ、3D、AR、VR）やプラットフォーム（デスクトップ、ウェブ、モバイル）で創造的なアイデアを実現することを可能にしている</li>
+                    <li>AIは創造的な可能性を加速・拡大し、すべての人の<span class="highlight">クリエイティブな視野を広げる</span></li>
+                    <li>Photoshop、Illustrator、Premiere、After Effects、Expressなどの主力製品に継続的にイノベーションを投入</li>
+                    <li>新しいFireflyアプリケーションは、アイデア発想と創造のための総合的な拠点として、画像、ベクター、ビデオ、音声をひとつの場所で生成可能に</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q1">
+                    <label class="question" for="q1">Q. FireflyビデオモデルのIP友好性とは何を意味しますか？</label>
+                    <div class="answer">
+                        <p>Fireflyビデオモデルは、知的財産（IP）に配慮して設計されており、商業的に安全に使用できることを意味します。これにより、制作準備の整ったコンテンツに自信を持って活用することができます。Adobeは適切にライセンスされた高品質のデータ資産でモデルをトレーニングしており、商業利用においても安心して使用できます。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q2">
+                    <label class="question" for="q2">Q. Adobeの「万人のための創造性」とは何ですか？</label>
+                    <div class="answer">
+                        <p>「万人のための創造性」とは、Adobeが専門的なクリエイティブだけでなく、学生、ビジネスプロフェッショナル、中小企業など、あらゆる人々がクリエイティブツールを活用できるようにするビジョンです。コミュニケーションがより表現豊かで視覚的になるにつれ、Adobeはより多くの人々がクリエイティビティにアクセスできるよう製品を拡張し続けています。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q3">
+                    <label class="question" for="q3">Q. Adobe Gen Studioとは何ですか？</label>
+                    <div class="answer">
+                        <p>Adobe Gen Studioは、クリエイティブおよび制作ワークフロー、アセット管理、配信とアクティベーション、分析とインサイトをコンテンツのライフサイクル全体にわたって統合するAdobeのビジョンです。これにより、中小企業からデジタルエージェンシー、大企業のマーケティング部門まで、すべての組織が即時にアクティベーションできる高速なクリエイティブ表現を実現できます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>AIとカスタマーエクスペリエンスオーケストレーションの新時代</h2>
+            <div class="section-summary">
+                Anil Chakravarthy氏が、デジタルマーケティングからカスタマーエクスペリエンス管理への進化を解説し、生成AIとエージェント技術によって定義される新しい時代「カスタマーエクスペリエンスオーケストレーション」の到来を宣言しました。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「現在、生成AIとエージェント技術によって定義される新時代の初期段階にいます。顧客はブランドとの<span class="highlight">シームレスで接続された、リアルタイムの双方向パーソナライズド会話</span>を期待しています」</p>
+                
+                <ul>
+                    <li>Adobeは15年前にデジタルマーケティングカテゴリを創出し、創造性とマーケティングを融合</li>
+                    <li>Adobe Analytics、Experience Manager、Audience Manager、Campaign、Targetなどのアプリケーションが現在も<span class="highlight">デジタルマーケティングの基盤</span>となっている</li>
+                    <li>2010年代中頃に、製品が単なるデジタルマーケティングを超えて<span class="highlight">顧客ライフサイクル全体</span>（獲得、エンゲージメント、維持、ロイヤルティ）に不可欠であることを認識</li>
+                    <li>2019年に統合顧客プロファイルによるリアルタイム体験を提供するAdobe Experience Platformを発表</li>
+                    <li>現在、AEPは<span class="highlight">430億のプロファイルを管理</span>し、毎日760億のアクティベーションを処理、100ミリ秒未満の応答時間を実現</li>
+                    <li>Adobe Experience Platformは現在Azure上で稼働し、近くAmazon Web Servicesにも対応予定</li>
+                </ul>
+                
+                <p>今日発表された<span class="highlight">Adobe Experience Platform Agent Orchestrator</span>は、エージェント機能の可能性を最大限に引き出し、スケールでの1対1のパーソナライズされた体験を提供するための基盤を提供します。</p>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q4">
+                    <label class="question" for="q4">Q. カスタマーエクスペリエンスオーケストレーションとは何ですか？</label>
+                    <div class="answer">
+                        <p>カスタマーエクスペリエンスオーケストレーションとは、チーム、AIエージェント、アプリ、ワークフロー、パートナーをビジネス成長目標を中心に調整する新しい時代です。コンテンツ、顧客データ、カスタマージャーニーがAIと連携して動作し、顧客が望むことを予測し、自然言語で会話し、リアルタイムで応答し、継続的に顧客を喜ばせることを可能にします。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q5">
+                    <label class="question" for="q5">Q. Adobe Experience Platform Agent Orchestratorの主要要素は何ですか？</label>
+                    <div class="answer">
+                        <p>Agent Orchestratorには4つの重要な要素があります：1）目的に特化したエージェント - 10の新しいエージェントが発表され、特定の業務を自動化、2）マルチエージェント連携 - 複数のエージェント間を調整して主要目標を達成、3）推論エンジン - 消費者の意図を理解し決定を行うためのデータ処理、4）カスタマーエクスペリエンスモデル - プライバシーとデータガバナンスを維持しながらデータと使用例に基づいた小規模言語モデル。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q6">
+                    <label class="question" for="q6">Q. サイト最適化エージェントとオーディエンスエージェントはどのような機能を持ちますか？</label>
+                    <div class="answer">
+                        <p>サイト最適化エージェントは、ウェブエクスペリエンスのパフォーマンスと事業への影響に責任を持つプロダクトオーナーやマーケティングマネージャーを支援します。ページ速度、トラフィック獲得、エンゲージメント、コンバージョンなど、最適化の機会を見つけて実行します。オーディエンスエージェントは、何百もの顧客セグメントを管理するマーケティング担当者を支援し、ターゲットオーディエンスをキュレーションやセグメント化し、キャンペーンのペルソナを定義し、オーディエンスターゲティングを最適化します。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Coca-Cola CEO James Quinceyとの対談：ブランドとイノベーション</h2>
+            <div class="section-summary">
+                Shantanu NarayenとCoca-ColaのCEO James Quinceyの対談では、企業の変革、ブランド構築、イノベーション、顧客参加型マーケティング、AIの活用についての洞察が共有されました。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「イノベーションは多くの形と大きさがあります。常に未満たされたニーズを満たし、<span class="highlight">ユニバースを拡大する</span>ことを目指しています」</p>
+                
+                <ul>
+                    <li>Quinceyは就任時、ジーンズを履き、コーラ以外の飲み物を飲むという象徴的な行動で<span class="highlight">文化変革とブランド戦略の転換</span>を示した</li>
+                    <li>Coca-Colaは現在、200以上のブランドを持ち、そのうち30以上が10億ドル以上のビジネス規模を誇る</li>
+                    <li>イノベーションの役割は多様：既存のフランチャイズに注目を集め戻すためのニッチな製品、パッケージングの革新、マーケティング方法の変革など</li>
+                    <li>Coca-Colaのエコシステムは、ブランド戦略を担当するCoca-Cola社と、実際の製造・配送を担当する<span class="highlight">数百のボトリングパートナー</span>から成り立つ</li>
+                    <li>毎日約<span class="highlight">22億杯の製品</span>が世界中で消費され、33万のアウトレットに配送される</li>
+                    <li>ブランド構築において、<span class="highlight">グローバルな視点とローカルな実装のバランス</span>が重要</li>
+                </ul>
+                
+                <h3>AIとマーケティングの未来</h3>
+                <ul>
+                    <li>「Share a Coke」キャンペーンは<span class="highlight">大規模なデジタルマーケティングの先駆け</span>であり、デジタル印刷技術によるパーソナライゼーションを実現</li>
+                    <li>AIを活用した最近のホリデーキャンペーンでは、制作コストの削減と制作期間の短縮に成功</li>
+                    <li>AIは<span class="highlight">マーケティングコンテンツの個別最適化</span>を可能にするが、消費者のプライバシー懸念とのバランスが課題</li>
+                    <li>将来のマーケティングは、クリエイティビティのコスト、消費者の煩わしさのレベル、ライブ体験の価値の間の相互作用によって形作られる</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q7">
+                    <label class="question" for="q7">Q. James Quinceyが「chief zombie killer」と呼ばれる理由は何ですか？</label>
+                    <div class="answer">
+                        <p>Quinceyは「イノベーションの主導者」だけでなく「ゾンビキラー」としての役割も担っています。うまくいかなくなったブランドや製品を終了させる決断を下す役割を指します。彼の下で、Coca-Colaのブランド数は400から200に削減されました。ブランドマネージャーが「もう一度だけチャンスをください」と言っても、実績が上がらなければ終了させる決断を行います。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q8">
+                    <label class="question" for="q8">Q. Coca-Colaのボトリングパートナーシステムはどのように機能していますか？</label>
+                    <div class="answer">
+                        <p>Coca-Cola社は、ブランド、マーケティング、イノベーション、戦略、そしてオーケストレーションに焦点を当てています。一方、数百のボトリングパートナーは、Coca-Cola社から秘密の濃縮液を受け取り、水、炭酸、砂糖、その他の成分を加えて製品を物理的にボトルに詰め、トラックに積み、世界中の3300万の物理的な販売所に毎週配送しています。このフランチャイズシステムは、Coca-Cola社のグローバルな視点とスケールと、各ボトラーのローカルな存在感を組み合わせることで、圧倒的な効果を発揮しています。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q9">
+                    <label class="question" for="q9">Q. AIがCoca-Colaのマーケティングをどのように変えつつありますか？</label>
+                    <div class="answer">
+                        <p>Coca-Colaは画像生成AIを最初に大規模に活用し、販売店で使用するポイントオブセール素材の作成に革命をもたらしました。以前は写真家や専門家が画像を作成していましたが、現在はAIプログラムが顧客の好みに合わせて画像を生成できます。最近では、AIを使用してクリスマス広告のビデオも制作しました。この方法は従来の広告制作よりも安価で迅速でしたが、現時点では人間の顔の解像度に限界があるため、すべての広告制作に適用できるわけではありません。将来的には、AIがマーケティングの革命を起こす可能性があります。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Gen Studioとコンテンツサプライチェーンの革新</h2>
+            <div class="section-summary">
+                Laura Gentile氏とDavid Wadhwani氏がAdobe Gen Studioとコンテンツサプライチェーンのデモを披露し、パーソナライゼーションとアジリティをスケールで実現する方法を紹介しました。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「<span class="highlight">創造性、マーケティング、イノベーションが融合</span>するとき、私たちは結びつき、インスピレーションを受け、私たちの周りの世界が変わります」</p>
+                
+                <ul>
+                    <li>現代のマーケティングでは、<span class="highlight">パーソナライゼーションとスケール</span>が必須だが、実現が難しい</li>
+                    <li>クリエイティブは週に21時間を繰り返しデザイン作業に費やし、大企業の80%はキャンペーンサプライチェーン全体の可視性がない</li>
+                    <li>Gen Studioは<span class="highlight">コンテンツサプライチェーン全体</span>をコントロールするソリューション：
+                        <ul>
+                            <li>ワークフローと計画からアイデア創出</li>
+                            <li>制作と作成</li>
+                            <li>配信とアクティベーション</li>
+                            <li>レポートとインサイト</li>
+                        </ul>
+                    </li>
+                    <li>Firefly Servicesはスケールでのコンテンツ生成を支援：独自のカスタムモデルのトレーニング、画像生成、ビデオ生成、音声、ベクター翻訳などの広範な生成機能</li>
+                </ul>
+                
+                <h3>デモで紹介された機能</h3>
+                <ul>
+                    <li><span class="highlight">Work Front</span>：キャンペーン管理と計画、AI駆動のテンプレート、自動化されたワークフロー</li>
+                    <li><span class="highlight">Firefly</span>：カスタムモデルを使った画像生成、複数言語への翻訳、ビデオリフレーミング</li>
+                    <li><span class="highlight">Express</span>：組織全体でのブランド資産の民主化、クリエイティブガードレールの設定</li>
+                    <li><span class="highlight">Gen Studio for Performance Marketing</span>：画像からビデオへの変換、ブランドチェック、コンプライアンスチェック、メディアへの直接アクティベーション</li>
+                    <li><span class="highlight">Adobe Content Analytics</span>：パフォーマンスインサイト、コンバージョントレンド、予測、異常検出、高パフォーマンス資産の分析</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q10">
+                    <label class="question" for="q10">Q. Project Catalyzeとは何ですか？</label>
+                    <div class="answer">
+                        <p>Project Catalyzeは、キャンペーンのアイデア創出を再発明するデジタルアイデーション空間ツールを作成するというビジョンを持つAdobe社内プロジェクトです。このツールはAI駆動型で、過去のパフォーマンスデータやインサイトを活用し、ターゲットオーディエンスの理解を深め、メッセージングやコンテンツのオプションを生成し、ブランド承認済みのアセットを含むムードボードを作成して、キャンペーンの中心的なアイデアを視覚化します。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q11">
+                    <label class="question" for="q11">Q. Firefly Servicesのビデオ機能はどのように機能しますか？</label>
+                    <div class="answer">
+                        <p>Firefly Servicesのビデオ機能は、元のビデオからオーディオを分離し（音楽と会話を分け）、会話を翻訳して10の異なる言語にダビングし、それを再び組み合わせます。ビデオに関しては、シーンごとにパン、トラック、ズームを自動的に行い、異なるアスペクト比（正方形、縦型など）に適応させます。これにより、以前は手作業で時間のかかっていたビデオの複数言語版制作や異なるプラットフォーム用のリサイズが、はるかに短時間で実現できるようになります。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q12">
+                    <label class="question" for="q12">Q. Adobe Content Analyticsはどのような洞察を提供しますか？</label>
+                    <div class="answer">
+                        <p>Adobe Content Analyticsは、コンテンツのパフォーマンスに関する詳細なAI駆動型インサイトを提供します。具体的には、コンバージョントレンド、予測、異常検出、高パフォーマンスアセット、コンテンツの疲労兆候などを分析します。また、色やトーン・オブ・ボイスなどの属性がパフォーマンスにどう影響しているかを示し、オーディエンスごとにフィルタリングして異なるターゲット層に対するコンテンツのパフォーマンスを分析できます。これらのインサイトはAdobe Experience Platform全体と連携し、包括的なデータビューを提供します。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Eli Lillyのケーススタディ：医療とカスタマーエクスペリエンス</h2>
+            <div class="section-summary">
+                Eli LillyのGroup Vice PresidentであるJennifer Alexさんが、150年の歴史を持つ医薬品会社が医療と顧客体験の交差点でどのようにイノベーションを進めているかを語りました。
+            </div>
+            
+            <div class="details">
+                <p class="big-text">「Adobeが<span class="highlight">デジタルでパーソナライズされた体験</span>を通して世界を変えようとしているように、Lillyは世界中の人々の生活を向上させる<span class="highlight">革新的な医薬品の創造</span>によって世界を変えています」</p>
+                
+                <ul>
+                    <li>Eli Lillyは150年近くにわたり、人類の健康の流れを改善する最も困難な疾患に取り組んできた</li>
+                    <li>主な成果：糖尿病患者向けの救命インスリン、ポリオを根絶するソークワクチン、うつ病を革命的に治療するフルオキセチン、抗生物質耐性感染症に対する最後の防衛線バンコマイシン</li>
+                    <li>現在の<span class="highlight">4つの主要課題</span>：
+                        <ul>
+                            <li>医薬品へのアクセスと手頃な価格の改善、患者負担の軽減、医療システムの公平性の向上</li>
+                            <li>医薬品の安全で信頼性の高い使用の確保、偽造品や未検査の模造品の危険性に関する教育</li>
+                            <li>疾患を持つ患者が感じるスティグマとの闘い（特に肥満などの疾患）</li>
+                            <li>患者やヘルスケア提供者に最適な時に正しいコンテンツを届ける、よりパーソナライズされたアプローチ</li>
+                        </ul>
+                    </li>
+                    <li>2024年に発表された<span class="highlight">Lilly Direct</span>：消費者向け医療プラットフォームで、患者の旅全体をカバー（情報アクセス、医師検索、遠隔診療、薬の直接配送、治療計画遵守のサポート）</li>
+                    <li>Adobeとのパートナーシップにより、コンテンツサプライチェーンを変革し、カスタマーインタラクションの計画、管理、測定を世界規模で実現</li>
+                </ul>
+            </div>
+            
+            <div class="qa-section">
+                <h3>Q&A</h3>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q13">
+                    <label class="question" for="q13">Q. Eli Lillyの現在の革新領域はどこですか？</label>
+                    <div class="answer">
+                        <p>Eli Lillyは現在、免疫学、オンコロジー（がん治療）、神経科学、心臓代謝健康の4つの分野で革新的な医薬品の発見、開発、製造に注力しています。これらの分野で最も困難な医療ニーズに対応する高品質な医薬品を提供することを目指しています。さらに、糖尿病、肥満、アルツハイマー病などの社会の最大の健康課題を解決するための画期的な薬の開発と、遺伝子医療の可能性の探求を進めています。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q14">
+                    <label class="question" for="q14">Q. Eli Lillyはどのようにしてアプローチを進化させていますか？</label>
+                    <div class="answer">
+                        <p>Eli Lillyは、「健康を何よりも優先する」というブランドの真実を体現するようにアプローチを進化させています。戦術ごとのアプローチから、患者が疾患と闘う全体的な旅を理解する包括的な健康アプローチへと移行しています。また、コンテンツ戦略も変革し、重要な文化的瞬間に説得力のあるコンテンツを提供することに焦点を当てています。これらの変更は、Coca-Cola、NVIDIA、Unilever、Procter & Gamble、Microsoftなど多くの企業から学んだ顧客とのつながりを改善するためのものです。</p>
+                    </div>
+                </div>
+                
+                <div class="qa-item">
+                    <input type="checkbox" id="q15">
+                    <label class="question" for="q15">Q. ヘルスケア業界の現在のトレンドは何ですか？</label>
+                    <div class="answer">
+                        <p>現在のヘルスケア業界では、個人の健康の旅に積極的に関わりたいと考える消費者ベースの成長が見られます。消費者は日常生活の他の決定と同様に、シンプルさ、パーソナライゼーション、目を引くコンテンツ、毎日の価値提供を期待しています。このような動向に対応するため、Eli Lillyはコンテンツサプライチェーンを変革し、顧客とのやり取りを計画、管理、測定する方法を改善しています。これは単なるマーケティングの問題ではなく、世界中の顧客とのインタラクションを変革するための取り組みです。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-terms">
+            <h2>重要な用語と事実</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>用語/事実</th>
+                        <th>説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Adobe Experience Platform Agent Orchestrator</td>
+                        <td>エージェント機能の可能性を最大限に引き出し、スケールでの1対1のパーソナライズされた体験を提供するための基盤。信頼性、透明性、セキュリティ、ガードレールを提供。</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe Brand Concierge</td>
+                        <td>Agent Orchestrator上に構築された新しいエージェント。消費者や顧客を探索から購入、ロイヤルティへと導くAIエージェントの設定と管理を支援。</td>
+                    </tr>
+                    <tr>
+                        <td>Firefly</td>
+                        <td>Adobeの生成AIモデルファミリー。画像、ビデオ、ベクター、音声、デザインなどを生成。商業的に安全で利用可能なコンテンツを提供。</td>
+                    </tr>
+                    <tr>
+                        <td>Gen Studio</td>
+                        <td>コンテンツサプライチェーン全体をコントロールするソリューション。ワークフローと計画、制作と作成、配信とアクティベーション、レポートとインサイトを提供。</td>
+                    </tr>
+                    <tr>
+                        <td>Adobe Content Analytics</td>
+                        <td>コンテンツのパフォーマンスに関する詳細なAI駆動型インサイトを提供。コンバージョントレンド、予測、異常検出、高パフォーマンスアセットなどを分析。</td>
+                    </tr>
+                    <tr>
+                        <td>カスタマーエクスペリエンスオーケストレーション</td>
+                        <td>生成AIとエージェント技術によって定義される新時代。コンテンツ、顧客データ、カスタマージャーニーがAIと連携して、パーソナライズされた会話型体験を提供。</td>
+                    </tr>
+                    <tr>
+                        <td>コンテンツサプライチェーン</td>
+                        <td>コンテンツの計画、制作、配信、分析までのプロセス全体を指す。Gen Studioを通じて効率化され、パーソナライゼーションとスケールを実現。</td>
+                    </tr>
+                    <tr>
+                        <td>AEPの規模</td>
+                        <td>Adobe Experience Platformは430億のプロファイルを管理し、毎日760億のアクティベーションを処理、100ミリ秒未満の応答時間を実現。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <p>Adobe Summit 2025 オープニングキーノート</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Q&Aの展開・縮小機能
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.qa-item').forEach(item => {
+                const question = item.querySelector('.question');
+                const checkbox = item.querySelector('input[type="checkbox"]');
+                const answer = item.querySelector('.answer');
+                
+                question.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    checkbox.checked = !checkbox.checked;
+                    
+                    if (checkbox.checked) {
+                        answer.style.maxHeight = answer.scrollHeight + "px";
+                    } else {
+                        answer.style.maxHeight = "0";
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

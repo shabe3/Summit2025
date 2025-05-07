@@ -1,0 +1,656 @@
+00:00:00:12 - 00:00:21:36
+不明
+B2B commerce session. So today we're going to be talking about, you know, AB and we're going to be talking about kind of their digital journey. And so myself and Maurizio, I'll introduce shortly, are going to be tag team in kind of through this presentation. So, my name is Scott Rigby. I'm the principal product marketing manager for Adobe Commerce focused on B2B.
+
+00:00:21:36 - 00:00:44:23
+不明
+And I'm going to be hosting today's session. So welcome all, hands up in the room, who went to the Adobe Commerce roadmap session with Jana? Oh, good. Excellent. I feel really excited about the the new releases that we announced today and, kind of the new direction for the technology. And I'll talk a bit more about what that means in respect of our product direction, later on in the presentation today.
+
+00:00:44:28 - 00:01:07:26
+不明
+So to start off, we're going to be talking about Abby's journey, right? So, Abby is, building multi-billion dollar conglomerate based out of Switzerland. They're focused on, electronics and, electronic manufacturing and electrification. And, Morris is going to do a much better job than me, I'm sure, and explaining kind of what they do and the types of products that they sell.
+
+00:01:07:31 - 00:01:27:29
+不明
+But they're going to walk us through their journey as they expanded globally. And talk about some of the, you know, the wins that that had, some of the challenges of the had, the journey that they're on and the direction that they're going to. I'm going to follow that up. We're talking about just from a Debbie Commerce perspective, what does our journey look like in respect of the technology as well as some customer case studies?
+
+00:01:27:34 - 00:01:43:37
+不明
+And then we're going to break it into a bit more of an informal session. We're going to have a fireside chat. I'm going to open up with some questions. We have some mics on the floor. And so I encourage you to, come ask myself or Maurice or Maurice the challenging questions, so that we can all learn.
+
+00:01:43:37 - 00:02:08:09
+不明
+Right? We're all here to be able to learn today. So without further ado, I'm going to welcome up, Maurice. Bernard. So, Maurice, looks after the, global e-commerce for AB and runs their strategy and adoption lead and like I mentioned, he's going to be talking about Abby's journey. So please join me in welcoming Maurice. All right.
+
+00:02:08:14 - 00:02:33:53
+不明
+Thank you. That's the biggest my face has ever been on a screen, by the way. Thank you for that. So, yeah, thank you for for for joining us here. And thank you, Scott, for the introduction. It's a real pleasure to be here. So I'll be talking a bit about our journey as, as we went through kind of at the beginning, introducing Adobe Commerce and where we are today and also what, what lies ahead of us.
+
+00:02:33:58 - 00:02:54:09
+不明
+And so and basically talking a little bit about, let's say, the good and the bad and, and also the ugly of a digital transformation. So first a few words on who is who are we, who is AB, talking a bit about why and how we are doing this, and then afterwards also about what we've done and also what's coming.
+
+00:02:54:14 - 00:03:20:31
+不明
+And then the juicy part, right, the mistakes we made and how you can avoid them. So, who are we? And I represent AB motion. Maybe you've heard of it in, in the US where, we're known for the border brand. So Border Motors has a huge, let's say, brand name in the US when it comes to electric motors.
+
+00:03:20:36 - 00:03:44:28
+不明
+So, motion is basically seven divisions, has about 22,000 employees worldwide, market size about $55 billion and orders of about 8 billion. This quick calculation gives you between 10 and 15% market share, meaning that we are the market leader in, and motors and drive. So you see that there on the right. Basically we sell two types of products motors and drives.
+
+00:03:44:33 - 00:04:10:32
+不明
+And also sensors and accessories, spare parts. So that's also part of what what we do. And just to give you a bit of an understanding of the complexity of the, the product portfolio and the dynamics that, that are in there is that you have motors and drives, and for the ones that are not familiar with motors and drives, motors, basically anything that creates motion and a drive controls the power of that motor.
+
+00:04:10:32 - 00:04:37:03
+不明
+So it's a basically a, a control device. And so it goes anything from, from a very small, let's say, to, from the size of, let's say, your fist or a doghouse to something that can then fill this entire room here. So you can imagine also the complexity when it comes to building an e-commerce platform. What that means, if you go more from the left side here, this is high volume, let's say made to stock type of products.
+
+00:04:37:03 - 00:04:43:41
+不明
+And if you move more to the right, these are more engineered to order products.
+
+00:04:43:46 - 00:05:12:45
+不明
+So now talking about really e-commerce. So so why did we do this and how did we do it. And and why is always a very easy question to answer is because our customers are asking for it. And what you see here is basically at the beginning, at the very, very beginning, before we did anything, in terms of technology or development or anything with, with Adobe Commerce is we ask them, we send out a global survey to about 3000 customers, got about 300 respondents.
+
+00:05:12:50 - 00:05:34:48
+不明
+And what they told us is that what you see here, as well as information, is the most important, what they're looking for in terms of online experience. And I think that's something we hear as well across other sessions. The ones that I've, that I've attended, and as and the typical, let's say, e-commerce, the ordering, the order placement is actually priority number four.
+
+00:05:34:54 - 00:06:01:49
+不明
+So this is ranked what you see here. And this really gave us our focus. You know, oftentimes I get asked the question I'm my job title is strategy lead. So what's what's your e-commerce strategy? Well, my personal opinion that e-commerce is never strategy. E-commerce is part of your strategy. So, but if you have to kind of say something about an e-commerce strategy, it's basically asking your customers what do they want?
+
+00:06:01:54 - 00:06:25:49
+不明
+And that becomes your strategy. And this is what we're trying to do as well with emotion, is trying to get this, implemented in a modern e-commerce platform. And if you look at if you take one step, let's say elevate yourself even above this, what is the common, let's say, denominator in all of this? It's the ability to self-serve.
+
+00:06:25:54 - 00:06:44:20
+不明
+So our customers are basically telling us, give us the facilities to look for information and place orders just to do it ourselves. We don't need you. We don't need your salespeople to. And actually, that gives us a delay, right? So you need to place an order in the evening. You want to have it confirmed immediately. If you need to do it through a salesperson.
+
+00:06:44:20 - 00:06:51:03
+不明
+This takes time, right? This also be available.
+
+00:06:51:08 - 00:07:12:07
+不明
+So also a bit more why do we do this? What do we want to get out of it? As a business AB, as a commercial organization, you need to get something out of it. Ultimately, online orders is what's on most people's, agenda. And why that is because it's easy to to track. It's it's easy to imagine what you mean with online orders.
+
+00:07:12:21 - 00:07:38:08
+不明
+And this also correlates with adoption, let's say, of an e-commerce platform, a modern e-commerce platform. But ultimately, if you look at the the value you want to get from a business from from something like e-commerce, but not only e-commerce, it's basically in AB. Two main things are important. One of them is productivity. So basically the orders you get with the with the amount of headcount you have, that's productivity.
+
+00:07:38:08 - 00:08:00:03
+不明
+So an increase in productivity and growth. And that leads to of course profitability. But these are the two main drivers let's say of anything we do in a business. These are the two main things we look after. You see that there as well in terms of in terms of objectives that we have. And there you also see something called increased efficiency.
+
+00:08:00:07 - 00:08:24:23
+不明
+And increased efficiency is the ability to be easier to do business with between customers and AB. And this is more an intangible one. But we see or we hear we hear from customers that AB is not always the easiest one to do business with. So how can we increase that? How can we make it easier? That's the increased efficiency part.
+
+00:08:24:27 - 00:08:47:30
+不明
+So now we know why we do it and what we want to get out of it. Let's start talking about the actual, e-commerce platform. And what we have built in the last couple of years is something we call AB shop, and this is a modern e-commerce platform for our partners and customers. And there's a few, let's say, design principles that we started off with.
+
+00:08:47:30 - 00:09:10:46
+不明
+And the one that is the most important one is standardization. It's standardized fashion. That we don't, for example, mirror our organizational setup to our customers. So you're looking at how do you, how do you serve your customers the way they want to be served? They don't buy from one single division out of the seven they buy from AB.
+
+00:09:10:51 - 00:09:32:46
+不明
+So today, just to give you an idea, we have multiple order intake platforms. Electronic order intake platforms. Not like we're starting from zero in this e-commerce journey, but every division had their own e-commerce platform or order intake platform. So how do you how do you bring harmonization to this landscape? That's what we try to do here as well.
+
+00:09:32:51 - 00:10:00:05
+不明
+And so standardize ation is is one one user experience. All divisions, all countries. Of course there is some let's say deviations from this. And that's the last point there. The deviations can be made, but it all comes down to one one platform where you maybe configure certain functionalities in some countries and you turn them off in other countries.
+
+00:10:00:20 - 00:10:24:21
+不明
+But ultimately there's one platform across, across the entire globe for all countries where we are actively. Another important one is that whenever we introduce a new e-commerce platform, this ab shop is that we don't go back in levels of automation or user experience. That's something we hear from customers from our business, is don't let us go back in time, right?
+
+00:10:24:22 - 00:10:45:23
+不明
+Even though it looks better, make it more efficient, or at least the same. So that's what we're trying to do here as well. And another important one is, what's what we've been, working on very hard is not to invent the wheel ourselves. So we use a lot of third party applications for things like, shipping information.
+
+00:10:45:28 - 00:11:09:02
+不明
+So, so that's, that's also one thing that we implement here in this platform. And with Adobe Commerce, this is, of course, a great platform to do that. There's a huge network and the ecosystem around this that allows you to easily integrate into many of these, third party platforms or applications.
+
+00:11:09:06 - 00:11:31:55
+不明
+So it's not clicking. Oh, that goes too far. All right. So even me, how does it look like just very quickly, from an architectural point of view, I'm not a technical person. So I will just go over this very high level. AB shop is based on Adobe Commerce, as we were saying. And, and there's a lot of services in the backend that we call to.
+
+00:11:31:57 - 00:11:57:58
+不明
+So we have Adobe Commerce is a very thin layer on top of existing systems and applications. And we we call the data from those application pricing data, customer data, real time into the front end and expose that to our customers brings a lot of challenges. But this is really where the value add is of, of, of a platform like, like App Shop or Adobe Commerce.
+
+00:11:58:03 - 00:12:21:46
+不明
+The integration layer is also key. And why this is key is that in a digital ecosystem, what you are building is not just for one front end. So e-commerce is just one front end, one application facing our customers. So how do you ensure you get the data out of your back end and not just integrate to one platform, but make that data available to multiple platforms and the entire digital ecosystem?
+
+00:12:21:50 - 00:12:50:19
+不明
+That's what that integration layer is for. And one other key, to our success, to be able to scale this was that we have a lot of ERP systems and an AB. I'm not going to tell you how many, but a lot. So how do you integrate with that? How do you make sure that you get all the relevant data out of all these different ERP that are customized to, to fit the needs of the local market?
+
+00:12:50:24 - 00:13:29:17
+不明
+And we have an order management system already in place, not in every country. And and what we do is we we call that order management system instead of the ERP systems that are there. And this allowed us also to go very fast. So basically this means implementing first where it's not there yet. The order management system. And then on top of that you build an e-commerce platform allow this allows you to move very fast from one country to another when you don't have or you have multiple different SAP systems or different kind of ERP systems.
+
+00:13:29:22 - 00:13:51:41
+不明
+All right. So what do we do so far? In terms of, from from a business perspective, you want to scale e-commerce. You want to do it fast. Ideally. That doesn't always go easily. And there's different dimensions when it comes to scaling. And this is what I'm in general, we talk about when we talk about scaling e-commerce.
+
+00:13:51:41 - 00:14:19:36
+不明
+There's three key let's say separate dimension. There's functionalities portfolio and and countries and by countries an extension of that as customers. So you get access to customers. And to start off you start off very small. And and here we for example to two pilot countries. And the main focus in the beginning was to go up. So what we did here is that needs to click.
+
+00:14:19:41 - 00:14:44:10
+不明
+There we go. So we went up. So we went up into the functionalities. We didn't bother too much about looking into other countries or more portfolio. We need to make the basics work. So that's what we did in the in the in the pilot countries. And then we move over to the other areas. An example of this is that, one of the our business is built on quotations.
+
+00:14:44:24 - 00:15:08:45
+不明
+If you're also in a B2B business, you also, I think recognize this, that customers they they typically ask us for better prices than they have agreed. And what that means is that now we don't want to facilitate in general, the quotation process through an e-commerce platform. It's a business decision. But the the conversion of a quote to an order is something the customer can do themselves.
+
+00:15:08:50 - 00:15:30:37
+不明
+So that's also something we introduced. But we introduced that only about a year ago. So we didn't do that when we started scaling across the other dimensions. So this also is to show that even though you build something, you build the core capabilities, but you don't need to have everything before you start scaling in the other dimensions. So this is also what we did.
+
+00:15:30:42 - 00:15:54:40
+不明
+And and if we talk about portfolio and actually this this slide is already a little bit older. There is how we built this. Is that we look at divisions that are in scope and some divisions are not in scope, as you can imagine, the more complex products and but the ones that are in scope also have some products that we cannot sell through e-commerce.
+
+00:15:54:44 - 00:16:18:09
+不明
+And but that gives you your e-commerce portfolio and in line with standardization. So you want your countries to be able to select their portfolio. You don't want to give a one size fits all to a country. So what's what we were able to do is create some sort of menu of portfolio that is able to be adjusted as well by country.
+
+00:16:18:14 - 00:16:32:23
+不明
+Now, one learning of this actually is that not many countries do this. So it's possible but not many countries do it. But the possibility is there for sure.
+
+00:16:32:28 - 00:16:50:55
+不明
+So this is the portfolio dimension. Now let's talk about the country dimension and how did we select the countries we went after and in general. And this was done all the way at the beginning we looked at what is the best fit for for a country for for e-commerce. Where do we start? So it's a very important question where do we start.
+
+00:16:50:59 - 00:17:15:29
+不明
+And you see there are two dimensions your external attractiveness and internal attractiveness. And if you look at your external attractiveness, you look at your market growth, but also, kind of digital, let's say affluence, in a country or digital maturity of a country, but also regulatory pressure and B2B. And if you're in the B2B, industry, you know that there's a lot of compliance involved.
+
+00:17:15:34 - 00:17:35:27
+不明
+So how how is the regulatory pressure looking in in some of these countries. And then you also look at the internal and there's a bunch of them here. I won't go through it. But basically a very important one is that it's not just about is that the that's at the back, at the back end in place. There's much more to it.
+
+00:17:35:31 - 00:17:57:06
+不明
+So one of them that we saw as being quite influential is the tactical dimension, which is actually at the bottom, basically tells you, you know, on paper, maybe this country doesn't look like the best option, but it's an influencer for other countries. So if we get it on the on the platform, other countries will look at it and they will follow.
+
+00:17:57:15 - 00:18:02:56
+不明
+So that's also something that we looked at.
+
+00:18:03:00 - 00:18:25:10
+不明
+Now this is this is where where it ended up. And in general, what this is, is more of a guidance. It's not to the letter or to the, to the decimal in terms of rating that we went through to these countries, this is more that gave us an idea of which countries, which wave of countries to go for first and maybe second, maybe third.
+
+00:18:25:15 - 00:18:47:26
+不明
+And our pilot countries were no surprise. These two. So now there are some learnings here. So and I do want to reflect that. Right. So so was this the right pilot countries to go for it. And the reason we took these countries especially the the the top right one, it looks very attractive. So this one is a no brainer.
+
+00:18:47:31 - 00:19:07:37
+不明
+And always have pilots. It's always a question a trade off of being able to go somewhere fast versus the importance of a market. And this one, the big one was a very important market. And and we went there and we learned a lot. It's still not done. So it's it's a it's a long journey. It doesn't all go as fast.
+
+00:19:07:37 - 00:19:39:49
+不明
+So it's, it maybe was a good pilot country. And what we learned is that especially in big markets, you need to have the local presence in of of your e-commerce team, even if it's a global e-commerce team. Have them locally, have them close in terms of proximity, ideally a time zone, for sure. And you'll be working. Oh, we we worked very close with the local team to define this to, to to define what is needed for, for this platform to work.
+
+00:19:39:54 - 00:20:02:30
+不明
+All right. Now where where are we today in terms of countries. So you saw a lot of them today were in 30 countries. So a lot of that graph you just saw, all of them are most likely all of them are already done by the end of the year going to 45 plus countries. I want to highlight a couple of them.
+
+00:20:02:35 - 00:20:32:03
+不明
+And, and this is by no means, a generalization. It's more an anecdote. And it's really good to, to understand the power of, of, of the Adobe Commerce platform. And a B shop, how we, how we name it and and for example, in Poland, what we see is that within no time, over 90%, over 90% of the orders that a country received went already through e-commerce within a year, 90%.
+
+00:20:32:08 - 00:20:59:32
+不明
+That's incredible. We don't see that in any other country. So the question is, what makes Poland so special or how can we apply that also in other countries in the and China? Also very interesting. Cases. And both of them we went from discovery. So understanding what we need to do to actually a customer placing an order in less than a year with Adobe Commerce.
+
+00:20:59:37 - 00:21:22:02
+不明
+So this is typically Adobe being American company. You would think that the more you move to countries like like China, this becomes more of a challenge. Yes, it was a challenge and it was a lot of work. We made it work and also with the help of Adobe, but also many of the partners that we work with. So, China and India are definitely even in big markets.
+
+00:21:22:02 - 00:21:29:32
+不明
+You're able to move very fast with something like this.
+
+00:21:29:37 - 00:21:55:47
+不明
+Then another topic that, everyone talks about even in the keynotes. Personalization. So personalization. What do we see under personalization and. Basically personalization I needed to to to to check this with ChatGPT what personalization in a B2B context means. But there is no I think there is no one way to define personalization. I think everyone kind of knows what it is.
+
+00:21:55:52 - 00:22:20:20
+不明
+But trying to make a bit sense of it, that's what I tried to do here. So, basically when you start and this is kind of a crawl, walk, run approach in terms of personalization, it's basically you start with a one experience for all, for all your users on the platform. And this can be, for example, as you see here, a standard catalog, you show just all your catalog on, on, on the, on the web shop.
+
+00:22:20:24 - 00:22:39:01
+不明
+And this is no different than for for any user that sees it product centric. That's also what we have. For example, if someone doesn't log in, you can go there to the web shop. Right now, you will see all our products, but it's very product centric, and no prices. So if you're not logged in to the website, you don't see prices.
+
+00:22:39:01 - 00:23:00:11
+不明
+But this is for everyone. So the next level, if we go and one level down, we see one experience for many users. And for example, if you look at translations this is typically where you get to. So we have storefronts in many and every one storefront per country. And there are translations done in each one of these storefronts.
+
+00:23:00:16 - 00:23:19:44
+不明
+And for all of the group of users in that country, this is a unique experience. Well, if you talk about maybe Dutch, not Spanish, Spanish, you have many more countries, of course. And but it's it's translations typically, again, this is not everything, but it's just to give an idea we go to the next level. It's one experience for few.
+
+00:23:19:48 - 00:23:43:29
+不明
+And and in B2B sometimes it makes sense to stop here. And why is that? You want to give one experience for, let's say, a company level where you talk about company specific, products, customer prices, company prices. You don't want that to differ depending on who's logging in. And we're seeing it and order tracking order status that as well.
+
+00:23:43:34 - 00:24:05:22
+不明
+So personalization goes to a level of one experience for few. And then the ultimate level is one experience for one. And there we see for example. And this comes kind of blows over a little bit from the B2C side. Right. So recommendations you can say filters. That's really what brings the view and your journey to a 1 to 1 experience.
+
+00:24:05:22 - 00:24:31:32
+不明
+One experience for one user. Now we're working on this. And some of these elements are, as I said, crawl run crawl, walk run. So also when it comes to blog posts, how do we make blog posts, for example, more relevant for the for the user that's looking at it? So do we. Do we show company specific blog posts or user relevant blog posts?
+
+00:24:31:37 - 00:24:46:45
+不明
+And when you go from product centric to maybe segment centric views of your of your storefront, this creates a more, let's say, tailored experience for your for your users.
+
+00:24:46:50 - 00:24:54:56
+不明
+Am I doing on time? Okay, good. Okay. All right. What's next?
+
+00:24:55:01 - 00:25:17:44
+不明
+We like to look at things through the point of view of the customer. So you see here this is the customer journey. This is a general one. But basically there are many interesting things still ahead of us besides the 45 plus countries that we're going to. It's also about keeping listening to your users or customers. We did that at the start.
+
+00:25:17:51 - 00:25:45:44
+不明
+We kept doing that throughout and in the future, what's coming is really institutionalizing this within the company. How do you bring that culture of, let's put the customer first. Let's not talk about what you want, what I want, let's talk about what the customer wants. And that really brings us success in these kind of cases and everything else that I will list here hinges on this.
+
+00:25:45:49 - 00:26:10:40
+不明
+The next one, I think everyone can relate to adoption. Always, always a hot topic. But basically we are building an e-commerce platform. An e-commerce platform is not for the entire customer journey. And it shouldn't be. It's very specific, specific to the buying part of the journey to driving adoption of this e-commerce platform at the core, is really one of the key things we're looking at right now.
+
+00:26:10:45 - 00:26:22:29
+不明
+90% in Poland is great, but not all countries are there. How do we get the countries there? So driving adoption?
+
+00:26:22:33 - 00:26:44:07
+不明
+Digital ecosystem I was talking about that as well. Today we have many applications that are facing our customers and customers. I was talking to a customer last week here in the US, and I asked him this question, do you need that your that the e-commerce platform is connected to other applications? He said yes, please do that. Please do that.
+
+00:26:44:12 - 00:27:08:08
+不明
+I want to make sure that if I need drawings later on and I know which order I place the product in, and I can just put the order number in there and get drawings. But yes, it's important. So it's not just because we love connecting applications and love the technology, and it's possible customers are asking for it. Personalization, of course everyone's doing that.
+
+00:27:08:08 - 00:27:32:56
+不明
+I think, but but really understanding your users and using the data you get from users to better tailor to keep tailoring and learning to, to to better serve your customers is self-service is so important. And understanding how you can do that more effectively and make it more efficient to work with the customers, work with us. That's one of the key things we're looking at.
+
+00:27:33:01 - 00:27:55:05
+不明
+And then the last one and not the least one, it's building the right teams. This is not been a one man show. I'm talking about it now, but there's a whole group of people, even here in the room that have been able to to to realize this. And as we move into the future, the ambition of AB is not just to stay where we are, it is to grow.
+
+00:27:55:10 - 00:28:11:12
+不明
+And you can only grow if you have the right people. So understanding how you build the right teams and how you get the right capabilities in the organization, that's going to be key.
+
+00:28:11:17 - 00:28:31:55
+不明
+I think that that's it. In terms of what we did. Well, now let's talk about the things we didn't do well and I was talking already about the pilot countries. So the big one. So we have basically two worlds within AB, one that goes on the order management system and one that doesn't have the order management system.
+
+00:28:31:59 - 00:28:55:17
+不明
+So in the beginning what we did is we we built two types of our storefront, one that goes directly to our ERP system and one that's built on the order management system. Is it right? Is it wrong? I don't know, but what is very important is that these are two different kinds of capabilities you need in the back hand to understand how to get the data into the front and expose it to the customers.
+
+00:28:55:22 - 00:29:18:16
+不明
+And that's something we haven't emphasized enough. So what we saw is that we thought that both of them are equal, and we could do it with the same group of people. And what turned out is that actually it is very different understanding your ERP landscape and how that ties into how data goes up to the front end is extremely important.
+
+00:29:18:21 - 00:29:49:10
+不明
+So that's one then, something about vision. So what we managed to do is oversell, oversell the vision of e-commerce. We thought we could do a lot of innovative stuff already at the beginning, but it took us a long time. It took us a long time to get it right. So we promised things like punch. I already had it on the screen here, marketplace and online marketplace, which sounds great and is really wonderful.
+
+00:29:49:15 - 00:30:12:02
+不明
+But if you cannot get the basics right, you know, any anyone in the management team of any company would say focus on the core before you branch out into new things and our vision was also based on branching out into new things. So we needed to recalibrate that as well, not only within our team, but also within the organization.
+
+00:30:12:07 - 00:30:22:37
+不明
+So so that's something that I think we also looking back, we should have done a bit differently. How do you really focus on the core. Get that right.
+
+00:30:22:42 - 00:30:52:33
+不明
+Then what is also important to know AB is that's the next mistake. AB is a decentralized organization, which means that divisions and countries have a lot of autonomy to define how they set themselves up. And just because on paper it looks simple doesn't mean that it is actually simple. So taking some time beforehand to really understand how does the landscape look like?
+
+00:30:52:38 - 00:31:10:18
+不明
+Are the processes set up properly and is it being used properly. Goes a long way then. And then when you introduce an e-commerce platform to actually get it working. So we saw that a lot. We thought it looks good, systems are there. We didn't look too much into the processes because we thought some countries are just like others.
+
+00:31:10:23 - 00:31:34:25
+不明
+And then we came with an e-commerce platform and suddenly prices didn't show up. Customer data wasn't right. So taking a step back, doing the homework a bit more and not treating every country like they are the same, would allow us to get a bit more speed in some of the countries that we that we have life today.
+
+00:31:34:30 - 00:31:53:59
+不明
+That's it. All right. Over to you back, Scott. Thank you, thank you. Marie, sir, Maurits will be back up again, in a fireside chat and Q&A shortly. So, like I mentioned, I'm going to be talking about, Adobe Commerce in respect of kind of our B2B in this kind of a short journey in respect of B2B to start with.
+
+00:31:54:04 - 00:32:11:31
+不明
+Now, this first slide is really talking about, you know, things I've never been this fast, nor would I ever be this slow again. And I was just sitting and reflecting on it. This is a Justin Trudeau quote, which probably hasn't aged that well in the current climate of, tariffs. But I created it before the tariffs came in.
+
+00:32:11:31 - 00:32:32:19
+不明
+So, but B2B, you know, for B2B, a lot of what we see. Right. It's it's challenging. Right? Everything is moving so quickly. And a lot of our B2B businesses we've got sort of are the legacy systems in some cases what we we see and I have a Japan Asia-Pacific role. I travel around a lot, meet with a lot of customers.
+
+00:32:32:33 - 00:32:57:20
+不明
+We sometimes in PDP businesses have what I call analog leadership, leaders that have been there for a very long time, started their careers before kind of this whole digital revolution started. And, you know, I don't necessarily have the risk appetite to, to make, you know, massive quick investments. And so it's challenging. Right. But at the same point in time, from a B2B perspective, we've made big changes over the years, right?
+
+00:32:57:20 - 00:33:27:37
+不明
+Where the be the industrial revolution, where we've changed effectively, you know, from manual labor to steam or we've changed processes with Kaizen. This is the the Japanese process of improvement in the 1970s. And then more recently is this change from the way that we sell right? We used to have Rolodex, we used to have phones, we used to have fax, etc. and now we're having to change, you know, and I think Covid really disrupted that kind of face to face or these sort of legacy type relationships that we have with customers.
+
+00:33:27:42 - 00:33:56:51
+不明
+And so we continually having to disrupt ourselves and change. And as long as we recognize that we've made it through every single time, we understand that we're on the path to to a renewed focus around the business. Now, it doesn't necessarily come without, some challenges. Right. And those challenges can be compounded, whether it be from a integration perspective, it might be poor data quality, it might be, you know, a lack of strategic direction or the risk appetite that I talked about before.
+
+00:33:56:51 - 00:34:20:21
+不明
+Right. All of this comes with challenges. One of the most common things that I hear when I talk to, B2B organizations is that they say our business is complex. It's too complex to be simplified by technology. Right. And so hopefully, you know, through this presentation and other presentations that you're going to hear over the next couple of days, we're hoping you understand that we can distill that down.
+
+00:34:20:21 - 00:34:41:36
+不明
+I don't disagree that there are some areas that are still going to be complex for business. They still going to be challenging to overcome. But certainly technology has moved rapidly to help address some of those challenges that you face. Now, what we also face is this dichotomy or the yin and yang, right, which is, internal changes as well as external changes.
+
+00:34:41:41 - 00:35:08:00
+不明
+Now, the internal changes being things like, procurement. Right. So obviously we sell to, to B2B businesses, they have procurement managers, you know, whether we like it or not, those managers hands up in the room who are millennials as a few the few millennials in the room. Right. Some people probably put their hand up. Not really millennials. But you know, 70% of procurement managers are millennials, right?
+
+00:35:08:00 - 00:35:32:49
+不明
+And they have this expectation around how how we interact with them. You know, Maurice, talked about his customers pushing their business to adopt these B2B digital transactional ordering capability. Right. And and that's partly because the people that are making those decisions, they've got great, personalization. They've got great B2C transactions in their personal lives. They actually want it in their business lives.
+
+00:35:33:01 - 00:35:55:25
+不明
+And there are stats to show that these, these millennials have a high demand for personalization in their put in the work lives than they do in their personal lives. And their personal lives are really amazing, right? To a degree, we I'm sure of it. We can always improve but actually have a high expectation. And so if we don't deliver that personalization, to these, customers there effectively will be deflect.
+
+00:35:55:25 - 00:36:18:08
+不明
+They in a lot of cases their influences as part of the purchase decision on the outset, looking externally outside of the business is also this idea that, you know, we continue having to evolve, right. Other would that be the product mix that we offer? The the states or the countries that we operate in? Right. The business units or merchandise categories that we sell to is continually evolving, right?
+
+00:36:18:13 - 00:36:44:18
+不明
+Standing up our own fulfillment centers all comes with these external challenges that create additional complexity for our businesses that we continually dealing with. Now, Adobe Commerce and our B2B capability has been around for a very long time. I want to spend a lot of time diving into it, but, I will talk about some of this stuff in the next couple of slides that we have released recently, and what's on kind of the future roadmap for the rest this year.
+
+00:36:44:23 - 00:37:04:56
+不明
+Suffice it to say, we have this ability to be how be able to handle complex procurement processes. Right? We talk about this. This complexity comes up all the time. Right. And, you know, you know, organizations the same. Some of your customers might say have look, we're okay for 1 or 2 individuals to sign off an order. That's under 100 K.
+
+00:37:05:07 - 00:37:26:24
+不明
+But maybe for another customer they might have a different requirement. Maybe it's only under 25 K. If you want to get up to 100, that's going to take, you know, three different individuals in your organization to be able to sign that off. We have things like seller assist. We have quote templates to be able to help customers that regularly order from you with roughly the same product mix, be able to do that time and time again.
+
+00:37:26:24 - 00:37:57:27
+不明
+And they could do that with sort of single click, or we can streamline that down to very few clicks. And they not having to recreate that quote time and time again. And we've also scaled up the the scaling between the, how scalable and robust the technology is. Right. If you were in the roadmap session today, you would have heard around our, composable data model that we're rolling out and is available, on our, PA's solution and is coming shortly to our e-commerce optimizer and cloud service solution.
+
+00:37:57:32 - 00:38:18:05
+不明
+And we continue to and, and, you know, put rigor around this technology. And I'll talk a bit more about that shortly. Now, I'm going to talk very quickly about some of the other areas that we've deployed. Capability. This is recent right in this is actually October last year. So making sure that you're aware of it. Right. So when we talk about buyer groups does everyone understand.
+
+00:38:18:05 - 00:38:39:08
+不明
+Put your hand up. If you understand what a bi group is a few hands in room okay. So by groups effectively for larger organizations they have bi groups Adobe has a bi group. So we have individuals that form part of a group let's call it group. And you might have group B and group C and Group A can buy for this might be geographically structured.
+
+00:38:39:08 - 00:39:00:55
+不明
+So they might be able to buy for anything that is applicable to North America. Or they might be the European group, or there might be the Asia Pacific group, or there might be across a specific function. Let's take Kellogg's example. They might have a cereal group, they might have a snacks group or organics group or whatever. They those buys by for those individual groups.
+
+00:39:00:55 - 00:39:19:17
+不明
+Right. Or might be brand related. Right. And we can use a number of examples around automotive brands that have the parent. But those buys by for individual brands within that group. And so some buyers might have the ability to buy in just for a single company. But in a lot of cases they're buying for a multitude of company.
+
+00:39:19:17 - 00:39:39:44
+不明
+And in some cases we have, buy groups that overlap. Right. And so what we've given you here, this is part of our 1.5.0 release that happened in October, was this ability to be able to very quickly, easily jump between these companies, to be able to buy and persist those shopping costs and be able to order for those companies.
+
+00:39:39:49 - 00:40:04:18
+不明
+Now, the other thing that is a request that we have had from our customers is to have a similar capability for admin that is coming in April. So I know a couple of you been asking for for a while. It is coming in, the release next month. So something to look forward to. Just to kind of, you know, continue with this thread a little bit around sort of, you know, company accounts and boy management is also the lens around, you know, is a conglomerate.
+
+00:40:04:18 - 00:40:27:57
+不明
+You might be operating across a number of different industries that could also be, a mixture of just B2B type businesses or that might be a mixture of, you know, B2C and B2B type businesses. It could be for global companies, it could be for those B2C, B2B or B2B to see kind of mix. And so this just gives you a high degree of, flexibility to be able to buy across those groups.
+
+00:40:28:02 - 00:40:47:22
+不明
+What does it look like on the front end? We call this the storefront context switcher. We're not great at naming our products, but it can be a bit of a mouthful. But in this case, what we what we see here is the you will actually have a dropdown within the actual interface. Right. So this is where a buyer could be buying.
+
+00:40:47:27 - 00:41:07:22
+不明
+They've got an order from a specific group. They're going to very quickly swap between those individual companies as they make those purchases. And so they can you can very quickly do that. And as they swap between the companies, there might be different contracts that are being negotiated. Right? There might be different pricing, there might be different products that are available to that specific company.
+
+00:41:07:27 - 00:41:28:18
+不明
+Right. I'll give you an example. Right. So the, the buying group for Asia Pacific for Adobe that might be buying HP laptops. Right. Well, the products that are available for Australia are going to have the Australian electrical plug on it versus the ones that are available in Asia versus the ones that are available in India. Right. And so you're not going to show the same product catalog.
+
+00:41:28:18 - 00:41:57:04
+不明
+There's also going to be difference in pricing. And so as that buyer shifts across that they'll be able to see the different products, the different pricing that's available and be able to create these, the shopping carts for that. Then from a template perspective, the ability to be able to create these templates, to be able to create very sophisticated quotes, we can and until recently, we could provide quotes at, a template level and a line item level.
+
+00:41:57:04 - 00:42:21:41
+不明
+We're expanding that capable. We have expanded that capability. So you can now also set this up as part of the ability to be able to order you. Like I mentioned you might have, we had a customer in New Zealand that is their, their meat business. They service a bunch of restaurants. Quite often these restaurants are ordering roughly the same, product mix every week, and they want to be able to simplify that.
+
+00:42:21:46 - 00:42:39:40
+不明
+So what we can do now is we can actually stand up this query template with from negotiated pricing already embedded in that, maybe that pricing is negotiated. It's part of the contract. And we can either set, a date limits on it, or we can set, a number of times the actual query template is actually use.
+
+00:42:39:54 - 00:43:08:15
+不明
+And that will then expire. And we then renegotiate and recreate, recreate the quote. And so we're giving you more ability to be able to manage this kind of you know, a much more sophisticated court application process. Now, you would have heard, hopefully for those that were, you know, at the keynotes, this morning, but also within kind of the roadmap session that we just finished is around this ability to be able to handle or deliver what we call now our cloud service.
+
+00:43:08:26 - 00:43:34:57
+不明
+So we have our on prem capability. We have our platform as a service. And now we've brought in our product offering to actually include, Adobe Commerce as a cloud service, which is a fully SAS service. I want to spend a huge amount of time diving into this. I will talk about this in respect of B2B shortly, but effectively this will allow you to be able to, you know, obviously deploy very quickly, deploy to new regions, deploy new brands and into new markets.
+
+00:43:34:57 - 00:44:05:46
+不明
+And it comes with a host of additional capability around asset image creation, etc.. For our commerce, our ECR. So E-commerce optimizer products, a lot of B2B businesses have incumbents, commerce solutions. Right. This might be competitor solutions like and SAP. Right. But it's so embedded in the business and they don't have quite often B2B businesses don't necessarily have the same degree of risk appetite as B2C businesses.
+
+00:44:05:51 - 00:44:35:04
+不明
+One of the things that we found is that it's really they want to deliver amazing, shopping experiences for their customers, but the technology's really embedded. It's going to cost them a lot to be able to rip it out. And so with our Commerce Optimizer solution, we can now layer on top of any, commerce solution that you might use in, within your business and still provide that amazing, highly performance, commerce experience on top of whatever transactional solution you want to be able to use.
+
+00:44:35:17 - 00:44:57:40
+不明
+Right. And so we're obviously now streamlining that. We're allowing you to be able will ingest your product information from your PMS. Your ERP is it could be multitude of it might be organically built with in-house etc. we can ingest that and then deliver this amazing, you know, B2B experience on the front end. You will also heard hopefully about our catalog.
+
+00:44:57:40 - 00:45:25:09
+不明
+So we've kind of gone through a number of different iterations around our catalog. The latest iteration of this catalog, again, we call this the composable commerce data model. And it can handle 250 million SKUs. More importantly, it can handle 30,000 different prices for each individual skew. We can ingest information what would have taken potentially days if you had to do your entire catalog.
+
+00:45:25:09 - 00:45:45:35
+不明
+We can now do within hours. Right. And so we can start and we can deliver a highly performing front end on. So we have what's called policies and channels. Now if you really if you're interested in this, and I imagine most of you in this room, particularly around B2B, are faced with catalog challenges around pricing challenges, I encourage you to go to the session that's on later today.
+
+00:45:45:35 - 00:46:11:42
+不明
+It's at 430 where we're talking about our Commerce Optimizer solution. But essentially this allows you to have a single catalog. No matter whether you're selling to, direct to one of your own OEM businesses within a particular country, or maybe selling through a distributor, that's then on selling to another, retailer or whatever it might be. You're trying to handle a whole lot of complexity in respect of your SKUs, your pricing and so forth.
+
+00:46:11:47 - 00:46:34:44
+不明
+This effectively is the solution for that, right through our policies and channels. You can then start to filter out which products, which prices are available, in which market, to which reseller or distributor or retailer or whatever that might be. Right. So I encourage you to go to that session and then, a last couple of slides here. What's happening in respect of our edge store front.
+
+00:46:34:44 - 00:47:08:34
+不明
+So edge is our highly performant front end right now that's been available with our BDC capability, what we call drop ins, that's been been available now for about nine months now. B2B in respect of our B2B capability available on this on our edge service is going to be available by the end of the year. Right? So these, drop ins that you can see up on the screen, they're going to be available and you're going to be able to get, all of the benefits that you would have heard about from edge in respect of, you know, high degree of indexation by search engines.
+
+00:47:08:34 - 00:47:30:27
+不明
+Right? Meaning that you get, you can decrease your paid spin because you're getting the same indexation and traffic that you would have got that you had to pay for previously. Right? You're also getting a highly performant front end for, quicker is kind of the standard of what we've seen from a lot of customers. And so all of this capability is coming by the end of the year.
+
+00:47:30:32 - 00:47:51:58
+不明
+Then we're also going to be releasing, a storefront, a B2B storefront, blueprint of templates, which, you know, those that that have seen some of our demos, we call this the bodega one that's can be released as part of it very quickly. I want to talk about some successful customers on B2B to give you some understanding of kind of the enterprise grade of this technology.
+
+00:47:52:03 - 00:48:16:04
+不明
+So, hopefully most of you would have heard from Coca Cola when you if you watched the keynote this morning. They've done an amazing job in respect of deploying Adobe Commerce, within Africa. Now I am from South Africa. And so it's a really challenging environment to be able to operate in. Each of the countries operates independently, they've got different payment solutions for each country, etc. they're actually deployed now in more than five countries.
+
+00:48:16:18 - 00:48:40:19
+不明
+They have over. Yeah. This is this is a, case today that we did a few years ago that at that point in time they're at 74,000, over 100,000. Now, B2B, businesses that are buying from them right now, this is large scale supermarkets. It's restaurants, it's petrol stations, but it's also hawkers in the street, right, that are buying through, through through them using Adobe Commerce.
+
+00:48:40:24 - 00:49:01:50
+不明
+The really interesting fact that I find is that they they're going to commercialize this capability. So they're going to take the ability to be able to, store, fulfill supply chain, deliver that to B2B sellers and offer that to adjacent partners, like to tobacco companies, etc., and be able to open up this ability to be able to monetize that capability.
+
+00:49:01:55 - 00:49:26:03
+不明
+Really interesting use case. And then we've got here as well quest. Right. So quest is a flooring company. Also do roofing, one of the biggest companies in the US. And they've seen phenomenal results as part of building this B2B portal. Right. They've seen increases on average order value of 61%, their transactional volume has gone up more than 400%, and their revenue is up 633%.
+
+00:49:26:08 - 00:49:54:15
+不明
+And then lastly, it's here. And, you know, anyone that's operated within kind of the the automotive arena understands that it's always challenging to deal with dealerships. A lot of these dealers are also franchisees. They've got their own opinions on how the business should be run. But Toyota uses Adobe Commerce again and then branch to deploy this to over 200 dealers, and managed to do that in a very short amount of time and be able to manage the pricing and the product allocations and so forth that come along with that.
+
+00:49:54:20 - 00:50:11:17
+不明
+So I think that gives you an understanding of kind of what's happened from Adobe, some of the new releases and some of the the feature functionality that's going to be on the roadmap, surely. Obviously, like I mentioned, I encourage you to go to the the Commerce optimizer session later on today. We're now going to jump to the fireside chat.
+
+00:50:11:17 - 00:50:26:49
+不明
+I'm going to ask a few questions, but I do encourage you to come up to the mics and ask, Adam Morris myself. Some questions. Well, obviously you want to learn from all of you and we want, you know, hopefully you get kind of the answers to the questions that you want to hear. So I'll call up Morris.
+
+00:50:26:49 - 00:50:32:22
+不明
+We'll pull up a couple of chairs. It's going to be somewhat informal.
+
+00:50:32:27 - 00:50:53:42
+不明
+All right. Okay, Morris, let's start with the first one. You know, major shifts in customers. Now I talked about this in respect of obviously, you know, demographic changes in respect of customers. But what have you seen in your industry and how is your how has your business adapted to them. And obviously you operate in multitude of countries. So there might be a slightly different lens for each.
+
+00:50:53:47 - 00:51:15:03
+不明
+Yeah, I think the key here is that customers are asking for more and more information when they need it and where they need it, and that's, I think, the major shift that we, that we've seen, traditionally e-commerce was was mainly around order placement. So that's that was the need. And we have platforms that do that. So what we're building is not another order placement tool.
+
+00:51:15:07 - 00:51:31:31
+不明
+What we're building is a tool that can allow us to self-serve around the buying journey. So I think that is really what we've seen in terms of shifts and expectations, is that we need to have information and we need to be able to do what we want to do when we want to do it and where we want to do it.
+
+00:51:31:38 - 00:51:54:39
+不明
+Yeah. You, you talked about some of your your learnings. Let's talk about some of those in respect of like challenges for your organization. Now, that could be technology focused or it could be sort of organizational focus. What were some of those those challenges in respect of just your your commerce journey, adoption, deployment, rollout? Yeah. I address some of them.
+
+00:51:54:39 - 00:52:20:30
+不明
+So I won't repeat that. One challenge that we see now, we have the technology and 30 countries. Adoption is a major challenge. Adoption is a major challenge. And and being able to understand why adoption isn't happening, that's the key challenge. That's the key challenge. So how do you bring data into this conversation. Right. This is a technology project or program or initiative that most likely you're also running.
+
+00:52:20:35 - 00:52:44:35
+不明
+And it's easy to blame technology why things aren't working. So we've done actually some analysis. And this is more anecdotal. Again, because we're working on kind of how do we institutionalize that? We looked at one country and we said for the last month, let me see the, let's say, customers that placed less than 70% of their, their orders online or through a shop, the top five, right, in terms of volume.
+
+00:52:44:37 - 00:53:05:20
+不明
+So we don't boil the ocean, we don't look at everything. We just look at the top five. What are the reasons ordered line by order line. Right. So why do we go through. And surprisingly technology was a big one. But and it's the next big one is also people. People processes data. Those are a lot of reasons why things adoption isn't happening.
+
+00:53:05:25 - 00:53:29:14
+不明
+And for example and this is a I think it's a funny anecdote. Some orders were not placed because someone on the customer side was on vacation. So they sent an email. So, you know, this is what what you what you see in the numbers. If you look at this from a holistic perspective or high level perspective, but going into the data and understanding why things aren't working and then addressing them, that's the key challenge.
+
+00:53:29:28 - 00:53:39:01
+不明
+Any quick wins for getting customers to rapidly adopt? Oh, if you know, if you know that, let me know.
+
+00:53:39:06 - 00:53:57:41
+不明
+Obviously from a technology perspective and, you know, a lot of people in the room, would have heard today and respect that. We've talked about sort of AI we talked about automation, and, you know, sort of data driven decision making, you know, what are your thoughts in respect of kind of these technologies and how they transforming B2B?
+
+00:53:57:46 - 00:54:15:41
+不明
+I mean, yes, they they will transfer. I mean, this is a very broad topic. Let me just highlight something I learned last week. I was talking to you about the customer I was, I was meeting. I also asked him the following. I said that the the conversation was around. You need documentation. Then we have the platform now.
+
+00:54:15:41 - 00:54:38:49
+不明
+But now they need documentation. They need documentation around product product documentation, but also once they place an order order documentation. So I asked him, what if you have an agent and you just say, I want the product documentation of this particular product and this this agent, you know, with an AI model in the back could fetch that out of the back end and then present it to him and, and I asked him, would this be valuable to you?
+
+00:54:38:49 - 00:55:03:33
+不明
+And he said, you know, it's he said, you know, I use this in some other, commerce platforms. And he said, I think it's fun. Now, that's not the reaction you want when you implement a technology that it's fun. You want to make their life more efficient. And so I think the real challenge or how it should be developing is understanding how customers can use this.
+
+00:55:03:38 - 00:55:31:51
+不明
+And the real reason why he was not really using this was because he said it was fun. So he did not take it serious or he could not take it serious. What came out of it, because he knows the limitations of AI, but also his company had policies against using AI so he could not actually use it. So while we think this will solve our problems and it will be great and wonderful, you know, five years down the road, is it actually do we have the right environment that this can can take off the point?
+
+00:55:31:56 - 00:55:56:07
+不明
+So what would you give, in respect of advice to other enterprise leaders that are looking to kind of modernize their infrastructure while balancing kind of the obviously short term ROI? But in a lot of cases, as you pointed out, in respect of your own journey, it can be it's a long term digital transformation project. Yeah. Emphasize on the on the value you bring to an organization.
+
+00:55:56:21 - 00:56:25:05
+不明
+Start small. So we started with two, two countries and it's being able to demonstrate along the way how you were generating value, how you were able to to realize what you say that you're doing. And, and for us at least this helps a lot is to really communicate, emphasize what is the value you're bringing to the organization, how what you are doing today ties in to where you want to go and show these wins, even if they're a small show, these wins to management, to your organization.
+
+00:56:25:05 - 00:56:53:18
+不明
+And this helps build up the trust because short term ROI, that you're not going to have that so much in these kind of things. It's expensive. I mean, in terms of, costly, more than expensive, right? I mean, it takes a lot of effort. Technology, everything comes comes together, and it takes time. It takes time. So being able to show quick wins or wins at least, or communicate those wins when they, when they happen, helps build the trust that what you're doing is on the right track.
+
+00:56:53:32 - 00:57:11:19
+不明
+Great. Last question. Before I, I'm going to hand it to the floor. So if you have a question, feel free to kind of stand up. If you could go back and change one thing in respect of kind of your digital transformation so far, what would that one thing be? Yeah, we also talked about that.
+
+00:57:11:24 - 00:57:34:18
+不明
+But if I want to, if I want to summarize that, I was basically, you know, I said in the beginning, the good, the bad and the ugly. I didn't touch upon the ugly one. It can get ugly if you take your focus off the people. So it's a technology space. But if you lose the focus of the people and your organization, the people you work with, people have knowledge of your organization, how you built that into a digital ecosystem.
+
+00:57:34:23 - 00:58:04:41
+不明
+I think that is something that, that that needs to have extreme focus. And sometimes we lost track of that focus. So that is that is my main, main takeaway. Okay. All right. Jonathan, thank you so much for all those insights. Just building on your point about people, and also adoption. I'm really interested to hear how you worked with your sales team, so that they would, be, you know, promoters and not feel threatened by 90% of orders now coming through this platform.
+
+00:58:04:46 - 00:58:34:16
+不明
+Yeah. So what what we, as a as design principles as well said we don't change the business model. So focus allowed us to, to really change something in a little small area while not disturbing the rest of the business. So what this means in terms of sales salespeople is that the compensation, and, and the, the same incentives they got for the, the orders that they bring in did not change if the orders were placed through e-commerce or through a phone call.
+
+00:58:34:21 - 00:58:51:35
+不明
+So this is this allowed us to to enable the salespeople to, to go out there and say, you know what? Here's a beautiful tool that you can use and, you know, let's have a talk about, you know, what really adds value to you. And then when you want to order it, you can do it whenever you want. Right.
+
+00:58:51:40 - 00:58:56:03
+不明
+So good. Any other questions?
+
+00:58:56:08 - 00:59:15:44
+不明
+Sorry I'd like to say we have roving mikes, but unfortunately we make you get opt for them. So, we're gonna have to burn a few calories. I have a two part question, and the optimizer is a separate product can require separate licensing. How do we talk to our customers about that? And is it based on am.
+
+00:59:15:44 - 00:59:33:50
+不明
+So if as an agency partner, you have to build a practice around it, would it require your resources to be trained on Em? Is it based on a industry? It's got components of of Am in it. Right. So if you think about it, we all ladder up to the same leader, right? So Lonnie Storch who runs both content and commerce.
+
+00:59:33:50 - 00:59:52:24
+不明
+So frankly, from a commerce perspective we're grateful for that. But effectively you think about I talk about sort of the edge delivery service, that is coming from Am, but we are obviously applied it into the shopping experience. So PDP's etc., you know, that that is, it's being applied on the store front side, you know.
+
+00:59:52:27 - 01:00:15:28
+不明
+So, and then when you think about it from a catalog perspective, the catalog is is universal, right? It's the catalog that's available within a cloud service. So also sorry, Gary, the catalog that you have available within paths. Yeah there's capabilities. There are merchandizing service. Yes. There is some merchandizing capability around image generation and around variations, AB testing etc..
+
+01:00:15:33 - 01:00:34:52
+不明
+But to a large degree, if you think about things like live search, recommendations, merch, the baseline merchandizing, it's the same that you have in past that you have available in cloud service, that you then have available in Commerce Optimizer, and it's a separate license. It is a separate license. Yeah.
+
+01:00:34:56 - 01:00:57:22
+不明
+Keep in mind that, you know, for these customers that are considering it, they have a third party transactional system in place. Right. So it is a separate license. Any other questions? I think there was one over here. I didn't want to climb over people's feet to get to that point. Anyone else? Okay. Well, we might, we might wrap it there.
+
+01:00:57:27 - 01:01:02:47
+不明
+So if you could join me in a warm thank you to Maurice for sharing his knowledge. Okay.
+

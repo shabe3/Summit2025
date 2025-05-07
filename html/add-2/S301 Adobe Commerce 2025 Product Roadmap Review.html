@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S301 Adobe Commerce 2025 Product Roadmap Review.mov</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            color: #444;
+            margin-top: 20px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .summary {
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        .important {
+            font-size: 1.1rem;
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 4px solid #0f3c78;
+            background-color: rgba(15, 60, 120, 0.05);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #0f3c78;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            text-align: center;
+            color: #777;
+        }
+        .faq-container {
+            margin-top: 15px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        .faq-question {
+            background-color: #f0f4f8;
+            padding: 10px 15px;
+            cursor: pointer;
+            position: relative;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .faq-question:after {
+            content: '+';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+        }
+        .faq-item.active .faq-question:after {
+            content: '-';
+        }
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background-color: rgba(15, 60, 120, 0.05);
+            border-radius: 0 0 4px 4px;
+        }
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Adobe Commerce 2025 製品ロードマップレビュー</h1>
+        </header>
+
+        <div class="section">
+            <h2>サマリー</h2>
+            <p class="summary">Adobeは2025年に向けて、Adobe Commerce製品を大幅に刷新し、<span class="highlight">完全SaaS型のクラウドサービス</span>として提供開始します。これにより、アップグレードやパッチ適用の負担がなくなり、カスタマーエクスペリエンスが向上。また、既存のコマースバックエンドと連携可能な<span class="underline">Adobe Commerce Optimizer</span>も発表されました。</p>
+            
+            <div class="important">
+                2つの新製品「Adobe Commerce as a cloud service」と「Adobe Commerce Optimizer」は2025年6月に一般提供開始
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>市場の現状</h2>
+            <p class="summary">2024年のeコマース市場は急成長し、オンライン消費が初めて1兆ドルを超え、モバイル支出もデスクトップを上回りました。B2B市場も急拡大しており、デジタルエクスペリエンスへの期待が高まっています。</p>
+            
+            <h3>市場データのハイライト</h3>
+            <ul>
+                <li>2024年の総オンライン支出：<span class="highlight">1.05兆ドル</span>（初めて1兆ドルの壁を突破）</li>
+                <li>モバイル支出：<span class="highlight">5,000億ドル以上</span>（初めてデスクトップ支出を上回る）</li>
+                <li>B2Bのeコマース売上：オフライン販売の<span class="underline">200倍以上のスピード</span>で成長中</li>
+                <li>B2B顧客の83%が豊かなデジタル体験を期待</li>
+                <li>ミレニアル世代がB2B購買決定の73%を担当</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 現在のeコマース成長の主な原動力は何ですか？</div>
+                    <div class="faq-answer">現在のeコマース成長はプロモーションや割引によって促進されていますが、Adobeはより価値主導の成長モデルへの転換を目指しています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. B2B市場の特徴的な変化は何ですか？</div>
+                    <div class="faq-answer">デジタルネイティブなミレニアル世代がB2B購買決定の73%を担い、高品質なオンライン体験を期待しています。これにより、B2Bでもコンシューマーレベルのデジタル体験が求められるようになっています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ビジネスが直面している主な課題は何ですか？</div>
+                    <div class="faq-answer">主な課題は、運用コストの削減、アップグレードコストの削減、サードパーティサイトとの差別化、そしてB2Bビジネスにおけるより複雑なユースケースのサポートです。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Adobe Commerce as a cloud service</h2>
+            <p class="summary">Adobe Commerceのスタック全体が、Adobeが管理するSaaSとして提供されます。マルチテナント、フルスタックのeコマースプラットフォームとして、ストアフロント、マーチャンダイジングサービス、ネイティブのデジタルアセット管理、開発者プラットフォームを含みます。</p>
+            
+            <h3>主な特徴と利点</h3>
+            <ul>
+                <li><span class="underline">完全SaaS：</span> Adobeが管理するため、アップグレードやパッチ適用が不要</li>
+                <li><span class="underline">バージョンレス：</span> 新機能がリリースされるとすぐに利用可能</li>
+                <li><span class="underline">迅速な導入：</span> 5分以内でオンボーディング、2分以内でインスタンスプロビジョニング</li>
+                <li><span class="underline">エッジ上のストアフロント：</span> 高速なパフォーマンスと優れたSEOランキングを実現</li>
+                <li><span class="underline">コンポーザブル＆ヘッドレス：</span> スタックの各コンポーネントが高い柔軟性を提供</li>
+            </ul>
+            
+            <h3>統合された主要技術</h3>
+            <ul>
+                <li>エッジ上で動作するコマースストアフロント</li>
+                <li>最高のオーサリング・ビジュアル・ドキュメントオーサリング機能</li>
+                <li>ネイティブのデジタルアセット管理（スマートイメージング、ダイナミックメディアなど）</li>
+                <li>生成AI機能（Adobe Express、Adobe Firefly）</li>
+                <li>生成AIを活用したパーソナライゼーション</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 既存のAdobe Commerceユーザーへの影響は？</div>
+                    <div class="faq-answer">既存のPaaSおよびオンプレミスの顧客に影響はありません。四半期ごとのリリースとパッチのサポートは継続されます。また、古いバージョン（2.4.4、2.4.5、2.4.6など）のサポートが2026年8月まで延長されました。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 移行はどのように支援されますか？</div>
+                    <div class="faq-answer">移行ツール、アクセラレーター、スターターキット、App Builderアプリケーション、パートナーエコシステムへの投資、ベストプラクティスやドキュメントなど、段階的な移行を支援するための様々なリソースが提供されます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. エッジ上のストアフロントとは何ですか？</div>
+                    <div class="faq-answer">エッジ上のストアフロントとは、CDNのエッジノード上で動作するストアフロントで、ページの読み込み速度が向上し、Google Lighthouseスコアが改善され、SEOランキングが向上します。これにより、より多くの関連性のあるオーガニックトラフィックを獲得できます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Adobe Commerce Optimizer</h2>
+            <p class="summary">Adobe Commerce Optimizerは、既存のコマースバックエンド（Adobe製または非Adobe製）と連携可能な体験レイヤーです。同じストアフロント、マーチャンダイジングサービス、開発者プラットフォーム、ネイティブのデジタルアセット管理ソリューションを提供します。</p>
+            
+            <h3>主な特徴と用途</h3>
+            <ul>
+                <li>既存のコマースバックエンドシステムを中断せずに利用可能</li>
+                <li>コンバージョン率の向上、市場投入時間の短縮を実現</li>
+                <li>100% SaaS、Adobeが管理</li>
+                <li>コンポーザブルおよびヘッドレスアーキテクチャ</li>
+                <li>自社のストアフロントを保持しながらAdobeの他のサービスを利用可能</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe Commerce as a cloud serviceとの違いは何ですか？</div>
+                    <div class="faq-answer">Adobe Commerce as a cloud serviceはAdobeによる完全なフルスタックソリューションですが、Adobe Commerce Optimizerはサードパーティのコマースバックエンドと連携可能な体験レイヤーです。それ以外のコンポーネントは同じです。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのような企業に適していますか？</div>
+                    <div class="faq-answer">複雑なコマースバックエンドを持ち、ERP、CRMシステムとの深い統合がある企業や、伝統的なバックエンドやDIYバックエンドを持つ企業に適しています。特に、バックエンド自体は問題ないが、カタログ管理レイヤーやストアフロントに制限がある場合に有効です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. SaaSプラットフォームへの段階的な移行は可能ですか？</div>
+                    <div class="faq-answer">はい、スタックの各コンポーネントがコンポーザブルなため、段階的な移行が可能です。例えば、Adobe Commerce Optimizerを中間ステップとして利用したり、まずはApp Builderから始めたりすることができます。App Builderで行った統合作業はSaaSプラットフォームに移行する際に再利用できます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>革新的なストアフロントと体験</h2>
+            <p class="summary">新しいストアフロント技術は、パフォーマンスとパーソナライゼーションを組み合わせることで、コンバージョン率を4〜8%向上させます。エッジ上で動作するストアフロントは瞬時にページを読み込み、Google Lighthouseスコアを向上させてSEOランキングを改善します。</p>
+            
+            <h3>主要な機能と改善点</h3>
+            <ul>
+                <li><span class="highlight">ドキュメントベースと視覚的オーサリング</span>：両方のオーサリング方法を選択可能</li>
+                <li><span class="highlight">AI駆動のコンテンツバリエーション</span>：自然言語で簡単にプロンプトを作成</li>
+                <li><span class="highlight">ネイティブのデジタルアセット管理</span>：製品ビジュアルの作成からマーチャンダイジングまでを数分で実行</li>
+                <li><span class="highlight">データ駆動のパーソナライゼーション</span>：顧客データプラットフォームとの統合</li>
+                <li><span class="highlight">テンプレートとプリビルドコンポーネント</span>：ボイラープレートとドロップインを使用した迅速な開発</li>
+                <li><span class="highlight">ABテスト</span>：デバイス、場所、オーディエンスに基づくテスト</li>
+            </ul>
+            
+            <h3>事例：Love Shack</h3>
+            <ul>
+                <li>大きな画像を使用した没入型のエクスペリエンス</li>
+                <li>エッジ上で動作するストアフロント</li>
+                <li>ほぼ完璧なGoogle Lighthouseスコア</li>
+                <li>ブランドなしのオーガニックトラフィックを2倍に増加</li>
+                <li>コンバージョン率を8%向上</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. AIを活用したコンテンツバリエーションはどのように機能しますか？</div>
+                    <div class="faq-answer">自然言語でプロンプトを作成すると、マーケティングコピー、コールトゥアクションボタン、ヒーロー画像などの複数のバリエーションが生成されます。Adobe ExpressおよびFireflyと統合されており、画像サイズやスタイルを選択して生成AIでヒーロー画像を作成できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. デジタルアセット管理の利点は何ですか？</div>
+                    <div class="faq-answer">製品ビジュアルの作成からマーチャンダイジングまでを数分で実行できます。スキル、タグ、視覚的特徴に基づいた検索や、Adobe ExpressとFireflyへのアクセスが可能です。これにより、数百万の製品バリエーションを作成し、任意の数のレンディションを公開できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. パフォーマンス向上がSEOにどのように影響しますか？</div>
+                    <div class="faq-answer">エッジ上で動作するストアフロントはページ読み込み速度が向上し、Google Lighthouseスコアが改善されるため、Googleの検索ランキングが向上します。これにより、バズワードではなく製品キーワードにSEO予算を集中させることができ、より関連性の高いオーガニックトラフィックを獲得できます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>カタログと価格設定の革新</h2>
+            <p class="summary">新しいデータモデルにより、単一インスタンスで2.5億SKUの大規模カタログをサポートし、各SKUに対して同時に30,000の一意な価格ポイントを実現。これにより、ビジネスラインやブランド間の拡張を数時間で実行できます。</p>
+            
+            <h3>革新の3つの主要分野</h3>
+            <ul>
+                <li><span class="underline">大規模カタログサポート</span>：単一インスタンスで2.5億SKUをサポート</li>
+                <li><span class="underline">複数価格ポイント</span>：各SKUに対して同時に30,000の一意な価格ポイント</li>
+                <li><span class="underline">チャネルとポリシー</span>：マスターカタログから製品を選択して新市場に迅速に参入</li>
+            </ul>
+            
+            <h3>利点と用途</h3>
+            <ul>
+                <li>重複なしで単一の統合カタログを管理</li>
+                <li>各市場や顧客タイプに最適な価格設定</li>
+                <li>1分間に10,000製品、50,000価格を読み込み</li>
+                <li>B2BとB2C両方のユースケースをサポート</li>
+                <li>価格のパーソナライゼーションと市場最適化</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. チャネルとポリシーの概念とは？</div>
+                    <div class="faq-answer">チャネルは最高レベルの抽象化で、ビジネスユニット、ブランド、販売チャネル、地域などを表します。ポリシーはSKU属性に基づいたフィルターで、ブランドや部品カテゴリなど任意の属性に基づいて作成できます。これにより、マスターカタログから適切な製品を適切な目的地に送り、重複なしで適切な顧客タイプに提供できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. B2Bユーザー向けの新機能は何ですか？</div>
+                    <div class="faq-answer">B2B親子モデリング、スタンディングクォート（事前交渉された条件から数千のクォートを派生）、B2Bマルチバイヤーアサインメント（一人のバイヤーが複数の会社の購入を行える）などの機能が実装されています。これらの機能は今後、エッジ配信と連携するよう拡張される予定です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. B2CとB2B両方で使えるのですか？</div>
+                    <div class="faq-answer">はい。B2C小売業者が新しい国や市場に拡大する場合にも活用できます。例えば、米国で4ブランドを展開する小売業者がカナダに拡大する場合、特定のブランドを選択し、カナダドルの価格表を関連付け、カタログ関連の作業を迅速に完了できます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>今後の展望と追加機能</h2>
+            <p class="summary">Adobeは開発者の生産性向上、複雑な製品サポート、サブスクリプション、AIドリブンのプロモーション、ワークフローの自動化など、さらなる機能強化を計画しています。</p>
+            
+            <h3>今後の開発計画</h3>
+            <ul>
+                <li>エッジ配信とB2B機能の統合</li>
+                <li>生成AIを活用した開発者ツール</li>
+                <li>複雑な製品サポート（サンプル、構成可能製品、サブスクリプション、バンドル、プランなど）</li>
+                <li>注文分割と修正機能</li>
+                <li>AIドリブンのプロモーションと分析</li>
+                <li>ワークフローの自動化</li>
+            </ul>
+            
+            <h3>コスト削減の取り組み</h3>
+            <ul>
+                <li>SaaS型によるアップグレードとパッチの排除</li>
+                <li>迅速なオンボーディングと開発者エクスペリエンスの向上</li>
+                <li>サードパーティアプリケーションとの統合（税金、発送、支払いなど）</li>
+                <li>サイトオプティマイザーによる非効率性の自動識別</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 開発者向けの改善点は何ですか？</div>
+                    <div class="faq-answer">生成AIを活用したツールによるストアフロント体験の再作成や、App Builderを使用した統合・カスタマイズの簡素化など、開発者の生産性を向上させる機能が提供される予定です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. サイトオプティマイザーとは何ですか？</div>
+                    <div class="faq-answer">サイトオプティマイザーは、ストアフロントの非効率性を自動的に識別し、高影響の機会を特定するツールです。コアWebバイタルの問題や欠落リンクなどを検出し、予想されるトラフィック損失と値を示します。AIによって提案された最適化を1クリックで展開できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 早期アクセスはどうすれば参加できますか？</div>
+                    <div class="faq-answer">両方の新製品に対する早期アクセスプログラムがあります。QRコードを使用して早期アクセスにサインアップできます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>重要用語・事実リスト</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>Adobe Commerce as a cloud service</td>
+                    <td>Adobeが管理するマルチテナント、フルスタックのeコマースSaaSプラットフォーム。2025年6月に一般提供開始予定。</td>
+                </tr>
+                <tr>
+                    <td>Adobe Commerce Optimizer</td>
+                    <td>既存のコマースバックエンドと連携可能な体験レイヤー。2025年6月に一般提供開始予定。</td>
+                </tr>
+                <tr>
+                    <td>エッジ上のストアフロント</td>
+                    <td>CDNのエッジノード上で動作する高速なストアフロント。ページ読み込み時間が向上し、SEOが改善される。</td>
+                </tr>
+                <tr>
+                    <td>生成AIパーソナライゼーション</td>
+                    <td>Adobe ExpressとFireflyを活用したコンテンツとイメージの生成機能。</td>
+                </tr>
+                <tr>
+                    <td>チャネルとポリシー</td>
+                    <td>カタログをセグメント化し、適切な製品を適切な目的地に送るための仕組み。</td>
+                </tr>
+                <tr>
+                    <td>App Builder</td>
+                    <td>統合とカスタマイズのためのAPI優先プラットフォーム。SaaSプラットフォームへの移行時に再利用可能。</td>
+                </tr>
+                <tr>
+                    <td>サイトオプティマイザー</td>
+                    <td>ストアフロントの非効率性を自動識別し、AIによる最適化を提案するツール。</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <p>Adobe Summit 2025 - Adobe Commerce 2025 Product Roadmap Review</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const faqItem = question.parentElement;
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

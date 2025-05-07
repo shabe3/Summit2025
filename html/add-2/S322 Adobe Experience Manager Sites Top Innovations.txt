@@ -1,0 +1,520 @@
+00:00:03:57 - 00:00:26:04
+不明
+Welcome to this session. I know it's 4:00, but this is not a session where we're going to sleep. This is going to be full of excitement. Any AcDc fans in the room? That's awesome. They have to be more okay. Anyways, next time we'll have more diversity of music. Let's see if this works. Okay.
+
+00:00:26:09 - 00:00:32:03
+不明
+All right, so.
+
+00:00:32:07 - 00:01:00:29
+不明
+Just a quick intro. Gagan. I lead product marketing for a m site. I've been with M seven years now. When I joined, I had no gray hair at all. Who knows what next seven years will do? And I also have Cedric here, our expert in residence for CMS, everything, and also for skiing. So today we are actually going to start with a game.
+
+00:01:00:34 - 00:01:22:39
+不明
+And in the back if you can just see the clicker is not working, it is working. Woohoo. All right all good things today we're going to start with a game. Have you ever. All right are you ready. All right. You're going to raise your hands when I ask a question okay. There will be no social implications of it for me.
+
+00:01:22:39 - 00:01:42:49
+不明
+Obviously. So let's start with this. Have you ever let I summarize your bosses long email? If your bosses here don't answer this question please, because reading the whole thing would have ruined your whole day.
+
+00:01:42:54 - 00:01:48:34
+不明
+I guess there are a lot of bosses in this room. I see.
+
+00:01:48:39 - 00:02:14:30
+不明
+Have you ever asked a paradoxical question to l m just for fun? Chicken or egg? First? There are people who want to have fun here. Have you ever asked them about symptoms of headache and walked away thinking you had only 48 hours to live?
+
+00:02:14:34 - 00:02:34:32
+不明
+Well, congratulations! You are a modern consumer. This is the rise of a modern consumer. I actually had a sabbatical last year. This is one of the amazing perks of Adobe that we get. And I was in Japan for solo trip as a woman in Japan. It was amazing because I had no child with me. That was the best part.
+
+00:02:34:37 - 00:03:00:03
+不明
+I was in a small place called Takayama and I had no itinerary planned. Being a mom, I had absolutely no time to plan anything. I just wanted to land in a place that was good, free. So I asked ChatGPT to plan everything. The day of whatever day it was, and I just followed it through. This was in Takayama, and I answered.
+
+00:03:00:03 - 00:03:20:21
+不明
+Being a vegetarian in Japan is very, very interesting as you can only imagine. And I asked, just recommend me a restaurant. And it came up with this recommendation of this small hole in the place. Best tofu I have ever eaten in my life. Best. And they have been making tofu since 250 years. This is not just me guys.
+
+00:03:20:25 - 00:04:10:23
+不明
+The consumer journey is really, really evolving. As per a recent survey that Adobe read of 5000 consumers across North America, 39% of them use Chennai lamps for online shopping and even a higher percentage for product recommendations. Does it scare you? You yourself are a modern consumer. If you haven't realized from those answers. By the way. So what do we get out of this customer funnel is really evolving the way we used to think about it and have, you know, this predictable funnel or structured journey starting from awareness, consideration all the way, creating content strategies around it that is changing.
+
+00:04:10:28 - 00:04:40:21
+不明
+Starting 2023, when the time to answer almost went to zero, as you just saw in my case. But now, with the advent of reasoning in 2024, even time to consideration is almost zero because the options are literally curated for you. When I'm searching for your unicorn bottle, I'm getting 2 to 3 options. Isn't that amazing? But it is also very, very scary.
+
+00:04:40:26 - 00:05:03:38
+不明
+Are you ready for this future? This is definitely something that we think on a regular basis, and you're actually going to see a lot that we are going to talk about today. On how we are addressing the old ways of working, how we used to operate in the past probably will not fly anymore. So what do we need?
+
+00:05:03:43 - 00:05:36:31
+不明
+We strongly believe in order to actually be ready for this future, we need to have three things that actually a lot of things that we need. But let's start with the foundational stuff. First is intent aware experiences. Actually, you heard me speak about this even last year if you attended this session. This is something we are super, super passionate about because the traditional content strategies that we used to have, they need to evolve for this new modern consumer as well.
+
+00:05:36:36 - 00:06:06:45
+不明
+Your static or passive content that's obsolete now the consumer is changing its intent dynamically, and the content itself needs to be aware what kind of an intent is it serving in order to actually convert those experiences and have some impact on it? Second, you need a very strong content AI foundation. Literally, a LMS can get information from anywhere.
+
+00:06:06:50 - 00:06:39:54
+不明
+So that consolidated and interlinked interlinked content AI Foundation is super important and we will show a sneak of how to get there. And lastly, continuous optimization for high impact experiences. Again, two years back when we were standing on this stage introducing actually free services, we that was a time we actually change. We we changed this whole tide of moving from content management to actually delivering impactful experiences.
+
+00:06:39:59 - 00:07:05:25
+不明
+But this is not a game of like, okay, we got there and now we stopped. This is a continuous optimization because every experience, every touchpoint with a consumer is an opportunity to learn and evolve these experiences. And we will actually announce something exciting. If you have attended keynote, onion has already stolen my thunder. Oh well, that was a joke.
+
+00:07:05:25 - 00:07:30:30
+不明
+That's why it's an internal Adobe joke. Let's type into this first intent aware experiences. And again, I don't know how many of you actually how many of you were in this room last year. Let's do a quick test. Oh, wow. A lot of new faces. That's amazing. Welcome, welcome. Last year we left this room, this talk with a specific sneak.
+
+00:07:30:30 - 00:07:59:01
+不明
+I don't know if you guys remember that. It probably didn't sit with you because it was too futuristic, but we are actually gonna pick up from that thread and start today. Okay, but first let's talk about why is it so important and urgent to get into this whole space and actually get into this in ten different experiences. I hope a lot of you are actually aware of this.
+
+00:07:59:06 - 00:08:27:49
+不明
+This is a last week. All the drama in our world that happens. There's never a dull moment around us. There. So last week, Google introduced a new experimental AI mode, which kind of expands the purview of what I overview of that have had almost like for a year now, could do. And this is really because, you know, advance reasoning thinking better consumer experience.
+
+00:08:27:54 - 00:08:51:21
+不明
+So you can only imagine all the links there are literally on the side are probably three that you can see. It is completely going to transform the game. But first let's see what AI overview, which has been there for almost a year, a little less than a year. What that did in past one year. And it has over a billion users per month, by the way.
+
+00:08:51:21 - 00:09:22:00
+不明
+So there was a report that was published very recently from Seer interactive, where they analyzed almost 10,000 of these intense keywords. When they show AI overview versus when they don't show AI overview, how much of this traffic is routed to your whatever, your website, web properties, etc. from the search engine? What is one thing that you notice about it?
+
+00:09:22:04 - 00:09:54:27
+不明
+Where is your CTR going organic or paid? Your CTR is reducing when the traffic comes from search engine. When the AI overview is shown. If this is not scary, I don't know what it's it's not scary. But I think this is like the advent of the new era, which we need to be kind of ready for. And we actually asked some of you in this room yesterday on, what is it that you would do in order to get ready for this future?
+
+00:09:54:32 - 00:10:25:30
+不明
+I know you can read it. That's that was really intentional. No, I'm joking, but the main things that came out were and I'm reading it literally from, the notes, we need all hands on deck for organic traffic optimization, content optimization, for relevancy. We need to create more context aware content which can answer queries. We need to tailor our content supply chain.
+
+00:10:25:35 - 00:10:47:25
+不明
+We need to treat JNI and or our LMS as a channel. I mean, you know, keep these eyeballs that are coming because they are not too many eyeballs or there's a reduction in the eyeballs. Now, it's not all bad news and doomsday. The good news is when the traffic comes, they are more informed, they are more engaged. And that has been shown through the Adobe report as well as your interactive.
+
+00:10:47:36 - 00:11:09:18
+不明
+So that's the good news. They are much more informed where they are coming into your properties. Well, when you think about what you need to do in order to be ready, by the way, there was another statistic that I was reading, which is people are searching more and more and the traffic is gone, like it's getting two acts higher every single month on these apps.
+
+00:11:09:30 - 00:11:23:06
+不明
+So queries that people are asking how they are using, it's literally becoming a part and parcel of their lives. So the processes that we have today.
+
+00:11:23:11 - 00:12:00:55
+不明
+There is a lot that goes into creating content and getting it out there, right. For a simple blog publish. And this is literally our own, our own, how we actually operate within Adobe, but also kind of average across, different customers, which is it will take us about eight weeks to get into a blog, which is a brand new content that has been generated and then translation, sub brand, etc., etc. now eight weeks for this kind of content into whatever number of products that you have personas, sub brands, geos.
+
+00:12:00:55 - 00:12:30:27
+不明
+Let's not even talk about that. If I just say eight weeks, 400 products, I can go to moon and come back 500 times. That's the amount of time it takes. So what do we need to do in order to be ready for what's coming? And so we have reimagine and we are announcing today experience generation, which is a completely reimagined way of how we build experiences in a Am sites.
+
+00:12:30:32 - 00:13:03:10
+不明
+This is AI powered experience building, which is here to help your marketing teams to repurpose, activate and optimize every single experience which is gonna be brand aware. It's gonna be intent aware, and it is going to have the Intel off CTR and SEO performance that we already track, and then recommend content based on that from the intent. So too hard to believe.
+
+00:13:03:18 - 00:13:26:47
+不明
+Cedric. Let's show them up. Thank you. All right. Yes. Last year, same place, I demoed something what we called Project Mystique. So what I'm going to show you now is basically the productized implementation of that. I know it's hard to believe it took us a year, but, you will see why this was not so trivial.
+
+00:13:27:00 - 00:13:55:14
+不明
+Now, first of all, what you're looking at right now is the new Am launchpad or the new Am, home, depending on you call it. We call it the hub. The experience hub, and where all the different tools come together and where you start your journey. And so in this case, what I'm going to do is I'm going to, explain what I need to build a landing page for a specific campaign that we're currently working on.
+
+00:13:55:19 - 00:14:21:32
+不明
+And so I'm basically just describing this with a single sentence to get started. Now, there's other ways to get started, but I chose the kind of, you know, just get started and generate. Now this is not not enough information to do anything meaningful. So the process that we're currently proposing in and again, look at this experience is a work in progress.
+
+00:14:21:32 - 00:14:44:04
+不明
+Work in progress means we want to work with you folks to figure out what is the right experience. What are the necessary steps that you're doing today. And what kind of information are you gathering today that gets you the content that you deliver? Now, again, we want to shortcut this whole thing. And I want to show you one possible way to do that.
+
+00:14:44:09 - 00:15:12:15
+不明
+But you're going to see the ingredients that I'm putting together that ultimately creates that experience. So the first thing that we see here is that, again, from a single simple single prompt like that, you can establish enough context, to figure out what kind of template we want to use, to maybe some kind of content that is already in a has already been approved and might be useful to use.
+
+00:15:12:16 - 00:15:32:53
+不明
+Right? So here we go into assets and content fragments to see content that we could potentially use as part of the generation. But what is very typical still today in marketing is that you have a brief. So let me quickly switch. Here's a word document which basically describes and this is probably like the way you work today.
+
+00:15:32:58 - 00:15:53:07
+不明
+Somebody in the organization creates a brief that describes, what you're actually trying to do, and maybe even mention some assets that could be used as part of that. Now I save this document, I'm going to go back to my screen and going to upload this first here. So this is right on my desktop. So this is here.
+
+00:15:53:07 - 00:16:18:15
+不明
+My document which I'm going to upload. Once again this is one way it could be a PDF. It could come from work from planning right where there might be context that has been established. But once this document is uploaded and processed, it's really trying to extract. And shortcut the way to do that. So there's a few things that just happened.
+
+00:16:18:19 - 00:16:38:22
+不明
+While I was not touching the computer, number one, we extracted the objective. We, extracted, or generated the description of what we think is the intent here and what we're trying to do further. And it's still working on it. You see that? It's actually completed now, we extracted a certain amount of personas.
+
+00:16:38:22 - 00:17:03:10
+不明
+Be careful we don't call them audiences because these are persona description that we're talking about here. Really trying to understand who are who are we talking to? Who is, that we're referring to further, it extracted the assets that are actually in the word document in this case. And I added that into my pool of things that I'm going to use in order to now go into the next step of generation.
+
+00:17:03:25 - 00:17:27:45
+不明
+So there's a again, you see here, I could select extra assets that I might want to include. Now, having said that, even if I add more assets or I add more content fragments here, that doesn't mean that we're going to use this 1 to 1. This is all about establishing the context in which I want to create, or in this case, fill this specific template.
+
+00:17:27:54 - 00:17:53:19
+不明
+So again, I chose the template here for this subscription template. And what happens next is it takes all this information and we'll go and generate that. Now this takes roughly five minutes. Now you're wondering really if I add if I just chat, if I just add a question to ChatGPT, it's like instant, what's the problem? Why can you do this in five seconds?
+
+00:17:53:24 - 00:18:23:48
+不明
+Well, that's why it took us a year to build this. So while this is happening, let me explain. What is actually happening here. So bear with me as I'm switching here to presentation mode and explain you the process of what's happening behind the scenes. Okay. Our goal is a personalized experience. We have key ingredients that were us or services that are now actively working behind the scenes.
+
+00:18:23:52 - 00:18:48:29
+不明
+It's number one. We have the Am repository, but all the content that's there that we have, added, we basically created a semantic index. And that was all of that was an AMM. Right. And that semantic index allows us to extract like how this the brand writes, what's the tone of voice, what's the kind of facts about the product?
+
+00:18:48:34 - 00:19:13:09
+不明
+Because, you know, some things where my might have been mentioned, but chances are a lot of a lot of this, what we need for generation is already in at number two. We have the brand service to this morning in the keynote it was mentioned a few times, this brand service that's shared across all of the Adobe, particularly the Gen Studio solution, which, I will will feature a little bit more later of how it exactly works.
+
+00:19:13:13 - 00:19:37:57
+不明
+And, the last step is there's performance data, both your goals of what you have as an, as a, as a company that you have set yourself and telemetry data that we've collected over the experience itself. So when taking these three things, these key ingredients and we have a group of agents. So I'm not sure how much you folks are familiar with.
+
+00:19:37:57 - 00:20:05:04
+不明
+And I'm going to go kick out a little bit here. But if you're familiar with, a gigantic software development. So if you write software like a piece of Java, it's very deterministic input in, function out, whatever, something very deterministic a genetic programing is. And what's basically happening here is you have a set of like small little tiny agents.
+
+00:20:05:04 - 00:20:39:02
+不明
+They all have an in reward function. So they basically supposed to do something a certain task and these and and they're all collaborating with each other in order to resolve and figure out how to solve the problem. So these are, eight groups of agents that we have, that one understands content strategy. For example, they literally go and figure out, okay, what company is this even what's the like if it's a publicly traded company, we go figure out what is the disclosure that they have when they when they last reported to the street and trying to figure.
+
+00:20:39:07 - 00:21:02:40
+不明
+So we really trying to actually be smart about like I sometimes just refer to this as reading the room like like literally like sitting in the meeting room and folks are talking about their strategy. How much can we learn about the strategy of this company? How much can we learn about the brand? How much can we learn about the current campaign that is going on?
+
+00:21:02:45 - 00:21:22:08
+不明
+How much can we learn about the assets and what is acceptable? We call it acceptable use. Like which assets can be used, in which context of the product, which assets have been used in the past in context, which is product? And then and I'll show you that in a bit later. If if need to, we will go out and generate code.
+
+00:21:22:08 - 00:21:41:58
+不明
+If there's missing code for blocks. Again, you will see that in the in a bit later. And then we really go into this exercise of creating an outline, creating deciding which layout is potentially the best. How does it fit into the rest of the site hierarchy. And, and as the last point, really trying to find this optimization.
+
+00:21:41:58 - 00:22:10:10
+不明
+So there's multiple rounds of them negotiating with each other. So in short, a lot of the processes that you basically do manually today we basically replicated in this, if you think of these personas of agents that are talking to each other, do negotiate to find a solution. So that's what's happening behind the scenes. And that's basically Project Mystique, which I will show a few things today.
+
+00:22:10:10 - 00:22:41:02
+不明
+So let's go back and let's see if it was successful. So let me where's my mouse. Here we go. Switch the screen. Oh I that's sorry about that. We go okay. Yes sorry I didn't I had to go it out of, PowerPoint sharing. Okay, good. So let's see, you know okay. Sometimes it takes longer, so it looks like it's still generating.
+
+00:22:41:02 - 00:22:59:48
+不明
+As long as it won't take it weeks. I don't think we have eight weeks. Okay. Just give me another. Okay. So what I'm going to do now, we might get to it later. And then you want to show you I'm going to take another attempt earlier. Like 42 minutes ago. And I'm going to show you what the output is.
+
+00:22:59:52 - 00:23:26:49
+不明
+So what it took, it took the template and again, the assets and it design it kind of layout the page in to that extent. Now it created a few variations. You can actually choose how many you want and which you then can preview here. And you see how it looks like. So let me actually pick this one and edit what I'm jumping in right away.
+
+00:23:26:52 - 00:24:10:49
+不明
+When I do edit it opens it in Universal editor. And this is a page now in Am where we basically I call it fit for purpose generated the content. You can obviously now go and that's the whole point is you can now go and change any part of it. It's really about creating this really good first draft that is on brand, including the messaging that I had in my word document, and again, all the other aspects that I was just talking about that these agents are negotiating and figuring out what to do and here, of course, I can now go and make any edits that you want.
+
+00:24:10:49 - 00:24:38:21
+不明
+Again, I can switch out an asset. I can, do further modifications. That's now a fully editable page, which I can make any modifications, including making further refinements with help of, Jan I using, for example, our generate variation feature, the generate variation feature we announced last year. As we said last year at summit, it was great.
+
+00:24:38:25 - 00:25:09:02
+不明
+But this is now the new version, version two of generation, which is directly integrated in Universal Editor. It is directly integrated in the content fragment editor, and it will, in the next few months, be integrated into the page editor. So it will really be in all our editing services, that we have actually also works with base editing for those who use, our, SharePoint or Google Docs editing.
+
+00:25:09:07 - 00:25:34:33
+不明
+And here I can now make further modifications to this, including, in this case, now I'm talking about audience this. So for example, I could if I make some modifications, for example, audiences in target or AP. So this here, this earlier we're personas now I'm talking about audiences. If you want to make audience specific flavors, that's why it's called generate variation.
+
+00:25:34:48 - 00:26:04:43
+不明
+Right. Because now you can create flavors of that page and content. All right. Now we have in meantime, while I'm at the universal editor, we have extended it quite a bit, quite a bit. We, have extended particularly around extensions. I want to call out to one extension with, with a company called Side Improve to bring in recommendations from side improve into another one is, an extension with SEMrush.
+
+00:26:04:48 - 00:26:25:25
+不明
+Feel free to talk to us about those. Again. We are trying to also extend somebody else here in the audience who is working for an ISV where we really want to open up the universe, rather as the place where we bring all these tools that help practitioners on a daily basis to create better content, to bring them all together here into our tooling.
+
+00:26:25:30 - 00:26:41:57
+不明
+So please reach out to us. So we can help you bring in your functionality into, universal editor. All right. So that concludes this part. So let's go to number. Awesome. Thank you. Thanks, Cedric.
+
+00:26:42:01 - 00:27:09:04
+不明
+Guys this will not blow if you guys like something that you see. You remember that Hans. This is one thing you can do. Or if you know whistling, that'll be the best. I don't have any talent for it, but that's what will keep us going. All right, I know it's 4:30 p.m., but hold on. All right, I'm going to switch, and let's talk about the foundation.
+
+00:27:09:09 - 00:27:14:12
+不明
+Okay? So.
+
+00:27:14:16 - 00:27:42:00
+不明
+Consolidated content AI Foundation. All right. Why is this important? And what are we trying to say here? I don't think anyone will argue when I say, oh, Foundation is super important. That's why I picked this word literally, right? How many of you have kids? Oh, not too many. Oh, yes. Okay, great. Awesome. You will understand the pain. I see limbs very similar to kids.
+
+00:27:42:05 - 00:28:10:25
+不明
+Okay? They find information from anywhere and they will connect it. They will give you an answer whether it's right or wrong. That does not matter. Okay? Your content, the foundation of your content, it has to be findable. It has to be understandable, interlinked, relational and composable so the experience can be generated, as I said, very similar to what kids will do.
+
+00:28:10:30 - 00:28:38:25
+不明
+I'll give you an example. My kid, she is literally three years old, okay. And we all care about foundation. So I'm finding schools for her a good foundation. It is freaking hard to do it here. It's a tech school. I'm writing write ups. In her 36 months of her life, she has accomplished the art of. Fill in the blanks and she will connect information after dinner.
+
+00:28:38:25 - 00:29:14:40
+不明
+She's telling me I'm still hungry, mama. Okay, why you just said you are full. Oh, I have another tummy for snacks. That tummy is empty so they will connect the information. That's what we call hallucination. But the answer will come. Now what kind of an answer it is. And they'll say it with authority, with confidence. So to have this very strong content AI foundation, we need to have content all consolidated, interlinked and make sure all your experiences, all your content is modular and composable.
+
+00:29:14:40 - 00:29:36:28
+不明
+The good news is this has been true for the last 15 to 20 years, since the time CMS has existed, honestly. But the urgency is now in order to get there because lot will find information, whether right or wrong, it will connect it and who knows what the output is going to be. And I know what you're thinking.
+
+00:29:36:28 - 00:30:00:05
+不明
+A lot of people in this room probably how do we get there? How do we get there? On an average, each of you probably have multiple content sources. I'm sure you do. If I ask in this room, how many of you use more than one CMS? Two CMS? It doesn't matter. I'm not. Will you be brave enough to say, yes, it is.
+
+00:30:00:05 - 00:30:37:07
+不明
+It's it's crazy, but it could it should not be that hard for you to actually consolidate all your content and literally reach to state, because this is foundational for what you need to do in future. And that's why today we are announcing experience catalyst. This is huge journey AI powered. It can move your pages sites literally from any source, okay, from any source and on on M to actually be services.
+
+00:30:37:12 - 00:31:00:16
+不明
+Get it all I ready semantic search enabled consolidated all the good stuff in order to get the experience generation that you just saw and are all the hidden innovations that we have behind it. And beauty of it is while you're doing it, you can retain your design and or update the design. This one is the hardest to believe.
+
+00:31:00:16 - 00:31:31:31
+不明
+Do you agree with me? Yeah. Are you guys sleeping? What's happening? God. Oh. Thank you. That was awesome. Thank you. Do you want to see it or do we skip it? Yeah. Thank you. All right, so anyway, let's show them. Okay. Thank you. I was like, what? So this is, an interesting one. So bear with me as I'm walking you through, the whole process takes, too long for this demo today, but.
+
+00:31:31:42 - 00:31:56:40
+不明
+So I have a kind of a short version of it, and I'm going to walk you through the steps that are actually happening, and, and then I'm going to show you a little bit behind the scenes of how it looks like. So do not feel like it is all smoke mirrors. Okay. So, let's start with, I'm going to adobe.com, and, this is the about, Adobe page.
+
+00:31:56:45 - 00:32:25:07
+不明
+This page, is still running on any of you. I don't know, you folks probably know that we have moved most of adobe.com to edge delivery services. At this point. It's monthly 580 million page views that we do monthly. Another bit of column that runs through services. But there's still pages that are not there yet. So for example, our About Adobe page is still running on our trusted, 6.5.
+
+00:32:25:12 - 00:32:50:58
+不明
+And, so I am going to move that page now, and I'm going to show you how we envision that, we kind of re-envisioning the, the way customers will move or again, technically the process of do. So, they call it, experience catalyst. And, and the first thing this tool does and I'm going to and so I was talking about agents earlier.
+
+00:32:50:58 - 00:33:09:39
+不明
+Right. And how these agents all talk to each other and then trying to figure this out. So this is actually the same backend. It's used in a different way in order in this case to analyze the current page that I'm opening here. So what I'm going to do now is I want to as a first step, move.
+
+00:33:09:48 - 00:33:42:34
+不明
+So there's a few steps are happening. First is I'm really trying to understand the structure of that page. What is actually also happening here is we're looking go into the sitemap of that site. We're going we're looking at like to at least 10 or 20 pages that are either similar or the same in order to figure out what kind of components do I actually need or in service to speak, what blocks do I need once and has the content structured?
+
+00:33:42:39 - 00:34:04:07
+不明
+The first step that's happening now is it moves the content over into, so it moves the content over into am, in this case. And then I can look at how this page looks like. So I've just switched over. So you see here, this is now on stamped page. So the URL. So this is now runs on TV services.
+
+00:34:04:12 - 00:34:31:57
+不明
+And but it's, it's purely extracting the content with some of the CSS that was already there. So you know, that page doesn't exactly look or actually it would say it doesn't look at all yet of how it looks like. But you know, the, the, you know, the structures here, I, it already saves me, quite a bit of time just by virtually making sure it's all represented.
+
+00:34:32:02 - 00:34:48:18
+不明
+The content is kind of taken over actually this tool. Content importer actually has been around for a while. It's actually a tool is out there for those folks who might have tried it. It's just a different way of for for me to use this, for me to use it. So the next thing is now.
+
+00:34:48:18 - 00:35:17:51
+不明
+And now comes the interesting part, actually. So is I got three choices of what I want to do to finish the job. Number one, I can say take over as much of the design of the old site and apply it to the blocks. Number two, take the design from another page, which maybe refers to a redesign or or a third one.
+
+00:35:17:56 - 00:35:44:34
+不明
+Take this figma file or mock and apply that. I'm going to show you all three. So the first one is reproduce the design system that we had and what it takes. Now it basically goes back to this page, looks at block by block, and tries to re-implement that CSS. As it's to make sure it looks exactly the same.
+
+00:35:44:38 - 00:36:04:19
+不明
+It's actually something looks really good at because you can tell them, here's the old thing make something that looks exactly like that. And try that as long as you possibly do, until it looks the same. Because every day they hallucinate, they make stuff up, so it's wrong. But if you actually have a good reference, it can just be.
+
+00:36:04:24 - 00:36:24:50
+不明
+That's why this process itself, this is obviously like I'm mocking this here because this process alone takes hours. So this is not something he's done in like five minutes. It literally takes hours because you can and you can see all the iterations because we behind the scenes were actually committing all these changes to get we making git repo.
+
+00:36:24:57 - 00:36:43:40
+不明
+We publish everything in git refresh the page. Let's see if it's the same, if it's not the same, if you do all these these these get requests, you literally can see the whole history of all the attempts it tried to do, until it got to the point that it looks exactly the same. So again, I'm here, I'm simulating this.
+
+00:36:43:40 - 00:37:11:10
+不明
+But, in this case, the page looks mostly the same again. We're still working, not in the variants bound here. This process is still tricky, but we believe that we can get very close to the point, and you might still need to clean up a little bit. But it gets marshmallows. And in a time span that it's it's still way, way faster than manually trying to attempt the same thing.
+
+00:37:11:15 - 00:37:33:25
+不明
+So the other aspect is like, okay, look at this page now. It's like, okay, let's take the design from another page. I'm going to actually go do it over. Come. And because we are redesigning actually pages. I'm going to go to the Photoshop page. I like the Photoshop page. And what about load? It's nice as this color gradings looks actually pretty cool.
+
+00:37:33:30 - 00:38:09:48
+不明
+So I'm going to take this page here and tell them to apply this design instead. That's 90 space. So it will basically do the same thing that I just did. But applying the design from another page, to, to do that, what's important here is you might have try to generate a design using any of the LMS and sample, cloud and from anthropic is really good at generating front end code.
+
+00:38:09:48 - 00:38:37:17
+不明
+Right. The problem is that they're mix and match the HTML, the content, the CSS. It's just it's a hairball of code. Now, you you're really don't want that in your project. And I think that's another thing that, when we designed Edge Delivery Services a few years ago, and, you know, people were asking us questions, why did you just, for example, choose no framework?
+
+00:38:37:17 - 00:39:05:08
+不明
+Like, why did you go just with vanilla JavaScript? Well, I think I'm finally I can reveal why. Short of that, it's much easier to write. And why do you need a framework? But that might be very opinionated. But the other thing is LMS are really good at it. They're really good at writing, just pure JavaScript. So now payback time because we can just use that again.
+
+00:39:05:13 - 00:39:33:54
+不明
+JavaScript is kind of like a language, right. And then the web platform itself, it is. So it allows us to now apply that these changes on existing code bases that you have and without again, if you think of our existing being a model with client libs and JavaScript and components and HDL, you know, we might be able to get to this at some point.
+
+00:39:33:54 - 00:39:53:58
+不明
+And I just want to be very transparent here. This is really possible because each delivery services and its component in block architecture is so simple anyway. So I need to speed up a little bit here. But you see the page was redesigned based on the the color scheme of the Photoshop page. Last one. Let's go to Figma.
+
+00:39:54:03 - 00:40:12:45
+不明
+And that just took a design. You know, you can buy these off the shelf designs. You can just go out there and buy one of those files. That's what we did. Right? So I didn't create this. Right. And then you can go and export it. Which creates and just literally a screenshot of this whole thing. Right.
+
+00:40:12:45 - 00:40:33:31
+不明
+And now I am going to wait, where was I here. Oops. Going back to it. Here. I'm going to upload this is the design PNG that just was generated. Okay. Here. And take this.
+
+00:40:33:36 - 00:41:02:58
+不明
+And it's going to do the same spiel. I think it's working on it. Sorry. It should apply to. There we go. That's when I flat front and again as expected it takes try to extract some design elements from that page. And so now you see it has all the green flavor thing going on it anyway. So this technology can be applied for full pages.
+
+00:41:03:03 - 00:41:32:35
+不明
+But we can also apply this technology just to parts, two sections. And definitely looking forward and please. Yeah go ahead. Definitely looking forward to explore together with you folks of how this technology could accelerate any of the processes for us to onboard folks, to do experience manager and particularly edge delivery services. I do have to say awesome.
+
+00:41:32:40 - 00:42:00:31
+不明
+How many months it takes to redesign? Anyways? It's okay. Complete reset of the page from a design new design to existing pages. Consolidation of content from different sources, all AI powered. If you guys want to try it today, early access. Scan the QR code. It's also in the demo, but so you can just go stop by there as well.
+
+00:42:00:36 - 00:42:39:51
+不明
+So this is our path where we want to take all our customers along with us in the future. Okay. And leveraging AI to make it easier for you guys. Last but not the least, continuously optimized for high impact experiences. This is huge. This is huge. Two years back we talked about delivery services. So proud of what we achieved in terms of performance and how it impacted organic traffic, how it increased engagement, etc. everything.
+
+00:42:39:55 - 00:43:08:42
+不明
+But just by the virtue of performance. And we totally acknowledge there are so many things that can happen from acquisition to conversion. There are so many drop offs that can happen, which you know, at every step. Maybe it's a broken SEO big, maybe there's a broken link. Actually, maybe we should do a poll of how many people it kind of resonates with at us.
+
+00:43:08:47 - 00:43:38:54
+不明
+Broken links, bounce rates from paid traffic. No it doesn't. There's not a problem for this room. It's huge because there's a lot of money spent on this. And it's not just it's like, look at all the things that you have to fix in order to actually optimize your funnel. So just opening up the funnel is not enough. We need to continuously optimize in order to run a site on its peak performance.
+
+00:43:38:54 - 00:44:02:24
+不明
+That's an ongoing effort, and it is super hard to do given how many teams do you work with? 6 to 7. Like a technical SEO team optimization team? Maybe an ordered development team? Who knows? And then you have to prioritize those top issues. How many do you get to 10%? 15. Anybody gets to 100%. You. Yes. No. It's super hard.
+
+00:44:02:24 - 00:44:28:25
+不明
+And then you have to manually fix and again start the process all over in a month. So running a site on peak performance is important because again, as we just said, all hands on deck for organic traffic and engagement, remember. So we are announcing a site optimizer, which is a new AB gen AI powered, which can actually change this for you.
+
+00:44:28:30 - 00:44:58:10
+不明
+We can auto identify, we can continuously analyze the performance to anticipate and detect what are the opportunities, where can we maximize and where we can actually do it at scale for you? We can auto suggest, because we have everything trained on all the content that sits. In the end, we can propose solutions to marketers and take it another step, which is auto optimize, auto fix for those, auto fix for you guys.
+
+00:44:58:19 - 00:45:23:03
+不明
+We can implement these solutions on behalf of you. Of course, with a human approval in the process. But this is huge. This is of course, not just for the, you know, goodness of our hearts that we are doing, but this is super, a box down the website. It of course affects your funnel and the conversion. And we're going to show you now am sites optimized.
+
+00:45:23:06 - 00:45:52:25
+不明
+This is super exciting. So keep your eyes open. And yes, let's get into it. So all right. Thank you. So a little story of how this product actually came about. I have a interesting role in that. We started doing VIP projects when we introduced services because we felt like really this co-development model that we work together with clients and our partners in order to co-develop some of the capabilities.
+
+00:45:52:30 - 00:46:19:46
+不明
+So we brought those websites live. This was actually, you know, lo and behold, do you think we've been doing them? And I've been doing CMS for, you know, the better part of 25 years. But, I've not directly helped customers to get their websites live. So, you know, like you guys were just doing it. And I'm like, sure, I built the CMS, but I mean, you folks deal with websites and so or whatever, bringing content into mobile apps, you name it, whatever you do with the CMS.
+
+00:46:19:51 - 00:46:44:22
+不明
+And but then we got really hands on ourselves and we're like, okay, let's build these sites. Let's make sure they're fast. And again, some of you folks maybe had a chance to work with us. It was it was definitely, a learning experience for us, but we learned a lot and it made the product better. But we were really looking at some of the metrics that customers have because we set ourselves goal, like we're not just going to build those websites.
+
+00:46:44:33 - 00:47:14:13
+不明
+We want to make sure those websites are successful. So and then we saw like, oh man, this is hard. Hey, all this stuff that can go wrong. And then we brought these sites live. We saw wow, SEO was going off and then suddenly SEO going down, like, what happened? Who broke it? What happened? The so the joke was, and I'll go and we're just sitting next to each other at the office, like the daily just checking how these websites are going, calling customers and, you know, back on slack, go fix days.
+
+00:47:14:13 - 00:47:35:02
+不明
+Go did. So I was I called myself the the the we initially this product was called Success Studio. So it was call it Success Studio life. It's like like Cedric and a few others. I know those folks who know Lars and other folks in the team. We were literally just making sure every week that those websites were running at peak performance.
+
+00:47:35:02 - 00:47:52:19
+不明
+And we're like, this does not scale, nor does this work for because I have to do some other things than just fixing customers website. But what happened was just like, we need to prioritize this. We have the data, we can automate all this. We can see the things happening, but we need to get this to a point we can add.
+
+00:47:52:22 - 00:48:20:37
+不明
+So this is basically Site optimizer today or sites optimizer. And so these these opportunities, we present them as opportunities. There's, there's things that are impacting the success of your site. And because we're the owner of the CMS, we can detect those in one hand, which again, this is regular features in one hand, but the other hand, we can also allow you just to fix them right away.
+
+00:48:20:42 - 00:48:43:30
+不明
+And I think it's an interesting way for us to surface them, I'm going to show you a few examples here. While walk through again, we have to for those who want to have, sorry for those who have time, you can go to the booth. We actually have instrumented, most of our customers this day to collect the data to have these insights.
+
+00:48:43:39 - 00:49:03:15
+不明
+So we can even show you, what kind of insights that we know about your site if it runs on a, cloud service. And if it runs on your services, this product will be available for all flavors of a VM that are running that are hosted by Adobe, which means actually, we are services, cloud service and managed services.
+
+00:49:03:19 - 00:49:29:34
+不明
+But let me walk you through some examples. Actually, well, of the products available today, which is the managed services flavors, is the one that's still in progress. The other ones are available today anyway, so let me show you how this works. So for example, the one that I'm most excited about and which was I have interesting stories to share was going into and looking at the experience telemetry.
+
+00:49:29:34 - 00:49:57:28
+不明
+We sometimes also call it rum. Real user monitoring. Real use monitoring is that we look at where do you buy, where do you buy either paid traffic or you have just naturally organic traffic. And those folks come and go, the bounce rate is off the roof. And we felt like, how could we use. And I showed you earlier all the agents kind of working together.
+
+00:49:57:43 - 00:50:28:52
+不明
+How can we get those agents busy and coming up with idea years of what could we do on this particular page to reduce that bounce rate? Now, again, if you have an optimization team, that's something that they would do for you. And we felt like it is not done enough. So here we basically presenting the control control is the experience that is currently in production, which again has a lower, CTA than we expected.
+
+00:50:28:57 - 00:51:02:17
+不明
+And then we produce similarly as I produced initially, the content we produce basically an alternative that we feel like might be a good idea again and then see how much it would increase to, the conversion. There's a few things you could do here. You can say, I'm feeling lucky and say, I'm going to publish this thing, because we already generated the flavors and we generate content, we can just and or you say, hey, I want to create a test, you know, to literally prove whatever it does, any good or not.
+
+00:51:02:22 - 00:51:29:38
+不明
+So in this case, we use our contextual experimentation engine that is included in the delivery services to do a test and to see which one does perform better. So what we found fascinating when working with customers on this particular topic is that customers, like some of the feedback that we've got was like, I really like I've never done this test because it would have taken me way too long, but hey, I'll take it.
+
+00:51:29:38 - 00:52:07:46
+不明
+So it's really it's all upset. But if you think of thinking, because you're focusing on your testing activities, unlike the really high value things where most of the traffic is and the homepage, but for the smaller improvements, more incremental improvements, you typically really don't have time. So I don't see this. For example, a lot of questions came up like, okay, is this competing with those folks are doing the the big tests and big, big, big experiments and our checkout flow like, no, this is really the all these all these small little experiments you can run.
+
+00:52:07:51 - 00:52:41:08
+不明
+And hey, if it doesn't do any better than it didn't hurt. But hey, maybe it did. Right. So I think really think of this as a continuous experimentation. Now before I give it back here and, and look at time and, the other options. So this is what types of opportunities that we're currently, focusing on. And we will do more is the, the one that I just mentioned is what we call traffic traffic acquisition.
+
+00:52:41:13 - 00:53:11:44
+不明
+The other one is engagement. Like when what is there actually any engagement happening. Side health. So side health is is for example, broken links. Performance. There's security. Things that you can improve the security or force optimization. So if you have forms. So that's the specific things. If you are, if you do own a Am forms as a product, we're trying to figure out where do people drop off when they fill out forms.
+
+00:53:11:49 - 00:53:41:20
+不明
+Having said that, the last one I want to show is one that is more on the SEO thing. So I know we talked about that at the beginning of this presentation. We talked about how search is changing. The blue links are going away, fully generated experiences are coming in. Now. You want to make sure that your brand is being cited, or that these engines are citing your content or you get citations.
+
+00:53:41:20 - 00:54:07:50
+不明
+Right. This is the new the new currency is citations, or the SEO community calls it visibility. And one of the things that we certainly learned so far is the best way to get cited in the in, in those, experiences that are generated is that you are your site is at the top of your game when it comes to SEO.
+
+00:54:07:55 - 00:54:33:05
+不明
+Now, you says, well, but it's not SEO, it's not the blue links. What do you see talking about? Well, how do you think those engines know which content to summarize? Well, to do a search right now you don't see the search results anymore, but they're still doing the search behind the scenes. There's still a Google, and I still does the Google search to find the pages, to then summarize or open.
+
+00:54:33:05 - 00:55:00:36
+不明
+AI uses Bing or others so they perplexity has its own index, but they all still doing searches. So you need to make sure you're in these searches that they do, and therefore you still need to be at the top of your game. When it comes to SEO. Now it's a little bit more indirect. Instead of like being able to track your ranking and use Ahrefs or whatever tools to kind of know exactly where you rank, because that one's kind of gone and more fuzzy, right?
+
+00:55:00:41 - 00:55:28:15
+不明
+But you still need to rank best. So for example, here is an opportunity to, to make sure you have, all your backlinks fixed, which helps you with ranking. Right? It's kind of old school SEO, but again, still applies because ultimately those reasoning engines do nothing else than a search on behalf of the user. All right. I want to do and the demo here and this goes awesome.
+
+00:55:28:20 - 00:55:34:45
+不明
+And the actions.
+
+00:55:34:49 - 00:56:08:44
+不明
+It's pretty amazing, So the only takeaway I want to leave you guys with, it optimizes different places in the funnel all the way, starting from acquisition, where we are doing technical issue of access to brand engagement, experimentation opportunities, optimization, accessibility to conversion where users might be having some security issues and and our forms optimization. So all the way through your funnel to drive outcomes for you through high impact experiences.
+
+00:56:08:49 - 00:56:14:07
+不明
+With that, thank you very much for your attention. Hopefully you enjoyed this.
+

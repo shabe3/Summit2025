@@ -404,8 +404,232 @@ const sessions = [
         titleJa: "OS928 キャンペーン作成速度を向上させるための実証済みフレームワーク",
         htmlFile: "html/add-1/OS928 A Proven Framework to Boost Campaign Creation Speed.html",
         audioFile: "voice_mp3/add-1/OS928.mp3"
+    },
+    {
+        id: "GS1",
+        title: "GS1 Day 1 Keynote 2025",
+        titleJa: "GS1 2025年 1日目の基調講演",
+        htmlFile: "html/add-2/GS1 Day 1 Keynote 2025.html",
+        audioFile: "voice_mp3/add-2/GS1.mp3"
+    },
+    {
+        id: "GS2",
+        title: "GS2 Day 2 Keynote 2025",
+        titleJa: "GS2 2025年 2日目の基調講演",
+        htmlFile: "html/add-2/GS2 Day 2 Keynote 2025.html",
+        audioFile: "voice_mp3/add-2/GS2.mp3"
+    },
+    {
+        id: "S102",
+        title: "S102 Too Hot for Main Stage Help Shape the Product",
+        titleJa: "S102 メインステージでは語れない製品の形成を支援する",
+        htmlFile: "html/add-2/S102 Too Hot for Main Stage Help Shape the Product.html",
+        audioFile: "voice_mp3/add-2/S102.mp3"
+    },
+    {
+        id: "S204",
+        title: "S204 Accelerate Email Campaigns in Marketo Engage with the New Gen AI Powered Editor",
+        titleJa: "S204 新しい生成AI搭載エディターでMarketo Engageのメールキャンペーンを加速",
+        htmlFile: "html/add-2/S204 Accelerate Email Campaigns in Marketo Engage with the New Gen AI Powered Editor.html",
+        audioFile: "voice_mp3/add-2/S204.mp3"
+    },
+    {
+        id: "S205",
+        title: "S205 The Power of Marketo Engage & Journey Optimizer B2B Edition Together",
+        titleJa: "S205 Marketo EngageとJourney Optimizer B2B Editionの連携パワー",
+        htmlFile: "html/add-2/S205 The Power of Marketo Engage & Journey Optimizer B2B Edition Together.mov.txt",
+        audioFile: "voice_mp3/add-2/S205.mp3"
+    },
+    {
+        id: "S206",
+        title: "S206 ABM and Buying Group Orchestration with Journey Optimizer B2B Edition at AWS",
+        titleJa: "S206 AWSにおけるJourney Optimizer B2B EditionでのABMと購買グループオーケストレーション",
+        htmlFile: "html/add-2/S206 ABM and Buying Group Orchestration with Journey Optimizer B2B Edition at AWS.html",
+        audioFile: "voice_mp3/add-2/S206.mp3"
+    },
+    {
+        id: "S207",
+        title: "S207 Marketo Engage Roadmap The Future of Marketing Automation",
+        titleJa: "S207 Marketo Engageロードマップ：マーケティングオートメーションの未来",
+        htmlFile: "html/add-2/S207 Marketo Engage Roadmap The Future of Marketing Automation.mov.txt",
+        audioFile: "voice_mp3/add-2/S207.mp3"
+    },
+    {
+        id: "S208",
+        title: "S208 Marketo Engage Fundamentals Your Path to Marketing and Career Success​",
+        titleJa: "S208 Marketo Engageの基礎：マーケティングとキャリアの成功への道",
+        htmlFile: "html/add-2/S208 Marketo Engage Fundamentals Your Path to Marketing and Career Success​.html",
+        audioFile: "voice_mp3/add-2/S208.mp3"
+    },
+    {
+        id: "S209",
+        title: "S209 Foundation to Future Advance Your B2B Marketing Measurement Strategy",
+        titleJa: "S209 基盤から未来へ：B2Bマーケティング測定戦略の進化",
+        htmlFile: "html/add-2/S209 Foundation to Future Advance Your B2B Marketing Measurement Strategy.html",
+        audioFile: "voice_mp3/add-2/S209.mp3"
+    },
+    {
+        id: "S210",
+        title: "S210 Mastering the Maze of Data Unlock Clarity and Structure in Marketo Engage",
+        titleJa: "S210 データの迷路をマスター：Marketo Engageで明確さと構造を解き放つ",
+        htmlFile: "html/add-2/S210 Mastering the Maze of Data Unlock Clarity and Structure in Marketo Engage.html",
+        audioFile: "voice_mp3/add-2/S210.mp3"
+    },
+    {
+        id: "S211",
+        title: "S211 Accelerating Lead Velocity How Okta Boosted Sync Time by 5x",
+        titleJa: "S211 リード速度の加速：Oktaが同期時間を5倍に向上させた方法",
+        htmlFile: "html/add-2/S211 Accelerating Lead Velocity How Okta Boosted Sync Time by 5x.mov.txt",
+        audioFile: "voice_mp3/add-2/S211.mp3"
+    },
+    {
+        id: "S212",
+        title: "S212 Marketo Engage Data Hygiene Strategies",
+        titleJa: "S212 Marketo Engageデータ衛生戦略",
+        htmlFile: "html/add-2/S212 Marketo Engage Data Hygiene Strategies.html",
+        audioFile: "voice_mp3/add-2/S212.mp3"
+    },
+    {
+        id: "S250",
+        title: "S250 B2B Transformation Series No Limits Digital Marketing at GE HealthCare",
+        titleJa: "S250 B2Bトランスフォーメーションシリーズ：GEヘルスケアの制限のないデジタルマーケティング",
+        htmlFile: "html/add-2/S250 B2B Transformation Series No Limits Digital Marketing at GE HealthCare.html",
+        audioFile: "voice_mp3/add-2/S250.mp3"
+    },
+    {
+        id: "S251",
+        title: "S251 B2B Transformation Series Workday Customer Growth Engine",
+        titleJa: "S251 B2Bトランスフォーメーションシリーズ：Workdayの顧客成長エンジン",
+        htmlFile: "html/add-2/S251 B2B Transformation Series Workday Customer Growth Engine.html",
+        audioFile: "voice_mp3/add-2/S251.mp3"
+    },
+    {
+        id: "S252",
+        title: "S252 B2B Transformation Series Adobe on Adobe Digital Marketing",
+        titleJa: "S252 B2Bトランスフォーメーションシリーズ：AdobeのAdobeデジタルマーケティング",
+        htmlFile: "html/add-2/S252 B2B Transformation Series Adobe on Adobe Digital Marketing.html",
+        audioFile: "voice_mp3/add-2/S252.mp3"
+    },
+    {
+        id: "S301",
+        title: "S301 Adobe Commerce 2025 Product Roadmap Review",
+        titleJa: "S301 Adobe Commerce 2025製品ロードマップレビュー",
+        htmlFile: "html/add-2/S301 Adobe Commerce 2025 Product Roadmap Review.html",
+        audioFile: "voice_mp3/add-2/S301.mp3"
+    },
+    {
+        id: "S302",
+        title: "S302 Adobe Commerce Rockstar Showcase",
+        titleJa: "S302 Adobe Commerceロックスターショーケース",
+        htmlFile: "html/add-2/S302 Adobe Commerce Rockstar Showcase.html",
+        audioFile: "voice_mp3/add-2/S302.mp3"
+    },
+    {
+        id: "S303",
+        title: "S303 The B2B Commerce Revolution Maximizing Growth in a Digital World",
+        titleJa: "S303 B2Bコマース革命：デジタル世界での成長の最大化",
+        htmlFile: "html/add-2/S303 The B2B Commerce Revolution Maximizing Growth in a Digital World.mov.txt",
+        audioFile: "voice_mp3/add-2/S303.mp3"
+    },
+    {
+        id: "S304",
+        title: "S304 Adobe Commerce Optimizer Transform your Commerce Experience without Replatforming",
+        titleJa: "S304 Adobe Commerce Optimizer：リプラットフォームなしでコマース体験を変革",
+        htmlFile: "html/add-2/S304 Adobe Commerce Optimizer Transform your Commerce Experience without Replatforming.mov.txt",
+        audioFile: "voice_mp3/add-2/S304.mp3"
+    },
+    {
+        id: "S305",
+        title: "S305 Boost Storefront Performance with Edge Delivery as a Progressive Migration",
+        titleJa: "S305 プログレッシブマイグレーションとしてのエッジデリバリーによるストアフロントパフォーマンスの向上",
+        htmlFile: "html/add-2/S305 Boost Storefront Performance with Edge Delivery as a Progressive Migration.mov.txt",
+        audioFile: "voice_mp3/add-2/S305.mp3"
+    },
+    {
+        id: "S307",
+        title: "S307 Creating Unified and Personalized Commerce Journeys",
+        titleJa: "S307 統合されたパーソナライズされたコマースジャーニーの作成",
+        htmlFile: "html/add-2/S307 Creating Unified and Personalized Commerce Journeys.mov.txt",
+        audioFile: "voice_mp3/add-2/S307.mp3"
+    },
+    {
+        id: "S308",
+        title: "S308 Scaling Ecommerce and Personalization Sling TV's Peak Event Playbook",
+        titleJa: "S308 Eコマースとパーソナライゼーションのスケーリング：Sling TVのピークイベントプレイブック",
+        htmlFile: "html/add-2/S308 Scaling Ecommerce and Personalization Sling TV's Peak Event Playbook - .mov.txt",
+        audioFile: "voice_mp3/add-2/S308.mp3"
+    },
+    {
+        id: "S321",
+        title: "S321 Adobe Experience Manager Assets Top DAM Innovations",
+        titleJa: "S321 Adobe Experience Manager Assetsのトップ DAM イノベーション",
+        htmlFile: "html/add-2/S321 Adobe Experience Manager Assets Top DAM Innovations.txt",
+        audioFile: "voice_mp3/add-2/S321.mp3"
+    },
+    {
+        id: "S322",
+        title: "S322 Adobe Experience Manager Sites Top Innovations",
+        titleJa: "S322 Adobe Experience Manager Sitesのトップイノベーション",
+        htmlFile: "html/add-2/S322 Adobe Experience Manager Sites Top Innovations.txt",
+        audioFile: "voice_mp3/add-2/S322.mp3"
+    },
+    {
+        id: "S323",
+        title: "S323 Adobe Experience Manager as a Cloud Service Top Innovations",
+        titleJa: "S323 クラウドサービスとしてのAdobe Experience Managerのトップイノベーション",
+        htmlFile: "html/add-2/S323 Adobe Experience Manager as a Cloud Service Top Innovations.txt",
+        audioFile: "voice_mp3/add-2/S323.mp3"
+    },
+    {
+        id: "S325",
+        title: "S325 Elevate Experiences with AEM and the Power of Generative AI",
+        titleJa: "S325 AEMと生成AIのパワーで体験を向上",
+        htmlFile: "html/add-2/S325 Elevate Experiences with AEM and the Power of Generative AI.txt",
+        audioFile: "voice_mp3/add-2/S325.mp3"
+    },
+    {
+        id: "S326",
+        title: "S326 Journey to Transformation by Leveraging DAM and Generative AI",
+        titleJa: "S326 DAMと生成AIを活用した変革への旅",
+        htmlFile: "html/add-2/S326 Journey to Transformation by Leveraging DAM and Generative AI.txt",
+        audioFile: "voice_mp3/add-2/S326.mp3"
+    },
+    {
+        id: "S327",
+        title: "S327 Optimize Traffic, Engagement, and Conversion of Your Digital Experiences",
+        titleJa: "S327 デジタル体験のトラフィック、エンゲージメント、コンバージョンの最適化",
+        htmlFile: "html/add-2/S327 Optimize Traffic, Engagement, and Conversion of Your Digital Experiences.txt",
+        audioFile: "voice_mp3/add-2/S327.mp3"
+    },
+    {
+        id: "S328",
+        title: "S328 Activate Content Faster with Adobe Experience Manager Assets",
+        titleJa: "S328 Adobe Experience Manager Assetsでコンテンツを迅速に有効化",
+        htmlFile: "html/add-2/S328 Activate Content Faster with Adobe Experience Manager Assets.txt",
+        audioFile: "voice_mp3/add-2/S328.mp3"
+    },
+    {
+        id: "S329",
+        title: "S329 Transform Quality Content into Winning Experiences in Minutes using GenAI",
+        titleJa: "S329 GenAIを使用して質の高いコンテンツを数分で勝利体験に変換",
+        htmlFile: "html/add-2/S329 Transform Quality Content into Winning Experiences in Minutes using GenAI.txt",
+        audioFile: "voice_mp3/add-2/S329.mp3"
+    },
+    {
+        id: "S330",
+        title: "S330 From Complexity to Clarity How UPS Modernized Its Global Website",
+        titleJa: "S330 複雑さから明確さへ：UPSがグローバルウェブサイトを近代化した方法",
+        htmlFile: "html/add-2/S330 From Complexity to Clarity How UPS Modernized Its Global Website Nikunj Merchant.txt",
+        audioFile: "voice_mp3/add-2/S330.mp3"
+    },
+    {
+        id: "S331",
+        title: "S331 Content Meets Data How T-Mobile Unlocks Omnichannel Personalization",
+        titleJa: "S331 コンテンツがデータと出会う：T-Mobileがオムニチャネルパーソナライゼーションを解き放つ方法",
+        htmlFile: "html/add-2/S331 Content Meets Data How T-Mobile Unlocks Omnichannel Personalization.txt",
+        audioFile: "voice_mp3/add-2/S331.mp3"
     }
 ];
 
-// セッション名前順でソートs
+// セッション名前順でソート
 sessions.sort((a, b) => a.title.localeCompare(b.title)); 

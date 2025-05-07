@@ -1,0 +1,564 @@
+00:00:00:01 - 00:00:38:58
+不明
+Many years ago. I'm sitting at the University Cafe in Poland, where I come from, and I'm about to make the most important decision in my professional life. So I'm sitting with my colleagues. We are fresh graduates of computer science department, and we all trying to do research in artificial intelligence. True story. And as I'm sitting there, I at that time was this area which was, you know, kind of winked at like, not, not, you know, hey, what are you doing?
+
+00:00:39:03 - 00:01:16:15
+不明
+We are trying to build an artificial brain. Hey, come over and see what we're doing. We're doing computer graphics, you know, and computer graphics wasn't what it is today either, but it kind of felt a little bit more practical to me at this time. And as I was sitting there, I made this decision. I was at the fork in my professional career, and I took one of the roles, and it wasn't because of the, you know, friendly laughs about the area.
+
+00:01:16:15 - 00:01:52:39
+不明
+It was I realized it dawned on me that I'm a very practical person. I'm an applied scientist, only that I'm not a scientist. So I decided to go what we call industry. Meaning I just went and started building software. And over time, over time, our field experienced a lot of big innovation and disruptive transformation. Cloud computing, mobile, to name but a few.
+
+00:01:52:44 - 00:02:28:50
+不明
+Fast forward to 2022. I'm at a cafe, in an office in Basel, Switzerland. It's an Adobe office and I'm drinking cafe because it's coffee. Because it's a very gloomy morning. It was November. And then my colleague Michael comes up to me, looks at me very seriously, and says, Greg, the world has changed. And I'm like, yeah. Is it one of these funky office stocks?
+
+00:02:28:55 - 00:03:01:09
+不明
+And he said, no, Greg. The world has changed. I just looked at ChatGPT that was just released. I looked at the underlying technology and it is mind blowing. And he was right. Fast forward to today. We're here at Adobe Summit talking about practical applications of artificial intelligence and thinking how to even keep up with the advancements of the area.
+
+00:03:01:13 - 00:03:20:01
+不明
+So for me, it's really a kind of a circle. We're back together. I hope you're ready to do some actual practical work, and I'm ready to help our customers deploy it.
+
+00:03:20:06 - 00:03:54:07
+不明
+My name is Greg Cleopas. I'm a product manager. They'll be experience manager. Assets team. And today I'm going to talk about accelerating content activation at scale using Adobe Experience Manager. By the way, if you want to send me an email, just take the QR code or go to LinkedIn and I'll definitely respond.
+
+00:03:54:12 - 00:04:39:38
+不明
+So why is this important? Why is this acceleration important? So today's consumer. They want to have the best possible experience highly visual, highly personalized and still on brand and consistent across all the touchpoints and channels and interaction patterns. So what does a brand have to do to actually keep up with this demand? So brands have to accelerate the time that these experiences get to, to people, to consumers, while ensuring that it's all trusted and approved.
+
+00:04:39:43 - 00:04:53:08
+不明
+That is on brand, that it's highly personalized. And of course, that the investment in whatever you're doing is a reasonable.
+
+00:04:53:13 - 00:05:16:54
+不明
+And in a sense, it's almost as hard as trying to ship a lot of packages to a lot of places at the same time, with trust, with reliability and with speed. And this process looks a little bit like this in a lot of organizations.
+
+00:05:16:58 - 00:05:34:27
+不明
+And today I'm excited to introduce some innovation in Adobe Experience Manager assets that helps accelerate this process and streamline it. So let's floor it.
+
+00:05:34:31 - 00:05:57:07
+不明
+And this acceleration at scale right. It's it's important. After today's sessions you're going to have inspiration and tools to really be able to do three things. Number one, get trusted content ready fast.
+
+00:05:57:12 - 00:06:18:29
+不明
+Number two reuse and repurpose content for the content. Your intent, the customer's intent. And all this to be able to activate winning content at scale. So let's get to it.
+
+00:06:18:34 - 00:06:48:40
+不明
+I talked to a lot of customers. I listened to their needs around content activation. I listened to their problems and I tried to synthesize this journey and story, with a fictitious brand. Fresh Copa. It's a high quality coffee brand that's headquartered in the US, and I have big plans to launch their products, in Europe. And, you know, I'm from Europe, so I chose Europe.
+
+00:06:48:45 - 00:07:13:32
+不明
+Don't blame me. It has many languages, so you'll see some usefulness in that choice. And for scope, I was really tasked to do it fast. They're expanding right there. They're just blowing up in terms of the, the number of things they have to do. While competition doesn't sleep, so they have to be ahead of the game.
+
+00:07:13:37 - 00:07:47:49
+不明
+So we're going to go on the journey with for Scopa starting from global brand assets. Global product assets. For our story they are already there right. We're going to be talking about the activation towards the downstream. But next thing for Scopa has to do is take this global campaign content, add to the brand assets and start rolling out to regions and countries, do local adaptation and still maintain that on brand.
+
+00:07:47:58 - 00:08:14:56
+不明
+The trust and the ROI. And last but not least, and deploy it across different channels, platforms to do personalization at scale. All this within sort of the same team that they have today. So how do they do it and those channels. Right. One point I want to make the activation is super important. And when you think about activations, I there's an online there's email there's pate.
+
+00:08:15:07 - 00:08:45:52
+不明
+But also there is sales collateral needs to get to the right people who go to their B2B customers, etc., etc.. And so think about activations more broadly. Yeah. And we're going to work with a dream team of Tom, Sophie and Marie who will tackle this with Grace. All right. So buckle up. I'll take you on a fast ride.
+
+00:08:45:57 - 00:09:09:41
+不明
+I'm going to show a lot of innovation we're really proud of. I'm going to show some of the features that exist today. I'm going to tell you where things are that we're working on and are to be released after summit, but consider it there for you. Reach out to us and we'll work with you. All right, so let's start with getting trusted content.
+
+00:09:09:52 - 00:09:49:19
+不明
+Content ready fast. That is the first task. And we're going to work with Tom. And it's a Monday morning. Tom sits sitting at in his kitchen with a cup of coffee and thinks about the day. It is the day that he needs to launch all the global content and hand it over to the regional teams. He's a bit concerned because typically, platforms that need to be ready by his colleagues are not a delayed run over time.
+
+00:09:49:24 - 00:10:17:29
+不明
+Etc., etc. so are what are we going to be ready? The agency content. He has some content that last minute needs to get to the regions literally today and it's not there yet. And then finally he needs to ensure that everyone downstream will be able to take this content repurpose for their, needs quickly and just roll it out.
+
+00:10:17:29 - 00:10:40:05
+不明
+And he's still responsible for it. And I've got a lot of Mondays. Let's get to work. There's some hope because he participated in a deployment of a new marketing platform and let's see how this goes for Tom. So we're going to switch to a demo.
+
+00:10:40:10 - 00:11:08:42
+不明
+It's going to be new for me because I'm doing the demo from this screen. Bear with me. What are first meeting of the day? Tom meets the IT manager. Let's call him Greg. And Greg comes to Tom and says, Tom, today the world change. No. Not really. Greg is more practical. So he says, hey, Tom, let me show you what we deployed in a really quick time.
+
+00:11:08:47 - 00:11:38:42
+不明
+So we're building this marketing platform based on Adobe technology, and we already deployed assets for you so that it's a centerpiece where you can sort of store all your or your content. And very recently, we added Content Hub that you see here. Okay. Let me see if I can point it. Perfect. So Content Hub allows you to scale access to content to all your regional teams and allow them to do more interesting stuff as well.
+
+00:11:38:47 - 00:12:10:07
+不明
+There is a lot of solutions here, right? Scope is growing. So they basically are deploying what we call a gen studio solution to, handle their content supply chain. I'm going to be really focusing on the experience manager assets. Some of the downstream solutions like sites. And I'll be mentioning just that you can connect the flow to work front to orchestrate everything as well as,
+
+00:12:10:12 - 00:12:42:15
+不明
+Greg's been working on extending the solution in a new way, and he's going to use a builder to do it. But this is not very relevant or very interesting to Tom, because he just needs to get his job done. So first thing that Tom will do is he's going to check out Content Hub. All right. I'm sorry.
+
+00:12:42:20 - 00:13:10:18
+不明
+I'll I'll learn to do it. And voila. Content hub is this portal where you can get access to assets. It scales to thousands of users and gets all your approved on rent content. What Tom learned is that he can even customize and brand the UI to match for his couple brand. Super important, especially if you're thinking about.
+
+00:13:10:22 - 00:13:44:58
+不明
+Bringing this content to external parties so that they are trust. Trust you that this is actually for scoped content. So in addition to all the sophisticated configurations here, Tom can go here and. Look at the UI branding. And it's really new. We're going to launch it very soon. A lot of customers are excited. So you can customize the visual, add the logo, customize those fonts here so that it all matches brand.
+
+00:13:45:03 - 00:14:11:13
+不明
+I'm just going to quickly turn it on. You can even it's going to be the next step for us. You can even customize the font, and colors of the UI itself of buttons to match your, your brand. Okay. So this is a pretty good package for Tom. Let's just turn it on for the main visual elements. And when it's saved, Tom will see.
+
+00:14:11:18 - 00:14:39:14
+不明
+Beautiful for scope a branded experience for him and his users. So now the next thing Tom has to do is to handover, a request to the, the agency for the last pieces of content that he needs for the campaign. And to do this. To do this, you can just give them access to the portal and they can find the right content.
+
+00:14:39:16 - 00:14:54:51
+不明
+It's a fairly sophisticated search experience. Or he can use a collection for the upcoming campaign and hand it over to them.
+
+00:14:54:55 - 00:15:20:17
+不明
+Right there, there are some assets there. And the the agency team. One of the key problems they've always had was when they take this content, you know, where it's all the brand definition. It's typically in some documents somewhere there are some logos lying around on network shares and they never sure what is that crisp definition of your of your brand.
+
+00:15:20:22 - 00:15:58:30
+不明
+And this changes because the concept of a brand, a live brand service is brought to AMP, as well as other solutions like Gender studio for performance marketing, and Adobe Express, which we'll talk about to really give everyone access to the same brand guidelines and their life. So if you look here, the agency can open the live brand guidelines, which will define everything in the brand voice guidelines, image guidelines, and they will be important and we'll see them in action later.
+
+00:15:58:35 - 00:16:29:01
+不明
+Things like logos and colors and will be adding more and more things so that really are able to benefit from it and create more on brand content more easily. And then one thing that Tom asked the agency to do this time around is instead of creating a lot of static versions and renditions to really focus on creating templates that can be reused and adapted locally.
+
+00:16:29:06 - 00:17:05:53
+不明
+So the team created a an express template, which I'm going to show right in a second. I'll just open express. It's integrated, nicely. So users who don't need to, go outside of M can just call it up there. This in itself is not new. And they have access to this brand element that again, has the same live logos, colors, fonts and also templates.
+
+00:17:05:58 - 00:17:43:27
+不明
+So the agency created a few templates that the team can take and modify or parameterize them and create variants. And we'll see that later. So that's one of the optimizations. Create templates. You know upfront. Instead of doing it downstream. And another type of templates is what we call dynamic media templates. They were released very recently. We're adding a lot of capabilities and you'll see how this to work for downstream users later.
+
+00:17:43:31 - 00:18:08:46
+不明
+And the last thing then Tom does is he gets all the content from the agency. One thing that I want to mention and keep that thought right, the agency manages content in Dropbox and the like. Yeah, because that's how we do things. And so for Tom, they just upload stuff from Dropbox so that it's available to for scope.
+
+00:18:08:50 - 00:18:18:31
+不明
+And then what Tom can do really is very interesting. All the input from the agency.
+
+00:18:18:35 - 00:18:50:00
+不明
+Is available here. There are just a few call outs here. We're going to focus more on the downstream. But one thing that happens automatically now is product images. Get automated metadata attached to them okay. And as you can maybe see here this metadata that is attached like the title and description describing the object that we see here is automatically translated if you want this.
+
+00:18:50:00 - 00:19:22:49
+不明
+So you can switch between the original and a translated language. And then you can see kind of types of. That's a bit small for me. It's products right. It's a product shot. So it knows which brand is, it knows which which type it is and it knows more details about the product. This is a trainable smart text capability that uses this newer, AI technology to really to really get there.
+
+00:19:22:49 - 00:19:52:19
+不明
+So this is really exciting, for, for Tom. And one more important thing that, brand and we need to accelerate this because of course, the campaign runs and our session time also runs out is Tom can now look at. The visual elements and also text elements. If you work with text in AMP and see how on brand is it.
+
+00:19:52:24 - 00:20:18:32
+不明
+What's that brand score that artificial intelligence can can give the specific asset based on the brand definition. So again it's alive. So let's look at one. It's coffee. It's a happy person. So it would look like it's pretty good on brand for a lifestyle. Lifestyle shot to to be used. And it actually switched to I think I switched it to Spanish somewhere.
+
+00:20:18:32 - 00:20:44:46
+不明
+So I'll need to bear with this. But one thing that's very new is we're adding a brand guidelines scoring that is fully automated, that takes the brand elements and tells you how on brand are you? And you can see here that this image is fairly on brand but not quite. And you can ask why. Oh, the background is too cluttered.
+
+00:20:44:51 - 00:21:08:28
+不明
+We don't want this in our brand and it's actually in the definition. And you can see all the elements that actually match the definition. So Tom can even ask for fixing this or just not use it, because it's kind of a little bit of brand. And then if he looks at the other image that he receives, this one is actually pretty nicely.
+
+00:21:08:33 - 00:21:22:37
+不明
+Sorry, I'm jumping ahead. We don't know yet. It's less cluttered. Right. So let's see whether I will agree with us.
+
+00:21:22:42 - 00:21:53:29
+不明
+Maybe it needs a cup of coffee as well. You can see it's life. I should start tap dancing now. Bam! Yes, we have a green score. So it analyzes the image tags, the brand guidelines, and provides this automated score. And this is super important. And Tom can choose now to. Take this image. And actually. Say this is Spanish.
+
+00:21:53:29 - 00:22:18:52
+不明
+So I feel like it's it's a Spanish lesson by a very unqualified teacher because I don't speak Spanish. But this is the approval. Tom can approve the asset to show up on Content Hub or decide not to like for the other asset. And just use this information to speed up the process. Of course, there is huge room for automation here for everyone.
+
+00:22:18:57 - 00:22:48:20
+不明
+So with all this, Tom is pretty happy with the result. And you know, he just added all the assets to that are relevant for markets that are new as well to this collection that he created. So that it's easier to discover downstream and he can hand it down as the global content that's highly template ized. And it's on brand.
+
+00:22:48:25 - 00:22:58:05
+不明
+So that was good. What we saw here, I need to click here. What we saw here.
+
+00:22:58:10 - 00:23:26:10
+不明
+But I need to remember to do it. See it's a bit complex for me. A few callouts for recent innovation. So we have a lot of out of the box configurations and, and integrations that you can apply to content supply chain or gen studio solution deployment. We're introducing brand validation score and smart tagging enhancements based on the recent, based on recent I enhancements.
+
+00:23:26:15 - 00:23:50:31
+不明
+We're providing ways to template types or creation upstream so that it's easier to adapt downstream. And it works across express templates, across dynamic media templates. One thing I didn't really show, but I want to mention it, we also providing creatives with easier access to assets outside of Adobe ecosystem. One good example is a Figma connector that's out of the box.
+
+00:23:50:31 - 00:24:15:51
+不明
+You can deploy it, and a lot of agencies that say use Figma to run a lot of their creative process. So that also, simplifies and keeps stuff on brand. All right. So the second thing, you take it down to a region you want to reuse and repurpose for the intent for what you need it for. So let's meet Sophie.
+
+00:24:15:55 - 00:24:44:29
+不明
+Sophie sits in beautiful Geneva. No, I live in Switzerland, so I had to choose it. SIPs coffee in a, street cafe and thinks about the day. Big launch. She's really excited, but sometimes those little problems just stand in the way. How do I find my campaign content? And sometimes they send you a lot of small links, very precise links, but you don't know what the big picture is.
+
+00:24:44:29 - 00:25:17:22
+不明
+Sometimes just give you access to everything and you lost in finding the right set of assets for your region. She really prays that there is no licensing problem with the assets for her specific region, because that takes time to fix, and she needs to fix it as quickly as possible without the email back and forth. And then finally, she really hopes that a lot of content variants are already there for her, or really easy to get to because that takes time.
+
+00:25:17:27 - 00:25:39:47
+不明
+Creating those statically takes time and money. So I know she needs another latte before getting to office, and let's see how we can help her with some of the innovation in Adobe Experience Manager assets. So first of all.
+
+00:25:39:52 - 00:26:13:19
+不明
+This is Content Hub. And I'm going to switch back to all assets view. And this is a global view. All assets available are visible here. This is Tom's view. So he sees all the assets. But with Content Hub we introduced Permissioning system that allows to configure rules based on actual metadata properties of assets that can be assigned to groups and put together in logical, rule sets so that you can target as an organization the right subset of content, the right group of users.
+
+00:26:13:24 - 00:26:41:22
+不明
+And we can see that here. Note how many assets I see here. Here's, user, a different user belonging to and in-store managers group. And she sees just 11 assets. Those are the only ones relevant to her. And then Sophie sees she's a regional manager for a media. And the rules just give her, a different subset.
+
+00:26:41:34 - 00:27:16:42
+不明
+So, you know, this is really useful for her so she can focus, but also she can start from the top and start searching and filtering. Right. That's another way. And this is not a new feature in Content Hub, but just worth mentioning. She just has one place to go and can easily access everything through filters. Let's see. Filters like she's looking at the product categories, just want to do whole being and see whether I get everything that I need here.
+
+00:27:16:57 - 00:27:37:32
+不明
+So it's kind of fairly fairly easy for her. So that's number one. So she's going to she chooses to work with the collection because it just gives her everything. And the first thing that she noticed is here is Europe launch.
+
+00:27:37:37 - 00:28:01:40
+不明
+She sees a lot of good assets, but she really likes this one. And guess what? It's the licensing running out, and she needs it for the rest of the year to be on the safe side and on the soft side. What can she do now? So with this, first of all, we're giving full transparency and expiry dates.
+
+00:28:01:40 - 00:28:24:03
+不明
+And the usage rights can be configured on the assets so that they're really visible to users. You'll see that later. That's the element of trust. That kind of is woven in the whole process. And it's so so required. You can also configure if there are expired assets are visible but not downloadable. Maybe you can hide them at all.
+
+00:28:24:03 - 00:28:45:06
+不明
+It really depends how you operate. But in this case what can she do? Traditionally she would just go somewhere to a request form and type, hey, I need an extension for this asset. Maybe copy paste a visual so that they know which asset it is, maybe a URL if she's lucky to have a URL that they can open.
+
+00:28:45:10 - 00:29:14:08
+不明
+It is a lot of back and forth. And with Content Hub we're introducing extensibility. So we're introducing extension points to the out of the box product that organizations can build using AB builder very lightweight technology that is across all experience cloud solutions. And Greg, the asset manager, if you remember, he had this built with a relatively small effort.
+
+00:29:14:13 - 00:29:44:06
+不明
+And this is just an example of what you can do to connect these business flows, right? You have the assets. It's not yet what it needs to be. So you need to activate it. In this case activation is extension of usage rights. So she can just go here and. Say request summary thing I have a copy somewhere. Please extend to rights and send it to the right team or person.
+
+00:29:44:11 - 00:29:53:37
+不明
+She works with market on those. She click submit without leaving this, without doing anything.
+
+00:29:53:42 - 00:30:20:57
+不明
+And again. Voila. We're we're done. And of course you would be notified etc., etc.. But I want to prove to you we actually integrated this with work front so that but it's it's, just a demo choice. Where is my work from here. So I'm struggling a bit with not here.
+
+00:30:21:01 - 00:30:27:38
+不明
+Just give me one quick second.
+
+00:30:27:43 - 00:30:47:07
+不明
+You have to trust me. There were 20 requests here. Now it's 21, so somehow it closed. And let's look for the. Please, please extend the rights. Okay. As. And you can see, we were testing it a lot, right? So, a lot of people just hit that button, but but this is how easy it is for Sophie.
+
+00:30:47:07 - 00:31:17:43
+不明
+And then she kind of stays in the loop without having to go. And Mohit, who's handling those, will actually have access to this. Exactly. This asset. He'll know everything about it. So this is a big unlock. I think, for business users to really be able to to do it that way. And just one more thing on the extensibility just to call out, you can also extend this in a way that, you know, things can be sent to a downstream system.
+
+00:31:17:43 - 00:31:42:01
+不明
+We have a lot of customers, especially in the sales activation situations where they have collateral. They need to be sure that it's the last latest approved collateral. They need to have a leave behind printouts for their visits. They can send it to a print service, and you can instrument it in a way by your IT organization so that it knows what to do and handles handles it nicely.
+
+00:31:42:01 - 00:32:04:25
+不明
+So those are just examples of what can be done here. Pretty exciting. And then last but not least, so Sophie right. Sophie has a lot of good content, but she needs those local adaptations as well. So let's see how she can handle this.
+
+00:32:04:30 - 00:32:31:48
+不明
+So once what? I'm sorry, one thing she can do is use dynamic media templates. And dynamic media templates are really similar to, express templates. They're just more for marketing. And they are they can be made life, meaning they're published as a URL and they're configurable on the fly, and I'll show that later. But for Marie, right now, she wants to create a.
+
+00:32:31:53 - 00:32:50:31
+不明
+A more personalized, banner for and happy hour with for Scopa, and even personalize and send in an email to people like me more directly. So what she can do is open this.
+
+00:32:50:36 - 00:33:19:05
+不明
+And I think it's here and here. She has the ability to parameterize or configure some of the areas of this template that are actually not locked because someone the agency that we saw locked certain areas because they need to be on brand. But allowed for. Local modifications. So let's let's add Greg here.
+
+00:33:19:10 - 00:33:48:07
+不明
+And I can actually leave the discount as this. And you can see it's it's it's generated immediately. She can download it immediately. If she needs to send a quick email to a VIP like myself, I love coffee. So I would really appreciate it. But she can also generate and this is right now available on the offering environment, but we'll bring it to, to the content hub surface as well.
+
+00:33:48:12 - 00:34:21:02
+不明
+She can actually generate a life URL that works like this. So I pre generated it. It's a live URL. I can click refresh to prove it. It is an image with all the quality of embedding, all the fonts, all the unbranded ness. And it also allows itself to be customized. So if I choose to change Greg to Joe.
+
+00:34:21:07 - 00:34:45:34
+不明
+And I hope I'm not messing up with the G. Joe. Okay, G Joe will go with G. Joe it's it's possible to regenerate it on the fly. And this is not something Sophie would do, but this is something that the code running the website personalization could actually instrument. And you just put one image there and you have millions of variants.
+
+00:34:45:39 - 00:35:06:22
+不明
+Next time it'll probably gather all your names and send you out an email with your personalized, oh, that be too late. Too late. Great. Okay. But very exciting. And then last but not least, I just don't think I will have time to show it. But maybe let's run through it quickly, because, see, my session is very short.
+
+00:35:06:26 - 00:35:32:58
+不明
+Sophie's day is very short for what she needs to do. So it's kind of we're running against the same clock, almost on a slightly different level. Okay, so let me see if I can show you what Sophie can do with express templates. So those were dynamic media templates. Those were ways to configure and also put them live. So in a way that they are maybe of a slightly different, persona.
+
+00:35:33:03 - 00:35:55:54
+不明
+But you know, Sophie is in Switzerland. And those for those who know we have a lot of languages, we have three main languages that any material has to be translated into. For this to be, good for the market. And let's see if Sophie can do it really quickly all by herself. And we're actually going to do it from, Content Hub.
+
+00:35:55:58 - 00:36:02:26
+不明
+I'm sorry. I sighed very heavily.
+
+00:36:02:31 - 00:36:33:29
+不明
+Okay, so let's just choose an asset. It doesn't matter. So express integration allows users to to actually create variants of content use. Generally, as you can see in certain objects, remove backgrounds. It's all firefly given to the user directly. They can generate stuff. So this in itself it's pretty powerful. But I'm going to show you something else that's also based on I, I and users templates.
+
+00:36:33:34 - 00:36:53:42
+不明
+So what Sophie really wants to do is take an approved banner template. So I'm going to find it. Remember this is the same live brand definition that we saw elsewhere. It's all connected. And she's going to choose this one.
+
+00:36:53:47 - 00:37:23:45
+不明
+Your perfect coffee is four questions away okay. And I'm going to start a new express creation that's based on this template. You might have seen it in one of the keynotes. So I will not go through explaining everything. It's a very powerful tool and very simple to use. At the same time. But what matters for Sophie is that she has the ability now to customize your perfect coffee.
+
+00:37:23:45 - 00:37:34:45
+不明
+Is a step away. Does it even make sense? Let's see.
+
+00:37:34:49 - 00:38:11:40
+不明
+Step a step. It doesn't make sense, but let's just assume that. So she customizes it. She could flip some of the visuals if that was allowed, but just for the sake of, the argument here and now, what she needs to do is she needs to have those translated, versions that click it. Apply. I hit some snag, which I don't really understand.
+
+00:38:11:45 - 00:38:18:09
+不明
+Okay, let me quickly do something else. This can't.
+
+00:38:18:14 - 00:38:33:31
+不明
+See, I use another asset. Then in my rehearsals, I felt very brave. So let me let me do it again with the one that actually worked for me before.
+
+00:38:33:36 - 00:38:48:43
+不明
+Oh, this is Sophie's life as well, if you catch my drift. A lot of work to get things up, but this is really powerful, so I hope this time we're going to be.
+
+00:38:48:48 - 00:38:53:46
+不明
+So I'm just going to say great coffee here.
+
+00:38:53:51 - 00:39:19:08
+不明
+Okay. And we have some CTA placeholder. But just for the sake of, You have to trust me on this one. There's something in my demo flow that that I trip over. The ideal flow is that she hit translate, and you saw that? It works, right? So you have to trust in this one. And then she can select languages.
+
+00:39:19:08 - 00:39:50:51
+不明
+I would so like German, French and Italian because those are the main languages of Switzerland. And generate those things. And then she could actually save all of those variants back into Content Hub or Am so that it's available to all her local teams, maybe in, different, you know, language regions of, of Switzerland to really deploy to their local channels.
+
+00:39:50:56 - 00:40:14:48
+不明
+And that is it like that? Yeah, I don't know. I won't be able to to, to resolve it. It's also that I'm looking at this screen actually because of the setup. So I don't see all the details. Let me just close it real quickly.
+
+00:40:14:52 - 00:40:40:19
+不明
+Hoopla. Oh yeah. I need to say discard. So any who we are moving forward, we are moving forward because the clock is ticking. But what we saw permissions for Content Hub really powerful for security as well as relevance extensibility for those connected workflows. Local variance that you can generate and on express and Express you can actually try it yourself.
+
+00:40:40:19 - 00:41:09:09
+不明
+So I challenge and then content hub public link sharing, which I didn't didn't show, but I'll show it in as a part of the next flow because the next flow is activating this content that is winning and approved at scale. And we're going to work with Marie. And Marie is a local channel practitioner. Let's assume she's sitting in Zurich in a German speaking part of Switzerland.
+
+00:41:09:14 - 00:41:36:14
+不明
+And she typically has a lot of problems, very small, very annoying problems, for example, the content that she needs to deploy. And it's a it's a very specific segment. It's a very specific channel. It's a very specific language. She gets those from regional colleagues or from agencies. And there's always a problem. The link doesn't work. It shows her too much.
+
+00:41:36:14 - 00:42:06:05
+不明
+It shows her too little, cannot log in. It expired. So how can she get access to this content in a more reliable way? And then she really needs very specific formats, very specific crops of of of stuff to be able to deploy reliably. Last, but not least, she's living in a download upload download cycle because all those assets are living in some network shares or cloud storage.
+
+00:42:06:05 - 00:42:21:52
+不明
+She needs to download everything put into the channel, upload, rinse and repeat. A lot of problems and a lot of challenges. There. So let's see how we can help her.
+
+00:42:21:57 - 00:42:52:12
+不明
+So one thing that can help her and I can show it now is asset link allow URL. Sorry content hub allows for creating, links to stuff. So let's take this. Let's, let's say no, she needs just the specific coffee type. And then you can select exactly the asset that she needs. So this precision that would probably be the regional, marketer.
+
+00:42:52:12 - 00:43:27:28
+不明
+And you can share it with her and you can share it now both as the link that requires authentication as well as a public link. So if Marie were a freelancer, that would probably be the easiest way to go. So this is one thing that she can do. Another thing that she can do though is take those, templated or sorry, not templates to take the content that is available to her and actually, create the right format herself.
+
+00:43:27:36 - 00:43:52:58
+不明
+When I say create, I mean just choose. So for example, this one is, visual that she wants to use, but she wants it in a very specific, tall format for her, for her specific needs. And, you know, of course, she could, go to download. Now, you can notice that this content has terms and conditions in attach attachment.
+
+00:43:52:58 - 00:44:16:46
+不明
+Before she even gets access to it, she has to read and approve them. But really where I'm going with this, she can now go to our renditions capabilities specifically. Smart crop is very powerful. This is not very new. This is new in Content Hub and she can select the right format for her that is regenerated not by an agency, just pre generated by the machine.
+
+00:44:16:51 - 00:44:51:20
+不明
+Let me see which one, this one. And see the smart crop was not the human selecting the strong point. It was the machine who knew where the center of gravity is for that image. And it doesn't have to be in the center. So now Sophie can download it. She can also just copy this dynamic media link and put it directly into a channel, and voila, she got she she she gets it right, she gets it done, she gets it deployed.
+
+00:44:51:25 - 00:45:18:00
+不明
+And now we don't have time to run through the whole big demo, of how you can actually deploy it in different channels. But I'll just tell you in some of you probably know we have technology called content selector that allows channel practitioners working in specific solution to just take connect to the source of content to am visually search, select preview, and then just click a button.
+
+00:45:18:00 - 00:45:50:13
+不明
+And integration knows what to do with this asset. It just deploys the right link or it deploys a copy if that's what the channel needs. But it's all then integrated, and you don't even have to worry about download and upload. So there is a lot here. And you know, today Marie is fairly happy. There were a few hiccups, but she managed to put all the content into the, the channels that she's responsible for.
+
+00:45:50:18 - 00:46:15:51
+不明
+And what we saw here is a relatively new feature, but it already exists in Content Hub, which is surfacing the DRM and licensing terms. It's very useful to keep trust across the journey. The Dynamic media smart crops integrations that will be coming soon to Content Hub as as well as dynamic media URLs so that you can sort of deploy that URL and keep the linkage to the source of true truth of the asset.
+
+00:46:15:55 - 00:46:30:25
+不明
+So we're pretty much done with our journey and we are ahead of time. But as always, there is one more thing. So.
+
+00:46:30:30 - 00:46:44:06
+不明
+Let's do one more thing. I talked a lot about AI, and I showed some AI in my demo, and I hope you noticed, but we have so much more that we're launching.
+
+00:46:44:11 - 00:46:58:41
+不明
+So let us do a quick demo of a few things. And one of those things is discovery. Remember how the agency and I'm trying to find this.
+
+00:46:58:46 - 00:47:37:07
+不明
+Getting back here. Remember how the agency had those content assets. It had to sort of lift and shift over to am. Now we're introducing unified search. And what unified search does is need to go to the search it gives you as an organization. I need to switch to this new search engine that we're using for it. You scroll this assets down and at some point you will see that some of them.
+
+00:47:37:12 - 00:47:42:15
+不明
+Where are they? Where are you? Assets.
+
+00:47:42:19 - 00:47:50:57
+不明
+Now someone added a lot of assets on top of what I was expecting.
+
+00:47:51:01 - 00:48:04:59
+不明
+Hoopla. So I'm struggling a bit. So let me see what they say. Serving. Let's look for serving.
+
+00:48:05:04 - 00:48:27:00
+不明
+And you can see the some of those assets now have this little icon. And what that means is that we are able now to bring together assets from Am and other sources like Dropbox to the users, so that they don't have to jump back and forth. And the process is much easier. And you can see that this is actually stored in Dropbox.
+
+00:48:27:05 - 00:48:51:29
+不明
+So this is pretty substantial. The next thing is how do you search. And you know, today in most cases you search by keywords. You have a few keywords. You kind of know what, taxonomies, you know, you oh, we have those regions. So maybe I'll search by regions and it's all good and dandy, right? It's needed because some of those users need that precision.
+
+00:48:51:34 - 00:49:22:39
+不明
+Some of our customers actually instructor users to use IDs for things or skews to to really be sure what they're looking for. But in a lot of situations, people just don't discover the right content. That way. And again, there's nothing wrong with this because those this mode is very required. But if I want to search for something as a human, the most obvious way for me would be to say.
+
+00:49:22:44 - 00:49:51:29
+不明
+Find me approved PNG assets showing an artistic coffee cup. Oh okay, I can stop because nothing comes up. Because guess what? There is no match for this in terms of if you take keywords by keywords, by keywords, like there's no match, is there some content in there that matches this? That is a good question. And for this we introduced intent based search.
+
+00:49:51:34 - 00:50:20:06
+不明
+And again I'm going to paste the same question. It's almost not like a search term once like a question to someone hey can you find me those. And look they're coming up. This is magic okay? This is magic to me. Remember my story. This is where I am so excited that I is now getting to the point which I hoped that I could do many years ago as a scientist.
+
+00:50:20:11 - 00:50:46:00
+不明
+But but this is really cool. This. This is based on semantic search. Technology understands the the meaning of the sentence. It can even translate it for you. I just don't have time to show all the benefits of it. But just showing this, we're working on this and we're going to introduce it first to our authoring environments and then bring it over to all the environments.
+
+00:50:46:04 - 00:51:22:07
+不明
+And last but not least, there's one more. One more thing or one more, one more and one more thing, which is remember that story about how you have content selectors that we provide and channel practitioners that can take them and search for content and place it with just one click. This is all great, but what if we brought this type of technology for semantic search into this engine and give the user access to more content beyond traditional assets like visual binaries?
+
+00:51:22:12 - 00:51:56:06
+不明
+So for this, we're introducing a new technology called Content Advisor. And content advisor is kind of what it says on the team, right? It is a an intelligent advisor recommending the right content for what you want to do uses the same set of technologies that we saw in the intent based search, but it brings it into the context of the user's, not behaviors, but the user situation.
+
+00:51:56:20 - 00:52:22:39
+不明
+So right now we're we're an email channel marketer working on an email. And we need some content, visual content for it. We also need some copy for it. So what can we do? I can open the Content Advisor UI. And if you know a GM you probably know the concept of this content selectors. So it's a it's an extension of it, but it goes much, much deeper than you think.
+
+00:52:22:44 - 00:52:44:49
+不明
+So one thing that you can see here, it's right out of the bat. It supports this intent driven queries. It's kind of the same way right. Intent driven. You just tell it what it wants. It even can select filters. But that's kind of a smaller thing for our quick demo. Now notice as well that it can bring more content type together.
+
+00:52:44:49 - 00:53:23:04
+不明
+Because if you're an email marketer, you care so much about copy and coffee as much as you care about visuals. So it brings not just assets, but also content. And last but not least, we're bringing everything together. For example, if I really like this image and this is one of my favorites, to be very honest, I can also access renditions here and in setting instead of placing the original large resolution banner, I can actually select the right smart crop for it probably should be like this.
+
+00:53:23:09 - 00:54:06:06
+不明
+What? From. And there's one more, one more, one more. That's one more thing. The intent and I let it soak, because I realized that at some point. And now I'm. I cannot stop thinking about this. Let's choose another another asset. Okay. So you have this query. You have this question. Hey, give me this specific type of content. But what if we could let you as a, as a marketer, just say, this is my campaign brief, get me the right content.
+
+00:54:06:10 - 00:54:37:07
+不明
+Some of you might have seen the demos I know might not be exciting, but very exciting to me. So this is what we call intent driven match, which can have more input. And this is an example of a brief look at the at the target audiences. It defines what are the primary audiences. So if a marketer wants some relevant visuals for it, they probably should see those people, those types of people in in the images.
+
+00:54:37:12 - 00:55:17:21
+不明
+And then what I really sorry, what I really realized some time ago is that a lot of what we do as human professionals is creating prompts. Look, a campaign brief is a long prompt is a very detailed prompt. So it provides the underlying AI a really good context of what you're trying to do. So a lot of the things that people now type and fill out, we probably still will because we know the intent we are driving that came, but then the machine can take it and interpret it for us and do the right things.
+
+00:55:17:29 - 00:55:38:42
+不明
+So think about it that way. A lot of forms are just prompts. Anyway. I'm not sure if I'm a big visionary here, but this is what occurred to me. And if you do this and click start, it will start finding the content based on this very document.
+
+00:55:38:47 - 00:56:07:43
+不明
+I heard this happened in the top innovation session as well, so I am not very moved. Let me do it one more time just for us to see it work before you probably trust me. This is the beauty of live demos. I'm sorry I click somewhere else.
+
+00:56:07:48 - 00:56:16:54
+不明
+Don't start. And.
+
+00:56:16:58 - 00:56:37:25
+不明
+You have to trust me. It's. It's in the recording of the other session. That was supposed to be the culmination of the session, but. But this is really exciting. I'm telling you, this is really exciting in the way it it it knows how to interpret and give it direct results. So with all this, with all this.
+
+00:56:37:30 - 00:57:16:54
+不明
+We've seen new, exciting innovation on a sort of a bigger scale, if you will, unified search, search with intent and content advisor. With a little bit of a hiccup. So now you're better equipped. You're better equipped with ideas and capabilities to really tackle activation of content at scale. And just one thing that I want to make sure you understand, everything that I showed here was built on four pillars for capability pillars, if you will.
+
+00:57:16:58 - 00:57:46:37
+不明
+So one is of course you need Am for managing the content, but to getting it out you need dynamic media and dynamic media provide this platform secure, highly scalable to get content out without really getting binaries out of your purview and control. That's number one. And on top of this dynamic media layer sits Content Hub with gives, which gives humans access to all the content and the ability to create and activate it in different scenarios.
+
+00:57:46:42 - 00:58:12:36
+不明
+You have content selector becoming content advisor to do the same in the context of where they already working. So it's kind of even better because we know more of the content. We can actually turn it into an additional prompt. The email that you saw, we know what target segment this specific email is about. So we can add it to the prompt under the hood and get even better results.
+
+00:58:12:41 - 00:58:53:31
+不明
+And number three is the API access. We didn't see a lot of this because it's not a developer session, but everything can be automated and simplified using code that takes those assets and activates them seamlessly without any human interaction. So I hope that after listening to me, you at least have three key takeaways. And number one, that you can get trusted content ready fast, that you can reuse and repurpose for your intent and the intent of your customers.
+
+00:58:53:36 - 00:59:03:09
+不明
+All of this to be able to activate winning content at scale, faster.
+
+00:59:03:14 - 00:59:37:19
+不明
+And with this we're finishing the session. There are many capabilities that I showed that are in an early access program, or will be soon after summit. So if you could just capture this QR code and fill it out if you're interested, of course. No. No pressure. We love working with customers and it's so exciting for both of us in any specific situations.
+
+00:59:37:24 - 01:00:03:11
+不明
+We want to work with you as well. Okay, just one note there. The list of capabilities is longer than what I showed. It also covers some capabilities that will launch in a top innovation session focusing more on the authoring environment. But feel free to choose whatever is interesting to you. Ask any questions and reach out to us.
+
+01:00:03:16 - 01:00:28:54
+不明
+And with this, unfortunately, we don't have time for questions. Sorry my fault. I'll stay here. But the last thing before you leave, if you could take the survey, it really helps us. You can win cool prizes, including coffee, which is great. And if you liked it, give us a five. If not, tell us why. What we can improve the next year.
+
+01:00:28:58 - 01:00:34:22
+不明
+All right. Thank you so much.
+
+01:00:34:27 - 01:00:34:51
+不明
+For.
+

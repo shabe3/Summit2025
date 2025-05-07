@@ -1,0 +1,376 @@
+00:00:01:03 - 00:00:35:39
+不明
+Hey. Hello, everybody, and welcome to, the session today where we're going to talk about unifying your, commerce and marketing experiences. My name is Shannon Hayne, and I'm a senior, product marketing manager on Adobe Commerce. I've been in the commerce world for a long time on various platforms. And so, I'm excited to be here with you today to kind of share some ideas, and provide you with some examples of how customers are really creating these unified experiences across all their different touchpoints and channels.
+
+00:00:35:43 - 00:01:01:30
+不明
+So, let's, let's get into things. I want to start off with, you know, you all personalize, every interaction you have every day, right? In real life, this is how you operate. Let me give you an example. I have a 16 year old son, which means, I have two years until he's off to college, and I have two years to to impart all my great wisdom.
+
+00:01:01:30 - 00:01:19:21
+不明
+Right. All these things that he needs to know before he goes. But, you know, if you have kids, if you start lecturing, you just get serious. Eye roll. There's they're not going to hear it. You really need to be able to connect with other people in, their context, in language that they're going to understand and relate to.
+
+00:01:19:26 - 00:01:48:18
+不明
+So for me, that means I talk about three things these days. One is rugby and all about his team and all the things that are going on there. But it's also a great opportunity to talk about hard work and dedication. I also watch a lot of SNL with my son, right, because we can share some laughs and we can talk about the amazing work that goes into taking an idea, a crazy idea from Monday to an actual sketch by Saturday.
+
+00:01:48:23 - 00:02:08:19
+不明
+And, we talked about mochi, our dog, because we love mochi, right? But every dog walk, every game of fetch is all about how do you help and care for others? How do you take responsibility? So I'm sneaking those messages in in a way, in an in a language that he understands, that's really personalized to his interests.
+
+00:02:08:24 - 00:02:30:01
+不明
+And if you think about it all, your, real world commerce experiences also involve personalization. You go to a mattress store and there's a sea of beds, right? How do I pick one? But a salesperson will come up to you and ask you a few questions, right? I do, on a firm mattress. Soft one. Do you want innerspring or foam?
+
+00:02:30:12 - 00:02:52:46
+不明
+And suddenly that sea is narrowed down to three beds that are right for you. The same thing happens with your local coffee shop, right? They know that you take a black coffee with almond milk. Unless it's a Friday, in which case you go a little crazy and get something else right. So all those best experiences that you have in the real world are personalized.
+
+00:02:52:51 - 00:03:18:27
+不明
+And the same thing, I think we all would agree should be happening online. But it's much, much harder, right? You have to deal, you have to deal with all sorts of fragmented and siloed data located in different systems. You have to deal with the fact that you have too much data in some cases. Right. How do you find the nugget that's going to help you really, create an experience that matters for your customer?
+
+00:03:18:32 - 00:03:46:48
+不明
+And then you also have the fact that a lot of times, accessing that information is just too slow, right? You don't you don't have it in the moment to really personalize that experience. At the same time, your customers right now are being bombarded with 5000 messages a day. They feel like they hear too many things. So it's even more important for you to personalize and be able to bring, kind of a message that's going to cut through the noise and really be relevant to them.
+
+00:03:46:53 - 00:04:16:09
+不明
+So while it is hard to get to that, there are a lot of challenges in terms of getting to personalization. The payoff is massive. And, you know, I think emotionally we all understand the value of personalization. But you need to make a business case. And some of this data here is intended to help you do just that. So if you look at some of the research that's out there, 61% of consumers are willing to spend more when companies customize their experience.
+
+00:04:16:13 - 00:04:43:37
+不明
+Businesses that personalize reports, 67%, they're 67% more likely to increase their frequency of purchase. They're also, 71% more likely to report improved customer loyalty. And I think this is the one that matters most at the end. Right. Those companies that personalize I see a 2.5 x, higher revenue growth. Right. So there's a real dollar value to getting personalization, right.
+
+00:04:43:42 - 00:05:06:52
+不明
+And this has been proven out through lots of different companies, lots of different research. So then you're probably thinking, well great, I'm doing some personalizing. Right? I personalize my emails here. Maybe there's something on my website that I do to personalize. The problem is, is that your consumer wants more than just that spot or those little instances of personalization.
+
+00:05:06:57 - 00:05:26:34
+不明
+They're expecting every channel or every touchpoint to be personalized. And 80% of them say that they want that kind of experience, right? They don't want to just have it selectively applied. So that's a bigger challenge. Not only do I have to personalize, but I got to do it everywhere. And so that's what we're really trying to get at here.
+
+00:05:26:34 - 00:05:54:12
+不明
+This is sort of the Nirvana state where from the very first interaction with that customer, whether it's an ad, an email or whatever, all the way through to checkout and beyond, you want to create a seamless experience that is personalized for that user every step of that journey. And so that's what we're trying to achieve here today. And ultimately to make this happen, what you have to have is your marketing and your commerce experiences need to come together.
+
+00:05:54:12 - 00:06:18:02
+不明
+They need to be unified. And so I'm going to be taking you through some steps and things like that you can do to kind of get to that state. All right. So what you end up with is a pretty hard challenge, right? How do I have these 1 to 1 relationships, these conversations with thousands or even millions of customers.
+
+00:06:18:07 - 00:06:37:50
+不明
+And set another way of getting back to what we talked about at the beginning. How do I find the rugby, SNL mochi for each and every one of my customers? How do I connect with them in a meaningful way? I'm going to take you through a four step kind of process or approach that you can use to this.
+
+00:06:37:55 - 00:06:56:19
+不明
+The idea here is that you don't have to figure it out all at once, right? This is something that you can take a step by step approach. You can make incremental changes to get to that kind of final state that you're looking for. And it starts, I think, with a lot of times looking at what you have in the box already with your e-commerce platform.
+
+00:06:56:24 - 00:07:15:46
+不明
+So certainly with Adobe Commerce, we have a lot of capabilities under the hood that allow you to do personalization. Everything from AI powered search, product, recommender options. You can also tailor your pricing to different customer groups. There's dynamic content that you can take take advantage of. So there's a lot under the hood. And so that's step one.
+
+00:07:15:46 - 00:07:40:57
+不明
+Make sure you're using what you have. But step two is and actually you can do this step or the next one depending on your choice. But step two is all about how do I go deeper on that on site personalization. How do I take my content to the next level? How do I tailor offers? How do I just kind of go deeper in creating this really immersive and personalized experience?
+
+00:07:41:02 - 00:08:08:52
+不明
+An alternative step two that you could take is then just getting into how do I personalize my customer, kind of engagement, my communications, my campaigns. And, you know, you can do this by tapping into your commerce data and using it to trigger all sorts of different campaigns, all sorts of different kind of customer group communications. So you can use this for abandoned cart recovery.
+
+00:08:08:52 - 00:08:28:09
+不明
+You can do cross-sell messages, you can do special promotional messages and so forth. But this is sort of like getting that piece of the puzzle together. And then the final step in kind of the what we're aiming for is this idea of, and really where you see the ability to create a seamless experience is when you can unify your data.
+
+00:08:28:13 - 00:08:50:25
+不明
+Right? So you're taking in all that rich commerce data that you're collecting from your website. You're marrying it with, other information that you have in your CRM, or maybe your point of sale system and things like that. You pull that together so you have this unified view of your customer, and from there, you can take advantage of AI, your business expertise, to decide which targets you want to go after.
+
+00:08:50:40 - 00:09:15:33
+不明
+And you can really create this seamless omnichannel journey where all of your different touchpoints are personalized. So for me, these are great steps, but they often make a lot more sense when I look at examples of how other businesses are pursuing this. So I'm going to take you through a few different examples. This first one is an example of step one.
+
+00:09:15:37 - 00:09:39:18
+不明
+And that's where you're able to, you know, take advantage of capabilities within your e-commerce solution to personalize the experience. So this is, Coca Cola store in the US. If you they allow you to buy, bottles and cans that are personalized. So if you're having a wedding, a birthday, some sort of a major event, you can get all sorts of personalized bottles and cans.
+
+00:09:39:18 - 00:10:15:16
+不明
+They also sell tons of Coca Cola merchandise. So they were looking to increase their conversion rates, and sales through that site. And they went about it by, looking at using features that they already had in the product are AI powered. A AI powered search as well as AI powered product recommendations. Both of them use data from the site to personalize the, the the product discovery process for customers so that they can find what they're looking for faster.
+
+00:10:15:21 - 00:10:36:28
+不明
+So they implemented our AI powered search and saw, with that implementation that their search conversion rates went up to almost 19% and that most of their customers were able to find their the result that they were looking for, the product they were looking for in the top three results. So it shows that it was highly relevant, to those customers.
+
+00:10:36:41 - 00:10:59:15
+不明
+They're also able to get all sorts of information on, what other searches customers are doing, so that could help them figure out what they needed to add to their product assortment. They also, deployed or intelligent product recommendations. Once again, this is leveraging customer behavioral data, trend data through the site and stuff like that to come up with product recommendations.
+
+00:10:59:20 - 00:11:24:49
+不明
+They implemented, a recommendation module that was it's kind of like a just for you. It's based on that individual customer's behavior on the site. And when they implemented that, they were able to see, 117% increase in clicks on that as well as a 36% increase in revenue from that module versus a static product, kind of module that they had in place before.
+
+00:11:24:54 - 00:11:48:29
+不明
+They also implemented a different type of product recommendation. This one is a frequently bought together recommendation. So we have different algorithms that we can use in the back end to do that. This one also saw a higher click through rate. So these are things that are most likely in your toolbox today that you can be, leveraging right away to personalize your experience.
+
+00:11:48:34 - 00:12:14:18
+不明
+All right. Oh let me go back one. So Sarah and Ball is a an a great example of kind of step two in this, in this journey. And it's an example of a customer that is really going deep on personalizing their site experience. Faribault are a paint manufacturer in the UK and they're known for their premium paints, beautiful colors.
+
+00:12:14:27 - 00:12:37:37
+不明
+It is a very they have a very strong brand story as well. And so they wanted to create a better experience for their customers. And they, they were finding on their old platform that it was difficult to do development, add new features. But the big issue was that they weren't able to hyper personalize their experience, and that was something they really wanted to achieve.
+
+00:12:37:42 - 00:13:03:50
+不明
+And so that they were able to move to Adobe Commerce and then pair it with Adobe Target to create this really deep premium, personalized, experience on their site. So let me give you an example of what that looks like. So they have a customer who will come in to, their site, and they have a lot of rich content on there to explore, different ideas, get inspiration.
+
+00:13:03:50 - 00:13:31:51
+不明
+So if someone went into their living room, green living room area and started explore different options there and actually click through, to one of the paint colors and then landed on a paint color product detail page. What you'll notice is that their behavior on their site is influencing that product detail page, right? That we know about them, that they were looking at living rooms, they were interested in the green color.
+
+00:13:32:04 - 00:13:51:43
+不明
+Now all the user generated content that shows up on that product detail page reflect that color and living room. So they can really imagine what it's going to be like, to have that paint in their home. And I don't know about you, but that's my biggest challenge, is how do I go from this little swatch to what it's going to look like in my room as a whole?
+
+00:13:51:57 - 00:14:16:10
+不明
+This helps to solve that problem. And it's really led to some incredible results for them. They have seen, a 40% higher engaged rate with their customers. So that's that rich personalized content driving engagement. They also have a 71% higher add to cart rate. So huge rate. That's what you want people to do when they come to the site.
+
+00:14:16:10 - 00:14:38:31
+不明
+You want them putting items in the cart and then their bounce rate has dropped as well. So it's been a great success for them. They've been able to create that really rich experience. So this is a great example of that. Step two how do I go deep on my, site experience? I have another example. And actually, the next few examples are really folks who have made it all the way to that other end.
+
+00:14:38:31 - 00:15:07:28
+不明
+That's step four, right? Where they have unified their data, and they're creating like beautiful omnichannel experiences that are deeply personalized for their customers. So Poundland is a large retailer in the UK. They have over 800 locations. They're kind of similar to the dollar store in the US. And they were looking to build customer loyalty, as well as increasing purchase frequency, engagement with their customers and things like that.
+
+00:15:07:28 - 00:15:45:09
+不明
+So they created a brand new loyalty program called Poundland Perks. And this is a program that lets their customers shop and accumulate points and get special offers based on, you know, engaging with their app and also making purchases in their stores. But what's interesting for all of you today with this example is the fact that, they've created a completely personalized and seamless experience around this loyalty program so that their members are actually getting a consistent experience across each of their different touchpoints site, app and email communications and so forth.
+
+00:15:45:23 - 00:16:12:34
+不明
+So it's creating a great experience for them. So let's talk about how they went about this. And it all really starts with unifying their data, right? They were able to pull together, all of their transactional data both online and offline, information from their loyalty program. And this allowed them to create a complete picture of their customer and if you can see here, you can see everything from, you know, what are their product preferences, right?
+
+00:16:12:34 - 00:16:54:25
+不明
+What do they typically buy? What are they searching for? With their purchase purchase frequency? Are they buying online or offline? What are their categories of interest. So they have a ton of really rich information about their customers coming from online, offline loyalty program and so forth. With all of that information as their foundation. Right. They're able to, take those millions of data points and in Adobe real time CDP, where they've gathered all this data, they can use either AI or they can use their team can get in there and work with the data on their own to build out target audiences for their different campaigns and offers.
+
+00:16:54:30 - 00:17:21:27
+不明
+And in this case, for an example, you might have, Sarah or her fictional buyer here who is a perks member, frequent purchaser. They buy online and offline, and she is a pet owner and has some interest in household cleaning items. Right. So they're taking in data from her shopping, as well as what she filled out when she joined the Poundland perks program to to kind of tailor this with this information in place.
+
+00:17:21:32 - 00:17:48:52
+不明
+Knowing this profile, we can actually reach out to Sarah, right? With relevant offers. And using this is using Adobe Journey Optimizer, offer decisioning. This is powering the ability to push these offers to different places. So she gets an offer in her app, she gets an email offer and she gets a website experience and all of those places she's seeing a consistent offer has a consistent experience.
+
+00:17:49:01 - 00:18:18:21
+不明
+So it's really a unified, kind of experience that she's having overall. And in this case, because she said she was a pet owner, they know she's a dog owner. She's getting that that special offer on, on her Ponyo products. Right. So this is, you know, a great experience for her. So then Poundland is also seeing some incredible results, with their program, 2 million app downloads.
+
+00:18:18:30 - 00:18:43:33
+不明
+It's huge. Right? This is this has been a great hit for their customers who are members of their loyalty program. Are 50%, have a 50% higher, total value compared to nonmembers. So these are the people who are really buying through Poundland. And this is a great way to motivate them to spend more. And it also has encouraged them to increase their visit frequency by 12%.
+
+00:18:43:48 - 00:18:54:02
+不明
+So some incredible results of this loyalty program combined with a really unified, shop, experience for, for customers.
+
+00:18:54:07 - 00:19:16:59
+不明
+All right. And I also just want to call out both of these, solutions in the case of Farrow and Ball and Poundland, they were able to bring these to life by working with the pixel. And they're, UK based, partner for Adobe Gold partner experts in commerce as well as the Adobe Experience Cloud. So if you're thinking about this, they may be someone that you want to consult with.
+
+00:19:17:04 - 00:19:39:07
+不明
+In the future. All right. Another example. This is another, company, Coca Cola, another example from Coca Cola where they've kind of reached that step for right, where they have unified their data. And this is an example from Mexico with their and Duergar, site, which is sort of a direct to consumer site. In that market.
+
+00:19:39:19 - 00:20:10:39
+不明
+And they were really looking to have, make a more meaningful connection with their customers. And to do that by, using personalization to make it happen. And so similar to what we've talked about in other cases, Coca Cola, had to take that first step of unifying their data. And in this case, they were pulling together their rich commerce data, all that search information purchases, also back office information about orders that have shipped and things like that.
+
+00:20:10:44 - 00:20:35:25
+不明
+They were combining that with their ERP as well as their CRM data. And one of the key things for them was they wanted to get their data faster, right? It was locked away in silos, but they needed it faster so that they could really kind of personalize in the moment and have more effective re-engagement campaigns. They were able to unify their data using real time CDP.
+
+00:20:35:36 - 00:21:04:39
+不明
+Right. And then, this is allowed them to run all sorts of different campaigns using, Adobe Journey Optimizer. So they're doing quite a bit around re-engagement. They're also, sending messages to their bottlers around when they expect to see peak demand and things like that. They're pushing messages to their app. Right. If someone hasn't engaged with, that app for a little while, they'll get a reminder to say, hey, it's time to reorder things like that.
+
+00:21:04:39 - 00:21:25:03
+不明
+So a wide range of campaigns to drive engagement. And, they've seen some incredible results, particularly in the re-engagement front. Right. This was important to them where they wanted to be able to take, you know, they wanted to know right away when someone had abandoned the cart so they can start a whole campaign process to bring them back.
+
+00:21:25:08 - 00:21:54:00
+不明
+And what they have found is that, they've been able to increase their conversion rates on these cases by 8.5%, and they have achieved an 89% conversion rate for reengaging shoppers. So 89 of those percent of those customers that they reengage, they're able to win back. So that is pretty pretty exciting. The reason I brought this example up today is that, the folks from Coca Cola are here, and they're actually presenting tomorrow at 9 a.m..
+
+00:21:54:05 - 00:22:13:44
+不明
+So if this is a session here is sort of been a broader, you know, set of ideas on how you can put these things together. This is a session for practitioners where you can see how they're actually implementing these campaigns. So I highly encourage you to go. You can see how they are setting up audiences in real time, CDP and how that's then leading to different campaigns.
+
+00:22:13:44 - 00:22:32:57
+不明
+And in a Adobe journey optimizer. And you'll be able to kind of see the inner workings of that. So if you are kind of in a practitioner, if you're involved in the day to day of this great session for you to check out tomorrow as part of our skill exchange program.
+
+00:22:33:01 - 00:23:02:40
+不明
+All right. So I have I have one more example, to kind of show what this, this end state looks like. And that is, super 99 and they are a, a leading grocery store in Panama. And they were looking to, drive more revenue, drive more engagement through their digital channel, but also create a kind of more personalized and an optimized experience between online and offline.
+
+00:23:02:45 - 00:23:27:25
+不明
+And so they turned to Adobe, to work through those challenges. And you know what they did first was then, you know, I feel like I'm repeating myself, right? They unified their data. Right. That is a key first step. They put it into real time CDP, pulling together data from their ERP, their point, a POS system, commerce, their marketing campaign information.
+
+00:23:27:30 - 00:23:59:30
+不明
+They also had a loyalty program and so forth. They brought all that data together so they could get a rich profile of their customer. Right? Everything from their transactions and browsing behavior to demographics, campaign engagement. Hey, does this customer, like, respond to percentage off versus free shipping, things like that. And so they were able to, with that foundation in place, really build some nice advanced, segmentation strategies and put those into practice, across their business.
+
+00:23:59:34 - 00:24:27:09
+不明
+And so, for example, they do they have created segments around abandoned cart, scenarios, category of interest, demographics, like people with children, people with pets, things like that. Also their location, physical location, as well as offer preferences, like I mentioned before, they've also done some really interesting work around recency frequency and monetization segmentation.
+
+00:24:27:09 - 00:24:51:50
+不明
+So they have, different kind of groups for customers they refer to as their champions. Right. Those who have purchased in the last two weeks and spent a certain dollar amount and had a certain number of orders. Right. They get a different treatment from customers who maybe would fall into their hibernating category where, hey, they used to spend a lot, but they haven't really purchased anything for the last four weeks.
+
+00:24:51:50 - 00:25:18:13
+不明
+Maybe we need to do something to perk them up and get them back on our site or in our stores. So they've done a lot of really interesting segmentation work, and all of this is helping them to drive, campaigns. And, in Adobe Journey Optimizer, they're doing a lot of email. Everything from, it's really a wide range of campaigns, everything from, abandoned card, abandoned browse, re-engagement campaigns.
+
+00:25:18:18 - 00:25:41:13
+不明
+They do, ones that are targeted on demographics. So like people with pets or people with, with kids, they have, based on your category of interest, like beauty products, you might get special offers as well. So this is they're sending out via email and then they're also, able to, really personalize the site experience as well.
+
+00:25:41:13 - 00:26:06:48
+不明
+So here in this case, they're using Adobe Commerce and Target to create, strategic pop ups that will help move customers down the funnel. And so this could be, a pop up that would come for someone who's being that you're trying to reengage. The been to the site before, but maybe abandoned. It might be for a brand new first time customer that you're trying to get them to convert for the first time.
+
+00:26:06:59 - 00:26:31:57
+不明
+Or it could just be a special offer, right? Maybe you're trying to expand the categories that someone shops in they haven't purchased in the fridge fresh veggies category before now. This is an opportunity to kind of expand your shared wallet with them. So lots of different online. Campaigns. The other piece, they're also using Adobe Commerce with target to, personalize their product recommendations.
+
+00:26:32:02 - 00:26:58:12
+不明
+So they're doing lots of different types of recommendations, everything from recommendations based on their search history, their browsing, the categories they browsed. What other customers have viewed, similar products that may be interest of you. They test them in different parts of the site to see which ones work the best and to optimize around that. So, super 99 is also seeing some great results.
+
+00:26:58:17 - 00:27:20:35
+不明
+You know, increases in conversion rates and sales have definitely been part of this, 70% cart recovery rate and then 161% growth in their loyalty program. That is also tied in here, similar to Poundland. So, I hope you're getting a feel for the fact that, you know, you can see success at every step in this journey.
+
+00:27:20:40 - 00:27:43:12
+不明
+But when you get to kind of this, this point where you're unifying your data, where you can create this really seamless experience across your different channels, you're going to start seeing some serious results. And I just want to call out that, in the case of super 99, they were able to build this out in conjunction with a great partner of theirs, one of our platinum partners, Omni Pro.
+
+00:27:43:17 - 00:28:01:43
+不明
+They were able to, you know, tap into expertise across the Experience Cloud to put this solution together. All right. So the question is great. Those are nice examples. Those companies that looks cool I'd like to do that myself. Or I'd like to start thinking about how to make that happen. What do I what do I need to do.
+
+00:28:01:48 - 00:28:23:49
+不明
+I've been sprinkling here and there different product names throughout this session. Just to give you a sense, right. You know, when you start, the foundation is getting your right commerce solution in place. I'm biased towards Adobe Commerce. It has a lot of great personalization capabilities built in from there. You can add Adobe Target and that will help you to personalize your site experience.
+
+00:28:23:54 - 00:28:48:18
+不明
+There you can look beyond that. You can look at adding Adobe Journey Optimizer to really personalize those customer journeys and, points of engagement. And then the final piece is sort of like, hey, how do I unify my data and all of my experiences? You're going to be looking to add in real time CDP there. Also, some of our analytics solutions will allow you to really go deeper and really understand your customers and journeys.
+
+00:28:48:23 - 00:29:10:44
+不明
+At a deeper level. So this is just like if you're thinking about what products we're enabling, what this is sort of like a roadmap. There. There are a couple things I just want to highlight that are part of the commerce product. That kind of makes all of this happen and easier to happen. The first piece is this I had mentioned we have a product search and product recommendations.
+
+00:29:10:44 - 00:29:47:31
+不明
+These are both AI powered. We're using real time customer data to help service up, the, you know, really fast search results. We're able to, you know, all those are optimized. Sorry, those are optimized based on the customer's behavior. We also can optimize category list category listing pages. So if the customer just browses to the, you know, a certain category, I guess, like the vegetable category from super 99, we're able to, sort the products on that page in a way that's optimized for them.
+
+00:29:47:36 - 00:30:07:39
+不明
+And then in terms of product recommendations, we have something like 13 different unique recommendation types that you can use on your site. This is all available out of the box. You can add it to almost any page on your site. So that's built in there. The other like key piece here to really enable these solutions is something we call data connection.
+
+00:30:07:39 - 00:30:29:09
+不明
+It's a simple, feature within our product that allows you to start, automatically collecting and sharing all of that rich front end data, as well as back end commerce data with the rest of experience cloud. So this is, gives you a sense of what you can get by deploying this. So this is with no extra development work.
+
+00:30:29:09 - 00:30:50:10
+不明
+This is a simple, simple extension. You can capture all of your storefront data, all the search data. What categories are you looking in? Is the customer logged in. You can get back office data. So order status has this order shipped? Was it returned was it canceled? So they get the definitive data around what's happened with that product.
+
+00:30:50:15 - 00:31:08:29
+不明
+You also get your past order history as well as, custom back end events, and then, in Adobe Commerce, there's also a concept of a customer profile that you have there as well, where you may have collected demographic and other information. You can share that over to the rest of the experience Cloud as well. So think of this.
+
+00:31:08:29 - 00:31:27:18
+不明
+This is the pie. This is the piping that exists to get your data and commerce into the rest of the experience cloud. So you can take advantage of it. There. And it's simply going from Adobe Commerce to the Adobe Experience platform to Edge Network. And then all these other solutions that we've talked about can tap into it.
+
+00:31:27:18 - 00:31:56:35
+不明
+There. The other thing I wanted to point out is that Adobe Commerce is actually can receive data as well. So not only are we sending this rich data, but we can take audiences back from real time CDP and use that to personalize the Adobe commerce experience. So we're a destination in real time CDP. And what this means is, is that you can bring those real time CDP audiences into commerce to personalize dynamic content on the site.
+
+00:31:56:40 - 00:32:19:21
+不明
+Promotional rules as well as, product recommendations, and kind of like related product rules and such. So you can, you know, there's a lot of goodness that we're giving to the rest of the experience cloud, but you can take advantage of that in commerce as well. All right. So that's that's kind of like AA4 step journey to getting to personalization.
+
+00:32:19:21 - 00:32:46:58
+不明
+But I wanted to talk about one other type of personalization that's kind of emerging now. And that I don't think that many companies are doing. But it's starting to become a possibility given the fact that we have gen AI, and that's around personalizing product assets. And so this is partly enabled by the fact that Adobe Commerce, integrates parts of, Adobe Experience Manager assets into our solution.
+
+00:32:47:11 - 00:33:07:54
+不明
+So that first off gives you really great efficiency in terms of managing all of your product assets. Right. You have a great search. You have a workflow process that you can put into there. It's just a great way for you to, to manage that, that set of assets without doing a lot of copying and pasting across places.
+
+00:33:07:58 - 00:33:32:07
+不明
+But what's really interesting and what you can see in the video here, is that you're also getting access to some really cool gen AI capabilities from Adobe Express and Adobe Firefly that you can use to start personalizing your product. Your of of personalizing your product assets. And so let me let me take you through a few examples of what I mean.
+
+00:33:32:07 - 00:33:56:39
+不明
+So like, you know, how can I personalize my product assets? So I am not a merchandizer, but I went and with, some stock images and, a few simple prompts and I started to create, different types of images that could help be more immersive for my customers. Help tell me, tell a different story on how products can be used and started that kind of process towards personalization.
+
+00:33:56:43 - 00:34:16:28
+不明
+So one example is that you can create seasonal variations around your images. So I'm a chocolate seller. I'm going to put that in a Valentine's Day setting. I'm going to put it in a Christmas setting and make it more relevant to my customers, and try to drive demand for those particular holidays. I also have different usage variations, right?
+
+00:34:16:28 - 00:34:41:19
+不明
+So if I'm a desk manufacturer, I can show that desk in a corporate kind of off, you know, traditional office setting. Or I can also show it in a home office allows me to appeal to totally different audiences, with the same, same products. I can also look at location variations. Maybe I want to show how my bike looks in a suburban setting or in a city.
+
+00:34:41:24 - 00:35:05:10
+不明
+I can show different occasions, right? Different ways that you can use my product. I can use that blender to make cocktails, which is on my radar for this evening. Or I can use it to make healthy smoothies. You know, and so I'm appealing to two totally different audiences. I can also add badging on there, something like a best seller to really help drive demand for that product.
+
+00:35:05:15 - 00:35:26:49
+不明
+All very simple to do. You can also create variations around industries right? If I sell no slip shoes, maybe I want to put that in a restaurant setting. Maybe I want to put it in a hospital setting. You know, both of those are markets for me. And if I'm selling safety this way, I can show what that looks like for, an airport worker or a construction worker.
+
+00:35:27:03 - 00:35:50:58
+不明
+It allows me to put my product in the context of my buyers and make that that deeper level of connection. I can also base it on dog breeds. So here I just put in mochi, the dog's picture with a dog bed, and I'm able to show what a labradoodle looks like on a particular dog bed. But I could put a Chihuahua there if I wanted to appeal to that audience as well.
+
+00:35:51:03 - 00:36:17:51
+不明
+So there's a lot that's possible with the new Gen I kind of image manipulation, capabilities. All right. So with that, hopefully that sparked a few ideas for you around what you might be thinking of, how to change your merchandizing over time. But I want you to walk away with probably three, three key messages from today. The first one is that you really want to unify your commerce and marketing.
+
+00:36:17:56 - 00:36:42:42
+不明
+I think I gave you the emotional reason to do that. You know, you need to personalize, but you also need to do it from a financial and business performance perspective. The research is there. The data is there to back that up. It can feel overwhelming to take on that whole challenge all at once. And so, hopefully you saw through the customer examples today that you really can take a crawl, walk, run approach.
+
+00:36:42:46 - 00:37:04:30
+不明
+You can, you can take that in pieces and steps and see good value along the way. You don't have to have it all perfect all at once. And then, hopefully, you take away the idea that I should be looking at and I don't know how you could walk away from a vet like this or tech in general, but I can potentially help you with this personalization journey.
+
+00:37:04:30 - 00:37:30:48
+不明
+Right. We talked about it at the end here with the examples of image variations, but I was actually powering a lot of other things that we talked about today. So the, search and product recommendations, that's all being driven by AI, in real time CDP, when you're looking to create different audiences, you can use, AI and predictive, capabilities to build out those audiences.
+
+00:37:30:48 - 00:37:56:59
+不明
+So this is really something where a technology is, is a great enabler to getting to this more personalized, experience for our customers. And hopefully, you know, kind of the end goal here. Just getting back to where we started is that for each and every one of your customers, you will be able to find what their, rugby SNL kind of mochi equivalent is for them.
+
+00:37:57:05 - 00:38:18:36
+不明
+You'll be able to put your products, your business in their contact based, so it will be much more meaning for them, meaningful for them. You'll be able to stand out from your competitors and be able to drive more business. All right. Well, thank you so much for staying and and coming. I appreciate you. Hope you have a great rest of the show.
+
+00:38:18:36 - 00:38:21:10
+不明
+A great, great time at summit. Thank you.
+

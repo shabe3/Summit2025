@@ -1,0 +1,500 @@
+00:00:02:49 - 00:00:29:54
+不明
+All right. Hi, everyone. How's everyone doing? How's the keynote today? Hopefully you guys were all there. But today, the best part of today is actually here in this room. We're actually going to talk a little bit about omnichannel personalization with T-Mobile. So I'm Pauline. Oh, sorry. I'm Pauline. I'm a senior product marketing manager for Adobe Experience Manager sites, and I'm joined here today by the stars of the show.
+
+00:00:30:09 - 00:00:50:04
+不明
+First, I'll pass it off to Carly to introduce herself. Yes. Hi. My name is Carly Board. I am senior manager of product management focused on contextual experiences at T-Mobile. And I'll get into a little bit more what that means in the second. And I'm Gwen LaFleur, and I'm a senior web testing optimization manager. And I lead the testing optimization, contextualization.
+
+00:00:50:09 - 00:01:11:40
+不明
+Big mouthful Center of excellence for T-Mobile. Awesome. So they're going to dive a lot more into it. But before we go into that, I'm going to start off with how many of you here have ever loved a song so much that you had to play it on repeat, like you couldn't get enough of it every time you hadn't gotten a car, you had to put on blast at max volume.
+
+00:01:11:45 - 00:01:31:44
+不明
+Anyone? Really? Yeah. So that's me with the wicked soundtrack. So much so that my fiance got sick of it. He put on headphones in the car every time we were together because he was just over it. Over me. He was like, I can't get enough of this or I'm sorry, I got enough of this. But that's how much I love the wicked soundtrack.
+
+00:01:31:44 - 00:01:52:25
+不明
+I'm not sure if that's needed, if there are any fans in here, but I really do love the soundtrack. But also the story as a whole. Why is because I think it's really a story about perspective. If you don't know it at its core, it's really telling you that there are always more than one side, maybe even two sides, three sides to every story.
+
+00:01:52:30 - 00:02:16:07
+不明
+For those of you who haven't watched it, if you just watch the traditional Wizard of Oz movie, you know that you might think that Elphaba is the wicked, evil villain and that Glinda is the sweet, you know, perfect princess. But if you watch wicked, it kind of pulls back a layer, a curtain to tell a much more deeper, complex narrative that changes the way that you see the story, the whole movie as a whole.
+
+00:02:16:11 - 00:02:45:20
+不明
+That same concept applies to content and data, because when you only have one side of the story, you're going to miss the full picture. So if you're just focused on content, you just focus on data, or you kind of have bits of it disconnected, you're not going to get the whole picture content on its own. You know, without data might be generic and personal, whereas data, while very powerful, needs content to actually bring it to life and spark connection.
+
+00:02:45:25 - 00:03:10:41
+不明
+But when you bring them together, that's kind of where the real magic happens. And what we're going to talk about today is how connecting them brings together this magical journey of personalization. So Carly and Gwen are actually going to go into this, their personalization journey at T-Mobile, and they're really going to hit on three key takeaways. The first is that content and data must work together to actually drive impact.
+
+00:03:10:46 - 00:03:39:37
+不明
+The second is the content. Foundation is key to actually achieving personalization at scale. And last, orchestration turns all those separate interactions across different channels into a cohesive, seamless journey for customers. And so with that, I'm going to pass it off to Carly. Thank you very much. Okay. Hello again. So, like I said, I lead the product management team that focuses on contextual experiences.
+
+00:03:39:52 - 00:03:58:03
+不明
+And really, that's just a fancy word for personalization. So I've been on this journey with T-Mobile for four years now. And what I wanted to preface this discussion is, you know, you're talking to you're not talking to executives, you're talking to the people who are hands on keyboard and the working team. And that's really the perspective we want to bring to you.
+
+00:03:58:08 - 00:04:18:07
+不明
+It's how this works. Maybe when everything isn't perfect and you don't have all the fancy tools at your fingertips and what you won't see. And then we talk about, content is, you know, we saw amazing, amazing advancements with Firefly and Adobe experience this morning. We're actually not talking about that today. You know, that's ultimately where we want to go.
+
+00:04:18:07 - 00:04:47:55
+不明
+But, that's that's not really the crux of today's discussion. So T-Mobile, as a company, we are already really fantastic at connecting our customers to their world through our best in class network. Our new kind of mission at large is to become a more data informed, AI enabled, digital first company. How do we start to reduce or just our needs on this traditional brick and mortar?
+
+00:04:48:00 - 00:05:15:04
+不明
+Kind of working, like operating model to meet our customers where they are literally meet the customers on the phones that we sold them in their hands. So how we do that is just. Oh, sorry. Sorry about that. So as we set up on this journey, we knew that we needed to shift away from this kind of channel focus.
+
+00:05:15:09 - 00:05:42:20
+不明
+Campaign focused market ways of marketing and really shift to more omnichannel, personalized journeys. And this means that we needed to create consistent and cohesive customer messaging that could span across channels and really kind of show up in all those key touchpoints across journeys. And we also needed to work a lot smarter, not only with our tools and maximize the tools that we had at our fingertips, but with our with our coworkers, with our team members.
+
+00:05:42:25 - 00:06:00:54
+不明
+And so while we dug in and Gwen's really going to get into the specifics of the use case, we're going to talk about today, some key challenges and gaps arose, which I feel like for those of you in the room who are on this journey, which is probably a lot of you aren't going to be really surprising.
+
+00:06:00:59 - 00:06:18:24
+不明
+Tools were operating in a very channel specific way. We had all these amazing Adobe platforms with the way they had been built, to be completely honest, where through the lens of a certain channel. So we knew we had to kind of break up that mold and really start connecting those tools and connecting that data to make it more worthwhile.
+
+00:06:18:29 - 00:06:36:40
+不明
+This topic of data, we're a huge telecom company. There's there's no lack of data, but our data was everywhere. It rests in different places. And so we really had to take a key focus on making sure that we had all the right data. Excuse me, all the right data in the right activation layer. So we could tap into that to really create this kind of real time personalization.
+
+00:06:36:45 - 00:07:06:25
+不明
+And then we have some and there's a few people in this room that will attest to this. Extremely manual hands on workflows. And we you know, it should never anyone who works for me should will have will have heard this. It should never take 15 people to put a picture on the internet. Sometimes it does. Right. And so we needed to really kind of take an inward look and figure out how Adobe can not only help us solve from a data and a platform perspective, but how can they actually solve our day to day working model with our own, with our own coworkers?
+
+00:07:06:27 - 00:07:19:03
+不明
+So I'm going to pass it to Gwen. I get to start this, but Gwen is actually the one for this specific use case that did all the work. She's the brains behind the whole operation. I'm just the personality hire.
+
+00:07:19:08 - 00:07:48:11
+不明
+Okay. So I'm going to move forward here. If we're talking about the challenges and things that we face internally, I think it's probably no surprise that those sort of challenges were reflected in the experiences that we send out to our customers. So it's, we had like abandoned cart emails and we had but they weren't tied. They weren't tied to the web campaigns that I had been running in target.
+
+00:07:48:16 - 00:08:18:54
+不明
+And while we had web, we didn't have any abandoned messaging in our app. And so while both experiences were really good in and of themselves, we didn't have consistent creative. We didn't have consistent messaging or targeting in between the experiences. So if you got an email which was action triggered, you might or might not have seen a web banner if you then came to the web because the web banners, while they had a real time component in the targeting, they oops, well, they had a real time component.
+
+00:08:18:54 - 00:08:35:40
+不明
+And the targeting, those were audience based. And so the definition to determine who would see an abandoned was slightly different between those channels. And so if you did happen to get an email, then come to the web and see the banner. They may or may not have been the same offer. You would not have seen the same images, the same messaging.
+
+00:08:35:52 - 00:08:57:15
+不明
+And we also didn't necessarily even see you as the same person. And so that just led to a very siloed, a siloed issue that we had. So the existing programs were good, but we could be better. And we weren't precisely slow in getting all of our messaging live, but we could have been a lot faster and much more efficient.
+
+00:08:57:19 - 00:09:19:05
+不明
+So on top of that, the way that we were working was limiting us to this single journey, which just we were just looking at Cod abandon, and we are missing the opportunity to talk to customers in other stages of order abandonment and to make that more of a conversation by recognizing them as the same person across all of the channels and all of the touchpoints.
+
+00:09:19:10 - 00:09:47:34
+不明
+So back to Carly here. She's using my computer and music's losing her scooter because I did not turn off my notifications. So, this delays, it's because one of my executives is blowing me up on my teams. Sorry about that. Real talk. So this is where we're headed with Adobe. A world where we can marry data and content to deliver experiences to customers that are personalized, omnichannel, and relevant.
+
+00:09:47:35 - 00:10:11:11
+不明
+It's a really simple. I think you hear it all the time, like, right customer, right content, right time. That's really what we're talking about today. And like I said, we are I wouldn't say too early on this journey. We're we're first movers. Actually, mobile was a lot of the Adobe products. I've been privileged enough to be on this journey with them since we brought on the new version of Am, and we brought an app.
+
+00:10:11:13 - 00:10:37:27
+不明
+We brought in agile. So it's been really fascinating to kind of be on these journey together with our partners. She's getting a radio. So, like, like when mentioned, we're going to dive really specific into a use case today. But as you kind of go through this, I don't want you to get maybe stuck on the specifics of, like, okay, well, I don't have I don't sell something, so abandon cart isn't relevant to me.
+
+00:10:37:31 - 00:11:08:55
+不明
+It's not always about sales. Even at T-Mobile, as our portfolio and our benefits and our offerings to our customers expand. We also have to get really creative with how and when we surface these messages, especially in areas when you have limited real estate and keep those touchpoints really consistent and on brands. So all right. So enter the omnichannel strategy and the move to be smarter about how we were working, how we were taking advantage of the tools and all the resources that we had available.
+
+00:11:09:00 - 00:11:38:21
+不明
+So as Carly has talked about, this is new to us. And we decided on this phased approach that we could use so that we could get to win faster while we were still learning how to work in these new ways with our teams and with our tools. So fortunately, we were lucky to really have a really, absolutely fantastic Adobe support team, and they really helped to drive this initial project and to lay the foundation for this scalable program so that we could continue to manage and grow this, which is, you know, a process that we're still in right now.
+
+00:11:38:25 - 00:11:58:15
+不明
+But before we get into the details, I want to lay out the basic framework here for our approach. So we start by identifying the channels and the campaigns and the personnel from each team that we needed in order to do that. So like Carly had said before, we were pretty siloed. Things were done very much in, you know, which departments you were in.
+
+00:11:58:15 - 00:12:13:43
+不明
+And so we wanted to change that. So we had to go and get all of the right people together, bring us to the table, and start to communicate and coordinate with each other. And so once we had all of the right people included, we looked for and then decided on a use case that made sense across all of the channels.
+
+00:12:13:48 - 00:12:34:30
+不明
+So since we already have a really mature testing program, and we had been successfully running abandoned campaigns on web for years, and we had email we've been running abandoned in the email as well. We mentioned that we looked at what we've already done. So I have tested a lot of different creatives and offers over the years a lot.
+
+00:12:34:35 - 00:12:59:12
+不明
+And we had recent recently concluded in a web abandoned test that had a really clear winner. So we knew that this drove Incrementality. We knew that this had results, but we also knew that we were only doing it in this one channel. And so we decided to take that and reuse it. And we wanted to build on that because we knew we had these proven assets, that we had this data that we already knew we were in a good spot with this.
+
+00:12:59:16 - 00:13:25:37
+不明
+And so next, we worked with our Adobe partners to build out and QA and launched the experiences for that, both for each channel in both AGL and target, with the goal of continuing to test and expand these tools. So like we said, this is an ongoing process for us so that it's just the high level framework. And we worked through that framework to land on this specific use case that we're going to talk about today.
+
+00:13:25:37 - 00:13:48:12
+不明
+And so it is a very specific use case, but I'm going to try and give you questions to do's, things that will enable you to go ahead and take this and adapt it for yourselves. But we landed on this cross-channel abandoned journeys. Use case, but as my director calls it, adaptive abandon journey optimization. And I absolutely love that phrase, because I think that really is exactly what it is.
+
+00:13:48:12 - 00:14:09:33
+不明
+We're being very adaptive here. So our initial goal was to reengage customers who had abandoned the cart. And then as we're working, we're planning, we're working with our Adobe team. All of a sudden, it occurs to us how gives us the ability to move to multiple journeys. It's total light bulb moment. We don't have to limit ourselves to just cart abandons.
+
+00:14:09:37 - 00:14:30:04
+不明
+What are the kind of abandonment do we have as part of that purchase journey? And so we identified shop abandoned and browse abandoned, which allowed us to expand our goal so that anybody who is in that browse, shop or cart abandon one of those journeys. We would like to reengage, bring them back, have them complete those purchases online.
+
+00:14:30:09 - 00:14:54:26
+不明
+And so we put together. Next, we put together the strategy of how we would achieve our goal. And this is by targeting users who qualified for one of these three abandoned journeys across the touchpoints, the different channels that we were going to use and have that be a personalized, consistent experience. And of course, the desired impact for this is what more orders we want to get that conversion.
+
+00:14:54:27 - 00:15:19:35
+不明
+We want to bring them back and help them. To do that. And so I'm closing all of Carly's things on her computer as we go. Somewhere to and so, let's see, did this click, click. We're not clicking. Oh, we'll get this manually here. There we go. So with this use case we have the goal and the strategy the desired outcome.
+
+00:15:19:35 - 00:15:43:27
+不明
+They're all defined I'll put together so we've got to start putting together the pieces of the puzzle. Who are we targeting. What are the signals or attributes that would indicate to us that there's sufficient interest to target them, especially when you're talking about something like a browse journey that's a little bit there's a little bit of squishiness in how you decide that somebody is a browse fallout and have that be actually good, legitimate targeting material.
+
+00:15:43:31 - 00:16:02:45
+不明
+And so what are we going to send them? How, when and where are we going to send it? And then we also want to make sure, as we're thinking about this part, that a customer who receives a push notification or an email then goes to the weather app is meet with that met with that consistent message matching so that we can reaffirm the offer.
+
+00:16:02:45 - 00:16:17:48
+不明
+So they've gotten it in one channel. They continue to see it in the other, so that they have that comfort and that security and knowing that they've got that continuity. And then why do we do it? This brings us back to our end goal. We want to help them reengage. We want to help them complete those purchases online.
+
+00:16:17:52 - 00:16:40:54
+不明
+So to answer the questions that we posed on the previous slide, we looked at these three pillars and use that to build up a foundation to make this a scalable process. So we have content audience orchestration, and we're going to dive into the specifics of each one of those pillars. So first we just saw this first pillar is content.
+
+00:16:40:58 - 00:17:06:27
+不明
+And the key to that consistent messaging, across the channels is to use content fragments and experience manager in Em. And we do that along with along with experiences coded in target. And so while a content fragments are technically reusable modular, and we have that ability in this instance we had completely we had different unique content fragments for each one of these placements.
+
+00:17:06:32 - 00:17:27:11
+不明
+Because we're leveraging existing placements, they are not one size fits all. And that's okay. You can start with where you're at. You don't have to build that. It will be a little bit of a recurring theme. You don't have to build everything up to that perfect spot in order to get started doing this. So we're working towards this truly modular content as an end state.
+
+00:17:27:16 - 00:17:48:45
+不明
+But in this case, we just didn't want perfection to be the enemy of good. It's trite, but it's true. So instead of having this be a blocker to us moving forward, we just went on, we found efficiencies even without we're using the same content fragments. And because all of this is housed in a centralized offer library, plus target for, for some of our web placements.
+
+00:17:48:45 - 00:18:09:58
+不明
+And if you did not know this, yes, you can tie target into your journey canvases. Which is a really cool thing that you could do, but because we had this, updates can be and actually were made in minutes. And since we're just versioning that same creative across channels, we could quickly resize rather than have to recreate from whole cloth.
+
+00:18:10:03 - 00:18:33:27
+不明
+So this was also a big time timesaver with email, because instead of just recreating an entire email, we took over a single placement in an email and just swapped out the content fragment. And so we saw really great efficiencies with that. So the bottom line speed to market, faster, speed to market with fewer errors, quicker updates and cross-channel consistency.
+
+00:18:33:32 - 00:18:54:46
+不明
+And if you're like us and you're not there yet with that totally reusable content, you can still set the stage to be in that space so you can, you can get that forward looking taxonomy. This is what we're working on. As we're doing this, you get that, you do the metadata, you do the tagging, you have everything in place so that it's already ready when you get to that point.
+
+00:18:54:59 - 00:19:10:57
+不明
+Yeah. And I don't want to interrupt because I think that's actually a really important point. And I think there's a lot of folks in this room that will agree. And, you know, we aren't perfect. But when we come here next year, there's so much work that we're doing with our partners and with our Adobe partners to really maximize that content supply chain, that content reusability.
+
+00:19:10:57 - 00:19:29:18
+不明
+And a fully, fully had this model, which is where we're working towards. And so I'm really excited about the work that this collective team is doing in partnership with Adobe, because I think we're going to have a much cooler story. Even when we come back, we're going to continue to build and expand and accelerate and use these. And this goes back to that consistent testing and learning.
+
+00:19:29:27 - 00:19:47:13
+不明
+So as we build towards this future state, fully headless, fully automated, and start pulling in things like Firefly and everything to help that content supply chain, it's going to be a work. And I think we're building the foundations for that. And I think we really just wanted to be transparent to you don't have to be in the perfect state in order to start this.
+
+00:19:47:18 - 00:19:55:18
+不明
+You can do these kinds of things now, and we'll get into that a little bit more. But,
+
+00:19:55:22 - 00:20:11:20
+不明
+So oh, sorry. I can see the next slide on here. It totally confused me. Okay. We're still on content. So for the content we took this content that I had already mentioned for my winning test experience. And we looked at it, we identified needed updates. Obviously you can't just take it and plug and play across all the channels.
+
+00:20:11:20 - 00:20:34:45
+不明
+We had to make adaptations. You have to have text only versions for push notifications. We also broke this out into different messages based on specific journeys. We had some cohorts within each journey that we wanted to look at. So whether you could be adding a new phone line or you could be upgrading an existing device, and we wanted to have specific messaging and offers based on which one of those categories these people fell into.
+
+00:20:34:49 - 00:20:56:39
+不明
+And this was an abandoned campaign, but we had different cart capabilities in our web and in our app. And rather than just drop a channel because we wanted to really have specific return to cart messaging, we just adapted it and we just said, well, we'll do whatever we can. We'll make it good enough for now so that we can launch it, rather than let this be a blocker and then end up working out great for us.
+
+00:20:56:43 - 00:21:18:04
+不明
+So pillar number two, audiences, this is a particular favorite of mine. I can geek out about, targeting people all day long. And while I can't share the exact definition for what we did, I have some questions that you can use in order to get thinking about how you would set up your own audiences, which hopefully is actually more useful anyway.
+
+00:21:18:09 - 00:21:46:44
+不明
+And this is a similar process to what we do. So once you choose your promotion, your messaging, your channels or placements, and the journeys you want to think about, the recipient in each of these offers, do they have certain qualifications to get in? Is it only certain segments of your audience? For example, someone who has taken action or somebody who purchased Y product within a certain time period or within the look bad carry of your app, in the window for your app.
+
+00:21:46:55 - 00:22:06:25
+不明
+Are you looking for someone from a certain demographic? Maybe you're only looking for people who come on mobile. There are endless different things that you can look at as far as attributes, and then when you answer those questions, look at the attributes in the segments that you have available for targeting. You may have something already, something that's built in there already.
+
+00:22:06:25 - 00:22:37:12
+不明
+You may have a combination of profile attributes, an app that you can combine with behavior data from analytics that also sits in that app customer profile. If you don't have AP where audiences are data feeds, you have available an audience manager. Or do you need, do you need to set something up? Can you use something existing or if you don't have any of those things, if you have if the available availability to do this, you can create an audience and analytics push that to the marketing cloud and have that be reusable across platforms.
+
+00:22:37:12 - 00:22:56:04
+不明
+And I say that with a big caveat, because this is something that you should ideally only do if that fits within your company's, policies or governance for your analytics tools, because there's usually a really small cap on the number of audiences that you can set up that way. So you want to make sure it's okay to do it.
+
+00:22:56:09 - 00:23:01:50
+不明
+And you also want to make sure that that's something that would be reusable.
+
+00:23:01:55 - 00:23:27:43
+不明
+And we're working on preventing any choking here. But talking about audiences, we want to bring this together with content. So we mentioned before we've got these two different cohorts that are within each journey. We have the ad online cohort and we have the upgrade cohort. And then we have separate messaging and content for each one of those. And we use that targeting individually within each journey in order to get to those separate cohorts.
+
+00:23:27:48 - 00:23:53:57
+不明
+And so you'll have these different delivery requirements. But you can break that out at that more micro level once you get into the journey. So let's get to pillar number three which is orchestration. So this is the third and final pillar. And when we combine journeys with tactics and content or Adi audience strategy, and then that journey canvas within how we get to full journey orchestration.
+
+00:23:54:01 - 00:24:13:48
+不明
+So we have events. What are they? What are the actions or the signals that people use? We have the triggers like an email trigger or a push notification trigger. What should happen next in the journey channels? Which channels you have? Which ones do you want to use to engage people, your content and offer? What should you deliver to the user?
+
+00:24:13:48 - 00:24:34:36
+不明
+And then the timing, which is always critical when, how, how often are you going to deliver to people? So thinking about orchestration, I have another list for you. So some more questions, some to do, some things that you can use or ask yourself as you're going through this so that you can get started today. And this is the process that we used as well.
+
+00:24:34:44 - 00:25:03:33
+不明
+So we're hoping that this will be really helpful for you. So look at what you're already doing. Obviously that's what we did here. We've got to close another notification. Do you have a promo or do you have messaging that you use in a single channel that has been really effective? Who were the people that responded to that promotion, and where do those people interact with you, and then what other channels do you use to talk to those same people are using email paid media push notifications.
+
+00:25:03:37 - 00:25:22:03
+不明
+Are you testing and optimizing on your website but not in your app? If you have one, or in your other channels, if you even have 1 or 2 other channels that you can leverage, there's an opportunity there for incremental gains. Do you have a placement in an existing email that you could take over? So if you remember, we just used an existing placement.
+
+00:25:22:03 - 00:25:42:07
+不明
+We didn't create anything out of whole cloth. And that was a big timesaver and really got us moving. So third point here. Take the messaging that you're already using that you know, performs well or you can go out, test the messaging, do a little pre-work for your orchestration and, you know, figure out what works for you before you build this all into a journey canvas.
+
+00:25:42:12 - 00:26:01:36
+不明
+Do you need to adapt that for other channels? Do you want to change or coordinate the messaging so that you can use it across all channels and be consistent? You could make it more of a conversation rather than having it be the same. Messaging just depends on the approach that you want to take, but you only need to start with
+
+00:26:01:40 - 00:26:22:46
+不明
+With a single journey, you can really keep it simple if you want to. A single journey, a single creative, get that set up in a and target or target wherever you need to to get to the channels that you're going to be using. And then for to decide on your journey strategy. Do you want a single journey, or do you have the options to expand into multiple journeys?
+
+00:26:22:46 - 00:26:38:35
+不明
+The way we did that, you can keep it simple. You can go a little next level. You could get really crazy. I'd say wait on that one until you've done it once or twice. But it wasn't to. I don't think it was too bad for us to go straight to three journeys. I think it works. It worked out pretty well.
+
+00:26:38:40 - 00:26:57:27
+不明
+So remember, if you have multiple journeys, I think this is a really key thing. You want to think about what should happen if your customer moves between journeys. So in our case, if you have somebody that was a browse abandoned, they come back, they actually add to cart and then they abandon cart. How are you going to treat that?
+
+00:26:57:32 - 00:27:27:00
+不明
+And you want to map that out. You also want to think about your touch points. What happens if you're sending push notifications and emails? How are you going to manage the number of communications that you're sending to your customer? Or if you have people who engage with the first or the second touchpoint, but not the third, or they don't engage with the first or second touchpoint, are you going to send them a third touchpoint you want to think through all of these things ahead of time, map them out, and then you want to decide if you're going to set this up as a test with a holdout, or if you're just going to run it
+
+00:27:27:00 - 00:27:50:43
+不明
+as a fully contextualized experience. And of course, optimization testing. That's what I do. That's what I've done for about 20, almost 25 years. I'm always going to say test it because then you can also, you know, have the opportunity to show the benefit and the thing that you've gotten that impact out of your journeys. Then. Five once you know your offers and your journeys, build out your audiences again.
+
+00:27:50:43 - 00:28:11:02
+不明
+Attributes, behaviors. What would qualify somebody to get into the campaign? Set them up. App decision rules, whatever you're going to use. If you don't have something already, and then think about tracking. This is something that came up for us. We set all of this up. We were pushing it all into CJA, and then we realized, oh, we don't have order metrics set up yet.
+
+00:28:11:02 - 00:28:25:53
+不明
+In CJA, we have custom metrics, and we hadn't transitioned those over yet, so we had to go ahead and make sure we did that. So think through how you're going to track it. Make sure it all exists. It seems like something that, you know, it should just be there. It might not be, especially if this is something that's new to you.
+
+00:28:25:53 - 00:28:43:00
+不明
+So think about that ahead of time. And then do your QA. However that usually works for you. But just make sure you're moving through and you see how people are going through the journeys you track that you check it and make sure that your reporting is coming, that you're tracking is all showing up in your reporting. And then you launch, monitor and iterate.
+
+00:28:43:04 - 00:29:02:27
+不明
+And just a reminder, like we've said all along, you do not have to have everything like from scratch. You can use what you've got, start with what you have and just, you know, it's easier to do more of what you're already doing rather than to to reinvent the wheel. Well. And I think that's also a great benefit of using agile.
+
+00:29:02:27 - 00:29:25:00
+不明
+I don't know how many of you all have actually gotten your hands on into the interface and worked in the tool, and, you know, we were talking at great detail on how this came to life. But, you know, it wasn't quite as laborious as it might have been. Right? Had we not had God and the support of our team to kind of help us map out this journey again, like we're very lucky to be first movers in a lot of these Adobe products.
+
+00:29:25:04 - 00:29:42:18
+不明
+So we get to we kind of get to be the guinea pigs. But yeah, I think the ability even just to do what might seem simple, as fast as we did, and really kind of connect all these tools as quickly as we did, was, was a huge effort. Yeah. And was made possible because we have things like agile.
+
+00:29:42:23 - 00:30:05:55
+不明
+Yeah. So we went through that list, big list. But we went through that. And this is just a quick, high level glimpse of this adaptive cross channel abandonment journey and just a few little things here to remember. It is an adaptive journey. So you adapt the journey to the customer's actions or the lack thereof. Recency, relevancy and timeliness matter.
+
+00:30:06:00 - 00:30:26:52
+不明
+And think about whether you want to leverage specific signals from the customer, such as intent or rules based targeting, versus using something like a model. And then again, start with what you have. Work with what you have. Yeah. Thank you. She had to talk about all the cool things. I have to talk about the tools. But no.
+
+00:30:26:52 - 00:30:48:22
+不明
+And I touched on this. So again, really important to have that connected and unified ecosystem that was a key enabler for us to deliver any omnichannel experience. And it's really going to continue to be a key unlock for how we personalize at scale. Again, T-Mobile was we are we are pushing deep into digital. If you plug for t life if you don't already have the app.
+
+00:30:48:27 - 00:31:23:57
+不明
+But you know, we had to kind of leverage all these platforms and really unify them to make sure that they were all taking a time. So leveraging ADP, Adobe Experience platform to unify the data across all the customer touchpoints, ensuring that data was updated in real time and for precise targeting and decisioning. Agile, obviously the hero in this story to build these contextual, event driven journeys that do adapt, based on customer interactions, leveraging dynamic content through ATM, which will continue to grow and maximize to deliver more tailored web and app and outbound experiences.
+
+00:31:24:01 - 00:31:51:18
+不明
+And then obviously monitoring like leveraging CX to address the strategies accordingly, constantly monitoring, making tweaks, making adjustments, and understanding how your customers are working through this. So again, going back is like the benefits of having this connected ecosystem is, you know, when you use these tools together and you start to break down organizational silos as well as technology silos, you can really, truly meet your customers where they are and expand these journeys beyond sales.
+
+00:31:51:18 - 00:32:13:10
+不明
+Right. We talked a lot about sales. We're in the business of selling things, but we're also in the business of creating magical customer experiences, benefits T-Mobile Tuesdays. So as we think about how we really want to maximize these tools, we really want to think about all the journeys and all the dynamic of the human form and how we move throughout our world, and how they interact with us on our app.
+
+00:32:13:15 - 00:32:33:12
+不明
+You know, I think the ability to adjust these touchpoints on the fly and in real time and take those events and the signals that the customer is literally telling us what they want to do to make sure that that next click is special and personalized to them, is is really, really powerful and important. And we're just starting on this journey.
+
+00:32:33:12 - 00:32:52:34
+不明
+But, you know, I think with folks like when we're going to, we're going to do great. And then how do we roll up all this and looker across outbound and digital and start to break these journeys down and really start to dissect and where we go next. So I guess the question is probably like, okay, we did all the things we talked about, all the things that we did, like did it, did it actually matter?
+
+00:32:52:39 - 00:33:32:55
+不明
+Yeah. Yeah. It matter. So, obviously the the answer to this question is yes. So we're still running this campaign and we are seeing sustained lifts of up to 63% versus control for us, up for different metrics and full honesty. Some of them are flat depending on the metric. We don't have any negative metrics though. And the ones that really matter our key metrics, we're seeing really good lifts, and that has turned into an overall 200% increase in the weekly orders that we're getting from our abandoned activities, which I don't know, we thought that was pretty great for a first time out.
+
+00:33:33:00 - 00:33:53:49
+不明
+I don't know about you, but we felt like that was a pretty good thing. And then we had a couple of intangibles as well that we wanted to talk about in here. And so, the first one is time, like the timeliness previously, it took us more than six months to get an abandoned email live and to have that campaign going out.
+
+00:33:53:54 - 00:34:17:11
+不明
+We're in this case, we had a full set of three cross-Channel journeys, including two distinct audience segments go from ideation, which included getting all the right people together, getting into the tools, you know, getting all of that moving to being live in approximately two months. And then and I got to give a shout out again to Adobe on this because they really helped to facilitate that.
+
+00:34:17:11 - 00:34:42:33
+不明
+And it was super helpful. And I think so that's one of our tips as well. If you've got resources, use them because it is so worth it. It really pays off. And then using existing modular content and leveraging that centralized offer library that we have an ago that really sped up the creative process, even though we weren't doing the totally reusable content that still had savings and efficiencies for us, and we were able to get things ready to be used in days instead of weeks.
+
+00:34:42:37 - 00:35:03:23
+不明
+And then when we needed to make updates to swap out an offer which we did have to do, having that modular content in that centralized library ready to go, we were able to switch all of the offers across all of the journeys in minutes, and previously that could have taken hours on a good day. Two weeks on a bad day, maybe even longer.
+
+00:35:03:37 - 00:35:24:27
+不明
+And that would involve multiple other teams intake processes. You know the drill, right? And then one of the other things is we were able to incrementally add, increase the amount of messaging that we were able to have across these three journeys. So we went three journeys, four channels from a single journey with two very disconnected channels.
+
+00:35:24:32 - 00:35:47:22
+不明
+And with those, we started to see these positive results almost immediately. And then we were able to get to significance on a lot of our key metrics within about two weeks. So yeah. All right. Oh gosh. So yeah, so just key takeaways, obviously, I've touched on this, but make sure that you're evaluating your existing solutions first.
+
+00:35:47:22 - 00:36:07:59
+不明
+Like I said, we have the great opportunity to have all these Adobe tools at our fingertips. And we really had to evaluate both platform maturity, platform connectivity, feasibility, everything, to really like kind of dial in on what we could do now and where we want to build to. I think she touched on this like progress, not perfection.
+
+00:36:08:04 - 00:36:30:11
+不明
+Start now and iterate along the way. I know that's probably seems very remedial advice, but I think a lot of times when you when you're staring down the barrel of really aggressive goals and you're staring down into a platform ecosystem that can be quite complex, it can be overwhelming. And again, we had to do it while we were rapidly enabling a new app for our customers.
+
+00:36:30:16 - 00:36:49:35
+不明
+And doing this, like true digital transformation. So I think just making small and iterative tweaks along the way, and bringing your partners along early and often and making sure that you get that buy in is really, really critical. I don't know if you have anything else to add. I know you're talking about throttling. Yeah. Don't don't try to do it all at once.
+
+00:36:49:35 - 00:37:09:46
+不明
+I think that's the thing that a lot of us, we're like, oh, you just got to do all the things and we don't need to do that. Just start small. Pick one thing, something that you're already doing even, and use what you've got and get that success out there. And I think that will make that gives it just gives you momentum and momentum is really the key, I think, to getting further and further into that.
+
+00:37:09:46 - 00:37:32:38
+不明
+And it gets you to proving results faster, which I think just helps to speed that up and get support for the process. Yeah. So what's next for us? Like I said, we are we are young in our journey here. Definitely not new to Adobe, but, you know, like I said, we're getting all these platforms, and, I have the lovely joy of making sure that they're all talking to one another.
+
+00:37:32:38 - 00:37:52:17
+不明
+That is my full time job. So we'll start expanding this, to different journeys. Like I said, we talked really about sales, but, you know, our customers are dynamic. And, and we have a lot of different offerings. So we're going to be expanding these journeys, out to different cohorts, different segments, different touchpoints, testing into different channels.
+
+00:37:52:17 - 00:38:13:46
+不明
+So that's really exciting. So yeah, we laid the foundations expanding. We will obviously, when I talk about content supply chain, there's a huge effort, for how we get truly more dynamic and modular and reusable. So that's a big thing that we'll be working on with our Am partners. And then again, like continuously optimizing, we didn't even touch on AI.
+
+00:38:13:51 - 00:38:31:33
+不明
+Obviously we all know that's the future. So like as we start to build this, what do we how can we leverage tools like Firefly? And how can I really help with the acceleration of these journeys? And again, probably lean too far into the to the business side of this. But ultimately, you know, T-Mobile, we're an essential service, right?
+
+00:38:31:33 - 00:38:52:45
+不明
+We are an essential service for customers. People rely on their cell phones for things like bill network sales, accessories like think. So we really I think leveraging Adobe to be able to be really precise and meeting those customers where they are, because sometimes, honestly, the best way to personalize to someone is to show them nothing at all.
+
+00:38:52:49 - 00:39:15:58
+不明
+Right. And so we'll continue to make sure that a from the data, our data pipelines are in place, which is foundational for anything you want to do for personalization. Our platforms are connected, and we'll lean on our Adobe partners to help us build towards that future state and make sure that as we think about things like content supply chain and how we go from work front all the way down to publishing an Am that that's automated and we're kind of taking the hands off the wheel.
+
+00:39:16:03 - 00:39:36:57
+不明
+And then obviously can continue to optimize and iterate. Yep. So all right, so, before we go into Q&A, which hopefully you guys have a lot of questions. If not, I'll keep rattling for the next 15 minutes. But as I said, the Carly and Gwen talked a lot about their personalization journey. The first being content and data must work together to drive impact.
+
+00:39:36:57 - 00:40:01:10
+不明
+You heard from them how they needed to centralize all their content, but make sure that that matched what their audiences were looking for so that could actually resonate how they use them together for the seamless experience. They also talked about their content foundation, and how that was key to supporting consistency, scalability, efficiency so that they could support all these different audiences, all these different channels, so that they weren't recreating, they weren't working in silos anymore.
+
+00:40:01:10 - 00:40:26:30
+不明
+They could actually leverage it all together, in a much more unified way. And last is orchestration. So customers, they don't see T-Mobile as, you know, five different brands at different channels. It's just one brand. They're interacting with one brand wherever they are. And so leveraging orchestration to actually build this cohesive journey, that kind of moves along with the customer is really important to actually achieve personalization.
+
+00:40:26:34 - 00:40:45:10
+不明
+And that's a kind of exactly the same pillars that Adobe is going towards now. So you kind of heard about today from Anil and Ahmed and everybody, but I'll repeat it again. But AI is revolutionizing customer experience management, right. Kahlil kind of alluded to already, but how many of you guys in here use ChatGPT or or Gemini?
+
+00:40:45:10 - 00:41:02:38
+不明
+Whether it's for work, I won't tell your organization. We have an enterprise license that I'm in, and every day, or it's for personal. I just use it today for, you know, Vegas recommendations, for restaurants, today, just kind of search it up, clicked it, and chose one. I didn't sift through a million blogs. I didn't dive through Yelp.
+
+00:41:02:38 - 00:41:22:55
+不明
+I just got the top five and I picked one that sounded good. That's just an example of how the customer experience landscape is changing. But what's still Quora on the foundation is it's going to be content, data and journeys. And what we're moving that means for us is that we're moving away from just customer experience management, but actually being proactive and doing customer experience orchestration.
+
+00:41:23:09 - 00:41:42:20
+不明
+And at the core of that is there are purpose built agents, which, you know, you might heard on Main stage, all these different agents are making it much easier to deliver these deeply tailored experiences and kind of redefine what personalization at scale means, and really how we're going to enable brands to actually achieve that and unlock that.
+
+00:41:42:25 - 00:42:01:22
+不明
+And within Adobe Experience Manager specifically, is what we're doing with intent aware experiences. What does intent aware experience mean? You'll hear a little bit more about it in some of our other sessions, but essentially with AI, like I said, customers are no longer sifting through all these different blogs. SEO isn't. Maybe up is the role of SEO is changing, right?
+
+00:42:01:22 - 00:42:22:59
+不明
+The impact of it? So brands have much less time to actually capture a customer's attention, because sometimes they're going to chat to you, but they're looking at that blurb at the top. So when a customer does land on your brand own experience, you need to make sure that you capture that. It's more critical than ever before. Right? You don't have the, you know, luxury of just hoping for SEO to hit.
+
+00:42:23:04 - 00:42:45:41
+不明
+And so it needs to understand intent. It needs to anticipate what customers are looking for and ensure that the content that they see deeply resonates with them. And so what are some innovations that we're announcing towards this vision? I'm just going to go through a few because it's the top innovation session right after this. But a sneak peek before actually what they're announcing, first is experienced generation and content advisor.
+
+00:42:45:41 - 00:43:14:16
+不明
+You'll hear a lot more about it. But essentially we're using gen AI to create experiences much faster. So accelerating the path from content assets to winning experiences. So for example, I need to create a landing page for a new offer. What we're going to do is our agents are kind of sifting through all these great content. You created all these assets because you've probably created a bunch, and pulling that all together with the best performing ones to build this full experience for you and solve that cold start problem.
+
+00:43:14:25 - 00:43:46:16
+不明
+So then you can kind of iterate on it. Now you have the best performing template, the best performing content assets. You can switch it out. Whatever. But it's helping you make that process so much faster so that it doesn't take two months, three months to create one page. The second is omnichannel content activation. So creating content is great, but it's only half the battle because if you have all this great content but you're not actually strategically activating it on all these different channels where customers are, it doesn't really matter because you need to actually drive connection on those channels.
+
+00:43:46:21 - 00:44:04:06
+不明
+And so we're making that easier by Carly kind of and Gwen mentioned Agero. We actually have now a native integration with AJ which was going to be announced. And so that's going to be an integration so that you can use content fragments or modular content as well as dynamic media, and deliver that in Geo for all the channels that they support.
+
+00:44:04:06 - 00:44:27:54
+不明
+So that could be mobile, web, in-app email or what have you, all the great channels that customers are living on. And lastly, the Site Optimizer, which is on main stage. So I'll probably spend some time on this, but essentially it's how do you make sure that the experiences that you put out are driving maximum impact? How do you ensure that you know what you worked so hard on is actually driving engagement, traffic conversion.
+
+00:44:27:59 - 00:44:47:58
+不明
+And that's kind of what Site Optimizer does. It uses all that data and it proactively identifies opportunities, suggest recommendations, and actually implements it for you all with the click in the interface, so that you're not actually having to do the analysis yourself. So really awesome. You'll hear a lot more about it and kind of actually go through the demo and segment.
+
+00:44:47:58 - 00:45:09:30
+不明
+A quick plug here is that session four with Duggan and Cedric on the amp team. They're going to go into these top innovations and they'll kind of show you a deep dive into it. And then I also want to plug the other T mobile session tomorrow at 4 to 5 with Anya. She's going to talk a lot more about the decisioning part of it and expanded, journeys and use cases and specifically the subscription marketplace.
+
+00:45:09:45 - 00:45:33:29
+不明
+So kind of heard about their foundation and how they actually set that foundation. But what does the decision decisioning process look like? How do they think through that? So go to that session tomorrow as well. And of course visit the booth. So if you want to get hands on kind of see what the tools actually look like, some of the innovations, we have the booth available for all the different products and great people you can ask questions to as well.
+
+00:45:33:34 - 00:45:43:55
+不明
+Thank you for joining and thank you, for a free gift card.
+
+00:45:44:00 - 00:45:44:35
+不明
+To.
+

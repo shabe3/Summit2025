@@ -1,0 +1,388 @@
+00:00:01:17 - 00:00:31:37
+不明
+So. Hello everyone. I'm Mark Angelina. I am the principal product marketer for Am assets. I live, breathe, spend a lot of time sleeping and dreaming about damn. So, you know, this is something that I really care about. You know, I feel like I'm a steward of this talking a different industry, event, etc. and I'm honored to be here with Abby, who has a long history of managing the dam.
+
+00:00:31:37 - 00:01:00:05
+不明
+And so maybe tell a little bit about yourself. Sure. Well, I'm so glad to be here, everybody. Hello, hello. And, Mark, thank you for having me. Been at fossil now for, just coming up on 12 years. Always in some sort of content marketing, creative operations type role. I think that I've served a couple of different teams or been under a different couple of teams, but, kind of the common thread has always been content and the, the organization and management of that content.
+
+00:01:00:05 - 00:01:27:11
+不明
+So, I like to moonlight as a creative technologist these days. It's kind of what, what I'm doing. But, current state, I am overseeing both in-house photo studios at our Dallas headquarters. And also have kind of a second half of my team that is responsible for regional execution. And, just the bringing to life of all of our brands assets throughout the globe.
+
+00:01:27:16 - 00:01:50:54
+不明
+Awesome. So when I think about fossil, I definitely think about the watches. Right. But talking with you, I know fossil is so much more. And, you know, I'm so glad that you were able to come up and talk, because when I often talk to people, I hear. But retail is not part of my manufacturing or it's not part of my financial services.
+
+00:01:50:54 - 00:02:20:53
+不明
+It's not my vertical. Right. But one thing I really want to to have you talk about and bring out is technology is technology. We all have a supply chain and how we move through now fossil touches a lot and I'll have you jump in in a second here. But it translates across right. I think in the keynote you said managing a marketing team is very similar to, you know, driving a race car 230 miles an hour.
+
+00:02:20:58 - 00:02:48:36
+不明
+I think managing technology in how we look at technology spans across industries. Yes, there are things about compliance laws, other things that might be unique. But, you know, sitting in this room with everybody raising their hand, that they have a dam and understand a dam. I hope we find a lot of commonalities. Right. And so tell me a little bit about fossil and all the different brands and just the structure of the company.
+
+00:02:48:41 - 00:03:12:05
+不明
+Yeah. So we are, a large family of brands. You're probably aware, or maybe not, but within the building we've got a handful of what we call owned brands. So fossil, Skagen, Michelle, Zodiac. These are brands that we, we're kind of soup to nuts design and men and, development, manufacturing of product in addition to marketing and all the go to market support that goes along with that.
+
+00:03:12:10 - 00:03:35:24
+不明
+And then, the other half of the brands are what we call licensed brands. So this is the Michael Kors, the diesel's of the world. And for them we do, mostly product design and development, manufacturing and and, minimal content support, but still supporting with, with basic photography and some, some levels of marketing support for those brands.
+
+00:03:35:29 - 00:03:57:36
+不明
+So a lot of different, a lot of different groups and varying levels of needs. But I think, again, the common thread that they all have is content. Whether it's a little bit of content or a lot of content, they've got a they've got to know where it is. They've got a store at somewhere and that's where, that's where we came together to kind of build our, our dam set up to, to support all of those different, different brands.
+
+00:03:57:41 - 00:04:15:49
+不明
+And just to touch on something you said just before about the different, different industries. Like I've had so many conversations here from like hotels to grocery and like it's all the same problems. It's all the same problems. We're all working with the same thing. So happy to talk with you guys today and, and hear your, your struggles to.
+
+00:04:15:53 - 00:04:47:23
+不明
+Yeah. Speaking of the problems, I think it all stems from our supply chain, right from where content is created, whether it's agencies, in-house, etc. we all have to drive through this idea that from creation to acceptable usage, content has to go through many different technologies, many different hands. Right. And that technology, in your guys's case, spans the globe, right?
+
+00:04:47:23 - 00:05:19:10
+不明
+It spans multiple different, delivery mechanisms you guys have from manufacturing to straight delivery to consumer, right, for, commerce. But then you have the Nordstrom's, the Macy's, the other brands who are reselling. So tell me a little bit about this architecture from the the technology you use and then the global distribution. Yeah, sure. So a lot of boxes on this slide I'm not necessarily involved with, but I know they're critical to the operation.
+
+00:05:19:15 - 00:05:42:48
+不明
+But obviously on the far left at the beginning, we're in product lifecycle management with a PLM, where product design development happens, manufacturing goes into SAP for all of that, product data to feed into PIM. All of this stuff seems disconnected from where we would be with creative and marketing on the consumer side and the go to market side, but it's so critical that it starts out accurately there.
+
+00:05:42:48 - 00:06:06:38
+不明
+I think when we talk about data hygiene, having a PIM that's accurate is critical to our automations and integrations. On the back end. Making sense and making, making things flawless for for execution. But in, in kind of parallel to those, you know, we're in work front for work management. Obviously Creative Cloud for content, management creation all feeding into a Am assets.
+
+00:06:06:43 - 00:06:26:01
+不明
+We'll talk about a PIM integration that we have with a, feeding through all of those, assets through to dynamic media to automate as much as we can to our, to our owned own sites. And of course, having the am assets, spot where, where anybody else can, can access the, the stuff that they need.
+
+00:06:26:05 - 00:06:56:42
+不明
+Lots of channels. I mean, obviously branded sites, CRM, media, SEO, social commerce. We've got point of sale stores, lots of bricks, lots of clicks, and marketplaces, as you know, with the Amazons of the world, needing a lot of, of additional content to support. And then of course, our distribution channels. So we have our own stores and sites, we've got wholesale places, Macy's and, you know, the crisps of the, of the world in Germany.
+
+00:06:56:47 - 00:07:14:47
+不明
+All over I think in Germany there's 3000 doors where we sell, our, our watches, distributors in European markets and, and again, marketplaces. I feel like I have to say something about I want my watches because I'm wearing an Apple Watch, and I know people are probably like, whoa, but I'm wearing a fossil watch in my right hand.
+
+00:07:14:59 - 00:07:37:24
+不明
+This is for steps, because I'm just curious is how many steps I'm getting. So it's a fossil strap, but it's an Apple Watch. So just to clarify. So I mean, even with that, the complexity of selling fossil straps others to other devices. Yeah, right. The technology here spanning across I think it's can be very similar to a lot of other companies.
+
+00:07:37:28 - 00:08:01:28
+不明
+Right. There's a lot of different touch points. And with those similarities, there's a lot of different stakeholders or your customers that are going to interact with your content, interact with your application. So why don't you take me a little bit through the different groups that you work with and interact with that supply chain? Sure. So it starts with creative and studio.
+
+00:08:01:28 - 00:08:23:46
+不明
+When we get into the content creation, phase. I think that overall, when you look at all these different audiences, you probably each have somebody that's relatable or, you know, different groups that are relatable, that all need content in different ways. Some groups may search by SKUs, some may search by season and brand and year. Some may just search by asset type, some may just say, show me all lifestyle images.
+
+00:08:23:50 - 00:08:44:46
+不明
+So we want to make sure that our, that our data and our images and assets are accessible no matter who is looking for them and no matter how they're looking for them. So creative and studio obviously this is where the, the work starts. And is, is loaded into to them global production studio, which is my team directly.
+
+00:08:44:50 - 00:09:09:00
+不明
+This is where we are not only, accessing final images, but also running QA checks on on any new assets uploaded for my regional teams to, to go and execute marketing and PR teams. These are, these are a variety of people, internal and external, that are needing to search by, mostly by brand and asset type.
+
+00:09:09:05 - 00:09:33:32
+不明
+But, they're working with agency partners, some of which we've, we've brought into our them as external read only users to kind of shorten the gap between them and the content that they need. And then within DTC sites, direct to consumer sites, we've built some automations from Dynamic Media through Salesforce Commerce Cloud to get assets fed to our own sites directly.
+
+00:09:33:37 - 00:09:59:33
+不明
+Without, you know, a lot of, hand-holding and human interaction and, commercial sales team. So these are the these are the, account sales reps that represent maybe a Dillard's. So they typically have a list of 30 SKUs. That is the dollars Dillard's assortment for a certain season. They need to be able to plug in a certain list of SKUs and find exactly the assets or the feature assets that they're needing to activate for their channels.
+
+00:09:59:38 - 00:10:19:17
+不明
+And then distributors again, you know, connecting our dam to their B2B tool so they can, in a similar way, curate their collections based on, based on their partners. So a lot of different a lot of different needs, a lot of different ways to get to. Yeah. And we're going to touch a little bit about these needs later on and how they're going to interact with content.
+
+00:10:19:22 - 00:10:41:53
+不明
+Now one of the things I want to and have a conversation about is that's a lot of information and understanding your workflows and understanding the supply chain. I'm sure a lot of people in this room might have questions like, I don't know, all my workflows, right? I don't know all the processes. How did you get here? Where did you start?
+
+00:10:41:58 - 00:11:08:26
+不明
+Right. That created I need to go on this transformational journey, right. What were the considerations as you went along this journey? Because it doesn't just go from A to Z, right? You have different steps. So why don't you take me through the last few years? Sure. So prior to Covid, we were, probably ten years with, with a large enterprise dem solution.
+
+00:11:08:31 - 00:11:27:45
+不明
+You know, it was on prem, sort of unreliable speed and, was kind of set at the beginning and not forgotten, but not really enhanced and not really touched very much. It so, as new people came into the company, maybe they weren't trained on it. So less and less people were using it. And then the world shut down in 2020.
+
+00:11:27:50 - 00:11:50:15
+不明
+And, we knew that we had to find a solution for asset sharing in addition to our current or our enterprise jam at the time, ways for people to access assets that weren't having access to our network servers anymore since we were all home. So we kind of moved to a Google Drive solution, with the intention of it being an interim solution.
+
+00:11:50:20 - 00:12:13:31
+不明
+But of course, with, with little governance in the Google Drive, you've got 78 folders with all different names. And that makes that makes my head, hurt. But, coming out of Covid, you know, we were we were actually up for renewal with that, that damn provider. We could have easily either chosen to renew or upgrade to their, their cloud service or find something new.
+
+00:12:13:33 - 00:12:45:35
+不明
+So we knew at that time, hey, this is an opportunity. Let's look across the whole content supply chain. What can we do to, kind of futureproof us for everything that we're seeing now in terms of marketing automation and content creation? And so we we made the case for Am assets at the time, in 2023, we went through our implementation with our partner Freedom now Northern Northern Co, and that's where we learned a lot about workflows obviously.
+
+00:12:45:35 - 00:13:15:02
+不明
+So during that process there was so many this is when I'm truly became a creative technologist, I think. But so many surveys and things that were sent out to truly understand how these audience audiences needed to to get access to their, to the content that they needed. So we've been in now for three years, and at the end of last year, we started looking into Content Hub and are very excited about, about the prospect of Content Hub for our for our read only users.
+
+00:13:15:07 - 00:13:37:14
+不明
+So I want to go back a little bit. You talked about using Google Drive. Yeah. So how many people here use a file share? They have a file share system. A few hands here. Take me through the experience. So you have a on prem dam seem to be more of a repository than the damn. How the organization ended up adopting it.
+
+00:13:37:19 - 00:14:08:02
+不明
+You move to a file share, right? There's a lot of conversations I have that you know is file share good enough for a dam? Can I get away with it? Do I need to be on the dam? What was your experience and helped create some of the ideas of what a dam needs to solve those problems, right? I think that the biggest thing that Google wasn't able to support was, was our need for searching, and filtering down to just the assets.
+
+00:14:08:07 - 00:14:29:31
+不明
+I think that's one of many issues with file sharing, like like a Google set of folders, the proliferation of folders. As I said before, with no, you know, organization or no thought put to put to what that looks like. But, yeah, I think the searching and filtering and then we also don't have control over compliance.
+
+00:14:29:31 - 00:14:51:44
+不明
+So there's not an easy way other than going into each folder and deleting assets that are no longer usable or that, are out of, out of, image rights, then that seems like a very manual, painful process that we would have had to do to keep all of those images in compliance. So, it's it's great for a lot of things, but not for not for that.
+
+00:14:51:52 - 00:15:15:32
+不明
+And so some of those ideas, I think, drove you into this architecture. Right? This was your implementation structure. So take me through, you know, working with freedom. Like why did you lay out your folder structure, your organizational, how your operation's going to work? Yeah. I loved what Hillary said earlier in the keynote, by the way. She's like really in the taxonomy and so am I.
+
+00:15:15:32 - 00:15:39:34
+不明
+I could geek out over this stuff. I never knew that I would be, but that it turns out that I am. So, we started at the brand level because, as I said before, so many different needs and certain partners and certain, certain groups needing different access. So we wanted to start at the brand level to make sure that as we granted security, access to those folders, that they had the right access to the right brands.
+
+00:15:39:39 - 00:16:01:55
+不明
+And we knew that each brand is very sort of separate in terms of, the audiences they support, and the levels of support. So we started at the brand level and then moved down into, year and being a retail brand where obviously sort of generally quarterly update, spring, summer, fall holiday, all of our newness and, you know, product launches can fall into one of those categories.
+
+00:16:02:09 - 00:16:21:58
+不明
+So it made sense for that to kind of be at that next level. And then at the asset type level, we wanted to keep this list as short as possible so that we weren't already getting into this massive list of options where people wouldn't necessarily know, okay, that this or this. So really these, these 5 or 6 sort of some up every piece of content that we would ever create or work on.
+
+00:16:22:02 - 00:16:45:43
+不明
+And we know that it would generally be in the, in the right place and and tagged with the right, with the right metadata based on those folders and then one level down for sub asset type. So within photography we may have a folder for on wrist shots versus product stills versus versus on model on model PDP.
+
+00:16:45:48 - 00:17:06:44
+不明
+So one of the things that stands out when we were talking about all this is, and I think everybody in this room will feel this way. Your librarian team is small compared to have one if you have one at all. If you have one at all, your your team is small compared to all the different users, right? We talked about those different groups.
+
+00:17:06:59 - 00:17:39:44
+不明
+Right. You could have a thousand 10,000 people accessing wanting content. But yet very few people who are trying to manage is folder structure. And I think part of your journey in leading into talking about a PIM integration is automation, right? We have to be able to automate so that that librarian team who one to none, right. Five they have to be able to provide all that right information to that folder structure that you saw.
+
+00:17:39:46 - 00:18:06:36
+不明
+Right. Folders can have metadata. The asset itself could have metadata. Right. And so take me through your your strategy of saying I need to scale. Yeah. So part of the part of the important, you know, one of the biggest pieces of our implementation was this what is this PIM integration to ensure that just based on a skew as a qualifier, we were able to pull all of that product data into APM.
+
+00:18:06:41 - 00:18:26:58
+不明
+So in our current state, our PIM, I think only eight people in the building have access to it. So that's not a lot of people that would have access to find product information they need. So with that PIM integration, we were able to just by having a skew added, clarify or bring in content from, from PIM and know that it was 100% accurate.
+
+00:18:26:58 - 00:18:58:43
+不明
+So if if a sales A is is looking for assets for Dillard's, not only can they find the PDP images, they can also find the product description to go to go along along with those assets. And it's all searchable. So if we want to look for all watch images for a certain brand that are 44mm, we can we can narrow the search down by that data, and know that it's just even more, even more rich and findable and not something that anybody had to manually tag other than the skew.
+
+00:18:58:47 - 00:19:24:21
+不明
+Yeah. And we'll get into a little bit more about automation. And Jenna I in a little bit. And so when we think about your content right, you know, I think about what you see on the screen, the visuals of product. But it's so much more right. When we talked there's models, contracts, location to use within the the model and contracts.
+
+00:19:24:21 - 00:19:58:04
+不明
+There's digital rights usage. Right. So you have and then you have compliance of the regions. And so this kind of jumps in to that next slide here. How do you go about metadata. So you have the automation and everything else to do more than just search. Right. You're enriching it for activation. For compliance. Take me through how you're thinking about the metadata for an asset to get to this acceptable usage, right.
+
+00:19:58:04 - 00:20:31:04
+不明
+The whole idea is from creation, taking the photo to allowing Nordstrom's to use it or not using it. Right. Because some products might be just specific. So take me through all that. Yeah. I think for, you know, it starts with the search, like you said, but it's so much more than that to ensure that, that countries are using it in this, in the, in the proper countries, in some, some countries we have to use certain or reduce, the use of certain image image types to remain in compliance, activation.
+
+00:20:31:04 - 00:20:58:35
+不明
+So a lot of that stuff so other systems can find the assets and understand, you know, where they can, where they can use assets to plug into those other martech systems and delivery. So all very, you know, the mechanics of, of, of using an asset beyond just a human searching for it. Yeah. So when I think about metadata and all of the people that I talked to, we think about the technology and where you're going to capture that metadata.
+
+00:20:58:38 - 00:21:26:32
+不明
+Right. So the PIM integration is a great aspect for enriching that with the product information so that, you know, the skew, the usage, etc., where you can do, especially if it's like just to a certain retail. Right. But then the other piece of it is now who else is doing that right? You brand managers, right? You have merchandizers, you have other pieces where you're looking at trying to automate that, right?
+
+00:21:26:32 - 00:21:47:22
+不明
+How do you guys how do you go back and look at when you started this implementation process, capturing as much information in those surveys? Take me through a little bit about, how did we get to a place where we say, okay, we have enough information, let's move forward? Yeah. I think, I think a lot of that was just the base searching, searching needs.
+
+00:21:47:22 - 00:22:09:30
+不明
+But some things that we did in addition, with our our custom metadata schema were building some placeholders for some future proofing. So the hoping we connect more systems into the dam to, to to gather those assets and pull those assets through. In order to do that, we need to to have tags at the ready for it. So we have some placeholder tags for our campaign.
+
+00:22:09:30 - 00:22:44:15
+不明
+And, I'm really excited about the brand aware tagging piece, because I think that will kind of tie into to, to making those, those tags even more, even more resourceful. So, yes, brand aware tagging. The, the other tag that we had as a placeholder was personas. So as we look at other martech solutions to pull in assets, how can we tag that, that content to make sure that it's that it's ready for, for those systems to pull in and serve up, serve up to the customer in an accurate, accurate way.
+
+00:22:44:20 - 00:23:12:23
+不明
+Yeah. When I think about the brand new wear tagging, but more importantly, just the the acceptable usage, we've all seen slides that say confidential, right. That sends us a message do not share right. Metadata often for customers that are successful, use as instructional information. Right. Do not use this model in X, y, z. And that's kind of tagged with that image and asset.
+
+00:23:12:28 - 00:23:43:53
+不明
+Right. This is only for this product. And so when you think about the dam journey mapping out your workflows and everything else but mapping out how you're going to get to acceptable usage is really, really important to then be able to leverage automation and to be able to leverage gen AI. And I think that's the next slide to talk about is the reason we spent all this time on the foundation here is that this is what builds the house, right.
+
+00:23:43:53 - 00:24:04:33
+不明
+You have everything that you need to then feed and learn model so that your tagging is successful, right? Being able to create on brand content, you have to be able to still use it, right? So I can create 50,000 different variations. And for a librarian, they freak out and go, well, who's going to manage every one of those?
+
+00:24:04:33 - 00:24:33:07
+不明
+Because if I'm in a compliance industry, I need to make sure every one of those variation, I didn't lose the context of the image, right? Because that context can change dramatically and what the impact is. So why don't you take me through a little bit of where you're going next? I know you're leveraging gen AI to do some of the creation, so talk a little bit about that and how you're looking at technology to build your guys's house.
+
+00:24:33:07 - 00:24:52:38
+不明
+Yeah. If you don't mind going back a slide, I just want to touch on one more thing on that slide. I think it's critical. You know, the stuff on the right is all the mechanics and the and the machines and the computers of the world and how everything's going to connect. But the items on the left, I think, are an important note for the people and the, the ways that we can make it work for the people.
+
+00:24:52:38 - 00:25:12:50
+不明
+So not only the tech, but like, let's make it work for us. So a couple of things that we did, and if you're in this in the middle of this process, highly recommend pushing for hiring a damn librarian slash admin. I think that's a critical role for someone to, to keep it, to keep it going. We we have monthly dem governance council meetings.
+
+00:25:12:50 - 00:25:36:28
+不明
+Sometimes they last for five minutes, sometimes they last for an hour. But it's really kind of our opportunity to, to get together as a core team. Same the same team as we, you know, we we went through the implementation together looking at licenses and what can we do to, to make it better. And then these twice a year pulse checks that my librarian sends out, he, creates a survey that's just, you know, what's working, what's not simple.
+
+00:25:36:28 - 00:25:55:42
+不明
+Three simple questions. What's working, what's not? Any ideas? You know what? It would be great if the dam did x, y, z, and we use those to craft, bi annual, emails to the entire company, including all of our external users that say, hey, did you know that you can build a collection like this? And hey, did you know you can download a smart crop this way?
+
+00:25:55:42 - 00:26:13:25
+不明
+Because new people come on board. You don't know how they were trained. You know how they were onboarded. But just a way that we can kind of keep keep the pulse on it and not just have it be a set it and forget it situation. So important to remember the people. Yeah. And I want to dive into that a little bit because it's interesting.
+
+00:26:13:29 - 00:26:34:08
+不明
+How do you go about in activating that that survey. So you get information what's not working right. My I'm missing tags or whatever it might be. How do you guys go and activate that. What is the process of saying, okay, I get this survey. But now I'm going to go execute and do x, y, z. How often does that happen.
+
+00:26:34:13 - 00:26:49:35
+不明
+Yeah. So I think a lot of the the feedback you know, is just open ended questions. And we'll all kind of go through it as a, as a team and say what questions can we address with easy fixes. You know, what's the low hanging fruit that somebody just wasn't trained or doesn't know how to do a certain thing.
+
+00:26:49:40 - 00:27:04:07
+不明
+And those are easy, you know, direct conversations of five minute phone call or Google meet with with someone to say, hey, let me show you how to do this takes five minutes and then like, oh, they have a skill for the rest of their life. So a lot of it ends up being that kind of that kind of feedback.
+
+00:27:04:11 - 00:27:24:07
+不明
+Things that that are, that are bigger, you know, we'll work with, with the product team. A lot of it, I think, is we're hopeful that Content Hub will will, will address a lot of the frustrations of that people have with searching and, and, and, will be, will be addressed with Content Hub. But yeah, I think we, we try to keep it personal too.
+
+00:27:24:07 - 00:27:46:16
+不明
+I mean, we're, we're I know it's would be much harder with a massive company, but, we're relatively small in the grand scheme of things. I think we have 607 hundred users today in, in our dam, but try to keep it personal. I mean, five minutes could could, could really be helpful for, for someone if it's an easy fix.
+
+00:27:46:20 - 00:27:51:43
+不明
+Yes. Does anybody in the room know what Content Hub is? By the way?
+
+00:27:51:48 - 00:28:17:02
+不明
+Hands who don't. Okay. If you. So Content hub is a distribution portal. The idea for for the dam is to not have as many people in the actual dam and bring them to a surface where they can search and experience content which has approvals. Are they able to actually see this content or not? So making sure that they're seeing the right content for them.
+
+00:28:17:09 - 00:28:40:03
+不明
+But think about it as how I have to the masses. I don't want the millions in my dam. In fact, I want at least amount of people in my dam like the PIM. Right? Eight people go in there. That's awesome. Now I bring content to the edge where you, work, right? So you'll see Content Hub in any of the different announcements.
+
+00:28:40:08 - 00:29:04:44
+不明
+Gen studio, performance marketing, content hub is powering that. Content hub is powering content advisor. It's powering experience. It is ability to distribute content in an amazing application. So that's how you get that content to everybody else. So as we talk about that, let's talk about so some of where you're going next, we have a little piece of what Content Hub is here.
+
+00:29:04:49 - 00:29:25:17
+不明
+How are you going to use Content Hub or how are you guys envisioning Content Hub to help you? I think that we we had a unique set up at the beginning of our, our Am implementation that we thought was going to be temporary, but it's kind of lasted for three years, and that means all external read only users are actually in our main Am assets instance.
+
+00:29:25:22 - 00:29:46:47
+不明
+So the searching and filtering experience for them is not great. So again, looking at Content hub, working with the product teams to kind of get to, okay, what's what is Content Hub capable of doing today? What is the roadmap look like which has been really helpful to understand, when we could could consider removing all of our external, read only users over, over there.
+
+00:29:46:47 - 00:30:06:50
+不明
+So very excited about about that prospect. It's much faster too. Yeah. And so content hub for for you guys and for pretty much everybody. This is a reference of content. So you're in the dam. You hit approve and then it comes to this distribution portal. Now this portal is not a web page. This is a full blown application.
+
+00:30:06:50 - 00:30:32:56
+不明
+It has search experience behind it. It has filtering everything else to deliver. Performance is also has extensibility in it. So so in that regards for you guys being able to have different brands right. So have different brands come in and content be filtered so that you don't see other marketing stuff. Being able to have different vendors come in, filter out.
+
+00:30:33:08 - 00:31:01:47
+不明
+Those are kind of some of the requirements that you're making sure is when you guys roll this out, that we're working together on, that it meets all of those one requirements, a single distribution experience for all the different vendors that we talked about on that supply chain and having those different requirements met through technology. Yeah. Excited about brand aware tagging to I think smart, smart tags is not really something we ever, we ever really took advantage of.
+
+00:31:01:47 - 00:31:23:13
+不明
+I think because it wasn't specific to our brand. It may it may refer to gold watches, but technically with fossil brand, we have to be, like, legally required. Required to say gold tone. So we want that. We would want that smart tag to say gold tone. And I think now with Brand aware smart or brand aware tagging, it has the the potential to do that, which is exciting.
+
+00:31:23:18 - 00:31:48:34
+不明
+To make that that content even more rich with, with data. So let's talk a little bit about that. So it is smart tag enhancements. It is just brand aware so it's able to identify that. But how do you you talked a little bit about campaign right. Campaign information. How is the metadata being able to automate the filling of this or expansion like it understands it's a certain fossil watch.
+
+00:31:48:39 - 00:32:11:56
+不明
+But how does this help through that supply chain? I think for, for marketers who may not be necessarily looking for for assets at a skill level, they want to be able to say, show me all assets developed for the Mother's Day campaign. And that's not something we do today because it's it's it would be, you know, a laborious tagging process to make sure that everything was tagged with that.
+
+00:32:12:01 - 00:32:39:25
+不明
+So to have that automate based on when the image was shot or what the what the look and feel is for it to kind of automate automatically tag it with that. That campaign would be really helpful. On the back end. Perfect. Yeah. And then what about dynamic media? So we are in the process of, transitioning some of our traditional photography to 3D, which is, which is a very exciting time for us at fossil.
+
+00:32:39:30 - 00:33:01:23
+不明
+But obviously we we do a lot with dynamic media today in terms of feeding assets directly to our sites, but, hope to take more advantage of that with more interactive viewing capabilities. That, you know, showcased the 3D, the great 3D renders that we're going to be getting from this project, and help the, the customer convert at the end of the day.
+
+00:33:01:27 - 00:33:33:21
+不明
+Now, is everybody familiar with dynamic who's not familiar with dynamic media? It's a couple people. Okay. So so dams have the ability to deliver content right. So you have it connected to A and and it creates that delivery. There's a benefit though when you own the CDN or you own this delivery mechanism is the transformations. So I don't have to create different variations of content.
+
+00:33:33:33 - 00:33:59:39
+不明
+I can have one piece of content and say do it by 80, by 80, do it by a 300 by 300. I can do different renditions of the content, different crop sizes, and then different transformations of that content to be able to deliver that. Yeah, keep this single source of truth. What I don't want to have is eight different renditions of everything to deliver.
+
+00:33:59:43 - 00:34:25:15
+不明
+I don't know how many delivery sites of a single watch you might have, but you could have hundreds and hundreds of different variations of this, right? If we just think about social media, I got LinkedIn, Twitter or X, they call it now, right? Facebook, etc. those are multiple different variations because they all require that. So you want technology to be closest to the dam to be able to handle that delivery mechanism.
+
+00:34:25:15 - 00:34:50:38
+不明
+So you keep that single source of truth. So there's over 175 and I'm sure somebody will correct me. But transformations to be able to have within dynamic media plus delivery. Capabilities, you can have players etc. 3D renders in different variations as well.
+
+00:34:50:43 - 00:35:19:24
+不明
+So going into kind of your key takeaways, you've gone through this journey, you're starting to look. Jenn-air. For operational efficiencies, you guys use Jenni for creation, doing back fills, extension of imagery. What is your key learnings from what you've learned over the last four years, and where you're going that you could share with everybody? So that their journey is just a little bit better?
+
+00:35:19:26 - 00:35:47:38
+不明
+Sure. So some of this is specific to AMSA, but some of it is just just general, you know, about implementing a tool like this at the enterprise level. For am we we again early on established a metadata profile set up for all of our folders. And as you saw on the taxonomy slide, when you multiply that amount of folders by that number of brands, by that number of seasons and years, we've got a lot of metadata profiles and somebody has to manually enter those today.
+
+00:35:47:43 - 00:36:12:12
+不明
+So amazing if I can like can help us with that. But I think the brand brand aware tagging will help with a lot of that too. So I wouldn't commit to establishing a metadata profile set up, just to, to reduce the tagging labor. I think just setting that up, with governance from the beginning, taking advantage of whatever GDI has to offer to help that process along would be, would be the way to go.
+
+00:36:12:17 - 00:36:32:15
+不明
+Search options, I think with, with Adobe, at least there's 17 different ways to do the same thing. I would probably focus my training and onboarding materials more on a singular way of searching and finding, that being a filtered search. Because global search is confusing for people that only need to find something twice a year.
+
+00:36:32:20 - 00:37:00:23
+不明
+You know, they they plug something in and get no results. And, you know, it's just a disconnect. So, kind of focusing that, that search, search, method for, for new users. I didn't know collections would be as useful as they have been for, for at least our, our group, being kind of looking at the back to the Dillard's example, we've got so many groups that need, just a specific set of assets.
+
+00:37:00:23 - 00:37:16:45
+不明
+They don't want to have to hunt and peck. We want to do that for them or have that be available so that they they're sure to get the proper assets. So collections are are a very popular use tool. So I might spend a little bit more time on that. And we've then I'll have our twice a year follow up emails.
+
+00:37:16:45 - 00:37:35:00
+不明
+That's always been been one of the helpful tips is, is how to create a collection and what kind of benefits that it has for for users, and then trust what you know, but also seek feedback from peers. Like we were talking about the surveys at the beginning, just to truly understand workflows that I wasn't as familiar with.
+
+00:37:35:05 - 00:37:56:02
+不明
+You know, a quick Google form survey is so easy to send out to, to the, to your users. And it really helps define at the upfront what the what the best, the best setup can be for that. And there's no one best set up to kind of to the last point about keeping that communication ongoing, keeping the governance conversations happening.
+
+00:37:56:14 - 00:38:18:05
+不明
+Look at your metadata schema. I mean, now more than ever with with all this personalization, we've all likely got to update what we've got out there, because it probably doesn't include everything that could possibly be needed to support some of this automation and personalization that we're all that we're all hoping to scale to. So keeping it, keeping it alive and, you know, having having that damn librarian is is critical.
+
+00:38:18:05 - 00:38:26:09
+不明
+So thank you, everybody. Thank you so much. Thank you.
+
+00:38:26:14 - 00:38:26:38
+不明
+For.
+

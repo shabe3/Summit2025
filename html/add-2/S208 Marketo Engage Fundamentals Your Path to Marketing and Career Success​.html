@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S208 Marketo Engage Fundamentals Your Path to Marketing and Career Success​</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .summary {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        .important {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .faq-container {
+            margin-top: 20px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        .faq-question {
+            background-color: #f2f2f2;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 4px;
+            position: relative;
+        }
+        .faq-question::after {
+            content: "+";
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+        }
+        .faq-question.active::after {
+            content: "-";
+        }
+        .faq-answer {
+            padding: 0 10px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            background-color: #ffffff;
+            border-radius: 0 0 4px 4px;
+        }
+        .faq-answer.active {
+            padding: 10px;
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Marketo Engage 基礎知識：マーケティングとキャリア成功への道</h1>
+        </header>
+
+        <div class="section">
+            <div class="summary">
+                Marketo Engageは膨大なデータを活用し、パーソナライズされたマーケティング体験を実現するツールです。このセッションでは、Marketoの基本的な使い方から高度な自動化、分析まで、マーケティング担当者としての成功に必要な知識を提供します。
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>オーディエンスのセグメンテーション</h2>
+            <div class="summary">
+                セグメンテーションはMarketoの最も重要な機能の一つで、ユーザーを特定の基準で分類し、パーソナライズされたコミュニケーションを実現します。
+            </div>
+
+            <h3>セグメンテーションの基本</h3>
+            <ul>
+                <li>セグメンテーションは<span class="highlight">データベースセクション</span>で「New Segmentation」から作成</li>
+                <li>セグメント内での<span class="underline">順序が重要</span>：複数のセグメントに該当する場合、リスト内で最初のセグメントに分類される</li>
+                <li>各セグメント内でルールを設定（スマートリストに類似）</li>
+                <li>注意点：セグメンテーションでは時間経過のみでの変更は追跡不可（データ値の変更が必要）</li>
+                <li>CRMフィルターは使用不可、アカウントレベルのフィルターも推奨されない</li>
+            </ul>
+
+            <h3>セグメンテーションの活用</h3>
+            <ul>
+                <li><span class="underline">ダイナミックコンテンツ</span>：1回のメール送信で、セグメントごとに異なるコンテンツを表示</li>
+                <li><span class="underline">スニペット</span>：再利用可能なダイナミックコンテンツのブロックで、デザインスタジオに格納</li>
+                <li>地域別イベント情報をスニペットとして作成し、全メールの下部に挿入する例（地域ごとに最適なイベントを表示）</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. セグメンテーションを作成する際の最大の注意点は？</div>
+                    <div class="faq-answer">セグメントの順序が最も重要です。複数のセグメントに当てはまる人は、リスト内で最初に来るセグメントに分類されます。また、承認には時間がかかるため（数時間）、急いでいる場合は注意が必要です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのようなセグメンテーションが効果的？</div>
+                    <div class="faq-answer">マーケタビリティ（マーケティング可能性）、ペルソナ、顧客vs見込み客、業界、地域などが効果的です。ビジネスに関連する「バケット」を考え、戦略的に作成してください。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ダイナミックコンテンツとスニペットの違いは？</div>
+                    <div class="faq-answer">ダイナミックコンテンツはメールや landing page の個別の要素をセグメントに基づいて変更する機能で、スニペットはそのダイナミックコンテンツの再利用可能なブロックです。スニペットはデザインスタジオに保存され、複数のアセットで使用できます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>リードスコアリングモデルの構築</h2>
+            <div class="summary">
+                リードスコアリングは、見込み客の行動と特性に基づいてスコアを付け、優先順位を決定するシステムです。データ駆動型で営業チームと連携したモデル構築が重要です。
+            </div>
+
+            <h3>スコアリングフレームワークの構築</h3>
+            <ul>
+                <li>定量的データ（成約案件分析、顧客カウント）と定性的データ（営業チームからのフィードバック）を組み合わせる</li>
+                <li>営業チームを<span class="highlight">早期から巻き込む</span>ことが重要—彼らがデータを活用するため</li>
+                <li><span class="underline">ネガティブスコアリング</span>も考慮：採用ページ訪問、メール配信停止、関連性の低いページ訪問など</li>
+                <li>スコアの上限（キャップ）とスコア減衰（デケイ）を設定する</li>
+                <li>各チームのSLAを明確にし、全員の合意を得る</li>
+            </ul>
+
+            <h3>補足的なスコアリングモデル</h3>
+            <ul>
+                <li>製品別興味スコアリング：顧客が関心を示す製品を特定</li>
+                <li>各製品に一意のコード（例：M01）を割り当て、関連プログラムやURLに追加</li>
+                <li>製品ごとのスコアフィールドを作成し、インタラクションに基づいてスコアを増加</li>
+                <li>最も高いスコアの製品を特定し、トップ製品興味フィールドに記録</li>
+                <li>そのフィールドに基づいてセグメンテーションを作成し、パーソナライズされたコンテンツを配信</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. スコアリングモデルを成功させるための最大のポイントは？</div>
+                    <div class="faq-answer">営業チームとの協力が最も重要です。営業チームはこのデータを実際に使用するため、彼らの意見を取り入れ、各段階で合意を得ることが成功の鍵となります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. スコア減衰（デケイ）とは何ですか？</div>
+                    <div class="faq-answer">スコア減衰は、一定期間インタラクションがない場合にスコアを減少させる仕組みです。例えば、3ヶ月間活動がなければスコアを一定量減らすなど、最新の行動を反映させるために重要です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 製品別興味スコアリングはどのように活用できますか？</div>
+                    <div class="faq-answer">顧客がどの製品に最も関心を持っているかを特定し、それに基づいたパーソナライズされたコンテンツを提供できます。例えば、データ可視化に最も興味を示している顧客には、その製品に関連したメールを送ることができます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>キャンペーンパフォーマンスの測定と分析</h2>
+            <div class="summary">
+                マーケターとして「収益テーブル」での発言権を得るためには、適切なレポートと分析が不可欠です。Marketoには複数のレポートツールがあり、様々な視点からのパフォーマンス分析が可能です。
+            </div>
+
+            <h3>Marketoのレポートタイプ</h3>
+            <ul>
+                <li><span class="highlight">基本的レポート</span>：メールパフォーマンスレポート、基本的な目標達成状況など</li>
+                <li><span class="highlight">分析レポート</span>：チャネルのパフォーマンス、ウェビナー参加者数、LinkedInキャンペーンから獲得したリード数など</li>
+                <li><span class="highlight">戦略的レポート</span>：予測と最適化、どのキャンペーンが最も効果的かを特定し予算配分の意思決定に活用</li>
+            </ul>
+
+            <h3>主要レポートツール</h3>
+            <ul>
+                <li><span class="underline">Email Insight</span>：メールパフォーマンスデータを様々なフィルターや指標で探索・可視化</li>
+                <li><span class="underline">BI Analytics</span>：Marketoや他のソースからのデータを使用したカスタムレポートとダッシュボードを作成（RCEより5倍高速）</li>
+                <li><span class="underline">Performance Insight</span>：チャネル、プログラム、キャンペーン全体のマーケティングパフォーマンスを概観</li>
+                <li><span class="underline">カスタムカラム</span>：より細かいデータを取得するためのツール</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 「収益テーブル」とは何ですか？</div>
+                    <div class="faq-answer">「収益テーブル」とは、マーケティング責任者だけでなく、収益責任者や財務責任者も含めた意思決定の場を指します。マーケターがこのテーブルで発言力を持つためには、適切なセグメンテーション、リードスコアリング、そして効果的なレポートが必要です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのレポートが最も価値がありますか？</div>
+                    <div class="faq-answer">それぞれのビジネスニーズによって異なりますが、戦略的レポートは予算の最適配分に役立つため特に価値があります。カスタムカラムレポートは細かいデータを取得でき、Email Insightはメールパフォーマンスの詳細分析に適しています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. パフォーマンス測定のベストプラクティスは？</div>
+                    <div class="faq-answer">リードを適切なプログラムと正しいチャネルに追加し、適切なプログラムメンバーステータスを設定します。獲得を正確に追跡し、コストを追加してROIを測定できるようにします。また、定期的にデータを分析して改善点を見つけることも重要です。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>高度なマーケティング自動化ワークフロー</h2>
+            <div class="summary">
+                Marketoの自動化機能を使用して、コンテンツ配信、メール送信、データ管理、イベント管理などを効率化できます。特にエンゲージメントプログラムは重要な自動化ツールです。
+            </div>
+
+            <h3>Marketoで自動化できるタスク</h3>
+            <ul>
+                <li>コンテンツ関連：リードナーチャリング、ウェルカムメール、行動ベースのドリップキャンペーン</li>
+                <li>メールキャンペーン：スケジュール送信、トリガーメール、セグメントベースのパーソナライズコンテンツ</li>
+                <li>データ管理：データ正規化、クリーニング、リードスコアリング、リストセグメンテーション</li>
+                <li>イベント管理：登録、確認、リマインダーメール、イベント後のフォローアップ</li>
+                <li>営業チームとの連携：Marketo Sales Insight、リード資格通知、CRMフィールドの更新</li>
+            </ul>
+
+            <h3>エンゲージメントプログラム</h3>
+            <ul>
+                <li>リードライフサイクルに基づく<span class="highlight">自動化されたリードナーチャリングシーケンス</span>を実装</li>
+                <li>複数のストリーム、メール、イベントを含む総合的なプログラムを構築</li>
+                <li>A/Bテスト（チャンピオン/チャレンジャー）を活用してコンテンツ最適化</li>
+                <li>ネストプログラムを使用して、同じエンゲージメントストリーム内の異なるサブグループに異なるメッセージを送信</li>
+                <li>継続的に測定と最適化を行い、「設定して忘れる」ではなく常に改善</li>
+            </ul>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. エンゲージメントプログラムを使用する際の注意点は？</div>
+                    <div class="faq-answer">通信制限に注意してください。制限に達している場合、エンゲージメントプログラムからメールが送信されないことがあります。また、スマートキャンペーンを有効化しないようにしましょう。有効化すると、意図しないタイミングでメールが送信される可能性があります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. チャンピオン/チャレンジャーテストとは？</div>
+                    <div class="faq-answer">トリガープログラムやエンゲージメントプログラムで使用するA/Bテストの一種です。メールを選択し、テストを設定して、配信レベルとチャンピオン基準を定義します。標準のA/Bテストとは異なり、チャンピオンを手動で選択する必要があります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ネストプログラムの使用例は？</div>
+                    <div class="faq-answer">同じストリーム内の異なるオーディエンスに異なるメッセージを送信したい場合や、営業チームへの通知を送信する場合、イベントを開催する場合などに使用できます。これにより、複雑なロジックを実装したり、マルチタッチアトリビューションを有効にしたりすることができます。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="important">
+                マーケティング自動化は「設定して忘れる」ではなく、「設定して最適化する」プロセスです。常に報告書を監視し、A/Bテストを行い、改善を続けましょう。
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>重要な用語と概念</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>セグメンテーション</td>
+                    <td>特定の基準に基づいてユーザーをグループ化する機能。マーケタビリティ、地域、顧客タイプなどで分類可能。</td>
+                </tr>
+                <tr>
+                    <td>ダイナミックコンテンツ</td>
+                    <td>セグメントに基づいて、同じメールや特定の要素の内容を変更する機能。</td>
+                </tr>
+                <tr>
+                    <td>スニペット</td>
+                    <td>複数のアセットで再利用できる動的コンテンツのブロック。デザインスタジオに保存される。</td>
+                </tr>
+                <tr>
+                    <td>リードスコアリング</td>
+                    <td>見込み客の行動と特性に基づいてスコアを付け、優先順位を決定するシステム。</td>
+                </tr>
+                <tr>
+                    <td>スコア減衰（デケイ）</td>
+                    <td>一定期間インタラクションがない場合にスコアを減少させる仕組み。</td>
+                </tr>
+                <tr>
+                    <td>エンゲージメントプログラム</td>
+                    <td>自動化されたリードナーチャリングの仕組み。複数のストリームを持ち、リードのセグメントに応じたコンテンツを配信。</td>
+                </tr>
+                <tr>
+                    <td>チャンピオン/チャレンジャー</td>
+                    <td>トリガープログラムやエンゲージメントプログラムで使用するA/Bテストの一種。</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            このコンテンツはMarketo Engage基礎セッションの内容をまとめたものです。
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const answer = this.nextElementSibling;
+                    answer.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

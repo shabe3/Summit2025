@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S206 ABM and Buying Group Orchestration with Journey Optimizer B2B Edition at AWS</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        
+        .summary {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+        }
+        
+        .important {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        
+        .faq-container {
+            margin-top: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .faq-question {
+            padding: 12px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            font-size: 1.2rem;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            padding: 0 15px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 15px;
+            max-height: 500px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f0f0f0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ABMとBuying Group Orchestration: AWSにおけるJourney Optimizer B2B Editionの活用</h1>
+        </header>
+        
+        <div class="summary">
+            <h2>概要</h2>
+            <p>AWSがDeloitteとAdobeの協力のもと、アカウントベースマーケティング（ABM）とバイインググループ・オーケストレーションをAdobe Journey Optimizer B2B Editionで実装した事例について解説します。これにより、従来のリードベースのマーケティングから、より戦略的なアカウントベース、そしてバイインググループベースのアプローチへと移行し、セールスとマーケティングの連携を強化しています。</p>
+        </div>
+        
+        <section>
+            <h2>B2B企業が直面する課題</h2>
+            <p>現代のB2B企業は多くの変化に直面しており、特に3つの主要な課題があります。</p>
+            
+            <ul>
+                <li><span class="highlight">収益性と成長の向上</span>：従来の営業主導モデルから脱却し、新しいチャネルを受け入れながらも予算の制約に対応する必要がある</li>
+                <li><span class="highlight">システムの統合と連携</span>：新旧システムを統合し、効果的なデータフローを確立する必要がある</li>
+                <li><span class="highlight">顧客ライフサイクル全体の管理</span>：獲得からアップセル、クロスセル、そして維持まで、一貫したアプローチが求められている</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. B2Bマーケティングの主な課題は何ですか？</div>
+                    <div class="faq-answer">
+                        <p>B2Bマーケティングの主な課題は、複雑な購買意思決定プロセス、複数の意思決定者への対応、分断されたデータシステム、そして組織の縦割り構造です。特に大企業においては、ITのVP、財務リーダー、ビジネスリーダー、法務・コンプライアンスなど、様々な役割を持つ関係者が意思決定に関わるため、一貫性のあるジャーニーを構築することが難しくなっています。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 「より少ないリソースでより多くを達成する」とはどういう意味ですか？</div>
+                    <div class="faq-answer">
+                        <p>現在のビジネス環境では、予算削減や限られたリソースの中でも、マーケティング活動の効果と範囲を拡大することが求められています。これは、より効率的なツールやプロセスの採用、データ駆動型の意思決定、そして優先順位の高いターゲットに集中するといった戦略的アプローチによって実現できます。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobeはこれらの課題にどのようなソリューションを提供していますか？</div>
+                    <div class="faq-answer">
+                        <p>Adobeは、Adobe Experience PlatformとB2B Optimizerを基盤とした統合されたGo-To-Marketプラットフォームを提供しています。このソリューションは、アカウントの360度ビュー、バイインググループの自動作成、パーソナライズされたジャーニー、セールスインテリジェンス、そしてジャーニーインサイトを含む5つの主要な機能で構成されており、マーケティングとセールスの連携を促進します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>AWSにおけるABMへの旅</h2>
+            <p>AWSがリードベースのマーケティングからアカウントベース、そしてバイインググループベースのマーケティングへと移行した過程を解説します。</p>
+            
+            <h3>AWSのビジネス規模と複雑性</h3>
+            <ul>
+                <li>200以上のフル機能サービスを20以上のカテゴリーで提供</li>
+                <li>36のリージョンで800以上のEC2インスタンスタイプを提供</li>
+                <li>毎月100万以上のアクティブカスタマー</li>
+                <li>200カ国以上で14万以上の販売パートナーを持つ</li>
+            </ul>
+            
+            <h3>B2B購買の複雑さ</h3>
+            <ul>
+                <li><span class="underline">複数の意思決定者</span>：ITのVP、財務リーダー、ビジネスリーダー、法務など</li>
+                <li><span class="underline">分断されたデータ</span>：同じソリューションを検索している異なる役割の人々が矛盾するメッセージを受け取る</li>
+                <li><span class="underline">分散化された組織構造</span>：部門別、フィールド、業界、エンタープライズなど様々なマーケティングチーム</li>
+                <li><span class="underline">分断された顧客ジャーニー</span>：一貫性のないユーザー体験</li>
+            </ul>
+            
+            <h3>マーケティングアプローチの進化</h3>
+            <ul>
+                <li><span class="highlight">リードベースアプローチ</span>：個々のリードをターゲットにする従来のアプローチ</li>
+                <li><span class="highlight">アカウントベースアプローチ</span>：ビジネスエンティティ全体をターゲットにする</li>
+                <li><span class="highlight">バイインググループアプローチ</span>：両方の長所を組み合わせた新しいアプローチ</li>
+            </ul>
+            
+            <div class="important">バイインググループは、リードベースとアカウントベースの両アプローチの長所を組み合わせた、マーケティングとセールスを結ぶ「ミッシングリンク」です。</div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. バイインググループとは正確に何ですか？</div>
+                    <div class="faq-answer">
+                        <p>バイインググループとは、特定のアカウント内で購買意思決定に関与する人々のグループです。意思決定者、インフルエンサー、チャンピオンなど、異なる役割の人々で構成されます。Adobe Journey Optimizer B2B Editionでは、役割テンプレートに基づいてこれらのグループを自動的に形成し、各役割に合わせたパーソナライズされたコミュニケーションを可能にします。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. リードベースからバイインググループアプローチへの移行にはどのような変化が必要ですか？</div>
+                    <div class="faq-answer">
+                        <p>この移行には思考の枠組みの変化が必要です。マーケティングの目標が「多くのリードを獲得する」から「高価値アカウントの意思決定者にリーチする」へと変わります。また、コンテンツも最新のキャンペーンや局所的な目標から、ビジネス成果に焦点を当てたものへと進化させる必要があります。さらに、マーケティングとセールス間の連携が時間のかかる調整作業から、自動化されたシンプルな引き継ぎへと変わります。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AWSはこの移行をどのように実現しましたか？</div>
+                    <div class="faq-answer">
+                        <p>AWSはDeloitteとAdobeとのパートナーシップにより、以下のステップで実現しました：1) Adobe Experience Platform（CDP）を実装して統一されたデータプラットフォームを構築、2) Web SDKを実装してリアルタイムのタッチポイントデータを収集、3) Adobe Journey Optimizer B2B Editionを導入して高価値ターゲットアカウント向けのバイインググループを作成、4) カスタムの意思決定エンジンを統合して最適なメッセージングを実現。そして、AWSクラウド上でAEPとAJOを実行することで、拡張性と統合性を確保しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>バイインググループジャーニーの実装</h2>
+            <p>DeloiteとのパートナーシップによるAWSでのAdobe Journey Optimizer B2B Edition実装の詳細を解説します。</p>
+            
+            <h3>アーキテクチャと技術</h3>
+            <ul>
+                <li>Adobe Experience Platform（CDP）でのデータの統合</li>
+                <li>Adobe Journey Optimizer B2B Editionでのバイインググループの定義</li>
+                <li>既存のMarketo Engageとの統合による活性化</li>
+            </ul>
+            
+            <h3>バイインググループジャーニーの主要コンポーネント</h3>
+            <ul>
+                <li><span class="underline">オーディエンス</span>：アカウントレベルでの対象者の定義</li>
+                <li><span class="underline">バイインググループ役割テンプレート</span>：ビジネス意思決定者、技術的意思決定者など</li>
+                <li><span class="underline">ソリューション関心度</span>：ジャーニーが対象とする製品/ソリューション</li>
+                <li><span class="underline">ジャーニー自体</span>：バイインググループ役割に基づいたパーソナライズされたパス</li>
+            </ul>
+            
+            <h3>実装されたユースケース</h3>
+            <ul>
+                <li>エンタープライズグリーンフィールドアカウント向けバイインググループジャーニー</li>
+                <li>ターゲット：特定の収益閾値を超え、AWSでの支出が少ないが、AI/MLに関心を示しているアカウント</li>
+                <li>バイインググループの役割ごとにパーソナライズされた3つのメールタッチポイント</li>
+                <li>LinkedInの追加とセールスアラート機能の導入を計画中</li>
+            </ul>
+            
+            <div class="important">AWSは766のバイインググループを作成し、すでに高い完全性スコアを達成しています。</div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. バイインググループ完全性スコアとは何ですか？</div>
+                    <div class="faq-answer">
+                        <p>バイインググループ完全性スコアは、定義されたバイインググループの役割がどの程度充足されているかを示す指標です。例えば、ビジネス意思決定者と技術的意思決定者の両方が要求されるバイインググループで、両方の役割が特定のアカウントで埋まっている場合、そのバイインググループは高い完全性スコアを持ちます。この指標は、アカウントへの浸透度と、正しいステークホルダーが特定されているかを理解するのに役立ちます。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. AWSはMarketo EngageとAdobe Journey Optimizer B2B Editionをどのように連携させていますか？</div>
+                    <div class="faq-answer">
+                        <p>AWSでは、Adobe Journey Optimizer B2B Editionでアカウントレベルのジャーニーとバイインググループの形成を行い、実際のメール配信はMarketo Engageを通じて行っています。これは、AWSが既にMarketo Engageに独自のメール優先順位付けツールを構築しているためです。AJO B2Bからのアクションステップを通じて、適格なバイインググループメンバーをMarketoのキャンペーンに追加し、シームレスにナーチャリングを継続します。将来的には、AJO B2B内でのメール配信機能の拡充も計画しています。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. バイインググループアプローチの予測される成果は何ですか？</div>
+                    <div class="faq-answer">
+                        <p>業界のベンチマークに基づき、AWSは以下の成果を期待しています：1) ターゲットアカウントの平均コンバージョンが約15%向上、2) インテントシグナルとエンゲージメントするバイインググループメンバーが2倍に増加、3) セールス適格バイインググループメンバーが15%増加、4) メールのクリックスルー率が20%向上、5) バイインググループメンバーの配信停止率が20%減少。これらの指標は、バイインググループアプローチが従来のリードベースやアカウントベースのマーケティングよりも効果的であることを示しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>主要な学び</h2>
+            <p>AWS、Deloitte、Adobeのチームが実装プロセスから得た重要な教訓を紹介します。</p>
+            
+            <ul>
+                <li><span class="highlight">アカウントジャーニーのダイナミクスを理解する</span>：個人レベルのジャーニーとは異なるアプローチが必要</li>
+                <li><span class="highlight">文化的な変化を促進する</span>：リードベースからアカウントベース/バイインググループベースへの移行には思考の枠組みの変化が必要</li>
+                <li><span class="highlight">シンプルさとスケールを考慮した設計</span>：既存のシステムや作業方法に固執せず、新しい機能を最大限に活用できるよう再設計する</li>
+                <li><span class="highlight">十分なテストを行う</span>：特に顧客データを扱う際は徹底的なテストが重要</li>
+                <li><span class="highlight">自社開発ツールへの固執を避ける</span>：市場をリードするAdobeの製品を活用し、マーケティングの効率化を図る</li>
+            </ul>
+            
+            <div class="important">新しいプラットフォームへの投資だけでなく、運用モデルやプロセスの変更も重要です。</div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 新しいマーケティングアプローチを成功させるために必要な組織的変化は何ですか？</div>
+                    <div class="faq-answer">
+                        <p>成功には以下の組織的変化が必要です：1) マーケティングとセールスの連携を強化する運用モデルの構築、2) 明確な変更管理と効果的なコミュニケーション戦略の実施、3) ジャーニー思考への移行をサポートする適切なトレーニングとリソースの提供、4) 新機能を効果的に活用できるプロセスの確立。これらの変更なしには、いくら優れたテクノロジーを導入しても期待した結果は得られないでしょう。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. バイインググループアプローチの導入で最も難しい課題は何でしたか？</div>
+                    <div class="faq-answer">
+                        <p>最も難しい課題は、思考の枠組みの変化（パラダイムシフト）を組織全体に浸透させることでした。マーケティングチームが「多くのリードを獲得する」という目標から「高価値アカウントの正しい意思決定者に到達する」という目標へと移行するには時間がかかります。また、データの統合、既存ツールとの連携、そしてセールスチームとのコラボレーションモデルの変更も大きな課題でした。これらの課題に対処するため、AWSはテクノロジーの実装と並行して、変更管理とコミュニケーション戦略の専用ワークストリームを設けました。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Adobe Journey Optimizer B2B Editionの今後のAI機能はどのようなものですか？</div>
+                    <div class="faq-answer">
+                        <p>Adobeは以下のAI機能を計画しています：1) データと洞察のためのAI：バイインググループの発見と作成、進捗インサイト、2) ジャーニーとコンテンツのためのAI：ジャーニー作成エージェント、画像からHTMLへのコンバーター、GenAIメール・ウェブデザイナー、3) セールスのためのAI：Brand Concierge B2B Edition、アカウント適格化エージェント、セールスモバイルアプリ。これらの機能により、データ管理の効率化、効果的なパーソナライゼーション、そしてセールスチームとの連携強化が実現します。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>重要用語と解説</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>解説</th>
+                </tr>
+                <tr>
+                    <td>ABM</td>
+                    <td>アカウントベースマーケティング。個々のリードではなくビジネスエンティティ全体をターゲットにするアプローチ。</td>
+                </tr>
+                <tr>
+                    <td>バイインググループ</td>
+                    <td>購買意思決定に関与する特定のアカウント内の人々のグループ。意思決定者、インフルエンサー、技術者などが含まれる。</td>
+                </tr>
+                <tr>
+                    <td>Adobe Journey Optimizer B2B Edition</td>
+                    <td>B2B企業向けに設計されたジャーニー管理ツール。バイインググループの形成とオーケストレーションを可能にする。</td>
+                </tr>
+                <tr>
+                    <td>CDP</td>
+                    <td>カスタマーデータプラットフォーム。Adobe Experience Platformがこの役割を果たし、様々なソースからのデータを統合する。</td>
+                </tr>
+                <tr>
+                    <td>完全性スコア</td>
+                    <td>バイインググループ内の必要な役割がどの程度充足されているかを示す指標。</td>
+                </tr>
+                <tr>
+                    <td>エンゲージメントスコア</td>
+                    <td>バイインググループメンバーがコンテンツとどの程度関わっているかを測定する指標。セールスへの引き継ぎタイミングの判断に使用。</td>
+                </tr>
+                <tr>
+                    <td>インテントシグナル</td>
+                    <td>潜在顧客が特定の製品やサービスに関心を持っていることを示す行動データ。検索、ウェブサイト閲覧、ホワイトペーパーのダウンロードなどが含まれる。</td>
+                </tr>
+            </table>
+        </section>
+        
+        <footer>
+            <p>S206 ABM and Buying Group Orchestration with Journey Optimizer B2B Edition at AWS</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const item = this.parentNode;
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all other open FAQs
+                    document.querySelectorAll('.faq-item.active').forEach(activeItem => {
+                        if (activeItem !== item) {
+                            activeItem.classList.remove('active');
+                        }
+                    });
+                    
+                    // Toggle current FAQ
+                    if (isActive) {
+                        item.classList.remove('active');
+                    } else {
+                        item.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

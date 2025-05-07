@@ -1,0 +1,284 @@
+00:00:02:02 - 00:00:26:01
+不明
+All right. Hi, folks. Thanks for being here today. I'm Naomi Frobisher. I'm a product manager at Adobe Commerce and, I'm a nervous host. I love having my friends over at my apartment in Brooklyn. You know, it's, it's a lot of fun for me, and, I just want them to have a great time. I want them to say, well, she thought of everything.
+
+00:00:26:06 - 00:00:46:15
+不明
+The food was great. The drinks were great. You know, the music was awesome. I. I had a blast. And, my friends are largely from college. I went to UNT, Chapel Hill, which is a big a basketball school. And, a few months ago, it was my turn to host the big game. And, so I had all of my friends over.
+
+00:00:46:19 - 00:01:11:21
+不明
+I had themed drinks. I was really excited, you know, we had a great playlist all cued up. And I thought that I thought of everything, but I miss the most important thing. How to watch the big game. And so five minutes before I sign up, all of my friends there, I'm scrambling where to watch the game. You know, what network is it on?
+
+00:01:11:25 - 00:01:40:21
+不明
+How do I sign up? And I'm nervous. I ruined my own party because I procrastinated, and this is a problem that so many people run into. And I'm not alone here. And this is the story of how Mark here saved my party and helped so many people watch the big game. So join me in welcoming him to the stage.
+
+00:01:40:26 - 00:02:04:04
+不明
+Thank you, everybody, and good morning. Thanks for coming. Really excited to share our stories and talk you through. You know how we work to provide, seamless experiences to get people on to the service, especially in the in the cases where that needs to happen very quickly. And so I work at sling TV. I also work on our video services team.
+
+00:02:04:04 - 00:02:18:25
+不明
+So we do e-commerce for both sling and our dish satellite TV service. And just want to give you a little bit of background about sling. Launched in 2015. It was.
+
+00:02:18:30 - 00:02:43:01
+不明
+Service provider, you know, so we provided live TV over the internet. We also offer On-Demand content, which has been around for a long time. But live TV was really the big innovation there. And we also offer cloud DVR, DVR service, and you don't need a big cable box. You don't need a satellite dish. All you need is a is a device, your cell phone or any other other, any other means to consume content.
+
+00:02:43:06 - 00:03:09:29
+不明
+It's. We pride ourselves on being very flexible with our our service tiers. We have a lot of packages. We allow you to mix and match match package packages, and we adjust our pricing based on what your particular content package is. And we have a wide variety. And as Naomi mentioned today, we're actually getting into March Madness. So we're we're going to start seeing our similar patterns.
+
+00:03:09:34 - 00:03:30:27
+不明
+The overall theme of what I want to talk about today is really around teamwork, you know, and this quote is very important. You know, the over the strength of the team is each individual member. And I want you guys to keep that in mind as we go through the presentation. And then the strength of each member really is the team.
+
+00:03:30:32 - 00:03:54:47
+不明
+And so just to kind of walk you through our Adobe journey, so we started again in 2015. We had limited use of Adobe technology in our stack. Just to be completely honest, a lot of that was contractually driven as we put together our programing contracts, some of our partners really used Adobe and needed us to keep Adobe in the mix.
+
+00:03:54:52 - 00:04:20:28
+不明
+So we use Adobe Prime Time, and that helps us with concurrency management. So as people are adding additional streams, we have certain limits that we maintain. We had some just like a handful, maybe a dozen pages on our website that had experienced manager. And then we had, Adobe Analytics and media analytics, in 2020, as we all went through some challenges.
+
+00:04:20:33 - 00:04:46:01
+不明
+One of the things that we started looking at as we were going through the pandemic is we really do have a lot of really significant gaps, and these gaps are really hurting us, not only in the current climate of a pandemic and people needing to get access to information and news and and staying up to date with the developments of, of what's going on in the world, but also just how do we provide a winning experience, you know, for our customer base.
+
+00:04:46:06 - 00:05:07:15
+不明
+And so some of the gaps we, we acknowledged were silos in our customer experience. It was very difficult to get things out to the market, you know, took a lot of development, slow time. Our marketing campaigns were lacking. We had limited offers, limited upsell and a lot of that was due to a lot of disparate technology within our stacks, you know?
+
+00:05:07:15 - 00:05:45:16
+不明
+And along with that is you have to have all these skill sets, you know, and we were starting to get into a place where we had a lot of competition for talent, as remote work was really kind of setting in. And so we decided to go all in with Adobe, and we really decided we were going to go in and lean into all the technologies and use that as a means to consolidate our technology stack and really get focused on those skill sets, as well as enabling our business partners to be able to do more and to move more at speed, to get responses out to the market in real time.
+
+00:05:45:21 - 00:06:04:55
+不明
+So over the past five years, we've really done a great job, and I give a lot of credit to all of the teams across the company because we have leaned into the Adobe Stack Wholesale. I'm really proud of the work that we've done on sling. Sling tends to be kind of the tip of the spear. In the Adobe space, we are really kind of driving the innovation.
+
+00:06:04:55 - 00:06:25:04
+不明
+We get to learn some of the lessons, some of those lessons more painful than others. But then we can take those back to the rest of the business, and we can help educate teams and help kind of drive those innovations as we move forward. We have addressed a lot of the challenges that we were facing. But we we found some new challenges along the way.
+
+00:06:25:04 - 00:06:40:57
+不明
+And we'll get into that in a minute. But we do have a pretty comprehensive Adobe footprint. And we'll go through kind of what we use and how we use it, and some of the some of the results that that we've seen. And then just a little preview into what's next. We continue to be excited about the Adobe technology.
+
+00:06:40:57 - 00:07:01:01
+不明
+We continue to want to lean in. We want to help our teams get more proficient in, how they use the tools. We want to accelerate our ability to do things in the marketplace. AI, we see, is a big opportunity for us, and we really intend to lean in there. We're excited about many of the announcements that we've heard this week.
+
+00:07:01:06 - 00:07:16:25
+不明
+And, and then there's a focus on stabilization, and we'll talk a lot more about that in a minute. But we want to continue our partnership with Adobe and how we can work together to really innovate.
+
+00:07:16:30 - 00:07:39:19
+不明
+So I love Adobe Summit. I've been coming to summit for years. I always love the excitement. I love all the announcements, I love going to meetings like this. But what I always walk away from is like, it's easy, this is simple. You plug it in, you turn it on and you flip a few switches and bam, you're, you're you're innovating, you know.
+
+00:07:39:19 - 00:08:02:17
+不明
+And I was walked away from summit feeling like, what are we doing wrong? Like what? What is it that we're missing? And, and where's our story? You know, so. So when I was invited to come and speak, I was excited to come in and tell our story and share some of the reality of what what we found when we're on the ground.
+
+00:08:02:22 - 00:08:26:58
+不明
+And so I love quotes, and this is another good one. If plan doesn't work, change the plan, not the goal. So we are invested in Adobe. We are partnering with Adobe. So we want to use this technology and we believe it can help us. So we're not changing that goal. Now I want to set a little bit of context for you so you can understand how this challenge really plays out.
+
+00:08:27:03 - 00:08:54:55
+不明
+We have what we call a high tuning event or a series of high tuning events, largely there, sports related. So I got this quote from Hunter Thompson. But it really is the one place where everybody kind of comes together, lots of shared experiences. Everybody really enjoys it. And, you know, in honor of Naomi and and all the people who have their challenges, I attended, amended this to it.
+
+00:08:54:55 - 00:09:15:24
+不明
+They all sign up five minutes before kickoff. That is really how it goes. And to illustrate that, I wanted to show you guys the actual reality of what we see in the systems, you know? And so if we look at this chart over on the left side of the screen, these are activations. So that's counting activations throughout the day.
+
+00:09:15:28 - 00:09:36:45
+不明
+And as they stack up they stack up. And if you can see the kind of yellowish green line, you know, kind of towards the bottom there, that's a normal day. That's what we see on a normal day. The the darker line. Those are activations on a high tuning event. And so you can just see this spike that comes in in a really short period of time.
+
+00:09:36:50 - 00:10:03:07
+不明
+Typically these are all around sporting events. But when we see certain interest events around news, elections, things like that, we'll see very similar traffic patterns. The other thing, if we look at the right hand side, this is Adobe Commerce. And for every one activation we have on the service, it's roughly ten calls to commerce because customers are putting packages in and out of their cart.
+
+00:10:03:12 - 00:10:33:34
+不明
+We're looking at pricing rules or bundling things. We have some very aggressive, bundling that we do in sling, and there's always cart rules that we're trying to trying to make sure we're getting you the right, the right price so that that actually exponentially increases the traffic, you know? And so we implemented Adobe Commerce endlessly in 2023. And we went out in the first quarter of 2023, everything was going pretty well.
+
+00:10:33:39 - 00:10:54:21
+不明
+And then we got football season high tune in events. Our first real big challenge. And this is what we saw. So what would happen is as we went through the day, we would see that traffic coming in. We would see things start to heat up, and then all of a sudden everything would fall apart and the systems would crash.
+
+00:10:54:36 - 00:11:16:48
+不明
+Adobe Commerce would go down. And what I've shown here is actually one of the ways we got around the problem is we had to bring back our old cart technology, our legacy stuff that we were planning to retire actually became our lifeboat. So we would turn that back on, and that would help prop up commerce to help us get through the tune in event.
+
+00:11:16:53 - 00:11:41:12
+不明
+And this just kept happening over and over and over again. Every time we were getting into football, every time something was happening, our site was down. And these just to emphasize the point, these are critical moments. This is when we're putting tens of thousands of customers on the platform and here our platform is down. That is not good.
+
+00:11:41:16 - 00:12:04:19
+不明
+And to put it lightly, the daggers were out. You know, we were all pointing at each other. We were all saying, it's your fault. No, it's your fault. You know. And what Adobe, why is your technology not work? You know, we have our partner in here and we'll talk about them. Proficient. What did you do? And slang help us understand what is going on.
+
+00:12:04:19 - 00:12:42:43
+不明
+It was a tough situation, you know, and it required us to get outside of ourselves. It required us to think differently about this particular problem. And it really kind of brought us to a point where we, we, we kind of shifted our paradigm and we realized, you know, and this is a great metaphor that we use. We're really a three legged stool, you know, so we have Adobe, we have slang, and we have our integrator which is proficient and I do want to give a shout out to proficient for all their hard work and everything that they've done to help us get to where we are.
+
+00:12:42:48 - 00:13:06:52
+不明
+We realized we were missing some of these legs, or in some cases the leg wasn't attached to the stool. And so obviously you're going to have stability problems if one of your legs is missing. And so we decided maybe we were going about this wrong way. Let's get together. Let's really work on this. And through this adversity came a ton of new insights.
+
+00:13:06:57 - 00:13:33:29
+不明
+So we had a different kind of summit, a different kind of Adobe Summit. We came together. We flew everybody into Austin and went to the Adobe office in Austin, Texas, and we came together and for the first time, probably a little late, but for the first time we really sat together and we talked about what what are we doing, what are we trying to achieve, and what are the what are the obstacles that are in front of us, and why is this happening?
+
+00:13:33:34 - 00:13:57:55
+不明
+And and it was really an opportunity for us to get to know one another, you know, is really an opportunity for us to talk about. Here's the things that have been done so far. Here's the misses. Here's where we're we're not getting what we need done. And really from that blossomed a really important move for all of us and all of our teams.
+
+00:13:57:55 - 00:14:24:51
+不明
+And what I now call our collective team, you know, so we really came together and broke bread. We started to know one another. We started to see what are our cares and worries, you know. And what I was really impressed by is as we came together as a group, every team came with a spirit of humility. Nobody was too proud and saying, you know, we got it right, you guys wrong.
+
+00:14:24:55 - 00:14:48:48
+不明
+You know, we came together and we said, let's all understand what we've done, where we are. And what we can do about that. You know, there was a lot of charity and hey, I understand this. And, you know, proficient would come in and say, this is how we implemented it based on our standards of practice. Adobe would say, here's our perspective on what we see that you've implemented and what may be having a problem there.
+
+00:14:49:03 - 00:15:15:52
+不明
+And then as saying, we got a great opportunity to come in and educate. Here's the nuts and bolts and here's our business and here's our business cases, and here's the problems that we need to solve. And, and we could share, you know, the insights to the timeline. So as I said these are sporting event related driven things. And so we have precious moments in between seasons because there's one season stops, another season begins.
+
+00:15:16:04 - 00:15:38:18
+不明
+You know we just finished football for the year. Now we're getting into March Madness and basketball and the finals. And so we're going to see a lot of these events. So we have precious moments throughout the year where we can where we can put these things together. So we really had to be very honest with ourselves. We had to be honest with each other, and we had to be really smart, and we had to really pick and time box.
+
+00:15:38:33 - 00:16:09:55
+不明
+Here are the things that we're going to do. And again, going back to humility, we asked ourselves, if we do this, do we think that will we'll solve the problem, you know, and again, we were honest with ourselves and we say we think we will, but we don't know for sure, but let's go for it. Let's lean in together, you know, and every day from that meeting, even through today, we still meet every single day as a team, you know, and we talk about the things that we're doing.
+
+00:16:10:06 - 00:16:44:10
+不明
+We talk about the successes. The little things are as important as the big things, and we just keep trying to drive success and stability. And that really came out with our North Star program. And so this was a year's worth of work we packaged into, the outcome here. And I'm going to take you through a couple of the things that we did as thematic to kind of talk through, what we did more, but just for the sake of time, we're not going to be able to go through a year's worth of work.
+
+00:16:44:15 - 00:17:07:12
+不明
+The first thing we realized is we didn't have the visibility that we needed in the system. You know, we didn't we could each see independently our own pieces of the system, but we'd never had an end to end view all the way through. So we couldn't see this system. When it starts to have a problem, impacts this system over here in a very dramatic way.
+
+00:17:07:17 - 00:17:32:56
+不明
+And so the first thing we set out to do is start sharing more holistically. So we worked and again and again thank you to New Relic our our data partner. They allowed us to open up our accounts and start sharing data free between the accounts. So we had, you know, Adobe data out of their environment. Coming into our selling environment, we had selling data going out of our environment into the Adobe environment.
+
+00:17:32:56 - 00:17:54:43
+不明
+And so that allowed us to really, for the first time, lay out the customer journey from a systemic back end perspective and see as somebody, as as customers are coming through that journey, what's happening systematically in the back end. And when we start to see problems, where do we see them and how do they impact the other parts of the system.
+
+00:17:54:48 - 00:18:14:13
+不明
+And from that, we were able to start discerning. Here are key metrics, new KPIs that we hadn't even conceived of before that we can now monitor. We can look at, we can see what's going on in the system and and we can see when we reach a certain threshold, that's when we start to get into a dangerous place.
+
+00:18:14:18 - 00:18:40:00
+不明
+And we can start to take actions and do things differently. So really clear or really important for us to have a good vision into what's going on in the systems. The next thing we did is we focused not only on hardware because it's easy to say, hey, let's get hardware and let's do something with hardware. But we also started looking at, well, what's going on in our software and how can we how can we improve that?
+
+00:18:40:04 - 00:19:03:38
+不明
+And I'll call to mind one particular, event on January 1st, 2024. It was the Rose Bowl and was this very interesting event and that a lot of signups that day. And we as, as we were saying, we fell over, you know, and and one of the the stats that that we saw on that day is we were only serving 12% of our traffic out of cash, at that point.
+
+00:19:03:43 - 00:19:27:54
+不明
+And so that meant, you know, almost the majority of the traffic was going all the way back to the back end. And that's a lot of tax on, on the backend services. So some of the, some of the work that happened incrementally over the course of the year was how do we improve our cache? And just I'll call out on this on this left side, we've got where we got to.
+
+00:19:27:54 - 00:19:53:13
+不明
+The lower line is our cache that we got to. That was the best we did over the year. And we were in the 70s, you know, we couldn't get better than that. And then what we we were led to an moment where we said, we do this thing called regional pricing and sync. And that means when you come to the website, we have to get your zip code so we can determine what region you're in, and then we can determine your pricing based on that.
+
+00:19:53:18 - 00:20:25:32
+不明
+And when you think about it, there's hundreds and hundreds of zip codes. And we use, as I said before, commerce heedlessly. That means so we use a GraphQL API and I apologize. I'm going to get a little technical here for a minute, but GraphQL is really great because it allows you to publish a single API, and it allows the consumer of that API to call the API and request whatever information it wants so that I can publish that on its on its platform.
+
+00:20:25:37 - 00:20:49:30
+不明
+So when you're talking about zip codes and packages and pricing, you're talking about almost an infinite, you know, amount of information that could be requested and then needs to be cached and then needs to be served. And, and then when you talk about CDNs being all over the country, you're caching different. And different CDN locations throughout throughout the company.
+
+00:20:49:30 - 00:21:19:59
+不明
+So it it is a difficult it is a difficult thing to get above. And the team came together and figured out, well, maybe if we got out of the zip code game and we translated that to more of a regional ID, we can dramatically simplify the amount of combinations that we did. And so that top line that's riding up about 100% is our region ID so we launched that and now we're serving 98 plus percent out of cache always.
+
+00:21:20:04 - 00:21:45:54
+不明
+Now on this right side chart I want to point out this is what we saw whenever our cash got flushed. So if we had an event that busted our cache, you can see our cache would drop dramatically. And then it took a very long time for that cache to rebuild the top line. Again. You can see what happens when a cache got flushed there.
+
+00:21:45:54 - 00:22:01:37
+不明
+It takes almost no time to rebuild, and you don't really lose that much of the cache when you do that. And so this was a dramatic improvement, you know, going into, going back into the football season.
+
+00:22:01:42 - 00:22:21:18
+不明
+And then lastly, we did do some big things. So we did determine that the Maria database was just never going to be the right database for our use case because it can scale vertically, but it can't really scale horizontally. We were kind of stuck on three nodes, a reader and two writers, and that was the best we could do.
+
+00:22:21:18 - 00:22:49:03
+不明
+And if one of those nodes had a problem, it all went bad, you know? So we worked alongside Adobe as they innovated how to get us to Aurora. And, you know, we had, I don't know, half a dozen or more, you know, trial events where we were just practicing and practicing and practicing to get to that until we actually did migrate midsummer over to the Aurora database, you know?
+
+00:22:49:03 - 00:23:30:00
+不明
+And that was huge, because now we could scale vertically and we can scale horizontally. You know, in this gave us a whole new way of of approaching this game. And remember, we're all one team. And so one of the things I love about this is earlier this week, you heard Adobe announce, you know, commerce is a cloud. And I'm very proud of the fact that Amazon Aurora comes out of the box, you know, and so we working together through this adversity, through these challenges, we're able to innovate something that now everybody gets everybody benefits.
+
+00:23:30:00 - 00:23:40:36
+不明
+So all boats get to rise together. So that's very exciting.
+
+00:23:40:40 - 00:24:04:06
+不明
+So pivoting a little bit I want to show you this is really where we are with Adobe. These are all the tools that we're using on sling. And just to kind of show you some of the experiences that we were able to generate. Yeah. So as I mentioned we have regional pricing. So when somebody comes to the website, the first thing they're going to see is you know, here's your here's your zip code that we think you have.
+
+00:24:04:06 - 00:24:24:00
+不明
+So we determine that on the fly, we start to generate pricing in real time based on that zip code. We do a lot with personalization in this space. And the tools at the bottom here, these are, these are what are driving these experiences today on the website.
+
+00:24:24:05 - 00:24:44:43
+不明
+We're also able to do a lot of branding. Yeah. So we're able to, you know, understand this customer. We do a lot of personalization. So this customer comes in we know their football interest segment. So we put them into the right branding. And that branding now follows them all the way through their cart experience. And what we've seen is 4% cart retention increases.
+
+00:24:44:52 - 00:25:09:03
+不明
+We've seen 30% cart conversion. And again these are all experiences that are being driven through Adobe Commerce. And what that or Adobe tools. And what that means is our business gets to do this. This is not an IT function. This is the business making these changes and delivering these experiences in real time. So this is my my fun slide, you know.
+
+00:25:09:03 - 00:25:36:37
+不明
+So what we got to see you know by by going through this is where we're getting 30% plus cart conversion. You know increases in cart conversion we're getting 18% increases in high customer lifetime value customers. We are able to personalize on return visits. So if somebody comes in and we don't catch who they are or what what they are on their first visit, we can see what they did on their first visit.
+
+00:25:36:37 - 00:26:08:36
+不明
+And then we personalize when they return. And that gives us a 22% lift in returning conversions, big savings for our marketing team. And when they get savings, that allows them to be more effective with their spend and they can do more and go further. And then for us, from from a technology geek kind of interest, our high watermark with our new metrics is we got up to 610 orders per minute, you know, at our peak, without any kind of issue, without tipping over.
+
+00:26:08:47 - 00:26:22:14
+不明
+You know, we were all on the calls together. We are all celebrating. It was a huge, huge win for us, you know, and and one thing I want to point out before I move on is, is.
+
+00:26:22:19 - 00:26:45:29
+不明
+We've done a lot of soul searching as we've gone through this experience, you know, and one of the things that I'm particularly proud of, but we've we've reflected on and we don't we don't think there is another partner out there, or platform, I should say platform partner out there who would have done what Adobe did. Yeah, they really took to heart what we were all about.
+
+00:26:45:34 - 00:27:22:28
+不明
+They leaned in, they were on calls with us every single day. Sporting events don't happen during business hours. So when we have sporting events, it's usually, you know, on the weekends it's usually at night and we're all together on a call monitoring, talking about things and the precision that we're able to get with alerting and, monitoring our environments is so good and the team's gotten so responsive to it is often times I get called by my teammates at Adobe saying, I think there's something going on in your systems because I'm seeing it on our end.
+
+00:27:22:28 - 00:27:51:13
+不明
+It's not commerce, but something's happening and they're alerting us to the issues that are happening in our environment much faster than we're even getting to them. So the maturing of the of the team over the last year has been phenomenal. You know, I'll just share a couple of other things. Just because I'm selfish. In 2023, for our work, we were able to receive and win the Disruptor Award, and that was a lot of fun.
+
+00:27:51:18 - 00:28:10:10
+不明
+But even more importantly, we were able to do it again this year. So good things happen when we work together and we worked as a team. And so one of the things I again, I want to go back to that first quote, you know, the strength of the team is in each member and each part in each leg of the stool.
+
+00:28:10:15 - 00:28:33:14
+不明
+And the strength of each leg is the team, you know? And so it's really important if you're getting into commerce or if you use commerce, I would highly encourage you to lean into the Adobe relationship. You know, they are really committed to helping their customers get to the finish line to make sure they're successful, and they're willing to be a part of the journey every step of the way.
+
+00:28:33:14 - 00:28:46:48
+不明
+And so for that, I thank them. And for you guys, thank you very much for being here and listening to me drone on all morning. I really appreciate you coming out. I know it's the last day, so thanks for being here.
+

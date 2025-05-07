@@ -1,0 +1,436 @@
+00:00:01:28 - 00:00:23:29
+不明
+Just want to say thank you, for joining us this morning. I know it's kind of our second full day of session, so I hope you guys got a lot out of yesterday. I'm assuming we have a lot of B2B practitioners here today. And I know yesterday was filled with a lot of B2B excitement. Before we dive into it, I just want to give a shout out to all of our B2B practitioners and leaders here today.
+
+00:00:23:43 - 00:00:45:23
+不明
+We have people from traveling all over the world, all over the country to be here. And it's that grit and that passion that you guys bring, that really inspires us at Adobe to, to deliver amazing product. So just quick round of applause for the B2B people in the house. So if you're here today, we are in session 307.
+
+00:00:45:23 - 00:01:12:38
+不明
+How to get the most out of your taxes? Just kidding. We want to make sure everybody is awake. You are here for the power of Marketo engage and Journey Optimizer B2B edition. One of my name is Andy Paul. I am a principal product manager at Adobe. I have over a decade experience working with B2B marketers and sales, trying to help them build repeatable processes around their revenue goals.
+
+00:01:12:43 - 00:01:36:42
+不明
+Joining me today, I think one of my favorite parts about doing this sessions is getting to work with customers. And I have two really great, exciting co-hosts. First I have Evan Bielecki, who is a lead marketing manager at Lumen Technologies. Also a marketo admin. He has deep knowledge and expertise in Marketo and was critical to the implementation of Adobe Journey Optimizer B2B edition.
+
+00:01:36:46 - 00:01:59:13
+不明
+With him, I also have Becky Martin from Lumen Technologies, a senior manager and digital operations project manager. And Becky comes with, over a decade of experience in marketing. And it was really, really important to defining the strategy and how we actually wanted to roll out more of an account based approach with Adobe Journey Optimizer B2B edition.
+
+00:01:59:18 - 00:02:21:20
+不明
+So quick review of the agenda, what we'll be going over today. We are I'm going to be starting things off, with a quick overview of Adobe Journey Optimizer B2B edition. And Marketo engage. I think most people have at least a familiarity with either Marketo Engage or Marketing Automation. So the majority of that will be focused around Adobe Journey Optimizer.
+
+00:02:21:25 - 00:02:38:39
+不明
+It being a newer product in the market from there will be going to, and I'll hand things over to Becky and she'll be given a brief overview of what Lumin is. So you guys have a good foundation to understand what products they're trying to sell, and kind of the why behind some of this. Then she'll be taking us through the vision.
+
+00:02:38:43 - 00:03:05:48
+不明
+Why did we go with, Adobe Journey Optimizer B2B? What were some of the strategy changes at at lumen that we're looking to roll out? We'll hand things over to Evan. I know with all of these, it's always great to see real product, what was actually built. What were the components used? So Evan will take us deeper into the technology, and we can take a deeper dive into that during the demo, to see what the the interface looks like and what things were built out.
+
+00:03:05:52 - 00:03:23:54
+不明
+And then lastly, Evan will hand things back to me. I'm going to do a bit of, dive into the roadmap. If you guys are a part of any of the Marketo or Adobe Journey Optimizer roadmap sessions yesterday, there are a lot of exciting features, coming out this year here. I just want to orient the focus a little bit towards more.
+
+00:03:24:01 - 00:03:50:07
+不明
+What are some of the things Lumin are trying to unlock and some of the near-term releases we're having that are going to help them, streamline their, rollout of Adobe Journey Optimizer B2B edition. So let's go over. And overview. Right. So Marketo Engage has been, a well-established product for a while now, and Adobe Journey Optimizer B2B edition was actually announced, just a year from now.
+
+00:03:50:07 - 00:04:12:09
+不明
+At last summit, we rolled it out over, the summer, and we've been getting a ton of great feedback from our customers, really aligning with where they're trying to go with their businesses. And so as we've started to, to go live with our first set of customers, we're really seeing amazing opportunity with this tool going forward.
+
+00:04:12:14 - 00:04:33:08
+不明
+Now, one thing I want to talk about is the why, right? At Adobe we are investing heavily in B2B. I think this is the year to B2B and you can really feel it talking to a lot of customers here at summit. And we are no short of, of investing on the product side. We have continued to innovate with Marketo engage.
+
+00:04:33:08 - 00:04:57:38
+不明
+We have continued to innovate with B2B, CDP, and we've even rolled out whole new products and offerings in interactive webinars and dynamic chat. And now Adobe Journey Optimizer B2B edition. And the reason we're kind of making this next jump to Adobe Journey Optimizer B2B edition is because we continue to have, great conversations with our customers and leaders.
+
+00:04:57:43 - 00:05:22:01
+不明
+And there's three primary themes we we continue to hear. The first is profitable growth. How do I drive efficient, repeatable growth within my business? How do I the second piece is connected systems. There are so many disparate systems today. There are so many point solutions. So much data we're trying to bring in. How do I get to a single view of my customer, that I can orchestrate off of?
+
+00:05:22:06 - 00:05:39:48
+不明
+And then really, we're trying to, we're going to get to that profitable growth. We're trying to consolidate the systems so that we can have a full customer lifecycle. Right? No longer is the day where we can just focus on new lead acquisition, where we can say, how do I get more leads? How do I get more leads?
+
+00:05:39:48 - 00:06:04:14
+不明
+How do I get more leads? Now that is still a part of the picture, but we also need to be focused not just on acquisition, but we also need to be focused on how do we accelerate upsell and cross-sell opportunities. There's a massive goldmine in many of your businesses. If we can focus on existing customer bases and how we can get more out of them, and then on top of that, how do we actually, continue to, renew existing customers?
+
+00:06:04:19 - 00:06:29:37
+不明
+Right. So those are all kind of components of the customer lifecycle acquisition, upsell, cross-sell and retention. Now, to do this, we we need a tool that can can do a lot of things for us. B2B practitioners and leaders are looking for a tool not only that can do that lead acquisition, it's still important. We still need to, nurture individuals.
+
+00:06:29:38 - 00:06:54:09
+不明
+We still need to drive conversions on our website from unknown to known. But on top of that, we need to also be able to think and execute strategically on an account. We need to be able to orchestrate, account how we think about our targeting and prioritization to align closer with how sales works, as well. Now, lead account tools have existed for a while to do this right?
+
+00:06:54:14 - 00:07:24:11
+不明
+But one of the missing pieces, as we've talked to teams and as teams are really focused on how they align better with sales, is sales works a little bit differently. They their center of gravity is around an opportunity, right? Their job is to drive, deals to close. And they are looking to identify the right people in an account, and drive them to a consensus decision, to make, to make a purchasing decision for their solutions or products.
+
+00:07:24:16 - 00:07:45:52
+不明
+And that's where the third piece comes in, which is buying group precision marketing needs to be able to have a tool and solution that understands the concept of a buying group. It treats it as a first class object. It can do a valuation to understand. Do I have all the right people in this buying group? Are they tied to the right solution interest so that I can better personalize and orchestrate my campaigns?
+
+00:07:45:57 - 00:08:10:15
+不明
+But also provide better insights that can lead to higher conversion rates and larger opportunity sizes? And so when we think about what do we need when we want to support a full customer lifecycle, we need a tool that can support that lead acquisition, account orchestration and that buying group precision. Now what makes Marketo Engage and Adobe Journey Optimizer B2B edition so unique, right?
+
+00:08:10:17 - 00:08:45:07
+不明
+Well, first off, B2B edition is the first and only B2B software that natively connects every component of your B2B go to market, including AI, data insights, content engagement, and sales so that your teams, your technology, and your customer experience are all working in harmony. Secondly, when paired with Marketo, engage, Adobe Journey Optimizer B2B edition is the only B2B software that connects and orchestrates lead account and buying group marketing together.
+
+00:08:45:12 - 00:09:11:48
+不明
+Third, Adobe Journey Optimizer B2B edition is the only B2B software that is built as a single solution to support any growth strategy across that entire lifecycle. Right. And these are the three major advantages to unlock the highest level of precision, quality and coordination with sales. Now, just to take a quick look at kind of, you know, 10,000ft view of how these tools work together.
+
+00:09:11:52 - 00:09:33:27
+不明
+The first thing we start with is we need a good strong data foundation. We have a lot of different signals coming in. We have our CRM data with accounts, contacts, opportunities, leads. We have first party data coming from our website, from our email channels, from our chat activities. We have third party signals that we're partnering with things like demand based Bom Bora, Sixth Sense.
+
+00:09:33:41 - 00:09:59:24
+不明
+We need to be able to bring all of that together and stitch that into a unified view. We need services that help us manage that data, to keep that data clean and give us that clean, unified view of our customers. And that's where Adobe Experience Platform comes in. You know, it can service some of those more advanced needs for data hygiene so that we can, more accurately orchestrate against our people and accounts on top of this data layer.
+
+00:09:59:25 - 00:10:22:30
+不明
+We need to be able to have that orchestration layer, right. We know Marketo engaged today is that orchestration layer for leads leads and contacts. We can think of it as people, individuals. Right. It's been a leader in that space for a long time. There is a lot of great capabilities that we see from our customers adopting, but we also need the capability to do that same orchestration at the account and buying group level as well.
+
+00:10:22:35 - 00:10:42:18
+不明
+And we need these two tools to be able to talk to each other in unison. So that you can understand, hey, if I'm nurturing an individual, do I want to include them in this this account orchestration piece that I'm doing as well? And so it's through this combined solution that we can support this full customer lifecycle.
+
+00:10:42:23 - 00:10:56:51
+不明
+The next thing just here, for those of you that are less familiar with Adobe Journey Optimizer B2B edition, I just want to kind of simplify it into five key pillars. As far as how we talk about this product, right. What are the five key areas and capabilities? Well, I've talked a lot about about buying groups and accounts.
+
+00:10:56:51 - 00:11:20:13
+不明
+Right. We need the ability to orchestrate prioritize our accounts. We need to be able to personalize by buying group roles. We need to be able to evaluate our buying group completion to understand where we should be investing our paid media dollars more accurately. We need to be able to understand, individual solution interests as well. As we try to develop what their buying persona is.
+
+00:11:20:18 - 00:11:42:36
+不明
+And so that's kind of some of the foundational features we look at when we think about buying groups and accounts. Now journey orchestration is another piece to that, right? When we think about the different workflows we need to support, the different types of journeys we need to create. We've introduced, an account journey canvas to allow you to, build journeys for accounts and engage with the people at those accounts.
+
+00:11:42:41 - 00:12:01:30
+不明
+We'll take a closer look at that. When Evan does a demo here. The third piece, which is one that's really exciting right now I'm really excited for is content and personalization. If you've been to any of the sessions or even some of the keynotes you've gotten an opportunity to see some of the power Adobe is putting out there with how Gen I can assist with creating content.
+
+00:12:01:35 - 00:12:22:48
+不明
+This is going to continue to be, a very important piece. We want and especially when we think about how do we drive buying group and role based personalization. Well, when we talk to customers like it takes a lot of resources, if you want to build out an email for a decision maker, an influencer or a practitioner, champion, if you want to build that content out, that's a lot of work.
+
+00:12:22:48 - 00:12:44:13
+不明
+But we see gen AI, and a lot of these content personalization features we're starting to release as the way you can achieve that. So more and more will come out there as we unlock, more content with AI power. The fourth piece is sales intelligence and coordination. Like I said, we are moving to accounts and buying groups so that we can coordinate so we can collaborate better with with sales.
+
+00:12:44:18 - 00:13:04:49
+不明
+So how do we actually, provide insights? How do we provide prioritization? How do we move from a, an SDR leader just having a conversation with an individual person to actually a group of people, as they qualify and opportunity to make those opportunities, convert at a higher rate. And then lastly, we have journey insights.
+
+00:13:05:04 - 00:13:28:05
+不明
+We provide insights in the tool to help you understand what is journey success look like. How do I track my different journeys that I'm running? These are all built out of the box in general. Adobe's also just making a big investment in, our journey analytics in general. So B2B is another place to do more an in-depth journey analytics as well.
+
+00:13:28:10 - 00:13:57:43
+不明
+Great. So I will hand things over to Becky to do an introduction of women. So who is lumen? We are a fortune 500 company. We provide networking, connectivity and, like you can read the slide. We connect people, data and applications quickly, securely and effortlessly. One big thing I want to point out is that through some very strategic partnerships with cloud providers, we are the trusted network for AI.
+
+00:13:57:46 - 00:14:20:39
+不明
+So as I has been a big, part of the conversation today, this week at summit, we create the bandwidth to make all of this AI, all of those AI transactions possible. And that's really one of the the big cool things about working for lumen that we're right in the middle of the AI transformation, which makes our jobs really exciting.
+
+00:14:20:43 - 00:14:48:33
+不明
+So some of the problems that we solve for our customers, we help them get connected, keep them secure, drive innovation, have more productive and engaged employees, and secure their digital future in the AI economy. So we started this journey into a job about a year ago. And for anyone who has brought in new technology, you know how fun that is.
+
+00:14:48:37 - 00:15:14:01
+不明
+So why would we raise our hands to bring in one more part of the tech stack, one more piece of complication, one more integration. And it really comes down to the fact that our company has evolved, our marketing to accounts. It had been very lead centric up to a certain point. And, we were making some very strategic decisions to look at it from an account level.
+
+00:15:14:06 - 00:15:39:25
+不明
+Partnerships with demand based, talking to sales, the need to have some kind of accounts orchestrate and vehicle was top of mind. And that's one reason why we decided to move forward with B2B. We were one of the beta customers, so we've been kind of with the crew from the beginning. And it comes down to the fact that, ABM is a big strategy of ours.
+
+00:15:39:25 - 00:16:05:04
+不明
+And so we needed a tool to help make that happen. We are huge in the Adobe tech stack. We use pretty much all of the B2B tools they have available. And so going with an Adobe tool made a lot of sense. We've been with Marcato for years and years and years and years. So evolving something that would connect with Marketo, the CDP that we just stood up recently and have that nice little account vehicle in the middle was ideal for us.
+
+00:16:05:06 - 00:16:25:25
+不明
+So that's really kind of the objective was to connect all these things. B2B made the most sense, and it really helps us evolve our Adobe tech stack to stay current with all of the new, fun things that are out there. So our blueprint, I will tell you that we are very much in the crawl stage of crawl, walk, run.
+
+00:16:25:30 - 00:16:51:45
+不明
+So we started with an existing Marketo campaign and basically built that in how to create the account focused version of that lead focused campaign in Marketo. So just created a couple of pages for us. Number one, we already had the emails. Number two, we already have the lists. So we didn't create anything new. We just repurposed it in new to have that account focus.
+
+00:16:51:57 - 00:17:13:42
+不明
+So as we're building journeys, which we'll show you in a minute, the movement and the triggers and the process are all based on what's happening in the account instead of at an individual level. And then we're also able to see reporting on an account level and so, we knew we needed to kick the tires in an account based platform.
+
+00:17:13:55 - 00:17:40:03
+不明
+But we also wanted to do something quickly, to be able to see what we liked, what we didn't like, and decide where we would go next. So that's the crawl was literally copy paste, change a couple of things, see how this campaign worked in jail. So it's a multi-touch engagement. We're using public sector accounts because that's just who the campaign was built towards.
+
+00:17:40:08 - 00:18:04:44
+不明
+And the goal is ideally to get enough engagement that we can pass leads on to stars. The products that we happen to highlight, because those are part of this existing campaign where our advanced connectivity plan, which includes our core network services and enabling cloud and AI infrastructure. I really big in our world right now. And then the tactic was these public sector accounts fed and Swed.
+
+00:18:04:44 - 00:18:30:29
+不明
+Those were the lists that already existed. So that's what we popped into now through our CDP. So we did a lot of fun work with our CDP to get the data in straight flowing real time into. And then the KPI is here's what we're looking for in this first run of things is increased engagement at an account level, which now we can measure at an account level, which we couldn't do in Marketo without a lot of really fun manipulation.
+
+00:18:30:34 - 00:18:55:34
+不明
+Increased number of qualified leads to an SDR team. The goal is to get it to sales. So we're hoping that this new focus helps us get it there faster. Increased opportunities and influences of opportunities through email communication. And then the increased number of automated qualified leads or ACLs and, showing that this work is actually influencing what's happening in the sales and opportunity world.
+
+00:18:55:39 - 00:19:26:37
+不明
+And then let's talk a little bit more about accounts and buying groups. And this is one of those things where Mark head is great for leads, but for accounts that's where ego really shines. And we're really leaning into including an account focused mindset in marketing, because at least in our world, with technology and probably many of your businesses where it is possibly a complicated or expensive sale, there are multiple people out of company who are part of that decision making group, right?
+
+00:19:26:42 - 00:19:45:01
+不明
+Like we're talking to CTOs, CIOs, we're talking to someone in security. If it's a security product, we're talking to, you know, an engineer or an architect, if we're talking about network services. So there are different people within a company that we need to talk to, because not one person is going to be the main decision maker. There's going to be a whole group of them.
+
+00:19:45:10 - 00:20:04:48
+不明
+So marketing and an account level just makes sense for our business model and the way that people decide to do business with us. And it also aligns with sales sellers working an account level. So if we're trying to feed them and speak the same language, account level is really the language that we need to be speaking. So how are we doing this?
+
+00:20:04:53 - 00:20:28:46
+不明
+Continued rollout of account based tactics? So ABM is top of mind right now in B2B is in the middle of that as far as our ability to orchestrate. We're simplifying the overall tech stack. We're leaning into Adobe, and we're connecting more of the products that we already know and love in use. We're building automate audiences, and we're automating paid media journeys through how those are, paid me is one of the next things that we're going to try.
+
+00:20:28:46 - 00:20:46:16
+不明
+And we're very excited to be able to have some control over that at the account level without having to maybe need outside help. And then continuing to centralize the audience building and the power to omni channel engagement. So looking at paid media, email and web eventually down the road, that's part of the roadmap that we hope to employ and then buying groups.
+
+00:20:46:17 - 00:21:01:57
+不明
+So this is something that is next. This is probably going to be on our walk phase of our journey. Because as I mentioned, different people in account are part of the decision making, but you want to message differently to them. I'm going to talk to the CTO differently than I'm going to talk to a manager in security.
+
+00:21:02:02 - 00:21:27:59
+不明
+And so having the buying group ability to segment an account into those different personas and market to them differently. It's going to be a game changer for us. And it's hopefully going to drive engagement because we're getting the right message to the right people at the right time. And one of the cool reasons, one of the cool ways we're doing this and the like, how is our creative team is working in Gen I, and they are starting to create that personalization at scale.
+
+00:21:28:10 - 00:21:50:22
+不明
+So how can become the platform where we orchestrate that. So they create ten different versions of a header or an image or, you know, an email. And then we're putting those with the right buying groups at the right time in the journey, so that, you know, the security manager sees the white paper they care about, but the CTO gets the, you know, analyst report.
+
+00:21:50:27 - 00:22:15:34
+不明
+And it's all orchestrated in a way that we're hitting the account. We're hitting the right people in the account. And hopefully if all goes well, that means that we're selling more. We're getting, sales to the sellers faster. And, you know, proving that the technology and the spend is worth it. We all know ROI and making sure that we're getting the most out of our investment is important.
+
+00:22:15:39 - 00:22:35:22
+不明
+And so having the metrics to show that these tactics work is a great way for us in marketing operations to prove that we're doing our job well. So here is the tech stack of all the things that we are using within lumen right now. I work in marketing operations, so we are way too familiar with way too many of these pieces of technology.
+
+00:22:35:22 - 00:22:58:59
+不明
+But I will tell you, we are trying to simplify, which is one reason why it was great because we didn't have to go to a different vendor. We didn't have to expand a huge part of our portfolio. We nicely have things connected. So when we're talking about ABM, this universe gets a lot smaller. And you see kind of the key players are Adobe all over the place, demand based Salesforce, which is our CRM.
+
+00:22:59:04 - 00:23:22:55
+不明
+And so that universe gets a lot smaller, which also means that there is less complication when we're talking about the ABM side of things, because there are less tools that we're building into the process. So with that, I'm going to pass it to the brains of the operation. Evan, who's the one who has had his hands deep in and can explain to you how we have built this out for lumen.
+
+00:23:23:00 - 00:23:50:31
+不明
+Thanks, Becky and Andy. So, yeah, now we're going to go ahead and move into the behind the curtain view of how B2B and Marketo experience so far. From our point of view, so our planning approach from our broader view began from implementation of connecting systems of CDP, B2B and Marketo. Following that, we were able to define our campaign and audience.
+
+00:23:50:36 - 00:24:23:26
+不明
+For this pilot use case based on, you know, kind of where we wanted to take this approach and that being our public sector fat and sled audience for there, from there, we were able to work with Adobe and a joint effort to create our first initial launch and an accelerated effort. We did this in part to ensure that we could finalize the pilot launch, while also looking to enhance existing campaigns that we already had running in Marketo with a refreshed look from our revamped Marketo emails.
+
+00:24:23:31 - 00:24:52:59
+不明
+There was, you know, facelifted emails. Was kind of just like that for in part to kind of see how we could take our existing campaigns and revamp those emails, to agile from an account level. So now we'll go ahead and break into the different components that make up our agile B2B journey and kind of give a demo of this pilot launch that we've executed.
+
+00:24:53:04 - 00:25:34:19
+不明
+So when it comes to the components, it can be broken down into five different categories. These categories being the account audience, our signal converter, our traffic cop, the different engagement journeys that we've built out, and of course, our assets as well, that, are the emails triggered out to send. So the account audience is the entry point for which our targeted accounts enter into the agile B2B journey and are then funneled where our signal converter picks up the ad, the accounts that are engaged with ads, and then adjust some person level criteria and sets it on the account level.
+
+00:25:34:24 - 00:26:12:18
+不明
+Moving into the traffic cop, then the traffic cop is specific to help funnel the correct accounts into the engagement journeys that we've laid out. And this is helped to help facilitate the campaigns in a qualified way that prioritize them based on, how we want to market to these specific accounts in those specific journeys. And then finally, our assets, which in case or which in this case is our revamped Marketo emails, which we've pulled in through the integration between Marketo, engage and B2B.
+
+00:26:12:23 - 00:26:53:30
+不明
+So that first component that I was talking about, the account audience is shown here. So diving into the build of it, you can see that we've applied filtering logic similar to what would be seen in the Marketo Smart campaign. But now at the account level, in this case, we applied different criteria such as subchannel being fed or Sled, account type being not defunct, different account statuses for approved our new custom audience tags for importing lists, engagement minutes and different engagement statuses, as well as UTM parameters to further capture engaged accounts into one of our three different journeys that we've build out.
+
+00:26:53:34 - 00:26:59:17
+不明
+Engagement journeys that it's.
+
+00:26:59:22 - 00:27:25:00
+不明
+So moving kind of into the journeys that we built out specifically here, you can see that we've had we have ten different active journeys right now, five of which are specific for this initial launch of public sector fat and sled strategy. So this is our signal converter and it signals ad engagement. And you can see here it takes the person level ad engagement and transfers it to the account level.
+
+00:27:25:04 - 00:27:51:33
+不明
+So this change is similar to like a smart campaign within Marketo. It'll take that ad or account engage with AD and change that to true and then place it on the account level rather than the person level. This allows us to take accounts at a higher level, rather than just the person level and market to those accounts within B2B and these engagement journeys, which I'll show right now.
+
+00:27:51:37 - 00:28:22:57
+不明
+So this previous step, these two previous steps, all feed into our traffic cop journey, which is designed to pass accounts based on priority of campaign when they are qualified. And our audience, we have 756 different accounts. And of these accounts they could qualify any under any of our three different engagement journeys that we've created. These being account engaged with ad account engagement minutes and account ad hoc lists.
+
+00:28:23:02 - 00:28:33:09
+不明
+Each journey has filtering logic similarly to how our account audience is laid out. As you can see over here on the right.
+
+00:28:33:14 - 00:29:02:17
+不明
+So here are you can see our three engagement journeys built out next to our traffic cop and our signal converter, as well. Go ahead and open up an active journey. And this will populate the accounts that we have qualified and that are moving within it. Within the journey map view is where the magic happens. So here's where you can see split pass of the account based on their subchannel or fed or sled before moving into the sending of the emails.
+
+00:29:02:22 - 00:29:33:22
+不明
+Similarly to Marketo campaigns, we needed to build out filtering logic to make sure that we were pulling in the correct accounts, but also making sure that we exclude accounts that we didn't want to include. This includes filtering logic such as email invalid, marketing suspended, email suspended, and unsubscribe to all be false within that filtering logic, but pulling in job levels and job titles such as C-suite director, senior director and many more as well.
+
+00:29:33:27 - 00:30:00:45
+不明
+So anyone not qualified within the audience or but anyone that is not qualified, but they're still within the audience will still move through the journey. They just won't receive the preceding emails because they don't qualify. Similar to how a traditional Marketo Smart campaign would be set up as well. Or within a smart list. And then pulling that with any smart campaign of Marketo.
+
+00:30:00:50 - 00:30:33:29
+不明
+So here's an example of one of our nurture email campaigns from a higher level within Marketo. So here you can see we have the different sled nurture emails laid out from here. With the sync of B2B, we took those Marketo emails and push them into the split path decision on each engagement journey node, and from there, we will take further action on them based on their account score, their person score, and their engagement with us.
+
+00:30:33:34 - 00:31:00:18
+不明
+And then we'll add them to a, static list in this existing first pilot launch journey where we can take further action, such as, adding them to conversion via email or initiatives, adding them to SDR outreach campaigns, or however we want to proceed with those people who've engaged with us. So some of our learnings and early results from our pilot launch.
+
+00:31:00:23 - 00:31:26:40
+不明
+This includes faster account campaign execution. So now that we've pulled in all of our account data into a unified view and experience platform, and we're pulling in all that different intent data, we can much more quickly deploy account campaigns. This, of course, results in a overall reduction in time for review and approval. Previously, there's a lot of back and forth to get campaigns approved.
+
+00:31:26:54 - 00:31:51:40
+不明
+This is just due to a overall lack of visibility into campaign rules and logic. The new journey Canvas allows both technical and non-technical teams to understand how an account moves through the funnel with an easier scope of view, reducing the overall time to review and approve campaigns in three full beta testing was very helpful and learning the ins and outs of agile.
+
+00:31:51:45 - 00:32:15:38
+不明
+And we definitely did need Adobe within this implementation of this first journey. Kind of what Becky was alluding to previously, that overall qual crawl, walk and run approach. We're kind of in between that crawl and walk approach right now and quickly moving into that acceleration of starting to build, buying signals and buying groups.
+
+00:32:15:43 - 00:32:51:24
+不明
+So moving forward with agile B2B. Like I said, we're looking at this as a crawl, walk and run approach as we're furthering our sophistication and mature our own agile B2B instance and our previous marketing activities. We've used traditional approaches, of course, such as email marketing, lead nurturing, scoring and sales alerts, and standing up agile B2B. We're now able to focus on nurturing and scoring from an overall account level, rather than just that person level and we can really find the decision makers as well with that filtering logic that we've added in.
+
+00:32:51:28 - 00:33:09:06
+不明
+In turn, this will overall enhance. Our next steps are to enhance this existing journey, create those buying signals, buying groups and scale this across many more ABM focused marketing initiatives and agile executions.
+
+00:33:09:10 - 00:33:28:54
+不明
+And now I'll pass it back over to Andy to further discuss the overall roadmap of agile B2B. Awesome. Thank you Evan. That was great. I hope that was really helpful. I think it's always great to see the product. Right. Like as Evan and Becky said, things are just getting started at lumen. They have some pretty lofty goals of where they want to be.
+
+00:33:28:58 - 00:33:55:01
+不明
+And, the approach they took, which allowed them to get something out the door quickly. Right. In a matter of weeks, we're talking versus months. The learnings we've found from that, is, is really going to help feel they're kind of next steps to accelerate things. And so the last thing I just wanted to cover here is, as we think about that future and what comes next, what are some of the products that are on our near-term roadmap?
+
+00:33:55:01 - 00:34:04:55
+不明
+Here are products and feature enhancements, I should say, that are going to be most relevant to to what women are trying to achieve here.
+
+00:34:05:00 - 00:34:28:16
+不明
+So if we break down some of the needs, right, we're we're trying to accelerate content creation. Lumen is is starting to restructure how some of these content teams work to drive better personalization, to drive more persona based personalization. And there's going to be tools needed to help facilitate content. The second piece is account insights and intent.
+
+00:34:28:21 - 00:34:48:41
+不明
+The data here is is more and more important. They're looking to pull in more types of data, both, first party intent and third party intent that they can pull in to help drive that prioritization and targeting for accounts. The third is buying group discovery as we move into buying group discovery, the first question that we're hearing from all of our customers is what is a buying group?
+
+00:34:48:41 - 00:35:12:42
+不明
+For my solutions, right. What are, what does that actually look like? And so starting to provide some insights around, what are the roles based on opportunity history. And then lastly, number four is Marketo and B2B together. Right. The ability to streamline workflows with these tools to be able to reuse existing marketing assets, to be able to use existing scoring functions.
+
+00:35:12:46 - 00:35:37:00
+不明
+One of the things that that lumens also doing today, because of this, this harmony between the tools is when you send emails from a B2B, you're still able to track those activities in Marketo right there. There's kind of a shared data layer so that you you're same scoring rules you have in place in Marketo for an individual as you send emails to that same person from Adobe Journey Optimizer B2B edition, can still be calculated.
+
+00:35:37:04 - 00:36:03:21
+不明
+And so we're looking to invest more in that to help, reuse some of the existing components you might have, already built out in Marketo. So there's been a lot of great announcements on gen AI and how we're helping with content. We released a new editor experience when we, email editor experience when we launched Adobe, launched the Adobe Journey Optimizer B2B edition.
+
+00:36:03:25 - 00:36:18:43
+不明
+When we also released that editor recently in the last couple of months to Marketo. And, one of the things we're also looking at is just more foundational email capabilities. There are a couple things that Marketo can do that, that we need the new editor experience to do. And there's some net new things that we also want.
+
+00:36:18:48 - 00:36:40:16
+不明
+One thing is, conditional content. This is similar to dynamic content you might be familiar with in Marketo, allowing you to take sections of an email and personalize it, for the recipient based on account criteria, person criteria, and even activity. So you can have a single email. You can use Jenna Jenn-Air to produce content for 12 different industries.
+
+00:36:40:21 - 00:37:00:09
+不明
+And then you can have one email that is dynamically personalizing based on those different industries. Right. Parameterized fragments. We release fragments which can be thought of as snippets if you're familiar with that contact, like a content block or a text block that is reusable. But what we're adding here is actually to have certain sections of that content block that can be editable.
+
+00:37:00:14 - 00:37:17:04
+不明
+So you can use that have, practitioners use that snippet, and maybe there's a sentence or a paragraph that they can edit and another one they can. So just more control and governance over the content we push out. And then general content locking as well. So the ability to lock certain down, certain pieces of content down. Right.
+
+00:37:17:04 - 00:37:37:14
+不明
+This really helps with we think about the process of the content supply chain. There's certain things in our templates in our brands, in our headers that we don't want anybody to change, even if by mistake or especially if by mistake. And so we want those that control over, over, email to be able to lock down certain content.
+
+00:37:37:19 - 00:38:16:46
+不明
+The second piece here is account insights and intent. When we think about, some of the account insights that are important, we need the ability to understand what accounts are showing intent and what products, what buying groups are showing intent as well for different products. And so we've released new dashboards and reports, and we're also have released a new first party intent tracking feature, which allows you to glean certain pieces of content like emails, web site, chat, interactions that your customers are having and tie that to certain keywords or products of interest so that we can roll up those different reports and insights to your marketers.
+
+00:38:16:51 - 00:38:37:37
+不明
+And something we'll be rolling out to sellers as well, so they can understand what are the the intent expressed within this account or this buying group. What type of conversations should I be having with them? On top of that? And when we think about the insights around buying groups as well, there's key pieces like contact coverage. So marketing can understand for these different products.
+
+00:38:37:42 - 00:38:56:51
+不明
+For my AI product, do I have enough decision makers? What does that coverage look like? Do I need to be running more paid media campaigns for certain, buying group roles? And the other piece is, contact overlap, which is a really great feature where marketers and sellers can see which contacts are a part of multiple buying groups.
+
+00:38:56:51 - 00:39:17:49
+不明
+Right. If you have a stakeholder that is a part of three different products, there's a different approach. And it may be a conversation that sales should be having as well as marketing. And so having insight into that is important. The second piece is third party account intent. When we think about place things like demand based more, these third party intent providers, we see them as partners in this process.
+
+00:39:17:54 - 00:39:38:57
+不明
+We see them as the giving us the ability to, better prioritize our accounts when we talk about things like the dark Funnel or, some of the unknown signals, that we can use to better target, our customers with the right offers. When it comes to buying group discovery, there's a couple things we're releasing.
+
+00:39:39:01 - 00:39:58:10
+不明
+One piece is Opportunity Analyzer, which helps you to better understand what successful buying groups look like. So looking at the opportunity history data, what have the people, and the roles that have been critical to those opportunities in the past to give you kind of a jumping off point of how you actually might start building out buying groups.
+
+00:39:58:15 - 00:40:21:29
+不明
+And then also just being able to provide, recommendations on buying group composition with our Account Explorer, so customers can track and prove that impact of the buying groups that they're building and engaging with. And then lastly, here we have Marketo engage and, Adobe Journey Optimizer B2B edition. So a couple key features, that are really must haves for a lot of customers.
+
+00:40:21:34 - 00:40:46:49
+不明
+The power of, of lists and programs in Marketo are used by every customer every day. But when you when you look at the journey that, Evan built out and he was doing certain engagements with individuals at an account, it's also important to have access to maybe their list membership. You may want to exclude certain people from an engagement and an Adobe Journey optimizer based on being in a list, because their that list represents them being a part of a certain engagement campaign.
+
+00:40:47:00 - 00:41:15:28
+不明
+Or maybe they were a part of event and you include that list A criterias. You want to target people that were also part of that list. Same thing with program filters, program membership you can use as well. The second piece is Marketo Engage Events in Adobe Journey Optimizer B2B. When we launched, agile B2B, we made sure that all of those activities that you're producing and agile B2B are flowing in Marketo so that Marketo automation rules, anything you have set up, have visibility into that.
+
+00:41:15:28 - 00:41:40:55
+不明
+So you can see that same activity history. In that lead view in Marketo that is being, produced from agile B2B. What we're working on now is we want to bring in, Marketo signals like web activity that you're tracking with munchkin, form fill out events and things like that. This really is just another play for us to allow our customers to streamline their setup, so that you can use the existing events in those journey to, to power your campaigns.
+
+00:41:41:00 - 00:42:02:12
+不明
+And then lastly, journey membership in Marketo. Engage. Just like I talked about in the first piece here, Marketo list membership. In agile B2B, I'm talking about the reverse here. So those accounts that are currently in a journey, being able to use that membership to include or exclude, certain members of those accounts in other Marketo workflows.
+
+00:42:02:16 - 00:42:24:27
+不明
+So this really allows us to run these two, tools together. A lot of our customers have asked, like, you know, how do I coordinate between these two systems? This is kind of that level of visibility or sharing. So if you want to run an account based approach for some accounts, and you want to engage with them through email, you may want to exclude them from certain nurtures or vice versa.
+
+00:42:24:37 - 00:42:45:15
+不明
+So you have that ability to to do so with these. Great. Well, we'll wrap things up. Now. I just want to say thank you again for for joining this session. Big thank you for Lumen Technologies team. They put in a lot of work to get this live. And we're really excited for for what they have in store next.
+
+00:42:45:19 - 00:42:55:28
+不明
+And yeah, thanks so much, you guys. We'll open things up for for Q&A.
+
+00:42:55:33 - 00:42:56:03
+不明
+You.
+

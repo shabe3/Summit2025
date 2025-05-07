@@ -1,0 +1,424 @@
+00:00:00:01 - 00:00:20:17
+不明
+Then we have a session about visual comfort and that progressive journey across storefronts. The key thing for this is it's a great story, and we're really keen on you participating in how this journey has happened for the company. Visual comfort has obviously, Kevin here on stage with us is going to take you through that story. But they also have a whole team of people for the team.
+
+00:00:20:17 - 00:00:37:16
+不明
+One to wave everyone who we're here. Right. So there will be time for questions and answers in this session. We'll do that at the end, because we want to keep the integrity of the story together. And also the team are here, right here for the next couple of days. I hope they were staying all weekend, having a bit of a bit of a festival.
+
+00:00:37:23 - 00:00:48:52
+不明
+I don't know if that's true. So reach out to them, talk to them about the story. The reason they're here is because they want to share this story with you. Bring it to life. And if you're in a similar position trying to do the same thing, they are a great example of how they have lived that process.
+
+00:00:48:57 - 00:01:05:30
+不明
+With that, I'm going to keep it quiet. I'm going to hand over to Kevin, and he's going to take us through himself, his role in who visual and how this all came to be. All right. Great. So welcome. I'm glad you're here. Hopefully, you get something valuable out of this session, because this is a tough one to have at the end of the day.
+
+00:01:05:31 - 00:01:27:36
+不明
+I'm between you and, you know, drinks, food, everything at the reception. So. But, my background is in product management, so I want to just set that context. As a product manager, I'm going to give you kind of like the high level kind of journey that we were on, with edge. That said, I have my technical engineer here with me.
+
+00:01:27:36 - 00:01:52:09
+不明
+So if we do have more technical questions that you want to get into, we can certainly do that at the end. But again, my background is in product management and what I'm going to share with you today is our journey, our journey to edge delivery and the agile process that we followed to get there. So I'm really going to start out first, give you some background on where visual comfort is and kind of the problems and goals that we had.
+
+00:01:52:14 - 00:02:22:57
+不明
+We'll then talk about that process that we had to get to that, that, that journey, those out outcomes that we were hoping to achieve and the problems that we're hoping to solve. And then, also share with you some key learnings and that really is what I want, I think is really great about sessions like this is like, if you decide to undertake something similar that hopefully you get a few tips, tricks, kind of lessons learned out of it that you can then take back and in some cases not repeat some of the mistakes that we made, or, you know, reapply some of the successes we had.
+
+00:02:23:02 - 00:02:44:08
+不明
+So that's what we're going to do today. And so that's my goal. So again, if you can come out of here with a few lessons learned and I've succeeded. So who is visual comfort. So visual comfort is a market leader and premier resource for decorative lighting, architectural lighting, ceiling fans from some of the most influential designers in the world.
+
+00:02:44:13 - 00:03:04:08
+不明
+Good example of one of our very popular chandelier here. We were established in 87. Headquartered in Houston, Texas, and we have offices and showrooms throughout the country, as well as, some e-commerce business in the UK and Europe as well. That's important because that sets the stage for some of the three kind of characteristics of us.
+
+00:03:04:08 - 00:03:24:15
+不明
+That's very important in our journey. Here is, again, we have e-commerce presence, but we also have showrooms. There's a showroom here in Las Vegas. I don't know how far it is, not too far, but just down the road here in Vegas. So three things that I really want you to understand about our company. And then that really kind of leads into some of the challenges that we're having.
+
+00:03:24:20 - 00:03:47:18
+不明
+First is we do have B2B and B2C. We have customers that are spanning retail trade and wholesale and B2B is kind of foundational for our. So our wholesale trade does a big part of our business. So we think about that from a lighting perspective. That makes a lot of sense. Right. Those are like designers that are helping customers, you know, implement lighting in their homes or builders or contractors or the in that case.
+
+00:03:47:19 - 00:04:11:44
+不明
+So again, spanning that, that, that, aspect of all of our customers and foundational, but at the same time wanting to grow and be to see omnichannel, as I mentioned, capability is very important to us because we do have showrooms, we do have e-commerce, you know, we want to be able to link those together and be successful in both of them and make their work to their strengths, and then design that is at the heart of what we're about.
+
+00:04:11:44 - 00:04:33:06
+不明
+As I mentioned, you know, we have a lot of designers like Ralph Lauren and all that, that design our products. So we want that design kind of like context, if you will, a motion to be throughout everything we do, including our website. So that's important. So that's what we are as a company. Let's talk a little bit about the beginning and where we were in 2024 and this year, year long journey.
+
+00:04:33:15 - 00:04:50:09
+不明
+And I think that's what's what's interesting about this journey is I actually joined Visual Comfort a year ago. So I was right here at the beginning of the journey and got to see it through to where we are today and almost a year ago to date, in fact, so we're, we're, we're we had three things that we were, you know, having issues with the first being performance.
+
+00:04:50:14 - 00:05:11:22
+不明
+So we had a lot of performance issues with our website. And no matter what we could do, throwing resources at it, making some improvements to Adobe Commerce, we couldn't speed it up. The speed of delivery was also slow. We were finding it challenging to author in Adobe Commerce and make changes and deploy those quickly and easily. It was also tough to innovate.
+
+00:05:11:23 - 00:05:43:49
+不明
+We were struggling to innovate, due to the fire and complexity. We had some high level customization and I think was even more challenging is because of Adobe Commerce, the PHP, we need those specialized resources to kind of help us, knowing PHP and Adobe Commerce, finding those resources were difficult to do, expensive as well. And then dependency, the business because of that complexity and all of that, that, that skill set that was needed, the business was business was reliant on it developers to operate the platform even for small changes.
+
+00:05:43:54 - 00:06:01:41
+不明
+And then those small changes would build up and we'd have this huge backlog of things that would have to happen. And then on the other side, it was impacting our development capacity for bigger things because we were doing a lot of smaller changes. So those were were some of the challenges we had. In addition, we had some pretty ambitious goals.
+
+00:06:01:45 - 00:06:28:58
+不明
+I would call them digital product goals or business goals that we were trying to achieve. First and first and foremost, as I mentioned to you, that business to business is very foundational to us. We wanted to grow it, nurture it. And drive those opportunities such as improving the account experience, the self-service experience. We also want to, interestingly enough, because a lot of times, the trade customers are familiar with us as a brand.
+
+00:06:29:03 - 00:06:48:23
+不明
+Their customers, even though they're implementing the lighting in their homes, may not actually be familiar with us. So we wanted to be able to use business to business to also increase brand awareness, customer experience, to drive trial and conversion for all our customers at the same time. So these two kind of go together. We wanted to also grown business to consumer, right.
+
+00:06:48:23 - 00:07:23:14
+不明
+So we wanted to grow beyond what my previous manager referred to as accidental buyers who aren't aware of the brand. They find the brand out. For some reason. We wanted to bring more of those into our website, into our stores, and improve that B2C experience. But again, at the same time, nurturing that B2B business. And then we wanted to implement more agility and agile business, not just from an agile technical standpoint, but strengthening those omnichannel opportunities as they come up between our retail and give more control to the business, allow them to create and manage deliver the content they want, when they want it.
+
+00:07:23:19 - 00:07:52:43
+不明
+Not always having to come to it to make changes, especially small changes. So three things that we were having some challenges with, especially around performance. The complexity and trying to grow that and nurture that business to business, grow and back and also create more agility. So that's where we were. And along comes two perfect storms. They're about to collide right around this time last year.
+
+00:07:52:48 - 00:08:14:28
+不明
+The first and foremost is the fact that Adobe are Adobe folks, a great partnership that we have with them, come in to us and give us a demo on this new capability called Edge Delivery Services. And we were blown away about what it could do. And I say we blown away. It was mostly the folks that were there before I really got there, and kind of knew what was going on with it.
+
+00:08:14:28 - 00:08:36:38
+不明
+Like my previous manager and Jennifer's here saw what it could do, but there was also a little bit of concern there on this just seems too good to be true. There's got to be some magic behind us. We don't really know how do we implement this? Also, we are not at that time. We're not ready to just do another wholesale migration of our website.
+
+00:08:36:38 - 00:09:03:33
+不明
+We'd already been through a previous upgrade to Magento two to Adobe. Com so there was a little bit of risk aversion there, right? So keep that in mind. We see this great capability where we can create proof of concepts of websites, web pages, spin them up, do that very quickly with edge delivery. But a little bit of the mystery there behind the scenes of how to do that, as well as wanting to do wholesale migration and the nervousness of that.
+
+00:09:03:38 - 00:09:37:45
+不明
+At the same time, it was really on this strategy of implementing product management within the organization. Product management approach for were driven more by impact, more by iterative approach, where we take things piece by piece. And those two things came together with the idea of how we would approach our migration to edge delivery, a product management approach to migration where we could iterate, learn, adapt, start out small.
+
+00:09:38:00 - 00:10:04:43
+不明
+So a product led and agile approach that would progressively migrate our store front to edge delivery services. And what do we mean by that? Well, we're going to work Italy from ideation to release. Generate value. Learn as we go. Lower the risk, realize value earlier, be agile, adapt as needed. And we did adapt. There are actually a few pages that we migrated to edge delivery service that were never part of the original plan.
+
+00:10:04:43 - 00:10:25:11
+不明
+These two sticking out here. And actually I'll show those share those with you a little bit later about our code pages and our showroom pages. So the original plan is okay, let's do a little bit a little bit. First start with the US or lead with us. We'll do that for us, which is our main site. And then we'll eventually fast follow to UK and EU and we'll start first with our home page.
+
+00:10:25:11 - 00:10:53:41
+不明
+Then we'll go to our plps or product listing pages. We'll go to our product detail pages, cart and checkout and move in that kind of iterative approach. And how are we going to do that and that iterative approach. What did that product management look like? So some of you who have done agile or product management may be familiar with an agile approach or scrum framework, but again, at its essence is having small teams focused on a very specific mission that are going to work iteratively towards a product goal.
+
+00:10:53:46 - 00:11:18:57
+不明
+So a practical example may be to deliver that home page experience with edge delivery services. And then every two weeks we tend to run what's called two week sprints, set up sprint goals to kind of build and build to that release and eventually release that capability guided overall again by that product goal, incremental progress. Right. And we had multiple pods or multiple teams that are all sprinting with different missions.
+
+00:11:19:02 - 00:11:41:45
+不明
+So we dedicated actually there were two kind of teams working together. There was an Adobe VIP team and an internal team, and those two teams would work kind of together hand in hand on sprint, as well as some other teams or other pods working on other missions, because we didn't stop the other needs of the business, right. There were other things that had to happen that needed to go on improvements to the site or operation or DevOps.
+
+00:11:41:50 - 00:12:02:43
+不明
+So we'd have other pods running at different, you know, maybe they be out of sync, but they would still run two week sprints. Had a product manager responsible for the edge delivery, making sure again that those sprint goals were being met and everything was being achieved. Running through the acceptance criteria as well as a technical lead that was managing the technical aspect of it.
+
+00:12:02:48 - 00:12:20:12
+不明
+I did mention that we started out, we had this Adobe VIP team and we had this internal team. One of the key lessons is, is that we found out we set them up as separate teams. And the problem with that it was very difficult to coordinate those. So as you know, scrum principal, you want to have one team that's self-sufficient.
+
+00:12:20:16 - 00:12:41:35
+不明
+We've since approved that that communication and coordination between the teams. But that's how we started. It kind of made sense at the time. And again, we learned as we went that we wanted more integration and communication between those teams. The other thing we did was we had dedicated edge or edge delivery teams focused on that. And then we had separate what we called Adobe Commerce or eight comp teams.
+
+00:12:41:40 - 00:13:03:02
+不明
+We quickly realized as we began to migrate and move forward, and we had more and more of our site on edge. And as you'll see later, I will share one technical thing, which is an architectural diagram. There's tight integration between edge delivery and Adobe Commerce. So that was a little bit of a mistake saying, well, we have just edge teams and we have a.com teams.
+
+00:13:03:02 - 00:13:26:10
+不明
+We really just need a teams e-commerce teams that had the capabilities for both edge delivery services and Adobe Commerce on the same team. Some cases that could just be two developers, one that was more of an edge developer, one that was more of an Adobe commerce developer. Ideally, both developers that could do both. So we started out with those separate teams that worked initially again when we only had a home page, but eventually that became a little bit difficult for us to manage.
+
+00:13:26:10 - 00:13:46:00
+不明
+And we eventually now have teams that are both edge. We don't call them and there's still some legacy out there. Well, some will say, well, that's the edge. T we don't have. And my team knows that. I'll say that we do not have edge teams, our Adobe commerce teams, we have e-commerce teams that have both capability for Edge and Adobe Commerce.
+
+00:13:46:00 - 00:14:07:25
+不明
+So that was kind of like the method of how we got there. So let's go ahead and start this journey and start the journey. Go through some of the capabilities. As we mentioned, we had some performance issues such that it was very, very noticeable even to our board. So our privately funded equity fund company right now, so we have a board that meets from time to time.
+
+00:14:07:25 - 00:14:26:49
+不明
+And one of the things they kept bringing up over and over again was I guess they were running, you know, Google Lighthouse scores on our website. And they're saying things like, hey, your homepage is so slow. What are you guys doing about it? What are you going to do about it? But for this is actual scores at the time, that was the performance of our homepage.
+
+00:14:26:54 - 00:14:45:50
+不明
+Not very good, right. But I mentioned to you about that demo that we had and that led to that light bulb moment that I mentioned was, hey, we can start to address our goals, especially like our performance goals with this capability. And of course, using the product management approach that we were going to take. So we're going to start the journey with the homepage again.
+
+00:14:45:50 - 00:15:13:29
+不明
+Product management approach will start out small, get a quick win MVP concept. If you're familiar with that minimum viable product, let's just get the homepage out there. We'll start with that. We'll see how it goes. Well, two weeks to implement. These are the scores afterwards. Massive performance improvement. Quicker edits for the business, easier personalization and content. This right off the bat okay.
+
+00:15:13:31 - 00:15:29:35
+不明
+This is a journey we want to take. This is the path we want to go down. This is definitely going to be an improvement for us. We'll still continue this more incremental approach. Home page is successful. Let's move on to the next one product listing page. So for the home page we're going to move on now to the next part of our journey.
+
+00:15:29:35 - 00:15:51:29
+不明
+Again progressive migration here. Just do this in pieces. I should point out at that time, the only thing that was edge was the home page for the US. We'll come back to eventually get the home page for the UK and EU that's on edge today, but right now it's just the US. Let's do the Plps again. These are actual scores at the time for foreign scores of 26.
+
+00:15:51:34 - 00:16:13:25
+不明
+Our categories are still managed in Adobe Commerce. You'll see that architecture later. We're still have a lot in Adobe Commerce. We're still very reliant on that integration component. So we have our products and categories managed there. And then they'll be listed in the store front via edge delivery. So our product listing page well pattern begins to emerge. Performance up to 91.
+
+00:16:13:25 - 00:16:38:17
+不明
+This is actually the graphic at the time. You'll see there's reference. There's quotes to as high as 99. Significant performance improvement. Our performance is going up. Our lighthouse scores are going up which is hopefully in turn driving that traffic to our site. But we're also seeing other benefits more flexible user content management, simplified DevOps, more reliable code, and improved QA automation.
+
+00:16:38:22 - 00:17:00:49
+不明
+IT just made it easier for us to automate, and we were actually on a journey to do more QA automation, as well as get more coverage of our testing and tie that automatically to our deployment. But as I mentioned, we were agile. Along late summer, we've got a success going on our home page. We got our Plps. If you recall, the plan was, okay, we're going to go to our PDP next.
+
+00:17:00:54 - 00:17:21:42
+不明
+Well, there's two things happening at that time. We see the value from the Plps, and then we have this big implementation in the company to migrate to dynamic 365 project, and we're going to migrate our quotes, to edge delivery. We're going to have to make changes to our quotes page anyways. So we figure, well, we're going to have to do that for dynamics 365.
+
+00:17:21:42 - 00:17:41:27
+不明
+Let's go ahead and do it in edge. And another thing that we could also kind of experiment and learn as we go. Here is what if the edge delivery page could bypass almost Adobe Commerce and get a lot of its information from an API. That's where almost that code information's coming from. So what if we can just do that as well in this new page.
+
+00:17:41:32 - 00:18:06:57
+不明
+And so we developed this new edge delivery quotes page. So now we're we're being a little agile here. We're pivoting a little bit from plan. But we've got this new edge delivery quotes page. Better experience fewer errors improved showroom application integration. Remember that omnichannel capability that we're trying to get to, as well as what was really critical about this, is because it's now on that simpler development platform of edge.
+
+00:18:07:02 - 00:18:27:19
+不明
+It's foundational to a bigger strategy we had known as Unified Cart, which was to set up this concept of having the ability to unify the cart between our e-commerce site as well as our showrooms, and this gave us capability to grow with. Remember, one of the problems I'd mentioned to you before about innovation? Now we have a capability to innovate on this.
+
+00:18:27:19 - 00:18:57:51
+不明
+And we have we've been adding more capabilities to this. We actually have several, features right now in progress to add more and more capabilities to our quotes capability. This gave us an innovative platform. We decided to be agile again. One of the PMS that's actually here in the room today decided, hey, we're going to do this other new capability where we're going to basically take our showroom page and we're going to put that to edge as well, because that naturally fits with how we want to manage showrooms, which is just a list of information for each particular showroom.
+
+00:18:57:56 - 00:19:30:16
+不明
+And wow, wouldn't it be wonderful if we could manage that in our document document capability of edge, which was Excel spreadsheets. So here's what this is. This is actually a copy of the actual Excel that's on the website with all the showroom information in it. So if you have a particular showroom address, that capability, another Excel sheet that then shows what elements of that data should be displayed on the showroom page and load up a showroom page through edge delivery.
+
+00:19:30:21 - 00:20:00:24
+不明
+So if you need to make changes, capabilities, improvements to it, you just go into update these Excel sheets, preview it, publish it, and you now have updates to the showroom pages. So we're starting to see this benefit beyond just performance with just how simple it was to manage this capability. At the same time, we're doing edge delivery. I do want to make make a point here that we're looking at, you know, improving our store front capability across the board.
+
+00:20:00:39 - 00:20:36:47
+不明
+And another related capability for edge delivery that we're doing. And we're hoping to go live with any night now, any day now is further improving and simplify our content management with images and other media. Manage from Adobe Experience Manager assets. So putting all our images, all those wonderful, beautiful product images that you see on our website in am being able to auto scale those, feed them through the URLs to those images, through our product information management solution, and be able to display them on our commerce as well as in our showroom application.
+
+00:20:36:52 - 00:21:02:19
+不明
+So this actually is also part of our journey of improving that horse whole storefront experience. The edge delivery delivery, along with our A capabilities. So I promised you I would get a little technical here, but I do want to show the architecture because it does bring out a few learnings that I want to bring up. This was our architecture before edge delivery.
+
+00:21:02:24 - 00:21:29:04
+不明
+Pretty straightforward. I wanted to keep this fairly simple in the sense that just kind of shows you the fact that we had basically our commerce cloud with Adobe Commerce and some fastly CDN caching capability, some API connections connecting to Commerce Cloud. And then we have we use bloom reach for, for our search capabilities. So this was our architecture at the time before we started down edge delivery.
+
+00:21:29:09 - 00:21:49:00
+不明
+This is what it looks like today okay. So that may seem like it you know added some complexity. Yes it did. It did in the sense that what's really important is you do have to understand that there is this integration that you now need to think about between Edge delivery and Adobe Commerce, and how are you going to make sure that they work properly together.
+
+00:21:49:05 - 00:22:05:51
+不明
+It also brings to life the fact you're going to need to make sure that you have people on your team that can understand these capabilities because they are integrated, right? That's why I mentioned to you before about these pods or these teams, right? Some of them, you know, we don't have an edge team. We don't have an Adobe commerce team.
+
+00:22:05:51 - 00:22:41:35
+不明
+We have teams that have both capabilities in them. Also the way we were, actually publishing the document, the content management, we're using SharePoint and SharePoint folders, we have the content in there, and different folders for the different countries. And we are using, you know, word documents, Excel documents primarily in there. This also highlights, though, when you're thinking about this architecture, think very carefully about this SharePoint setup or how you're setting up those documents and the access to those documents.
+
+00:22:41:40 - 00:23:01:37
+不明
+We started out with just one folder called website, and it was all the content. Right. And so you can imagine that that that's a that's your production content. It's our staging content. It's all the content. So there could be instance there where somebody could publish a page, maybe someone made a change in preview it. But then along came someone made another change.
+
+00:23:01:37 - 00:23:24:56
+不明
+So understanding that is very important. And when you start to build and think about your edge delivery kind of DevOps process, understanding how are you going to set that up today. You know, we now have three folders. We have the website folder, website stage folder and website dev folder. And we're going to be, you know, be able to move things from different ones and make sure that we're not publishing things to our production environment.
+
+00:23:25:01 - 00:23:46:25
+不明
+So that's kind of the structure that we had. Again, very important to know. It does add some more additional kind of complexity that you need to plan for. Make sure you have the skills in place to manage that. And then also make sure you're understanding how you're going to manage that SharePoint or that content. So what does it mean to develop a storefront on edge delivery services?
+
+00:23:46:25 - 00:24:03:21
+不明
+So I do want to share a few highlights here before we kind of dive into the actual learnings. Right. So there's three kind of key things that really you get when you start thinking about developing your storefront and edge. First and foremost, you are developing in a new way, right? You've got documents and files in the content store.
+
+00:24:03:26 - 00:24:25:38
+不明
+It reminds me a lot of anybody familiar with like citizen development or citizen automation or thing. So yeah, you got to keep that in mind. You have this content, it can be managed by your business address is exactly what we were trying to address. But that also means, again, you now have this, group of folks that are managing that content, and you need to make sure you set up those environments in the right way.
+
+00:24:25:43 - 00:24:57:36
+不明
+Easier resourcing. Remember, one of the issues we talked about before, finding those skill resources that we needed to have, right? So we have edge powered by HTML, JavaScript, CSS. We can find those skills was more accessible, increase our flexibility and to develop solutions. And then as I mentioned, one of the, one of the benefits we didn't realize at the time that came along as we were going through this iterative process and learning edge is built right into the development process so we can open pull requests, get auto lighthouse scores, kick off our automation testing.
+
+00:24:57:36 - 00:25:22:16
+不明
+All of that can be built in pretty seamlessly. So we were increasing and improving our QA test automation at the same time. We were also increasing our test coverage, our automated test coverage, which was helping us in our productivity standpoint. So I'm going to divide the learnings into two groups. And I didn't realize this at the time I did it, but I've kind of got this one is like more on the positive side and the next one's maybe more on like any kind of learning side.
+
+00:25:22:21 - 00:25:37:34
+不明
+But I've got product learnings, what we learned from the product, and then I'll share with you what we learned from the migration. Again, that gets the white. I'm hoping you can kind of learn some of the things that you can take away when you undertake this, this migration yourself. First and foremost, edge delivery. It's simple. The code is HTML.
+
+00:25:37:34 - 00:26:01:20
+不明
+JavaScript learning curve is easy. I mean that from the edge delivery perspective, not the full end to end piece, right? That's the piece I mentioned that you also have to take into account connects easily to Adobe Commerce, built from the ground up as an Adobe solution works seamlessly together. Content changes are easy to manage, easy to edit word documents, Excel workbooks manage that content.
+
+00:26:01:20 - 00:26:25:59
+不明
+You preview it, you publish it. It's pretty incredible, right? It really does give you a very, very easy way to manage your content. It does simplify DevOps. All right. So for upgrades patches again for the edge component of it. It also sets us up better for CI CD right. Because you can make changes and push them and publish them pretty quickly.
+
+00:26:25:59 - 00:26:44:41
+不明
+With all that automated testing initially in our journey, we were actually pushing out releases and changes to edge delivery. Every day we make a change, we push it out, make a change. We pushed it out. Now we learn a little bit later on, as we became more and more mixed between the edge delivery and ecommerce, that again, there were some dependencies between those.
+
+00:26:44:54 - 00:27:02:42
+不明
+So we kind of pulled back a little bit on that. But as we get into more and more of the site being on edge, we may get back to a more of a CI CD approach, especially for our edge delivery content. And again, the automated testing, changing how we performed it, improving the deployments, the coverage. You can spin up websites, you can quickly test them.
+
+00:27:02:42 - 00:27:27:36
+不明
+I mean, it was, you know, amazing there and what it did for our QA and test capabilities okay. So migration learnings, first of all, we had a strategy of what we called lift and shift, right? The idea was we're going to take the content that we have on our websites, and we're just going to lift it over, move it over from Adobe Commerce to Edge, delivering service.
+
+00:27:27:41 - 00:27:51:03
+不明
+And that is so much almost kind of like a falsehood that we kind of like believe we're just doing lift and shift different us that right lift. And it's just like, oh, lift that shift. No, it's not all lift and shift. Right? Yes, from the content perspective. But you got to be prepared for what will change your DevOps process, to change the architecture that will change and start building in mechanisms to handle that.
+
+00:27:51:03 - 00:28:14:13
+不明
+The operations may change, which is another thing we discovered when we got to the PDP's. How those are managed will actually change how the operations goes. So it's not all lift and shift. Yes, the pages themselves, they are, but you have to understand that in the bigger context of your migration strategy, easy to manage still in an iterative approach, but you just need to think through that.
+
+00:28:14:18 - 00:28:34:37
+不明
+Business partnership is critical. Not just for your whole your website requirements. Right. Thinking about, okay, how are we going to design the page, how we're going to place it, but also understanding the operational and process changes and the impact of that. Right. For folks that are going to go into the catalog and maintain in the data, then how does that catalog then get reflected in edge?
+
+00:28:34:37 - 00:28:49:58
+不明
+When does it get pushed? How long does that push take? What's the SLA for that? What's the expected change? When will they see it on the website? How does it work in edge? If there's an issue with it, how do I troubleshoot it? Right. If I'm not seeing that product, is it on the Adobe Commerce side? Is it on the edge delivery side?
+
+00:28:50:03 - 00:29:11:28
+不明
+All of that has to be thought about. And you need a strong business partnership to make sure that's being cover the environment set up, making sure you have that partnership on that environment, set up for managing and governing that content. Okay. The other thing to think through is what I call progressive DevOps. I talked about progressive migration, but also realize that progressive DevOps capabilities.
+
+00:29:11:28 - 00:29:28:45
+不明
+We just talked about. As you move more and more to your content to edge, you still have to manage your development. Adobe Commerce. So how do we manage that, combining those releases? So what we would do is initially, as I said, we were doing separate teams on separate releases. We realized that that created some mistakes where an edge change went out.
+
+00:29:28:49 - 00:29:49:28
+不明
+It turned out it was actually dependent also on a small change in Adobe commerce. So the way we do it now is we have basically two races, two release candidates, an edge candidate and Adobe Commerce candidate. They're both pushed up to our stage environment at the same time. On the same day, we run a full end to end regression suite covering both Edge and Adobe Commerce.
+
+00:29:49:28 - 00:30:07:21
+不明
+Make sure that's all covered. And then that release goes out that night again edge and we commerce. So right now we just kind of keep them all in sync and coordinate that. But make sure you do that. The other thing to think about too, especially is get into things like the product development pages is also consider the use of dark mode or you can release things.
+
+00:30:07:21 - 00:30:22:44
+不明
+So we were doing pages incrementally, but I think we could have leveraged dark mode more where we moved things out into the production environment and can do some of the testing that we weren't able to test in our stage environments. See the impact of that, right. Because of all that caching and all that that goes on with the edge.
+
+00:30:22:49 - 00:31:02:33
+不明
+Also think about doing more of that. And the other thing is making sure you have the right skill set just because it's JavaScript CSS, you still need to make sure you have the Adobe Commerce expertise that you need, while also upskilling them to edge delivery, right? Because there is that coordination, that linkage between those. So understanding both is very, very helpful and ensure there's end to end understanding of commerce and edge and all your pods, as I mentioned before, that's what we call our teams pods are need to be both capable in both, because a lot of times we'll get a change, we'll have a change come through, and it'll be like change a
+
+00:31:02:33 - 00:31:23:08
+不明
+particular feature on the site. And keep in mind the UK and EU, even if we have a page that's on edge, the PLP page like today, right now is on Adobe Commerce in the UK. And if that's a global change, then there's two things that have to happen, right? You have to change that on the edge page and you have to change that on the Adobe Commerce page.
+
+00:31:23:13 - 00:31:39:58
+不明
+Not difficult to manage. We typically use one ticket, if you will, one user story with just two sets of acceptance criteria for it. And make sure that, again, the development for both of those occurs at the same time. And again, it goes into that progressive DevOps process with that edge and that that Adobe Commerce change comes out at the same time.
+
+00:31:40:11 - 00:32:02:38
+不明
+So we're already in that habit. Not a problem to do that. So just keep in mind you have that capability across your teams. So when you put this slide in here I find it funny. This is the day we live with edge. We hit 99 and then we'll popped into my head is it goes to 11. So anybody a fan of Spinal Tap.
+
+00:32:02:43 - 00:32:30:30
+不明
+All right we have a few. So I'll give you the story here because I think it is kind of amusing. It does highlight the performance improvement we saw here. So the whole scenario there is is it's a mockumentary about a rock band, an aging rock band. And there's a guitarist that takes the director in his room, shows them all the good call, his guitars and all his amplifiers, and he's showing off his amplifier, showing how his amplifiers are special and powerful because they go to 11.
+
+00:32:30:34 - 00:32:51:44
+不明
+And so he says, when he's up there playing on his guitar and he's rocking out and everything, like, if it was just a normal amp, if he's just a normal guitarist, I could only go to ten. But because of these special amplifiers, I can go to 11. The director looks at them though and says, well, what if you just changed the label of yours from 0 to 10?
+
+00:32:51:49 - 00:33:15:42
+不明
+Wouldn't that be okay? And the guitarist kind of pauses, takes a moment and looks at the amplifiers and says, yeah, but these go to 11. So we hit 11. We got scores upwards of 99. We definitely saw huge performance improvements with age delivery. It goes to 11. We were unable and this is kind of like a mess on our part.
+
+00:33:15:42 - 00:33:35:43
+不明
+We didn't really measure the value impact of it. We did see across 2024 orders, revenue a lot of increase there, but we can't attribute that clearly just to edge. There may have been some improvement to that. But we also had some great marketing last year. We had some great effort by the marketing team. So it's hard to do that.
+
+00:33:35:43 - 00:33:56:47
+不明
+But what we do know is performance is up. And I just love this chart because this one you can actually see if I were to remove everything from this page other than the x axis, which shows the dates. If you can read the x axis, hopefully someone can. But when did we go live with the home page? May 2024.
+
+00:33:56:52 - 00:34:24:53
+不明
+And it's pretty clear 64% improvement performance was up on our home page. Performance was up on our PLP. We saw that across the board content management was easier, DevOps and code management was simpler. Chewie automation improved this. We know this. We saw. So we're going to continue our edge delivery migration. We had some challenges with our product development pages.
+
+00:34:24:58 - 00:34:47:52
+不明
+We're regrouping on that. Will we hopefully in the next month or so we'll go live with our PDP and we'll continue on that journey. So what's next for us then? Well, we're going to continue to deliver impact and measurable value. Start measuring the value of what we're seeing with this of Adobe Commerce and Edge Delivery services. So we are going to do some stabilization upgrading which we've kind of done as we've gone.
+
+00:34:47:52 - 00:35:06:29
+不明
+Quotes is a good example. We've improved the quotes pages or a few little things we wanted to go. We again follow our product management approach. So when we release things we release MVP's or minimum viable products. Get them, release them, learn about them, adapt them. So we're still improving true. And things that even the things we have released, we're going to expand.
+
+00:35:06:33 - 00:35:31:03
+不明
+We're going to move the product listing pages for, the US to the UK and Europe. That'll go live any week now. We're going to implement the product detail pages, the shopping cart and the checkout page. This is an example of a mock or not example is the mock up. It is the latest mock up. So there's a it was a mock up of the checkout page.
+
+00:35:31:07 - 00:35:57:39
+不明
+The nice thing about this is this is actually a slight change in our checkout. Two it's a single page checkout. We had two tab checkout before. So improving that hopefully to drive up more conversion with that. And that will be done again. And edge delivery. We're going to continue to enhance new and improved content. New we got new professional pages, new headers, new things that we're going to do with our content pages and continue to enhance it and continue to improve it.
+
+00:35:57:44 - 00:36:22:10
+不明
+So that's what's next for us. We're continuing on this journey, continuing to see that success that we've seen and continue to deliver value. So three key takeaways and hopefully you've got these already. And I'm just reiterating them. And if you didn't then it's my fault for hopefully not making sure I covered these well enough. First and foremost, the progressive migration or as I like to just say, be agile, right?
+
+00:36:22:14 - 00:36:47:41
+不明
+Take it little by little, piece by piece, progressively migrate parts of your store front edge delivery. Just keep in mind, again that linkage that you have with Adobe Commerce as you do that not impossible to do. You can do it and you can just move parts of your your site to yes, prepare for the transformation. Again, plan for that new approach to content development, DevOps testing.
+
+00:36:47:53 - 00:37:04:46
+不明
+It is transformative, and I'm intentional in using that word because with transformation comes a lot of change, right? You need to think through some of that, how that change is going to impact your business, how it's going to impact your business partners in the operations, how is going to impact the way you do business, DevOps, how your teams are going to be structured?
+
+00:37:04:51 - 00:37:28:44
+不明
+We've hired how many edge developers we've hired like 4 or 5, six. And we've had to go out, hire, you know, JavaScript and edge development capability. Right. So these are the things that you got to plan for. And that relates to upskilling those teams, making sure your teams not just know edge delivery technologies, but that that you have this end to end capability of upscaling training and documentation.
+
+00:37:28:49 - 00:37:49:23
+不明
+One of our most powerful, technical leaders right now, he's comes from a deep background in Adobe Commerce, and he's learning edge. But because of that Adobe Commerce understanding, he's picking up edge pretty quick. And he can understand that in the end integration very, very well. And that is very, very powerful. So keep these three things in mind as key takeaways.
+
+00:37:49:28 - 00:38:17:53
+不明
+Progressively migrate. Prepare for your trends transformation and upskill your teams. And hopefully you can have a successful journey as we had with edge delivery and see the performance that we saw. So you can take your website to what, 11 all right. Don't forget give feedback here. I'll, I'll leave that. I mean put it on like this slide or take Q&A here soon.
+
+00:38:17:54 - 00:38:38:45
+不明
+Yeah. Okay guys you want to go go back to that one. Yeah. Because you're so thank you Kevin for that. That walk through on where you found success, where you hit some roadblocks, how you changed the organization, to to show what you're going to do across that process, as is user with most of these types of projects, it's really a combination of technology and people in process.
+
+00:38:38:45 - 00:39:02:40
+不明
+And I think you brought that to life extremely well. Don't just implement a new piece of technology and expect it to work, because you have to adapt to it. And I think the processes you went through that were exemplary and how that works. What Kevin and the team described is that progressive migration through the through the storefront homepage, through the pops and PDP's and all the way through to cart and checkout, we have many other examples of people doing it entirely randomly.
+
+00:39:02:40 - 00:39:21:47
+不明
+So you can approach this in any way you want. Some customers. I have a conversation, with with other Kevin's and they go, oh, my PDP is terrible. So you can focus on that one bit. The idea is that this is de-risking what you're doing with your storefront. I'm in the commerce team, and we appreciate more than anything that changing a storefront is risky, right?
+
+00:39:21:47 - 00:39:40:18
+不明
+It's high risk. So your shop window into the world, in this case, you have 50 other actual shop windows, but, you know, it's your it's your experience for that digital platform. So this whole approach has really been built fundamentally into the core of the product so that it's de-risking it. So it's bite sized pieces that you're comfortable with and you can release when and how you're ready.
+
+00:39:40:23 - 00:39:54:46
+不明
+There is no big bang approach to this unless you're doing a net new instance. And then that's a different story. So it's really about how you're comfortable and how you're realizing value in a way you want to. That results for value of your business. What Kevin described to is great in a way that they had a home page problem.
+
+00:39:54:46 - 00:40:06:40
+不明
+So they focus their first drove value resolve that issue, and then looked at the next opportunity. It's exactly what we put it together for. So Kevin, thank you very much for taking us through our story. It's amazing. Excellent. Well, good.
+

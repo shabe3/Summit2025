@@ -1,0 +1,416 @@
+00:00:00:39 - 00:00:21:51
+不明
+Let's go ahead and get started here and let's start talking about this. So my name is Daniel Rios. I'm going to have Alex Joseph also along with me. We're both on the Commerce product team. And we're here today to talk about Commerce Optimizer. Leave now if that's not what you wanted to talk about. It's okay. One hurt my feelings, but let's go ahead and get started in itself.
+
+00:00:21:55 - 00:00:46:49
+不明
+Oh, feedback. Sorry about that. All right. Commerce optimizer. How do we even come up with this idea of commerce optimizer? Overall, what really isn't. Before we really talk about this and really go into this, how many people attended the roadmap session? All right. Almost everyone. Almost. How many people attended the lab on Commerce Optimizer for data modeling? Awesome.
+
+00:00:46:55 - 00:01:07:14
+不明
+Awesome. So you're going to know a lot of the stuff that we're going to talk about. You're not going to know everything, but you know a lot about what we're going to talk about today in itself. So before we get started, let's set up some background. Let's really talk about what what it is for these experiences and what it is that really made us think about Commerce Optimizer as a product.
+
+00:01:07:19 - 00:01:38:08
+不明
+So merchandizing the future merchandizing and experiences that you have. Imagine walking into a store and every product in that store is made for you. Every shelf, every product, every experience is catered directly to you, to what you really wanted to find. Imagine that happening for you. Why not? Why can't it happen? Why shouldn't it happen? But imagine also that you have customers and the customer has a preference for, let's say, hiking.
+
+00:01:38:13 - 00:02:01:54
+不明
+Why do you not give their experiences all around hiking and all around outdoors? Or why do you not? If you know someone likes blue shoes or just likes blue in general, why do you not give all of their experiences with blue, or with orange or whatever color? That really is the power of personalization, but really centers down onto merchandizing and the power of merchandizing.
+
+00:02:01:58 - 00:02:23:17
+不明
+And really, what we drive to and Commerce Optimizer is really being able to say, what does a merchandizer do? And how can we work with the merchandizer to try that? So when we first started this product, we started thinking, okay, what is it that our problem our customers are having problems with? What is it that they're really trying to solve here?
+
+00:02:23:22 - 00:02:45:10
+不明
+We listened and we heard our customers. We can't replatform. We spend millions of dollars in doing our current commerce platform right now. We have too much, too much connection. We have too much connectivity. We have too many integrations. It's very complex. It's tied to our ERP. It's tied to our CRM. We've heard everything. We can't afford to do it right now, but we still want that optimal store front.
+
+00:02:45:14 - 00:03:11:06
+不明
+That's what hopefully optimizer will solve for that customer. Or we wanted to drive higher traffic and improve conversion rates on our storefront. Well, again, that's what Commerce Optimizer is here to really drive you towards. Or you have to want to grow faster. And we really need to support more complex use cases. For those of those who went to the to the data model, to the composable Catalog Data Model Lab or heard about it.
+
+00:03:11:20 - 00:03:31:19
+不明
+You know that we've driven this data model to really be the heart of Commerce optimizer and be the backend. So we can say Commerce Optimizer will help you drive and be able to utilize those and solve for those complex use cases themselves. But let's take a look at what Commerce Optimizer is from a high for high end level.
+
+00:03:31:19 - 00:04:00:39
+不明
+Let's look at it from a 10,000ft level. You can leverage your existing commerce solution back end. No need to replatform take what you have and we'll utilize it instead. We'll ingest your product data and your catalog data and bring that into Commerce Optimizer. That can be wherever you're storing that data. One system multiple systems, doesn't matter. We'll ingest that data into commerce optimizer ERP, PIM, commerce system.
+
+00:04:00:48 - 00:04:26:05
+不明
+We can bring it back to it. You can drive revenue growth via a highly performant, personalized storefront because we within included within Commerce Optimizer is our edge delivery is our edge delivery storefront. And then you can drive those personalization and those personalized experiences that I talked about at the beginning, utilizing AI generative AI, generative functionality within Commerce Optimizer itself.
+
+00:04:26:09 - 00:04:49:57
+不明
+That's Commerce Optimizer a really, really, really high level. Let's drive down to see what are the components of Commerce Optimizer. All right. So everything you see in the middle that is Commerce Optimizer and its architecture and all the components that are within it itself. So everything within the white box is commerce optimizer. On the left is your existing commerce platform.
+
+00:04:50:02 - 00:05:11:17
+不明
+No need to touch that. No need to do that. And on the right, on top right is your assistant cart and checkout. We're not going to miss anything with those two functionalities. Instead, we're going to take your experience layer and drive towards your experience layer and change that. And let us use the best of Adobe to drive that experience for you.
+
+00:05:11:22 - 00:05:35:23
+不明
+So let's start at the bottom left hand side. We can just catalog from multiple sources, whether that be your existing commerce system, a PIM in ERP. Hey, we've even seen spreadsheets where people store all of their all of their data in it. We can ingest head into our catalog services. Our catalog service is powered now by our new composable catalog data model, utilizing catalog channels and policies.
+
+00:05:35:28 - 00:06:02:50
+不明
+Alex will go into more detail about what our catalog channels and policies in more detail into merchandizing, just in general. Overall. Also, within this area, for our merchandizing, our product discovery and product recommendations both being powered by sensei, we utilize these before we've proven out the value that they drive, and we continue to drive value from them. The one key difference now is that those product discovery and product recommendations are going to be utilizing a new data model.
+
+00:06:02:54 - 00:06:23:08
+不明
+So if you think about this, you can tell you can talk about channels and those channels being able to utilize to personalize the drive at all, the ways to search and recommend directions that makes up the components of merchandizing and our merchandizing services powered by catalog channels and policies. What next? Let's go up to the storefront and the storefront.
+
+00:06:23:10 - 00:06:45:08
+不明
+You get storefront powered by edge delivery. So last year we was introduced edge delivery. We proven out over the year about what's going on with edge delivery and how we drive power and drive that performance storefront. We'll go into a little bit more detail about that, but it comes also within Commerce Optimizer. One key thing is this is one skew, one product.
+
+00:06:45:13 - 00:07:08:52
+不明
+You get all that is in this white box. It is in separate products. You don't have to go and get another contract. There's none of that. It comes within commerce. Optimize itself as a single skew. No integrations. It's already fully integrated with each other. So that we took care of for you in that respect. So Commerce Optimizer as we see it really drives that value.
+
+00:07:08:57 - 00:07:31:30
+不明
+But we didn't stop. Just have to start from. We went ahead and added the powerful the product visuals powered by ARM assets. So really bringing in the best of assets bringing that into commerce optimizer also. And then we took the same performance agent. How many people were there for the for the introduction of Site Optimizer, power BI and all right.
+
+00:07:31:30 - 00:07:53:57
+不明
+So I'll talk a little bit about it. So Site Optimizer powered by and is a new is a new new product that's been dead. And what this product does is it identifies and then gives you suggestions on issues to your storefront. So if you have broken links, if you have things that aren't on the for accessibility, those are all identified for you via an AI agent.
+
+00:07:53:57 - 00:08:14:33
+不明
+And then it gives you suggestions in order how to fix it. What we've done here is we've taken this high performance agent and introduced it into Commerce Optimizer, also to powers into the storefront. And it helps you find those issues that you have with your storefront itself. Then the last piece of Commerce Optimizer is reporting. Everyone forgets about reporting.
+
+00:08:14:34 - 00:08:36:54
+不明
+Everyone always tries reporting that they never think about it. But at the end of the day, we need to know what's happening. And that's what we give you before and after metrics. And really, this is reporting to drive what you need at the time that you first started utilizing it. And at any point in time after that, you can see what's going on with important KPIs and metrics that you want to drive towards.
+
+00:08:36:59 - 00:08:53:37
+不明
+All of this is what makes a Adobe Commerce Optimizer without touching the backend or really touching the existing cart in checkout, because all we are driving towards is the experience layer. At this point.
+
+00:08:53:42 - 00:09:12:03
+不明
+So this is just another view of how Commerce Optimizer looks. You'll continue to see this out today throughout the presentation as we hit different sections. As we deep dive into each one of these. So as you see, everything I talked about is here with the existing commerce backend. And now let's go and deep dive a little bit further into the product.
+
+00:09:12:07 - 00:09:30:32
+不明
+And to that I'm going to hand it over to over to Alex so he can talk to you about merchandizing services powered by catalog channels and policies. Thanks, Daniel. And it's really nice to see a lot of familiar faces here from the lab yesterday. So you're going to hear a lot of information that you heard yesterday. Plus new items.
+
+00:09:30:37 - 00:09:50:59
+不明
+And for the folks who are hearing this net new, you are in for a ride because you're going to hear net new concepts, which we're introducing as a part of commerce. And we're really, really proud of our new catalog data model. But before we jump into that, it's really quite important for us to understand the journey that we've made over the past 5 to 7 years in many ways.
+
+00:09:51:14 - 00:10:16:36
+不明
+We started off with the foundations of catalog modeling in 2017 and 2018, and this was introduced in Commerce Core. And this really laid the foundations of everything that has come since then. After this is where we wanted to really supercharge the experience for our merchants and increase the speed with which we're able to really deliver these experiences. And that's where Catalog Service really went.
+
+00:10:16:51 - 00:10:43:22
+不明
+Cloud, all of it. All the data was delivered under 200 milliseconds. And this is where our catalog services really expanded on to absorb and inculcate the world of AI using Adobe Sensei. And this is where we introduced live search and product recommendations, which are really behavioral, data driven experiences for my shopper, all the way from top of the funnel till the shopping cart itself.
+
+00:10:43:27 - 00:11:07:03
+不明
+This is the world that we live in right now. But when we look into the future, we want to build our catalog for the next generation. We are thinking far into the future about scale, orchestrating it, keeping things simple while making it business friendly for all of our users. And that is where we are looking at when we look at 2025 and beyond.
+
+00:11:07:07 - 00:11:34:04
+不明
+And this is where we're introducing our new catalog data model, which is called as catalog policies and channels, because the world that we live in is really expanding very fast, significantly enough, such that every single day there's increasing customer expectation. There's a lot of pressure from all of our competitors as from an e-commerce space. At the same time, the technology is moving very fast.
+
+00:11:34:09 - 00:12:01:02
+不明
+Now, what does happens in space such as this is that if a merchant is not able to adopt to the latest e-commerce platforms and technologies, they literally just fall behind and lose revenue. It is very important for us to really empower our merchants to grow across geographies, unlock new markets, and do this in a simple way. Now, when we speak about going across geographies, we are looking at a macro level.
+
+00:12:01:07 - 00:12:23:43
+不明
+But when we expand in a macro level, we also need to think at a micro shopping experience for each single user and shopper. And that is where we really look at localized shopping experiences. And we want to do this at scale without duplicating or catalog data and making sure that the experience is same across all of our channels.
+
+00:12:23:48 - 00:12:47:32
+不明
+Making it simple. But while those are the goals, there are a lot of challenges which are faced by our merchants in order to implement this today. Growing across geographies and across spaces, there is highly customized implementations which are available. The total cost of ownership increases. There's rigid catalog modeling concepts. We no longer want to put a square peg in a round hole.
+
+00:12:47:39 - 00:13:12:38
+不明
+That's the analogy I always go with when I speak about a new catalog. Modeling concepts. Instead, we want to give you building blocks, and soon, as a part of a demo, you're going to be seeing what we mean by these building blocks and how you're really able to scale beyond what is available today. So with that is there we introduce our new catalog modeling concept, which is catalog channels and policies.
+
+00:13:12:53 - 00:13:39:05
+不明
+And this is really built for scale for B2B for you to expand in a very simple and easy fashion. And we are very excited to position this as the future of catalog modeling in Adobe Commerce. When we speak about making B2B simple. What we are really looking at is unlocking catalog syndication, removing data duplication when we grow across geographies and business units.
+
+00:13:39:09 - 00:14:07:04
+不明
+We have also introduced the concepts of dedicated price books. Now what does that mean? We have decoupled the concept of prices from a skew. So one skew can now be associated with multiple price books which can be expanded at scale and across geographies. So we are really able to deliver those unique catalog level personalized prices per shopper, per geography.
+
+00:14:07:09 - 00:14:34:27
+不明
+All of this is great. We have promotions at scale. We have unlocked catalog syndication. But what does this mean at day zero? When you implement your new catalog and that is what this is. This is really the slide that you're looking at with respect to the impact that you will have in your catalog. We now have the ability to scale up to more than 250 million SKUs in one single catalog instance.
+
+00:14:34:32 - 00:15:01:32
+不明
+All of this is supported with 30,000 prices per skew, which is incredible because previously this needed a high level of customization for you to implement. All of this is again supported with extremely fast promotions across all of your SKUs. For millions of SKUs per hour. And we're really happy to say that these are not testing numbers. These are not theoretical numbers.
+
+00:15:01:44 - 00:15:22:27
+不明
+These are numbers that we have implemented with some of our strategic clients to ensure and validate what we are building out to help. And this is really the new catalog modeling that we are introducing today. So let's take a closer look at what this means in the real world, and understand how we are able to really incorporate this from that perspective.
+
+00:15:22:32 - 00:15:44:07
+不明
+And also take a closer look at the building blocks that I spoke about. So this is a slide you have probably seen yesterday in the roadmap session. Let's dig deeper into it. Let's understand this a little better and really see how we are playing around with a new catalog or concepts. Now consider this as automobiles which is a large conglomerate.
+
+00:15:44:12 - 00:16:11:21
+不明
+Think of them in the real world to be something like a Toyota or a General Motors. Now, a General Motors typically has several different brands within it maybe Buick, Cadillac, Chevrolet, all of these brands have different cars, which means they have different parts, and different parts are shared across all of these brands in itself. Typically, your Chevrolet as well as a Buick shares the engine, but they have different suspensions and brakes.
+
+00:16:11:26 - 00:16:35:41
+不明
+That is a layer of complexity in the real world. Let's take it a step further. We have multiple dealerships which sell all of these SKUs, which Chevrolet or in this case Corvino really wants to sell. All of these dealerships will have different licensing agreements. They will probably have access to sell parts from 2015 to 2022. They will have different prices available to it.
+
+00:16:35:46 - 00:17:00:13
+不明
+And in this case, in the dealership you see all three brands ABC is allowed to be sold, whereas Houston and Portland can sell only two SKUs. All of this is what we want to normalize. Make it simple and take away the operational challenges behind it, because we want you to really focus on the shopper and not on your internal operations while setting up your catalog.
+
+00:17:00:18 - 00:17:25:54
+不明
+That is the intention behind simplifying the catalog management. Let's take a look at what this would mean. Once again, to cover this table, let's take a closer look at the complexities here. Ultimately, let's take a simple example of 6 million SKUs. In this case, Cappiello has a national store front, which you see right on top. And then you have a dealership level storefront which is available at each of these different areas.
+
+00:17:25:59 - 00:17:55:25
+不明
+In the traditional classic world that we live in. In order to accomplish this, you would duplicate your skills and this would lead to 20 million SKUs. We are getting rid of that. We are going away from the concept of effective SKUs, and you will just always use a single base catalog to deliver all of your experiences. Previously, promotions is to take weeks in order to load them up across all of your skills and making sure all of them are available across your different geographies.
+
+00:17:55:30 - 00:18:23:24
+不明
+We are getting rid of that. We are doing this at scale. We're able to deliver incredible speeds through our entire ecosystem, because data is now going directly into our catalog services, skipping the entire e-commerce, because like Daniel mentioned, we really are the store front level, which supports top of the experience all the way to the checkout. Lastly, I would add on is that again, the unique prices per skew come into picture and this is again interesting to see.
+
+00:18:23:29 - 00:18:43:03
+不明
+We are able to do this with the same 6 million SKUs without duplicating a catalog with the help of price books. Price books is a concept that we are introducing at the catalog ingestion level. So you will ingest all of your price books from your existing commerce system, and you will have a copy of those in Commerce Optimizer.
+
+00:18:43:08 - 00:19:02:37
+不明
+And at the point of the store front is where you really kick in the respective price book, which is relevant to that particular product or skew. So with that, let's take a closer look at this demo and we'll go through this very slowly, unlike yesterday. So you get a very good idea of the product that is being built.
+
+00:19:02:42 - 00:19:33:23
+不明
+On the extreme left is where you see our three main sections, which is really merchandizing catalog and data insights. Now under merchandizing is where we have really merchandizing specific services, which is built around product discovery Bitches and Amalgamated, and a higher level implementation of what was previously called Live Search. Then we have product recommendations. Then comes the area of catalog management, which is channels and policies.
+
+00:19:33:36 - 00:19:56:15
+不明
+And we'll take a closer look at this. I also want to highlight very importantly the Data Insights tab which you see on the left. We'll come to this in a moment towards the end of the slide on how it will really help you out, because ultimately Data Insights helps you understand what is your status of data when you're ingesting it from multiple different sources.
+
+00:19:56:20 - 00:20:18:20
+不明
+This is going to be very important because for Commerce Optimizer, that is the world we're entering where your source of catalog is not just one catalog, but many different sources. All of it get ingested into Commerce Optimizer and then syndicated on to all of your store fronts, which are available. So let's take a closer look at catalog in itself.
+
+00:20:18:25 - 00:20:43:24
+不明
+We go into policies and let's say you want to launch a new dealership. You want to launch the Houston dealership. So for this you go ahead. Click on create a New policy. But like you remember, the Houston dealership has access only to two brands among the three brands which are available. So Houston has available only to brand B and C, and it is replaying right now.
+
+00:20:43:24 - 00:20:51:16
+不明
+So we just give it a moment.
+
+00:20:51:21 - 00:21:15:47
+不明
+At this point, when you add the filter is when the magic really starts. You can see that we are using a skew attribute to really build out this experience. And let us understand this a little better. Our catalog modeling capabilities are really attribute driven catalog modeling. Every single skew attribute that you see is what you essentially see on this page over here.
+
+00:21:15:51 - 00:21:39:52
+不明
+So you have an attribute called as brand. And every skew which has this attribute and has a value of either brand B or brand C is automatically added to this policy. So like you can imagine policies essentially out of filtration concept which keeps things simple. At this point we have created one specific policy for the different car parts.
+
+00:21:39:57 - 00:22:12:32
+不明
+Now we wanted to create one for the part categories in itself. That is where we use another attribute called a spot category. We create the filter around it, and we want to give the licensing availability only to brakes and suspension for this particular dealership. This is where things start getting interesting, because we can create multiple different policies and really understand and create those visibility rules specific to a geography business unit or any other entity that you might have.
+
+00:22:12:36 - 00:22:35:52
+不明
+At this point, you have the ability to create multiple different policies. But now we move on to the channel, which is really a high level abstraction which is available in this new modeling concept. In this case, it is a specific geography, which is Houston, and you go ahead and create the category around it. So you've added two policies to this specific channel.
+
+00:22:35:57 - 00:23:00:23
+不明
+You really have the ability to blow it up and add as many channels or other policies to one specific channel. When you're creating your catalog model, and that is where things get interesting. If you want to expand to new geographies, you want to build out specific rules or access rules which are only available to that specific area to ensure that you're meeting the geographic requirements.
+
+00:23:00:28 - 00:23:18:12
+不明
+Now with this, we have launched or created a new channel, and this is where we go into the document base authoring, which is supported by our commerce storefront powered by edge delivery services. We have kept things very simple. We have a dealership name, a channel ID, and this is an existing dealership. We are looking at Los Angeles right now.
+
+00:23:18:26 - 00:23:48:42
+不明
+We search for breaks. We see the skew experience. We see products across all three brands which are available. The different brands are available in different colors, which is purple, green and red. And you can see a total of 179 products are intentionally here really is now to launch a net new channel or a dealership using that same base catalog without duplicating the experience or the catalog.
+
+00:23:48:47 - 00:24:14:07
+不明
+When you're launching that new experience. So this is where we continue with our video, and we go ahead and update our configuration for the Houston channel. At this point, we go ahead and update the name of the dealership, call it Houston. And this is as simple as picking up the channel ID from the configuration that we created in Commerce Optimizer.
+
+00:24:14:12 - 00:24:34:19
+不明
+Changing the channel ID. Executing a new price book. This is where the price books and the SKUs come together. We publish it. You see a new experience, but what we really care about is the catalog over here. When you search for breaks, you see a big difference in the catalog. You see a total of 59 products as compared to 179 which just previously seen.
+
+00:24:34:24 - 00:24:59:54
+不明
+Here is where the different prices and the different skew visibility come together, and you see the different experiences using that single base catalog. This is once again why we say we are getting rid of the concept of effective SKUs. Instead, we're going to use a single base catalog. Make your catalog management of scale scalable and keep things simple for the same experience.
+
+00:24:59:59 - 00:25:23:56
+不明
+If you really want to change the price, book over here and change it to VIP price book, it is as simple as implementing that at a price book level, and the correct SKUs get picked up with the correct prices. As you can imagine here, a very important fact over here is that for promotions at scale, you can always keep all your prices ready just before the promotion.
+
+00:25:24:01 - 00:25:45:43
+不明
+And if you have a sensitive promotion, which is available just for three hours, you just need to pick the correct price book and everything works as expected. And at the end of the three hours there is no processing required. You kick back and use the old price book which is available in your system. That is how we are able to support enterprise scale clients in this architecture.
+
+00:25:45:48 - 00:26:12:19
+不明
+Let's take a bigger look at how this catalog modeling would really work across geographies. Let us take the example of L'Oreal. Consider your L'Oreal, who has multiple different brands like Maybelline and many other brands such as ABC, as called out over here. You have a single base catalog, but now you want to expand to Canada. You create different channels for that catalog across all your geographies.
+
+00:26:12:24 - 00:26:34:28
+不明
+Then you implement the price book, which is relevant to that specific geography for that specific skew without duplicating it. And the incredible thing that you're going to see over here is that you make the change once in your base catalog, and that is syndicated out across to all your destinations. And that's the change that we're trying to make over here.
+
+00:26:34:33 - 00:26:56:42
+不明
+Let's take another example. And this is going to be refreshing because this is something you did not see yesterday. And this is the example of a marketplace. Consider your best buy. Consider you have multiple different dealerships or sources of parts which are coming in here. Company and company B can really be Sony, Samsung or a third party reseller.
+
+00:26:56:47 - 00:27:20:58
+不明
+You have the ability to ingest all of that data aggregated, normalize it on a base catalog, which is our composable catalog data model. In Commerce Optimizer, and then syndicate that out to all of your different destinations, which are available. Now, this can really be a marketplace website. It can be your point of sale store or really your advertising partner.
+
+00:27:21:03 - 00:27:43:06
+不明
+The interesting thing that you see here is for each of these destinations, you have the ability to execute and implement a unique price book. You do not need to duplicate that skew, just use a new price book. Implement the right policy. Make sure your advertising partners have access to the right catalog, and you really syndicate at scale. We want to make this easy.
+
+00:27:43:08 - 00:28:16:52
+不明
+We want to make this simple. And once again, we want to give you the ability to focus on the shopper rather than focusing on the orchestration of catalog modeling. When you're really growing across different geographies. With this, you can really imagine that there is a lot of integrations which are required. Other data ingestion one. And secondly, while you are handing off the, session during the checkout, as you might recall, Daniel had initially showed us one screen where the data ingestion takes place.
+
+00:28:16:52 - 00:28:41:43
+不明
+And during the checkout there's an experience where it's given back to the whole system. This is where we want to make things simple. We are building out pre-built starter kits with strategic partners such as Salesforce and SAP, such that you can have one on one interaction with these, platforms. So if you have a Salesforce backend system, we will provide these integration starter kits, which are available on Adobe Exchange.
+
+00:28:41:48 - 00:29:09:28
+不明
+Plug and play. Ingest the data and you're good to go. But consider that you have a homegrown system and you have a system which is very unique in itself. That is why we introduce a development SDK to really accelerate this entire development process. Ultimately, during the checkout process is where you have API mesh. And Abelardo, to really help you normalize and simplify that handover of the session from your cart to the checkout.
+
+00:29:09:33 - 00:29:33:27
+不明
+And all of this is going to be supported with Adobe Best Practices to make sure that you are really well equipped for this entire process. The last area that I want to touch upon before I hand it off to Daniel is really the data, insights and catalog observability at scale. This is the section on the left which we spoke about a little while earlier, and the importance over here.
+
+00:29:33:29 - 00:29:54:13
+不明
+If I bring your attention to the left, really is the fact that we have the ability to give you full observability at your store front of all the catalog that you ingesting from multiple different sources. Because finally, you're going to be using Commerce Optimizer as the source of truth, which has normalized all of that data. You will be able to validate the prices.
+
+00:29:54:13 - 00:30:22:53
+不明
+You will be able to validate the skew source and use Commerce Optimizer as that normalizing platform. Before you syndicate out all the content. Next is personalizing personalization. Intelligence. We find this very interesting because you are all aware of Live Search, which is now called product discovery and recommendations in itself. And more often than not, we get a lot of questions on why is my personalization recommendations behaving the way they are?
+
+00:30:22:57 - 00:30:51:46
+不明
+What can I do to improve the recommendations? How can I make my recommendations faster? And that is why we are introducing this observability capability, where you really understand what all events are being captured by the system, and more importantly, what is the health of all of these events. Because without really having full observability into that, you cannot be sure if your merchandizing strategies are working as expected.
+
+00:30:51:50 - 00:31:23:33
+不明
+This really brings us to the next section around product discovery, which a lot of you would already be familiar with. This is powered by Adobe Sensei machine learning platform, which really gives you that personalized experience, which is fully driven by our merchandizing capabilities and by tracking user behavior. It's very interesting to note that we have added a couple of new capabilities here, which you might not have seen compared to last year, which is really the ability to search between across layers for a particular skill.
+
+00:31:23:38 - 00:31:57:14
+不明
+So if you're a B2B merchandizer and you want to implement layered search, which is contextual search, we have introduced that that's currently in beta. Please check out Experience League page. This is a new improvement in product discovery. Next is recommendations which again you're familiar with in the space. We have the ability to define 13 unique recommendation types. But what is interesting in this space and very new is your live search and recommendation rules are now going to be driven based on different channels.
+
+00:31:57:19 - 00:32:23:13
+不明
+That is the future that we see for the space, and that's going to be very important where you want geography specific personalization driven and making that simple for all of your shoppers. But that we come to the next area, which is really our storefront, and all of the API services and the catalogs and channels that you just saw feed into the store front layer.
+
+00:32:23:17 - 00:32:45:53
+不明
+And for that, we have Daniel coming back on stage for to cover this section. All right. Thank you Alex. So great stuff. And now you know what kind of is the heart back of Commerce Optimizer itself is really that data model. And really the catalog and merchandizing services. That's really where we start from. But really that's a back end that doesn't do much for your experience layer.
+
+00:32:45:58 - 00:33:11:13
+不明
+It helps to drive your experience layer, but it really doesn't give that story and doesn't really reach to where your customer at. And that is for today in Commerce Optimizer. We also have Commerce storefront powered by edge delivery, and it will be included within that single skew itself. Included within that is both the visual editor and the doc editor for efficiently managing content in itself.
+
+00:33:11:17 - 00:33:37:25
+不明
+Also included within that is our boilerplate, which is basically a templated experience so that you can start to drive all those personalized experience within that, within that boilerplate. Our different drop ins are components which will be the PDP, the product recommendation search account, end user or PL, and also the PRP. Or if you need to build your own customize drop ins.
+
+00:33:37:36 - 00:33:59:47
+不明
+We also have an SDK to help you drivers to drive those to try those drop ins directly for you in itself. So all of this package within Commerce Optimizer to really drive that experience layer and drive that experiences to your end customer so that you can drive that personalization and at the end of the day, being able to drive conversion itself.
+
+00:33:59:52 - 00:34:26:29
+不明
+Also within this also within this is the experimentation. So within its delivery would also bring across the experimentation. So you can drive and set up within minutes some experiments really utilizing the power of sensing again in order to be able to drive recommendation, drive experimentation, driving through you can drive your experiments through pre consented traffic in itself because it gives you the capabilities of doing that.
+
+00:34:26:33 - 00:34:57:38
+不明
+You can drive audiences with different audiences, whether that be location devices, new visitors versus returning visitors, segmentations any way you want to segment and drive that experiment, and also allows you to allocate traffic so you can allocate traffic driven evenly or unevenly across and really being able to drive those experiences. So an important part of that experience are being brought into a code Doby commerce optimizer with beam being powered by the edge delivery.
+
+00:34:57:43 - 00:35:22:13
+不明
+So jets delivery has been around. And, you know, for the past year we've been able to see what is the power behind it and really drives it. We've already seen for faster page loads utilize in utilization of edge delivery. We seen 15% increases in organic traffic. And of course, those lighthouse scores of 90 and above all that we've already proven now in over the past year with edge delivery.
+
+00:35:22:17 - 00:35:56:01
+不明
+And that is packaged directly with Commerce Optimizer itself. Asset. But the question is, do I have to use edge delivery? No you don't. Commerce optimizer also comes headless. So you can use your whatever storefront that you really want to utilize and utilize the power of our catalog and our merchandizing services, along with Commerce Optimizer. And you don't have to use edge delivery, but you won't necessarily get the benefits that our edge delivery storefront comes with in this concepts.
+
+00:35:56:05 - 00:36:13:27
+不明
+So I touched briefly on edge delivery in itself. There's a lot of there's a lot of talk and there's a lot of conversations going on edge delivery. There's a lot of sessions that cover it. So if you want to learn deep dive more, I would advise going to those sessions and being able to really get more understanding into that.
+
+00:36:13:32 - 00:36:39:06
+不明
+But the next part about that I want to talk about that's included in Adobe Commerce Optimizer, is bringing parts of assets and assets into Commerce Optimizer, and that's product visuals powered by a and assets. This is bringing really the power of gen AI and bringing that into. So you can personalize utilizing variations. So you can easily generate variations using the AI with Adobe Express and Firefly.
+
+00:36:39:11 - 00:37:10:36
+不明
+This is already fully integrated within the product and is part of Adobe Commerce Optimizer. You can associate images with products inside of Adobe Commerce Optimizer and then drive that personalization. So in the use case that we've seen running in the background, you can drive orange leaves by typing in orange leaves. We were able to change that the overall experience and drive different variations of that image to has orange leaves and then drive that directly into Commerce Optimizer in just minutes so you can out front.
+
+00:37:10:51 - 00:37:35:56
+不明
+You can then update your storefront assets in minutes itself. And being able to drive those personalized experience, which once again, when we come back to conversion drives conversion because we know from from our previous experiences that driving a personalized experience helps to increase your conversion overall.
+
+00:37:36:01 - 00:38:08:50
+不明
+So that's really where we say with the storefront itself. And I talked earlier when we first started about, say, performance agent, site performance agent is really one of the newest products that was introduced by Am and is Site Optimizer. So Site Optimizer, like I said earlier, really is to drive and find those issues with your storefront. But it doesn't just look for and find those issues the AI agent, but it also turns around and gives you suggests options on how to fix those issues.
+
+00:38:08:55 - 00:38:38:05
+不明
+Later versions of Site Optimizer agents will be that it'll actually fix those issues for you at this point in time. What we've brought into Adobe Commerce Optimizer is to identify those issues and suggest those how to fix those issues. Well, what type of issues do we cover? Well, to have some say such things as backlinks that aren't working correctly, if accessibility issues with your site, you know, identify accessibility issues.
+
+00:38:38:10 - 00:39:06:28
+不明
+If you're having high bounce rates, you know those high bounce rates. If you're missing images, it'll find that you're missing images within your product itself. All normalize use cases that drive your experiences and really not affect your overall experience. That your customer will have. The AI agent will be able to find those quickly for you, and be able to give you those suggestions to fix those promptly so that you don't lose those eyeballs.
+
+00:39:06:43 - 00:39:34:44
+不明
+Because we know if a user lose features, attention span is even less now in the digital world than it was before, and it continue to drop. So if they don't have a good experience, then they're not going to come back to visit the site itself. We've seen already organic traffic increase in one month by 4% by utilizing Site Optimizer, and we've also seen a 90% increase in core web vitals overall.
+
+00:39:34:49 - 00:39:57:00
+不明
+So so far we talked a lot about the storefront. We've talked a lot about being able to fix our storefront. We've talked about our merchandizing services. We talked about the catalog, all of this, as I said, one skew within the product, fully integrated, seeing the product work itself, the last piece that I'm going to cover on here is the before and after metrics and the reporting.
+
+00:39:57:05 - 00:40:21:56
+不明
+You also get the reporting within Commerce Optimizer itself, the before and after metrics are really all about being able to say what is currently happening within my site, what is at what point in time and what point after what has happened. If I made a change, if I ran a new promotion, anything that can drive more eyeballs to the store front are being measured in this.
+
+00:40:22:01 - 00:40:40:32
+不明
+So these before and after metrics, and this reporting really helps you to drive to the experience and really find out what has been the net effect. So you don't have to go looking somewhere else. This is available right in the product itself and made available for you.
+
+00:40:40:37 - 00:41:04:49
+不明
+Overall, this is what Adobe Commerce Optimizer is really existing commerce backend don't change. Keep your current existing commerce. Don't try to change that. We don't want to change that. We're here to look at your experience layer. We're here to change your experience yourself. Keep your backend. Keep your cart in. Check out. We don't need a net net effect your cart and checkout at all.
+
+00:41:04:53 - 00:41:27:13
+不明
+Well we want to drive and Commerce Optimizer is your experience layer by driving it with our merchandizing services, our new catalog data model, to really build out those use cases that you have to be able to then drive and drive it directly to the storefront. So you have a fast performance storefront using edge delivery and then using lights in the site.
+
+00:41:27:13 - 00:41:51:08
+不明
+Performance agent and the before and after metrics to really find out what's going on with your site and being able to fix any issues that you have with your site. Overall, all of this in one product, bringing the best of worlds from Adobe into a singular product so that you can drive your business and drive conversion higher.
+
+00:41:51:13 - 00:42:26:10
+不明
+So quickly, we are also looking for early access providers. We have some people that are already in our early access, some merchants. We're looking for additional merchants to be part of our early access. Commerce optimizer goes GA in June of this year, but right now we're in early access adoption. So if you want to be part of the early access product for Commerce Optimizer, you can go ahead and fill out our form and then be able to drive and be able to figure out what we're driving towards in that area.
+
+00:42:26:14 - 00:42:39:38
+不明
+And last but not least, take the survey in the summit app for a chance to win either a Starbucks or a the Bose QuietComfort headphones. Yep. With that, thank you everyone for attending. Thank you. Have a great rest of your summer.
+

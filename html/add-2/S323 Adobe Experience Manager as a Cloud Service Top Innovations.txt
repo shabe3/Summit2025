@@ -1,0 +1,420 @@
+00:00:00:19 - 00:00:24:28
+不明
+My name is Jasper Spring. I'm a director of engineering, working out of the Basel, Switzerland office on Am cloud service. With me today I have my wonderful colleague, Sean Curry. Thank you. Yes. For Good morning everyone. Hope summit is treating you really, really well. I'm super excited to be here with my colleague. My name is John Kerry.
+
+00:00:24:28 - 00:00:53:29
+不明
+I'm a principal product manager. I've been working with Am and Adobe now for eight years. With that back over the years for things a lot of different career. So seriously, folks. What better way to start a Wednesday morning, 8 a.m. than on top innovations and cloud service? How about we.
+
+00:00:53:34 - 00:01:14:55
+不明
+And we have been preparing really well. And we have a lot of cool demos to show to you, to get you all fired up and get the blood circulating. Should we try again to get the blood circulating by clapping? Yeah.
+
+00:01:14:59 - 00:01:44:20
+不明
+So hope you had a huge coffee. Unfortunately, I cannot provide you on a. We cannot. So we have done the next. But best thing. All the demos you are going to see will be based on a fictitious website called Fresh Copa, which is selling coffee. So if you are sitting there longing for that coffee, we will remind you along the way that it's getting closer and closer to having that one.
+
+00:01:44:25 - 00:02:13:52
+不明
+All right. Today's program is, unsurprisingly, on two really interesting topics. First one is, as you probably have guessed, AI, and especially gen AI, how we're going to leverage that in Am cloud service. The other topic is what we call experience success, and that is how we are helping our customers to get the maximum outcome of their digital experiences.
+
+00:02:13:56 - 00:02:42:44
+不明
+Probably yesterday you heard about Site Optimizer for at the keynote. This is what we are talking about. We are going to look at these two topics through the lenses of three key personas. First is the regular practitioners using AMM on a daily basis. Here we are talking about 100,000 people using a cloud service every single month. Think about that.
+
+00:02:42:44 - 00:03:15:41
+不明
+100,000 people. Isn't that impressive? You can clap. It is impressive. And besides practitioners, we will look at these two topics through the lenses of developers, be that customer developers or solution integrators, of which we have 10,000 people using that on a monthly basis. And finally, the system admins, we don't want to forget them responsible for the deployment and all the security topics.
+
+00:03:15:46 - 00:03:46:19
+不明
+Very important. Persona match to look at. But before we get into these two topics, I know Sean Curry has prepared two treats for you that span all three persona types. So let me hand it off to Shankar right now. Alright. Thank you. Yes, for for kicking today's session off. What I like to call the next two treats are early Christmas gifts and common thread that you're going to see across all of these demos this morning.
+
+00:03:46:24 - 00:04:11:26
+不明
+So it makes sense to start with these. The first one. This screen super familiar to so many of you. This is the site, UI that many of you access been around since and six for over a decade. Now this is going to change. Some of you may access Cloud Manager, some of you admin console and so on because the number of services has grown over this decade.
+
+00:04:11:31 - 00:04:42:44
+不明
+So this is where I want to introduce Experience Hub. This is the single unified starting point for everyone. And. But you know what? Come along with me. Let me show you this. When you go to experience@adobe.com and I select experience Manager. Now I will be asked what my intent is. Let me select I want to generate and activate experiences.
+
+00:04:42:52 - 00:05:07:57
+不明
+Now when I go in I see this really cool landing page which shows me quick action buttons right at the top and things that are really relevant to me. Now let me try and customize this. When I customize this, I can manage the widgets on this page. I can add or select the ones that make sense for me so I can be at my product best.
+
+00:05:08:02 - 00:05:34:56
+不明
+I can also move these widgets above below the fold. Again, whatever works for me. I can save this. Not only that, I can reset and maybe start off with a different template. Let's try perhaps. I mean, I'm an assets admin. I come in. You see different quick action by buttons. And once again let's try and reset this to perhaps one who manages infrastructure or security again.
+
+00:05:35:04 - 00:06:02:52
+不明
+Look at those quick action buttons, super personalized for someone who's a security admin. You can see so many of those there. But on this one, I'm not going to give it away right now because we are going to talk about the security admin later on this morning. But I do want to summarize this experience hub is open to early adopter, available on for every persona in the app ecosystem.
+
+00:06:02:54 - 00:06:32:37
+不明
+Unified starting point brings so that it makes it easier for all of our users to be more productive and get started. Now moving on to the next one is the am AI assistant. Super excited to talk about this one this morning. The screen that you see here very familiar to you. This is where you go to experience League to find product knowledge that you're looking for to help you get started, learn something.
+
+00:06:32:41 - 00:06:57:00
+不明
+Let's be honest, it can be hard to find knowledge articles sometimes and you have to go outside of your context. Well, we're going to solve that for you now. Come with me. Let's take a look. Once again, this is Experience Hub. On the right top you see that assistant icon opens up the right way. Now I'm here as an assistant persona.
+
+00:06:57:05 - 00:07:23:19
+不明
+So this morning, let me ask the assistant something that's top of mind for me. So maybe ask, how do I upload assets in bulk? Once I ask the assistant that you can see behind the scenes, it's turning its cog wheels and looking through all of experience League documentation. Now it's telling me if I want to use the APIs, the browser interface, where is ways to do it.
+
+00:07:23:23 - 00:07:48:58
+不明
+Not only that, it's giving me all of the source URLs I can copy shared with my teams and so on. This is Experience Hub, right? Now let's go into Cloud Manager. And perhaps now I'm a developer. I'm interested in my environments. So now I bring up the assistant from my context here. And I want to ask that prompt, what are the different environment types.
+
+00:07:49:02 - 00:08:13:23
+不明
+And boom right there the assistant meets me in my context. And it says there are three types of environments. This is when you use them. This is what you can do with them. So much velocity in how I'm able to find product related knowledge in my context. This is really, really cool. But we don't stop there for our support admins.
+
+00:08:13:28 - 00:08:46:38
+不明
+If you find that the assistant didn't help you resolve an issue and you need to contact support at Adobe, the assistant will automate creating a support ticket for you right there and give you a support ticket number. So just to recap, this really cool, exciting thing that's coming your way really soon. Am I assistant available to you on Experience Hub, on Cloud Manager and the author UI with that, handing this back over to yes, I think so.
+
+00:08:46:38 - 00:08:52:19
+不明
+Let's run Curry. Wasn't that cool,
+
+00:08:52:24 - 00:09:04:17
+不明
+Oh, a lot more intuitive than having to search for what you need in various web pages. Something is.
+
+00:09:04:22 - 00:09:32:10
+不明
+Wrong here. Okay, so you see, this reminded us a lot about how you guys typically are interacting with large language models. How many of you are using large language model to search for information? Get answers? Yeah, I thought so. So large language models are really changing our lives. How we are finding information, how we are consuming information. They are replacing traditional search engines.
+
+00:09:32:14 - 00:10:05:49
+不明
+But why is that actually right? Well, with you, when you start to think about it, the reason is that it is much more natural, intuitive for me to express intent. And the large language model wouldn't understand my intent of my question. And they're able to generate a response that exactly matches my intent. So finding information, consuming information is completely changing with the large language models.
+
+00:10:05:54 - 00:10:40:10
+不明
+Building a content management system. You would think This is quite disruptive. So we have been thinking, how can we leverage these technologies to empower you to much more easily find the information you are looking for, generate the information you are looking for. And we're going to show you a few demos about that today. But before we get to there, being the engineer that I am would like to show you a little bit or give you a flavor of how things are working behind the scenes.
+
+00:10:40:15 - 00:11:12:49
+不明
+The magic that makes all this possible is what we call embeddings. So what is an embedding? That is a mathematical representation of a piece of content, say a fragment, an asset, an image in a mathematical vector space. So to get that representation we take the content element and pass it through an embedding model to get the coordinates in this multi-dimensional space.
+
+00:11:12:53 - 00:11:45:54
+不明
+Okay. In 2025 on a cloud service, we are going to create embeddings for your entire content. And you don't have to worry. We're not modifying your content. We're not changing your content. But we are creating embeddings on the side from your content. Now using these embeddings, when I know typing a search query and intent, we also create embeddings from that query.
+
+00:11:45:59 - 00:12:18:32
+不明
+And having now the embedding of that, we can now look up to find similar, similar content elements to what your intent was. Okay. This is what we call semantic search. So semantic search allows us to find similar content to your intent. This is key, but there's more to it because now that we have the similar content, we can use it to generate new content.
+
+00:12:18:37 - 00:12:57:34
+不明
+When you guys typically interact with an LLM, you express your intent and you get a pretty good but generic answer back. Why is that? Well, that's because the LMS don't have access to your content. But now, having looked up the content using semantic search, we can now add that to the prompt that we sent to the LLM. And with that content of yours to the LLM, we can now generate content that is much more relevant and on brand versus your content.
+
+00:12:57:39 - 00:13:49:30
+不明
+This is what we call retrieval augmented generation. Orac for short. Okay. So to power all of this to make this possible on a cloud service, we are introducing what is called content AI for cloud service content. AI will unlock the value of your content and enable intelligence on your content. Concretely, content AI is a set of APIs and services that allow for ingestion, enrichment, or embedding creation, as we call it, and retrieval of semantically matching content.
+
+00:13:49:35 - 00:14:20:24
+不明
+Not only will content I do that on top of the content that is managed already by Am, but we will also allow you to ingest external content sources so you can search across multiple content sources at the same time for semantically similar content content. I will be powering a lot of the out of the box functionality that you will see today.
+
+00:14:20:29 - 00:14:46:30
+不明
+And even better, we will be making the APIs available to you so that you can use content AI directly in your customizations and extensions that you, as developers are doing. And honestly, I look so much forward to see the innovation that you guys will be doing using content AI.
+
+00:14:46:35 - 00:15:06:18
+不明
+And since we are Adobe, all these AI gen AI functionality will be made in a way that is commercially safe. So you don't have to worry about using these features. We take care of that.
+
+00:15:06:23 - 00:15:37:10
+不明
+So let's have a look at how this plays out in practice. So I want to show you four demos. The first one addressing I think a typical problem. Assume now you have thousands, tens of thousands, hundreds of thousands and millions of assets in stored in Am. How do you find the assets that match your intent? Is that a problem for you?
+
+00:15:37:15 - 00:16:13:19
+不明
+Yeah. Good. Good demo. Then next is what we call content advisor that you probably heard yesterday in the keynote. Content advisor is a tool, new tool that we introducing to help you to find the best. The most powerful content for your intent. I think the most impactful content. Third is generate variations that hopefully you have heard about since it was introduced last year at summit.
+
+00:16:13:24 - 00:16:49:37
+不明
+Now Generate Variations is powered by content AI to give you much more relevant responses, much closer to your content. Because it's based on your content. It's using your content. And finally, Experience Builder is a new tool. Also, we are introducing that helps you to build new pages from scratch based on your intent. Using your content. Okay, so let's have a look at the first demo.
+
+00:16:49:42 - 00:17:26:10
+不明
+So here I am now a practitioner. I need to find assets fast. I don't have time, but I have millions of assets in my repository. So here I'm in the fresh Koba, asset library. I go in now and look at the, asset catalog. And you see here all the nice coffee images. Hopefully reminding you about the upcoming coffee and today, using Am asset.
+
+00:17:26:11 - 00:17:56:32
+不明
+If I go in and search for, say, nice coffee mugs. This is what I would be finding a PDF. Okay. Why is that? Well, if we dive into the PDF, we see that the PDF contains the search term nice coffee mugs. So search works as it should, but it doesn't match my intent. Okay. But wow. Hey, there is this new thing.
+
+00:17:56:47 - 00:18:26:29
+不明
+Semantic search. Intent aware search. So if I now type the same search query, boom! Now I get much more interesting to intent to my intent images. And if I look back into one of them, why is that the case? Well that asset was tagged with coffee cup. Coffee cup is semantically equivalent to coffee mug. And for that reason that showed up in my search result.
+
+00:18:26:34 - 00:18:43:55
+不明
+So with semantic search you will be able to find the asset that matches your intent much more efficiently. Is this cool? Good.
+
+00:18:44:00 - 00:19:15:55
+不明
+All right. The next one is, as I said, content advisor. So content advisor is a tool that you will see across many applications, helping you to find the best content for your content. So not only asset but also content fragments or so forth. In this demo, here I am in Adobe Journey Optimizer. And I am about to make an email campaign.
+
+00:19:15:57 - 00:19:38:37
+不明
+So now I would like to, find some images here. So I have my search term type then. And I see that there are some nice images matching artistic coffee cups in a cozy cafe. This one I like. So let me select that. Boom. That's put in. But as I said, it's not just assets. We can also use content fragments.
+
+00:19:38:38 - 00:20:14:17
+不明
+We use the same search term here. And here we have happy people drinking coffee. I understand that. And this espresso content fragment also looks amazing. So again having tons of content in your repository, finding the best one a very it's a very cumbersome task today with content advice. This will be very easy using your content to find what works for you.
+
+00:20:14:22 - 00:20:21:02
+不明
+Is that cool? Good.
+
+00:20:21:07 - 00:20:51:20
+不明
+All right. Next one is generate variations. So generate variations allows you to go in and make some experiments on your content. So get some help to create variations of your content. And as I mentioned with content I generate variation will be able to use your content to generate the proposals. So let's have a look how that looks like.
+
+00:20:51:25 - 00:21:25:29
+不明
+So imagine now I am a practitioner. I go in here in my site's catalog and I go and find the Copa homepage that it's nice, but I would like the banner text to be a bit more engaging. So I need some help to find some variations of that. How do I do that? Well, I go in and select the text, and then I go to the Generate Variation tool to the right.
+
+00:21:25:29 - 00:21:56:35
+不明
+Here. And then I need to provide my intent to what I want. I can see here below that not only can I enter my intent, but I can also provide additional content or context, such as a reference to a web page or a content brief. But in this case, I just want I select one of the suggestions and I want to rewrite this content to be more engaging.
+
+00:21:56:40 - 00:22:29:53
+不明
+And now, with the help of content, I using the content or intent using your content, generate variations will suggest me three variations to be more engaging. And you can see the score that I come is how close I am to the brand language. And they sound pretty good. And now what I can do is click on the first one here and see that immediately how this would look like into my page.
+
+00:22:29:58 - 00:22:57:14
+不明
+Okay. So super fast way of experimenting trying out new things with generate variations powered by content. I once you found what you like either directly or slightly editing it, it's all about getting it out and publish it. So that's generate variations. But.
+
+00:22:57:19 - 00:23:02:58
+不明
+All right.
+
+00:23:03:03 - 00:23:35:20
+不明
+The last demo here for now is about generating new pages. That can be quite time consuming. So using content I using your content using your content, we can now automate this for you to make you much more efficient. So let's have a look. So here I am in Experience Hub, and I could simply go into this prompt and express my intent.
+
+00:23:35:22 - 00:24:11:11
+不明
+I want the new web page in the lifestyle section about coffee mugs around the world. And I press generate. And now here to the left. You see that I have the possibility to amend to my intent additional context. See a content brief which I will be doing here. And from this content brief, we will be able to extract various things like your objectives, the description, the audiences that this, page should be targeted for.
+
+00:24:11:16 - 00:24:38:35
+不明
+And based on this, my intent and this content. I have some suggested templates to the right. And on top of that, using content Advisor, again, I have been advised to, from my repository with some, assets and content fragments that matches this intent. And from there I can select the ones I like and hit the Generate experience button.
+
+00:24:38:40 - 00:25:12:04
+不明
+And behind the scenes, what is now happening is from my intent, from the content brief, from the selections I have done. I now get three variants of my new page generated. I can go in and review them. I can modify them, delete them. And in the end, I have a super fast way of generating new pages for my website.
+
+00:25:12:08 - 00:25:36:04
+不明
+So this was just a sneak preview of Experience Builder. If you like, this demo here and want to see more, I encourage you to go to the pavilion today. There is, a booth where you will see the full End-To-End demo of the Experience Builder. So with that, this was the demos of the AI for the practitioners using content AI.
+
+00:25:36:08 - 00:26:02:32
+不明
+Let me know. Hand it over to Sean Curry. Thank you. That was amazing. So much love from Jasper for our practitioners today. How many of you can I see a show of hands relate to the developer persona here today? All right, so the next session I'm going to show so much love for developers in our ecosystem. So coming up next five demos.
+
+00:26:02:32 - 00:26:34:11
+不明
+The first one generative search is around tools for our developers so they can build and deploy experiences that are very close to the user's intent. Imagine the power of that. The next to the experience catalyst. You're going to see some more of this, but this special audience gets to see first dibs about this. This leverages content, AI, and AI to take any existing web page or site and move that to a cloud services.
+
+00:26:34:13 - 00:27:02:28
+不明
+Think about how wonderful that's going to be the next one. Once you have your site or page on Cloud Services Sites Optimizer, you heard this at the on main stage. This gives you the ability to deliver continuously optimized digital experiences that will help your business meet its objectives, whether it's conversions or whatever your metric may be. We'll take a look at that.
+
+00:27:02:32 - 00:27:26:09
+不明
+The next two tactical tools for our developers permissions management. We know that you've been asking whether CSD is going to come back. The answer's no. Never coming back to cloud services. But we got something great that you will love. And we will take a look at it today. And the final one visual comparison or regression comparison tools for our developers.
+
+00:27:26:09 - 00:27:56:58
+不明
+So you can sleep better at night knowing that the code you deployed is that much more stable. So without further ado, this section is about love for our developers. But how about we say we let Jasper in on this party for our developers to kick it off? Thanks. So you heard earlier when I introduced content, I thought I also said that the APIs and services will be available to the developers.
+
+00:27:57:03 - 00:28:26:08
+不明
+So I wanted to give you an example of how you, as developers, can use these APIs and services to build really cool functionality. In this case, here we will build generative search, which is what I called before. Rack. So basically looking up relevant content, sending it to a model, getting a response back. So in this case here I'm not using the fresh Kopa website.
+
+00:28:26:13 - 00:28:47:20
+不明
+Instead, I wanted to give you, some insights to the fact that we are also using, both Am and content AI for the Adobe Internet, called inside Adobe. So, here you see, how that looks like and.
+
+00:28:47:25 - 00:29:13:04
+不明
+The typical question I am asking to inside Adobe is, when is the next public holiday, these Europeans? What is with them? So today, that takes me quite long time because I have to I get a list of documents that could be relevant for this. And then I have to go into each of them, click and see if I can find what I am looking for.
+
+00:29:13:15 - 00:29:45:03
+不明
+And typically that is, very time consuming. But now with generative search using content AI, I can simply go in and type in my search query, and from that it will look for the relevant content and consolidate a list of the public holidays and global well-being days in Switzerland. Isn't that wow? Right? Very easy. I don't have to look at it.
+
+00:29:45:08 - 00:29:48:39
+不明
+Just one.
+
+00:29:48:44 - 00:30:15:00
+不明
+And now that I'm looking at the list, what is even more well is that I can see that I have a global day of on Monday, March 24th. Are you sure it's not hallucinating? I'm sure it did not hallucinate. This is. This is good enough. We are off on Monday. But you see, here we have a list, a response matching exactly my intent using our content.
+
+00:30:15:05 - 00:30:56:09
+不明
+Okay. And not only that, with content, I also not only do I get that, response matching my content. Oops. I went a bit, you also see at the bottom here that content. I will propose follow up questions that I could ask to to content AI. Okay. So takeaway here is that your content will be enriched with embeddings and will be available to you through the content, AI, APIs, and services for you guys to innovate in your extensions on and cloud service.
+
+00:30:56:14 - 00:31:18:30
+不明
+Okay. With that, back to you. Thank you. Yes. For. All right. So I saw a pretty strong raise of hands for developers. If you see something that touches your heart this morning. Shout it out or give us a round of applause. I'm not going to ask. Okay, here we go. So on this one experience catalyst, imagine I'm a deployment manager.
+
+00:31:18:30 - 00:31:39:54
+不明
+I've been asked to move this fresco coffee, which is on WordPress, to a cloud services. That is really stressful for me. I don't have the time, the budget, the resources. You guys know the drill, right? But I've heard there's a new tool. Come along with me. Let's take a look. I've already downloaded and installed this on my browser, so let's take a look.
+
+00:31:39:55 - 00:32:04:05
+不明
+It leverages I already. It's analyzing fresco by the coffee. That's great. And it suggests on board the site. And. Perfect. That's exactly what I want to do. So let's execute that. Looks like it's setting up a project, mapping the content to site blocks, onboarding all makes sense. Happening real time. Right? Now let me go look at what this site looks like.
+
+00:32:04:09 - 00:32:26:36
+不明
+Wow. This just happened in minutes and it's pretty damn good. I didn't have to do anything. But can I be honest? The design of this site isn't quite sharp. That this is not what I was quite expecting. So what is going on? Let me go back to this tool. Oh, it says, how about you reproduce the design of the original site?
+
+00:32:26:38 - 00:32:50:11
+不明
+Perfect. I like it when I also reach my mind. So let me execute that prompt. And now it's doing things that make sense. Right. It's Cherenkov covering navigation, the footer for the blocks, comparing it with the original design and making adjustments. Hey, as long as it's doing it and I'm not, I love it. Now let's go back and look at what it created.
+
+00:32:50:16 - 00:33:13:21
+不明
+Wow, are you getting goosebumps? Because I sure am. This looks exactly like that original site. The best part? I did not have to do anything. Read any documentation. You know what? I'm going to quote The Godfather here. This is called making me an offer. I cannot refuse. I'm certainly going to use this. I love it.
+
+00:33:13:26 - 00:33:43:37
+不明
+All right, this room, the temperature's just starting to go up. Let's see that happen. The next one. Now that my development manager said, hey. Sites moved to cloud services. Now, I am this really savvy digital developer. Right? Why? Because I juggle so many tools every day. I look at SEO, performance, I look at tools for site, you know, performance on how loads pages I look at broke backlinks.
+
+00:33:43:42 - 00:34:07:53
+不明
+Yeah, I'm very savvy, but I have to juggle so many tools. And honestly, it's very frustrating and it's a lot of work. But this is where Sites Optimizer comes in because I've been told it's not performing or converting the way it's expected to. So come along with me for this next one. Here is fresco by the coffee Site Optimizer.
+
+00:34:07:58 - 00:34:35:14
+不明
+Right off the bat you can see 16 pending opportunities. The best part is experience success. It's telling me what it means in terms of my business objectives, whether it is experience, whether it is engagement, whether it's page views. Immediately it's got my attention right out the door. Now let me look at what kind of opportunities it has. I can see for core web vitals.
+
+00:34:35:14 - 00:34:59:11
+不明
+I want to take a look at this immediately. There's a list of pages right there. It's auto detected. It. It's suggest in one. I need to fix it. The best part? That big blue button has my attention. Auto deploy, auto optimize. I love it. This is really, really game changing. I want to look at more. Let's do that.
+
+00:34:59:16 - 00:35:24:25
+不明
+Wow. Here's one that says high bounce rate on these pages. I'm very interested in this. Here I say, hey, why don't you make changes to the content so that it is more engaging and it'll drive down your bounce rate? Are you kidding me? I'm totally doing this stuff. This tool is really a game changer. And there's so much more here.
+
+00:35:24:30 - 00:35:45:52
+不明
+Really, this is not just about making my life better. Giving me more efficiencies so I can focus my efforts elsewhere. This is about delivering a continuously optimized digital experiences that convert, that deliver my business objectives. You gotta love this.
+
+00:35:45:57 - 00:36:24:43
+不明
+Moving on to our next. This is permissions management, right? How many of you have struggled with this in cloud services. So thank you. But before I tell you what we have in store for you, let's take a look at how you deal with this today. Right here I'm an experience hub. And straight away I go into my site's, UI from here, the way you would go to permissions management is you would go to tools and then you would, select security, and then you would select permissions.
+
+00:36:24:48 - 00:36:43:44
+不明
+And this is what you have to deal with. And I feel your pain. You see a list of users and all the ACLs. Right. It's on you to compute the net effect of permission if you make a change somewhere. Not quite sure what it meant somewhere else. Same thing if you look at it at, user group level.
+
+00:36:43:54 - 00:37:13:42
+不明
+Same. It's a little unwieldy. But now let's look at what it means with the new node level view. The new UI right there. Wow. You see nodes in the UI. And if I select the node of interest I see all the ACLs that are applicable there. This is really far more intuitive, right. And I can edit it. I can remove it.
+
+00:37:13:47 - 00:37:33:56
+不明
+And you know what the best part is? I can do this for my prod, my stage and my dev environment right from here. I hope this really makes your job easier when you're managing permissions from here on. All right.
+
+00:37:34:00 - 00:37:59:34
+不明
+This one is the tactical tool for our developers. The visual comparison tool. There's a little trick in here. There's going to be a demo inside a demo. So I want to test if you're paying attention. So here I am developer. And my organization does not want to invest in tools like Cypress or Selenium. Well obviously there's the cost but there's also an overhead.
+
+00:37:59:34 - 00:38:23:45
+不明
+Maintaining the tools, onboarding my teams, training them and so on. So let's look at what we have here. So once again I start from Experience Hub. And straight away I go into cloud manager. And for those of you familiar you it's really easy to navigate to the reports page. Here I see there is a visual comparison report.
+
+00:38:23:50 - 00:38:48:26
+不明
+Wow. I'm very intrigued. So it shows me all the pipelines where this has been run. Let me select the production pipeline. Whoa. I see a handful of reports that show a high divergence and it's been flagged. I definitely want to look at this 88. That's a high divergence. What is going on. So I see that the image on the right is all red.
+
+00:38:48:26 - 00:39:16:19
+不明
+That's all divergence. Very concerning. Let's click on that to see what's going on. No wonder this page has a 500 internal server error. Definitely fixing that right away. And yes this needs to be flagged until it's fixed quickly. Looking through all of the other ones with a high divergence, you can see where the divergence is because it's red, it's so clearly called out.
+
+00:39:16:24 - 00:39:44:00
+不明
+Then there's this one low score. What's going on? Oh I see it's that right search bar on the right top corner that can see is approved. That was a design change. It's fine. This is really incredible. The best part is go to the activities page. You can run this on every full stack production deployment pipeline. It is an explicit step in this pipeline right there.
+
+00:39:44:00 - 00:40:13:30
+不明
+Boom. Click on the view report takes you to the visual regression report. So to summarize not only now you have the ability to do this really important task, saving your team, the budget and all of the associated overhead. You're now equipped with the tools to easily identify where those regressions are and fix them. Gotta love this.
+
+00:40:13:35 - 00:40:40:30
+不明
+All right, this next section our admins and sysadmins. So much love for you. Not at all for getting forgotten. First, one site's optimizer extended to opportunities for our security admins. You're going to love this customer managed keys we've heard loud and clear from you. We're going to give you the ability an extra layer of protection so you control who gets to see your data.
+
+00:40:40:35 - 00:41:08:41
+不明
+Not only that, you get to revoke that access any time and final. So much love here. Release management. How many of you have asked us for giving you control over when Adobe runs auto updates? All right, let's get started. I know you're going to love this. So Sites Optimizer for the security persona. So this is familiar right now this is site optimizer I'm a security admin.
+
+00:41:08:50 - 00:41:34:54
+不明
+Let me filter this on security types of opportunities. Right. And immediately I see some really high risk and very high risk ones like here's a cross site scripting issue. Very high risk. And AI is telling me not just identify to tell me what I need to do to fix this. Wow, I'm totally all over this. Let's look at some of these other ones.
+
+00:41:34:54 - 00:42:03:21
+不明
+They're very concerning. This one says that my third party libraries have code that needs to be on the latest image telling me how to do this. Okay, no brainer. I'm going to be doing this really, really soon. And you can see there's more. I want to look at the course configuration issue because that's really concerning. Once again, auto detected auto suggesting what I should do.
+
+00:42:03:26 - 00:42:17:54
+不明
+This is incredible leverage of AI and content AI services. I can now take my energies and focus them on even more pressing matters related to security.
+
+00:42:17:59 - 00:42:44:52
+不明
+Customer managed keys. Once again, you are all familiar. Early on in this today's session, I showed you this screen coming into Experience Hub. As a security admin, I see all these quick action buttons. Wow! There's a new one called announce Pentesting I love it! This looks like a self-service way for me to inform Adobe that I have a pen test schedule.
+
+00:42:45:01 - 00:43:08:04
+不明
+Normally I'd have to call support to go through all of that, and then for some reason, if Adobe detects an abnormal pattern, they panic and they try calling me. Now I can just do this. So let me select Am cloud service and put in the date when the pen test is scheduled for and the website or domain that it's going to be run on.
+
+00:43:08:09 - 00:43:34:49
+不明
+As simple as that. It's scheduled so much easier. This is this is really cool. Now let's look at customer managed keys. Right. Let me onboard one. I just have to select the website that I want to onboard this for once. Onboarding starts I'm asked for some pretty straightforward information data around this tenant ID, subscription ID and so on.
+
+00:43:34:49 - 00:43:49:32
+不明
+Very straightforward. And right there I have onboarded a customer managed key. And the best part I can delete this and revoke access anytime I choose to.
+
+00:43:49:36 - 00:44:17:04
+不明
+Now for the last one. But it's a sweet one. You're going to love this. How can you better manage when Adobe runs their auto updates? This is where that tricky part. There's a demo within a demo, so pay attention. So here I am, cloud manager, familiar to so many of you. I go into my activity screen and I see there's an automatic updates.
+
+00:44:17:09 - 00:44:43:42
+不明
+But you know what? There's a filter there. Let's check that out first okay I can filter my pipelines. Wow. Based on type of pipeline status. This has got to be so, so effective. Now I select the pipeline that I want. Go to Automatic Updates. There's an update option. Let's take a look immediately I can see there's a quiet hours enabled.
+
+00:44:43:47 - 00:45:11:24
+不明
+Well I could disable it but I'm not going to do that right now. Instead, let me edited. Oh, I can set a window as my quiet hours. Let me change that and let me change it to 9 a.m. and set it for eight hours. Boom. This is awesome. This is when auto updates will not occur. God, I love that.
+
+00:45:11:29 - 00:45:33:12
+不明
+I, I also see there's a way for me to configure and update free period. Just think about it. If there's a big campaign running, you're going to sleep better at night knowing this is not something you're going to have to deal with, right? So let's add an updated free period. Looks like I can define up to a week and up to three per rolling year, right?
+
+00:45:33:15 - 00:45:59:29
+不明
+So let's add one and see what that works like. So I add the update free period I select a week in the future second week of April baby, and it's as simple as that. Now I can see there are three configured on my program. As simple as that. So so many tools that you've seen today for our sysadmins, whether you're security or otherwise.
+
+00:45:59:34 - 00:46:28:17
+不明
+Hopefully this will this is all you've been, many of the things you've been asking for that you can look forward to this year with this. Super excited as we are tad disappointed that this session is coming to a wrap. A lot of these are in early adopter already or will be. Please scan this QR code so you can indicate which ones you would like to learn more about or participate in as we build the product.
+
+00:46:28:22 - 00:46:39:44
+不明
+I'm going to wrap this session. We're going to open it up for Q&A. Thank you so much for being an amazing audience.
+
+00:46:39:49 - 00:46:40:05
+不明
+With.
+

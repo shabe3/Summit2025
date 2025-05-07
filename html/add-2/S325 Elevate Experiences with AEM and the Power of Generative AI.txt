@@ -1,0 +1,432 @@
+00:00:03:45 - 00:00:29:46
+不明
+All right, everyone. How's everyone doing this morning? Hopefully. Good. Ooh, awesome. Well, welcome to day three of summit. The final day. My name is Arthur Gallagher, and I am on the Am product marketing team, and I'm so, so excited to be here with all of you. Hopefully all of you have had an amazing last couple of days of summit, and you are leaving inspired and excited about all of the amazing innovations that we've been sharing with you.
+
+00:00:29:51 - 00:00:56:13
+不明
+So let's dive into today's session now. I'm assuming that most of you, or probably all of you, are aware of the topic of today's session, right? And that topic is country music. All right. Now for the whole session, I promise. But actually we can still pivot if people want me to. Now we'll stick to the actual topic, but I want to start out by telling you a quick story.
+
+00:00:56:18 - 00:01:12:39
+不明
+So I was 12 years old and I had a dream. Now, to be honest, I don't know what 12 year olds or teenagers are dreaming about or doing these days, but when I was 12 years old, my dream was to be a rock musician. And so in order for that dream to be brought into reality, I had to learn an instrument.
+
+00:01:12:41 - 00:01:35:12
+不明
+So one day I picked up a guitar, and I pretty quickly realized that the guitar was not going to be my instrument. To many chords, too many notes. It was too complex. So I wasn't quite ready to abandon my dream quite yet. And so I tried the drums, and the drums worked out much better. I had a good sense of rhythm, and I started to get pretty good at the drums pretty quickly.
+
+00:01:35:16 - 00:01:53:24
+不明
+So that was step one. Now the second step was finding a band. So I found some like minded classmates and we started a rock band together. So if you ask me at the time, Arthur, what type of music did you do you listen to or do you like to play on the drums? I would tell you, I actually have a pretty diverse set of genres that I enjoy.
+
+00:01:53:29 - 00:02:14:55
+不明
+But there was always one exception, and that exception was country music. And at the time, I didn't really understand why I didn't like country music, but I just knew I didn't like it. I didn't like to play it. I didn't like to listen to it. I didn't enjoy it. But now in my adult years, I've started to kind of realize and understand why I didn't enjoy country music at the time.
+
+00:02:15:00 - 00:02:34:51
+不明
+There were two main reasons. The first reason was that if you think about what country music is all about, what is its purpose? It's about storytelling. And think about the types of stories that country music is telling. Stories about drinking with friends and finding love stories that, as a 12 year old, I couldn't really relate to. They just didn't resonate with me.
+
+00:02:34:51 - 00:02:52:14
+不明
+So that was the first reason. The second reason was more on the drumming, on the musicianship side. If you think about the type of drumming that happens in country music, it's all about the storytelling, right? So the drumming and the other musicians have to take a bit of a step back and let that storytelling let the singer be in the spotlight.
+
+00:02:52:19 - 00:03:06:34
+不明
+As the 12 year old who had this newfound set of skills that I was so excited to share with the world and be super flashy about. I wanted to play rock music because that's where you got to do things like huge drum fills and drum solos, and that wasn't what you see in country music. And there's a reason for that, right?
+
+00:03:06:34 - 00:03:24:43
+不明
+Because it's not what's contextually relevant for country music. But it's not just about those things. There's actually a couple of differences in the type of equipment that country drummers versus rock drummers use. So let's take a look. This first drum set, this is kind of an extreme example, but this is more typical of what you would see with a rock drummer.
+
+00:03:24:57 - 00:03:44:27
+不明
+A lot of different drums, cymbals, bells and whistles. It's very complex. And this is what is more typical of what you would see with a country drummer. A lot more simple, pared down, much more user friendly and like I mentioned, there's a reason for this, right? Because you have to think about what's contextually relevant for each style of music.
+
+00:03:44:42 - 00:04:08:09
+不明
+And in country music, it's about that elevation and amplification of storytelling. Now, how does this relate to Jenny? Well, think about why we're all here at summit. It's because we are interested in we work on digital experiences and content, and what is the purpose of those things? It's storytelling. You're telling stories about your brands, about your products, through campaigns, and ultimately you want to let that storytelling shine.
+
+00:04:08:13 - 00:04:29:10
+不明
+So when I think about Jenny, I this is actually the exact direction that I see Jenny I tools going towards, which is you have on the back end this incredible technology. You have the LMS, you have machine learning, all of these complex tools. But ultimately on the front end, you want a really simple, unified, easy to use user interface and experience.
+
+00:04:29:15 - 00:04:49:06
+不明
+So that's exactly the direction I see Jenny moving towards. And that's how we're approaching Jenny Adobe as well. We're taking all that great technologies on the back end, but on the front end we're making things as simple and easy to use as possible. So you might be wondering, how is that actually playing out in the world today? Now prepare yourselves.
+
+00:04:49:06 - 00:05:12:25
+不明
+I'm about to show you a stat that you might find a bit shocking, so brace yourselves. 91% of employees report using Jenny for work. No one seems very surprised, right? Because that's not surprising. We all know that we all use Jenny AI tools on a day to day basis to be more productive and efficient at our jobs. I'm actually surprised that that's not 100%, because I think everyone who uses these tools.
+
+00:05:12:30 - 00:05:33:09
+不明
+But here's the thing. There is a bit of a disconnect because people are using these tools on an individual and team level. But when you actually transfer that to the organizational level, you see a huge drop off. Only 13% of organizations have successfully implemented multiple Jenny use cases. So what is going on there? Why is there that big disconnect?
+
+00:05:33:14 - 00:05:55:43
+不明
+And because of that, we see almost three quarters of organizations struggling to achieve and scale value with Jenny I. So like I mentioned, there's something going on here. We see individuals using it, teams using it, but organization wide, enterprise wide. There's still a lot of challenges with adopting and getting value out of Jenny. So let's try to figure out why that's happening.
+
+00:05:55:48 - 00:06:15:25
+不明
+The main thing, and this is one of the biggest challenges, is that getting started with Jenny is incredibly tough, right? We are all probably familiar with that. And why is that? It's because there's no playbook. There's no guidebook. There's no step by step instructions for how to start using these tools and actually integrate them into your business processes.
+
+00:06:15:30 - 00:06:41:13
+不明
+And let's say you're even taking that leap. You've made that jump into using Jenny tools. Now you're actually adding new tools into workflows that are already incredibly complex. So those are the two main challenges. Getting started is incredibly hard. But there's more. Let's actually dive into a few challenges around adopting Jenny and getting value out of it. The first is insufficient context.
+
+00:06:41:13 - 00:07:02:42
+不明
+And what does this mean? Think about when you're using a tool like ChatGPT. You have to give it an input that has sufficient context to get a strong output. And that is exactly how there's this challenge with getting great outputs from Jenny AI tools for Digital Experiences and content. Because a lot of times you don't have that sufficient context around your content, your data.
+
+00:07:02:47 - 00:07:36:20
+不明
+The second piece is around unclear use cases. This one's pretty straightforward, but think about think about it this way. A lot of times we see all these tools, these point solutions that are solving for very specific things, but actually figuring out how to integrate them into your companies and get value out of them is quite difficult. And the last one, this one is one that's been consistently brought up for the last several years since AI tools started to really explode, but it's one that we've heard time and time again from our customers is concerns around AI governance and compliance.
+
+00:07:36:25 - 00:07:56:37
+不明
+The technology has started to really progress. There's been massive innovation, but this concern around governance and compliance continues to be brought up. And then across all of these, there's a couple of other things a lack of unification. When you think about all the different tools that exist, they need to be unified. They need to be integrated into existing workflows.
+
+00:07:56:42 - 00:08:17:20
+不明
+And if there's a lack of that unification, it becomes incredibly difficult to achieve value. And then this last piece, this one I can't emphasize enough, is too much of an emphasis on technology over people and processes. So much of the time we see this amazing, flashing, flashy new technology and we're like, oh great, this is going to drive so much value.
+
+00:08:17:33 - 00:08:37:55
+不明
+But we forget about the change management piece. We forget about how important it is to build processes and people and talent and skill sets to actually leverage these tools and gain value. So we're going to talk about how we're addressing the all of these challenges through our products and our solutions. But first, I want to just kind of set set the groundwork for what we're going to talk about today.
+
+00:08:38:00 - 00:09:00:33
+不明
+This is how we think about our AI vision for Am. We are building solutions that are ultimately helping lower the barrier to entry for digital experience practitioners like yourself. As I mentioned, getting started is incredibly tough. So we want to lower that barrier to entry through our products. Second, we are building unified solutions that fit seamlessly into existing workflows.
+
+00:09:00:37 - 00:09:19:07
+不明
+We want to make sure that these tools are able to be integrated so easily into your workflows that it becomes a no brainer to actually adopt them. And lastly, this one is super important. We're building tools that are designed to maximize business impact. We're moving from solving for individual use cases to actually solving for our entire business objectives.
+
+00:09:19:12 - 00:09:35:55
+不明
+And we're doing that in a way that's not going to significantly increase your operational lift, because if you're introducing new tools, you don't want to actually introduce a lot more complexity. That's ultimately going to cancel out the value that you're getting from them. And ultimately, what I want you to all become by the end of this session is that country drummer.
+
+00:09:36:00 - 00:09:56:51
+不明
+I want you to be able to use these tools and think about these tools in a way that's going to ultimately elevate and amplify storytelling. So let's get into our approach and how we're actually solving for these challenges. So challenge number one was context. And we are thinking about building solutions. And we're building our solutions in a way that's going to be rooted in data.
+
+00:09:56:51 - 00:10:23:22
+不明
+Content rooted in data. Because the context and that data is so critical to drive relevant and effective AI outputs. Second is a genetic architecture. I know you've heard about agents probably 100 times over the last couple of days, but we are also using agents and then a genetic framework for all of our solutions that we're building for em, because they're helping us redefine how these complex tasks are being tackled.
+
+00:10:23:27 - 00:10:45:01
+不明
+And then last but not least, enterprise ready governance and compliance. Everything we're building, we're taking an AI compliance and governance first mindset to make sure that the solutions are built for the needs of the modern enterprise, with trust, privacy, safety, responsibility in mind. And then across the bottom here, all of these tools that we're building are unified.
+
+00:10:45:01 - 00:11:09:32
+不明
+They're integrated. They're meant to work together and drive value together. And ultimately we're building in a way that's going to make this technology easy to adopt across your organizations, so that getting started isn't as hard. Now we're going to go into each one of these individually. So let's start with context. And I included this kind of funny image here because it's a great illustration of what happens when you don't have enough context.
+
+00:11:09:45 - 00:11:24:04
+不明
+Let's say you are a dog food brand and you want to create an asset for a marketing campaign. You want to show the dog, you want to show the food. But maybe you didn't give it enough context, and suddenly the dog is on the moon. Now, as far as I know, there's no dogs on the moon quite yet.
+
+00:11:24:05 - 00:11:44:24
+不明
+Maybe one day, but not right now. And so that just doesn't feel right. And so because of that, you can see that context is critical. And so the context and the data is what really allows these AI tools to shine. And really drive maximum impact. And so what happens when you have the context and the data. You get better content intelligence.
+
+00:11:44:24 - 00:12:08:19
+不明
+Because once you have that context and intelligence in your Dam or your repository, it can drive much more relevant outputs. And ultimately, what does that lead to? Stronger performance for your content and your experiences. So that is context. So what are we doing from a product standpoint? Well, we have a couple of foundational services that we're introducing to help with context and data.
+
+00:12:08:24 - 00:12:36:07
+不明
+The first of these is called our content AI Foundation. This is basically a foundational layer that sits across these tools that allows you to unlock and amplify the value of your content through intelligence, ultimately letting you use, reuse, and activate your content in more effective ways. And what this is doing, it's actually using this semantic aggregation and indexing to have all of this intelligence about the content that lives in your repository or your dam.
+
+00:12:36:12 - 00:12:59:53
+不明
+And ultimately, what that's going to let you do is that's going to increase your relevancy, because the AI tools are leveraging that intelligence, though, that information that we have about your content to actually activate more effectively. The second piece, and this one, is one that I know that all organizations are really interested in, and it's super important to them, is on brand content fueling more impactful experiences.
+
+00:12:59:58 - 00:13:21:33
+不明
+We have something called the Unified Brand Service, which basically allows you to input your brand guidelines to ensure that all of the outputs of of the journey AI tools are compliant, approved and ready to be activated. So that's things like your brand voice, your channel guidelines, your image guidelines, and your accessibility standards. So all of that lives within this unified brand service.
+
+00:13:21:37 - 00:13:42:29
+不明
+And once you leverage one of the tools, once you prompt one of the tools to actually drive it output, it's going to be feeding from this unified brand service to make sure that everything is on brand and compliant. So that is a really great foundational service as well. Now let's take a look at how this actually comes together in action in one of our gen AI tools.
+
+00:13:42:34 - 00:14:14:57
+不明
+This is generate variations now generate variations was announced last year at summit. But this year we're actually launching a new and improved version of it. And what's really exciting about this new version of Generate Variations is this actually a contextual, lead driven experience? So let's say you have a web page. This tool generate variations is able to actually see the context of your page, all of the content, the copy, the various content fragments, the images and use that to inform the variations that you're able to generate.
+
+00:14:15:01 - 00:14:37:01
+不明
+It's also using your overall Am content. So that content I foundation that I talked about as well as your brand guidelines to make sure that all of the variations that are being generated of the content of the copy are on brand compliant and ultimately as relevant as possible to your specific brand. And what's exciting is that later in today's session, we're going to see a live demo of this tool.
+
+00:14:37:06 - 00:15:03:20
+不明
+So stay tuned for that. Next I want to talk about the second piece, the unclear use cases and how we're solving for that with our agenda approach. So agents are really becoming a fundamental part of how we're simplifying tasks. And what are we doing. We're freeing up valuable resources. So let's think about the existing AI approach first. The existing AI approach was individual tools for specific tasks.
+
+00:15:03:25 - 00:15:24:56
+不明
+You had tools that were solving for a very specific task or use case. You also had directed activity where you had to give the tools, specific instructions for what it needed to do and limited reasoning capabilities, which means that those tools are not able to make decisions on your behalf. They're also not self-learning or optimizing with the AI for Am.
+
+00:15:25:01 - 00:15:50:48
+不明
+We're actually moving towards unified workflows for complex tasks, autonomous activity, so you don't need to give it as much input. It's actually able to do all these things on your behalf. And advanced reasoning and self-learning, which is also critical because it's able to optimize and become smarter over time. Now let's take a look at this in action. So this is a typical unified end to end AI workflow that we're using to simplify these complex tasks.
+
+00:15:50:52 - 00:16:09:09
+不明
+You might have seen of some of these things in other sessions, but these are some of the innovations that we're also launching, which is this experience hub, which is a unified entry point for em. So what happens is a user inputs their their objective into that. Maybe their objective is to build an experience for a specific audience or a specific objective.
+
+00:16:09:14 - 00:16:36:12
+不明
+And that experience hub is then able to take that request and actually activate this layer of self-learning agents and the orchestration layer that works to actually make sure all of the agents are working together correctly. And it's leveraging this content AI foundation that I mentioned as well as knowledge about your content, including content, performance, CTR data, other telemetry that we have around engagement that ultimately helps inform what those agents are able to do and what is the output.
+
+00:16:36:27 - 00:16:59:06
+不明
+The output is an experience. Or in the case of site Optimizer, which you've probably heard about as well, it's optimizing your web page to be more effective. So that is the kind of an example of the unified end to end AI workflow powered by agents. Now, I want to quickly dive into two of those two of those features, the experience generation and the Site Optimizer feature.
+
+00:16:59:11 - 00:17:18:30
+不明
+I'm not going to go too in-depth because there actually were individual sessions that really dove deep on each of these, so please do check those out afterwards if you're interested. But experience generation is a great example of how we're bringing this agent tech framework to life. Experience generation offers you to create winning experiences faster. You input your objective and this a genetic framework.
+
+00:17:18:30 - 00:17:40:43
+不明
+These agents are able to actually build an entire experience for you very, very quickly. And what happens is it's able to actually look at your content, look at that content area foundation, and recommend the most effective content to use for your experience, recommend specific templates and layouts, and ultimately build that experience in minutes instead of days or weeks.
+
+00:17:40:48 - 00:18:06:07
+不明
+So what does this lead to? It leads to improve productivity. Because I mentioned the time to actually build these experiences is decreasing significantly. It's also increasing your content ROI because you're ultimately able to reuse and reuse and repurpose your content in much more effective ways. And it's maximizing your budgets. It's lowering your costs because you're now no longer reliant on third party agencies or partners to help with building these experiences.
+
+00:18:06:12 - 00:18:28:03
+不明
+And what is it doing? It's ultimately doing all of this with brand integrity and compliance in mind. So that's experience generation. Now quickly, I want to also touch on, Sites Optimizer, which is one of those one of the most exciting launches that we've had, at summit. And so this is a great example of how we're moving from use cases to business objectives.
+
+00:18:28:08 - 00:18:51:20
+不明
+You're when you think about Sites Optimizer or you think about what it's actually doing, you're not going in and saying, I want to just fix broken backlinks. What you're doing is you're saying, I actually want to increase engagement or traffic or conversions on my page and Sites optimizer, and this generic framework is going in figuring out what needs to be done to get to that business objective and then autonomously making that happen.
+
+00:18:51:25 - 00:19:14:35
+不明
+So you're auto identifying these opportunities to optimize the page. Your it's also auto suggesting what needs to be done and auto optimizing and implementing those optimizations on the fly. So that is a great example of how we're moving again from use cases to business objective, thinking much more holistically about how we can drive impact with these tools. So that's on the unclear use cases and the agenda framework.
+
+00:19:14:36 - 00:19:38:13
+不明
+Now the last piece around governance and compliance, it's obviously top of mind for everyone. And there's so many different pieces and complexity to governance and compliance, digital rights management, access permissions, data privacy, security, safety. We are building solutions that are actually addressing all of these. Now, I don't have enough time to cover all of them today, but I do want to cover a few.
+
+00:19:38:18 - 00:20:05:54
+不明
+So the first one is smart tag enhancements. Essentially, it is helping you use Gen. I leverage AI and I vision technology to look at all of your assets in your repository and your dam and help apply relevant metadata at scale. So that's much less of a manual process. So the AI vision is able to see things like product names, brand names, logos, as well as information about how the the content in the asset is meant to be used or reused.
+
+00:20:06:09 - 00:20:28:51
+不明
+And it applies that as metadata, making your metadata much more effective and accurate. So that's smart tag enhancements, which helps with compliance because you're ultimately able to activate that content more effectively. If you have all that information and metadata. And the second one is content credentials, which is essentially these additional details about the content that is attached to that specific asset.
+
+00:20:29:00 - 00:20:57:31
+不明
+And it will stay attached to that asset even if you repurpose it or reuse it or make a variation. And what it's doing is it's applying information about who made the asset, how that asset was made with a gen AI tool used to make it, what tool was used. And ultimately this helps you with that. Digital rights management thinking about how the asset is actually going to be activated, what channels it can be activated on, and just leaving a really great trail to actually be able to track how these assets are moving through your ecosystem and workflows.
+
+00:20:57:36 - 00:21:21:34
+不明
+So that's content credentials. Now, I could stand up here all day and talk you through all of the various innovations we have, because we do have so many more. This was just a little bit, but that would not be fun for anyone. And so what I do actually have for you, which is going to be a lot more exciting and fun, is I have a real world example of actually how Adobe has used one of these AI tools to drive immense impact.
+
+00:21:21:34 - 00:21:42:43
+不明
+And so I'm going to bring up Emily Kalman from the adobe.com team, and she's going to walk you through how her team was able to use generate variations to actually drive a ton of impact on content, velocity and experimentation. So, Emily. Hi, everyone. As Arthur just mentioned, my name is Emily Kalman and I'm a senior product manager on the adobe.com team.
+
+00:21:42:48 - 00:22:08:43
+不明
+I specifically focus on personalization and generative AI, and what I will be showing you today is a real life success story of how we've used our own products within our Creative Cloud business to drive content, as well as success. So thinking about our adobe.com business, again, focusing on on the Creative Cloud piece here, we run anywhere from 100 to 150 over, AB tests every year.
+
+00:22:08:47 - 00:22:33:25
+不明
+Now these AB tests span personalization aspects, you know, content changes as well as new product releases and so much more. To date, most of these AB tests have anywhere from 2 to 3 different types of content variations that we are testing and looking for insights on. Now, this typical AB test lifecycle from ideation all the way through to execution lasts about six weeks.
+
+00:22:33:30 - 00:22:55:23
+不明
+And throughout that process. And I'll get into this in a few slides. You'll see there's a ton of different experts and cross-functional teams that need to come together to actually execute each and every one of those 150 AB tasks. Now, an added layer on top of this is in addition to all the AB test. We actually have personalization that runs across all of our pages as well.
+
+00:22:55:28 - 00:23:19:07
+不明
+Now these personalization aspects can range anywhere from 1 to 30 different variations of what is changing on the page. So you can imagine that's a whole lot of content. So what our business problem is, how do we increase the volume of these tests of these personalization while maintaining that business success and using the teams that we have. Right.
+
+00:23:19:12 - 00:23:41:16
+不明
+And that's where Jenny has come in. So as Arthur mentioned earlier, and as you'll see in a demo shortly from Corey, we've been using the Generate Variations tool, which is what you're seeing on the screen today. And this is helping us rapidly create content and not only content, but brand ready content. So now you may be asking yourself, this sounds great, but where do I get started?
+
+00:23:41:16 - 00:24:06:25
+不明
+And how do I actually use this tool within my team? So I have three steps outlined here, which I'll go into in a little bit in more detail. May look simple, but I know you're probably all thinking this is way more complex. So as I mentioned earlier, on the right hand side of the screen you can see that are adobe.com teams that come together to actually launch a task, are cross-functional in nature, and have experts from across different fields.
+
+00:24:06:30 - 00:24:28:49
+不明
+So when when it comes to wanting to introduce an awesome and cool product like this to help, you know, drive faster and better results, we need to make sure. And we needed to make sure that the technical scalability of this product was actually right for our team. So that's where I partnered really closely with people like Corey and the rest of the Am team to make sure that the product itself was right for our needs.
+
+00:24:28:55 - 00:24:51:40
+不明
+And again, going back to that problem that I was mentioning earlier, we have a ton of content that we cycle on adobe.com. And the question is how do we do that faster? And this tool is the perfect fit for that. So next I need to assess as the product manager okay. Where does this tool fit within our really complex processes and cross-functional team today.
+
+00:24:51:45 - 00:25:22:30
+不明
+So I spent some time thinking through and making suggestions. And I think the really key important part of introducing gen AI into your processes today is the flexibility and really working with those experts in the room and brainstorming with them on how this tool can actually come into the stack. Because you may have one idea, but then when you go and that's the third step here, and you go to get that buy in, you'll notice that those experts are bringing different ideas to the table or things that you may not have had visibility into.
+
+00:25:22:35 - 00:25:48:46
+不明
+So again, it's an iterative and cyclical process of how you brainstorm and really partner with all of these cross-functional team members. I would say the most important thing, specifically for me as a product manager throughout this process was having empathy and really meeting my teammates where they were. I was hearing very real concerns. I was hearing concerns for my designers, hey, this, you know, and copywriters, this tool is going to take over my job.
+
+00:25:48:59 - 00:26:10:30
+不明
+And it was my job to reassure them that it wouldn't. And it was actually the power that they had to combine with this tool and allow us to really work smarter and not harder. So how did we actually put this into action? This approach that I'm about to show you is what I like to call the classic crawl, walk, run.
+
+00:26:10:35 - 00:26:31:55
+不明
+So how we started is within this crawl phase, a small tool introduction. I went to a few different power users on that cross-functional team and explained what this tool was. I brought experts into the room, like Corey, to really walk the team through and show how, again, these tools were going to make their lives easier and not replace them.
+
+00:26:32:00 - 00:26:53:48
+不明
+The second piece is again really calling out that impact of marrying that human assistance with the gen AI piece, and bringing kind of all aspects together and just the reassurance that this was going to make their lives easier and allow us to scale a lot more quickly. Now, lastly, the last phase of this was actually putting it into action.
+
+00:26:53:49 - 00:27:31:19
+不明
+So rather than starting really big and using this tool for a task that was running on one of our our huge trafficked pages, like maybe the home page, we decided to start smaller and pick pages where we would see impact, but it would really be that proof of concept. So now this has led us into our walk phase, which is where we are right now, learning how we can expand this tool, not only expand it within our teams, having, the combination of product managers and designers using this tool and really sharing those insights out to others on their team and bringing more users into the tool to see the value.
+
+00:27:31:24 - 00:27:48:39
+不明
+The second piece is leveraging all the amazing technical enhancements that come that have come out in this tool. So, for example, when we started, another concern that I was hearing from the design team was, hey, you know, this tool is spitting out different copy variations, but how do we make sure that it's on brand with all our guidelines?
+
+00:27:48:39 - 00:28:10:48
+不明
+How do we make sure that we are following character counts and all of those specific guidelines we have to follow before we ship anything on adobe.com? And again, that was the partnership with Corey and his team to really understand how the tools within, can help us do that. So reassuring that again, those brand guidelines are built in.
+
+00:28:10:48 - 00:28:40:23
+不明
+And when designers are in here generating and brainstorming, they can actually see what that impact would be. And lastly, as we started to see positive results, which I'll get into in a few slides here, we were able to continue to grow right? Numbers speak for themselves. So where do we go next? And that's our run phase. How do we continue to optimize integrating this tool into not only our testing frameworks, but other frameworks as well?
+
+00:28:40:28 - 00:29:00:01
+不明
+We have new products that come out all the time. We have promotions that run. How do we leverage this goodness of gen AI to help our entire team outside of just testing, work smarter, not harder. Additionally, like I said, this use case is very specific to my Creative Cloud team, but we have so many other teams here at Adobe.
+
+00:29:00:03 - 00:29:26:37
+不明
+How do we expand this outside? How do we bring this to all parts of the site, and all parts of each of the channels that go into driving that customer experience? And lastly, how do we continue to improve the output in the content so that what our designers and our product teams are inputting, is, is giving them these valuable outputs that they can lift and shift and maybe just tweak a little bit rather than really have to sit there.
+
+00:29:26:38 - 00:29:49:09
+不明
+And again, I've said it so many times because it's so true. But working smarter and not harder. So what you've all probably been waiting for, what's the impact we've seen? So last year, in 2024, when introducing this tool into our workflows, we actually were able to execute of those over 150 tasks, about 20% of them using gen AI.
+
+00:29:49:13 - 00:30:12:46
+不明
+Now with that, we were able to unlock over 200% more in content variation. So I mentioned at the beginning we have anywhere from 2 to 3 sets of content per task. With this tool, we've been able to create a lot more quickly and scale that. In addition, I mentioned that six week timeline with that huge cross-functional team from ideation through execution.
+
+00:30:12:54 - 00:30:38:15
+不明
+With a tool like this, we've actually been able to cut that down to only four weeks. On top of all of that, which is amazing from a process perspective, from a business perspective as well, we've seen over 25% growth in the conversion and the lift that we're seeing from each of these tasks. And this is because when introducing this tool, we've really been able to push the bounds with our content in ways that we may not have previously.
+
+00:30:38:20 - 00:31:03:34
+不明
+So with all that being said, as we head into 25, if we were to increase that 20% number of tests run using this JNI tool to just 50%, which is no small feat. But but we're ambitious. We would actually be able to increase our entire test velocity by 10%, using all of the same players in the room and using all of our same teams.
+
+00:31:03:36 - 00:31:29:24
+不明
+Again, that concept of working harder, smarter, not harder. So I leave you with three takeaways and tips, because what I described took months of time to build. And I understand it's not as simple as I may make it sound. The first Bank I challenge you to be creative. We all work with these complex processes that have been built out for years on years, but challenge it.
+
+00:31:29:38 - 00:32:00:02
+不明
+Ask that question why can't we change it? Hey, this tool may actually allow us to unlock something that we never knew we had the potential to fix. Next, take risks. Of course, we all work in business and we can't be taking these huge risks. But start small and be very calculated. I gave you that example. We didn't run our first gen AI test on our most trafficked page, but we really started, and now we're at a point where we are running those tests on our most traffic page.
+
+00:32:00:07 - 00:32:22:34
+不明
+And lastly, share often not only share out with your teams, but share up with your management as well. When you really push the envelope and make these changes by taking risks and being creative, you want to be able to show that value and that will just continue to help you get your buy in for programs and evangelizing all of this gen AI across the board.
+
+00:32:22:39 - 00:32:40:48
+不明
+So that is our success story. I hope by the time next year these numbers will have grown even more. And with that next, I will pass it off to Corey, to Lemba, who is going to be walking through the Generate Variations tool with a demo and you'll be able to see why we've seen so much success with it on adobe.com.
+
+00:32:41:02 - 00:32:45:58
+不明
+Thank you.
+
+00:32:46:03 - 00:33:15:24
+不明
+Thank you Emily. All right. So yeah, let's check out the the tool that Emily was just talking about. So, this is what we call generate variations. We do have this available in multiple surfaces. This is using document based authoring, but we also have it in content fragments and in the universal editor as well. So first we select the content that we want to generate some variations for.
+
+00:33:15:28 - 00:33:43:10
+不明
+And then we have some suggestions down here that we can use. I am also going to add an audience here. We could use Adobe Target that's linked up to, target and CDP or for this scenario, I'm just going to use, a generic audience and we'll go ahead and select generate. So while that's working, a couple of things that this is doing, that Arthur was talking about.
+
+00:33:43:21 - 00:34:08:27
+不明
+So first, is in context of the page. So the first thing that it does is analyzes, the page and gets some understanding of what this page is about. What's the context, what's the block that's being used and what we're trying to do? It also is using content. I so content I it's our foundational layer.
+
+00:34:08:41 - 00:34:37:49
+不明
+You can see right there finding relevant content with content I. So what is content I. We have vectorized all of the am content, the content repo and so what that means is we can start doing similarity searches. So as, as we query, the LM, the, a generic workflow, it goes it looks at all of our AME content and figures out how can we ground this response in existing and content.
+
+00:34:37:49 - 00:34:59:36
+不明
+So LMS are very good at being generalists. What we want to do is make them more specialized into what we're actually trying to do. And so we can do this, with, with content. I. All right. So we have a couple of generations here. We can start previewing this content and seeing what we like. We also have the brand scores here.
+
+00:34:59:36 - 00:35:33:28
+不明
+So this is coming from the brand guideline service, which Arthur was mentioning. So this is on brand and we can see all of the guidelines, that were met here. And, from here, we can, push this into Am and make any of the, needed changes, that that we need. And, I know this is a quick demo, but, this is available again in all, and all surfaces, document based authoring, a universal editor, and content fragments.
+
+00:35:33:28 - 00:35:54:30
+不明
+We are also working on, the more traditional, wizzy wig editor. That's in a in cloud. So hopefully we're going to be getting that, out later this year. So one of the action items that you can do, you know, go home, and, and enable this feature, there's documents out there on how to get that.
+
+00:35:54:30 - 00:36:02:33
+不明
+And we'd love to hear your feedback. Yeah. And with that, I will hand it back to Arthur.
+
+00:36:02:38 - 00:36:24:31
+不明
+Awesome. Thank you so much, Corey. How incredible is that tool? Right. I've seen that demo many times, but I'm still always impressed at how easy it is to make those variations, how easy it is to actually use that tool and gain immediate value. So that's really exciting. And as Corey mentioned, you can use this today. So definitely do not wait because we're seeing immense value both at Adobe but also with our customers seeing a lot of value from the tool.
+
+00:36:24:36 - 00:36:49:58
+不明
+So I want to bring us home and wrap us up here. So as I mentioned, we have all of this AI and the genetic technology and all these innovations that we're launching to help you power every single step of the content life. Now, I didn't have time to walk you through all of them, but I do want to emphasize that we have all of these tools that we're building and launching that are supporting use cases across the entire content lifecycle.
+
+00:36:49:58 - 00:37:16:54
+不明
+So starting with generation, which is all about finding the right content, using the right content, repurposing the right content, and ultimately turning it into these intent driven experiences. Then there's the activation piece. So taking that content, taking the experiences and actually making sure that it's ready to be activated across different channels, making sure that it's being activated with trust and governance and compliance in mind across channels audiences.
+
+00:37:16:58 - 00:37:41:33
+不明
+And last but not least is optimization. So this is where Insights Optimizer comes in, because we're also making sure that as you're building these experiences, as you're activating them, they're being optimized for performance. They're being optimized to ultimately drive business value, to drive engagement, to drive conversion, to drive traffic, and ultimately allow you to make these informed decisions even faster around content and experiences.
+
+00:37:41:45 - 00:38:10:25
+不明
+So what do I want you to walk away from this session knowing? So the first is simplification and unification, right? As I mentioned, we are lowering the barrier to entry for digital practitioners like yourselves to use and get immediate value from JNI. I as I mentioned at the top of the session, getting started is incredibly tough. So anything we can do to lower that barrier to entry is going to drive immense value.
+
+00:38:10:30 - 00:38:34:53
+不明
+The second piece is I built for the enterprise. We are building these tools, these features with enterprise governance, compliance, trust, safety standards in mind. We're making sure that that content intelligence is being built in so that all of your content and experiences that you're creating are compliant and ready to be activated safely. And lastly, we're designing for impact, and this one is so critical.
+
+00:38:34:55 - 00:38:59:58
+不明
+We're building tools that are going to be focused on maximizing business impact, really focusing on moving from use cases to business objectives, and ultimately making sure that these tools are driving value without increasing your operational left, without making things more complex than they already are. So those are the three main things. But as I mentioned, people and processes are so critical.
+
+00:39:00:00 - 00:39:25:35
+不明
+The change management piece is so critical in order to actually see and achieve and scale value from these tools, you need to actually have this framework, this this foundation of people, processes, workflows in place to make sure that as you integrate these tools into your businesses, into your workflows, that they start to see immediate value, because we, as we all know, if tools are being introduced and people don't see value for them, they start to quickly get abandoned.
+
+00:39:25:49 - 00:39:52:50
+不明
+And we don't want that to happen. Right? So people and processes are so critical and I can't stress that enough. So with that, that's all we have for you today. But a few things I want to note. Please make sure to take the summit survey at the take the survey in the summit app. Not just to share feedback with us, but also to enter to win some great prizes and additionally, we also want to leave you with this query if you want to.
+
+00:39:52:55 - 00:40:16:30
+不明
+So we mentioned this briefly, the, experience generation. So this is really an evolution to, what I showed you was generate variation. So generate variations was very block specific. We've evolved this into creating entire landing pages, from, from a content brief. So this is, something I'm working on. It's an early access.
+
+00:40:16:35 - 00:40:39:59
+不明
+The big difference with am early access is not like a beta program. It's, it's very direct access to the product and engineering team. So unfortunately, you all have to talk to me a lot. But you'll have first hand access to the latest and greatest generative AI features that I am is building. So I love to talk with you, after, after summit, with this.
+
+00:40:39:59 - 00:40:59:07
+不明
+And. Yeah, we'll get on the call with, with myself and the engineering team, and we can figure out if, if it's a good, fit for you to, to work through. I was just actually talking to the team, earlier this morning. We have this open to, cloud, edge delivery services, potentially even on prem.
+
+00:40:59:07 - 00:41:17:58
+不明
+So whatever the flavor of AMM that you have, we would love to talk with you and see if we can help you generate, great content. Awesome. And. Yeah, if you have any questions, we're well right here. Yeah. Thank you so much, everyone. We'll open it up for for Q&A. So please feel free to ask questions.
+
+00:41:17:58 - 00:41:19:08
+不明
+And, if you do have any.
+

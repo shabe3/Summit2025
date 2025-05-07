@@ -1,0 +1,564 @@
+00:00:00:01 - 00:00:14:56
+不明
+Everyone. Thank you for joining us this afternoon. It's been a wonderful summit so far. I hope everyone's having a good time. Is everyone having a good time?
+
+00:00:15:01 - 00:00:38:26
+不明
+A little bit more energy. Everyone having a good time. There we go. Perfect. Thank you so much for joining us. This is one of our first customer sessions. Today we're going to talk about a very interesting case study. And, today. So my name is Nicole Marchant. I'm a part of the Am sites product marketing and strategy team.
+
+00:00:38:31 - 00:01:12:25
+不明
+I'm joined by couple Gupta, who's the vice president of it at UPS, and Sean Steinmeyer, who's one of our senior software engineers at Adobe. And, today we're going to talk about how you, modernize their global website. And so I'm going to start off by talking a little bit about the evolving role of content and why content is different for organizations today and why they what they need to keep in mind, as they embark on a variety of digital transformation initiatives and why content is the center of it all.
+
+00:01:12:30 - 00:01:34:46
+不明
+Thereafter we're going to have couple and Sean talk about how you how the UPS implementation went, see how the solution actually looks like in real life. And then we'll put some time there to, to kind of take some questions from the audience. We're anticipating we'll go about 40 ish, 40, 45 minutes and then have ample time for Q&A.
+
+00:01:34:51 - 00:01:55:33
+不明
+And if you if you don't get your questions answered, feel free to walk up to us once the session's done. But more than happy to have a chat. But, with that, is is everyone okay if I begin? Yes. All right. Perfect. Couple of housekeeping items before I start. So we'll kind of go through the entire presentation.
+
+00:01:55:38 - 00:02:20:40
+不明
+Keep your questions in mind. There's a bunch of different microphones in the aisle when we get to the Q&A section. Do feel free to come up to the microphones and ask your questions. We'll we'll be happy to take them then. With that being said, let's start off with a very interesting, kind of topic. Like who out here by a show of hands remembers their wedding.
+
+00:02:20:45 - 00:02:48:24
+不明
+Looking at how quickly hands went up, I'm sure everyone loved their wedding. Been there. Now, second question. Who remembers planning their wedding? And tell me it wasn't like this. Yes. Would you all agree that planning your wedding was difficult? Yeah, right. And it is because, well, wedding planning is not simple. You have people arriving from all over the world.
+
+00:02:48:35 - 00:03:10:20
+不明
+People coming from different cities. Some are flying. Some are driving. You have so many different stakeholders. You got caterers. You got hotels and accommodations. You have to think of activities. You've got to consider dietary restrictions and needs. You got to arrange transport. And guess what? If you miss a single detail, it can make or break the entire experience, right?
+
+00:03:10:20 - 00:03:27:01
+不明
+It can derail the entire event. And every moment really counts. And every detail matters. And so you're kind of trying to coordinate schedules. You're trying to make sure your guests are arriving on time. You're trying to make sure the food is fresh. You're trying to make sure the ice sculpture doesn't melt. You're trying to make sure your flowers are not dead.
+
+00:03:27:13 - 00:03:51:36
+不明
+You know, you're constantly having to update people on plans. This keeps happening right? It's. And it's not easy. And guess what makes it even more difficult, right? It's so difficult because now you have your caterer who only takes orders by the phone. You have your guests that are reaching out to you constantly via text message and social media.
+
+00:03:51:40 - 00:04:18:05
+不明
+You have your florist that has a website and requires that you go on their website to place an order. You have all these different systems all over the place that you have to contend with, right? Just now imagine for a second what this means in terms of complexity. If planning one wedding was this difficult. Multiply the number of systems by dozens.
+
+00:04:18:10 - 00:04:45:29
+不明
+Imagine the complexity across dozens of systems, across thousands of different routes, across millions of customers, right? And that is the complexity that organizations like UPS have to deal with every single day. And so we're in a we're in a world today where the landscape is really changing for customers, right. Customers really want more. They're expecting that you have, you know, really fast websites.
+
+00:04:45:29 - 00:05:07:13
+不明
+They want seamless experiences, like no matter where they access your information. They want, to be able to, of course, access it across multiple channels, but they also want to be able to get to the right information faster, right? They expect brands to know what they want before they even, know what they want. Sometimes they expect brands to preempt their intent.
+
+00:05:07:16 - 00:05:30:16
+不明
+Right? And all in a world where there's an increased emphasis on privacy. Right. And there's just isn't that much information available for brands to be able to, make these decisions with. But also in a world where these trends have meant that the, the entire landscape of the industry is changing, right? There's a bunch of new industry trends that are emerging.
+
+00:05:30:20 - 00:05:59:52
+不明
+Lots of you would have heard of, I, I'm sure how many of you here has used ChatGPT or Bing or some version of, a platform of that sort. In recent days, I see a whole bunch of hands right? In earlier days, when you thought of creating content right before for web experiences. You said, okay, I'm going to create all these different pieces of content that's going to align to all the different people that are visiting my website.
+
+00:05:59:57 - 00:06:19:18
+不明
+Now we're in a world where a lot of these interactions can happen off your website as well. So if you go on to Google and you ask a question, there's a pretty strong likelihood that there will be a response in front of you before you even get to your website in the first place. Right. And there's this.
+
+00:06:19:18 - 00:06:49:48
+不明
+There's this kind of shift from focusing just on SEO to focusing on both SEO and the term that we use is GE or generative engine optimization. The idea here being that if in the past you just needed more content to personalize, you're now in a world where you need even more content because you expect that these engines, these platforms, these tools are scraping your website and providing answers about your brand even before they get to your website.
+
+00:06:50:01 - 00:07:15:54
+不明
+Right. And so it also means that you need to have a scalable way of creating more content, right? It's really you're trying to get to this content faster. You want to make the entire process more efficient because you just need that much more. And but also in a world where customers want to take matters into their own hands, they want to be the ones that are actually orchestrating experiences themselves.
+
+00:07:15:54 - 00:07:41:33
+不明
+They want to define like what their interaction with the brand should look like. And all in a world where when you're using these AI tools, there is an underlying there's an underlying expectation of trust and authenticity. How do you remain, trustworthy? How do you remain authentic in a world where, a lot of the content that may be created may not be create, may or may not be created by, an individual in your team.
+
+00:07:41:33 - 00:08:14:48
+不明
+Right. All this goes to show that content. The role of content in the in the industry is changing, right? For organizations now. Whereas earlier content was all about conveying some information, content today is now critical. It's at the very center of a business for an organization strategy. Content is helping not just, define what your strategy should be, but also drive outcomes that are matter to your business.
+
+00:08:14:53 - 00:08:36:19
+不明
+Right. And so that's why content is really, really important. But it also means that, you think of the way organizations are managing their content today. It's not enough, right? If all you want to do with your content is just like, you know, build and manage and deliver content across multiple channels, you know, any platform can do that.
+
+00:08:36:20 - 00:09:01:18
+不明
+That's table stakes in today's day and age. But we still have so many customers across the thousands of customers that we have at AMP sites. We still have heard over the years customers say things like, you know, it's taking us too long to build content. It's, this our web pages aren't performant enough. We're spending too much time with downtime, and we're losing, lots of money to maintenance.
+
+00:09:01:23 - 00:09:22:09
+不明
+We don't have our workflows built out properly. We're spending so much money, we just don't know what works. How do we drive ROI, right? These are the kind of sentiments that we hear on a regular basis from organizations using a variety of different tools. And in response to this, we kind of decided that we wanted to change.
+
+00:09:22:14 - 00:09:47:35
+不明
+At a product level. And we kind of launched in 2023. We launched, edge delivery services. How many of you out here are familiar with the term engineering services? That's great. Last year, when I asked the same question to my audience, I had much of your hands, and I'm happy. It means we're doing something good. Edge delivering services has been one of the latest innovations that we brought to market.
+
+00:09:47:40 - 00:10:11:33
+不明
+It is an innovation that's built on top of Am as a cloud service. It is also, the innovation which has seen the fastest uptake of any of our delivery models in the past. We have in, in a matter of time, just a short period of time from 2023 of August. August of 23. We've seen about 400 to 500 more customers just onboard in such a short period of time, right.
+
+00:10:11:47 - 00:10:39:22
+不明
+And so actually services is basically about a few different things, right. For starters, Agility Services is a set of innovations that is helping, customers build more intent driven experiences. Right. What does this mean? It means the ability to create experiences upfront that you know are going to win, that are powered by AI and can preempt customer intent.
+
+00:10:39:27 - 00:11:02:18
+不明
+Agility services provides a solution that can ensure that any experiences that you put out there are impactful. They're, they're optimized on an ongoing basis, and they can be sent across every single channel, right. And the whole idea is you want to be able to make, make a difference to metrics that actually matter to your business, right?
+
+00:11:02:27 - 00:11:25:56
+不明
+Whether they be driving conversion, traffic, engagement, so on and so forth. And all of this being underpinned by the fact that we want customers to be able to get value faster. How do we help customers accelerate the processes of migration, onboarding, ongoing development and maintenance? Well, how do we reduce the time it takes for all of these processes to happen on an ongoing basis?
+
+00:11:26:00 - 00:11:48:16
+不明
+And so, the best way to me to actually introduce you folks to, as do services and some of the innovations that we have, is to actually hand it over to a couple and UPS to walk us through the UPS story. A couple of it. Yeah. Hey, everyone. So I think you did an awesome job, you know, going over you know, em.
+
+00:11:48:16 - 00:12:08:20
+不明
+And what is delivery services and looks like everyone, you know, a lot of people here know about it. So we will not, And we just do next. Okay. So we will. What we will talk about here is, you know what? I will at least talk is like, how did UPS, you know, use the delivery services or, you know, how did we move from modernizing our experience, right.
+
+00:12:08:20 - 00:12:26:30
+不明
+What we had the last year and what we have you done in, you know, this year. So a little bit about UPS. I'm sure you know, everyone knows about UPS is one of the largest, you know, package delivery company. Right. In the whole world. So if you look at the scale, right, we have an employee base, right?
+
+00:12:26:31 - 00:12:46:05
+不明
+We are delivering packages, you know, to everyone. So, that is what you. I'm sure everyone that would have seen. But there's a huge operations, you know, behind the scenes where we pretty much, you know, like we done almost like 300, you know, aircraft, right? Just, you know, getting the packages, you know, from different parts of the world, you know, to us and, you know, back and forth.
+
+00:12:46:10 - 00:13:06:18
+不明
+We operate across 200 plus countries. So, as you can imagine, the, you know, the the amount of, work that we have to do, you know, even on the digital side, to make sure that everyone, you know, has the right content across the board. Right? It's it's, you know, gigantic, looking, you know, like 22 million packages delivered daily, right?
+
+00:13:06:18 - 00:13:28:02
+不明
+That's the number of packages we deliver daily. So now there's an operations, as I was talking about behind the scenes, right, with, running around in the hubs on the trucks, you know, making sure you get what you get, right, on time on, you know, when you're expecting a package, right? And then, you know, we have the shippers who want the same type of experience for their customers.
+
+00:13:28:02 - 00:13:46:34
+不明
+So they all are the, you know, both the recipients and the shippers are really depending upon ups to make sure, you know, this whole, end to end lifecycle of a package works very, very well. So the, the overall, you know, like of what I call is, you know, from a UPS process, you know, we deliver what it matters to the customers.
+
+00:13:46:38 - 00:14:06:47
+不明
+One fun fact, right, which, you know, a lot of which, you know, I also did not know, you know, earlier is UPS, you know, moves 6% of US GDP. So the overall, if you think about it, if you have a $30 trillion GDP for us, six point of, you know, UPS moves around, you know, across the world and within us, right?
+
+00:14:06:48 - 00:14:30:41
+不明
+So, it's pretty, you know, big thing, you know, that, as you can imagine, that we have to almost deal with on a daily basis. So now if I think about, you know, the UPS goals, right? What we what are we looking for from the digital experience. Right. So what we want and this is what we have always strived for is a seamless digital experience.
+
+00:14:30:41 - 00:14:51:11
+不明
+Right. Both for the customers and the employees. Right. So we we have millions of customers coming to the website going to towards, you know, mobile app, even using the APIs. Right, that we, you know, publish, you know, on a daily basis. So you have, 15 million customers, you know, pretty much coming to just drag the package on the website itself.
+
+00:14:51:15 - 00:15:08:00
+不明
+Then, you know, as I said, you we have APIs that, you know, the the shippers use, right, to show that, you know, package location, whether you go to Amazon, whether you go to any of the other website, you have to see a tracking, of your, your packages. So the overall experience, right, whether it is for the customers and employees is a big thing.
+
+00:15:08:00 - 00:15:30:03
+不明
+And when I say employees, right. We have as I was talking about earlier, we have the drivers. We're on the, you know, on the trucks delivering the packages. They need to know what they are delivering. And as they, you know, let's say are on the way, the real time information needs to flow for the customers on the website and across the board where the, you know, that, you know, delivery driver is.
+
+00:15:30:17 - 00:15:53:58
+不明
+Right. So that overall experience has to come together for both of them. Then, you know, of course, you know, revenue. Of course, like as a company, we all are focused on revenue, right. And so on from an online perspective, we, we we have a, you know, and sort of, x number of billion dollars of business that we do online itself, right, from a shipping perspective.
+
+00:15:54:03 - 00:16:12:23
+不明
+So, huge opportunity, right? Like we have. Right? If we give a personalized experience to our customers, how can we, you know, they can ship easily as soon as they come on the website, they go on the mobile app. You know, that is one of the key thing for us to, you know, have a very seamless experience and personal space to grow that revenue.
+
+00:16:12:28 - 00:16:30:58
+不明
+Of course, you know, reducing costs like, if you look from a self-service perspective on the website, right, you want to give all the capabilities on a website, so, or on mobile app, as I say, right on your digital properties. So the customers can do what they need to do online versus having to call for everything. Right?
+
+00:16:30:58 - 00:16:48:31
+不明
+Of course there are. We have our, you know, call centers, right? Where if there's a complex issue, you know, people call in, but we want to make it very easy and simple for our customers, right? On the website itself. They can do them. Right. So the modernization of the experience, modernization of the capabilities that we have, right.
+
+00:16:48:31 - 00:17:05:10
+不明
+That is become very, very important for us. And last and not the least, you know, which is, you know, we have to do it. Millions of people coming. Right? So we have to do personalization at scale. You don't want the customer to every customer to see the exact same thing, right? Because we are moving across first of 200 plus countries, right.
+
+00:17:05:10 - 00:17:24:39
+不明
+So we can't show the same content, but we can't build, you know, different content for everyone. So how do we build reusable content and give personalized experience at scale, without, you know, expanding a lot of, you know, manpower? I think that was one of the key things. And so these were really the goals that we were looking for when you are looking for a good streaming solution.
+
+00:17:24:44 - 00:17:54:28
+不明
+So I think scope of complexity is sort of described earlier. But, you know, in the website. Right. We have I would say around 20,000 plus pages that, that are across 200 plus countries. Right. And we have reduced quite a lot of content. Right, as such. So if I have to, you know, let's say tomorrow, if I have to put some, you know, new rates in, in India or in China or in.
+
+00:17:54:33 - 00:18:13:11
+不明
+Yeah, right. So I have to like, have a way to push that content much more quickly. Right? I you don't have like days to push content, right? So you have literally pretty much hours, right, to push content. So, you know, customers can see those rates. You know, look at the new basically, you know, pricing very, very quickly.
+
+00:18:13:16 - 00:18:35:31
+不明
+So the complexity as you can imagine, and the rules are different in Europe, USA different US use different in China. Rules are different in India. Right. So you have to deal with all those rules. And that's where the complex complexity lies. Second, the, the community we have to have are, you know, given the amount of traffic we get, it has to be extremely fast, right.
+
+00:18:35:35 - 00:18:56:29
+不明
+We we what we were looking for, at least, you know, when we were building this was, lighthouse. Google lighthouse score. I'm sure everyone is, aware of the movie. Right, as well, but the Google Lighthouse score of almost 90, which really means that, the, the, the pages have to load under 2.5 seconds, right. That is the deliver.
+
+00:18:56:34 - 00:19:15:51
+不明
+Which also really means that, that we have to really optimize everything as the content is, you know, put on the front end. So that is another complex part. And, with the millions of hits we are getting concurrently and millions of it is a lot those concurrently. But, the, the high concurrency that we have to observe.
+
+00:19:16:03 - 00:19:42:10
+不明
+So you want you to get the content as much as possible on the edge itself. Third is translation, right? If you think about it again. Right. You are at 200 plus countries and within a country itself, you have multiple languages, multiple dialects. So we have to deal with all this, you know, content that we are pushing and translate that also that content both dynamically as well as, you know, in the static way also that you do not need dynamic content all the time.
+
+00:19:42:15 - 00:19:58:34
+不明
+So those translations were extremely important. So how do we automate that versus I having to wait for some translation to happen, which will take three days before I can even push my content. Right. So that was one of the big thing, right. For the robot translation. How do we automate that? So I would say these are three big things, right?
+
+00:19:58:34 - 00:20:19:36
+不明
+And now if we look at the solution requirement. Right. So when you look for the CMS system, you are looking for something where you can easily push content, right? Like you have your dev environment, you have your, you know, your production. Right? So when you look at your CI, CD pipeline, you it takes sometime days to do something.
+
+00:20:19:36 - 00:20:41:15
+不明
+Right. And the old sort of publish, you know, model. So ease of use was one big thing so that I can, really create content pretty fast, create my reusable components pretty fast, right. And compose, you know, pages versus, you know, doing, you know, where I can push things very fast. Personalization is, you know, we talked about it earlier.
+
+00:20:41:15 - 00:21:02:39
+不明
+It has to be built. Right. So, so we personalized content today, right. And but we were looking for more of let us call it hyper personalization where we are using the audiences. Right. And if I am coming from, let's say if I'm an enterprise shipper, right. If I am coming to the website, they are seeing content that is relevant to them.
+
+00:21:02:44 - 00:21:20:01
+不明
+If I am, you know, just looking to ship from, you know, as an individual shipper, you know, as a, as a consumer, right. If I am just have to ship something from A to B, I am able to, you know, see that audience. Right. And, you know, show that, you know, right content and personalize that content, omnichannel capabilities.
+
+00:21:20:01 - 00:21:39:33
+不明
+Right. So that's, you know, pretty huge, as you can imagine, in this today's world, it's all about the moments of excellence for us, right? Whether I go to, mobile app, whether I go to, you know, ups.com, whether I, you know, use an API, whether I call in, whether I go to store. Right. How do we make sure that everything is, you know, coming together for the customer.
+
+00:21:39:33 - 00:21:55:42
+不明
+Right. The customer is in the center for us. Want to make sure they are getting the best experience. Right. So that omnichannel, you know, of course, becomes important when you look at such a new solution. Process efficiency is here. You know, we talked about that more, but that was pretty huge for us. And how did we achieve it.
+
+00:21:55:46 - 00:22:13:17
+不明
+How you know we'll talk about that more as well. So coming from so that was like the four key things from marketing, right. Like if it's a marketing organization looking for it, they want all those things so that they can operate very, you know, efficiently. Now from a technology perspective in the dev, you know, I'm a technologist, right?
+
+00:22:13:17 - 00:22:33:05
+不明
+So from a technology perspective, how can I, you know, move away from a data source like we, inside of my data center? How can I use a SAS platform? Right. Or SAS solution, which I do not need to update. You know, every, you know, two months or every six months, you know, and no need to worry about how how will I go from version eight to version B, right.
+
+00:22:33:14 - 00:23:00:54
+不明
+That's something you didn't. You know, that's not our core business. So that's not something we want to do there. So the ease of updates and getting these new capabilities in the product was very, very important for us, transitioning to cutting edge infrastructure. Right. So I talked about it earlier, instead of, delivering content from our data centers where you are hitting your region servers, you know, you are sort of, you started to move all the content, you know, on the edge with us.
+
+00:23:00:54 - 00:23:22:36
+不明
+You know, I'm sure a lot of people are doing that, right, caching the content on the CD. And but we want to take it to the next level. So that we can cache, even the, the components right on our, you know, on the edge side of there so that we can even when we are loading stuff, we are able to load those components versus actual, you know, just, content as such, right?
+
+00:23:22:41 - 00:23:41:42
+不明
+Site performance. Pretty, pretty huge for us. Right. So, you know, of course, you know Google Transfer pages, right. Using your how fast your pages are loading. So we of course, as any other community, we spend money on paid search. But we want to get, you know, by loading pages fast. We will get, you know, more from an organic search.
+
+00:23:41:42 - 00:24:03:35
+不明
+Right. So so this is, you know, very, very important. You know, for us whether pages are loading fast back end integration. Right. So we talked about how can I easily integrate my APIs whether it is, you know, tracking a package, shipping a package. Right. And really this reusable component that I can take even beyond my website. Right. I can create these components that I can actually stick into different places.
+
+00:24:03:39 - 00:24:22:51
+不明
+Versus just you builder. So that's like was, you know, thinking like, how can we make a easier so I can, you know, take this component, stick it on different pages versus having to, you know, create them again and again. So some of the key solution requirement that we were looking for, now if you look at the migration approach, right.
+
+00:24:22:51 - 00:24:41:32
+不明
+So we started we we started talking, you know, looking at, you know, immediately if you, if you're not right, in I would say July timeframe last year it was July. That's when we started looking at, okay, what is the best solution for us? How can we, you know, get all these benefits that I just talked about, right.
+
+00:24:41:36 - 00:24:59:15
+不明
+And we sort of dial down on to the edits, which was really the very new, I would say. Right. Yeah. Pretty new. You know, last year and and we said, okay, you know, we can sort of, this is what we want to do because that gives us a lot of those, you know, the eight things that we had earlier.
+
+00:24:59:15 - 00:25:24:02
+不明
+Right, performance as well as ease of use as a cloud native, all of that into one, you know, single package. So, we want to do an MVP, right? A foundational sort of a put the foundation together. So we started in July, very working very, very closely, pretty much in a warm setting with the Adobe Engineering, with the UPS engineering team as well as, you know, the extremes on the Adobe side.
+
+00:25:24:07 - 00:25:48:05
+不明
+And we started looking, okay, how do we what do we want? You know, to, you know, as a foundational platform. Right. And we just decided was that so ups as a peek as everyone would know, in November and December, like, remember, that's where you know, you have Thanksgiving, right? So, you know, anything on everything that we do at a scale like this, it has to be done before that, right before, after that.
+
+00:25:48:05 - 00:26:07:51
+不明
+You don't want to make changes because they're in our peak. Our traffic doubles. Everything doubles, right. Everyone is relying on their package tracking, coming to the website, figuring out the backend. There cannot be any issue at that point in time. So the overall approach was that we need to get this out by October end. And our MVP was, you know, I would say very, very aggressive, right.
+
+00:26:07:51 - 00:26:28:13
+不明
+We wanted to have our homepage, which is, you know, one of the I would say largest traffic page within ups.com. Across 200 countries by October. So and it has like a number of components. If you go to ups.com you'll see you know you have a tracking component where it is integrate with the you know the tracking API.
+
+00:26:28:13 - 00:26:49:33
+不明
+Then your shipping company, you have multiple components. So and that we have cross 200 plus country right. Not just to us but across every country. So that was our MVP. A lot of you know, we sort of sat down in the room, I think one of the key things. So it was that, okay, but we need to figure out what these, you know, what reusable components we will build.
+
+00:26:49:33 - 00:27:06:56
+不明
+Right. Because without the reusability is extremely difficult to compose pages. And, you know, go at the speed that we want it to go. So, and, so I think that was one of the key things that we started with. And then it was, you know, just that all the teams working together and, you know, making it happen.
+
+00:27:07:01 - 00:27:28:15
+不明
+I think one of the learning that we had, I would say was that API integration. Right. So how do you integrate your APIs while you're building this, you know, reusable, reusable component, right, that you're taking in all these pages? And we'll talk more about it. What? Because, because with the EDS, your approach sort of changes from a, instead of a server side integration.
+
+00:27:28:15 - 00:27:47:27
+不明
+You are doing, you know, client side integration of your API. That's the big paradigm change as you go from the traditionally M to EDS. And, now you have to think about your API authentication, right? You can't just put it on a webpage and just start calling your API. Right. And I'm sure everyone, you know sort of knows about that.
+
+00:27:47:27 - 00:28:11:11
+不明
+So that was one of the biggest challenge for us. How do we grow from go from the server side to a client side? And because the important thing was why we did that was because that's what would give us, you know, good page performance. And that's what we needed for SEO. So, now if you see it from the milestones perspective, we have, so, you know, sort of 20,000 plus pages, right.
+
+00:28:11:11 - 00:28:32:59
+不明
+And those pages are different variants of in different different countries. Then we have, you know, you know, 50 plus applications that are running on this whole platform. Right? So also we are looking for the headless CMS, right? We want to go with the full head full CMS. So what really that means is you know I'm looking building an API which each application can just consume content from.
+
+00:28:32:59 - 00:29:00:32
+不明
+Right. Instead of you know, creating, you know, like these, headers and footers. Right. So then applications are independent of the content creation part, right? I can consume content without knowing where that content is coming from. And I didn't talk about it earlier, but that was one of the key things that we would also move into a headless CMS, you know, moving out of it for CMS altogether, although we do use it a little bit still, but that is, you know, the ultimate goal.
+
+00:29:00:37 - 00:29:30:31
+不明
+So moving on. Some key results. Right? So I wanted to share this video like from a performance perspective, last year when we started, which was in so we took this measurement in October 2024. So if you see on the left hand side, this was the lighthouse scores that we had at that point in time. So, we were at 3.2 seconds, you know, for the LCP and then I and P and then, you know, clear that the other three components of, core web vitals.
+
+00:29:30:31 - 00:29:52:43
+不明
+Right? So if you're seeing, you know, from a Google perspective, it sort of failed, right? But now, we did a ton of improvements from a caching perspective, from optimizing the assets, the images, compression and all of that. Right. And of course, you know, as you move content to the CDN and, and start optimizing your third party script, which, you know, every website has.
+
+00:29:52:43 - 00:30:17:58
+不明
+Right? Like, doing like that is one of the biggest things that you need to always optimize your third party scripts. So with, you know, just these are the latest result as of, you know, I would say last week, where we have now in the green, pretty much all the things are in green, but LCP is around 2.3, you know, and and so now basically we are in a state for Google and our lighthouse scores have improved quite a bit.
+
+00:30:18:03 - 00:30:41:00
+不明
+We have a goal of a lighthouse score of 90. So that's that's the ultimate goal. We are working towards it. I think we have made pretty good progress on that. Given, you know, if you see all these results and this is mobile, by the way, right. Mobile LCP right. So usually on a mobile platform it is much more difficult, right, when you're on a phone, it's much more difficult to improve, versus a desktop.
+
+00:30:41:00 - 00:31:00:50
+不明
+Right. I'm, I'm sure like if you run your lighthouse, you know, for a desktop application, for a desktop, web or mobile, you will always see is just more difficult for mobile. So this is where we are. Mobile desktop looks actually better than this. But this is, you know, I would say one of the key things that we have sort of achieved from a performance perspective.
+
+00:31:00:55 - 00:31:25:38
+不明
+Now, let's talk about, you know, experience creation and we will, you know, do some demos with Sean. But mic thing, right, was talked about in the beginning, how can I the goal always was how can I, you know, move faster. Right. How can I create my experiences faster. You know, the pages that we have to create in us or in, you know, Croatia or in Italy, right.
+
+00:31:25:43 - 00:31:44:34
+不明
+Different content, different translation, right? To different languages. And how can it go faster? You know, about it? So, the tools that we looked at right within the whole M platform radius platform is where I can, you know, build these things that compose these. And I can, you know, and if you see on the right hand side, this is the universal editor.
+
+00:31:44:48 - 00:32:01:53
+不明
+So on the right hand side I can, you know, I can configure all of this and align them with the audiences also actually right for this audience for this, you know, local you know, show this. Right. So that was you know, that's something what we are getting that is helping us move faster, right. As we are migrating the pages.
+
+00:32:01:58 - 00:32:22:16
+不明
+It has an integration with, with the demo also, the, you know, Adobe Dam, which really means all the assets are in one place and you can pull these assets right within, you know, this interface itself where I can say, okay, this image, you know, this is a brand image, right? Because, when you look at the, you know, your brand, you know, team.
+
+00:32:22:16 - 00:32:40:31
+不明
+Right, which will have all these assets that need to be used, you know, in a specific format, you know, so and so that we are sort of maintaining that guidelines. Right. So all of that is available right within the to let us so I can, you know, just pick and choose and you know start dropping thing. Right. So drag and drop pretty much personalization is inbuilt.
+
+00:32:40:36 - 00:33:07:03
+不明
+We, we don't use you know, the Adobe audience manager, we have a different tool for personalization, but that, you know, the segments that we use because we have been, you know, they are we have integrated that right within the toolkit. So I can see all these, you know, audiences in the segments right within the tool. So it it has a, I think I would say pretty good, integration with, you know, third party personalization tools as well, which is, you know, which is one of the key thing that we are also looking for.
+
+00:33:07:03 - 00:33:24:44
+不明
+We didn't not want to just change the personalization framework itself, but I can pull those audiences and align those audiences. We, you know, during content creation. So we'll give it to Sean and he will, you know, go. So you know what we have done. Yeah. I'll just expand a little bit on, what Koppel said. So I have a demo video here.
+
+00:33:24:44 - 00:33:53:12
+不明
+I'll get that playing while I kind of talk a little bit about what you're seeing. So just sort of a general note to start, right? All of the content we're showing here is, you know, it does align to real scenarios, but some of it is demonstration content, not necessarily actual real content. To start, we wanted to make it as easy and as seamless as possible for authors to kind of get in, get to the changes they want to make, make them and publish them and get out.
+
+00:33:53:12 - 00:34:13:02
+不明
+So. Right. So the first thing you saw there is the, the, the use of the Am sidekick to click the edit button takes them right in the editor deep links them right into the page that they were looking at. So if they're, you know, they're on a page, they notice a content change. They want to make whatever get right in and get to what they want to do.
+
+00:34:13:07 - 00:34:31:36
+不明
+In within universal editor, there's sort of this, a two way life view. I kind of think of it as like the easy way for authors to find the content they want to edit. So on the right you have the structured preview. You kind of expand and find different pieces of content. If you click on a section, it scrolls the the live preview to that section.
+
+00:34:31:41 - 00:34:53:37
+不明
+Click on a piece of content on the page and it takes you to that, that section within the structured preview so you can sign it kind of really easily for an author associate those two things together, find what you want to edit, make the changes, etc. when it comes time to actually editing things for text elements and other similar things, you can just double click edit things right in line.
+
+00:34:53:42 - 00:35:23:48
+不明
+Do what you need to do for things like, you know, button styles from a dropdown or selecting images. That's where you would use the the properties rail. The other thing that you're seeing right now is the integration with AMP assets. Right. So so while we do want to make things as easy as possible, there's also an element of maintaining governance and process and things of that nature that has to go along with this to make sure that the content that actually does get published fits brand guidelines and all of those things.
+
+00:35:23:53 - 00:35:43:19
+不明
+So there's this asset integration. All you see here are images that have already been reviewed and approved and ready to be used on the website. And you can search within it. You can sort based upon, you know, modified date or size or just depending upon what image you're looking for, you know, gives you a way to easily find the image you're looking for.
+
+00:35:43:32 - 00:36:06:34
+不明
+Once you're ready, you select an image, and, and you'll see that image right within the page itself. Assuming you're good with that, you can also, preview across not only here but, but across different device types. You can see what this is going to look like on mobile, on tablet, on desktop as well as you're viewing a full external preview.
+
+00:36:06:34 - 00:36:32:33
+不明
+That kind of takes away some of the editor Chrome around the page, that universal editor puts there. And then once you're ready, you can you can publish the page as well. It isn't necessarily called out here, but right here, you see that there's two different teaser banners here. That's where this CDP based personalization comes into play. So the author can actually multiple author different variations of content and then tag that content to different segments from within the CDP.
+
+00:36:32:44 - 00:36:56:12
+不明
+And then as a user, you're only going to see one of those banners. Depending upon which CDP segments you fall into. And as an author, from that preview, we also give you the ability to preview the page as different, as a member of different segments. You can kind of see, once you've set up those, those CDP content variations, you know, what's that going to look like to a real end user as well?
+
+00:36:56:17 - 00:37:12:47
+不明
+Right? So really trying to make it as easy as possible and as seamless as possible to all of the things we've talked about to edit your content and use it while still, you know, sticking within brand guidelines and all those sorts of things.
+
+00:37:12:52 - 00:37:43:10
+不明
+So yeah, we're going to tag team here okay. So so again again, next thing you know like as you can see we talked about localization right. 200 plus countries. And within those countries, right. Like you have different, you need localization within the country. Also. Right? So if you have, let's say merge and Dino, right within that, also you have multiple locales that we have where you need to, you know, deliver, these components or content right to based on the audience.
+
+00:37:43:17 - 00:38:12:42
+不明
+Right. So how do you do that? Right. So if you see, you can reuse this content right across different locales, I will let you know again, have should talk about it both. Yeah. I mean, I think the basic idea here is allowing, content reuse across the globe. Right? So when you're managing content across 200 plus countries, I think at one point someone told me, and don't quote me on this, but I believe UPS has content from more countries that are members of the U.S.
+
+00:38:12:45 - 00:38:37:07
+不明
+Right? So I think that's, you know, pretty impressive and illustrates the scale. And so what this is, is really about, allowing you to create sort of regional master blueprint copies and then rolling that out to different locales, but then allowing those locales to override where they need to for local specific content within a module or a section of the page.
+
+00:38:37:12 - 00:38:56:04
+不明
+So you want to go to the next page and we'll show the video of this, one more click and I think it'll start playing. You want to do a demo? Just one. Yeah, sure. So yeah. So so this just sort of illustrates this point. So, so what we're seeing here is this is the Argentina, homepage, Argentina English homepage.
+
+00:38:56:04 - 00:39:24:38
+不明
+Right. And Argentina is the the blueprint for that region within Central and South America. And so there's a number of different, countries that inherit from that region, a sort of, or from that from Argentina, sort of a region master. Right. So I made a small content change here and then rolled it out to those six different countries, and then once I've done that, I can go to those pages in Universal Editor.
+
+00:39:24:43 - 00:39:45:57
+不明
+Either just review and publish them as is if I want to just keep the content inheritance going or, you know, change either large or small things about that content. So change images, change text. Even at the end. Here you'll see adding a button in one of these scenarios where you might have, you know, two different call outs you want to make within within that regional variation of content.
+
+00:39:46:06 - 00:40:14:23
+不明
+So just giving you the ability to reuse content as is where you need to, but also overriding based upon, locale specific content requirements. Okay. All right. That's awesome. So, so the thing, you know, we I think I was mentioning earlier, right, one of the key things we were looking for was modular content or like, how do I modularize my, my page creation?
+
+00:40:14:23 - 00:40:38:33
+不明
+Right. So I can, I can I have to create a page within that page. I need components, right, which I can, you know, mix and match. Pretty much. Right. Move from this page to this page to this page. Right. Without having to redo it. You know, again, I'm sure like a lot of, lot of us have, you know, faced this issue or this problem, how do I bring reusability in, actual action.
+
+00:40:38:38 - 00:40:58:48
+不明
+And I that's that's what, you know. Well, at least we were facing because when we are trying to create new page, right? Like, I have to sometimes just I can't just reuse, like, drag and drop so I can create these, you know, smaller content modules and I can start, you know, they reflect pretty much everywhere, right? I if I refer to them in one place, they are reflecting pretty much.
+
+00:40:58:48 - 00:41:16:33
+不明
+So if I have to, you know, change, let's say a privacy policy. So I don't want to make changes to like 200 pages because I have now need much more time to do all of that. So like I have the same component, which is reused across multiple so that I change it one page and it is, you know, publish across the board.
+
+00:41:16:33 - 00:41:36:55
+不明
+I don't need to deal with the complexity of, making, you know, worrying about where it is. You know, we have this new policy is not there. You want to do a is a demo? I think this is one more slide. Okay. Yeah, but I can. All right. So again, this is, this is the, example of now we have multiple subsidiaries, right.
+
+00:41:36:55 - 00:41:55:47
+不明
+Like we have these, you page.com as the main site, but then we have a health care business, then we have, you know, supply chain business and, we want you to reuse components as much as possible across the board. Right. Not that once one line of business has, you know, these assets and other, you know, again, we recreate asset.
+
+00:41:55:47 - 00:42:20:03
+不明
+Right. So this whole asset repository is where we want it to go with. So that although the the look and feel may be different right. The underlying CSS may be different underlying you know whatever styles I'm using a different but the components are reusable right. So if I go to my health care website, it may be using, you know, a blue color, but that is, you know, that is configurable, right?
+
+00:42:20:03 - 00:42:38:11
+不明
+That is, you know, part of the CSS versus I'm having to recreate that whole thing again. So I think that was one of the key things. Right. That we do not have to recreate things again and again as we, you know, spin up or, you know, fork new website or new pages, you know, as we go. Okay.
+
+00:42:38:16 - 00:43:05:59
+不明
+So this is your. Yeah. Okay. Yeah. So as, as Koppel said, right. We have we have sort of one, one set of global templates, one set of global components that are used not only, you know, across different regions and locales, but also, across those different subsidiary sites. And, and I think, you know, the other thing I would, I would kind of stress is that the components do have a little bit of contextual intelligence to them.
+
+00:43:06:01 - 00:43:37:07
+不明
+Right? So if you're, if you're on a certain locale, the links will automatically update to, to link to the local specific content. And they also will automatically update to automatically show the health care, colors and branding theme versus the main site branding theme. Right. So what you're seeing here is just an author going in, creating a fragment, editing that fragment and then and then using that fragment both on a main site page as well as a health care page.
+
+00:43:37:07 - 00:44:03:14
+不明
+Right. And so when they make a change that fragment and publish it, it's it's one fragment, it's one piece of content that can be reused across, different pages, different regions, different subsidiary sites. But it's one component from an authoring perspective. So an author only means how it needs to know how to use a banner component. They don't need to know how to use a health care banner component or a main site banner component, or anything like that.
+
+00:44:03:19 - 00:44:33:11
+不明
+And when they update that content and publish it, say it's a banner like this that's calling out some brand message that they want to highlight across both those sites. They can edit in one place, publish it, and the update is automatic and instantaneous across both those places. Okay okay. All right. So I think if you, just for the as we talked about earlier, we want to streamline our content publishing.
+
+00:44:33:11 - 00:44:56:37
+不明
+Right? So I think this is, you know, what we achieved with, you know, delivery services because it's all on the cloud, and then it is all, you know, instead of a server side integration, we have, you know, client side integration. So we are able to, you know, publish content, you know, much more easily we are able to test content, write the pages itself in, in an environment, you know, before we even publish it.
+
+00:44:56:37 - 00:45:23:17
+不明
+But we it's almost like a live content, but it is not live. So you can see all what is working, what is not working, make the changes. You know, and sort of push a button. Right. That's where, you know, you want to go, be in this sort of age of moving fast. So, also. Right, if you can see like the we had a separation of concerns right around, the, the, the design of the page versus the content creation is, you know, separated out.
+
+00:45:23:17 - 00:45:39:37
+不明
+I can now pick and choose what I want on a page, how what my page hierarchy would be right versus I have to, you know, create worry about that whole content all the also on the page on the same time. But I think this is what we what are the best practices that we got out of the product.
+
+00:45:39:42 - 00:45:53:28
+不明
+I mean, a lot of things we are still experimenting with, we, you know, so we will, you know, as we go, we will we are learning more and more what all we can do, what we cannot do. They are things that, you know, may not be available. And this is I think it's a new product. So.
+
+00:45:53:28 - 00:46:15:06
+不明
+Right. So there are things that capability that may not be there. But lot of things that, you know, work much better. Right. And, you know, versus the, the traditional M all right. So, you know, I'm not going to go over all this, as you can see, the the traditional way of deploying content, you know, like multiple steps, right?
+
+00:46:15:11 - 00:46:37:30
+不明
+So with the, with Ed's with Amadeus, it, it it has it has become easier. Right. So we have environments that are almost like copy of each other. So it's much more easy to move content, from one A to B to C. It's just much faster, easier to, you know, test. I think testing was one big thing, you know, always, not easy to test before you push.
+
+00:46:37:30 - 00:46:55:32
+不明
+You know the content, right? If you find some mistake, then it's, you know, it goes to the again to the drawing board. Right. So that's what I would say we got from a current state to automation. Like in a lot of places we are we are also connecting it with the, which we have not done so far is connecting it to the EDR, our Azure DevOps pipeline also.
+
+00:46:55:32 - 00:47:19:41
+不明
+Right. So the content and the code also is sitting there so that we can almost as if, you know, you're writing code, pushing changes to the code and, you know, pushing it in a pipeline. All right. So some of the key milestones, you know, is we talked about the MVP now looking to complete this whole migration of, you know, 50 plus apps, 20 K plus pages.
+
+00:47:19:41 - 00:47:39:40
+不明
+Right. And and then maybe more right, in the next few months. Right. So we are pretty good state. We are able to release pretty much almost every week. We don't want to obviously it's we we follow a product development model right from our UPS perspective. That's what we follow. And, we have a release every week. So we have, applications going out.
+
+00:47:39:40 - 00:47:57:46
+不明
+We have, you know, content going out, going to all these pages and object ways by and of, I would say end of April or early May. We are, you know, done with this whole migration, you know, effort that we have. So this is where we stand, you know, and, we are already releasing good benefits from performance perspective.
+
+00:47:57:47 - 00:48:19:29
+不明
+As we talked about earlier, we have this, you know, image is almost serving 50 million plus pages every, you know, views per month. So it's I think it's so performing well. We are seeing those, you know, result in the because we get to see those results in the form of SEO improvements. You know I don't think we are there yet, but we are hoping, you know, that we will go next.
+
+00:48:19:34 - 00:48:42:29
+不明
+All right. Do do, I think we talked about this just now. You know, these are the number of the milestones and the achievement, but you can see the scale of it, right? Like the scale is we started last year. You know, it needs a lot of planning, right? In the beginning, once you plan. Well, right, then it just becomes, you know, very easy to start moving forward with it.
+
+00:48:42:34 - 00:49:04:13
+不明
+Learnings and observation. I think, this is, some of the things I would say we learned as we, you know, moved along, in the beginning, you know, just to spend more and more time, you know, what we call as a software like on architecture, right? So scope totally plan for surprises. Like if you architected, well, just like a software, you know, it will work well.
+
+00:49:04:17 - 00:49:18:43
+不明
+So if you don't architect it well in the beginning, you know, then you will have problems. So from a scope perspective we did see that, you know, like some other thing we did not know. And it's sometimes just difficult to know. Right. Like it's like if you have like so much of content, so much of applications, it's just not easy to, you know.
+
+00:49:18:43 - 00:49:43:55
+不明
+And so that's what the, the architecture comes handy so that your thinking of the future versus, you know, just then reusability, you know, part and parcel of all the right of you need to have all these reusable components so that I can create pages which I have not read through everything. But I think these are some of the I would say, best practices to use APIs is very important, right?
+
+00:49:43:55 - 00:50:09:18
+不明
+Because you move from server side to client side integration. So how do you think of authentication of those APIs? Right. From a browser perspective, I think that's something it becomes very, very, you know, critical as you, you know, use this product. All right. What's next for U.P.S.? Again, you know, like, okay, I think I clicked on whatever end.
+
+00:50:09:23 - 00:50:28:01
+不明
+So next for U.P.S. is, you know what we talked we really want to have we we have the customers, you know, right in the middle. Right? We want to give the best music. We have a, you know, great operations team for delivering packages, you know, extremely efficiently. Right. So and they are used they need to use technology in a way that they are extremely efficient.
+
+00:50:28:01 - 00:50:44:00
+不明
+Right. So that's where you know from a technology perspective we have a great technology team. You know I have a couple of folks here. But our technology team, you know, look, you know, day in, day out with all of you, we all work together right to, you know, make things happen. So, lot of I think for, for for what?
+
+00:50:44:09 - 00:51:03:21
+不明
+What is right. How do we use these capabilities next to, from a from the Adobe side to, I think one of the key thing we are looking at is I generate as these come in, can I actually compose a page by telling, you know, let's call it a chat bot. Right. Okay. I want to have this page with these images.
+
+00:51:03:21 - 00:51:22:59
+不明
+And it is I don't even have to drag and drop. I'm telling. And it is able to compose that page right in, for me. And then I can make changes versus having to start from scratch. Now, if you are looking for next omnichannel experiences, of course, you know, we want the customers to, you know, whenever they go, they are able to, you know, transact with us very easily.
+
+00:51:23:04 - 00:51:38:33
+不明
+And, and I think those are two big things, you know, that's where we want to go next. But I think that's where I will rest. I think we are almost out of time here. But with that, we'll take any further questions off stage. But thank you so much for joining us this afternoon. It's been wonderful.
+
+00:51:38:38 - 00:51:38:58
+不明
+Thank you.
+

@@ -1,0 +1,364 @@
+00:00:00:17 - 00:00:18:14
+不明
+Yet another session. This is that time at some, you know, day two. You've been at a lot of sessions. Bashes is coming up soon, so I promise you this will be worth your time. We're going to talk about a lot of exciting things today. Today's session is about optimizing traffic, engagement and conversion of your digital experiences. My name is Karthik.
+
+00:00:18:16 - 00:00:38:15
+不明
+I'm on the product marketing team for Am. I'm joined by my colleague Hyman. Hi everyone! My name is Hyman Chang, product manager for Am. Pleasure to be with you all. And, look forward to the conversation today. So we got we got a great session for you today. We're going to talk about, optimizing traffic, engagement, conversion.
+
+00:00:38:16 - 00:00:48:22
+不明
+We're going to show you cool technologies, tips that you can take back home, from this session. But first.
+
+00:00:48:26 - 00:01:04:35
+不明
+I don't know how many of you are need for speed fans, but growing up, I used to play a video game series called need for speed. And as a kid, it used to be so fascinate to me because there are all these exotic sports cars. The racing game. You could pick any car you want. You put it in a race.
+
+00:01:04:40 - 00:01:23:25
+不明
+And I always gravitated towards the Ferrari, and the Ferrari was always the fastest car in the game. I felt like that was the only car I could use to win the race. And, I became I started to, associate Ferrari with speed. And I think for most people in this room, when you think of Ferrari, you think of speed, you think of performance.
+
+00:01:23:25 - 00:01:45:13
+不明
+That's what they've always been known for. And to win in that game, I needed a fast car. And typically you think to win a race that's obvious. You need a fast car. What's interesting about Ferrari is it's not about just video games. They are actually the most celebrated Formula one race team of all time. So it's not just video games they're doing it in, but in real life racing.
+
+00:01:45:17 - 00:02:05:04
+不明
+Ferrari has been known to to win races because of their excellence, their engines, the speed of their cars and yet as dominant as they've been historically. The interesting thing is they haven't won the constructors title, which is the world championship for F1 in nearly 20 years. And as you see, it's gone to Red bull. It's gone to Mercedes.
+
+00:02:05:04 - 00:02:24:52
+不明
+It's gone to brawn. And you might be wondering why. Now the reality is a lot of these teams have good engines. Now they've got great cars. But what comes to winning a race? What? When it comes down to it, it's not just about the engine. It's not just about the speed. It's about the driver. Max Verstappen, Lewis Hamilton these are all great drivers.
+
+00:02:24:57 - 00:02:44:24
+不明
+It's about the fine tuning they're doing to the cars. So they're getting down to every little detail to get the aerodynamics right, the tuning right. It's about the things they do on the day of the race. That is ultimately what leads to a win. And so no longer is it just speed and having the fastest car.
+
+00:02:44:29 - 00:03:08:06
+不明
+And with a for those of you have them you have a Ferrari. You have the fastest car on the track. For those of you who don't have a, you might have a pretty good car. Still. But the point is, you have the fastest car on the track. But that's not always enough. When you think about those racers on the day of the actual race, all the decisions the driver has to make on the course, all the small like the things they have to decide in snap seconds.
+
+00:03:08:11 - 00:03:23:05
+不明
+The pit crew has to go and fix many things on the car. When it goes through a pit stop. They have to do that efficiently. There's a lot of things that have to happen on race day in order for them to actually win the race. Now, similarly, when you think about your digital experience and your content management system, you may have a great website.
+
+00:03:23:05 - 00:03:42:00
+不明
+Today, you're using Am to its full capabilities. But what the reality is, and I think everyone in this room can understand this. Things change on a day to day basis. You make updates, things break. Things need to be fixed. How quickly can you make these changes? How quickly are you on top of making that site stay performant at all times?
+
+00:03:42:05 - 00:04:08:51
+不明
+That is ultimately what matters. And you as a marketing team or as a business owner, how are you actually driving this vehicle to its best capability in order for you to win the race? That's what we're going to talk about today. We're going to talk about with your digital experiences, how can you actually win and get customers, increase your engagement, increase your conversion, and make all the right decisions and use the right technology to do so?
+
+00:04:08:56 - 00:04:28:17
+不明
+So what we're going to talk about today, and hopefully you all take this away from the session. Number one, every race car needs to get the basics right. So when you think about, what that means for your site, what are all the fundamental issues you need to fix before you start focusing on the more strategic initiatives around your content and what you're trying to drive?
+
+00:04:28:22 - 00:04:57:33
+不明
+You need to fix the basics first. Second, specialization is the key to effectiveness. And here we're really going to talk about AI and how, you know, the best way to use AI is focusing on very specific problems in a very specific way. That is what's going to help you unlock, scale and get to maximum efficiency. And then the third thing we're going to talk about is team principals are the ones who provide critical oversight for these racing teams for you.
+
+00:04:57:35 - 00:05:16:26
+不明
+Who is that strategic leader in your organization? And they need to be empowered to actually orchestrate across the complex web of teams and tools you work with to manage the web experience. How do you empower the business owner? The strategic decision maker, to be most effective in working with them?
+
+00:05:16:31 - 00:05:36:04
+不明
+Let's start with the basics. When we talk about a race car, what are the basics? It is the chassis. It's the engine, it's the tires, the fuel. Every race car, before you even think about all the fine tuning you need to do. You need to have a solid foundation in place. So let's talk about that for when a web experience.
+
+00:05:36:04 - 00:06:00:55
+不明
+First of all, the most important thing is it's got to be findable. And everyone knows this, right? Organic traffic is the most durable source of traffic. It is critical to get that part right because it is very valuable source of traffic. Now, when you talk about findability, why is that important? Well, one, you want to make sure that your content can be found and you want to make sure that your content is relevant and addressing the intent of the users that you try to target.
+
+00:06:01:00 - 00:06:20:29
+不明
+So SEO matters. The content on your page matters, and it matters because realistically, Google, that's how people find your pages today. And you need to rank highly in Google and make sure that content's findable. But actually, when you think about some of the trends we're seeing and the trends in our everyday life, Google is not the only place that content and brands are going to start surfacing.
+
+00:06:20:34 - 00:06:46:19
+不明
+You now have what we call generative engine optimization. You now have different places that consumers are going to find your brand, find your information. How do you stay on top of that and make sure that your website is always showing up in the places it needs to be. The second is about the optimized user experience. So we all know if a page takes more than a couple milliseconds to load, you're moving browsers, you're going to a different application.
+
+00:06:46:23 - 00:07:09:03
+不明
+Consumers today don't have that patience. And so delivering an optimal user experience in terms of page load, in terms of speed performance, that becomes extremely critical in keeping your visitors engaged. And the challenge with web performance is it's not a one once and done type of exercise. You can get to a 100 core of vitals. Congratulate yourself, but then degradations can happen quickly.
+
+00:07:09:08 - 00:07:28:08
+不明
+You make changes, you make updates to the site, and all of a sudden you lose that speed. So how do you always stay on top of delivering that user experience? That's going to be critical. And then third your technical side help. So this is think about what are the things that make your site just work. What does it need to function properly.
+
+00:07:28:13 - 00:07:50:56
+不明
+You always have. You might have issues around JavaScript errors broken links, security issues. These are all impacting that functionality of your website also impacts the Findability and the SEO ranking as well. So technical side help becomes really important. And this one, every time you fix something and many of you probably understand this, it becomes a whac-a-mole issue, right?
+
+00:07:51:01 - 00:08:11:22
+不明
+Every there's always degradations happening or regressions happening on your website. And no matter how many things you fix, there's always a longer list to get to. So how do you take care of that technical site health and keep that at the forefront? That's part of building a critical web experience Foundation. Now I want to talk a little bit about a customer PGA tour.
+
+00:08:11:26 - 00:08:39:44
+不明
+And I don't know how many of you here are golfing fans, but PGA tour was standing up a website for their players tourney, which just happened last week. It finished on Monday actually. And the interesting with the players turning PGA Tour's many of these tournaments all throughout the year, it is a snapshot in time. It is a, you know, a couple week period when they're going to generate an extreme amount of traffic, a lot of traffic for people who are interested in the journey, want to keep up with the leaderboards, see what's going on.
+
+00:08:39:49 - 00:09:01:09
+不明
+And so for PGA tour, they really knew that they had to invest in a critical, user experience and make sure that the core web vitals, the page was loading correctly and that these, these visitors who all came would have a good experience and engage with the content. So what they did was in the few weeks leading up to the tournament, they really focused on optimizing core web vitals.
+
+00:09:01:14 - 00:09:22:40
+不明
+And they got to a 19% improvement. You see example right here, what that actually look like from practice. And the reason this became especially important for PGA tour was because the tournament was supposed to end on Sunday and went into a playoff on Monday. And so that was an additional day of traffic. They did not expect an additional day of engagement.
+
+00:09:22:45 - 00:09:51:41
+不明
+And so it was really important that this website stayed up for that period of time, didn't have any issues, and really delivered that optimal user experience. So this is just a good example of a brand like PGA tour understanding the importance of fixing site speed, site performance before they even thought and worried about the content. The content is very important, but if they didn't deliver that good site experience, it wouldn't have mattered.
+
+00:09:51:45 - 00:10:12:24
+不明
+Now let's talk about our second takeaway. When you think about a race car, for a pit crew to be great, and I think everyone has seen this type of, pit crew scene where the car comes in, there's many crew members, all working on the car at once, and then it leaves in a matter of seconds, maybe even less than seconds.
+
+00:10:12:29 - 00:10:34:18
+不明
+The reason this works so effectively is each crew member is focused on a very specific task. You see, there are a couple people focused only on the tires. There are a couple of people focused holding the car, still others refueling, others doing other adjustments. And everyone has a very, very specific role. And this is how they're able to get the car in and out in a matter of milliseconds.
+
+00:10:34:23 - 00:10:56:43
+不明
+So when you think about this idea that every crew member needs to be specialized. That concept applies when we think about web experiences as well. And this is where when we think about AI and how do we make AI most effective. There are really three key steps that are important. The first one is clearly defining the task and the scope with specificity.
+
+00:10:56:48 - 00:11:23:43
+不明
+So think about, vague instructions. Sometimes you might give your model, you might have a goal of increasing organic traffic acquisition. If you put that into a prompt, you're going to get wildly different outcomes. They're not going to be specific. They're not going to be helpful for you to actually solve your challenges. What if, instead, you said set up a framework for broken backlinks from higher authority domains and redirect the search engine crawlers to life pages?
+
+00:11:23:48 - 00:11:48:35
+不明
+All of a sudden it got very specific. Now that exact example I gave about broken backlinks. The outcome of that is organic traffic acquisition. But what you're prompting the AI with is something very specific. It's also important to give the necessary context and constraints to establish boundaries. So building the right boundaries helps rein in the the the AI answers and responses.
+
+00:11:48:40 - 00:12:07:56
+不明
+You know, for example, if you have broken backlinks and you want to redirect to a new page, if it's a page in Germany, you don't want to be redirecting to a Japanese page, for example, like those are obvious to us, but those are the kinds of boundaries you want to put into. Or give the AI, context around so it knows not to to step outside of those.
+
+00:12:08:01 - 00:12:28:31
+不明
+But then finally in one of the most important things is how do you break complex tasks into smaller steps that the agent can tackle sequentially? Of course, it'd be great if you could just say, improve my traffic, acquisition, and tell the agent that and go solves it. But what makes them more effective is identify all the opportunities that we can improve traffic on.
+
+00:12:28:36 - 00:12:52:16
+不明
+If it's backlinks, for example, help me provide, you know, provide some suggestions on how we can improve that and then go to a separate step about deploying these into where they need to be deployed. When you break it into individual steps, what that allows you to do is first, it improves the output of the AI. It also gives you the time to to step in and actually provide additional context or tweak it if needed.
+
+00:12:52:21 - 00:13:14:26
+不明
+And that way you don't let errors compound along these different steps. So when we think about applying AI, it's really about adding all this specificity in order to get the maximum impact. And we actually have a great example with working with bamboo Air. Bamboo air is a customer of ours, and they have this exact problem around broken backlinks.
+
+00:13:14:31 - 00:13:38:59
+不明
+But what they used AI to do specifically was first they wanted to identify broken backlinks, but not just any broken backlinks. What are the ones from high authority domains? Why that matters is because the broken backlinks from high authority domains hurts their link. Equity hurts their SEO. The. I was able to give them 30 specific opportunities that they were able to identify, and that was the first step.
+
+00:13:39:04 - 00:14:03:13
+不明
+But then they want to now figure out what is the right place that should write to. And so what the I did and what they use the AI to help them do is understand that anchor text, understand the URL tokens, and the intent of where that link was supposed to direct. So that starts to give very clear specificity to the model to understand all these different pieces and then come up with the right recommendations that hopefully are pointing to the right pages.
+
+00:14:03:18 - 00:14:25:01
+不明
+And then finally, they used to actually deploy these fixes directly to the site. So instead of the traditional workflow of you have a team that an SEO analyst, they figure out what the issue is, but then they have to go and manually update each link one by one. They were able to do this at scale. It took less than an hour and then they got to the impact.
+
+00:14:25:04 - 00:14:42:56
+不明
+And that's the most critical part. By doing all this and breaking it out into chunks, they were able to get to a 4% organic traffic increase the following month. So this is a great example of specializing the AI to solve a bigger business problem.
+
+00:14:43:01 - 00:15:06:22
+不明
+Now the third key takeaway around team principles. So team principles on race day. These are the folks, who are really orchestrating across the driver all the different crew teams and managing the whole team. On the day of the race for your organizations, who is going to be that team principal and why do you need one to begin with?
+
+00:15:06:27 - 00:15:28:32
+不明
+Well, think about all the different teams that are working on your web experience. This is just a handful. You all either fit this role or work with people in these roles. You have content authors who are working directly in the CMS, updating content, editing content. You have your SEO teams who are hyper focused on that. Creative teams that are actually charged with creating all the assets you need for your campaigns.
+
+00:15:28:37 - 00:15:50:29
+不明
+The developer might be focused on site performance and, core web vitals. So all these different folks touch the web experience in some way. But what ends up happening, and we talk to customers all the time and you can probably relate to this. Everyone is focused on their objectives, right? The SEO team is thinking about those keywords, the developers thinking about the site optimization.
+
+00:15:50:44 - 00:16:10:29
+不明
+But there's not always the an orchestration of how these different teams are all working together and prioritizing their work. For example, the content teams can be creating the best content you can be pouring money into all your content, but if your site is not loading correctly, it's having all these issues. It's not findable. What's the point? If you're not bringing traffic in?
+
+00:16:10:30 - 00:16:31:45
+不明
+Why are you investing that much in the experience? So where this the gap really is, who is that person in the organization who can provide oversight across all these different workstreams? How prioritize and tackle these things in a more cohesive way. And that's where, you know, a marketing manager is an example of a title, but this role can look different across many organizations.
+
+00:16:31:46 - 00:16:52:12
+不明
+It could be a product owner, digital experience manager, marketing manager. But the idea is that there is a single person who is actually thinking about and has oversight into all the work that's happening across these teams and thinking about, you know, one of the things I need to get done, should we optimize the site experience first before we start investing in the content?
+
+00:16:52:17 - 00:17:22:14
+不明
+Do some of these things happen in parallel? This is the role of that marketing manager and that person who's thinking about, what do I really need to do to drive conversion of my experiences? Now I want to show another customer example. And this is Wilson. Hopefully everyone's familiar with the brand. Wilson. They invest a lot in paid media as one of their channels, and they have paid media ads on mobile, and they're driving a lot of traffic from that to certain experiences on their website.
+
+00:17:22:19 - 00:17:53:51
+不明
+Now, one of the things that Wilson realized was they were seeing bounce rates, high bounce rates from their paid media campaign. And when they did some further digging, you know, there was someone at, Wilson, a commerce manager, marketing commerce manager, who was thinking about this problem holistically. He was working with the paid media team, working with this data analyst saw that there was this drop off, then also found out that the drop off was actually happening because of a very specific issue.
+
+00:17:53:51 - 00:18:17:31
+不明
+And this is where he used AI to help identify what that issue was. There was a consent banner on mobile that shows up with a big red, banner for to accept. Now, the problem is, if you think about a mobile experience that takes up the whole screen and because it's a Wilson red, that's their brand color. It's alarming to a visitor when they see that and it's off putting.
+
+00:18:17:36 - 00:18:34:39
+不明
+So they got some recommendations on what is a different kind of banner they could leverage. Right. So they tried a white one. They tried a green one. And then they worked with an optimization team to actually deploy a test and see if it would generate better results. And it did. You saw the stats earlier than they were supposed to.
+
+00:18:34:39 - 00:18:58:35
+不明
+Low, but 24% increase in conversion and a three times faster optimization. And the reason they were able to see this impact was because they got to the root of the issue really quickly by working with these multiple teams, by using AI. They found out that this was the main issue driving this drop off. They fixed it and saw the improvements and the champion at Wilson.
+
+00:18:58:35 - 00:19:21:18
+不明
+It was really because he was in tune with all the different teams and tune of the processes, and used AI to help get to the root cause that they were able to actually solve this. So once again, you really need that one person in the organization to help work across all these teams, because these are complex problems that you're trying to solve.
+
+00:19:21:23 - 00:19:37:17
+不明
+So now those are all just, you know, tips and tricks and showing you how customers have done it today. But now if you feel like you're ready to win, I want to turn it over to Hyman to show how we actually can help you with our product and the capabilities we have with them today. Oh, I mean, thank you.
+
+00:19:37:17 - 00:20:17:28
+不明
+Karthick. All right. Thanks everyone. So super excited to introduce new product that we just launched this week. You might have seen it at the keynote. Yesterday. It's called Am Sites Optimizer, and it really leverages a lot of the principles that Karthik mentioned in terms of how to drive better business outcomes from your website. The Zen statement for us is to empower marketers to deliver better business impact, by optimizing for traffic acquisition, engagement and conversion of their digital experiences, all built with the new AI genetic framework across the Experience Cloud.
+
+00:20:17:32 - 00:20:23:56
+不明
+This one is powered by the site's optimization agent.
+
+00:20:24:01 - 00:20:52:35
+不明
+So again, the principles that Karthik outlined for us, very well are built directly into the application. Leverages, the learnings that we've had in working with customers, how to leverage AI and meaningful ways to drive these outcomes. First, again, addressing the fundamental issues that inevitably happen, even when you have the fastest car so that any optimization work is amplified, from there.
+
+00:20:52:40 - 00:21:20:20
+不明
+Also leveraging AI agents in very specific ways to scale it from an end to end perspective, right, so that we can, leverage this new technology to drive meaningful outcomes. And then, as a team principle, get a holistic view of all the different elements that contribute to, your performance from your website and drive better opportunities, better business outcomes.
+
+00:21:20:25 - 00:21:57:12
+不明
+So, first, addressing the fundamentals of your site before you optimize part of a Am sites optimizer, the foundational elements of your site, ensuring that it's secure, ensuring that it's functional. There's no JavaScript errors, no broken links that will be addressed. Will identify those issues, help you address, help you optimize those issues. First, then fortification of the site, ensuring that you can, acquire new traffic, grow your traffic, acquisition, ensure that the site is fast, has green core web vitals.
+
+00:21:57:12 - 00:22:12:52
+不明
+It's accessible to all visitors. And then once we've fortified the website, help you optimize it going forward? Sure that we're helping to optimize for conversion and engagement.
+
+00:22:12:57 - 00:22:40:32
+不明
+Site optimizer also leverages, the site optimization agent, again in very specific ways. As Karthik, outlined, so that we can train it on the specific elements that will have significant impact on the performance of your site. It's built on this identifies suggest optimized framework. Right. So the agent is trained to identify specific opportunities using different data sets.
+
+00:22:40:36 - 00:23:14:23
+不明
+That it can identify to drive better business outcomes for your site. Then once it's identified, those opportunities will provide very prescriptive recommendations on code or content changes to capitalize on those opportunities. And then the third pillar of this framework is to auto optimize. So because it's the same team that has built Am that has now built sites Optimizer, it now knows exactly where the deployment of code or content or configurations need to go to keep your site implementations clean.
+
+00:23:14:25 - 00:23:38:51
+不明
+Right? So the content goes into your content repository. Whether it's JCR source documents, the code goes into the right place, as well as the configurations. AI agent has been trained very specifically on these opportunities and the implementations on AMP to deliver these outcomes.
+
+00:23:38:55 - 00:24:06:19
+不明
+And again, AMP Sites Optimizer helps you orchestrate optimization at every phase of the funnel, starting from acquisition help you optimize for technical SEO content SEO. If there are other digital campaigns that you're running, it'll ensure that the landing experience is optimized to deliver meaningful outcomes from an acquisition perspective. From an engagement perspective, help ensure that the content matches the intent of your visitors.
+
+00:24:06:24 - 00:24:37:21
+不明
+Help optimize for accessibility, and then from a conversion perspective, regardless if it's a forms conversion or a commerce related conversion, help you optimize for those outcomes as well. So you get a holistic view of your funnel and optimization at every step. In that journey. So enough of us talking about it, I'm going to switch over to a demo and show you how it works.
+
+00:24:37:25 - 00:25:03:40
+不明
+So this is Sites Optimizer for for scope up. First thing you'll see here is different metrics that site's optimizer is measuring and optimizing for. These metrics are available out of the box with all aim sites cloud deployments meaning no separate implementation or instrumentation project required in order to, start to see these opportunities and metrics, for optimization.
+
+00:25:03:40 - 00:25:33:08
+不明
+And then below that, very importantly, is the different opportunities that Sites Optimizer has identified for better to drive better business outcomes. For, for for scoping here you can see different opportunities like high authority domains linking to invalid site URLs. So this is the example that Karthik walked us through earlier where there are broken backlinks. That are preventing a better SEO, performance for the site.
+
+00:25:33:08 - 00:26:05:10
+不明
+So I'm going to click in and show you what that identify suggest optimized framework looks like in action. So the site's optimization agent has identified all these different domains across the web that are linking to for scope up, but they're sending to this 404 page. Right. So for Scopa is losing the link equity that they would normally get from, Google and other search engines because they, the, crawler is being sent to this dead end.
+
+00:26:05:17 - 00:26:33:33
+不明
+So that's the auto identify piece, all the different domains that are trying to link to, Frisco. But but getting sent to, for, for the auto suggestion is leveraging, the agent to, crawl the anchor text of each of these links, as well as the different tokens in this URL, to identify what the intent of the link is, and matching it to the different pages across the site that best match the intent of this link.
+
+00:26:33:33 - 00:27:04:22
+不明
+Right? So suggestion matches page two. Content provides rationale for how the agent came to this match. Allows the user to make changes if the agent doesn't get it quite right, allows them to ignore it altogether. If they don't care to address this backlink issue. Right. So that's the other suggestion piece. Help help the user find how to resolve these broken backlink issues with specific, suggestions for each of these entries.
+
+00:27:04:27 - 00:27:36:29
+不明
+And then the optimization piece is with a click of a button. Right. These redirects into their site implementation, whether it's in the redirect file and actually free services or for, cloud service, your dispatcher or your, where you keep your redirects. So with a click of a button. Now the marketer can address these broken backlink issues, not needing to create a JIRA ticket and file it into the IT teams backlog can address these issues directly from within this application.
+
+00:27:36:29 - 00:27:39:35
+不明
+Now, right.
+
+00:27:39:40 - 00:28:03:38
+不明
+We also have accessibility optimization. So of course ensuring that your site is accessible for all different audiences is very important. We know in the EU there are, potential fines that are associated with noncompliance of the accessibility standards, enacting at the latter part of this year. So of course we want to get our, our customers ahead of, these standards.
+
+00:28:03:49 - 00:28:30:00
+不明
+So from an accessibility perspective, we can help identify when there are images across the site where there is missing alt text. So that's the the identify piece. What images are missing alt text. On different pages on the site. The suggestion is using the latest model vision models to provide a caption for each of these images. Again, the user has the ability to change.
+
+00:28:30:00 - 00:28:46:09
+不明
+It doesn't get it quite right, and then once they're ready with a click of a button, it will write this content into the right content repository for their site implementation.
+
+00:28:46:14 - 00:29:06:58
+不明
+One final, opportunity that I'd like to walk through is, content optimization. So the identify the identify a piece of this opportunity is that it's detected that there are pages on the site or this page on the site that's getting a lot of traffic, but it also seeing very high bounce rates. So for Scopa is getting the visitors there.
+
+00:29:07:09 - 00:29:32:02
+不明
+But they're not engaging. They're not interacting with this page. So that's the auto identify piece item suggestion. Identifies that there is a heading. Open the door to a world of flavors that doesn't provide a differentiated value proposition. And it also says that the subheading is clear, but it could be more concise and engaging. Right. So that's the suggestion.
+
+00:29:32:06 - 00:29:59:35
+不明
+The optimization is actually generating a variation of this experience using that suggestion. So here we see a new headline, The World's Finest Coffees delivered right to your door that, provides a very specific benefit statement and also a subheading that is more concise and more impactful. So from here, what the marketer can do is if they're very confident that this new variation will move the needle, they can click publish selected.
+
+00:29:59:35 - 00:30:30:31
+不明
+And this will write this new content into the content repository as the new default experience. Or they want to run a simple AB test. They can select multiple variations, click test multiple, and then once a winner is detected to a statistically significant degree, you can come back in here and promote it to the new default experience. There are other types of opportunities included within Sites Optimizer as well.
+
+00:30:30:36 - 00:31:02:39
+不明
+Metadata issues, sitemap issues, broken internal links. Also, you can see, the detection of different security vulnerabilities included as well and forms optimization. And the list will continue to grow as we, continue to build out this this new product. Okay. So quickly, we we launched this product, but we've also worked very closely with customers to ensure that it meets their unique requirements and works in production.
+
+00:31:02:39 - 00:31:35:03
+不明
+And we've seen fantastic outcomes already. Hershey's is one of the customers that we work very closely with. Jeff is the digital Experience solutions manager gave us a really great testimonial, so he saw key business metrics improved with very little effort required from his marketing teams. And the really great quote that he gave us was that while the product is, of course packed with breakthroughs and great technology, the greatest shift now is the business model where Adobe and I am is aligning our product strategy with his organizational objectives.
+
+00:31:35:03 - 00:32:01:27
+不明
+And you can see some of the great outcomes that we've driven with Hershey's in terms of, page speed improvement, similar to PGA tour, with 19% improvement in their, LCP seen improvement, organic visibility engagement, as well as addressing security and accessibility issues much faster than they were able to do before.
+
+00:32:01:32 - 00:32:43:43
+不明
+Not only that, a lot of or all of the customer stories that Karthik walked you through is actually customers that we work with. In terms of using sites Optimizer to deliver those outcomes, you can see that PGA tour improved their core web vitals 19% and did it three times faster with Sites Optimizer. Bamboo HR saved countless hours of analysis, optimization, and development for their SEO manager and Mike, the director of e-commerce at Wilson, said that, this technology gives his e-commerce managers data analysis, web design, and web development superpowers.
+
+00:32:43:48 - 00:33:02:37
+不明
+That I'm going to hand it back off to Karthik to close this out. Awesome. Thanks. Well, so hopefully that was exciting to see the product in action. And those customer examples are great because, you know, we started working working with them in a matter of weeks. They saw those kinds of benefits. And once again, it's not just efficiency.
+
+00:33:02:38 - 00:33:19:39
+不明
+It was benefits to the top line of business impact. So that's why they're so excited willing to to share those quotes with us. And we had really good engagements with all those customers, kind of wrapping it up when we talked about, you know, every race car needs to get the basics right. Site fundamentals are really important to get right.
+
+00:33:19:39 - 00:33:40:43
+不明
+At first we talked about PGA tour, that 19% improvement of core vitals. Once you start to fix those issues and get those in check, it unlocks the possibility to do so much more. I talked about specialization being the key to effectiveness. That was where I and you saw it in the demo, the identify suggest fix framework. We're using that across every opportunity.
+
+00:33:40:43 - 00:34:00:44
+不明
+So if you take that very specialized approach and add it to every opportunity on your site, you can start to unlock benefits at scale. And then finally, that idea of team principles providing critical oversight. There was always one person in the organization who really was empowered to use this tool used. It worked across multiple teams and saw the benefit.
+
+00:34:00:49 - 00:34:28:30
+不明
+You need that strategic decision maker and that person in your organization. You don't want them running around in execution mode with all these different teams. You want them thinking about the bigger strategic decisions you need to make and what's next for your organization. So with that, we thank you and we'll see you all on the podium because all of you are going to win with Sites Optimizer.
+
+00:34:28:35 - 00:34:45:51
+不明
+A couple things I do want to call out for next steps. Visit us at the Sites Optimizer booth. We have a demo. You can get a real close look at how this works like I'm and showed we have a lab for hands on experience. We had one this morning. It was packed. Attendees loved it. Another one tomorrow morning.
+
+00:34:45:56 - 00:35:07:19
+不明
+Their space permitting. I would highly recommend checking that out. And we also want to offer scheduling a custom demo, so talk to your account team. We would love to show how Sites Optimizer works for your specific site. Your opportunities, and do that custom demo. So please reach out to them and schedule that. And then finally, please take the survey.
+
+00:35:07:19 - 00:35:25:36
+不明
+We really do value the feedback and some cool prizes. At the very least you get some coffee, but best case you get some new headphones. So please take the survey, give us feedback. And I know it's been a grind, but hopefully you enjoy bash tonight and the rest of summit. You.
+

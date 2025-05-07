@@ -1,0 +1,440 @@
+00:00:06:50 - 00:00:33:22
+不明
+Hi, everyone. My name is Tina. I'm on the Adobe Experience Manager sites product marketing team. I am joined here by Mike with my colleague Corey Dillon. He is on the Adobe Experience Manager sites product team, and we of course heard it time and time again. We are really excited for you to join our session today. We know there's a lot of sessions out there, but glad that you guys chose this one to be in.
+
+00:00:33:26 - 00:00:57:40
+不明
+I am not a good cook. I don't like to admit that. But I'm just not a great cook. Let's just be honest. However I strive to be, I want to be. And that's what matters. And so one of the things I really want to do is cook more traditional Vietnamese cuisine dishes. And one of them is Malay, which is what you see here.
+
+00:00:57:44 - 00:01:15:31
+不明
+This is a stock photo. This is not anywhere near what I actually create, but, it is a spicy noodle dish and I love it. I've grown, I've grown up eating it, and I want to introduce it to my family. I have, four year old. And then if you know anything about four year olds, they are incredibly picky.
+
+00:01:15:35 - 00:01:36:07
+不明
+So things that she likes today, she doesn't tomorrow. I bet you, So her needs are just always changing. But I want to introduce more of these dishes to my family. Me, my husband and her. And we all have different preferences. Of course. And every time I try to cook this dish, it just never turns out right.
+
+00:01:36:12 - 00:02:01:41
+不明
+It's either too sweet, too salty, not enough flavor. It takes me an incredibly long time to cook it more than I anticipated. And I watched YouTube videos. I followed online recipes, and for whatever reason, I just can't nail this dish. It is really hard to cook this spicy noodle dish. And why is that? The process to creating this spicy noodle dish is really hard.
+
+00:02:01:42 - 00:02:20:29
+不明
+It's it's a lot of steps in this whole process. Right? And it's really complicated. First I have to understand what I'm even doing. What am I cooking? Who am I cooking for? Do I have the right pots and pans? Do I have enough time? What ingredients do I need? Where do I need to go to find these ingredients?
+
+00:02:20:34 - 00:02:41:45
+不明
+And then the next thing is I have to actually go find these ingredients. And they are very unique ingredients. And so I have to go to multiple different stores to even find those ingredients. And then, of course, when you come home, you have to prep, right. You got to clean, chop, measure, you know, grind and all that good stuff in order to prepare, creating this noodle dish.
+
+00:02:41:45 - 00:03:02:07
+不明
+And then, of course, you start to assemble, put it all together, adding salt, pepper, all the things in order to create this really great dish. And of course, you have to taste and refine it and make sure it tastes good. Adding a little bit here and there to make sure that you're hitting the right notes. And then, of course, I have adapted to my four year old who I quote.
+
+00:03:02:07 - 00:03:23:34
+不明
+She says, I want this dish to be good, but also spicy, but not too spicy. I don't know what that means. And so I have to create this really good noodle dish for my four year old, who wants it to be good and spicy, but not too spicy. And this entire process takes a long time. 24 hours and plus, right?
+
+00:03:23:34 - 00:03:42:40
+不明
+And that's a long time to create this spicy noodle dish. And at the end of the day, my picky toddler doesn't really care that I've spent all this time and effort creating this dish. She just cares about the final dish. She's at the dinner table waiting, asking about it. When is it ready? Wasn't ready. When is it ready?
+
+00:03:42:44 - 00:04:02:22
+不明
+She doesn't know that I spent all this time and effort getting all those ingredients, chopping and measuring and assembling and creating this experience in order to adapt it and then give it to her. And if you think about it, it's like the experience that we create for customers. The customers only care about the experience that they see.
+
+00:04:02:27 - 00:04:27:40
+不明
+They care about the final experience. Here. It is a website, but they don't know the time and effort and energy that went into creating that great experience. Right? And yet everyone here and that has a lot of content that you're using to create that experience, all that content that you have. They've gone through this transformation process to create that experience for your customers who only really care about that final, final, only experience.
+
+00:04:27:44 - 00:04:46:37
+不明
+And that entire process of creating that really great experience is really hard. It's not easy. You have to first think about what you're doing, what campaign are you going to create? What experience do you want to promote it you know create and what channels you want to promote through what audience are you going to, you know, share it with?
+
+00:04:46:42 - 00:05:08:28
+不明
+And then you define the best content. If I ask anyone here, can you find me the best content in organization? You probably wouldn't know where to start. This music is wonderful, by the way. I love it. Thank you. You have to find that great content, and it's hard. It's hard because I bet you you have multiple different places that you have to go to find that content.
+
+00:05:08:32 - 00:05:30:22
+不明
+And then somehow you have to take it, bring it all together and build and assemble that great experience for your customer. And then, of course, you have to review, iterate and improve that whole experience, making sure that it's right and that it's on point. And then eventually, if they adopt it and scale it for other needs, other GEOs channels, personas, and then distribute to other teams so that they can use it.
+
+00:05:30:26 - 00:05:41:58
+不明
+And this process is hard. It's complicated. It's not easy. Right. And we all want it to be great. And yet this process is so, so much friction.
+
+00:05:42:03 - 00:06:03:05
+不明
+And we want these experience of course, to be really meaningful for the customer because your customer, just like my picky toddler, is waiting. Where is it? I have a question. Where is the answer? I want something to engage with. Give me something quick, please. And so we need it to be relevant. We need it to be meaningful. We want it to be fast so that we can meet the needs of our customers.
+
+00:06:03:10 - 00:06:27:29
+不明
+And why do these experience matter? Why do meaningful experience matter? Because this is how our customers are interacting with us every day, whether that's through an email that they get, you know, checking your website that they probably go to a lot multiple times a day or even receiving email or checking your mobile app. These are touchpoints that your customers are interacting with you every day.
+
+00:06:27:34 - 00:06:55:07
+不明
+So of course, it makes sense to make sure that experience is really, really meaningful. But we know that whole process, again is clunky. It's so complex, it's hard. And we've spoken to so many customers and one customer said that it takes them three months to build one experience. And if you magnify that by how many channels and personas and renditions and variations do you have to create that's even more complicated.
+
+00:06:55:11 - 00:07:19:26
+不明
+And that's why Corey and I are so excited to reintroduce, because it was introduced yesterday during the site's top desktop innovation. If you didn't catch it. Experience generation, which is an accelerated way to get all that content that you have to transform into a really great experience using JNI. And so, without further ado, I would love to introduce Corey to give you a demo and what it looks like.
+
+00:07:19:31 - 00:07:46:25
+不明
+Thank you Tina. All right. So let's switch. All right. So the first thing I want to introduce here is, Experience Hub. So this is going to be the new launchpad for Am that kicks off our agen tic, workflows. And it's also persona based. So in this case, I'm, I'm a, marketing manager for a company for Scopa.
+
+00:07:46:38 - 00:08:09:35
+不明
+So I see, relevant, what we call like, widgets on this page so we can customize these widgets as well. But for this demo I'm going to show showcase experience generation. And so, I'm a marketing manager for, for Scopa. And I need to create a new landing page for, for a, for the subscription team, subscription, my barista.
+
+00:08:09:35 - 00:08:32:01
+不明
+So up here in this describe your experience. Excuse me, I can write something like. I need to build a new landing page for my Brisa coffee subscription, or I get it for young professionals. Right? So from here, we'll go ahead and click generate. And we see some activity on this page. But things are kind of empty.
+
+00:08:32:02 - 00:08:57:59
+不明
+So let me go in and grab a brief and we'll kick off an agenda workflow. So what's happening now is it's taking the content of that brief and starting to extract all of the relevant information that may be needed for this agen tick, workflow. We are going to, in the future, it be integrated with work front.
+
+00:08:57:59 - 00:09:24:48
+不明
+So we could also pull in, briefs from, from work front as well. As this is working, now you can see there is a lot more activity on this page. And, the generic workflow has determined with high confidence that we have enough, information to generate this high quality landing page. So now we have some objectives.
+
+00:09:24:53 - 00:10:03:16
+不明
+We have a description. We have personas that are pulling from the brief itself. We are also going to be working on integrations with, RTC, CDP and target as well for some additional personas. And here is, Content Advisor. So I'll be talking about Content Advisor more. And you might have heard of this, in other places during summit, Content Advisor is recommending some content based on that prompt that I initially gave it, along with the brief, so I can select some assets that I like here.
+
+00:10:03:21 - 00:10:28:17
+不明
+And also content fragments. So we're pulling this previously approved content from Am and able to, use these and re leverage repurpose these to assemble a new landing page. And we have a couple of different templates that we can choose from as well. It the system recognizes what we're trying to do. So recommends a template.
+
+00:10:28:17 - 00:10:51:03
+不明
+Of course we can always, change that if we want to. Oh. The one other thing, is this extracted area. So, in the brief, there was also images included. So it extracts those images, puts those in there, and then we can add those to a Am assets as well. For, for future use.
+
+00:10:51:08 - 00:11:21:09
+不明
+So from here I'm going to go ahead and select Generate Experience. And it's going to push me back out into Experience Hub. And you can see that this is in progress, created four seconds ago by myself. So this workflow does take about 10 to 15 minutes. So I'm going to let Tina talk a little bit more, and we're going to come back and see the second part of this.
+
+00:11:21:14 - 00:11:44:05
+不明
+Just one note on like, why does it take so long is because this is, a genetic workflow. There is a crew of agents that are, like, talking to each other. So one produces an outline, and then inserts sticking stuff into the appropriate blocks based on the template. If something doesn't fit, it will go back and ask the creative, writer agent to, like, rewrite the text to make it shorter.
+
+00:11:44:05 - 00:12:06:51
+不明
+And so it continues to do this until it thinks it has has done its job. So with that, I'm going to hand it back to Tina. Thanks. These. Corrie. So while the agents are socializing, as I like to call it, this is a typical store that I go to when I try to find these ingredients.
+
+00:12:06:51 - 00:12:28:42
+不明
+And, this is a shelf full of different sources. And so one of the key ingredients for the spicy noodle dish is a fish sauce. And if you don't know fish sauce, it's in Miami. So it's critical for the dish. But as you might have guessed, there's a lot of different brands, a lot of different types, a lot of different sizes of this sauce I have to buy.
+
+00:12:28:47 - 00:12:48:10
+不明
+So when I go to the store, I have to somehow magically find this one specific brand that's going to fit my spicy noodle dish. And so this is my personal nightmare. I don't do a lot of grocery shopping. So when I do, I get kind of frustrated because I have to go navigate to the right place, find it, decide which one works best.
+
+00:12:48:10 - 00:13:06:59
+不明
+I don't even know which one works best. I just kind of have to trust my gut. And so to me, part of the whole process of cooking this spicy noodle dish, it's hard to just even try to find and discover the best ingredients. And so why is that? Well, because I have to know exactly where it is.
+
+00:13:07:04 - 00:13:25:12
+不明
+So I mentioned I go to multiple different stores to find these ingredients, and I have to know exactly which stores to go to, and then navigate to that aisle, and then happen to find this fish sauce that I, I'm guessing is the best. And so that's the other part. I don't know which one is the best. What is the best?
+
+00:13:25:17 - 00:13:43:42
+不明
+They could all be best. And so I have to kind of, kind of blindly choose which fish sauce is going to be good for my spicy, spicy noodle dish. And then when I take it back, I have to let my husband know because he also cooks. Hey, everything that I bought so that he doesn't rebuy anything, in case he needs to go to the store or to.
+
+00:13:43:47 - 00:14:08:46
+不明
+And so sharing is a little difficult, especially our pantry, which is, you know, a maze. And so it's difficult to even just get him to know and vice versa, what ingredients we have on hand. And it's very similar to try and find the best content in your organization. And so we've spoken to so many customers and I asked, do you know where all your content is at any given time?
+
+00:14:08:46 - 00:14:27:32
+不明
+And resoundingly, no, it's hard right? There's so many different places you have to go. You have to know where all of them are. If you do know where all of them are, and then you have to know and decide which is the best content. And that in itself is hard if you don't know where you're looking.
+
+00:14:27:37 - 00:15:00:23
+不明
+And then we have to share all that great content with all the folks that you work with, have the right access. Right. That is really hard to and we want to give your teams the best access to the right, you know, content at all times. A sharing can be really hard as well. And so with experience generation, we are improving the product productivity for teams, giving teams more time and getting them to be much more efficient, faster time to market by finding and discovering content much, much faster.
+
+00:15:00:28 - 00:15:19:58
+不明
+So now, as Cory mentioned, we're giving you content recommendations and surfacing the right content based on past performance and intent. The intent based off the brief that Cory had showed you. And then there is a unified search experience across all repos and content hub so that if it's hiding underneath a repo that you don't know, we will absolutely try to search for it.
+
+00:15:19:58 - 00:15:40:01
+不明
+And look there, and then when you think about content, I think people think, oh, you know, is it videos, is it images? It's everything. So it could be content fragments, it could be docs, it could be text, it could be videos. And so all that content will show up in search, and it will do the heavy lifting for you so that your teams don't have to do that.
+
+00:15:40:06 - 00:16:07:03
+不明
+You don't have to know where your content is anymore. And we will help enable that. And now I'll pass back to core to give you some, a sneak peek into how we're actually powering this. Thank you. Tina. All right. So getting back, like, into the back end, a little bit of, like, how this is working. This is content AI, which is another term that you might have heard in a couple of different sessions.
+
+00:16:07:07 - 00:16:40:43
+不明
+So what is content AI. So we take all of our AMP content that we have, content fragments, experience fragments, pages, sites, all of it. And we run it through an embeddings model, which then vectorize is that, those, those that content into these numerical vectors. Right. And so when someone queries something like, like they ask, ask for a search, we then do the same thing to that search.
+
+00:16:40:43 - 00:17:04:07
+不明
+So we apply embeddings and vectorize it. So now we have these two two numbers. And instead of doing like a traditional keyword search where it has to look for a very specific keyword, we work, we do something called semantic search, which is, similarity search. And so we look for, those numbers that are closest together, and then we stack, rank them.
+
+00:17:04:07 - 00:17:34:06
+不明
+And that's what we show you. We actually do this along with lexical, database search which is the traditional keyword search. So we do both of these, which ultimately ends up at the end of the day, giving you more highly rather than accuracy accurate, search results. Taking that a step further, like, what else we can do with all this vectorized cool database stuff is, rag, if you've heard of retrieval, retrieval, augmented generation.
+
+00:17:34:06 - 00:17:59:10
+不明
+So this is a new thing that everyone likes talking about. And so we it's a, it's an extra step along with this semantic search. So you can imagine if you're asking, hey, I need some teaser text for my leading product with references to the pages where customers can learn more. So we push that, into, into, the embeddings model again.
+
+00:17:59:10 - 00:18:29:14
+不明
+So we're vectorizing that we already have all of your Am content vectorized and inserts to say, okay, based on what you're asking for, this content is the most highly relevant. We can then use that to generate a response or generate any content that that's needed. And this is really important because, LMS are great generalists. Like it can answer things, but we also don't want to train models.
+
+00:18:29:14 - 00:18:53:07
+不明
+And so with Wragg we can actually just push the a m content and like append it into the prompts. And it's grounding that response. So you could imagine, another scenario where you want to provide some, some like hero banner text for like a 401 K program and without any M content. Yes, the LM can do that.
+
+00:18:53:12 - 00:19:19:40
+不明
+But if we're querying the A in content repository, we have a lot more, knowledge and information about the 401 K program so we can write more highly relevant content to, to to market that 401 K program. The other thing I wanted to talk about is a new feature that's being released, for early access in, in, like a month or so.
+
+00:19:19:45 - 00:19:40:49
+不明
+It's called brand aware tagging. And brand aware tagging, is around metadata and you might say, well, do we still need metadata with all this cool semantic search? The answer is yes. There are still unique use cases for this, like faceting and filtering and things like that. And then it also helps with semantic search as well.
+
+00:19:40:54 - 00:20:04:57
+不明
+And so brand aware tagging is using a vision model to, extract, information from images. And then we'll automatically generate, the metadata. And then of course, with the metadata, it can enhance search and discovery. So yeah. So let's do some more demos.
+
+00:20:05:01 - 00:20:41:13
+不明
+All right. So the first thing I'll show you is the brain aware tagging. So let me drop an image in here and get this started. So what I've done is, so this is an Am assets, and I dropped in a image and you can select, what folders you want brain to wear tagging to, to work with.
+
+00:20:41:18 - 00:21:04:56
+不明
+And, so yeah, I've enabled it in the products folder here. And as, as soon as it drops in, it begins processing and it will start, applying the brain to work tagging. So right now there is no, no, now just change. But you saw there was no title there, so that image didn't have a title.
+
+00:21:05:01 - 00:21:39:44
+不明
+And now brand aware tagging kicked in and start applying the metadata tags that it found relevant. And if we open up this image, we can see, the title and the description was already filled out using brain to wear, tagging along with the content type. So the content type is a is a drop down. But the the model is figuring out what, what piece of content that actually is.
+
+00:21:39:49 - 00:22:02:31
+不明
+It can actually do that as well, with the product. So, once this image loads, you'll, you'll see that, it's a, it's a whole being image or a whole being copy from for a scope. It's a blend and it's a dark roast. So let me see if it will load here. There we go.
+
+00:22:02:35 - 00:22:32:05
+不明
+Let me open this up. Did so. Yeah. So now we can see this better. So. Yeah. So basically the the vision model is extracting for a scope. It understands that's the brand. The house blend is the, the coffee blend type again. So these are dropdowns, and, the vision model is determining which is those which is the best fit based on, that this image.
+
+00:22:32:10 - 00:23:00:53
+不明
+So super cool stuff we can, save, save whoever is managing this metadata lots of time. And it's automatic. Of course, we can always review it and make sure it's accurate. So that's a brand aware tagging. And then, the next thing I wanted to show was a different modality of content advisor. So when I was showing, experience generation in that first demo, there was content advisor in one, in one area of that flow.
+
+00:23:00:58 - 00:23:27:41
+不明
+But you can think of content advisor being anywhere and everywhere that you need to be able to find assets. So this in this example, we're in now and we can, say add assets. And so, the query that pulled up here is this approved PNG assets showing an artistic coffee cup place in a cozy cafe.
+
+00:23:27:46 - 00:24:08:23
+不明
+And you'll notice that this intent driven match is highlighted. The other one is this exact match, which is the more traditional key word match. This intent driven matches the semantic search. And so it's able to find relevant images, as well as content fragments. So again, this is not just for Am assets. And if we wanted to search for something else, we could say, like, friends drinking coffee outside.
+
+00:24:08:28 - 00:24:35:14
+不明
+And it will do the same semantic search and then start looking at images for friends, drinking coffee outside. And then we could select any of these that we wanted, and then we could apply them just based on whatever surface, that, that you need. And so those were the two things I wanted to show in this section. I'm going to hand it back to Tina Fey.
+
+00:24:35:19 - 00:25:15:47
+不明
+All right. Thanks, Cory. So when I cook my spicy dish, it's really important that I get the freshest ingredients, right? But for the better, making sure that it's not expired, making sure that it's, the best. Right. And then I have to also make sure that it is just maintained appropriately. There is a specific leaf that I use for the spicy noodle dish, and it is very sensitive where the moment you open up the package, you have to clean it, had it dry, and then immediately put in water and then frigerator otherwise it will wilt and then basically be useless.
+
+00:25:15:47 - 00:25:40:02
+不明
+So this is within literally an hour of getting home to the, from the grocery store. And so just caring for the ingredients is so hard. I have to make sure that I have to get the freshest ones. But also consistency is really hard, too, because I'm trying to create a really consistent spicy noodle dish every time and replicate it for my toddler, myself, and my husband.
+
+00:25:40:07 - 00:26:03:02
+不明
+Consistency is key, but getting a consistent dish is hard because ingredients not just have to be maintained, but I always have to get the right brand, and the right version of the ingredient every time. And some things go out of stock. And so sometimes that's just not possible. And so for me, this is hard because I just don't know if the ingredients are it's freshest when I'm at the store.
+
+00:26:03:04 - 00:26:22:38
+不明
+Is it the most fresh. Is it on the verge of going, you know, expiring. And with this dish, precision is so important to make it consistently good. I have to make sure that I'm constantly buying the right brand at any given time, and that it's not some bootleg version of that I'm getting from my grandma's friends neighbor's house.
+
+00:26:22:43 - 00:26:44:21
+不明
+That I'm getting it from a reputable source. And you can think about it again, very similar to the content that you have. You have to make sure that your content is maintained appropriately every time. What that what does that mean? And so content goes out of style goes irrelevant quick. Why? Because message up gets updated. Things change.
+
+00:26:44:29 - 00:27:05:45
+不明
+And so making sure that the content you choose for an experience is so hard because. Is that the most relevant one? Are you sure that it is for me it's it's hard. And then you have, of course, every company has its own legal requirements and laws that you have to follow. That in itself is another complexity that you have to remember and know.
+
+00:27:05:50 - 00:27:33:46
+不明
+And, you know, do you know, that's hard to see as well from the content that you have in your repository. And then third is, from a brand standpoint, of course, the brand team is going to be on you if you don't have brand approved content. Right. Everybody has probably really strict brand guidelines, as do we. And so you have to make sure that everything you're choosing is approved from a brand standpoint to ensure that experience is consistent for all of your customers.
+
+00:27:33:51 - 00:27:55:43
+不明
+And so with experience generation today, we are ensuring brand integrity by providing that enterprise level governance. And this is great to have because with each content that you see, you can have its history alongside with it, with content credentials. That's like a food label for your content, which is really great. You can see who created it. Was it created with Gen AI?
+
+00:27:55:56 - 00:28:15:44
+不明
+Is it trustworthy and so forth. And then we can support DRM support and of course your legal guidelines as well. And then of course aligning with your brand guidelines. So, you know, you can trust that all the recommendations that we put forth are will be approved from a legal and brand standpoint. And with that, I'm gonna pass it to Corey to dive into the details.
+
+00:28:15:45 - 00:28:41:07
+不明
+Yeah. Thank you Tina. All right. So, yeah, a little bit more on, what we call the unified brand service. So this is a service that's going to be available across, DD so anytime you're generating content, you can make sure that that content is on brand. It's used in one of the last demos I'm going to have around.
+
+00:28:41:12 - 00:29:06:23
+不明
+It's called Generate Variations, which is already integrated with this, brand guideline service. But, what is it? So we'll talk about the management piece, first, and then I'll show you the validation part later. Brand management is the ability to upload your brand guidelines, whether it's a word file or a PDF or providing a URL and being able to set up those, brand guidelines for that use.
+
+00:29:06:27 - 00:29:14:27
+不明
+So I'll show you what this looks like here.
+
+00:29:14:32 - 00:29:41:54
+不明
+All right. So you can have multiple brands as well. So for this one we'll continue with it for a scope of brand. So I'm going to go click in here. And so first off there is just like an overview of, of the brand, for the brand voice guidelines. This is kind of like a general area where it goes over the tone of voice, the brand values, editorial guidelines are just general concepts.
+
+00:29:41:59 - 00:30:06:58
+不明
+We do support, image guidelines as well. So this couldn't be integrated in with Am assets as well. And each image would, would get a, a brand guideline as well. Something that the assets team is working on. Then we have channel guidelines. So again, this is a, a common service. So we have different, different channels in here.
+
+00:30:06:58 - 00:30:37:06
+不明
+So email, paid, paid ads from like meta or banner ads. And then this is like super density for performance marketing. And then, for AMP sites, we have web here. So we can be very specific on, on what we need for, for web, as well as LinkedIn. And so, once we have this set up, we every time we're generating that content, again, we can pull these guidelines and append it into that prompt.
+
+00:30:37:11 - 00:31:03:10
+不明
+And so I will pass it back to Tina. Great. Thanks, Corey. So when I'm cooking my spicy noodle dish, one of the ingredients that I use, is spice. And so I mentioned in the beginning that I have to go to the grocery store and buy these ingredients, and I try my hardest to make sure that I'm repurposing what I already have.
+
+00:31:03:15 - 00:31:22:49
+不明
+Clearly I don't, because I have five of the exact same thing to them already open. So clearly, I don't know what I already have, and that's pretty typical. And so my pantry is just kind of a mess. I don't know what I have, so I just end up buying it again and again at the store.
+
+00:31:22:54 - 00:31:47:25
+不明
+And so, that is wasteful because I already have the ingredients and yet I'm not reusing it at all. I, in fact, I forget about it. And that is very, very normal. And very similar to what companies do with your content. How many of us reuse the content that we already have? Probably not a lot.
+
+00:31:47:30 - 00:32:10:20
+不明
+We were both in a customer meeting and we asked, what percentage do you use reuse your content? And it was single digit percentages that is incredibly, incredibly low. Knowing that companies spend so much time, effort and money into creating all that content. And yet hardly anyone is really reusing or repurposing any of that content. And why is this so hard to do?
+
+00:32:10:25 - 00:32:29:29
+不明
+You have all that great content and yet we're not reusing it. And it goes back to discovery of content, right? If you can't find it, you don't know what's best. And how can you possibly, possibly reuse it. And it's hard to know what content is, you know is best, even for use and even harder for reuse or for repurposing.
+
+00:32:29:33 - 00:32:50:25
+不明
+And when you think about it, when we create that content, that content really isn't set up for reuse or repurposing. When I'm cooking my dish, I'm not thinking about the ingredients in this dish or the next waste, or, you know, for the following week or next month. I'm just focus on the dish that I'm working on right now, very similar to when we create an experience.
+
+00:32:50:30 - 00:33:11:39
+不明
+You're not really thinking about all the different future uses that you might possibly use it for. You're just ensuring that you want to have the best content that you have for that experience. And so it's hard to really set up for reuse or repurposing because it's not, quite frankly, designed for it. And so experience generation is going to help teams increase content ROI, right?
+
+00:33:11:39 - 00:33:38:14
+不明
+So why not leverage the content? You already have all that great content that you poured so much blood, sweat and tears and that many companies today spend a lot of money with agencies with helping scale those efforts. Let's put that to use. And so Corey had mentioned, you know, we will get content recommendations, will service that for use, but also for repurposing and reusing as well, so that we are always offering you the best choice or whether that's for use.
+
+00:33:38:14 - 00:34:02:56
+不明
+We're repurposing the best ones as well so that you can continue to increase your content ROI. And then it's going to be designed for modularity. So then it will be much more flexible to use that content now, today, tomorrow, for future use in the most flexible way possible. And the whole process now will be much faster, much seamless to generate that great experience for your customer.
+
+00:34:03:00 - 00:34:26:00
+不明
+And I will pass it to me to show you what this looks like. Yeah. Thank you Tina. All right. So our a genetic workflow has been busy, in the background here. And, so this is a page that I created at the beginning of the demo. So if we open this up, we can see two variations were created.
+
+00:34:26:05 - 00:34:57:28
+不明
+So each time that we generate, we can give a couple different flavors of this, and then we can, pick which one we like the best. And so you can see a larger preview here of the generation. And again, so this was a template. Right. So there was like here a banner here and then these cards and then the text box, we can click on variation two here you can notice, you know different copy here and usage of a couple of different images here as well.
+
+00:34:57:33 - 00:35:20:03
+不明
+And so we were able to repurpose that content and fit it to purpose into, these areas. And then we can open this up in the universal editor. But I will show you that at the last bit, which is coming up. But first, I'll hand this off to Tina. Thank you for it. Okay. We are almost at the finish line, you guys, I promise.
+
+00:35:20:03 - 00:35:38:30
+不明
+So this is a stock photo, but it could very well be my toddler at the dinner table. So, as I mentioned beginning, she is really, really picky. And so funny enough, when I eat my spicy noodle dish, I like it really spicy. My husband likes it medium spicy, and then she likes it spicy, but not spicy.
+
+00:35:38:30 - 00:36:00:02
+不明
+I don't know where that fits on the spectrum, but think about all the ways I have to adapt this dish for multiple different people. And very similarly, when we create these experiences, you probably have to adapt it to not just multiple different personas segments, but channels, geos. And if you're a large portfolio brand, multiple different brands, locales.
+
+00:36:00:02 - 00:36:28:23
+不明
+And so think about all that creation and generation of these experiences and adapting to all those different contexts. That's a lot of work. Why is it so hard? It's because it requires full understanding of every single one of those contexts. Right. And so I have to understand what my husband likes versus my toddler versus me. But then for companies think about the different channels that have different specifications, different locales have nuances, right?
+
+00:36:28:23 - 00:36:52:33
+不明
+The market in the US is vastly different from the market in Italy. Require, it requires full understanding of all those different nuances. And that's a lot of work, because that means you have to go and talk to somebody who talks to somebody who goes and finds something in a doc and that again, just magnified. That's a incredibly complex web of just understanding the full context and requires a lot of resources.
+
+00:36:52:37 - 00:37:18:51
+不明
+So Cory and I have talked a lot of customers and customers spend millions of dollars with agencies to alleviate this pain point, to help scale and adapt these experiences. And that's a lot of money, you know, spent on third party agencies who you are relying on for this work. And so with experience generations, you'll be able to adapt experiences and content for just different various uses, including different personas and channels and renditions.
+
+00:37:18:56 - 00:37:40:27
+不明
+And so now we can right size. These are really great experiences for all those different use cases that you might have. And at the end of the day, everything you saw here, it's very Jini heavy and, you know, it is an accelerated way, but you as a marketer are still in control. And that is great because it means that you can still put the final touches to any experience that we built.
+
+00:37:40:32 - 00:38:01:07
+不明
+And still your eyes cross your T's which out an image if you want. If you decide that you don't like an image, you can easily swap that out. You as a marketer is still in control and we give you the tools to do that. And then you can also create, of course, persona specific content with generic variations as well, easily within the tools, so that you don't have to go to a different person to ask for it.
+
+00:38:01:12 - 00:38:10:47
+不明
+Go to the creative agency to create it. You can do it yourself with a few clicks of a button, and so I'll pass it to Corey to show you what that looks like.
+
+00:38:10:52 - 00:38:43:52
+不明
+Thank you Tina. All right, so to finish up this demo here, I like this one. Skip the lines. Enjoy. Freshly roasted coffee. So I opened this up, in, universal editor here. But to Tina's point, maybe I want to adapt this a little bit more. So what we can do, is highlight this text and I have what we call generate variations available here.
+
+00:38:43:57 - 00:39:12:34
+不明
+And, I could just say something really simple, like rewrite to be more engaging. But we can also do this to be audience specific. So here I can pull in a value from, like Adobe Target. I could say something for for students and we can click generate here. So, a couple of things are happening with generate variations.
+
+00:39:12:34 - 00:39:50:14
+不明
+So, since this is in context of the page, so it's analyzing the page and understanding the context of what's, what's being requested. So it understands the page structure. It understands, the copy that has been selected also behind the scenes is using content. I so remember back at the beginning of the presentation, we talked about, querying the database and appending the prompt with additional, content, within AMP to help guide and ground the LM.
+
+00:39:50:19 - 00:40:12:04
+不明
+And then the last thing that is doing, you see this little blue is, that's the brand guideline validation. And so it is, it says, okay, so you're generating copy for for scope. Let's go look at the brand guidelines and see how how close and accurate we are. So you can click on any of these here as well.
+
+00:40:12:04 - 00:40:32:50
+不明
+And you can see that a 15 of these were met and two needs attention. I often hear like, well it's generative AI, so why doesn't it just do it perfect. Well it's generative AI and it's not perfect. So, it it will, it will give you transparency on what needs to get fixed. So if we review this, we can, figure out what needs to get done.
+
+00:40:32:55 - 00:40:57:51
+不明
+The nice thing about generate variations as well, is that you can also edit anything. So like if I wanted to change something here, and hit save. So it's going to update the preview to what I change and it will actually called the bring guideline service back again and say like hey, is this is this still on brand or what needs to get changed?
+
+00:40:57:56 - 00:41:20:11
+不明
+And again, this was using the personalization as well. So we can tweak this to get it more audience specific. So with that, this is done. I can send this, for reviews and approvals or like basically whatever your, your current workflow is. So with that, I am going to hand it back to Tina. Thanks, Corey.
+
+00:41:20:16 - 00:41:25:22
+不明
+
+
+00:41:25:27 - 00:41:46:25
+不明
+So everything that you saw here, it's what's powering experience generation. Right. And so what you will see as a marketer will be this really easy, simple to use UI. So everything underneath the hood is powering experience generation. And it's a lot. You have a crew of agents are working for you. You have generative variations. Who is doing the work for you.
+
+00:41:46:35 - 00:42:05:48
+不明
+You have a lot of suite of innovations who are just really enabling your teams to create these really great experiences. Much, much faster. And I will say we went through an example of a website, a landing page, but that's not where we want to stop, right? This is the first use case that we want to focus on, but we also want to expand other use cases as well.
+
+00:42:05:53 - 00:42:25:20
+不明
+If you have a use case for an email or another type of experience or content, we want to hear about it. And with that, we haven't asked for you guys. Of course. So Corey and I have been working really hard on this. We would love for you guys to join us if you're interested. And so, a few things about an early adopter program.
+
+00:42:25:25 - 00:42:39:58
+不明
+The first thing is you might be thinking, well, Tina is just your regular beta program. You might want. Well, this is different, and I promise you so it's not a beta program that you typically hero. If you use something in a vacuum and then you never, you know, you never hear from us. And then within a month you come back and talk to us.
+
+00:42:40:03 - 00:43:03:29
+不明
+It's not like that at all. You literally code build with us, with our product teams and engineering teams. We will set up a slack, or teams. If you guys don't use slack to code, build with you because we really want your feedback. We really want to meet the needs of our customers and your use cases. And so if you saw something here where you're just not quite sure, join us and let's talk about it.
+
+00:43:03:34 - 00:43:20:42
+不明
+And we're more than happy to work with you, directly with you, with our customers to help build the future. What experience generation is about. So the great thing is you get to build the future of what experienced generation will be. The bad news is you have to work with Corey at night. So that is, you know, you decide whether you want to do that or not.
+
+00:43:20:42 - 00:43:35:14
+不明
+But, I'll leave this up here. It's a quick forum. It goes to Corey and I directly, and we'll start reaching out to customers. To get started. And with that, we are done. Thank you. For.
+

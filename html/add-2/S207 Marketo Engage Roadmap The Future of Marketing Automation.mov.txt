@@ -1,0 +1,512 @@
+00:00:00:36 - 00:00:31:27
+不明
+Hi. Hello. Welcome to our session, the Marketo Engage Roadmap the future of marketing automation. This is like the most registered B2B session at summit. So Marketo people love Marketo. Thank you. So I am Steven Vandenberg, senior product manager. And I'm John Dixon, also a senior product manager. And we are going to go over all of the cool things coming up in Marketo, engage in 2025.
+
+00:00:31:31 - 00:00:53:51
+不明
+As we get started, just a reminder that roadmap sessions are, informational. The feature sets could change, the release quarters could change. So, you know, keep that in mind. And you feel free to take photos of slides, put them on LinkedIn or blue Sky, or send them to Slack and Slack back to people back home.
+
+00:00:53:56 - 00:01:01:07
+不明
+We're excited to share this with you. Feel free to share as wide as you want.
+
+00:01:01:12 - 00:01:21:47
+不明
+So for those of you that may be, you know, relatively new to Marketo, we just level set. You know what Marketo engages. It has been and remains a leader in marketing automation and is a mission critical solution for thousands of customers. Like all of y'all who run the most impactful and sophisticated marketing programs at scale in the world.
+
+00:01:21:52 - 00:01:42:24
+不明
+And we spent the last year modernizing Marketo engage, for all these new AI technologies that are, coming to market. And we're going to spend, you know, the next hour talking about all the ways that will be, bringing those great new features to you. But before we dive into that, we're going to talk about the industry as a whole for just a second.
+
+00:01:42:28 - 00:02:01:40
+不明
+So you'll hear more about this in the B2B strategy keynote. But we're seeing a new generation of B2B technology emerge across the market. It's maybe the most, you know, drastic shift in the last 20 years. And it's all thanks to these new AI technologies. So if we step back a bit and think of B2B 1.0, and that was the creation of the CRM.
+
+00:02:01:40 - 00:02:24:20
+不明
+So the first time that the interactions between the buyer and the seller were digitized, and then we went to market our B2B 2.0 and that's when Marketo hit the scene. Now we have the automated leave lifecycle. We have the marketing qualified lead and we also have ABM. So now you can reach out to companies via different digital channels, with advertising.
+
+00:02:24:25 - 00:02:47:21
+不明
+And now we're moving to digital 3.0 where the entire revenue lifecycle is, is completely digital. The entire revenue team is involved in this all digital end to end. And with all these new AI technologies becoming more tangible. Like, we see that as a reason for the industry to reinvent itself, to take, take advantage of all this new tech.
+
+00:02:47:25 - 00:03:07:43
+不明
+If we think about, GPS. So first, of course, we had the Thomas map books in the back of our car, and you had to look at the grid you were in and where you want to go and navigate yourself. And then we had Google Maps and Apple Maps where you're still behind the wheel, but now you have access to real time decisioning and rerouting as you're driving.
+
+00:03:07:48 - 00:03:27:09
+不明
+And so B2B 3.0 is kind of like the autonomous car. It's not fully here yet, but it's not out of reach. And every car manufacturer has some level of autonomous driving. Now and soon you'll get to the point where you can just sit in the driver's seat and type in your destination, and off you go without you having to do anything.
+
+00:03:27:10 - 00:03:41:13
+不明
+That's where we see the market heading towards. Thanks to all these new AI technologies. So my hand it over to John and we're going to talk about, what we've been working on in the past few quarters. Thanks, Stephen.
+
+00:03:41:18 - 00:04:11:35
+不明
+So we just want to start by acknowledging, our Marketing Nation community. All of the members of our Marketo user groups across the world and our awesome, Marketo champions. There is not a more passionate, loyal, and possibly vocal, customer base, for any product in any company in the world. And, we just we just want to thank you.
+
+00:04:11:40 - 00:04:32:25
+不明
+You were the reason why we're up here. And we just want you all to know. We just want you all to know how much we value all of your thoughtful and insightful feedback. We do our very best to read every single comment and post in the community. And, we want you to know that we hear.
+
+00:04:32:25 - 00:05:06:38
+不明
+We hear you. We've seen your comments on the user experience, on performance, and on workflows, on our editors. And the list goes on. And while we can't fulfill every one of, your enhancement requests, we we are committed to ensuring that Marketo engage continues to be the, foremost marketing automation platform in the world. And we think you'll be pleased with what we've got to show you today.
+
+00:05:06:43 - 00:05:12:29
+不明
+Maybe.
+
+00:05:12:34 - 00:05:34:10
+不明
+There we go. So before we jump into the individuals, we want to start by just, highlighting the wave of features that we've released just in the last few months. So some of the items that you see up on this screen, we announced at summit last year, and some of them were added to our roadmap, after summit.
+
+00:05:34:15 - 00:05:55:06
+不明
+But what's important is that all of these things are available now. And because these are so recent and so critical, we're going to spend some time diving into each and every one of them as we go through the themes, in preparation for what's coming throughout the rest of the year. Ago. So let's talk about those themes.
+
+00:05:55:08 - 00:06:22:49
+不明
+There are three key buckets that each of the things, features and functionality that we're going to talk about will fit into, data and insights journeys and content and collaboration. So first data and insights. So this just encompasses your reporting and analytics, CRM sync, field management, tokens, performance, etc.. Journeys. That will be the end to end campaign orchestration and design and then content and collaboration.
+
+00:06:22:49 - 00:06:53:13
+不明
+That's your emails, templates, webinars, chat, etc.. So before we jump into the features themselves, I want to get a quick show of hands. So how many of you here are current Marketo Engage users or customers? Awesome. Now keep your hands up if you, have are familiar with the Adobe Identity Management System. Okay, so quite a bit fewer.
+
+00:06:53:18 - 00:07:17:06
+不明
+And keep your hands up if you have, migrated your users over to the market, the Adobe Identity Management system. Okay. So for those of you who had your hands up at the end, there's good news, because most of what we are going to show today, or much of what's available, is already going to be available to you.
+
+00:07:17:11 - 00:07:39:40
+不明
+For the rest of you, if you're not familiar with Adobe's identity management system, it is the unified. It provides a unified login experience across all Adobe products and services and helps you streamline user access. So why is this important? First of all, it just makes life as an admin easier because you don't have to maintain users in two different places.
+
+00:07:39:45 - 00:08:01:39
+不明
+Users get to login with with a single sign on. But more importantly, it provides you with the golden ticket to be able to access all of the features and functionality that we're working on. Especially a lot of the AI capabilities that are coming this year. So if you're not I there were quite a few hands that were down at the end.
+
+00:08:01:44 - 00:08:25:10
+不明
+So if you're still not sure what that is and you need more information, we are going to circle back on this towards the end and provide you with some additional resources. So let's let's dive into data and insights. So I like to think of data and insights like the electrical system in your sports car. It's not the most sexy part of the car, but it is certainly one of the most important.
+
+00:08:25:15 - 00:08:57:04
+不明
+So we're going to kick things off with the rebuilt Salesforce CRM sync. So we've taken our, first in class leading CRM connector, and we've rubbed it up to double the sync rates and improve overall performance and efficiencies in terms of, in terms of sync success rates targeting, specifically targeting Salesforce platform limitations. And to measure this improved performance, we've also recently rolled out some self-service CRM sync dashboards.
+
+00:08:57:09 - 00:09:23:27
+不明
+Say that five times fast. That provide key data points on sync rates and backlog status. So the dashboard is available now to help you pinpoint and resolve sync issues more quickly. Oops. To resolve sync issues more quickly, and it even links to some best practice docs. That will help you, optimize your sync so the new connector will be available.
+
+00:09:23:40 - 00:09:45:16
+不明
+It will be rolled out over the next few months. And, your admin will receive a notification on their desktop or in their in the application when they log in. About 2 to 3 weeks before your cohort roll out period. So you got a sneak peak of the next one. No, this is not working again. Here we go.
+
+00:09:45:21 - 00:10:14:22
+不明
+So we are also excited, to be announcing fully refreshed, by analytics offering to improve, performance and user experience. So if you're a long time Marketo user, you may be more familiar with this tool, by one of its previous names like Advanced Report Builder or Revenue Explorer. But now we're delivering a more modern, more powerful solution for exploring reporting on Marketo engage.
+
+00:10:14:27 - 00:10:44:33
+不明
+So we're delivering new value to reporting feature, not just faster, more interactive analysis, but also a dramatically expanded set of visualization tools that, allow you to turn your reports and presentations, into PowerPoint ready slides. So we'll be automatically converting all existing reports, that you have to make this a seamless transition. And one thing to note is that there will not be any change to current data models, for those of you who are using it today.
+
+00:10:44:38 - 00:11:05:28
+不明
+Also, for those of you who already use this tool, you'll enjoy this upgraded experience as part of your, service. And for the rest of you, I think this is a good opportunity for you to take another look at it. So I'm going to come over here and we are going to take a look at this in action.
+
+00:11:05:33 - 00:11:32:34
+不明
+Maybe. Okay. So I've chosen email analysis is the report category. And I want to create a new report showing email open and unsubscribe rates. Under data I'll just select open and unsubscribe percent along with email sent quarter. And there's our report. So we've greatly improved performance, especially with large data sets. Under visualization we've added more options.
+
+00:11:32:34 - 00:11:53:44
+不明
+You can quickly check out alternatives to find out what's best for telling your story. Also, go with this line chart. So now we support, interrelated multi-page report. So let's create a second page open and unsubscribe rates again. And by this time program channel. So move and resize and then we'll add send quarter to the drill through fields.
+
+00:11:53:49 - 00:12:13:01
+不明
+So then let's create a third page this time and a tabular format that brings in the additional detail. Then I'll add in program name. We want email sentiment in this table. And then let's sort it by email sent month in descending order.
+
+00:12:13:06 - 00:12:31:03
+不明
+So to enable interactivity between pages we can create a drill through by just dragging program channel and dropping it under the drill through. Awesome. This is another new capability. So now let's see how it works. So I'm going to go back to page one and pick a quarter to drill through.
+
+00:12:31:08 - 00:12:48:30
+不明
+To page two. And now let's see then there's our breakdown by channel for this quarter. So I'll pick a channel and drill through to page three. And we see a table with all the details including program names. So we can also easily add easily add filters. So I want to view the lead the data by lead source.
+
+00:12:48:30 - 00:13:09:43
+不明
+So I just drag lead source from data column over to the filter section and set it for pages. And now I'll filter for just one lead source and has immediately applied the filter across the pages. So I've gathered some important insight and I want to share it with my colleagues and stakeholders. So it's easier than ever because I can share the results to a spreadsheet, a PDF, or now straight to PowerPoint slides.
+
+00:13:09:48 - 00:13:35:48
+不明
+Just click just one click. And I have, what I need to turn insight into action. So that's it. So with dramatically improved performance, interactivity and visualization, the newbie analytics for Marketo engage has been a big hit for, for early adopters. And we think you're you'll like it too. And I'm going to hand it back to Stephen for data management.
+
+00:13:35:52 - 00:13:58:43
+不明
+Awesome. Thanks, John. So this is for all the Mops admins out there. These are all data, management features that we have heard from you all out there to the market nation and other channels. So I'm gonna go through real quick first pick list management. So finally, administrators can define what values actually show up in those pick lists.
+
+00:13:58:48 - 00:14:21:07
+不明
+So no more having fat finger typos or arbitrary values being sent into your CRM or any other downstream system, you'll be able to define what values actually will show up there. Global and workspace tokens. So instead of having to define your my tokens over and over again in programs, instead administrator can define them at either the workspace level or the instance level.
+
+00:14:21:07 - 00:14:49:25
+不明
+So you'll be able to just inherit them across the entire instance. Trigger tokens for all actions. So instead of the limited subset of our of activities that today are supported for trigger tokens, we will be just opening that up for all Marketo activities, natively. So for your sales alert emails and your interesting moments where you were using trigger tokens, today, you'll have the ability to reference a lot more data from your different incoming Marketo activities.
+
+00:14:49:30 - 00:15:18:42
+不明
+And another thing I know everyone has been wanting for a long time. We are enhancing the possible duplicates filter will be able to support almost every custom field, including external CRM fields if you use those for your IDs. So if you are in a situation where you make purposeful, duplicates from the email address field and you had no other way to really figure out how many duplicates do I have in my system, we will be enhancing that filter to to help you out and manage your database health better.
+
+00:15:18:46 - 00:15:42:02
+不明
+All right. Next up is data streams. So we are bringing data streams to our Marketo Engage Prime and Ultimate packages. In case you don't know Marketo has three packages select Prime and ultimate. So data streams are coming to those top two. And what data streams are is basically a big pipe full of data that is streaming at near real time.
+
+00:15:42:07 - 00:16:01:01
+不明
+And it contains both your lead activity data. So all of the changes that are happening with your leads that show up in activity logs as well as your, your user audit data. So all of the activities your users are taking in the instance to update assets, all of that data can be streamed out in near real time.
+
+00:16:01:06 - 00:16:25:32
+不明
+And that does not touch your regular API quota or your bulk API quota. So this is great both for streaming and near real time externally to trigger external workflows. Or if you want to back up your lead data without using your bulk API, call quota daily. Again, this is for Marketo engage, Ultimate and Prime customers for our ultimate customers.
+
+00:16:25:37 - 00:16:46:12
+不明
+You can reach out to your account team today and and is available now upon request for our, Prime customers. It will be available later this year. And if you're not sure which package you have, or you want to upgrade your package to get access to this, reach out to your account team and they'll be able to help you there.
+
+00:16:46:17 - 00:17:12:27
+不明
+All right. So now something that I am personally excited about is our work with journeys. So everyone working with Marketo for a long time knows smart campaigns are great. They're super powerful. They can do a lot of things, but they can get really complex and they can be really hard to follow without making like a miro board to figure out how do I what's triggering what, what's doing what.
+
+00:17:12:32 - 00:17:36:34
+不明
+So we are reimagining journeys for contacts and leads. We're going to have a fully editable, canvas that you can build out your lead journeys on for from end to end. This is great not only for being able to, you know, visualize what is actually going on with the journey that you're building, but also for new users that will take some time to spin up to figure out, you know, how do I harness the full power of smart campaigns?
+
+00:17:36:39 - 00:17:55:30
+不明
+Wouldn't it be easier if I could just learn on something that's a little more, you know, visual? We will have a beta and this will roll out, in H2 of this year. So if you're interested in applying for the beta, you can go ahead and scan the QR code and we'll have the QR code up at the end of the session during QA as well.
+
+00:17:55:35 - 00:18:16:00
+不明
+So you don't have to if you miss it now, it's fine. And again, this is another reason why you should prioritize migrating to Adobe Master users, because this will only be available to customers that have migrated over to Adobe IMS. So I am actually going to show a beta of a of our Alpha state, built in product.
+
+00:18:16:04 - 00:18:43:30
+不明
+So I'm see. All right. So I am Body Inc and start up. Oh there we go. I'm Body Inc and I'm building a journey for summit 2025. So I'm in my on person training screen. I'm going to make a brand new journey. It's my awesome training for, summit 2025 and create it. So of course, every journey begins with an audience.
+
+00:18:43:35 - 00:19:07:46
+不明
+So you can either build a new audience within the journey using Smart List filters. Or you can just choose any available smart lists, and take the audience from there. So that's what I'm going to do. Next, I want to send just a simple email. Just saying announcing, hey, summit is coming, get ready for registration, and I'm going to do a wait stop for 30 days after I send that email.
+
+00:19:07:51 - 00:19:22:30
+不明
+So after that, I'm going to actually set up some branching logic. So I'm going to do different things for different audiences. So I'm going to set up a branch. I set up some logic for this split because I have a VIP list, and I want to handle them a separate way than the rest of my leads.
+
+00:19:22:35 - 00:19:47:21
+不明
+So I'm going to pull over the member of list and reference my list of VIPs on this top path here, and I am going to send them their version of their invitation email. That's pretty flashy and all that. And I'm also going to request the Marketo Engage campaign that's already set up with some webhooks to call my vendor, that does my physical gifts to give them a bottle of champagne for my non VIP on the bottom path.
+
+00:19:47:25 - 00:20:02:22
+不明
+I'm actually going to split again because I want to do a little bit of scoring logic on the folks that engage with the summit announcement email. So for those that engage, I am going to increase their score before I move them on further.
+
+00:20:02:27 - 00:20:30:18
+不明
+And then I want to merge, those paths together. I don't want to merge in the VIP quite yet. So I'm going to, check that box. I'm working just with non VIP still, and then I'm going to send the non VIPs their version of the, invitation email. Now I'm going to merge everyone together. And I'm going to set up my event listener because I want to listen for them to fill out the registration form for summit.
+
+00:20:30:23 - 00:20:49:43
+不明
+So I'm going to go ahead and set that up and reference my summit registration form. And next I'm going to enable my timeout. The timeout is if the if no one takes an action, if the person doesn't take an action within the set amount of time, do something special with them. That's on me on that bottom path. So for those folks, they missed the summit registration deadline.
+
+00:20:49:48 - 00:21:07:07
+不明
+So I'm going to send me an email saying, sorry we missed you. Here's a link to our live stream for those. I did fill out the form. When they fill out the form, they are sent their, confirmation email. They are scored and we write an interesting moment on their records for the sales team. Now that they registered.
+
+00:21:07:12 - 00:21:32:30
+不明
+And if I zoom out here, you can see the entire visualization visualization of the journey. So it's a lot more intuitive, to be able to follow exactly what's going to happen depending on, the attributes of the, of the people that are flowing through it. And then I was able to make this entire journey, you know, in one journey asset, whereas this could take 2 or 3 smart campaigns to actually, orchestrate the entire thing.
+
+00:21:32:34 - 00:22:05:47
+不明
+So that's cool. Even cooler is we'll be bringing in an agent, our journey agent. So this will be a AI assistant to help you, track your journeys. We're going to start with a generative AI experience that will take natural language to, take your prompt and then build out fragments of a journey. And then later on, we, we get truly a generic we will be reaching a point where you can for, say, import a unstructured campaign brief, and then the whole journey will be built from end to end.
+
+00:22:05:58 - 00:22:27:51
+不明
+Now meeting all of the goals and channels that you wanted to reach, it's going to be really cool. This will be in Alpha and later this year. And again, if you want to be able to test this in the future, joining the Person Journeys beta will be a good opportunity to to, you know, get access to that when it is available.
+
+00:22:27:55 - 00:22:36:31
+不明
+Let's go take a look at a short demo of some of the concepts that we're working with right now.
+
+00:22:36:36 - 00:22:47:30
+不明
+I think it's clickers like a member of actually pointed out the laptop. That would help. Oh, I went too far.
+
+00:22:47:34 - 00:23:11:37
+不明
+Yeah. Oh, there we go. No, that's just you. All right, here we go. All right, so we're going back to that journey we've been working with. And I want to actually update it to send a reminder email to people that haven't registered yet. So I type in the prompt that I want to send a reminder email for. Anyone hasn't filled out the form, and I also want to make sure for my VIPs that their salespeople get an alert to say, hey, go chase that person down.
+
+00:23:11:42 - 00:23:29:57
+不明
+You can see that it accepted my prompt, and it actually came out with a proposed fragment for my journey to meet that use case that I gave it. And you can see with the blue sparkles, these are all of the, journey notes that the AI assistant is suggesting, based on the prompt that I gave it to meet, you know what I asked him to do?
+
+00:23:30:01 - 00:23:50:08
+不明
+So this looks all good to me. So I'm actually going to hit apply and it updates my journey. It has all the steps that I just reviewed and, and even hooked it up into the middle of my flow so that now, it will send them the reminder and then also again, wait for them to fill out the form.
+
+00:23:50:13 - 00:24:07:05
+不明
+You know, just put it right in place. So that's going to be really cool. It's going to get rid of a lot of like menial tasks that you have to do repetitive tasks where you can just say, hey, I really just want to do X, Y, and Z, and it's going to give you a fragment that meets those goals.
+
+00:24:07:10 - 00:24:20:57
+不明
+All right. I'm going to hand it back to John for content and collaboration. Thank you sir. And so let's dive into content and collaboration. So we're going to start out with.
+
+00:24:21:01 - 00:24:53:33
+不明
+Interactive webinars. So we dropped a number of new features for interactive webinars just in the last several months. And, and we're excited about what's, what's coming up as well, just to kind of cover these the things that we that are available today. So first we have, engage our engagement dashboard, which is something that allows you to see new activity data and registration data, with downloadable reports, so that you can personalize follow ups and boost conversions.
+
+00:24:53:38 - 00:25:20:57
+不明
+Next we delivered webinar tokens. So webinar tokens help you to automate and, automate details and improve personalization to streamline, webinars, set setup and promotion. And then we have Marketo Sales Insight and CRM sync. So this is a seamless integration with the CRM, that syncs webinar activity data within sales insights, and directly within the CRM to assist with sales follow up.
+
+00:25:21:01 - 00:25:47:35
+不明
+And then last we have brand customization and room management. So this allows you to personalize rooms, with brand with custom branding, entry and exit screens, video backgrounds, all while officially, efficiently managing and reusing rooms. With centralized storage for all collaterals. So all of this is available today. And there's more, I hope. There you go.
+
+00:25:47:40 - 00:26:11:55
+不明
+Because there's, we've got we've got a number of exciting enhancements that are coming in the next couple of quarters. So last year, we announced gen AI on demand webinar experiences at Summit. And we're excited to share that, all of the AI capabilities that we announced at or some of the AI capabilities that we announced at summit last year, will be available in the next few weeks.
+
+00:26:12:00 - 00:26:38:19
+不明
+So the first thing I want to talk about is a Gen I help assistant. So this is an AI powered, interface conversational interface that assists hosts with access information, on various tools and workflows in interactive webinars. So this is really helpful, for hosts because there's nothing worse than being in the middle of a live event and having to sort something out, and adding that additional stress.
+
+00:26:38:19 - 00:27:05:55
+不明
+So now you have this AI assistant in right there to help answer questions during your webinar. And so next we have AI on demand webinar experiences. So this these enhance the experience with auto generated webinar summaries, video chapters and FAQs. So this is really great for attendees of the webinar. Because we all are we all multitask, we all go to webinars and we catch about 35% of it.
+
+00:27:06:00 - 00:27:29:10
+不明
+And so at the end of the webinar, you can now summarize everything, into, into an easily, consumable format, that attendees can, can share with their colleagues. And then also they, breaking things up into chapters allows people to go back and find a specific piece of content that maybe they missed, or that they want to double down on.
+
+00:27:29:15 - 00:27:52:55
+不明
+And then, the focus, of course, just kind of summarize all of the key questions that came up during the chat. Next we have automated stimuli. So this allows you to schedule prerecorded, videos to play and stop, without host interaction. So this is again really helpful as a host. It's just one less thing that you have to think about when you're hosting a live event.
+
+00:27:52:55 - 00:28:13:08
+不明
+You can just schedule this, any videos that you've got in your session to just play and stop at as needed. And then last, which is maybe my favorite, is the blog generator. So this allows you to as, as you would imagine, take the webinar recording and it generates a blog and allows you to define brand, voice, tone and target personas, etc..
+
+00:28:13:08 - 00:28:39:45
+不明
+So even if you're not comfortable using, you know, a full, AI generated blog post, I for one, don't like to start with a blank page. I get intimidated. So if this provides you with a great opportunity to just, spit out some content that you can start with and then you can adjust it as needed and, and, and, speed up the blog generation process.
+
+00:28:39:50 - 00:29:07:05
+不明
+So for our dynamic chat customers, we've released, a few things in the last few months. First of all, is the demand based integration. So with the demand based integration, it provides sales and marketing with additional third party enrichment data to help enhance with personalization and targeting. So marketers can use this data, in automated dialogs to be able to, identify visitors and create a more personalized experience.
+
+00:29:07:10 - 00:29:26:42
+不明
+And then sales can use it to just have, access to more information on the visitors at their disposal. For both, we, for both known and unknown visitors who come to the website, which is hugely helpful because today, oftentimes when you have, unknown visitors coming to the website, we don't have a lot of information.
+
+00:29:26:47 - 00:29:56:42
+不明
+Next, we have lead profile actions. So this is, allows salespeople, to update the, lead profile directly from the agent inbox and dynamic chat. So this is really helpful when, a visitor is leave some information in the chat, that maybe didn't get placed in the form. Maybe they're updating a title or something as they're chatting, and now the agent can just go, they don't have to have access to Marketo engage.
+
+00:29:56:42 - 00:30:20:17
+不明
+They can just pull up that person's lead profile from the agent inbox, put any updates that they've, that they need to from that chat experience and drop that right in. And then last is conversation scoring. So we've had a lot of requests from customers, dynamic chat customers for this. So this just allows, both live chat agents to score conversations based on perceived value.
+
+00:30:20:22 - 00:30:47:22
+不明
+And then it also allows marketers to add, a value or a score to an automated chat based off of how much they want to score. That particular engagement when somebody lands on it. And so all of this, will be available in Marketo is attribute attribute attributes, triggers and filters for use in smart campaigns.
+
+00:30:47:27 - 00:31:13:54
+不明
+You just have to press it harder. And then we're going to jump into some email stuff. So the first thing we want to share, is image tag HTML. So I don't know about all of you, but I know when I've got something complex that I need to do, I like to start by sketching it out, or mocking it up and so if you've got, you know, a complex email that you need to put together, it's got a lot of images and text in it.
+
+00:31:13:58 - 00:31:31:37
+不明
+You got to build that template first, and that can take quite a bit of time. And so sometimes it's nice to be able to go and visualize that in something like illustrator or InDesign. You can put all your images in text and move them around pretty easily. To see what it is, to see what you want it to look like.
+
+00:31:31:48 - 00:32:00:33
+不明
+And then from there, though, you still got to go and take all of that encoded into HTML with the image to HTML capability. It gives you the opportunity, the ability to take that image that you've created in an InDesign, for instance, and upload it directly to Marketo. Engage, and it will automatically convert it to editable HTML, that you can, really quickly turn into an email that you can delivered to customers.
+
+00:32:00:37 - 00:32:20:49
+不明
+So this results in a faster, more intuitive email creation process, really speeding up that, time to send. So we're going to take a quick look at what that what it looks like in action. So I'm going to start by just kind of opening up my modal to convert my image to a template, give it a title.
+
+00:32:20:54 - 00:32:40:34
+不明
+And then we'll take a look at the image that I've got some created this again, it's just got some blocks of text and images, with a header in there. So this is the image that I'm going to upload. So I'll drag that up off of my, of my desktop. I'm going to upload it takes a moment, but to get into the system and then it'll take another few moments to convert that image.
+
+00:32:40:39 - 00:33:14:22
+不明
+And then I'm going to go ahead and refresh and open up the file, and we'll see that in just, just a matter of moments. It's taking that image that I've created and it's turned it into an editable template. So now in our new image, our email editor, you can go ahead and edit this template, take all the images that you have stored in Design Studio or assets and pull those right in, to drop those into those spots and make any adjustments to the, copy that you need, and you're off to the races.
+
+00:33:14:27 - 00:33:35:00
+不明
+And I'm going to hand it back to Steven to tell us more about the new email editor. Thanks, John. Yeah, our new email designer is here. I was here for the transition from email oh point to 2.0. That was a long time ago. So I'm glad that we are bringing things up to more standard. I hope everyone's excited for it.
+
+00:33:35:09 - 00:33:56:10
+不明
+Again, if you, do not have access to the new email designer, this is something that you need to migrate over to Adobe. I'm us. And if you have recently, migrated, it may take a couple more weeks for it to be provisioned on your instance, but that will be automated. So if you don't see it yet, it will be on its way after you migrate.
+
+00:33:56:15 - 00:34:22:07
+不明
+So the new mode designer is our new. What you see is what you get editor. And it has built in templates. So it is a much more intuitive drag and drop interface. You don't have to always wait to get budget for your designer to come in and write everything from scratch from HTML. It's a lot easier to actually design an entire email on your own using, like modular blocks that just drag in.
+
+00:34:22:11 - 00:34:44:34
+不明
+Of course it supports things like conditional content, dynamic content. You can lock down parts of the email to make sure that they don't change, between every email they sent to keep your template consistent. And we are also. Yeah, you got to point of the laptop. We are also going to have an AI system for content generation.
+
+00:34:44:34 - 00:35:12:22
+不明
+This is actually an open beta right now. It does require you to sign the beta terms. But this lets you create, email, copy and images, more iteratively through a new assistant. So this is really, really good for testing. So you can more quickly create variants of email subject lines or email body copy, based on different tones or personas, messaging strategy.
+
+00:35:12:26 - 00:35:29:55
+不明
+And it's really great for just like firing off a whole bunch of different versions of your messaging. We actually have a quote from our partner at Octave Victoria who says, I believe the ease of AI features will help promote a better testing culture. Here at Octa. This is her feedback after octa has been using it for a while now.
+
+00:35:30:00 - 00:35:46:28
+不明
+It's also, we want to point out that Adobe does not use your company data to train any AI model. So you know, rest assured that as you're using this tool, your company's data is not being used by any data model in the future.
+
+00:35:46:33 - 00:36:09:12
+不明
+Our early adopters probably do know that we are missing some functionality. So that may, you know, keep you from accomplishing every use case. So we are, doing a lot of updates to the email designer over the next couple quarters. So the use of the emails in marketing activities and any type of program, so won't just be locked down to design studio, we will have this support for AB testing.
+
+00:36:09:12 - 00:36:33:18
+不明
+Again, a great use for the AI assistant. Conditional content. So you can say, hey, I want people from America to get this messaging and people in Europe to get this messaging, more granular user permissions, including for the generic assistant, as we know, you know, you probably shouldn't open up the AI capabilities to every user. We will have explicit permissions so the administrators can actually assign that accordingly.
+
+00:36:33:23 - 00:36:53:38
+不明
+The support for brand themes and brand kits. So you can upload all of the brand safe, colors and images and all that, so that users are not just pulling things randomly off the internet. They know how to actually look and grab the assets that they are approved to use. And then of course, support for, our handlebar scripting language.
+
+00:36:53:38 - 00:37:19:22
+不明
+So this will be the scripting language that you would use for the more advanced, personalization use cases. Also really exciting if already mo templates to be compatible. So your existing IMO 2.0 templates, you don't need to redesign them from scratch. We will bring in support to be able to just open those in the new email designer, and then you'll have the features of the new email designer to just use with your existing, email templates.
+
+00:37:19:22 - 00:37:30:15
+不明
+So it's not to be afraid. I know that a lot of people who are worried about that, myself included, we got you covered.
+
+00:37:30:19 - 00:37:53:58
+不明
+All right, another cool thing a content approval workflow. So this is an in-app way for a user to say, hey, can you review my email and their manager to say, yes, your email is approved or no, your email is rejected. Go fix it. This is all within Marketo. This is all within the app. So you don't have to make like external JIRA tickets or slack messages or emails.
+
+00:37:54:03 - 00:38:04:00
+不明
+This is a full content approval workflow and it's permissions with an audit trail. It's great. I'm actually going to show a demo of it.
+
+00:38:04:04 - 00:38:24:56
+不明
+All right. So I'm back about here. And I have persona who is designing an email. And persona is going to do a approver request to his boss, say, hey, please review the email I made and, approve it for me. So you can see he sent the request. And there is this audit trail where the details of the requests are kept.
+
+00:38:25:01 - 00:38:46:37
+不明
+And Bob, his manager got a notification within the application and also sent to his email. And it's to say that persona has an email that needs to be approved. So Bob goes in to go check what persona has done. And you see, Bob can also check the audit trail and sees the same thing that persona did. And Bob refused to email and says, no, this is this is not right.
+
+00:38:46:37 - 00:39:12:29
+不明
+This isn't this. What is this image? I don't want this image here. So Bob rejects the approver requests and puts some feedback saying, hey, you need to go use a brand approved image. So for Sonic gets a notification, his email approval request was rejected. So he goes in and you can see in the audit trail the feedback that Bob left and persona goes, okay, I guess I got caught, I got to use the right image.
+
+00:39:12:34 - 00:39:32:49
+不明
+I can't just use whatever image I found on Google. Let me go in. And he goes and grabs an image from the Marketo dam. All right. And now saves that content and persona is going to send another approval request to Bob. Say, hey Bob, can you please review it again? I fix all the issues that you raised.
+
+00:39:32:54 - 00:39:55:28
+不明
+So Bob again gets a notification and says, all right, I better be right this time. You can see in the audit trail the updates and up that looks good. So now Bob approves the email. And so now the email can actually be used in smart campaigns and email programs and journeys. So now you actually have a way to have the full approval workflow within Marketo engaged itself.
+
+00:39:55:33 - 00:40:18:43
+不明
+And we're aiming to release this in Q3 of this year. And while the email designer is the first place that we're looking to implement this, we are looking, for a future where this will be for every Marketo asset. For me handed back over to John. Talk about integrations. Perfect. Thanks. So I'm really excited to announce our Am assets Live Link Connector.
+
+00:40:18:43 - 00:40:42:57
+不明
+So for those of you who are using an or considering using it, this is a really exciting addition to the content workflow in Marketo. Engage. So some of you may be familiar with the previous integration, that we did with Am that allowed you to pick, assets from a AEM inside of Marketo engage. But it resulted in a copy of the asset.
+
+00:40:42:57 - 00:41:05:58
+不明
+And so if there was a change made inside of it, m assets, you lost, the connection. And so you still had to go back and, sort of lost the ability to have that content approval and, life cycle and so now with the new Liveline connector, you can reference these assets in your emails and then eventually in your landing pages.
+
+00:41:06:03 - 00:41:40:46
+不明
+And it maintains that connection. So what this means is as a marketer, you can literally set it and forget it. So if you've got a brand image that you need to use in the header or the footer of hundreds of your emails, you can reference that image from a m assets and it will maintain that link to the image so that if someone on your content team makes a change to that image, makes an adjustment to it, one or any of the variants, then it's going to automatically propagate across every single asset that is referencing that image.
+
+00:41:40:51 - 00:42:02:10
+不明
+And you don't have as a marketer, as an OBS person, you don't have to think about that at all. So this is a huge efficiency gain. You don't have to worry about going in and swapping out images. Worry about a UN approving and approving emails and things like that. So really excited about, about this. And this is available now.
+
+00:42:02:15 - 00:42:24:01
+不明
+Next, in the same vein of content management, we have the Adobe Express, embedded experience. So I'm sure all of us have been there at some point. You've got to get an email out the door. You get an image from your content team, you pull it into the email and the template, and it doesn't fit the template that you've built.
+
+00:42:24:01 - 00:42:45:20
+不明
+It's too wide or, it's too tall. And so you need to go and make some adjustments. You pull it down, you have to go download it, open it up in Photoshop, make some adjustments, bring it back in, and then hopefully it fits. Or maybe you miss missed it by a couple of pixels and you have to do it all over again.
+
+00:42:45:25 - 00:43:06:27
+不明
+Imagine if you could just do all of those changes from right within the email editor. So you identify that this image is not quite what you were looking for. And you've got you can just make those changes. So the good news is, is that Creative Cloud is now embedded into, Marketo engages email editing experience. This is what we've all been waiting for.
+
+00:43:06:32 - 00:43:40:25
+不明
+So for those of you who aren't familiar, Adobe Express is Creative Cloud's newest quick and easy Create Anything app. So the Marketo Express UI will appear right within, the Marketo Engage email designer. And for those of you who have, if your organization has an Express enterprise license, you'll be able to leverage the full, Adobe Express capability right within Marketo, engage, including any of the AI capabilities that are baked in.
+
+00:43:40:30 - 00:44:02:13
+不明
+And, but if you don't have an enterprise license, you'll still have access to Adobe Express Quick Actions, which will allow you to do things like crop, and trim and background removal, etc., which is oftentimes what most of us are looking to do in many of these scenarios anyway, so this is a really exciting new addition.
+
+00:44:02:18 - 00:44:25:39
+不明
+And then just to kind of wrap things up, we've got a few additional email channel integrations coming, in the next couple quarters. First is the Gin Studio integration, which brings together Gin Studios AI powered content creation with, marketers best in class orchestration capability. So you heard a lot about Gin Studio, this morning at, the keynote.
+
+00:44:25:39 - 00:44:53:06
+不明
+And so we're excited to be bringing that, bringing that into Marketo engage next. We've got a number of litmus, customers, customers who use litmus today to, ensure that their content is rendering correctly across different devices, channels and segments. And so now we are bringing, that an integration directly into the Marketo Engage interface, so that you can leverage that today if you're a customer.
+
+00:44:53:11 - 00:45:10:27
+不明
+And then last, we have an integration with Spam Assassin, which is a third party tool that helps you improve email deliverability to protect brand reputation and, drive better campaign performance.
+
+00:45:10:31 - 00:45:44:55
+不明
+There you go. And like I said, I'm going to we just want to circle back to this because it's really critical, to just put a reminder, because everything that we've shown today, with a few exceptions, is all, only available to customers who have migrated to the Adobe Identity Management Service system. So in order to unlock all of these exciting features and functionality that you've seen, it's imperative that you, get started with this migration.
+
+00:45:45:00 - 00:46:03:03
+不明
+It's, fairly straightforward, just to assuage any concerns. It can it can take a few days, maybe a week. Once you've kicked off the process again, it will depend on the number of users. In your in your org, if you have a lot of users then that may it may take a few more days. But it's fairly straightforward.
+
+00:46:03:03 - 00:46:24:43
+不明
+All you need to do is just reach out to your account representative or a support representative. And they can get that process started for you. And, we will also have resources at the Marketo Engage booth, in the pavilion, as well as some subject matter experts who will be able to give you some additional information on that.
+
+00:46:24:43 - 00:46:45:52
+不明
+So just want to encourage everybody to send that email or get on the phone, today and get that process started. And then I'm going to hand it back to Steven to bring us home. Thanks, John. And just to add on to what John said, just to give you an anecdote, I went through the migration process with Adobe Marketing.
+
+00:46:45:57 - 00:47:10:46
+不明
+And our decision to do the migration to completion of migration was less than two weeks. So Adobe has done it for our Marketo instance. It was relatively quick and painless. All right. So we've gone over a lot today. We look at data and insights. So new ways to both manage and visualize your data of both your leads and your users, and your systems.
+
+00:47:10:51 - 00:47:43:01
+不明
+We've gone over journeys. So the reimagined journeys for leads and contacts, the, agent, the journey agent, as well as all the enhancements to, interactive webinars, including the AI functionality. And we've gone over content in collaboration with the new email designer, with its AI assistant, our content approval workflow, and all of the exciting new integrations with the, a different Adobe, creative, suites.
+
+00:47:43:06 - 00:48:04:01
+不明
+So obviously this was a lot. And not every person here will use all this functionality. Maybe your business isn't use specific parts of the product yet, or maybe you're not quite yet at that maturity. But we're sure that everyone here has seen at least one thing that they will be looking forward to using throughout the rest of the year.
+
+00:48:04:06 - 00:48:23:15
+不明
+And if you're not quite at that point, just know that that functionality is there waiting for you and you can start, nudging your business that way to adopt all these new things that we showed off today. And last but not least, we hope that, you know, we showed in this session that we are listening to your feedback.
+
+00:48:23:15 - 00:48:41:56
+不明
+We do take it to heart. It does help drive our roadmap. And we are really looking forward to, you know, what we're going to release in 2025 on what we release moving forward. Do continue to share all that feedback across your various channels. And you know, our hearts are Adobe right now, but we are still bleeding purple.
+

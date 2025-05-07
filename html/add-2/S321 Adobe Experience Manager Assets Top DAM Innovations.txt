@@ -1,0 +1,592 @@
+00:00:00:21 - 00:00:27:20
+不明
+All right. As people are getting settled in, I want you to tell me. Raise your hand if you had a cup of coffee this morning. All right. Now, keep your hand raised. If you had a great cup of coffee this morning. Okay, not. Not so much. Right. All right, well, we're at Top Dam Innovations, and it's all around a coffee theme here.
+
+00:00:27:25 - 00:01:00:49
+不明
+My name is Shelley Chang, and I'm an Am assets and product strategy and product marketing. And I'll have approval to introduce herself. Hey everyone here. I'm part of the product team for Am assets and Dynamic Media. All right. So we have our coffee theme in mind. And you know where I'm getting at with this. So did you know that coffee is the third most consumed beverage in the world besides water and tea?
+
+00:01:00:53 - 00:01:37:26
+不明
+And let's talk a little bit about how coffee makes its way into a cup. So farming coffee is actually a very delicate and long process. So it all starts out as a fruit, as a coffee cherry. And you can have a lot of things like temperature, the soil. And then it comes into harvesting those cherries. And sometimes when you're harvesting cherries you use machinery that actually grabs some of these unripe cherries that impact the quality of that coffee.
+
+00:01:37:31 - 00:02:12:02
+不明
+Now, there are very dedicated and passionate farmers that actually pick these cherries one by one. So that has that quality in mind. And then it goes into having the fruit go into a bean and then into a roaster. So roasting coffee is actually a very, delicate process as well. It's highlighting the subtle flavor notes that are, matched to the consumer's experience.
+
+00:02:12:03 - 00:02:45:13
+不明
+So anywhere from like light roast or dark roast or hazelnut roast. Right. And these days, coffee has a strong supply chain that actually grabs quality coffee that's tailored to a consumer's taste. And just like coffee, content is also a very delicate and long process. So think of navigating that content. You see these days you probably have tons and tons of content.
+
+00:02:45:17 - 00:03:20:23
+不明
+There's tools to actually generate lots and lots of content. But is that content properly approved? Does it have the right governance in place? Has it been brand approved? Right. Is it personalized? Is it getting you that ROI? And these are some of the factors that come into play. So that's why we've been seeing around 21 to 30 days of that content actually being acceptable to use for downstream teams, right.
+
+00:03:20:25 - 00:03:47:32
+不明
+You can generate tons and tons of content, but only a small percentage of that actually gets used. So what we're trying to do here is we're trying to help you reimagine Dam, where Dam is your trusted creative partner. And at the end of the session, will you will know is how you can have confidence that your content is trusted.
+
+00:03:47:41 - 00:04:24:36
+不明
+It's been through the brand approvals. It's it's been through the governance and play and then being able to optimize that content towards the intent of what you're trying to do and even towards the content of your customers, and then activating at scale, activating that quality content at scale. So at the end of the day, you're going to have a strong content supply chain that gives you quality content and not just automated quality content that's trusted, intent based and scalable.
+
+00:04:24:41 - 00:05:00:18
+不明
+So those are the three themes here at Top Dam Innovations. So let me start off with the first theme. The first theme is around trust. So when we talk about trust, trust is about having the right information in place that grabs the accurate information of your content. So does it have the right brand approval? Does it have the right, does it have the right governance in place so that more and more teams would be able to use that content?
+
+00:05:00:23 - 00:05:29:51
+不明
+Now, the secret sauce of this is actually metadata. Metadata is the DNA of your asset. So what it does is it's able to help you with workflows. It's able to help you with search. It's able to help you with the insights. It's able to help you to get the right content to the right person. And in order to have the right metadata in place and enrich that metadata, you can do a couple things here.
+
+00:05:29:56 - 00:06:00:14
+不明
+You can use tools. There are tools out there that helps automate these tags. And you can see here it automates like coffee or coffee bean or roast or even the color. But it's pretty generic. Is it matching to your brand? Is it matching towards your campaign or your skew down to that level of granularity? Right. So if you're not capturing the right things, you can have something in lowercase and it's not even matching to your brand standards.
+
+00:06:00:19 - 00:06:22:49
+不明
+And then brands are also multifaceted. So you can have one brand and have several brands underneath. And tags and metadata can mean one thing to one group to another. So an example is that you might have something like royal blue or navy blue. They can mean two different things like two different sports team or in this case with coffee caffeinated or decaffeinated.
+
+00:06:23:04 - 00:06:50:10
+不明
+And you better hope you're capturing the right metadata because I like caffeinated coffee. Okay. So it's really important to capture the accuracy of your brand. And I've done this many times. I put in metadata and it takes me about ten minutes to put in like title and description and then think about doing thousands and thousands of this. By that time your campaign is launched.
+
+00:06:50:14 - 00:07:17:53
+不明
+So it's so important to be able to have automation in place, to be able to capture the metadata that's towards your brand and towards your brand standards. Right. It captures the efficacy of your brand. So this is all done with gen AI and LMS. And approver here is going to show you how you can embody trust in your content.
+
+00:07:17:58 - 00:07:42:41
+不明
+So approve I take it away. Thank you Shelly. So let's talk about periscope our brand. It's a global, well established brand. And now the CMO and the CEO have taken a decision to launch in newer markets in Europe. They have tasked their global marketing team as well as the global creative team, to help out the regional European team in this process of promotional campaign.
+
+00:07:42:46 - 00:08:04:34
+不明
+As you were saying, the first step in all of this, as in all your content is getting distributed into wider markets, is all of the right metadata with the right brand taxonomy on it. Let's get into your match and let me show you how we can really establish all of this. With the help of AI.
+
+00:08:04:38 - 00:08:23:08
+不明
+Right. So this is my Am Assets Cloud Services instance. I'm sure it's similar with most of you. So I have all of my assets over here and the global marketing team, in my AEM assets repository. And as a first step, let me just launch and go into the product details page. And what do you see here?
+
+00:08:23:13 - 00:08:51:03
+不明
+Right. If you go into the basic tab you already see the title, the description, as well as a very custom taxonomy metadata on content type, which is the product silo image. I'm sure you're wondering, did someone manually type this or all of this is automated? It's the latter, right? So this is this martech enhancement, all based on natural language prompts with the help of generative AI.
+
+00:08:51:14 - 00:09:19:02
+不明
+We can enrich the right metadata, not just your basic metadata, but very quickly. You will see also all of your custom metadata around product right to the level of product SKU, to the brand, to the product type, which could be a whole being for this particular product imagery. Right. And it's multi value field. That's the power of generative AI and how it can help you speed up your enrichment of metadata right from ten minutes to a few seconds.
+
+00:09:19:02 - 00:09:44:43
+不明
+Right. And all of this happens at ingestion time. It's a one time set up of your natural language prompts. After that, every asset in your an asset instance is going to have smart tag enhancements in it, right. And let's quickly look at the tags. I'm sure all of you have seen the various smart tags that have existed for the past many years, but look at the tags that the new version has enriched, right?
+
+00:09:44:43 - 00:10:05:23
+不明
+It's really, really granular. If you see the image has 12 pounds, three 40g and all of that, all of the OCR metadata has also been now captured in smart. That's right. It's all over here. Now you can see. So it's really at your fingertips. No need to worry. How do I start distributing my assets to various regional teams.
+
+00:10:05:23 - 00:10:34:43
+不明
+That's all available with assets cloud services. So this is the first enhancement that we want to get to you on the metadata from ten minutes to a few seconds, any number of assets in your Em assets instance. Right. Now let's move on to the next thing where the global creative team has been tasked by the marketing to help out create the brand compliant banners so that you have the base banner ready to share with your regional creative teams.
+
+00:10:34:47 - 00:10:59:23
+不明
+How do they use all of the brand of the content in their service of choice? So as a global creative team, this office of choice is Figma, right? And now we are introducing native integration of Amazon's cloud services with Figma Enterprise. It's very simple. If you can see if I head into the plugins, just go into development and you'll create assets for Figma.
+
+00:10:59:23 - 00:11:20:02
+不明
+It's all native right. And you will see the familiar asset selector kind of pop up. It will show you all of your assets and your collections that you have created in your assets. Cloud services instance. The creative does not need to now download and upload and get access to those assets. It's all natively available seamlessly within Figma Enterprise.
+
+00:11:20:07 - 00:11:44:52
+不明
+So if you remember some of the metadata was around, it will always be color of the product image. Let me quickly just search for that asset. Right. So very quickly, like few seconds, possibly milliseconds, I was able to find the asset that I want to use in this. Create a banner. Just go ahead, select that right. Go ahead, resize it, put that into your banner and very quickly and easily.
+
+00:11:44:52 - 00:12:05:04
+不明
+Now you have you know, own brand approved content in your creative banner, which you can then just go ahead. It's not just one directional right. It's a bi directional sync that's happening over here. So you can go ahead and even upload it from the same AEM asset, select a widget, select your file location and give it a name.
+
+00:12:05:04 - 00:12:28:43
+不明
+And then you will see it right back in your assets cloud services instance. So it's really becoming seamless now. So this is the second enhancement. So great task number two done by the global creative team. Now let me go back and show you some of the other trust and governance innovations that we are launching. I've heard this quite a bit in the last few customer meetings I've been having in the last couple of days.
+
+00:12:28:47 - 00:12:49:14
+不明
+One of the big friction point for all of you, I'm sure, is we have a lot of duplicate assets. How can actually cloud services help me uncover and find all of those duplicate assets so that I really know which are the ones I want to use and really simplify the life of my regional teams. Right? Because they really don't know which are the right words to use.
+
+00:12:49:19 - 00:13:15:53
+不明
+We have now launched the new Duplicate Assets panel that you can see on the left hand side over here. Right. If I just go ahead and click on that, it's going to give me a report. Right. And it could be really long. I kind of maintain a bit of, you know, governance in the assets. And since it's not a lot of, you know, duplicates, but if you see the orange dots, that's signifying that that particular asset actually has duplicates in your assets instance.
+
+00:13:16:06 - 00:13:37:06
+不明
+So this is like a quick view that you can get of all of your duplicate assets. So this one has three duplicates. If you want to go into the details page find more about it. But before we head into that so what are the different duplicates right. If you really let me just zoom in. Right. So if you see look at the first two assets, it's the absolute same dimension.
+
+00:13:37:06 - 00:14:03:50
+不明
+It's the same size, same file name. It's just that they're located at different folder locations. So that's the first kind of duplicate assets that we can help detect and uncover for all of you. The second kind, if you look at the third and fourth line item, those are the different variations, right? It's actually a lower res file of the original that has different names and different folders, but we know it's part of the original asset and it's actually a duplicate.
+
+00:14:03:50 - 00:14:31:46
+不明
+So we can also help you find those assets as well. So let me go back. Let me actually click on one of it. Go to the details from that single panel. And even now on the asset detail page, if I zoom in in the right hand side you can see this new duplicate assets panel. You can, from your details page, get easy quick access to all of the duplicates that are there, and you can even view the duplicates in their respective location and folder path, right?
+
+00:14:31:46 - 00:14:57:14
+不明
+So for example, I want to see the thumbnail. And if I see yes, this is absolutely similar looking, it's just that it's the thumbnail version of the original that said. So how simple is it now to quickly uncover your duplicate assets, take actions right all within your single surface of assets cloud services. So life is getting super simplified for all of you with these innovations.
+
+00:14:57:19 - 00:15:25:34
+不明
+Now let's move on to the next, innovation. Right, which is around brand control. That is really important. So let me head into my give an asset. This, by the way, is another badge where you can from your card view, also find out any of your duplicate assets. Let me head to this particular page. And now the new innovation is around the whole brand validation score.
+
+00:15:25:38 - 00:15:44:01
+不明
+You want all of your assets to be on brand based on these centralized guidelines that you have for, you know, for a super right. The regional brand team shouldn't be struggling to know whether it's on brand, is it not on brand. And very quickly in this panel, as you can see, this asset has got a score of 83.
+
+00:15:44:05 - 00:16:22:22
+不明
+Now why is right which is the guideline that it is not meeting. So if you see it says that the background is cluttered and it has, you know, full visibility for the main object, where are all of these guidelines coming from? I'm sure you're wondering. Right. So this is coming from these centralized in studio brands. So if I just head into the brands from, you know, experience that I do become, you can see for super and you can see these various image guidelines that have been centrally created, single source of truth for your guidelines that is getting, propagated into assets, cloud services as well, so that all of your content is always on
+
+00:16:22:22 - 00:16:42:20
+不明
+brand. Right? That's the promise that we are assuring you. And if you kind of go down, and see the last restriction is should not include cluttered or busy backgrounds. And that was the one that was detected for that particular asset and hence and got a score of 83. So that's great score of 83. I'm sure we all love our hundreds.
+
+00:16:42:25 - 00:17:08:53
+不明
+How do I make this 83 now 100. So let me just go back, select this asset and head into Adobe Express integration right from within assets cloud services. Maybe a quick show of hands. How many of you have actually used the express integration within assets cloud services? I see one tool. Not a lot. It's super cool. By the way, I think you all need to try it out.
+
+00:17:08:58 - 00:17:25:48
+不明
+And this use case that I'm going to show you from 83 to 100, I will show you all kind of face those situations and challenges. Let's see how we can score 100 with Adobe Express. Right. So let me remove the background because it's too cluttered. That's the first step I'm going to do.
+
+00:17:25:53 - 00:17:41:53
+不明
+Let me generate a new media, the new background for this, imagery.
+
+00:17:41:58 - 00:17:50:11
+不明
+Great. And let me just go ahead and click on generate.
+
+00:17:50:16 - 00:18:10:28
+不明
+And how many of you in general have tried express forget within assets. Still not a lot. Okay, cool. So I think, let me go ahead and take this particular asset. Let me just resize that.
+
+00:18:10:33 - 00:18:38:05
+不明
+Let me make that in the background. And let's place with me an object in the center. Now it's looking good. It's not looking very cluttered. It's matching my Europe local and the peaceful, you know, scenery in Europe. Let me go ahead and actually save this. And now we are going to introduce the next innovation, which is how can you have governed centralized campaign metadata as well.
+
+00:18:38:20 - 00:19:05:49
+不明
+Right. So let me find and give it a new name. Find the destination folder. And it's really simple right. You just realizing how the seamless native integration is helping me do a lot of things in my service of choice. Right. So let me select landscape because now it's in the landscape. And if you look at the campaign metadata, it already has all of my pre-approved campaign metadata value coming in.
+
+00:19:05:49 - 00:19:32:52
+不明
+Right. So if I'm translating creating an express and I want to definitely enrich that with metadata, this is going to ensure there are no typos, no spelling mistakes. You're only using the metadata that has been allowed by your organization and nothing beyond that. So tight control, a lot of trust, lot of governance. Irrespective of which surface you are, we will ensure you that all of your assets as well as your metadata is always on brand and high governance.
+
+00:19:32:52 - 00:19:54:32
+不明
+So let me go ahead and say Europe launch. I'm going to select that particular, you know, metadata. The channel is going to be web. And similarly even the channel metadata is coming from the Central Dance studio, campaign. Let me select that. And the region is MBM, which is already selected, and let me go ahead and save this asset.
+
+00:19:54:37 - 00:20:17:23
+不明
+I hope I saved it and it didn't miss that yet. So it is coming over here. You can see it has, you know, the new this was the asset that I just created. And Adobe Express, and it's going to take a few seconds for us to complete processing. And I'm again going to show you all of the beautiful previous innovation, which is your smart tag enhancement.
+
+00:20:17:23 - 00:20:36:27
+不明
+I'm sure you may still be wondering that it could have been manually generated. It's not getting generated by generative AI. We are going to see this is a new asset that I created in Adobe Express. And even that is going to have all of these smart tag enhancements that I showed you. So let me quickly go into the asset detail page.
+
+00:20:36:32 - 00:21:02:23
+不明
+Right. And I hope it's visible. Right. The basic metadata. Visit your title, the description as well as the content type. It's a lifestyle photography. It's identified the location is outdoors, right. All of this without you having to do any manual type to create your assets anywhere. Ensure you always get the right metadata which is on brand automatically in few seconds.
+
+00:21:02:23 - 00:21:24:32
+不明
+Not even a few seconds milliseconds. Right? And now the asset is processed. Let's go into my campaign metadata. If you remember why I express ahead and create certain assets. So metadata. So already all of that has come pre-filled into my assets. Cloud services surface. So you can see it's your launch web channel Emir. Right. How simple is this?
+
+00:21:24:37 - 00:21:55:44
+不明
+Let me just go ahead and save the metadata. And if you remember, we were doing this to get a score of 100, right. So let's see whether we move from eight, three, 200. Now in the brand validation score. Fingers crossed. This is why folks all live all life. Yes, yes. So we are at a 100 score, right? Because we have met the brand guideline which was decluttering.
+
+00:21:55:44 - 00:22:27:04
+不明
+It's a nice peaceful mountain background, right. Similar to here in Vegas. And how simple. Watch this in a few seconds without being an expert on the creative side, we are really empowering all of you, all of you experience makers to do these things all by yourself in this singular service, which is a Am assets, right? Great. Now we have seen, you know, this innovation, the final innovation in the trust and governance is around content authenticity.
+
+00:22:27:08 - 00:22:50:44
+不明
+I'm sure in the if you remember, last year summit, we introduced the whole content authenticity metadata that we are going to get into AEM assets. We have now taken that a notch further. Right. We are going to introduce invisible watermark already embedded in your assets as well as their assets variations, so that you can quickly and easily identify the lineage of any variations.
+
+00:22:50:45 - 00:23:10:04
+不明
+You can know what the source of that particular variation. Right. So as a first step, I'm not going to do all the steps, but you need to ingest your asset in the source folder. There will be a workflow that gets triggered which results in all of your watermarked assets. Right. And if you see all of them now have the content credential badge on the instead.
+
+00:23:10:04 - 00:23:33:14
+不明
+So let me just go ahead, click that. And we can see that this was generated by AI using Adobe Experience Manager. Let me just go ahead and inspect it. Right. So all the content credentials in place in your assets, cloud social services, so that you really know that you're working with trusted content and whether it's generated, created, brand new, all of that information is available to you.
+
+00:23:33:19 - 00:23:59:34
+不明
+So let me now quickly go ahead. Take a variation of this from one of these static renditions, which is your web rendition. Let's go ahead and download that. Let me give it a name. Web. Save it. And I don't know if you're familiar with this particular website content credentials.org, but this is a place where Adobe has ensured you can get your asset to asset variations and really see the lineage and the content authenticity.
+
+00:23:59:34 - 00:24:30:18
+不明
+Right? So let me go ahead and select that particular web rendition. And now right in front of our eyes we can see the lineage. Right. So we can see this is the variation. And this was the source file. You can see the mention that it's watermarked, that it's got an invisible watermark applied to it. And very seamlessly you are now confident that any content that you're sharing from your global teams to your regional teams, have the right metadata.
+
+00:24:30:23 - 00:24:56:56
+不明
+They are matching all of your brand guidelines. There are no duplicates in your instances. You are empowering your creative team to work from their service of choice to create beautiful looking banners with own brand approved content and then finally ability to see all of the content lineage, all with the help of Google assets. So these are the bunch of innovation that we have launched, with assets on trust and governance.
+
+00:24:57:01 - 00:25:23:44
+不明
+And let me know. All right. You saw a bunch of stuff, really, really exciting stuff. Smart tag enhancements, the Figma integration. You saw the duplicate detection, the brand score. That was really cool, right? The campaign metadata and then the content credentials, you can see the lineage and then visible watermark. So that's how you're able to build trust in your content.
+
+00:25:23:49 - 00:25:55:44
+不明
+Now let's go to the second theme here around intent based. Intent based is tailoring to the individual's needs and interest okay. So keep that in mind. And let's talk a little bit about search. How can you be able to search so that it understands your intent okay. Well there's a method of doing this. One method is automating tags.
+
+00:25:55:49 - 00:26:19:11
+不明
+And you can automate a lot of these tags. But then you're going to have to search by keyword. Right. And it's a little bit you know, people don't naturally search like that. They search by an idea or they search by, you know, they have a vision. And sometimes, you know, when I'm searching, I have misspellings, I have fat fingers.
+
+00:26:19:11 - 00:26:47:56
+不明
+I mean, I'm misspelling all the time, or some people are bilingual and they have, different languages, right? Intermixed together. So what if there's a way to actually be intent based with your search, right. It goes beyond tags. It goes beyond keywords. It goes beyond language, even. So, think about searching something and then it returns the perfect assets that you need.
+
+00:26:48:01 - 00:27:16:50
+不明
+So hold that thought about being intent based with discoverability of your assets. Now let's talk about intent based for your customers. How can you personalize to the individual level? You can create content for each individual person, but that's almost impossible. And what if there's a way to actually automate all of this? So it's personalized to the individual level.
+
+00:27:16:55 - 00:27:44:47
+不明
+It's personalized to different segments. So for example, Shelly, you are a rewards member. You get double points, approver you're a new member, you get a free coffee, you can go down to that level 1 to 1 personalization at scale. So keep that in mind because approver is going to show you how you can be more intent based with your content.
+
+00:27:44:52 - 00:28:12:53
+不明
+Thank Shelly. Cool. Now next bunch of you know really exciting innovations around intent. So all this while and we kind of see the search queries that, you know, you put it into a message. It's very deterministic. And determinism does not really lead to a lot of creativity and inspiration. Right. Because you have no idea what are the various assets that are lying in your repository that could be well suited for your campaign?
+
+00:28:13:08 - 00:28:31:53
+不明
+You know your intent, but you really do not know where they lie in your ATM assets. Right? So let me actually go ahead. Type a natural language prompt and still be in that, you know, the typical way of finding assets. If, for example, I want to find all of my approved PNGs created in the last month for enjoying coffee with friends, right.
+
+00:28:31:53 - 00:28:57:59
+不明
+So let me put in that search prompt. I'm using the usual mechanism of search. What do I get? No results found. That's not a great experience. I'll be saying that. As for a scope of brand established globally, we don't have images of friends enjoying coffee. Not necessarily. And now we are introducing and launching intent based discovery of content with AI search with semantic search.
+
+00:28:57:59 - 00:29:22:41
+不明
+Right. So let me just switch to toggle into semantic search and voila! You have now discovered all of the rich assets in your AEM assets instance that has friends enjoying coffee. It really was not zero. You didn't really need to generate anything because they were actually already there, beautifully sitting in your assets instance and now discoverable as well.
+
+00:29:22:45 - 00:29:52:51
+不明
+Did you also notice something new? We are also now suggesting filters automatically based on your natural language prompt, right? So if you remember, BigQuery was approved, PNG is created in the last month. It has identified the metadata against that. It's the asset status as approved the creation date of 30 days. It's converted that into my duration. The file format, any custom metadata which is my image location, any other keywords or the smart tags.
+
+00:29:52:56 - 00:30:12:48
+不明
+And I can just go ahead, click and, you know, ensure that it's more easy for me to get further inspired with the right content. Now this is great. I don't know how many people have observed I actually did a typo while typing the search prompt, so if you see coffee, it has an extra e, but that does not matter.
+
+00:30:12:48 - 00:30:38:59
+不明
+Just go ahead. Now make typos as long as you have the right intent, we will serve the right content, right? Let's do something additional. Let's try synonyms right instead of friends. Now, let me give something as enjoying coffee with buddies. Right? Buddies is a synonym. Let's go ahead. And even with the synonym, any synonym. Right.
+
+00:30:38:59 - 00:31:04:56
+不明
+It has surfaced the same set of approved content right in front of you. Right? So make typos, type any synonyms. We will ensure that your intent always matches with the right content in M6. Now this is great. I hope you remember the main reason is to launch in Europe, right? Which has a lot of regional languages. The users want to search in their native language.
+
+00:31:04:56 - 00:31:26:29
+不明
+How can we make that possible? All this while, it was not that easy. In a Am assets, you had the your language back. You had smart translation like it required a lot of setup. Very tedious. Now the best way to do it now we are bringing that natively to you. Right. So let me just go ahead and put that same English prompt now in Italian.
+
+00:31:26:29 - 00:31:45:08
+不明
+So let me just zoom in. You can see this is the Italian from. Correct. Let me just type that. And I'm going to end up getting the same set of assets. Now how spectacular is that. Right. I didn't have to do any additional set up. It's all then natively available in Assets cloud services. I'm sure you're wondering this is great.
+
+00:31:45:21 - 00:32:07:21
+不明
+What about metadata? My users want to see even metadata translated, not just Google search prompts. Let me just quickly go ahead, change my preference. From English to Italian.
+
+00:32:07:26 - 00:32:36:57
+不明
+Right. And go ahead. Beyond semantic type, the same. You know, the Italian search prompt. And it's going to give me the same set of assets. Yes. But the next beauty is really if you head into your asset details page, if you see the metadata as well. Right. The basic metadata, which is your title and the description is also now translated pretty much on the fly.
+
+00:32:37:02 - 00:32:54:39
+不明
+Right? I didn't have to do anything else. And I'm being really true over here. There was no other set of required for this. And you see a magic wand. What does that do? So if you're really inquisitive is doing the right translation. We actually make it transparent. You can switch and see the English metadata. You can switch it back and see the Italian metadata.
+
+00:32:54:44 - 00:33:20:00
+不明
+Right. So really simplifying the life for all of your digital users on m assets irrespective of their location. With the right intent you can find and discover the right content. So let me just switch back my preference to English for the rest of the devil.
+
+00:33:20:05 - 00:33:41:34
+不明
+Grid I hope you remember the second stage of intent is, as Shelly mentioned, personalized one is the one targeted content, right? This is now possible with the help of dynamic media templates. Some of you may have already used it. We launched it in January of this year, but let's quickly see how can the regional marketing team as well.
+
+00:33:41:34 - 00:34:04:33
+不明
+You don't really need to be a creative expert in this. Re use the global banner. If you remember that I created in Figma to make that a banner, right? So I'll go ahead and do my necessary folder of offers. Create the template. Let me just give it any name.
+
+00:34:04:38 - 00:34:18:09
+不明
+And just quick show of hands. Has anyone tried DM templates yet? Okay, I see one person I like you already.
+
+00:34:18:14 - 00:34:41:08
+不明
+Some of you may have tried this even yesterday. If you are part of the assets lab, you could have. You would have experienced those hands on as well. So now I have, you know, this blank canvas not looking great. Let me quickly go into, you know, our asset selector. It's really seamless to really get access to all of your assets quickly search and discover that banner that was created in Figma.
+
+00:34:41:12 - 00:35:02:11
+不明
+Drag and drop that into my canvas. Let me just quickly resize it. Right. So this is looking great, but it has a lot of blank boxes. I want to, you know, personalize it further. How do I do that. Let me just go ahead and add a quick text layer. Right. And let me go down.
+
+00:35:02:16 - 00:35:25:22
+不明
+By now let me change the color of it. Right. I'm actually becoming a creative person. I'm not at all creative. So it's just so simple for even someone as mature as me to create creative banners. Let me just go ahead and bold it. Life. Change the font size to 80. Looking good. The placement is not great.
+
+00:35:25:22 - 00:35:48:24
+不明
+Let me get that into my CTA right now. Like I said, it's a CTA. It's a call to action. Needs to be clickable, right? How do I do that? It's very simple. Let me maybe scroll a bit if you can see that there is now a new ad CTA in the Dynamic Media Template editor. You may not have seen this before, but you know, this is now, available for early access.
+
+00:35:48:24 - 00:36:21:48
+不明
+Just go ahead. Click on the add CTA. It's very simple. You know, this is the particular page that I want as the landing for this given banner. Just go ahead, put that URL. You can even, you know, open that in a browser to see if that's the right URL. It has suitable. That's about it. Right. Let me just go ahead and add another text layer as well.
+
+00:36:21:53 - 00:36:27:18
+不明
+Quickly change the color of that.
+
+00:36:27:23 - 00:36:40:01
+不明
+Let me pull the.
+
+00:36:40:06 - 00:36:58:32
+不明
+And you can now see there are also these nice pink grid lines to help me align very seamlessly within the template editor. This is looking great, but it still is going to help me put slides. Not yet. Right. So let me actually go ahead into that given text layer. If you can see, let me zoom in a bit.
+
+00:36:58:36 - 00:37:22:17
+不明
+These are all the different parameters. And this is the USP of that media template editor on how you can actually template ties and personalize a given static composite imagery. Right. And you can do it to any granular level. I'm going to just show you one basic version, but if you can see the x y coordinate, the width and height, you can choose to hide unhide layers all on the fly.
+
+00:37:22:22 - 00:37:40:08
+不明
+And if media it's always on the fly, right. It's there's no static variations happening over here. So let me just include this parameter. Give it a name, call CTA. And that's about it. As simple as that. Let me go to this layer that I had created. I didn't do any other switching. Let me give it a name as well.
+
+00:37:40:08 - 00:38:10:20
+不明
+Promo client. And that's it. Save this banner. And you have very quickly converted a static banner into millions of variations of the same banner on the fly. Let me go to my preview playground effect. It may include all of the parameters. I hope it's visible. So let me now change maybe by to sip, right? And if you will see, it's automatically going to refresh.
+
+00:38:10:20 - 00:38:31:02
+不明
+And if you see the CTA over here that now has it, it's as simple. It's on the fly. You don't need to be a creative genius to do this. Even as a layman like me level as me. You can do this all by yourself, right? In your festive season, a lot of competition around you, you want to quickly change, you know, some of the discounts you're giving to your customers.
+
+00:38:31:17 - 00:38:48:59
+不明
+You don't want to have that to and fro with your studio team. You want to do this all by yourself instead of 30. Say, you know, I'm feeling very generous. I want to make it 50% discount. Let me just go ahead. And that banner now shows 50% and Standard Media. It's all about URL. So you can just go ahead, copy that URL.
+
+00:38:49:04 - 00:39:13:26
+不明
+You know, plug that into any experience. That could be Adobe DCS applications. It could be third party marketing applications. And if you see you know, that URL is going to render that beautiful slice created banner right for you. So so the next thing, the final thing that I want to show is around the CTA. If you remember, that's what I had added into this layered file.
+
+00:39:13:31 - 00:39:36:06
+不明
+Let me just go into the asset detail page. You will see the copy options where you can see the copy embed code. Just go ahead and click that right. And I have already embedded that into my ideas page for fresco. But this is that banner. And remember the CTA is clickable. If I click on that voila it goes into the landing page.
+
+00:39:36:06 - 00:40:05:20
+不明
+Right? So how simple was it for me to really create this personalized banner which is on brand because it was the starting point, was the global creative battle right. The final thing on intent and personalization is really all about videos. Videos is highly engaging in nature. But remember, we are launching in Europe a lot of legal languages and even more important for accessibility that you know, your videos are for everyone in the audience, right?
+
+00:40:05:25 - 00:40:27:55
+不明
+So with the help now of dynamic media AI transcription out of the box, you can do all of this. All by yourself. No additional dollars required. You just need a dynamic media license. Go into the properties page. You will see this captions and audio track in the top over there. Right? You can not just your caption files, you can also upload additional audio tracks as well.
+
+00:40:27:55 - 00:40:55:12
+不明
+Right? So for example I have a descriptive audio. I'll just go ahead, add it. It gets added as a sub asset into my given video file for creating AI transcription. Just click on Convert Audio Tracks. We support 60 plus languages out of the box. Select your you know the base audio. Select the different languages like French and you can get multiple languages in the same, space.
+
+00:40:55:17 - 00:41:15:51
+不明
+Let me say Swedish. And my favorite Italian, right. And let me click. Done. It's as simple as this. Nothing else required. You don't need to work with agencies. I've been hearing this a lot in the last 24 hours. We work with the agencies. Where are you spending a lot, right. It's high time that we empower the experience makers to do this all by yourself.
+
+00:41:15:51 - 00:41:40:17
+不明
+Just go ahead, click on Save and Close. Given it's a video file, it's going to take some time to process. I already have a video asset, that has all of the various beautiful language captions and the descriptive audio. Let me just go ahead and play this if you can see on the bottom right. So this is the various, speakers that you have for the audio and the subtitle.
+
+00:41:40:22 - 00:42:09:24
+不明
+Let me quickly play this woman flip sign from close to open for fresco for cafe. Welcome to for Scopa, where every cup of coffee tells a story. Our journey begins with a passion for excellence and a commitment to sustainability. We believe so. It's very simple, right? It's really at your fingertips from a single surface. You're going to hear me say this 100 times, but we are really, you know, in India we call the double Indian government.
+
+00:42:09:24 - 00:42:37:24
+不明
+For me now am access is your double engine time. That is really helping you do a lot more things from that singular surface, right? Yep. So that was, you know, our final thing on intent. Yeah. You saw the AI search with the suggested filters. You saw the metadata with auto translations. We're doing a lot with translation here. Templates, the dynamic media templates and the audio captions.
+
+00:42:37:24 - 00:43:01:08
+不明
+And oh, by the way, approval. We have long form as well. Yes. Yeah. We're supporting long form video, which has been the talk of the town. Right? Yes. All right. Let's go to our final theme here, activation at scale. So when we talk about scale, you can scale by producing thousands and thousands and thousands of assets.
+
+00:43:01:22 - 00:43:22:03
+不明
+But it's meaningless at the end of the day if you're not going to use it. And sometimes people don't use it because it's not matching to their brand guidelines. It's not compliant. You're downstream. Users don't know the legal laws. They don't know, if it's been rights managed right, they trust that that's the content that they use for their downstream activities.
+
+00:43:22:08 - 00:43:50:26
+不明
+So, you know, really think about how content that gets used more often for more teams. That's when you get the most out of your content. And let's talk about how this can be done. All right. So it really starts with discoverability of assets. Your creatives, your marketers, your resellers, your agencies. They have their all their ways of having assets everywhere.
+
+00:43:50:30 - 00:44:14:43
+不明
+Share drives Dropbox there I say desktops right. What that and you know it's it's hard to find it. It's hard to find those assets. So what if you had a work in progress asset that you did maybe two quarters ago and you thought, oh, you know what, this would be perfect for my campaign. But I don't know where it is.
+
+00:44:14:56 - 00:44:36:14
+不明
+So you start asking people, you start emailing people. You're spending all this time because you don't know the file name, you don't know the metadata. But what if there's a way to surface up that asset regardless of where it lives, it will live under the rock and we will find it right? And once you find that content, you can take action into it in the dam.
+
+00:44:36:26 - 00:44:58:51
+不明
+You can enrich that content. So keep that in mind in terms of how you can find content that's out of the dam. And then think about how content can be meant for you. So for example, I'm a French marketer and I just want to see French content. I don't have to sift through all this other content to find it.
+
+00:44:58:51 - 00:45:22:29
+不明
+It isn't meant for me and only me. And then let's kick it up a notch. Let's talk about how assets can be surfaced up within the application that you're in. You're in a web page. You're in an email. You're able to search. You saw that I search right? Search. By your intent, it'll surface up that content. And not just any content.
+
+00:45:22:36 - 00:45:50:27
+不明
+It will recommend content for you because in the back end we have an AI agent recommending that content for you. So that is your content advisor that helps you scale within the applications that you're in. So there's no uploading downloading it, there's no testing. It's all surfaced up to you. So with that in mind, I will hand it over to approver to show you how to activate at scale.
+
+00:45:50:32 - 00:46:20:21
+不明
+Thank you. Shelly, I'm sure this is also a familiar UI. This is Content Hub that was announced in last year's summit. I'm going to show you a bunch of very brand new fresh off the oven innovations. Right. So the first thing, is if I go into my configurations and if you see a basic rules that stands for attribute based access control, you can now really go to that granular level of metadata to determine which user group is seeing what set of assets.
+
+00:46:20:21 - 00:46:43:17
+不明
+It's based on simple rules that you can see. Say, for example, the regional marketer should only see those assets that has the metadata of region as email. The in-store marketing team should see only those assets that have the metadata channel as display, right? It's really simple. You can even have complex rules across multiple metadata with a very simple surface to configure all of them.
+
+00:46:43:22 - 00:47:03:55
+不明
+Now let's see all of this in action right? I'm showing you some rules. Does it really work? Let me go into my incognito mode I'm already if you see logged logged in as the regional user. And I'm not seeing all of those 200 plus assets, I'm seeing very specific Taurean assets just meant for the regional team. Right.
+
+00:47:03:55 - 00:47:15:38
+不明
+And you can also have like the logo file which everyone needs to see. Let me quickly sign out and sign back in as the in-store person.
+
+00:47:15:42 - 00:47:23:49
+不明
+
+
+00:47:23:54 - 00:47:46:24
+不明
+And you're going to see the same interface. But the user group is different. They are going to see different assets, which is meant for their role. Right. It's not the same regional scenic view of the coffee. It's really the in-store cafe pictures that they can use. But also like I said, any common files like your logo can be across your different, groups as well.
+
+00:47:46:24 - 00:48:08:43
+不明
+So it's really simple. Now it's no longer just, you know, ACLs or permissions based on metadata. You can really determine the right asset that needs to be seen by the right set of users. Let me now go into the next innovation along us from all of you. How can I really brand the Content Hub landing page with my branded items and content?
+
+00:48:08:43 - 00:48:30:06
+不明
+Right? It's really simple. Now let me, for example, take this experience instead of the title, instead of say delightful. I want say Flavorsome, right? It's as simple. Just put in the text, click on save, and seamlessly in a few milliseconds you know the title of your content. How page changes. It's not just that you can change any of your images.
+
+00:48:30:06 - 00:48:51:03
+不明
+Well, let me select the familiar assets selector opens up. I like this particular banner. Let me just go ahead. Select save and you will see that this banner gets updated. Similarly you can update your logo files. You can change the color of your actions. Say for example the primary color here is pink. Let me make that maybe green.
+
+00:48:51:08 - 00:49:09:07
+不明
+Click on save and if you now see the primary is green and the secondary is a different version of the green. So it's really simple. In the singular configuration page you can go ahead, have all of your branded content. You can see it has now the new banner, the new logo. It has the different primary and secondary color.
+
+00:49:09:12 - 00:49:33:29
+不明
+The third innovation and content hubs especially useful for our beloved customers of dynamic media. You can actually now very quickly get access to all of your dynamic media renditions right from within Content Hub, right? So just go ahead into the details page, into your download. You can see your static renditions, your dynamic media presets, as well as your dynamic media smart crop.
+
+00:49:33:33 - 00:49:58:24
+不明
+Let me just go ahead and quickly show you these signage smart globe looking beautiful. You can go ahead and copy the URL. So that's the bottom for that as well as if you desire you can download it as well. So let me maybe quickly paste that URL and you can see you now have from Content Hub all of the different beautiful dynamic media renditions that you can use across your channels right?
+
+00:49:58:29 - 00:50:24:21
+不明
+Lovely. Good. So let's move on to the next set of innovation. Which if you remember, we have all of those brand SmartTag enhancements. They are also now visible from your content hub surface as your custom filters as well. So there was coffee blend roast level. All of the metadata seamlessly flows into Content Hub, and you can set them up as your custom filters.
+
+00:50:24:26 - 00:50:54:35
+不明
+Now let's see some of the assets that are going to get expired pretty soon. Right. So these are the four assets I want to request a license extension for one of them. Let me just quickly go into the details page. You can now see this new custom extensibility that we are launching in Content Hub. So that any of your basic workflows or actions that is very specific to your organization, with the help of extension points, you can build that all by yourself in Content Hub.
+
+00:50:54:35 - 00:51:19:44
+不明
+So in this example, I'm requesting for an extension which will end up creating a task on Adobe work front. So I'll just give a, you know, quick request. To whom you want to assign that task to and just click submit right. It's very simple. From that simplified panel, give all of your details and the task is going to get created and work.
+
+00:51:19:44 - 00:51:50:00
+不明
+Create. Let me switch to my Adobe will current and let me just quickly refresh this page. And if you can see in the bottom most, let me maybe scroll. Yeah. If you see this, that's the latest task that was just now created. It's all live demos from Content Hub into Adobe Work. Right. So it's very simple now to really navigate across teams from that singular surface.
+
+00:51:50:05 - 00:52:16:31
+不明
+Great. Now I'm sure you all remember that beautiful coffee banner that we had created. And you can get all of that personalized banner right from within your content hub surface as well. So let me just quickly find that banner. This was the banner that I had created. I want to get, you know, the different personalized variants of that within this surface that I can share, get a print out, put it on my store, you know, put it on my web channels.
+
+00:52:16:31 - 00:52:37:32
+不明
+All that is possible with this new playground. Very familiar template editor playground now also available in Content Hub. You can choose any of the parameters to change any of the values, right? As usual, by make that simple and just go ahead and download that. And that's really going to show you, you know, that particular asset. You can see it now has SIP.
+
+00:52:37:36 - 00:53:01:29
+不明
+Let's go ahead take a print out. Use it in any of your offline or even online channels as well. Things are really getting simplified right. No more burden of different surfaces, singular surface, different, you know, functionalities. The final thing, if you remember the second theme, which was really about intent. Now that's also possible within Content Hub, but with the moment on it.
+
+00:53:01:29 - 00:53:20:22
+不明
+Right. So let me actually now find, you know, a cafe serving coffee. I'll start with the exact match. And you'll see it's just going to show me two assets. That's not about right. So let me go to my intent driven match. Let me put that same search prompt again.
+
+00:53:20:27 - 00:53:47:14
+不明
+And you can see it was not just those two assets, but there are multiple other, you know, assets that are now visible. Right. And the other thing, the new innovation over here is it's not just searching in your AEM repository. You can also discover your assets from Dropbox. So if you see the familiar Dropbox icon, these assets and content all coming from Dropbox, you can go ahead into the details page.
+
+00:53:47:14 - 00:54:09:27
+不明
+And also get the link to your Dropbox file. Right. So we are launching a lot of unified search, across different providers so that your surface is same, which is M assets, but you can have your content in multiple places. So this was all of the innovation that we have on Content Hub. Hopefully it really means, you know, all of the requirements that we have been hearing for the last one.
+
+00:54:09:27 - 00:54:39:28
+不明
+Now. Now let me move on to the next set of, you know, innovation, which is on the ego integration. Right? So on Edu, we now have native integration with dynamic media. You can just go ahead and I'm just going to show you one example. Let me just go ahead. Go into my, you know, the edit HTML, find the asset, open the familiar asset selector, natively now available in your Edu instance.
+
+00:54:39:28 - 00:54:49:55
+不明
+Find the live media template. I'm going to use a different one. This one. Let me go ahead and select that.
+
+00:54:50:00 - 00:55:08:18
+不明
+Great. So this is now there but it's showing happy offer approval. This is an email. It needs to be personalized. How do I do that on a rasterized image. It's all possible because this is a dynamic media template right. So let me just go back in.
+
+00:55:08:23 - 00:55:32:56
+不明
+And where you see observer just go ahead and replace that with your profile attributes, which is coming from, you know, a you put that as the first name parameter. Save that. Let me now simulate content right. It needs to be personalized. I have already set up couple of user profiles in Edu. And if you see now the email does not say a boudoir it says happy hour for John.
+
+00:55:33:01 - 00:56:10:34
+不明
+Right. And similarly if I switch to Alice it's going to say happy hour for Alice. Very simple to now get or send out personalized emails with the help of that media integration. Right from within your radio surface. Right? Let's now show the next, and my personal favorite innovation, which is the content advisor. I'm sure all of you are wondering all this while I've just been talking about images, maybe videos, but I'm sure a lot of you use content fragments and you want to have like a singular place where you can find not just exact match, but by intent.
+
+00:56:10:47 - 00:56:34:36
+不明
+Not just your assets, but also your content fragments. This is now possible with the content advisor, right? And if you see it is already pre-populated with natural language, it is, you know, intent first to discover your content, which is your assets as well as if you see it has, you know, the content fragments and you can see the dominant color profile of different assets.
+
+00:56:34:36 - 00:57:02:42
+不明
+Now, if I go into details, you can also see all of your dynamic renditions from this panel. This selector advisor can be integrated into any Adobe application, into any third party application. It's very seamless. Now for your content authors to get access to different variations from that single advisor, right. So the familiar smart crops, just go ahead and select that.
+
+00:57:02:46 - 00:57:25:19
+不明
+Right. So let me just click this one. See the rendition I like the banner. Let me just go ahead and select that. Right. So the next thing that I want to show is it's not just based on natural language text prompt. Right. Even in that you need to really know what's the right prompt. You need to be a prompt engineer.
+
+00:57:25:24 - 00:57:51:48
+不明
+We don't just do that now. It's also possible for you to discover your content from your campaign brief, right? So just go ahead, browse your file. Go into this particular PDF, which is my campaign brief. Just click on start and it's going to help you discover content in a new way. And yes, yes. So versus the phase.
+
+00:57:51:48 - 00:58:17:41
+不明
+Right. So with that campaign I was now able to discover my assets, my content fragments. I'm sure you're wondering why chewing with the set of images. Let me quickly show you this particular campaign brief. Right. The target audience is urban professionals, coffee enthusiast millennials. So it's very nicely identified. What is my audience? And help me discover the content which is familiar for that set of target audience.
+
+00:58:17:41 - 00:58:42:13
+不明
+Right. And you can then just go ahead and select that given asset and place that into any of your experiences and create beautiful, intent based, winning experiences. So that is about, you know, content advisor. And this is, you know, activation at scale. All right. You saw a lot you saw Content Hub, one of my favorites. You saw the renditions, you saw the search.
+
+00:58:42:15 - 00:59:13:26
+不明
+You saw seeing like assets that you never been able to find before, like Dropbox. Right. Integration with Agile content advisor. Amazing stuff. Okay. We have one more minute, but if you want to see one more demo, say damn. Damn. Okay, I'll take it away. Here. Thanks, Shelly. Great. I love to see that energy. And in the final minute, I'm sure you would have seen this announcement of experience manager Sites Optimizer.
+
+00:59:13:31 - 00:59:41:52
+不明
+And as part of that, the most important metadata in your web experiences or needs to have all text, right? If you do not have all text your content, your experiences will not be SEO compliant. It will not be accessible now right from within the sites optimizer surface, you can just quickly find all of your assets that do not have the necessary all text, and not just that, it will also, I generate the right set of all text for you.
+
+00:59:41:57 - 01:00:08:25
+不明
+As you can see over here, all of this has been generated and recommended by AI. You can even go ahead and edit that given, you know, all text, and then very seamlessly deploy that into any of your sites experiences. It could be on delivery, it could be on, you know, component based crosswalk anything. Right. So with the help of Site Optimizer, you're creating winning experiences with the right content, metadata.
+
+01:00:08:30 - 01:00:31:24
+不明
+So this was, you know, the final demo that we wanted to show optimizer. How do you like what you see here? There's a QR code if you're interested in that early access program for any of these innovation. We hope that you enjoyed the show. Top Dam innovations. Thank you everyone. Thank you.
+

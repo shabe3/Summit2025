@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S302 Adobe Commerce Rockstar Showcase</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 16px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #0f3c78;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+        }
+        
+        h2 {
+            color: #0f3c78;
+            font-size: 1.4rem;
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 8px;
+            margin-top: 32px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 24px;
+        }
+        
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .summary {
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .underline {
+            border-bottom: 2px solid #0f3c78;
+            padding-bottom: 2px;
+        }
+        
+        .important {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 24px 0;
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #0f3c78;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .faq-container {
+            margin-top: 16px;
+        }
+        
+        .faq-item {
+            margin-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            padding: 10px;
+            position: relative;
+            font-weight: bold;
+        }
+        
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+        
+        .faq-answer {
+            padding: 0 10px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 0 0 5px 5px;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Adobe Commerce Rockstar Showcase 2024</h1>
+        
+        <div class="section">
+            <div class="summary">
+                Adobe Commerceの開発者コミュニティから選ばれた3名のファイナリストが、革新的な技術ソリューションを発表するイベント。Rockstarプログラムは技術革新を表彰するための取り組みで、今回で3年目を迎えた。
+            </div>
+            
+            <h3>イベント概要</h3>
+            <ul>
+                <li>目的: 開発者コミュニティからの技術革新を表彰し、ピアラーニングの場を提供</li>
+                <li>審査員: Chandra Donny（シニアディレクター）、Dean Bursik（Wescoのディレクター）、Nicole Cornelissen（Adobe CommerceのVP）</li>
+                <li>応募分野: バックオフィス統合、データ駆動型パーソナライゼーション、ショッパーエクスペリエンスなど</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. Rockstarプログラムとは何ですか？</div>
+                    <div class="faq-answer">開発者コミュニティからの技術革新を認識するためにAdobeが3年前に始めたプログラムです。パートナーや顧客からの開発者が応募し、優れたイノベーションが表彰されます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのような基準で選考されますか？</div>
+                    <div class="faq-answer">技術的革新性、実用性、Adobe Commerceとの統合度などが評価されます。審査員には、Adobe社内の専門家だけでなく、実際の顧客も含まれています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. イベントの目的は何ですか？</div>
+                    <div class="faq-answer">開発者コミュニティのイノベーションを紹介し、表彰すると同時に、参加者同士のピアラーニング（同業者間の学習）の機会を提供することです。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>ファイナリスト1: Yaroslav（Atomics）</h2>
+            <div class="summary">
+                「Best in Class Store Performance」をテーマに、SEOとモダンなウェブフロントエンドの両立に関する課題を解決する「Quantum」システムを発表。
+            </div>
+            
+            <h3>発表のポイント</h3>
+            <ul>
+                <li>問題提起: モダンなSPA（Single Page Application）はパフォーマンスは優れているが、検索エンジンのクローラーが内容を正しく認識できないことがある</li>
+                <li>解決策: <span class="highlight">Quantum</span>というシステムを開発し、SSR（Server Side Rendering）とCSR（Client Side Rendering）を組み合わせて最適化</li>
+                <li>効果: 検索エンジンのクローラーやJavaScriptをサポートしていないブラウザでもコンテンツが表示されるようになり、空白ページの発生率が15%から6%に減少</li>
+                <li>追加機能: キャッシュウォーマーソリューションも提供し、定期的にウェブサイトを訪問してSSRコンテンツを生成しキャッシュに保存</li>
+            </ul>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. SSRとCSRの違いは何ですか？</div>
+                    <div class="faq-answer">SSR（Server Side Rendering）はサーバー側でHTMLを生成し完成したものをクライアントに送る方式で、CSR（Client Side Rendering）はクライアント側のブラウザでJavaScriptを実行してHTMLを生成する方式です。Quantumはこの両方のメリットを組み合わせています。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. なぜSPAはSEOに問題があるのですか？</div>
+                    <div class="faq-answer">SPAはJavaScriptに依存しており、検索エンジンのクローラーやJavaScriptをサポートしていない古いブラウザでは内容が表示されないことがあります。これによりコンテンツのインデックス作成が正しく行われないリスクがあります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. キャッシュウォーマーとは何ですか？</div>
+                    <div class="faq-answer">ウェブサイトを定期的に訪問し、SSRコンテンツを事前に生成してキャッシュに保存するシステムです。これにより、実際のユーザーがアクセスした際にはすでにキャッシュされたコンテンツが提供され、パフォーマンスが向上します。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>ファイナリスト2: Florian（Tech Division）</h2>
+            <div class="summary">
+                Adobe Commerce Integration Starter Kitを活用してわずか3日でSAP S/4 HANAとAdobe Commerceを接続するコネクターを開発。APIファーストのアプローチとサーバーレスアーキテクチャにより高速な実装を実現。
+            </div>
+            
+            <h3>発表のポイント</h3>
+            <ul>
+                <li>課題: 複雑な2つのプラットフォーム（Adobe CommerceとSAP S/4 HANA）間のデータ同期の難しさ</li>
+                <li>ソリューション: <span class="highlight">Adobe Commerce Integration Starter Kit</span>と<span class="underline">Adobe Developer App Builder</span>を活用</li>
+                <li>特徴: サーバーレスアーキテクチャ、APIファーストアプローチ、リアルタイムデータ同期</li>
+                <li>実装期間: たった<span class="highlight">3日間</span>で製品・顧客データの同期、注文処理などの基本機能を実装</li>
+                <li>事例: Deutz Engine社（世界規模のB2B企業）での導入成功を紹介</li>
+            </ul>
+            
+            <div class="important">
+                コネクターは一般公開されており、Adobe Exchangeからダウンロード可能
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. SAPとの連携でどのような課題がありますか？</div>
+                    <div class="faq-answer">データエクスポートの遅さ、プロセスの不透明性、データ変換の難しさなどが課題です。これらは収益損失、意思決定の質低下、予算問題などのビジネス上の問題につながります。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. Integration Starter Kitの利点は何ですか？</div>
+                    <div class="faq-answer">サーバーレスアーキテクチャを採用しており、インフラ管理が不要で開発に集中できます。APIファーストのアプローチで第三者システムとの連携が容易になり、開発期間を大幅に短縮できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. どのようなデータが同期されますか？</div>
+                    <div class="faq-answer">製品データ、顧客プロファイル、注文データ、カスタム価格などが双方向で同期されます。ウェブフックを使用することで、B2B取引などでリアルタイムなデータアクセスも可能です。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. SAP S/4 HANAとは何ですか？</div>
+                    <div class="faq-answer">SAPの最新世代のERPシステムで、財務、自動車、製造、ヘルスケアなどの分野で広く使用されています。2027年末までに従来のSAP R/3からの移行が必要とされています。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>ファイナリスト3: Uri（Nomi Core）- 優勝者</h2>
+            <div class="summary">
+                「AI Shopping Companion」を発表。顧客の真の意図を理解し、関連商品をまとめて提案することで、オンラインショッピングをより効率的にするAIアシスタント。
+            </div>
+            
+            <h3>発表のポイント</h3>
+            <ul>
+                <li>問題提起: 通常のショッピング体験では、顧客の真の目的や意図が理解されず、関連商品が提案されない</li>
+                <li>解決策: <span class="highlight">AI Shopping Companion</span>が顧客の意図を理解し、関連製品をまとめて提案</li>
+                <li>特徴: 
+                    <ul>
+                        <li>意図認識: キーワードだけでなく、顧客の真の目的を理解</li>
+                        <li>コンテキスト明確化: 顧客の目的をより理解するために積極的に質問</li>
+                        <li>カテゴリ横断: 複数のカテゴリから関連商品を提案</li>
+                    </ul>
+                </li>
+                <li>メリット: 顧客の隠れたニーズの発見、在庫のない商品の特定、トレンドの早期把握など</li>
+            </ul>
+            
+            <div class="important">
+                このプレゼンテーションが審査員の投票によって優勝
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Q. AI Shopping Companionはどのように顧客の意図を理解しますか？</div>
+                    <div class="faq-answer">検索クエリを分析し、背後にある真の目的を推測します。例えば「ハイキングに行く」という検索に対して、天候や目的地などを追加で質問し、より適切な商品を提案します。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. 従来の推薦システムとどう違いますか？</div>
+                    <div class="faq-answer">従来の「他の人も購入したもの」のような推薦とは異なり、顧客が解決しようとしている問題や目的に焦点を当てています。例えば「バックパック」だけでなく、学校用品一式など関連する全てのアイテムを提案します。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. ECサイトにとってのビジネス的なメリットは何ですか？</div>
+                    <div class="faq-answer">隠れた顧客需要の発見、商品ラインナップの改善、トレンドの早期把握などがあります。また、顧客満足度の向上や、単価アップ、リピート率の向上などのメリットも期待できます。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Q. このソリューションはすでに導入事例がありますか？</div>
+                    <div class="faq-answer">発表時点ではケーススタディを始める段階であり、実際の導入効果についてのデータはまだ収集中とのことでした。</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>重要用語解説</h2>
+            <table>
+                <tr>
+                    <th>用語</th>
+                    <th>説明</th>
+                </tr>
+                <tr>
+                    <td>Adobe Commerce Rockstar</td>
+                    <td>Adobe Commerceの開発者コミュニティから技術革新を表彰するプログラム</td>
+                </tr>
+                <tr>
+                    <td>SSR (Server Side Rendering)</td>
+                    <td>サーバー側でHTMLを生成し、完成したものをクライアントに送る方式</td>
+                </tr>
+                <tr>
+                    <td>CSR (Client Side Rendering)</td>
+                    <td>クライアント側のブラウザでJavaScriptを実行してHTMLを生成する方式</td>
+                </tr>
+                <tr>
+                    <td>EDS / Franklin</td>
+                    <td>Adobe Commerceのモダンなストアフロント実装</td>
+                </tr>
+                <tr>
+                    <td>SAP S/4 HANA</td>
+                    <td>SAPの最新世代のERPシステム、2027年末までに移行が必要</td>
+                </tr>
+                <tr>
+                    <td>Integration Starter Kit</td>
+                    <td>Adobe Developer App Builderで動作する、統合を簡単にするためのツールキット</td>
+                </tr>
+                <tr>
+                    <td>AI Shopping Companion</td>
+                    <td>顧客の真の意図を理解し、関連商品をまとめて提案するAIアシスタント</td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            Adobe Summit 2024 - S302 Adobe Commerce Rockstar Showcase
+        </footer>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                question.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all FAQs
+                    faqItems.forEach(faq => {
+                        faq.classList.remove('active');
+                    });
+                    
+                    // If the clicked FAQ wasn't active, open it
+                    if (!isActive) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
